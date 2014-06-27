@@ -218,6 +218,24 @@ $hogar_nro = array(
 				'class' => 'form-control',
 			);
 
+$nombre_jefe_hogar = array(
+				'id' => 'nombre_jefe_hogar',
+				'name' => 'nombre_jefe_hogar',
+				'class' => 'form-control',
+			);
+
+$esta_vivienda = array(
+				'id' => 'esta_vivienda',
+				'name' => 'esta_vivienda',
+				'class' => 'form-control',
+			);
+
+$ubicacion_vivienda_principal = array(
+				'id' => 'ubicacion_vivienda_principal',
+				'name' => 'ubicacion_vivienda_principal',
+				'class' => 'form-control',
+			);
+
 
 ?>
 
@@ -265,6 +283,18 @@ $hogar_nro = array(
 		<td> Cuanto hogares ocupan la vivienda? </td>
 		<td colspan="6"> <?php echo form_input($cuantos_hogares); ?> </td>
 		<td> <?php echo form_input($hogar_nro); ?> </td>
+	</tr>
+	<tr>
+		<td> 14. Nombres y Apellidos del Jefe del Hogar </td>
+		<td colspan="8"> <?php echo form_input($nombre_jefe_hogar); ?> </td>
+	</tr>
+	<tr>
+		<td colspan="4"> 15. Esta vivienda es: </td>
+		<td colspan="4"> 16. En que departamento, provincia, distrito y cc.pp. esta ubicada su vivienda principal? </td>
+	</tr>
+	<tr>
+		<td colspan="4"> <?php echo form_input($esta_vivienda); ?> </td>
+		<td colspan="4"> <?php echo form_input($ubicacion_vivienda_principal); ?> </td>
 	</tr>
 
 </table>
