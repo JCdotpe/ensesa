@@ -128,13 +128,32 @@ $hogares = array(
 	
 </table>
 
+
+
+<?php
+$nombre = array(
+'id' => 'nombre',
+'name' => 'nombre',
+'class' => 'form-control',
+);
+
+?>
+
 <table class="table table-bordered">
 	<tr>
-		<th colspan="2"> C. Datos del Informante</th>
-		
-			
-		</th>
+		<th colspan="2"> C. Datos del Informante </th>
 	</tr>
+	<tr>
+	<td> 7. Nombre y Apellidos del Jefe de la Comunidad </td>	
+	<td> <?php echo form_input($nombre); ?></td>
+
+	</tr>	
 </table>
 
 
+<table class="table table-bordered">
+	<tr>
+		<th colspan="2"> D. Entrevista y Supervision </th>
+	</tr>
+	<tr>
+	<td> VISITA </td>	
