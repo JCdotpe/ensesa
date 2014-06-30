@@ -153,49 +153,209 @@ $nombre = array(
 
 <?php
 
-$fecha = array(
-'id' => 'fecha',
-'name' => 'fecha',
+$fecha_Encues1 = array(
+'id' => 'fecha_Encues1',
+'name' => 'fecha_Encues1',
+'class' => 'form-control',
+);
+
+
+$hora_Encues11 = array(
+'id' => 'hora_Encues11',
+'name' => 'hora_Encues11',
+'class' => 'form-control',
+);
+
+
+$hora_Encues12 = array(
+'id' => 'hora_Encues12',
+'name' => 'hora_Encues12',
+'class' => 'form-control',
+);
+
+
+$prox_Visita_fech1 = array(
+'id' => 'prox_Visita_fech1',
+'name' => 'prox_Visita_fech1',
+'class' => 'form-control',
+);
+
+$prox_Visita_hor1= array(
+'id' => 'prox_Visita_hor1',
+'name' => 'prox_Visita_hor1',
+'class' => 'form-control',
+);
+
+$prox_Visita_fech2 = array(
+'id' => 'prox_Visita_fech2',
+'name' => 'prox_Visita_fech2',
+'class' => 'form-control',
+);
+
+$prox_Visita_hor2 = array(
+'id' => 'prox_Visita_hor2',
+'name' => 'prox_Visita_hor2',
+'class' => 'form-control',
+);
+
+$resul_Visita11 = array(
+'id' => 'resul_Visita11',
+'name' => 'resul_Visita11',
+'class' => 'form-control',
+);
+
+$fecha_Equipo1=array(
+'id' => 'fecha_Equipo1',
+'name' => 'fecha_Equipo1',
+'class' => 'form-control'
+);
+
+
+$fecha_Equipo2=array(
+'id' => 'fecha_Equipo2',
+'name' => 'fecha_Equipo2',
+'class' => 'form-control'
+);
+
+$resul_Visita11 = array(
+'id' => 'resul_Visita11',
+'name' => 'resul_Visita11',
+'class' => 'form-control',
+);
+
+$hora_Equipo11 = array(
+'id' => 'hora_Equipo11',
+'name' => 'hora_Equipo11',
+'class' => 'form-control',
+);
+
+$hora_Equipo12 = array(
+'id' => 'hora_Equipo12',
+'name' => 'hora_Equipo12',
+'class' => 'form-control',
+);
+
+$resul_Visita12 = array(
+'id' => 'resul_Visita12',
+'name' => 'resul_Visita12',
+'class' => 'form-control',
+);
+
+$fecha_Encues2 = array(
+'id' => 'fecha_Encues2',
+'name' => 'fecha_Encues2',
+'class' => 'form-control',
+);
+
+$hora_Encues21 = array(
+'id' => 'hora_Encues21',
+'name' => 'hora_Encues21',
+'class' => 'form-control',
+);
+
+
+$hora_Encues22 = array(
+'id' => 'hora_Encues22',
+'name' => 'hora_Encues22',
+'class' => 'form-control',
+);
+
+$resul_Visita21 = array(
+'id' => 'resul_Visita21',
+'name' => 'resul_Visita21',
+'class' => 'form-control',
+);
+
+
+$resul_Visita22 = array(
+'id' => 'resul_Visita22',
+'name' => 'resul_Visita22',
+'class' => 'form-control',
+);
+$hora_Equipo21 = array(
+'id' => 'hora_Equipo21',
+'name' => 'hora_Equipo21',
+'class' => 'form-control',
+);
+
+$hora_Equipo22 = array(
+'id' => 'hora_Equipo22',
+'name' => 'hora_Equipo22',
 'class' => 'form-control',
 );
 
 ?>
 
+
+
 <table class="table table-bordered">
 	<tr>
-		<th colspan="2"> D. Entrevista y Supervision </th>
+		<th colspan="10"> D. Entrevista y Supervision </th>
 	</tr>
 	<tr>
 	<th rowspan="3"> VISITA </th>
-	<th colspan="4"> Encuestador(a) </th>
-	<th colspan="3"> Jefe de Equipo </th>	
+	<th colspan="6"><center> Encuestador(a) </center></th>
+	<th colspan="4"><center> Jefe de Equipo </center></th>	
 	</tr>
 
 
 	<tr>
-	<td> Fecha </td>
-	<td> Hora </td>
-	<td> Proxima Visita </td>
-	<td> Resultado de la Visita (*) </td>
-	<td> Fecha </td>
-	<td colspan="2"> Hora </td>
-	<td> Resultado de la Visita (*) </td>
+	<td rowspan="2" ><center> Fecha </center></td>
+	<td colspan="2"><center> Hora </center></td>
+	<td colspan="2"><center> Proxima Visita </center></td>
+	<td rowspan="2" > Resultado de la Visita (*) </td>
+	<td rowspan="2"><center> Fecha </center></td>
+	<td colspan="2"><center> Hora </center></td>
+	<td rowspan="2"> Resultado de la Visita (*) </td>
 	</tr>	
 
+    
+     <tr>
+     <td> De </td>
+     <td> A </td>
+     <td> Fecha </td>
+     <td> Hora </td>
+     <td> De </td>
+     <td> A </td>
+     </tr>
 
-    <tr>
-    <th> PRIMERA </th>
-    <td> De </td>
-    <td> A </td>
-    <td> De </td>
-    <td> A </td>
-    </tr>
+     <tr>
+     <th> Primera </th>
+     <td> <?php echo form_input($fecha_Encues1);?> </td>
+     <td> <?php echo form_input($hora_Encues11);?> </td>
+     <td> <?php echo form_input($hora_Encues12);?> </td>
+     <td> <?php echo form_input($prox_Visita_fech1);?> </td>
+     <td> <?php echo form_input($prox_Visita_hor1);?> </td>
+     <td> <?php echo form_input($resul_Visita11);?> </td>
+     <td> <?php echo form_input($fecha_Equipo1);?> </td>
+     <td> <?php echo form_input($hora_Equipo11);?> </td>
+     <td> <?php echo form_input($hora_Equipo12);?> </td>
+     <td> <?php echo form_input($resul_Visita12);?> </td>
+ 	 </tr>
+    
+     <tr>
+     <th> Segunda </th>
+     <td> <?php echo form_input($fecha_Encues2);?> </td>
+     <td> <?php echo form_input($hora_Encues21);?> </td>
+     <td> <?php echo form_input($hora_Encues22);?> </td>
+     <td> <?php echo form_input($prox_Visita_fech2);?> </td>
+     <td> <?php echo form_input($prox_Visita_hor2);?> </td>
+     <td> <?php echo form_input($resul_Visita21);?> </td>
+     <td> <?php echo form_input($fecha_Equipo2);?> </td>
+     <td> <?php echo form_input($hora_Equipo21);?> </td>
+     <td> <?php echo form_input($hora_Equipo22);?> </td>
+     <td> <?php echo form_input($resul_Visita22);?> </td>
+     </tr>
+
+</table>
+
+<table class="table table-bordered">
+	  <th> Resultado Final de  la Encuesta </th>	
 
 
 
-    <tr>
-    <td> <?php echo form_input($fecha);?> </td>
-    </tr>
+
+
 
 
 </table>
