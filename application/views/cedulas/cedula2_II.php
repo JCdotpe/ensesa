@@ -64,7 +64,7 @@ $actividad_economica = array(
 <table class="table table-bordered">
 <tr>
 	<tr>
-		<th colspan="4"><center> 600. ACTIVIDADES ECONÓMICAS QUE SE DESARROLLAN EN LA COMUNIDAD<center></th>
+		<th colspan="4"><center> 600. ACTIVIDADES ECONÓMICAS QUE SE DESARROLLAN EN LA COMUNIDAD 111111<center></th>
 	</tr>
 </tr>
 </table>
