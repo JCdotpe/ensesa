@@ -11,8 +11,20 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#">Dashboard</a>
+					<li class="glass dropdown">
+						<a id="nav-dashboard" href="" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-user"></i>
+							Dashboard
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="<?php echo base_url('index.php/auth/users_list') ?>"> Users List</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('index.php/auth/create_user') ?>"> Create User</a>
+							</li>
+						</ul>
 					</li>
 					<li>
 						<a href="#">Settings</a>
@@ -24,10 +36,18 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php 
+							<li>
+								<a href="<?php 
 										$user = $this->ion_auth->user()->row();
-										echo base_url('index.php/auth/edit_user/'.$user->id); ?>"><i class="fa fa-gear"></i> Editar Perfil</a></li>
-							<li><a href="<?php echo base_url('index.php/auth/change_password'); ?>"><i class="fa fa-key"></i> Cambiar contraseña</a></li>
+										echo base_url('index.php/auth/edit_user/'.$user->id); ?>">
+										<i class="fa fa-gear"></i> Editar Perfil
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('index.php/auth/change_password'); ?>">
+									<i class="fa fa-key"></i> Cambiar contraseña
+								</a>
+							</li>
 						</ul>
 					</li>
 					<li>

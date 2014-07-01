@@ -725,6 +725,22 @@ class Auth extends CI_Controller {
 		$this->_render_page('auth/edit_group', $this->data);
 	}
 
+	function users_list()
+	{
+		$this->data['title'] = 'Users List';
+		//set the flash data error message if there is one
+		$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
+
+		//list the users
+		$this->data['users'] = $this->ion_auth->users()->result();
+		foreach ($this->data['users'] as $k => $user)
+		{
+			$this->data['users'][$k]->groups = $this->ion_auth->get_users_groups($user->id)->result();
+		}
+
+		$this->_render_page('auth/index', $this->data);
+	}
+
 
 	function _get_csrf_nonce()
 	{
@@ -756,6 +772,7 @@ class Auth extends CI_Controller {
 		$this->viewdata = (empty($data)) ? $this->data: $data;
 
 		$this->viewdata['main_content'] = $view;
+		$this->viewdata['nav'] = null;
 
 		if ($view == 'auth/login') 
 		{

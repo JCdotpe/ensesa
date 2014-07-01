@@ -1,9 +1,9 @@
-<h1><?php echo lang('index_heading');?></h1>
+<!-- <h1><?php #echo lang('index_heading');?></h1> -->
 <p><?php echo lang('index_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 
-<table cellpadding=0 cellspacing=10>
+<table cellpadding=0 cellspacing=10 class="table table-bordered">
 	<tr>
 		<th><?php echo lang('index_fname_th');?></th>
 		<th><?php echo lang('index_lname_th');?></th>
