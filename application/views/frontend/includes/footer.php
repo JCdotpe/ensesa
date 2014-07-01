@@ -33,7 +33,7 @@
 					inputs.eq( inputs.index(this)-1).focus(); 
 				}
 
-			});s
+			});
 
 		});
 
