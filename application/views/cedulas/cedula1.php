@@ -81,6 +81,7 @@ $hogares = array(
 ?>
 
 <!-- Items A y B -->
+<form>
 
 <table class="table table-bordered">
 	<tr>
@@ -93,50 +94,32 @@ $hogares = array(
 		<td> <?php echo form_input($cuestionario); ?> </td>
 		<td> <?php echo form_input($cuestionario_adicional); ?> </td>
 	</tr>
+</table>
+
+<br>
+<table class="table table-bordered">
 	<tr>
-		<th colspan="2"> A. Ubicacion Geografica </th>
-		<th>COD</th>
-		<th colspan="3"> B. Ubicacion Censal </th>
-	</tr>
-	<tr>
-		<td> 1. Departamento </td>
-		<td> <?php echo form_input($departamento); ?> </td>
-		<td> <?php echo form_input($codigo_departamento); ?> </td>
-		<td colspan="2"> 7. Zona Nro </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 2. Provincia </td>
-		<td> <?php echo form_input($provincia); ?> </td>
-		<td> <?php echo form_input($codigo_provincia); ?> </td>
-		<td colspan="2"> 8. Manzana Nro </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 3. Distrito </td>
-		<td> <?php echo form_input($distrito); ?> </td>
-		<td> <?php echo form_input($codigo_distrito); ?> </td>
-		<td rowspan="2"> 9. A.E.R.N </td>
-		<td> Inicial </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 4. Centro Poblado </td>
-		<td colspan="2"> <?php echo form_input($centro_poblado); ?> </td>
-		<td> Final </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 5. Comunidad Nativa </td>
-		<td colspan="2"> <?php echo form_input($comunidad_nativa); ?> </td>
-		<td colspan="2"> 10. Vivienda Nro </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 6. Anexo CC.NN. </td>
-		<td colspan="2"> <?php echo form_input($anexo_ccnn); ?> </td>
-		<td colspan="2"> </td>
-		<td> </td>
+		<td>
+			<table class="table">
+				<tr><td colspan="2"><h4>A. UBICACIÓN GEOGRÁFICA</h4></td><td><h4>COD</h4></td></tr>
+				<tr><td> 1. Departamento </td><td> <?php echo form_input($departamento); ?> </td><td> <?php echo form_input($codigo_departamento); ?> </td></tr>
+				<tr><td> 2. Provincia </td><td> <?php echo form_input($provincia); ?> </td><td> <?php echo form_input($codigo_provincia); ?> </td></tr>
+				<tr><td> 3. Distrito </td><td> <?php echo form_input($distrito); ?> </td><td> <?php echo form_input($codigo_distrito); ?> </td></tr>
+				<tr><td> 4. Centro Poblado </td><td> <?php echo form_input($centro_poblado); ?> </td></tr>
+				<tr><td> 5. Comunidad Nativa </td><td> <?php echo form_input($comunidad_nativa); ?> </td></tr>
+				<tr><td> 6. Anexo CC.NN. </td><td> <?php echo form_input($anexo_ccnn); ?> </td></tr>
+			</table>
+		</td>
+		<td>
+			<table class="table">
+				<tr><td colspan="3"><h4>B. UBICACIÓN CENSAL</h4></td></tr>
+				<tr><td colspan="2"> 7. Zona Nro </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td colspan="2"> 8. Manzana Nro </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td rowspan="2"> 9. A.E.R.N </td><td> Inicial </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td> Final </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td colspan="2"> 10. Vivienda Nro </td><td> <?php echo form_input($zona); ?> </td></tr>
+			</table>
+		</td>
 	</tr>
 </table>
 
@@ -266,7 +249,7 @@ $mismo_ccpp_preg_16 = array(
 
 
 ?>
-
+<br>
 <table class="table table-bordered">
 	<tr>
 		<td colspan="11"> 11. Direccion </td>
@@ -3882,3 +3865,5 @@ $observaciones_300 = array(
 		<td colspan="18"> <?php echo form_textarea($observaciones_300); ?> </td>
 	</tr>
 </table>
+
+</form>
