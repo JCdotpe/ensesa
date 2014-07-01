@@ -1294,181 +1294,108 @@ $pregunta_112_19 = array(
 
 <table class="table table-bordered">
 	<tr>
-		<th colspan="7"> 100. Caracteristicas de la Vivienda y del Hogar </th>
+		<th colspan="7"> 100. CARACTERISTICAS DE LA VIVIENDA Y DEL HOGAR </th>
 	</tr>
 	<tr>
-		<td colspan="2"> Datos de la Vivienda </td>
-		<td colspan="5"> Datos del Hogar </td>
+		
 	</tr>
 	<tr>
-		<td colspan="2"> 101. Tipo de Vivienda </td>
-		<td colspan="5"> 108. El Abastecimiento de agua en su hogar procede de: </td>
+		<td><!-- LEFT SIDE -->
+			<table class="table">
+				<tr><td><h4>DATOS DE LA VIVIENDA</h4></td></tr>
+				<tr><td> 101. Tipo de Vivienda </td></tr>
+				<tr><td> <?php echo form_input($pregunta_101); ?> </td></tr>
+				<tr><td> 102. El Material predominante en las paredes exteriores es: </td></tr>
+				<tr><td> <?php echo form_input($pregunta_110_2); ?> </td></tr>
+				<tr><td> 103. El Material predominante en los pisos es: </td></tr>
+				<tr><td> <?php echo form_input($pregunta_103); ?> </td></tr>
+				<tr><td> 104. El Material predominante en los techos es: </td></tr>
+				<tr><td> <?php echo form_input($pregunta_104); ?> </td></tr>
+				<tr><td> 105. Sin contar Baño, Cocina, pasadizos ni garaje, Cuantas habitaciones en total tiene la vivienda? </td></tr>
+				<tr><td> <?php echo form_input($pregunta_105); ?> </td></tr>
+				<tr><td> 106. La Vivienda que ocupa su hogar es: </td></tr>
+				<tr><td> <?php echo form_input($pregunta_106); ?> </td></tr>
+				<tr><td> (Especifique)<?php echo form_input($pregunta_106_especifique); ?> </td></tr>
+				<tr><td><h4>DATOS DEL HOGAR</h4></td></tr>
+				<tr><td> 107. ¿CUÁNTAS HABITACIONES SE USAN EXCLUSIVAMENTE PARA DORMIR</td></tr>
+				<tr><td> <?php echo form_input($pregunta_107); ?>N° de habitaciones </td></tr>
+			</table>
+		</td>
+		<td><!-- RIGHT SIDE -->
+			<table class="table">
+				<tr><td><h4>DATOS DEL HOGAR</h4></td></tr>
+				<tr><td> 108. El Abastecimiento de agua en su hogar procede de: </td></tr>
+				<tr><td> <?php echo form_input($pregunta_108); ?> </td></tr>
+				<tr><td> (Especifique)<?php echo form_input($pregunta_108_especifique); ?> </td></tr>
+				<tr><td> 109. El Servicio higienico que tiene su hogar esta conectado a: </td></tr>
+				<tr><td> <?php echo form_input($pregunta_109); ?> </td></tr>
+				<tr><td> 110. Cual es el tipo de alumbrado que tiene su hogar: </td></tr>
+				<tr><td><table class="table">
+						<tr><td> Electricidad? </td><td> <?php echo form_input($pregunta_110_1); ?> </td></tr>
+						<tr><td> Kerosene (mechero/lamparin)? </td><td> <?php echo form_input($pregunta_110_2); ?> </td></tr>
+						<tr><td> Petroleo/gas (lampara)? </td><td> <?php echo form_input($pregunta_110_3); ?> </td></tr>
+						<tr><td> Vela? </td><td> <?php echo form_input($pregunta_110_4); ?> </td></tr>
+						<tr><td> Generador? </td><td> <?php echo form_input($pregunta_110_5); ?> </td></tr>
+						<tr><td> Panel solar? </td><td> <?php echo form_input($pregunta_110_6); ?> </td></tr>
+						<tr><td> Otro? </td><td> <?php echo form_input($pregunta_110_7); ?> </td></tr>
+						<tr><td> (Especifique) </td><td> <?php echo form_input($pregunta_110_7_especifique); ?> </td></tr>
+						<tr><td> NO UTILIZA </td><td> <?php echo form_input($pregunta_110_8); ?> </td></tr>						
+					</table></td>
+				</tr>
+				<tr><td> 111. Cual es el tipo de alumbrado que tiene su hogar: </td></tr>
+				<tr><td><table class="table">
+						<tr><td> Electricidad? </td><td> <?php echo form_input($pregunta_111_1); ?> </td></tr>
+						<tr><td> Gas(GLP)? </td><td> <?php echo form_input($pregunta_111_2); ?> </td></tr>
+						<tr><td> Gas Natural? </td><td> <?php echo form_input($pregunta_111_3); ?> </td></tr>
+						<tr><td> Kerosene? </td><td> <?php echo form_input($pregunta_111_4); ?> </td></tr>
+						<tr><td> Carbón? </td><td> <?php echo form_input($pregunta_111_5); ?> </td></tr>
+						<tr><td> Leña? </td><td> <?php echo form_input($pregunta_111_6); ?> </td></tr>
+						<tr><td> Bosta/estiércol? </td><td> <?php echo form_input($pregunta_111_7); ?> </td></tr>
+						<tr><td> Otro? </td><td> <?php echo form_input($pregunta_111_8); ?> </td></tr>
+						<tr><td> (Especifique) </td><td> <?php echo form_input($pregunta_111_8_especifique); ?> </td></tr>
+						<tr><td> NO COCINAN </td><td> <?php echo form_input($pregunta_111_9); ?> </td></tr>						
+					</table></td>
+				</tr>
+				<tr><td> 112. SU HOGAR TIENE: (Acepte una o más alternativas) </td></tr>
+				<tr><td><table class="table">
+						<tr>
+							<td>
+								<table class="table">
+									<tr><td colspan="2"> Equipos y/o bienes </td></tr>
+									<tr><td> Radio? </td><td> <?php echo form_input($pregunta_112_1); ?> </td></tr>
+									<tr><td> Equipo de Sonido? </td><td> <?php echo form_input($pregunta_112_2); ?> </td></tr>
+									<tr><td> Televisor a color? </td><td> <?php echo form_input($pregunta_112_3); ?> </td></tr>
+									<tr><td> DVD o Blu-ray? </td><td> <?php echo form_input($pregunta_112_4); ?> </td></tr>
+									<tr><td> Plancha? </td><td> <?php echo form_input($pregunta_112_5); ?> </td></tr>
+									<tr><td> Licuadora? </td><td> <?php echo form_input($pregunta_112_6); ?> </td></tr>
+									<tr><td> Refigeradora o congeladora? </td><td> <?php echo form_input($pregunta_112_7); ?> </td></tr>
+									<tr><td> Lavadora? </td><td> <?php echo form_input($pregunta_112_8); ?> </td></tr>
+									<tr><td> Cocina a gas? </td><td> <?php echo form_input($pregunta_112_9); ?> </td></tr>
+									<tr><td> Horno microondas? </td><td> <?php echo form_input($pregunta_112_10); ?> </td></tr>
+									<tr><td> Computadora? </td><td> <?php echo form_input($pregunta_112_11); ?> </td></tr>
+									<tr><td> Motocicleta? </td><td> <?php echo form_input($pregunta_112_12); ?> </td></tr>
+									<tr><td> Bicicleta? </td><td> <?php echo form_input($pregunta_112_13); ?> </td></tr>
+									<tr><td> No Tiene? </td><td> <?php echo form_input($pregunta_112_14); ?> </td></tr>	
+								</table>
+							</td>
+							<td>
+								<table class="table">
+									<tr><td> Telefono Fijo? </td><td> <?php echo form_input($pregunta_112_15); ?> </td></tr>
+									<tr><td> Telefono Celular? </td><td> <?php echo form_input($pregunta_112_16); ?> </td></tr>
+									<tr><td> Conexion a Internet? </td><td> <?php echo form_input($pregunta_112_17); ?> </td></tr>
+									<tr><td> Conexion a TV cable / satelital? </td><td> <?php echo form_input($pregunta_112_18); ?> </td></tr>
+									<tr><td> No Tiene? </td><td> <?php echo form_input($pregunta_112_19); ?> </td></tr>
+								</table>
+							</td>
+						</tr>
+
+					</table></td>
+				</tr>
+			</table>
+		</td>
 	</tr>
-	<tr>
-		<td> <?php echo form_input($pregunta_101); ?> </td>
-		<td> <?php echo form_input($pregunta_101_especifique); ?> (Especifique) </td>
-		<td> <?php echo form_input($pregunta_108); ?> </td>
-		<td colspan="4"> <?php echo form_input($pregunta_108_especifique); ?> (Especifique) </td>
-	</tr>
-	<tr>
-		<td colspan="2"> 102. El Material predominante en las paredes exteriores es: </td>
-		<td colspan="5"> 109. El Servicio higienico que tiene su hogar esta conectado a: </td>
-	</tr>
-	<tr>
-		<td> <?php echo form_input($pregunta_102); ?> </td>
-		<td> <?php echo form_input($pregunta_102_especifique); ?> (Especifique) </td>
-		<td colspan="5"> <?php echo form_input($pregunta_109); ?> </td>
-	</tr>
-	<tr>
-		<td colspan="2"> 103. El Material predominante en los pisos es: </td>
-		<td colspan="5"> 110. Cual es el tipo de alumbrado que tiene su hogar: </td>
-	</tr>
-	<tr>
-		<td rowspan="2"> <?php echo form_input($pregunta_103); ?> </td>
-		<td rowspan="2"> <?php echo form_input($pregunta_103_especifique); ?> (Especifique) </td>
-		<td> Electricidad? </td>
-		<td> <?php echo form_input($pregunta_110_1); ?> </td>
-		<td> Generador? </td>
-		<td colspan="2"> <?php echo form_input($pregunta_110_5); ?> </td>
-	</tr>
-	<tr>
-		<td> Kerosene (mechero/lamparin)? </td>
-		<td> <?php echo form_input($pregunta_110_2); ?> </td>
-		<td> Panel Solar? </td>
-		<td colspan="2"> <?php echo form_input($pregunta_110_6); ?> </td>
-	</tr>
-	<tr>
-		<td colspan="2"> 104. El Material predominante en los techos es: </td>
-		<td> Petroleo/gas (lampara)? </td>
-		<td> <?php echo form_input($pregunta_110_3); ?> </td>
-		<td> Otro? </td>
-		<td> <?php echo form_input($pregunta_110_7); ?> </td>
-		<td> <?php echo form_input($pregunta_110_7_especifique); ?> (especifique) </td>
-	</tr>
-	<tr>
-		<td> <?php echo form_input($pregunta_104); ?> </td>
-		<td> <?php echo form_input($pregunta_104_especifique); ?> (Especifique) </td>
-		<td> Vela? </td>
-		<td> <?php echo form_input($pregunta_110_4); ?> </td>
-		<td> No utiliza </td>
-		<td colspan="2"> <?php echo form_input($pregunta_110_8); ?> </td>
-	</tr>
-	<tr>
-		<td colspan="2"> 105. Sin contar Baño, Cocina, pasadizos ni garaje, Cuantas habitaciones en total tiene la vivienda? </td>
-		<td colspan="5"> 111. Cual es el combustible que usan en el hogar para cocinar sus alimentos: </td>
-	</tr>
-	<tr>
-		<td colspan="2" rowspan="2"> <?php echo form_input($pregunta_105); ?> </td>
-		<td> Electricidad? </td>
-		<td> <?php echo form_input($pregunta_111_1); ?> </td>
-		<td> Carbon? </td>
-		<td colspan="2"> <?php echo form_input($pregunta_111_5); ?> </td>
-	</tr>
-	<tr>
-		<td> Gas(GLP)? </td>
-		<td> <?php echo form_input($pregunta_111_2); ?> </td>
-		<td> Leña </td>
-		<td colspan="2"> <?php echo form_input($pregunta_111_6); ?> </td>
-	</tr>
-	<tr>
-		<td colspan="2"> 106. La Vivienda que ocupa su hogar es: </td>
-		<td> Gas Natural? </td>
-		<td> <?php echo form_input($pregunta_111_3); ?> </td>
-		<td> Bosta/estiercol? </td>
-		<td colspan="2"> <?php echo form_input($pregunta_111_7); ?> </td>
-	</tr>
-	<tr>
-		<td rowspan="2"> <?php echo form_input($pregunta_106); ?> </td>
-		<td rowspan="2"> <?php echo form_input($pregunta_106_especifique); ?> (Especifique) </td>
-		<td> Kerosene? </td>
-		<td> <?php echo form_input($pregunta_111_4); ?> </td>
-		<td> Otro </td>
-		<td> <?php echo form_input($pregunta_111_8); ?> </td>
-		<td> <?php echo form_input($pregunta_111_8_especifique); ?> (Especifique) </td>
-	</tr>
-	<tr>
-		<td colspan="2"></td>
-		<td> No Cocinan </td>
-		<td colspan="2"> <?php echo form_input($pregunta_111_9); ?> </td>
-	</tr>
-	<tr>
-		<td colspan="2"> Datos del Hogar </td>
-		<td colspan="5"> 112. Su Hogar tiene: </td>
-	</tr>
-	<tr>
-		<td colspan="2"> 107. Cuantas habitaciones se usan exclusivamente para dormir? </td>
-		<td colspan="2"> Equipos y/o Bienes </td>
-		<td colspan="3"> Servicios </td>
-	</tr>
-	<tr>
-		<td colspan="2"> <?php echo form_input($pregunta_107); ?> </td>
-		<td> Radio? </td>
-		<td> <?php echo form_input($pregunta_112_1); ?> </td>
-		<td colspan="2"> Telefono Fijo? </td>
-		<td> <?php echo form_input($pregunta_112_15); ?> </td>
-	</tr>
-	<tr>
-		<td colspan="2" rowspan="13"></td>
-		<td> Equipo de Sonido? </td>
-		<td> <?php echo form_input($pregunta_112_2); ?> </td>
-		<td colspan="2"> Telefono Celular? </td>
-		<td> <?php echo form_input($pregunta_112_16); ?> </td>
-	</tr>
-	<tr>
-		<td> Televisor a color? </td>
-		<td> <?php echo form_input($pregunta_112_3); ?> </td>
-		<td colspan="2"> Conexion a Internet? </td>
-		<td> <?php echo form_input($pregunta_112_17); ?> </td>
-	</tr>
-	<tr>
-		<td> DVD o Blu-ray? </td>
-		<td> <?php echo form_input($pregunta_112_4); ?> </td>
-		<td colspan="2"> Conexion a TV cable / satelital? </td>
-		<td> <?php echo form_input($pregunta_112_18); ?> </td>
-	</tr>
-	<tr>
-		<td> Plancha? </td>
-		<td> <?php echo form_input($pregunta_112_5); ?> </td>
-		<td colspan="2"> No Tiene? </td>
-		<td> <?php echo form_input($pregunta_112_19); ?> </td>
-	</tr>
-	<tr>
-		<td> Licuadora? </td>
-		<td> <?php echo form_input($pregunta_112_6); ?> </td>
-		<td colspan="3" rowspan="9"></td>
-	</tr>
-	<tr>
-		<td> Refigeradora o congeladora? </td>
-		<td> <?php echo form_input($pregunta_112_7); ?> </td>
-	</tr>
-	<tr>
-		<td> Lavadora? </td>
-		<td> <?php echo form_input($pregunta_112_8); ?> </td>
-	</tr>
-	<tr>
-		<td> Cocina a gas? </td>
-		<td> <?php echo form_input($pregunta_112_9); ?> </td>
-	</tr>
-	<tr>
-		<td> Horno microondas? </td>
-		<td> <?php echo form_input($pregunta_112_10); ?> </td>
-	</tr>
-	<tr>
-		<td> Computadora? </td>
-		<td> <?php echo form_input($pregunta_112_11); ?> </td>
-	</tr>
-	<tr>
-		<td> Motocicleta? </td>
-		<td> <?php echo form_input($pregunta_112_12); ?> </td>
-	</tr>
-	<tr>
-		<td> Bicicleta? </td>
-		<td> <?php echo form_input($pregunta_112_13); ?> </td>
-	</tr>
-	<tr>
-		<td> No Tiene? </td>
-		<td> <?php echo form_input($pregunta_112_14); ?> </td>
-	</tr>
+
+
 </table>
 
 <!-- Item 200 -->
