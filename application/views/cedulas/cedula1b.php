@@ -1,3 +1,4 @@
+
 <?php 
 
 $cuestionario = array(
@@ -64,7 +65,6 @@ $anexo_ccnn = array(
 				'id' => 'anexo_ccnn',
 				'name' => 'anexo_ccnn',
 				'class' => 'form-control',
-				'maxlength' => '5',
 			);
 
 $zona = array(
@@ -78,7 +78,6 @@ $hogares = array(
 			'name' => 'hogares',
 			'class' => 'form-control',
 		);
-
 $personas = array(
 			'id' => 'personas',
 			'name' => 'personas',
@@ -111,11 +110,15 @@ $obs_01b = array(
 			'cols' => 13
 
 		);
+
 ?>
+
+<!-- Items A y B -->
+<form>
 
 <table class="table table-bordered">
 	<tr>
-		<th colspan="4"> Ingreso y gastos por recursos naturales </th>
+		<th colspan="4"> Vivienda, Hogar, Educacion, Salud, Empleo e Ingresos, Conservacion de bosques, Recursos y Servicios del bosque, Deforestacion y Comite de vigilancia del bosque </th>
 		<th> Cuestionario </th>
 		<th> Cuestionario Adicional </th>
 	</tr>
@@ -124,50 +127,32 @@ $obs_01b = array(
 		<td> <?php echo form_input($cuestionario); ?> </td>
 		<td> <?php echo form_input($cuestionario_adicional); ?> </td>
 	</tr>
+</table>
+
+<br>
+<table class="table table-bordered">
 	<tr>
-		<th colspan="2"> A. Ubicacion Geografica </th>
-		<th>COD</th>
-		<th colspan="3"> B. Ubicacion Censal </th>
-	</tr>
-	<tr>
-		<td> 1. Departamento </td>
-		<td> <?php echo form_input($departamento); ?> </td>
-		<td> <?php echo form_input($codigo_departamento); ?> </td>
-		<td colspan="2"> 7. Zona Nro </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 2. Provincia </td>
-		<td> <?php echo form_input($provincia); ?> </td>
-		<td> <?php echo form_input($codigo_provincia); ?> </td>
-		<td colspan="2"> 8. Manzana Nro </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 3. Distrito </td>
-		<td> <?php echo form_input($distrito); ?> </td>
-		<td> <?php echo form_input($codigo_distrito); ?> </td>
-		<td rowspan="2"> 9. A.E.R.N </td>
-		<td> Inicial </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 4. Centro Poblado </td>
-		<td colspan="2"> <?php echo form_input($centro_poblado); ?> </td>
-		<td> Final </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 5. Comunidad Nativa </td>
-		<td colspan="2"> <?php echo form_input($comunidad_nativa); ?> </td>
-		<td colspan="2"> 10. Vivienda Nro </td>
-		<td> <?php echo form_input($zona); ?> </td>
-	</tr>
-	<tr>
-		<td> 6. Anexo CC.NN. </td>
-		<td colspan="2"> <?php echo form_input($anexo_ccnn); ?> </td>
-		<td colspan="2"> </td>
-		<td> </td>
+		<td>
+			<table class="table">
+				<tr><td colspan="2"><h4>A. UBICACIÓN GEOGRÁFICA</h4></td><td><h4>COD</h4></td></tr>
+				<tr><td> 1. DEPARTAMENTO </td><td> <?php echo form_input($departamento); ?> </td><td> <?php echo form_input($codigo_departamento); ?> </td></tr>
+				<tr><td> 2. PROVINCIA </td><td> <?php echo form_input($provincia); ?> </td><td> <?php echo form_input($codigo_provincia); ?> </td></tr>
+				<tr><td> 3. DISTRITO </td><td> <?php echo form_input($distrito); ?> </td><td> <?php echo form_input($codigo_distrito); ?> </td></tr>
+				<tr><td> 4. CENTRO POBLADO </td><td> <?php echo form_input($centro_poblado); ?> </td></tr>
+				<tr><td> 5. COMUNIDAD NATIVA </td><td> <?php echo form_input($comunidad_nativa); ?> </td></tr>
+				<tr><td> 6. ANEXO CC.NN. </td><td> <?php echo form_input($anexo_ccnn); ?> </td></tr>
+			</table>
+		</td>
+		<td>
+			<table class="table">
+				<tr><td colspan="3"><h4>B. UBICACIÓN CENSAL</h4></td></tr>
+				<tr><td colspan="2"> 7. ZONA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td colspan="2"> 8. MANZANA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td rowspan="2"> 9. A.E.R.N </td><td> Inicial </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td> Final </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr><td colspan="2"> 10. VIVIENDA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
+			</table>
+		</td>
 	</tr>
 </table>
 <table class="table table-bordered">
@@ -200,6 +185,7 @@ $obs_01b = array(
 		
 	</tr>
 </table>
+
 
 <!-- ////////////////////////////////////////////////////////////////PREGUNTA 100///////////////////////////////////////////////////////////////////-->
 
@@ -245,8 +231,8 @@ $pregunta_100_A_1B_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_100_A_1B_2 = array(
-					'id' => 'pregunta_100_A_1B_1',
-					'name' => 'pregunta_100_A_1B_1',
+					'id' => 'pregunta_100_A_1B_2',
+					'name' => 'pregunta_100_A_1B_2',
 					'class' => 'form-control'
 				);
 
@@ -350,8 +336,8 @@ $pregunta_100_A_E_T_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_100_A_E_T_2 = array(
-					'id' => 'pregunta_100_A_E_T_1',
-					'name' => 'pregunta_100_A_E_T_1',
+					'id' => 'pregunta_100_A_E_T_2',
+					'name' => 'pregunta_100_A_E_T_2',
 					'class' => 'form-control'
 				);
 $pregunta_100_A_O_K_1 = array(
@@ -473,8 +459,8 @@ $pregunta_100_C_1B_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_100_C_1B_2 = array(
-					'id' => 'pregunta_100_C_1B_1',
-					'name' => 'pregunta_100_C_1B_1',
+					'id' => 'pregunta_100_C_1B_2',
+					'name' => 'pregunta_100_C_1B_2',
 					'class' => 'form-control'
 				);
 $pregunta_100_C_V_K_1 = array(
@@ -516,8 +502,8 @@ $pregunta_100_C_C_K_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_100_C_C_K_2 = array(
-					'id' => 'pregunta_100_A_C_K_2',
-					'name' => 'pregunta_100_A_C_K_2',
+					'id' => 'pregunta_100_C_C_K_2',
+					'name' => 'pregunta_100_C_C_K_2',
 					'class' => 'form-control'
 				);
 $pregunta_100_C_C_T_1 = array(
@@ -551,7 +537,7 @@ $pregunta_100_C_T_T_2 = array(
 					'class' => 'form-control'
 				);
 $pregunta_100_C_O_K_1 = array(
-				    'id' => 'pregunta_100CA_O_K_1',
+				    'id' => 'pregunta_100_C_O_K_1',
 					'name' => 'pregunta_100_C_O_K_1',
 					'class' => 'form-control'
 				);
@@ -712,52 +698,77 @@ $pregunta_100_D_obs = array(
 		<th>Seccion B. Gastos por la actividad de caza de animales silvestres</th>
 	</tr>
 </table>
+
 <table class="table table-bordered">
-	<tr>
-		1. En los ultimos 12 meses, gasto en:
-		<td colspan="2" align="right">Valor S/.</td>
-		<td colspan="3" align="right">Valor S/.</td>
-	</tr>
-	<tr>
-		<td> a.  Cables, redes? </td>
-		<td> <?php echo form_input($pregunta_100_B_a); ?> </td>
-		<td colspan="1"> g.  Mantenimiento/reparacion de otros equipos? </td>
-		<td> <?php echo form_input($pregunta_100_B_g); ?> </td>
-	</tr>
-	<tr>
-		<td> b.  Trampas? </td>
-		<td> <?php echo form_input($pregunta_100_B_b); ?> </td>
-		<td colspan="1"> h.  Combustible? </td>
-		<td> <?php echo form_input($pregunta_100_B_h); ?> </td>
-	</tr>
-	<tr>
-		<td> c.  Envases? (bolsas, canastas) </td>
-		<td> <?php echo form_input($pregunta_100_B_c); ?> </td>
-		<td colspan="1"> i.  Municiones? </td>
-		<td> <?php echo form_input($pregunta_100_B_i); ?> </td>
-	</tr>
-	<tr>
-		<td> d.  Mano de obra? (ayudante, cargadores) </td>
-		<td> <?php echo form_input($pregunta_100_B_d); ?> </td>
-		<td> j.  Otros? (Especifique) <?php echo form_input($pregunta_100_B_j_o); ?> </td>
-		<td> <?php echo form_input($pregunta_100_B_j); ?> </td>
-	</tr>
-	<tr>
-		<td> e.  Transporte?(incluye fletes) </td>
-		<td> <?php echo form_input($pregunta_100_B_e); ?> </td>
-	</tr>
-	<tr>
-		<td> f.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
-		<td> <?php echo form_input($pregunta_100_B_f); ?> </td>
-		<td colspan="1" align="center"> TOTAL </td>
-		<td> <?php echo form_input($pregunta_100_B_total); ?> </td>
+	<tr>1. En los ultimos 12 meses, gasto en:
+		<td>
+			<table class="table">
+				<tr>	
+					<td colspan="2" align="right">Valor S/.</td>
+				</tr>
+				<tr>
+					<td> a.  Cables, redes? </td>
+					<td> <?php echo form_input($pregunta_100_B_a); ?> </td>
+				</tr>
+				<tr>
+					<td> b.  Trampas? </td>
+					<td> <?php echo form_input($pregunta_100_B_b); ?> </td>
+				</tr>
+				<tr>
+					<td> c.  Envases? (bolsas, canastas) </td>
+					<td> <?php echo form_input($pregunta_100_B_c); ?> </td>
+				</tr>
+				<tr>
+					<td> d.  Mano de obra? (ayudante, cargadores) </td>
+					<td> <?php echo form_input($pregunta_100_B_d); ?> </td>
+				</tr>
+				<tr>
+					<td> e.  Transporte?(incluye fletes) </td>
+					<td> <?php echo form_input($pregunta_100_B_e); ?> </td>
+				</tr>
+				<tr>
+					<td> f.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
+					<td> <?php echo form_input($pregunta_100_B_f); ?> </td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table class="table">
+				<tr>	
+					<td colspan="2" align="right">Valor S/.</td>
+				</tr>
+				<tr>
+					<td> g.  Mantenimiento/reparacion de otros equipos? </td>
+					<td> <?php echo form_input($pregunta_100_B_g); ?> </td>
+			    </tr>
+				<tr>
+					<td> h.  Combustible? </td>
+					<td> <?php echo form_input($pregunta_100_B_h); ?> </td>
+				</tr>
+				<tr>
+					<td> i.  Municiones? </td>
+					<td> <?php echo form_input($pregunta_100_B_i); ?> </td>
+				</tr>
+				<tr>
+					<td> j.  Otros? (Especifique) <?php echo form_input($pregunta_100_B_j_o); ?> </td>
+					<td> <?php echo form_input($pregunta_100_B_j); ?> </td>
+				</tr>
+				<tr>
+					<td align="center"> TOTAL </td>
+					<td> <?php echo form_input($pregunta_100_B_total); ?> </td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td > OBSERVACIONES <?php echo form_textarea($pregunta_100_B_obs); ?> </td>
+				</tr>
+			</table>
+		</td>
 	</tr>
 </table>
-<table class="table table-bordered">
-	<tr>
-		<td align="center"> OBSERVACIONES  <?php echo form_textarea($pregunta_100_B_obs); ?> </td>
-	</tr>
-</table>
+
 <table class="table table-bordered">
 	<tr>
 		<th>Seccion C. Ingresos y gastos por subproductos de la caza de animales silvestres</th>
@@ -924,8 +935,8 @@ $pregunta_200_A_1B_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_200_A_1B_2 = array(
-					'id' => 'pregunta_200_A_1B_1',
-					'name' => 'pregunta_200_A_1B_1',
+					'id' => 'pregunta_200_A_1B_2',
+					'name' => 'pregunta_200_A_1B_2',
 					'class' => 'form-control'
 				);
 
@@ -1039,8 +1050,8 @@ $pregunta_200_A_E_T_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_200_A_E_T_2 = array(
-					'id' => 'pregunta_200_A_E_T_1',
-					'name' => 'pregunta_200_A_E_T_1',
+					'id' => 'pregunta_200_A_E_T_2',
+					'name' => 'pregunta_200_A_E_T_2',
 					'class' => 'form-control'
 				);
 $pregunta_200_A_O_K_1 = array(
@@ -1152,8 +1163,8 @@ $pregunta_200_C_1B_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_200_C_1B_2 = array(
-					'id' => 'pregunta_200_C_1B_1',
-					'name' => 'pregunta_200_C_1B_1',
+					'id' => 'pregunta_200_C_1B_2',
+					'name' => 'pregunta_200_C_1B_2',
 					'class' => 'form-control'
 				);
 $pregunta_200_C_V_K_1 = array(
@@ -1195,8 +1206,8 @@ $pregunta_200_C_C_K_1 = array(
 					'class' => 'form-control'
 				);
 $pregunta_200_C_C_K_2 = array(
-					'id' => 'pregunta_200_A_C_K_2',
-					'name' => 'pregunta_200_A_C_K_2',
+					'id' => 'pregunta_200_C_C_K_2',
+					'name' => 'pregunta_200_C_C_K_2',
 					'class' => 'form-control'
 				);
 $pregunta_200_C_C_T_1 = array(
@@ -1394,44 +1405,71 @@ $pregunta_200_D_obs = array(
 		<th>Seccion B. Gastos por la recolección de plantas, frutas y/o hojas silvestres</th>
 	</tr>
 </table>
+
 <table class="table table-bordered">
-	<tr>
-		1. En los ultimos 12 meses, gasto en:
-		<td colspan="2" align="right">Valor S/.</td>
-		<td colspan="2" align="right">Valor S/.</td>
-	</tr>
-	<tr>
-		<td> a.  Cables, redes? </td>
-		<td> <?php echo form_input($pregunta_200_B_a); ?> </td>
-		<td> f.  Mantenimiento/reparacion de otros equipos? </td>
-		<td> <?php echo form_input($pregunta_200_B_f); ?> </td>
-	</tr>
-	<tr>
-		<td> b.  Envases? (bolsas, canastas) </td>
-		<td> <?php echo form_input($pregunta_200_B_b); ?> </td>
-		<td> g.  Combustible? </td>
-		<td> <?php echo form_input($pregunta_200_B_g); ?> </td>
-	</tr>
-	<tr>
-		<td> c.  Mano de obra? (ayudante, cargadores) </td>
-		<td> <?php echo form_input($pregunta_200_B_c); ?> </td>
-		<td> h.  Otros? (Especifique)<?php echo form_input($pregunta_200_B_h_o); ?> </td>
-		<td> <?php echo form_input($pregunta_200_B_h); ?> </td>
-	</tr>
-	<tr>
-		<td> d.  Transporte?(incluye fletes) </td>
-		<td> <?php echo form_input($pregunta_200_B_d); ?> </td>
-	</tr>
-	<tr>
-		<td> e.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
-		<td> <?php echo form_input($pregunta_200_B_e); ?> </td>
-		<td align="center"> TOTAL </td>
-		<td> <?php echo form_input($pregunta_200_B_total); ?> </td>
-	</tr>
-</table>		
-<table class="table table-bordered">
-	<tr>
-		<td align="center"> OBSERVACIONES <?php echo form_textarea($pregunta_200_B_obs); ?> </td>
+	<tr>1. En los ultimos 12 meses, gasto en:
+		<td>
+			<table class="table">
+				<tr>	
+					<td colspan="2" align="right">Valor S/.</td>
+				</tr>
+				<tr>
+					<td> a.  Cables, redes? </td>
+					<td> <?php echo form_input($pregunta_200_B_a); ?> </td>
+				</tr>
+				<tr>
+					<td> b.  Envases? (bolsas, canastas) </td>
+					<td> <?php echo form_input($pregunta_200_B_b); ?> </td>
+				</tr>
+				<tr>
+					<td> c.  Mano de obra? (ayudante, cargadores)  </td>
+					<td> <?php echo form_input($pregunta_200_B_c); ?> </td>
+				</tr>
+				<tr>
+					<td> d.  Transporte?(incluye fletes) </td>
+					<td> <?php echo form_input($pregunta_200_B_d); ?> </td>
+				</tr>
+				<tr>
+					<td> e.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad? </td>
+					<td> <?php echo form_input($pregunta_200_B_e); ?> </td>
+				</tr>
+				
+			</table>
+		</td>
+		<td>
+			<table class="table">
+				<tr>	
+					<td colspan="2" align="right">Valor S/.</td>
+				</tr>
+				<tr>
+					<td> f.  Mantenimiento/reparacion de otros equipos? </td>
+					<td> <?php echo form_input($pregunta_200_B_f); ?> </td>
+				</tr>
+				<tr>
+					<td> g.  Combustible? </td>
+					<td> <?php echo form_input($pregunta_200_B_g); ?> </td>
+			    </tr>
+				<tr>
+					<td> h.  Otros? (Especifique)<?php echo form_input($pregunta_200_B_h_o); ?> </td>
+					<td> <?php echo form_input($pregunta_200_B_h); ?> </td>
+				</tr>
+				<tr>
+					
+						<tr>
+						<td align="center"> TOTAL </td>
+						<td> <?php echo form_input($pregunta_200_B_total); ?> </td>
+					    </tr>
+
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td > OBSERVACIONES <?php echo form_textarea($pregunta_200_B_obs); ?> </td>
+				</tr>
+			</table>
+		</td>
 	</tr>
 </table>
 
@@ -2109,12 +2147,71 @@ $pregunta_300_D_obs = array(
 		<td align="center"> TOTAL </td>
 		<td> <?php echo form_input($pregunta_300_B_total); ?> </td>
 	</tr>
-</table>		
+</table>	
+
 <table class="table table-bordered">
-	<tr>
-		<td align="center"> OBSERVACIONES <?php echo form_textarea($pregunta_300_B_obs); ?> </td>
+	<tr>1. En los ultimos 12 meses, gasto en:
+		<td>
+			<table class="table">
+				<tr>	
+					<td colspan="2" align="right">Valor S/.</td>
+				</tr>
+				<tr>
+					<td> a.  Cables, redes? </td>
+					<td> <?php echo form_input($pregunta_300_B_a); ?> </td>
+				</tr>
+				<tr>
+					<td> b.  Anzuelo? </td>
+					<td> <?php echo form_input($pregunta_300_B_b); ?> </td>
+				</tr>
+				<tr>
+					<td> c.  Envases? (Bolsas, canastas) </td>
+					<td> <?php echo form_input($pregunta_300_B_c); ?> </td>
+				</tr>
+				<tr>
+					<td> d.  Mano de obra? (Ayudantes cargadores) </td>
+					<td> <?php echo form_input($pregunta_300_B_d); ?> </td>
+				</tr>
+				<tr>
+					<td> e.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
+					<td> <?php echo form_input($pregunta_300_B_e); ?> </td>
+				</tr>
+				
+			</table>
+		</td>
+		<td>
+			<table class="table">
+				<tr>	
+					<td colspan="2" align="right">Valor S/.</td>
+				</tr>
+				<tr>
+					<td> f.  Mantenimiento/reparacion de otros equipos? </td>
+					<td> <?php echo form_input($pregunta_300_B_f); ?> </td>
+				</tr>
+				<tr>
+					<td> g.  Mantenimiento/reparacion de otros equipos? </td>
+					<td> <?php echo form_input($pregunta_300_B_g); ?> </td>
+			    </tr>
+				<tr>
+					<td> h. Combustible? </td>
+					<td> <?php echo form_input($pregunta_300_B_h); ?> </td>
+				</tr>
+				<tr>	
+					<td align="center"> TOTAL </td>
+					<td> <?php echo form_input($pregunta_300_B_total); ?> </td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td> OBSERVACIONES <?php echo form_textarea($pregunta_300_B_obs); ?> </td>
+				</tr>
+			</table>
+		</td>
 	</tr>
 </table>
+
 
 <table class="table table-bordered">
 	<tr>
