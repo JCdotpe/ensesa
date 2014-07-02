@@ -1733,7 +1733,11 @@ $tecnicas_aprovechamiento = array(
 				<td><!--Lado Izquierdo -->
 					<table>
 						<tr>
-							<th><center>GOBERNABILIDAD</center></th>
+							<td>
+								<table class ="table table-bordered">
+									<th><center>GOBERNABILIDAD</center></th>
+								</table>
+							</td>		
 						</tr>
 						<tr>
 							<th>1401. ACTUALMENTE, USTED CONFIA EN ORGANIZACIONES COMO:</th>
@@ -1822,11 +1826,11 @@ $tecnicas_aprovechamiento = array(
 										<th><?php echo form_input ($rpta2); ?></th>
 									</tr>
 									<tr>
-										<th>20. Otra?<?php echo form_input ($rpta2); ?> (Especifique)</th>
+										<th>20. OARA?</th>
 										<th><?php echo form_input ($rpta2); ?></th>
 									</tr>
 									<tr>
-										<th>21. OARA?</th>
+										<th>21. Otra? <?php echo form_input ($rpta2); ?> (Especifique)</th>
 										<th><?php echo form_input ($rpta2); ?></th>
 									</tr>
 								</table>
@@ -1863,7 +1867,11 @@ $tecnicas_aprovechamiento = array(
 				<td><!--Lado derecho -->
 					<table>
 						<tr>
-							<th><center>CULTURA</center></th>
+							<td>
+								<table class ="table table-bordered">
+									<th><center>CULTURA</center></th>
+								</table>
+							</td>
 						</tr>
 						<tr>
 							<th>1403. CREE UD. QUE LOS JÓVENES DE SU COMUNIDAD VALORAN:</th>
@@ -1892,27 +1900,89 @@ $tecnicas_aprovechamiento = array(
 							</td>
 						</tr>
 						<tr>
-							<th>1404. SIENTE QUE EN SU COMUNIDAD SE VIVE EN UN AMBIENTE DE TRANQUILIDAD Y PAZ?</th>
+							<td>
+								<table class ="table table-bordered">
+									<th>1404. SIENTE QUE EN SU COMUNIDAD SE VIVE EN UN AMBIENTE DE TRANQUILIDAD Y PAZ?</th>
+								</table>
+							</td>	
 						</tr>
 						<tr>
 							<td>
 								<table class ="table table-bordered">
 									<tr>
-										<td><center>1. Las festividades o manifestaciones culturales, danzas, lengua, etc?</center></td>
+										<td><center>SI /NO</center></td>
 										<td><?php echo form_input ($rpta2); ?></td>
 									</tr>
 									<tr>
-										<td><center>2. El manejo tradicional de resursos?</center></td>
-										<td><?php echo form_input ($rpta2); ?></td>
-									</tr>
-									<tr>
-										<td><center>3. Las visitas a lugares sagrados de su comunidad?</center></td>
+										<td><center><b>1404A. Porque?</b></center></td>
 										<td><?php echo form_input ($rpta2); ?></td>
 									</tr>
 								</table>
 							</td>
 						</tr>
-
+						<tr>
+							<td>
+								<table class ="table table-bordered">
+									<tr>
+										<th><center>DEL HOGAR Y LA COMUNIDAD </center></th>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<th>1405. DESDE QUE SE AFILIARON AL PROGRAMA, EL NIVEL DE VIDA<?php echo form_input ($rpta2); ?> </th>
+						</tr>
+						<tr>
+							<td>
+								<table class ="table table-bordered">
+									<tr>
+										<th></th>
+										<th>Mejoró? / Está igual / Empeoró</th>
+									</tr>
+									<tr>
+										<th>De los hogares de su comunidad</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>No intervino el programa nacional de conservación de bosques?</th>
+										<th><center><b>PASE A 1407</b></center></th>
+									</tr>
+									<tr>
+										<th colspan ="2"><center>Lea la siguiente pregunta, solo si en pregunta 1405 circuló código "1".</center></th>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<table class = "table table-bordered">
+									<td>
+										<tr>
+											<th colspan ="2">1406. DE QUE MANERA MEJORÓ EL NIVEL DE VIDA DE LOS HOGARES DE SU COMUNIDAD? (Circule uno o más Códigos)</th>
+										</tr>
+										<tr>
+											<td>Aumento de empleo</td>
+											<td><?php echo form_input ($rpta2); ?></td>
+										</tr>
+										<tr>
+											<td>Mejoró el nivel educativo</td>
+											<td><?php echo form_input ($rpta2); ?></td>
+										</tr>
+										<tr>
+											<td>Acceso a programas sociales</td>
+											<td><?php echo form_input ($rpta2); ?></td>
+										</tr>
+										<tr>
+											<td>Mejora de las condiciones de salud de la población</td>
+											<td><?php echo form_input ($rpta2); ?></td>
+										</tr>
+										<tr>
+											<td>Otro <?php echo form_input ($rpta2); ?> (Especifique)</td>
+											<td><?php echo form_input ($rpta2); ?></td>
+										</tr>
+									</td>
+								</table>
+							</td>
+						</tr>
 
 					</table>
 
