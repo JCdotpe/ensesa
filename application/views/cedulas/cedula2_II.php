@@ -1274,3 +1274,659 @@ $tecnicas_aprovechamiento = array(
 		<th colspan ="4"> <center> OBTENCIÓN DE RECURSOS DEL BOSQUE</center></th>
 	</tr>
 </table>
+<table class ="table table-bordered">
+	<tr>
+		<th colspan ="6">1006. EN LOS ULTIMOS 12 MESES, LA COMUNIDAD HA TENIDO HA TENIDO ALGUNA DIFICULTAD PARA OBTENER:</th>
+	</tr>
+	<tr>
+		<th colspan="2">Especie</th>
+		<th>1006A. La dificultad que tuvo fue:</th>
+		<th>1006B. Si respondió "Mucha", Porque?</th>
+	</tr>
+	<tr>
+		<th></th>
+		<th>SI / NO</th>
+		<th>Mucha / Poca / Ninguna</th>
+		<th>Código</th>
+	</tr>
+	<tr>
+		<td>1. Animales terrestres para la caza?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>2. Aves para la caza?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>3. Pescar para pescar?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>4. Madera?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>5. Palmiche u hojas para el techo?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>6. Vegetales, frutos, plantas medicinales para consumo?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+</table>
+<table class = "table table-bordered">
+	<tr>
+		<th><center>1100. CONFLICTOS RELACIONADOS CON EL USO Y CONSERVACION DE LOS RECURSOS DEL BOSQUE</center></th>
+	</tr>
+
+</table>
+
+
+
+<table class = "table table-bordered">
+	<tr>
+		<th colspan="2">1101. EN LOS ULTIMOS 12 MESES, ¿LOS PRINCIPALES PROBLEMAS Y/O CONFLICTOS QUE AFRONTAN LA COMUNIDAD SON:</th>
+		<th>1102. ¿CUANTAS DENUNCIAS SOBRE <?php echo form_input ($rpta2); ?> SE HAN REALIZADO?</th>
+		<th>1103. CUANTAS DENUNCIAS CON RESULTADO SATISFACTORIA FAVOR DE LA CC.NN?</th>
+		<th>1104. CUANTAS DENUNCIAS CON RESULTADO INSATISFACTORIA FAVOR DE LA CC.NN?</th>
+		<th>1105. CUANTAS DENUNCIAS ESTAN EN PROCESO?</th>
+		<th>1106. QUE INSTITUCION(ES) INTERVIENEN EN ESTE(OS) PROBLEMA(S) Y/O CONFLICTOS(S)?</th>
+	</tr>
+	<tr>
+		<th></th>
+		<th><center>SI / NO</center></th>
+		<th><center>Total</center></th>
+		<th><center>Cantidad</center></th>
+		<th><center>Cantidad</center></th>
+		<th><center>Cantidad</center></th>
+		<th><center>Código</center></th>
+	</tr>
+	<tr>
+		<td>1. Ocupacion ilegal?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>2. Tala no autorizada?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>3. Ampliación de frontera agrícola</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>4. Cultivos ilicitos</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>5. Actividades por empresas petroleras?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>6. Actividades por empresas mineras?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>7. Apertura de caminos / carreteras?</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>8. Otro? <?php echo form_input ($rpta2); ?> (Especifique)</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>9. Otro? <?php echo form_input ($rpta2); ?> (Especifique)</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td>10. Otro? <?php echo form_input ($rpta2); ?>(Especifique)</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td><?php echo form_input ($rpta2); ?></td>
+	</tr>
+	<tr>
+		<td colspan ="7"><b>Encuestador: </b> No olvide que las cantidades de las preguntas 1103, 1104 y 1105 debe ser igaul a la cantidad de la pregunta 1102</td>
+	</tr>
+
+	<tr>
+		<th colspan="7">1107. LA COMUNIDAD TIENE CONFLICTOS DE TIERRAS CON: (Lea cada alternativa y circule uno o mas códigos)</th>
+	</tr>
+	<tr>
+		<td colspan ="3">
+			<table class ="table table-bordered"> <!-- Left Side -->
+				<tr>
+					<td>Otras comunidades indigenas?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Los colonos?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>EL Estado?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+			</table>
+		</td>
+		<td colspan ="3">
+			<table class ="table table-bordered"> <!--Center Side-->
+				<tr>
+					<td>Empresas privadas?</td>
+					<td><?php echo form_input ($rpta2); ?> </td>
+				</tr>
+				<tr>
+					<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique) </td>
+					<td><?php echo form_input ($rpta2); ?> </td>
+				</tr>
+			</table>
+		</td>
+		<td colspan ="2">
+			<table class ="table table-bordered"> <!--Rigth Side-->
+				<tr>
+					<td>NINGUNO</td>
+					<td><?php echo form_input ($rpta2); ?> </td>
+				</tr>
+			</table>
+		</td>
+
+	</tr>
+</table>
+
+	<table class = "table table-bordered">
+	<tr>
+		<th><center>1200. COMITÉ DE GESTIÓN DE CONSERVACIONES DE BOSQUES</center></th>
+	</tr>
+	</table>
+	<table class ="table table-bordered">
+	<tr>
+		<td rowspan ="2">
+			<table class = "table table-bordered">
+				<tr>	
+					<th>1201. EN SU COMUNIDAD SE HA CONFORMADO EL COMITE DE GESTION DE CONSERVACION DE BOSQUES?</th>
+				</tr>
+				<tr>	
+					<td>
+						<table class ="table table-bordered">
+							<tr>
+								<td>SI</td>
+								<td><?php echo form_input ($rpta2); ?></td>
+								<td>NO</td>
+								<td><?php echo form_input ($rpta2); ?><b>PASE A CAP. 1300</b></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table class = "table table-bordered">
+				<tr>
+					<th colspan ="2">1202. EL COMITÉ ESTA CONFORMADO POR: (Lea cada alternativa y circule uno o más codigos)</th>
+				</tr>
+				<tr>
+					<td> <table class ="table table-bordered">
+						<tr>  
+							<td>Presidente?</td> 
+							<td><?php echo form_input ($rpta2); ?></td> 
+						</tr>
+						<tr>  
+							<td>Secretario?</td> 
+							<td><?php echo form_input ($rpta2); ?></td> 
+						</tr>
+						<tr>  
+							<td>Tesorero?</td> 
+							<td><?php echo form_input ($rpta2); ?></td> 
+						</tr>
+					</table>
+					<td>
+						<table class = "table table-bordered">
+							<tr>
+								<td>Vocal?</td> 
+								<td><?php echo form_input ($rpta2); ?></td>
+							</tr>
+							<tr>
+								<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique)</td> 
+								<td><?php echo form_input ($rpta2); ?></td>
+							</tr>
+						</table>
+					</td>
+					 </td>
+				</tr>
+				<tr>
+					<td colspan ="2">
+						<table class ="table table-bordered">
+							<tr>
+								<th colspan ="2">1202A. CUANTAS PERSONAS PARTICIPAN EN ESTE COMITÉ?</th>
+							</tr>
+							<tr>
+								<th>N° de Personas</th>
+								<th><?php echo form_input ($rpta2); ?></th>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<table class ="table table-bordered"> 
+		<tr>
+			<th rowspan ="2">1203. EL PROGRAMA O INSTITUCION AL QUE PERTENECE ESTE COMITÉ DE GESTIÓN ES:</th>
+			<th>1204. LOS BENEFICIOS LOGRADOS POR ESTE COMITÉ SON:</th>
+			<th>1205. CADA CUANTO TIEMPO SE ELIGE A ESTE COMITÉ?</th>
+			<th>1206. CON QUE FRECUENCIA SE REÚNEN EN ASAMBLEA PARA TRATAR TEMAS DE OBSERVACIONES DE BOSQUES:</th>
+		</tr>
+		<tr>
+			<th><center>Código</center></th>
+			<th><center>Código</center></th>
+			<th><center>Código</center></th>
+		</tr>
+		<tr>
+			<td>Programa Nacional de Conservacion de Bosques - PNCBMCC?</td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+		</tr>
+		<tr>
+			<td>Servicio Nacional de Areas naturales protegidas por el Estado - SENARP?</td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+		</tr>
+		<tr>
+			<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique) </td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+		</tr>
+		<tr>
+			<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique) </td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+		</tr>
+		<tr>
+			<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique) </td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+		</tr>
+		<tr>
+			<td>NINGUNO</td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+			<td><?php echo form_input ($rpta2); ?></td>
+		</tr>
+		<tr>
+			<th colspan ="2">1207. EL COMITÉ DE GESTIÓN REALIZA ACTIVIDADES COMO:</th>
+		</tr>
+		<td colspan ="2">
+			<table class ="table table-bordered">
+				<tr>
+					<td>Convocar a Asamblea Comunal?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Velar por el funcionamiento del Área natural protegida?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Elaborar y proponer en Asamblea Comunal el Plan  de Inversiones?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Velar por el Cumplimiento del Plan de Inversiones de la Comunidad?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Supervisar el cumplimiento de los contratos y/o convenios relacionados al manejo del área?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+			</table>
+		</td>
+		<td colspan ="2">
+			<table class ="table table-bordered">
+				<tr>
+					<td>Proponer las políticas de desarrollo y planes de Áreas Naturales Protegidas para su aprobación por el SENARP?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Seguimiento al Plan Maestro y de Monitoreo de las ANP?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique)</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique)</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+			</table>
+		</td>
+	</table>
+
+	<table class ="table table-bordered">
+	<tr>
+		<th><center>1300. IMPLEMENTACIÓN DE RECOMENDACIONES DEL SISTEMA DE ALERTA TEMPRANA</center></th>
+	</tr>
+	</table>
+
+	<table class = "table table-bordered">
+	<tr>
+		<th colspan ="4">1301. EL SISTEMA DE MONITOREO Y ALERTA TEMPRANA DEL PROGRAMA DE BOSQUES HAN BRINDADO RECOMENDACIONES A LA COMUNIDAD?</th>
+	</tr>
+	<tr>
+		<td>SI</td>
+		<td><?php echo form_input ($rpta2); ?></td>
+		<td>NO</td>
+		<td><?php echo form_input ($rpta2); ?> <b>PASE A CAP. 1400</b></td>
+	</tr>
+		<td colspan="4">
+			<table class ="table table-bordered">
+				<tr>
+					<th rowspan ="2">1302. CUALES SON LAS RECOMENDACIONES QUE BRINDARON?</th>
+					<th colspan ="4"><center>1303. HA SIDO IMPLEMENTADO?</center></th>
+				</tr>
+				<tr>
+					<th colspan = "4"><center>SI / NO</center></th>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+			</table>
+		</td>
+	</table>
+	<tr>
+		<td>
+			<table class ="table table-bordered">
+
+			</table>
+		</td>
+	</tr>
+
+	<table class ="table table-bordered"> 
+
+			<tr>
+				<th colspan="2"><center>1400. VISIÓN DE DESARROLLO DE LA COMUNIDAD: PERCEPCIONES Y BIENESTAR</center></th>
+			</tr>
+			<tr>
+				<td><!--Lado Izquierdo -->
+					<table>
+						<tr>
+							<th><center>GOBERNABILIDAD</center></th>
+						</tr>
+						<tr>
+							<th>1401. ACTUALMENTE, USTED CONFIA EN ORGANIZACIONES COMO:</th>
+						</tr>
+						<tr>
+							<td>
+								<table class ="table table-bordered">
+									<tr>
+										<th><center>Institución</center></th>
+										<th><center>SI / NO / NO OPINA / NO CONOCE</center></th>
+									</tr>
+									<tr>
+										<th>1. AIDESEP?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>2. 	COMARU?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>3. CONAFU?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>4. ORPIAN?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>5. OPIWAK?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>6. FECAS?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>7. FAD?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>8. FECOHRSA?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>9. OCCAAM?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>10. ODECABM?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>11. AIDESEP?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>12. FECONARIN?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>13. CAH?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>14. KANUJA?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>15. FECONACA?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>16. FECONABAP?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>17. CART?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>18. FECONAYA?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>19. ANAP?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>20. Otra?<?php echo form_input ($rpta2); ?> (Especifique)</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+									<tr>
+										<th>21. OARA?</th>
+										<th><?php echo form_input ($rpta2); ?></th>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<th>1402. EN SU OPINIÓN, SIENTE QUE EL ESTADO Y SUS INSTANCIAS DESCENTRALIZADAS (Ministerios, Gobiernos Regionales, Municipalidades, etc.) RECONOCEN EL DOMINIO DE LA COMUNIDAD SOBRE SUS TERRITORIOS?</th>
+						</tr>
+						<tr>
+							<td>
+								<table class ="table table-bordered">
+									<tr>
+										<td><center>SI</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									<tr>
+										<td><center>NO</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									<tr>
+										<td><center>En algunos casos</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+
+					</table>
+
+				</td>
+
+
+				<td><!--Lado derecho -->
+					<table>
+						<tr>
+							<th><center>CULTURA</center></th>
+						</tr>
+						<tr>
+							<th>1403. CREE UD. QUE LOS JÓVENES DE SU COMUNIDAD VALORAN:</th>
+						</tr>
+						<tr>
+							<td>
+								<table class ="table table-bordered">
+									<tr>
+										<th><center>Características</center></th>
+										<th><center>SI / NO </center></th>
+									</tr>
+									<tr>
+										<td><center>1. Las festividades o manifestaciones culturales, danzas, lengua, etc?</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									<tr>
+										<td><center>2. El manejo tradicional de resursos?</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									<tr>
+										<td><center>3. Las visitas a lugares sagrados de su comunidad?</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<th>1404. SIENTE QUE EN SU COMUNIDAD SE VIVE EN UN AMBIENTE DE TRANQUILIDAD Y PAZ?</th>
+						</tr>
+						<tr>
+							<td>
+								<table class ="table table-bordered">
+									<tr>
+										<td><center>1. Las festividades o manifestaciones culturales, danzas, lengua, etc?</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									<tr>
+										<td><center>2. El manejo tradicional de resursos?</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+									<tr>
+										<td><center>3. Las visitas a lugares sagrados de su comunidad?</center></td>
+										<td><?php echo form_input ($rpta2); ?></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+
+					</table>
+
+				</td>
+
+
+
+			</tr>
+
+
+		
+
+
+
+
+
+		</table>

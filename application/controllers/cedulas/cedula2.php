@@ -16,5 +16,13 @@ class Cedula2 extends CI_Controller {
 
 		$this->load->view('frontend/template', $data);
 	}
+	public function pcisneros()
+	{
+		$data['title'] = 'Doc. ENSENSA 02';
+		$data['nav'] = 'cedula2';
+		$data['main_content'] = 'cedulas/cedula2_II';
+
+		$this->load->view('frontend/template', $data);
+	}
 
 }
