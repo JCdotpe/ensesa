@@ -2196,33 +2196,403 @@ $rpt109_2=array(
 	'class'=>'form-control',
 );
 
-?>
+$rpt110_1=array(
+	'id'=>'$rpt110_1',
+	'name'=>'$rpt110_1',
+	'class'=>'form-control',
+);
 
+$rpt110_2=array(
+	'id'=>'$rpt110_2',
+	'name'=>'$rpt110_2',
+	'class'=>'form-control',
+);
+$rpt110_3=array(
+	'id'=>'$rpt110_3',
+	'name'=>'$rpt110_3',
+	'class'=>'form-control',
+);
+
+$rpt110_4=array(
+	'id'=>'$rpt110_4',
+	'name'=>'$rpt110_4',
+	'class'=>'form-control',
+);
+
+$rpt110_5=array(
+	'id'=>'$rpt110_5',
+	'name'=>'$rpt110_5',
+	'class'=>'form-control',
+);
+$rpt110_6=array(
+	'id'=>'$rpt110_6',
+	'name'=>'$rpt110_6',
+	'class'=>'form-control',
+);
+$rpt110_7=array(
+	'id'=>'$rpt110_7',
+	'name'=>'$rpt110_7',
+	'class'=>'form-control',
+);
+
+$rpt110_1_a=array(
+	'id'=>'$rpt110_1_a',
+	'name'=>'$rpt110_1_a',
+	'class'=>'form-control',
+);
+
+$rpt110_1_b=array(
+	'id'=>'$rpt110_1_b',
+	'name'=>'$rpt110_1_b',
+	'class'=>'form-control',
+);
+
+
+$rpt110_2_a=array(
+	'id'=>'$rpt110_2_a',
+	'name'=>'$rpt110_2_a',
+	'class'=>'form-control',
+);
+
+
+$rpt110_2_b=array(
+	'id'=>'$rpt110_2_b',
+	'name'=>'$rpt110_2_b',
+	'class'=>'form-control',
+);
+
+$rpt110_3_a=array(
+	'id'=>'$rpt110_3_a',
+	'name'=>'$rpt110_3_a',
+	'class'=>'form-control',
+);
+
+
+$rpt110_3_b=array(
+	'id'=>'$rpt110_3_b',
+	'name'=>'$rpt110_3_b',
+	'class'=>'form-control',
+);
+
+$rpt110_4_a=array(
+	'id'=>'$rpt110_4_a',
+	'name'=>'$rpt110_4_a',
+	'class'=>'form-control',
+);
+
+
+$rpt110_4_b=array(
+	'id'=>'$rpt110_4_b',
+	'name'=>'$rpt110_4_b',
+	'class'=>'form-control',
+);
+
+$rpt110_5_a=array(
+	'id'=>'$rpt110_5_a',
+	'name'=>'$rpt110_5_a',
+	'class'=>'form-control',
+);
+
+
+$rpt110_5_b=array(
+	'id'=>'$rpt110_5_b',
+	'name'=>'$rpt110_5_b',
+	'class'=>'form-control',
+);
+$rpt110_6_a=array(
+	'id'=>'$rpt110_6_a',
+	'name'=>'$rpt110_6_a',
+	'class'=>'form-control',
+);
+
+
+$rpt110_6_b=array(
+	'id'=>'$rpt110_6_b',
+	'name'=>'$rpt110_6_b',
+	'class'=>'form-control',
+);
+
+$rpt110_7_a=array(
+	'id'=>'$rpt110_7_a',
+	'name'=>'$rpt110_7_a',
+	'class'=>'form-control',
+);
+
+
+$rpt110_7_b=array(
+	'id'=>'$rpt110_7_b',
+	'name'=>'$rpt110_7_b',
+	'class'=>'form-control',
+);
+
+$otro_rpt110_6=array(
+	 'id'=>'$otro_rpt110_6',
+	 'name'=>'$otro_rpt110_6',
+	 'class'=>'form-control',
+);
+
+$rpt_111=array(
+	'id'=>'$rpt_111',
+	'name'=>'$rpt_111',
+	'class'=>'form-control',
+);
+
+
+$rpt113_1=array(
+	'id'=>'$rpt113_1',
+	'name'=>'$rpt113_1',
+	'class'=>'form-control',
+);
+
+
+$rpt113_2=array(
+	'id'=>'$rpt113_2',
+	'name'=>'$rpt113_2',
+	'class'=>'form-control',
+);
+
+
+$rpt113_3=array(
+	'id'=>'$rpt113_3',
+	'name'=>'$rpt113_3',
+	'class'=>'form-control',
+);
+
+
+
+
+$rpt113_5=array(
+	'id'=>'$rpt113_5',
+	'name'=>'$rpt113_5',
+	'class'=>'form-control',
+);
+
+
+$otro_rpt113_4=array(
+	'id'=>'$otro_rpt113_4',
+	'name'=>'$otro_rpt113_4',
+	'class'=>'form-control',
+);
+
+$otro_rpt112_5=array(
+	'id'=>'$otro_rpt112_5',
+	'name'=>'$otro_rpt112_5',
+	'class'=>'form-control',
+);
+
+$especifique_113=array(
+	'id'=>'$especifique_113',
+	'name'=>'$especifique_113',
+	'class'=>'form-control',
+);
+
+$rpt112_1=array(
+	'id'=>'$rpt112_1',
+	'name'=>'$rpt112_1',
+	'class'=>'form-control',
+);
+
+$rpt112_1_a=array(
+	'id'=>'$rpt112_1_a',
+	'name'=>'$rpt112_1_a',
+	'class'=>'form-control',
+);
+
+$rpt112_1_b=array(
+	'id'=>'$rpt112_1_b',
+	'name'=>'$rpt112_1_b',
+	'class'=>'form-control',
+);
+
+$rpt112_2=array(
+	'id'=>'$rpt112_2',
+	'name'=>'$rpt112_2',
+	'class'=>'form-control',
+);
+
+$rpt112_2_a=array(
+	'id'=>'$rpt112_2_a',
+	'name'=>'$rpt112_2_a',
+	'class'=>'form-control',
+);
+
+$rpt112_2_b=array(
+	'id'=>'$rpt112_2_b',
+	'name'=>'$rpt112_2_b',
+	'class'=>'form-control',
+);
+
+$rpt112_3=array(
+	'id'=>'$rpt112_3',
+	'name'=>'$rpt112_3',
+	'class'=>'form-control',
+);
+
+$rpt112_3_a=array(
+	'id'=>'$rpt112_3_a',
+	'name'=>'$rpt112_3_a',
+	'class'=>'form-control',
+);
+
+$rpt112_3_b=array(
+	'id'=>'$rpt112_3_b',
+	'name'=>'$rpt112_3_b',
+	'class'=>'form-control',
+);
+
+$rpt112_4=array(
+	'id'=>'$rpt112_4',
+	'name'=>'$rpt112_4',
+	'class'=>'form-control',
+);
+
+$rpt112_4_a=array(
+	'id'=>'$rpt112_4_a',
+	'name'=>'$rpt112_4_a',
+	'class'=>'form-control',
+);
+
+$rpt112_4_b=array(
+	'id'=>'$rpt112_4_b',
+	'name'=>'$rpt112_4_b',
+	'class'=>'form-control',
+);
+
+$rpt112_5=array(
+	'id'=>'$rpt112_5',
+	'name'=>'$rpt112_5',
+	'class'=>'form-control',
+);
+
+$rpt112_5_a=array(
+	'id'=>'$rpt112_5_a',
+	'name'=>'$rpt112_5_a',
+	'class'=>'form-control',
+);
+
+$rpt112_5_b=array(
+	'id'=>'$rpt112_5_b',
+	'name'=>'$rpt112_5_b',
+	'class'=>'form-control',
+);
+?>
 
 <table class="table table-bordered">
 <tr>
-	<th colspan="3"> Educación </th>
-</tr>
-<tr>
-	<td><!--Left side -->
-		<table class="table">
-			<tr><td> 109 En la comunidad ¿Existen centro educativos? </td></tr>
-			<tr><td><?php echo form_input($rpt109_1);?></td></tr>
-			<tr><td> <b>¿Cuantos?</b><?php echo form_input($rpt109_2);?><td> Pase a 111 </td> </td> </tr>
-	</td>
-</tr>
+		<td><!-- lado izquierdo -->
+			<table class="table ">
+				<tr><td> Educacion </td> </tr>
+				<tr><td> 109. En la comunidad, ¿existen centros educativos? </td></tr>
+				<tr><td><?php echo form_input($rpt109_1);?></td></tr>
+				<tr><td>  <?php echo form_input($rpt109_2);?>Cuantos </td></tr>
+				<tr></tr>
+				<tr>
+					<td>					
+						<table class="table table-bordered">
+							<th> 110. Indique los niveles educativos de los centros de enseñanza, como se llaman y la lengua que se imparte la educación </th>
+							<tr>
+								<td> Nivel educativo </td>
+								<td> Si / No </td>
+								<td> 110A. Nombre de la institución educativa </td>
+								<td> 110B. Lengua en que se imparte la educación </td>
+							</tr>
+							<tr>
+								<td> 1. ¿Inicial? </td>
+								<td><?php echo form_input($rpt110_1);?> </td>
+								<td><?php echo form_input($rpt110_1_a);?> </td>
+								<td><?php echo form_input($rpt110_1_b);?> </td>
+							</tr>
+							<tr>
+								<td> 2.¿Primaria? </td>
+								<td><?php echo form_input($rpt110_2);?> </td>
+								<td> <?php echo form_input($rpt110_2_a);?> </td>
+								<td> <?php echo form_input($rpt110_2_b);?> </td>
 
-<tr>
-	<td>
-		<table class="table">
-			<tr><td> 110. Indique los niveles educativos de los centros de enseñanza, como se llaman y la lengua que se imparte la educacion.</td></tr>
-			<tr><td> Nivel Educativo <td> Pase a la siguiente alternativa </td></td></tr>
-			<tr><td> 110A. Nombre de la Institucion Educativa </td></tr>
-			<tr><td colspan="3"> 110B. Lengua en que se imparte la educacion </td></tr>
-			
+							</tr>
 
-</tr>	
+							<tr>
+								<td> 3.¿Secundaria? </td>
+								<td><?php echo form_input($rpt110_3);?> </td>
+								<td> <?php echo form_input($rpt110_3_a);?> </td>
+								<td> <?php echo form_input($rpt110_3_b);?> </td>
+							</tr>
+
+
+							<tr>
+								<td> 4.¿Instituto Agropecuario? </td>
+								<td><?php echo form_input($rpt110_4);?> </td>
+								<td> <?php echo form_input($rpt110_4_a);?> </td>
+								<td> <?php echo form_input($rpt110_4_b);?> </td>
+							</tr>
+
+
+							<tr>
+								<td> 5.¿Instituto Pedagogico? </td>
+								<td><?php echo form_input($rpt110_5);?> </td>
+								<td> <?php echo form_input($rpt110_5_a);?> </td>
+								<td> <?php echo form_input($rpt110_5_b);?> </td>
+							</tr>
+
+
+							<tr>
+								<td> 6. ¿Instituto Tecnologico? </td>
+								<td><?php echo form_input($rpt110_6);?> </td>
+								<td> <?php echo form_input($rpt110_6_a);?> </td>
+								<td> <?php echo form_input($rpt110_6_b);?></td>
+							</tr>
+
+							<tr>
+								<td>  7.¿Otro? <br><?php echo form_input($otro_rpt110_6);?></br> <br>Especifique </br> </td>
+								<td> <?php echo form_input($rpt110_7);?> </td>
+								<td> <?php echo form_input($rpt110_7_a);?> </td>
+								<td> <?php echo form_input($rpt110_7_b);?></td>
+							</tr>
+					</table>
+				</td>
+
+				</tr>	
+			</table>	
+		</td>
+
+		<td> <!--lado derecho-->
+			<table class="table">
+	             <tr>
+	                 <td> 111. En la comunidad, ¿Existen establecimientos o servicios de salud? </td>
+		             <td> <?php echo form_input($rpt_111);?> <br>Pase a 113 </td>
+				</tr>
+				<tr>
+					 <td>
+						<table class="table">
+			    		  <td> 112. Los establecimientos o servicios que existen en la comunidad son: </td>
+			    		  <table class="table table-bordered">
+			    		  <tr>
+			    		  	<td> Establecimientos o servicios que existen en la comunidad son: </td>
+			    		  	<td> Si / No </td>
+			    		  	<td> 112A ¿Cuantos? </td>
+			    		  	<td> 112B. Pertenece al sector; ¿Publico o privado? </td>
+			    		  </tr>
+
+			    		  <tr>
+			    		  	<td> 1. ¿Centro de salud?</td>
+			    		  	<td> <?php echo form_input($rpt112_1);?></td>
+			    		  </tr>
+
+
+			    		</table>
+			    		</table>
+			    	 </td>
+			    	 <td>
+ 						<table class="table">
+
+			    	 </td>
+				</tr>
+			</table>
+		</td>	
+</tr>
 </table>
 
 
+
+
+					
 
