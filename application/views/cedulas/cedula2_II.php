@@ -1985,18 +1985,117 @@ $tecnicas_aprovechamiento = array(
 						</tr>
 
 					</table>
-
 				</td>
-
-
-
 			</tr>
-
-
-		
-
-
-
-
-
 		</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<th><center>VISIÓN DE DESARROLLO</center></th>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<th colspan ="2">1407. USTED NOTA DESAROOLLO EN SU COMUNIDAD EN EL ASPECTO:</th>
+		<th>1408. COMO VE A SU COMUNIDAD EN 5 AÑOS EN EL ASPECTO <?php echo form_input ($rpta2); ?> (Circule un código)</th>
+	</tr>
+	<tr>
+		<th> </th>
+		<th><center>SI / NO</center></th>
+		<th><center>Código</center></th>
+	</tr>
+	<tr>
+		<th>1. Político?</th>
+		<th><?php echo form_input ($rpta2); ?></th>
+		<th><?php echo form_input ($rpta2); ?></th>
+	</tr>
+	<tr>
+		<th>2. Cultural?</th>
+		<th><?php echo form_input ($rpta2); ?></th>
+		<th><?php echo form_input ($rpta2); ?></th>
+	</tr>
+	<tr>
+		<th>3. Social?</th>
+		<th><?php echo form_input ($rpta2); ?></th>
+		<th><?php echo form_input ($rpta2); ?></th>
+	</tr>
+	<tr>
+		<th>4. Económico?</th>
+		<th><?php echo form_input ($rpta2); ?></th>
+		<th><?php echo form_input ($rpta2); ?></th>
+	</tr>
+	<tr>
+		<th>5. Ambiental?</th>
+		<th><?php echo form_input ($rpta2); ?></th>
+		<th><?php echo form_input ($rpta2); ?></th>
+	</tr>
+	<tr>
+		<th>6. Otro? <?php echo form_input ($rpta2); ?> (Especifique)</th>
+		<th><?php echo form_input ($rpta2); ?></th>
+		<th><?php echo form_input ($rpta2); ?></th>
+	</tr>
+</table>
+
+<table class = "table table-bordered">
+	<tr>
+		<th><center>Solo lea estas preguntas si en la pregunta 1407, circuló al menos un código 1 "Con mayor desarrollo"</center></th>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<td> <!--Lado Izquierdo-->
+			<table class ="table">
+				<tr>
+					<th colspan ="2">1409. CONSIDERA UD. QUE ESTE MAYOR DESARROLLO LO LOGRAN CON APOYO DE ALGUNA INSTITUCION U ORGANIZACION?</th>
+				</tr>
+				<tr>
+					<th><center>SI / NO </center></th>
+					<th><?php echo form_input ($rpta2); ?><b>PASE A CAP. 1500</b></th>
+				</tr>
+			</table>
+
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table = class ="table">
+				<tr>
+					<th colspan ="2"> 1410. DE QUE INSTITUCION (ES) Y ORGANIZACION(ES) ESPERA UD. APOYO PARA LOGRAR ESTE MAYOR DESAROLLO (Circule uno o más códigos)</th>
+				</tr>
+				<tr>
+					<td>Ministerio de Ambiente</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Ministerio de Agricultura</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>ONG's</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Cooperación Internacional</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>La Iglesia</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Gobierno Local</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Gobierno Central</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>Otro <?php echo form_input ($rpta2); ?> (Especifique)</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
