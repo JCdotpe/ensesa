@@ -1,8 +1,8 @@
 <?php 
 
-$cuestionario = array(
-				'id' => 'cuestionario',
-				'name' => 'cuestionario',
+$E1_Cuestionario_Nro = array(
+				'id' => 'E1_Cuestionario_Nro',
+				'name' => 'E1_Cuestionario_Nro',
 				'class' => 'form-control',
 			);
 
@@ -12,196 +12,213 @@ $cuestionario_adicional = array(
 				'class' => 'form-control',
 			);
 
-$departamento = array(
-				'id' => 'departamento',
-				'name' => 'departamento',
+$Nombre_Dpto = array(
+				'id' => 'Nombre_Dpto',
+				'name' => 'Nombre_Dpto',
 				'class' => 'form-control',
 			);
 
-$codigo_departamento = array(
-				'id' => 'codigo_departamento',
-				'name' => 'codigo_departamento',
-				'class' => 'form-control',
-				'maxlenght'=>'2',
-			);
-
-$provincia = array(
-				'id' => 'provincia',
-				'name' => 'provincia',
-				'class' => 'form-control',
-			);
-
-$codigo_provincia = array(
-				'id' => 'codigo_provincia',
-				'name' => 'codigo_provincia',
+$A_1_Cod_Dpto = array(
+				'id' => 'A_1_Cod_Dpto',
+				'name' => 'A_1_Cod_Dpto',
 				'class' => 'form-control',
 				'maxlenght'=>'2',
 			);
 
-$distrito = array(
-				'id' => 'distrito',
-				'name' => 'distrito',
+$Nombre_Prov = array(
+				'id' => 'Nombre_Prov',
+				'name' => 'Nombre_Prov',
 				'class' => 'form-control',
 			);
 
-$codigo_distrito = array(
-				'id' => 'codigo_distrito',
-				'name' => 'codigo_distrito',
+$A_2_Cod_Prov = array(
+				'id' => 'A_2_Cod_Prov',
+				'name' => 'A_2_Cod_Prov',
 				'class' => 'form-control',
 				'maxlenght'=>'2',
 			);
 
-$centro_poblado = array(
-				'id' => 'centro_poblado',
-				'name' => 'centro_poblado',
+$Nombre_Dist = array(
+				'id' => 'Nombre_Dist',
+				'name' => 'Nombre_Dist',
 				'class' => 'form-control',
 			);
 
-$comunidad_nativa = array(
-				'id' => 'comunidad_nativa',
-				'name' => 'comunidad_nativa',
+$A_3_Cod_Dist = array(
+				'id' => 'A_3_Cod_Dist',
+				'name' => 'A_3_Cod_Dist',
+				'class' => 'form-control',
+				'maxlenght'=>'2',
+			);
+
+$A_4_Centro_Poblado = array(
+				'id' => 'A_4_Centro_Poblado',
+				'name' => 'A_4_Centro_Poblado',
 				'class' => 'form-control',
 			);
 
-$anexo_ccnn = array(
-				'id' => 'anexo_ccnn',
-				'name' => 'anexo_ccnn',
+$A_5_Comunidad_Nativa = array(
+				'id' => 'A_5_Comunidad_Nativa',
+				'name' => 'A_5_Comunidad_Nativa',
 				'class' => 'form-control',
 			);
 
-$zona = array(
-			'id' => 'zona',
-			'name' => 'zona',
+$A_6_Anexo_Cn = array(
+				'id' => 'A_6_Anexo_Cn',
+				'name' => 'A_6_Anexo_Cn',
+				'class' => 'form-control',
+			);
+$B_7_Zona = array(
+			'id' => 'B_7_Zona',
+			'name' => 'B_7_Zona',
 			'class' => 'form-control',
 		);
 
-$hogares = array(
-			'id' => 'hogares',
-			'name' => 'hogares',
+$B_8_Manzana = array(
+			'id' => 'B_8_Manzana',
+			'name' => 'B_8_Manzana',
 			'class' => 'form-control',
 		);
-
+$B_9_1_AER_ini = array(
+			'id' => 'B_9_1_AER_ini',
+			'name' => 'B_9_1_AER_ini',
+			'class' => 'form-control',
+		);
+$B_9_2_AER_fin = array(
+			'id' => 'B_9_2_AER_fin',
+			'name' => 'B_9_2_AER_fin',
+			'class' => 'form-control',
+		);
+$B_10_Vivienda_nro = array(
+			'id' => 'B_10_Vivienda_nro',
+			'name' => 'B_10_Vivienda_nro',
+			'class' => 'form-control',
+		);
 ?>
 <!-- -->
 <?php 
 
-$tipo_via = array(
-				'id' => 'tipo_via',
-				'name' => 'tipo_via',
+$E1_B_11_Tipovia = array(
+				'id' => 'E1_B_11_Tipovia',
+				'name' => 'E1_B_11_Tipovia',
 				'class' => 'form-control',
 			);
 
-$nombre_via = array(
-				'id' => 'nombre_via',
-				'name' => 'nombre_via',
+$E1_B_11_Nombre = array(
+				'id' => 'E1_B_11_Nombre',
+				'name' => 'E1_B_11_Nombre',
 				'class' => 'form-control',
 			);
 
-$nro_puerta = array(
-				'id' => 'nro_puerta',
-				'name' => 'nro_puerta',
+$E1_B_11_Nro = array(
+				'id' => 'E1_B_11_Nro',
+				'name' => 'E1_B_11_Nro',
 				'class' => 'form-control',
 			);
 
-$interior = array(
-				'id' => 'interior',
-				'name' => 'interior',
+$E1_B_11_Int = array(
+				'id' => 'E1_B_11_Int',
+				'name' => 'E1_B_11_Int',
 				'class' => 'form-control',
 			);
 
-$piso = array(
-				'id' => 'piso',
-				'name' => 'piso',
+$E1_B_11_Piso = array(
+				'id' => 'E1_B_11_Piso',
+				'name' => 'E1_B_11_Piso',
 				'class' => 'form-control',
 			);
 
-$manzana = array(
-				'id' => 'manzana',
-				'name' => 'manzana',
+$E1_B_11_Mz = array(
+				'id' => 'E1_B_11_Mz',
+				'name' => 'E1_B_11_Mz',
 				'class' => 'form-control',
 			);
 
-$lote = array(
-				'id' => 'lote',
-				'name' => 'lote',
+$E1_B_11_Lote = array(
+				'id' => 'E1_B_11_Lote',
+				'name' => 'E1_B_11_Lote',
 				'class' => 'form-control',
 			);
 
-$km = array(
-				'id' => 'km',
-				'name' => 'km',
+$E1_B_11_Km = array(
+				'id' => 'E1_B_11_Km',
+				'name' => 'E1_B_11_Km',
 				'class' => 'form-control',
 			);
 
-$telefono = array(
-				'id' => 'telefono',
-				'name' => 'telefono',
+$E1_B_11_Telefono = array(
+				'id' => 'E1_B_11_Telefono',
+				'name' => 'E1_B_11_Telefono',
 				'class' => 'form-control',
 			);
 
-$referencia = array(
-				'id' => 'referencia',
-				'name' => 'referencia',
+$E1_B_11A_Tipo = array(
+				'id' => 'E1_B_11A_Tipo',
+				'name' => 'E1_B_11A_Tipo',
 				'class' => 'form-control',
 			);
 
-$referencia_nombre = array(
-				'id' => 'referencia_nombre',
-				'name' => 'referencia_nombre',
+$E1_B_11A_Nombre = array(
+				'id' => 'E1_B_11A_Nombre',
+				'name' => 'E1_B_11A_Nombre',
 				'class' => 'form-control',
 			);
 
-$cuantos_hogares = array(
-				'id' => 'cuantos_hogares',
-				'name' => 'cuantos_hogares',
+$E1_B_12 = array(
+				'id' => 'E1_B_12',
+				'name' => 'E1_B_12',
 				'class' => 'form-control',
 			);
 
-$hogar_nro = array(
-				'id' => 'hogar_nro',
-				'name' => 'hogar_nro',
+$E1_B_13_Nro_Hogar = array(
+				'id' => 'E1_B_13_Nro_Hogar',
+				'name' => 'E1_B_13_Nro_Hogar',
 				'class' => 'form-control',
 			);
 
-$nombre_jefe_hogar = array(
-				'id' => 'nombre_jefe_hogar',
-				'name' => 'nombre_jefe_hogar',
+$E1_B_14_Nombre = array(
+				'id' => 'E1_B_14_Nombre',
+				'name' => 'E1_B_14_Nombre',
+				'class' => 'form-control',
+			);
+$E1_B_14_Apellidos = array(
+				'id' => 'E1_B_14_Apellidos',
+				'name' => 'E1_B_14_Apellidos',
+				'class' => 'form-control',
+			);
+$E1_B_15 = array(
+				'id' => 'E1_B_15',
+				'name' => 'E1_B_15',
 				'class' => 'form-control',
 			);
 
-$esta_vivienda = array(
-				'id' => 'esta_vivienda',
-				'name' => 'esta_vivienda',
+$E1_B_16_Dpto = array(
+				'id' => 'E1_B_16_Dpto',
+				'name' => 'E1_B_16_Dpto',
 				'class' => 'form-control',
 			);
 
-$departamento_preg_16 = array(
-				'id' => 'departamento_preg_16',
-				'name' => 'departamento_preg_16',
+$E1_B_16_Prov = array(
+				'id' => 'E1_B_16_Prov',
+				'name' => 'E1_B_16_Prov',
 				'class' => 'form-control',
 			);
 
-$provincia_preg_16 = array(
-				'id' => 'provincia_preg_16',
-				'name' => 'provincia_preg_16',
+$E1_B_16_Dist = array(
+				'id' => 'E1_B_16_Dist',
+				'name' => 'E1_B_16_Dist',
 				'class' => 'form-control',
 			);
 
-$distrito_preg_16 = array(
-				'id' => 'distrito_preg_16',
-				'name' => 'distrito_preg_16',
+$E1_B_16_CCPP = array(
+				'id' => 'E1_B_16_CCPP',
+				'name' => 'E1_B_16_CCPP',
 				'class' => 'form-control',
 			);
 
-$ccpp_preg_16 = array(
-				'id' => 'ccpp_preg_16',
-				'name' => 'ccpp_preg_16',
-				'class' => 'form-control',
-			);
-
-$mismo_ccpp_preg_16 = array(
-				'id' => 'mismo_ccpp_preg_16',
-				'name' => 'mismo_ccpp_preg_16',
+$E1_B_16_Mismo = array(
+				'id' => 'E1_B_16_Mismo',
+				'name' => 'E1_B_16_Mismo',
 				'class' => 'form-control',
 			);
 
@@ -210,366 +227,532 @@ $mismo_ccpp_preg_16 = array(
 <!-- Item C -->
 <?php 
 // Primera Visita
-$first_fecha_uno = array(
-					'id' => 'first_fecha_uno',
-					'name' => 'first_fecha_uno',
+$E1_C_Visita_Nro_1 = array(
+					'id' => 'E1_C_Visita_Nro-1',
+					'name' => 'E1_C_Visita_Nro-1',
+					'value'	=> '1',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_1 = array(
+					'id' => 'E1_C_Ec_Fecha-1',
+					'name' => 'E1_C_Ec_Fecha-1',
 					'class' => 'form-control' 
 				);
 
-$first_hora_uno_de = array(
-					'id' => 'first_hora_uno_de',
-					'name' => 'first_hora_uno_de',
+$E1_C_Ec_Hini_1 = array(
+					'id' => 'E1_C_Ec_Hini-1',
+					'name' => 'E1_C_Ec_Hini-1',
 					'class' => 'form-control' 
 				);
 
-$first_hora_uno_a = array(
-					'id' => 'first_hora_uno_a',
-					'name' => 'first_hora_uno_a',
+$E1_C_Ec_Hfin_1 = array(
+					'id' => 'E1_C_Ec_Hfin-1',
+					'name' => 'E1_C_Ec_Hfin-1',
 					'class' => 'form-control' 
 				);
 
-$first_fecha_dos = array(
-					'id' => 'first_fecha_dos',
-					'name' => 'first_fecha_dos',
+$E1_C_Ec_Prox_F_1 = array(
+					'id' => 'E1_C_Ec_Prox_F-1',
+					'name' => 'E1_C_Ec_Prox_F-1',
 					'class' => 'form-control' 
 				);
 
-$first_hora_dos = array(
-					'id' => 'first_hora_dos',
-					'name' => 'first_hora_dos',
+$E1_C_Ec_Prox_H_1 = array(
+					'id' => 'E1_C_Ec_Prox_H-1',
+					'name' => 'E1_C_Ec_Prox_H-1',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_1 = array(
+					'id' => 'E1_C_Ec_Res-1',
+					'name' => 'E1_C_Ec_Res-1',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_1 = array(
+					'id' => 'E1_C_Ec_Res_O-1',
+					'name' => 'E1_C_Ec_Res_O-1',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_1 = array(
+					'id' => 'E1_C_Je_Fecha-1',
+					'name' => 'E1_C_Je_Fecha-1',
 					'class' => 'form-control' 
 				);
 
-$first_resultado_uno = array(
-					'id' => 'first_resultado_uno',
-					'name' => 'first_resultado_uno',
+$E1_C_Je_Hini_1 = array(
+					'id' => 'E1_C_Je_Hini-1',
+					'name' => 'E1_C_Je_Hini-1',
 					'class' => 'form-control' 
 				);
 
-$first_fecha_tres = array(
-					'id' => 'first_fecha_tres',
-					'name' => 'first_fecha_tres',
+$E1_C_Je_Hfin_1 = array(
+					'id' => 'E1_C_Je_Hfin-1',
+					'name' => 'E1_C_Je_Hfin-1',
 					'class' => 'form-control' 
 				);
-
-$first_hora_tres_de = array(
-					'id' => 'first_hora_tres_de',
-					'name' => 'first_hora_tres_de',
+$E1_C_Je_Res_1 = array(
+					'id' => 'E1_C_Je_Res-1',
+					'name' => 'E1_C_Je_Res-1',
 					'class' => 'form-control' 
 				);
-
-$first_hora_tres_a = array(
-					'id' => 'first_hora_tres_a',
-					'name' => 'first_hora_tres_a',
+$E1_C_Je_Res_O_1 = array(
+					'id' => 'E1_C_Je_Res_O-1',
+					'name' => 'E1_C_Je_Res_O-1',
 					'class' => 'form-control' 
 				);
-
-$first_resultado_dos = array(
-					'id' => 'first_resultado_dos',
-					'name' => 'first_resultado_dos',
-					'class' => 'form-control' 
-				);
-
 // Segunda Visita
-$second_fecha_uno = array(
-					'id' => 'second_fecha_uno',
-					'name' => 'second_fecha_uno',
+$E1_C_Visita_Nro_2 = array(
+					'id' => 'E1_C_Visita_Nro-2',
+					'name' => 'E1_C_Visita_Nro-2',
+					'value'	=> '3',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_2 = array(
+					'id' => 'E1_C_Ec_Fecha-2',
+					'name' => 'E1_C_Ec_Fecha-2',
 					'class' => 'form-control' 
 				);
 
-$second_hora_uno_de = array(
-					'id' => 'second_hora_uno_de',
-					'name' => 'second_hora_uno_de',
+$E1_C_Ec_Hini_2 = array(
+					'id' => 'E1_C_Ec_Hini-2',
+					'name' => 'E1_C_Ec_Hini-2',
 					'class' => 'form-control' 
 				);
 
-$second_hora_uno_a = array(
-					'id' => 'second_hora_uno_a',
-					'name' => 'second_hora_uno_a',
+$E1_C_Ec_Hfin_2 = array(
+					'id' => 'E1_C_Ec_Hfin-2',
+					'name' => 'E1_C_Ec_Hfin-2',
 					'class' => 'form-control' 
 				);
 
-$second_fecha_dos = array(
-					'id' => 'second_fecha_dos',
-					'name' => 'second_fecha_dos',
+$E1_C_Ec_Prox_F_2 = array(
+					'id' => 'E1_C_Ec_Prox_F-2',
+					'name' => 'E1_C_Ec_Prox_F-2',
 					'class' => 'form-control' 
 				);
 
-$second_hora_dos = array(
-					'id' => 'second_hora_dos',
-					'name' => 'second_hora_dos',
+$E1_C_Ec_Prox_H_2 = array(
+					'id' => 'E1_C_Ec_Prox_H-2',
+					'name' => 'E1_C_Ec_Prox_H-2',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_2 = array(
+					'id' => 'E1_C_Ec_Res-2',
+					'name' => 'E1_C_Ec_Res-2',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_2 = array(
+					'id' => 'E1_C_Ec_Res_O-2',
+					'name' => 'E1_C_Ec_Res_O-2',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_2 = array(
+					'id' => 'E1_C_Je_Fecha-2',
+					'name' => 'E1_C_Je_Fecha-2',
 					'class' => 'form-control' 
 				);
 
-$second_resultado_uno = array(
-					'id' => 'second_resultado_uno',
-					'name' => 'second_resultado_uno',
+$E1_C_Je_Hini_2 = array(
+					'id' => 'E1_C_Je_Hini-2',
+					'name' => 'E1_C_Je_Hini-2',
 					'class' => 'form-control' 
 				);
 
-$second_fecha_tres = array(
-					'id' => 'second_fecha_tres',
-					'name' => 'second_fecha_tres',
+$E1_C_Je_Hfin_2 = array(
+					'id' => 'E1_C_Je_Hfin-2',
+					'name' => 'E1_C_Je_Hfin-2',
 					'class' => 'form-control' 
 				);
-
-$second_hora_tres_de = array(
-					'id' => 'second_hora_tres_de',
-					'name' => 'second_hora_tres_de',
+$E1_C_Je_Res_2 = array(
+					'id' => 'E1_C_Je_Res-2',
+					'name' => 'E1_C_Je_Res-2',
 					'class' => 'form-control' 
 				);
-
-$second_hora_tres_a = array(
-					'id' => 'second_hora_tres_a',
-					'name' => 'second_hora_tres_a',
-					'class' => 'form-control' 
-				);
-
-$second_resultado_dos = array(
-					'id' => 'second_resultado_dos',
-					'name' => 'second_resultado_dos',
+$E1_C_Je_Res_O_2 = array(
+					'id' => 'E1_C_Je_Res_O-2',
+					'name' => 'E1_C_Je_Res_O-2',
 					'class' => 'form-control' 
 				);
 // Tercera Visita
-$third_fecha_uno = array(
-					'id' => 'third_fecha_uno',
-					'name' => 'third_fecha_uno',
+$E1_C_Visita_Nro_3 = array(
+					'id' => 'E1_C_Visita_Nro-3',
+					'name' => 'E1_C_Visita_Nro-3',
+					'value'	=> '3',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_3 = array(
+					'id' => 'E1_C_Ec_Fecha-3',
+					'name' => 'E1_C_Ec_Fecha-3',
 					'class' => 'form-control' 
 				);
 
-$third_hora_uno_de = array(
-					'id' => 'third_hora_uno_de',
-					'name' => 'third_hora_uno_de',
+$E1_C_Ec_Hini_3 = array(
+					'id' => 'E1_C_Ec_Hini-3',
+					'name' => 'E1_C_Ec_Hini-3',
 					'class' => 'form-control' 
 				);
 
-$third_hora_uno_a = array(
-					'id' => 'third_hora_uno_a',
-					'name' => 'third_hora_uno_a',
+$E1_C_Ec_Hfin_3 = array(
+					'id' => 'E1_C_Ec_Hfin-3',
+					'name' => 'E1_C_Ec_Hfin-3',
 					'class' => 'form-control' 
 				);
 
-$third_fecha_dos = array(
-					'id' => 'third_fecha_dos',
-					'name' => 'third_fecha_dos',
+$E1_C_Ec_Prox_F_3 = array(
+					'id' => 'E1_C_Ec_Prox_F-3',
+					'name' => 'E1_C_Ec_Prox_F-3',
 					'class' => 'form-control' 
 				);
 
-$third_hora_dos = array(
-					'id' => 'third_hora_dos',
-					'name' => 'third_hora_dos',
+$E1_C_Ec_Prox_H_3 = array(
+					'id' => 'E1_C_Ec_Prox_H-3',
+					'name' => 'E1_C_Ec_Prox_H-3',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_3 = array(
+					'id' => 'E1_C_Ec_Res-3',
+					'name' => 'E1_C_Ec_Res-3',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_3 = array(
+					'id' => 'E1_C_Ec_Res_O-3',
+					'name' => 'E1_C_Ec_Res_O-3',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_3 = array(
+					'id' => 'E1_C_Je_Fecha-3',
+					'name' => 'E1_C_Je_Fecha-3',
 					'class' => 'form-control' 
 				);
 
-$third_resultado_uno = array(
-					'id' => 'third_resultado_uno',
-					'name' => 'third_resultado_uno',
+$E1_C_Je_Hini_3 = array(
+					'id' => 'E1_C_Je_Hini-3',
+					'name' => 'E1_C_Je_Hini-3',
 					'class' => 'form-control' 
 				);
 
-$third_fecha_tres = array(
-					'id' => 'third_fecha_tres',
-					'name' => 'third_fecha_tres',
+$E1_C_Je_Hfin_3 = array(
+					'id' => 'E1_C_Je_Hfin-3',
+					'name' => 'E1_C_Je_Hfin-3',
 					'class' => 'form-control' 
 				);
-
-$third_hora_tres_de = array(
-					'id' => 'third_hora_tres_de',
-					'name' => 'third_hora_tres_de',
+$E1_C_Je_Res_3 = array(
+					'id' => 'E1_C_Je_Res-3',
+					'name' => 'E1_C_Je_Res-3',
 					'class' => 'form-control' 
 				);
-
-$third_hora_tres_a = array(
-					'id' => 'third_hora_tres_a',
-					'name' => 'third_hora_tres_a',
-					'class' => 'form-control' 
-				);
-
-$third_resultado_dos = array(
-					'id' => 'third_resultado_dos',
-					'name' => 'third_resultado_dos',
+$E1_C_Je_Res_O_3 = array(
+					'id' => 'E1_C_Je_Res_O-3',
+					'name' => 'E1_C_Je_Res_O-3',
 					'class' => 'form-control' 
 				);
 // Cuarta Visita
-$fourth_fecha_uno = array(
-					'id' => 'fourth_fecha_uno',
-					'name' => 'fourth_fecha_uno',
+$E1_C_Visita_Nro_4 = array(
+					'id' => 'E1_C_Visita_Nro-4',
+					'name' => 'E1_C_Visita_Nro-4',
+					'value'	=> '4',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_4 = array(
+					'id' => 'E1_C_Ec_Fecha-4',
+					'name' => 'E1_C_Ec_Fecha-4',
 					'class' => 'form-control' 
 				);
 
-$fourth_hora_uno_de = array(
-					'id' => 'fourth_hora_uno_de',
-					'name' => 'fourth_hora_uno_de',
+$E1_C_Ec_Hini_4 = array(
+					'id' => 'E1_C_Ec_Hini-4',
+					'name' => 'E1_C_Ec_Hini-4',
 					'class' => 'form-control' 
 				);
 
-$fourth_hora_uno_a = array(
-					'id' => 'fourth_hora_uno_a',
-					'name' => 'fourth_hora_uno_a',
+$E1_C_Ec_Hfin_4 = array(
+					'id' => 'E1_C_Ec_Hfin-4',
+					'name' => 'E1_C_Ec_Hfin-4',
 					'class' => 'form-control' 
 				);
 
-$fourth_fecha_dos = array(
-					'id' => 'fourth_fecha_dos',
-					'name' => 'fourth_fecha_dos',
+$E1_C_Ec_Prox_F_4 = array(
+					'id' => 'E1_C_Ec_Prox_F-4',
+					'name' => 'E1_C_Ec_Prox_F-4',
 					'class' => 'form-control' 
 				);
 
-$fourth_hora_dos = array(
-					'id' => 'fourth_hora_dos',
-					'name' => 'fourth_hora_dos',
+$E1_C_Ec_Prox_H_4 = array(
+					'id' => 'E1_C_Ec_Prox_H-4',
+					'name' => 'E1_C_Ec_Prox_H-4',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_4 = array(
+					'id' => 'E1_C_Ec_Res-4',
+					'name' => 'E1_C_Ec_Res-4',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_4 = array(
+					'id' => 'E1_C_Ec_Res_O-4',
+					'name' => 'E1_C_Ec_Res_O-4',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_4 = array(
+					'id' => 'E1_C_Je_Fecha-4',
+					'name' => 'E1_C_Je_Fecha-4',
 					'class' => 'form-control' 
 				);
 
-$fourth_resultado_uno = array(
-					'id' => 'fourth_resultado_uno',
-					'name' => 'fourth_resultado_uno',
+$E1_C_Je_Hini_4 = array(
+					'id' => 'E1_C_Je_Hini-4',
+					'name' => 'E1_C_Je_Hini-4',
 					'class' => 'form-control' 
 				);
 
-$fourth_fecha_tres = array(
-					'id' => 'fourth_fecha_tres',
-					'name' => 'fourth_fecha_tres',
+$E1_C_Je_Hfin_4 = array(
+					'id' => 'E1_C_Je_Hfin-4',
+					'name' => 'E1_C_Je_Hfin-4',
 					'class' => 'form-control' 
 				);
-
-$fourth_hora_tres_de = array(
-					'id' => 'fourth_hora_tres_de',
-					'name' => 'fourth_hora_tres_de',
+$E1_C_Je_Res_4 = array(
+					'id' => 'E1_C_Je_Res-4',
+					'name' => 'E1_C_Je_Res-4',
 					'class' => 'form-control' 
 				);
-
-$fourth_hora_tres_a = array(
-					'id' => 'fourth_hora_tres_a',
-					'name' => 'fourth_hora_tres_a',
-					'class' => 'form-control' 
-				);
-
-$fourth_resultado_dos = array(
-					'id' => 'fourth_resultado_dos',
-					'name' => 'fourth_resultado_dos',
+$E1_C_Je_Res_O_4 = array(
+					'id' => 'E1_C_Je_Res_O-4',
+					'name' => 'E1_C_Je_Res_O-4',
 					'class' => 'form-control' 
 				);
 // Quinta Visita
-$fifth_fecha_uno = array(
-					'id' => 'fifth_fecha_uno',
-					'name' => 'fifth_fecha_uno',
+$E1_C_Visita_Nro_5 = array(
+					'id' => 'E1_C_Visita_Nro-5',
+					'name' => 'E1_C_Visita_Nro-5',
+					'value'	=> '5',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_5 = array(
+					'id' => 'E1_C_Ec_Fecha-5',
+					'name' => 'E1_C_Ec_Fecha-5',
 					'class' => 'form-control' 
 				);
 
-$fifth_hora_uno_de = array(
-					'id' => 'fifth_hora_uno_de',
-					'name' => 'fifth_hora_uno_de',
+$E1_C_Ec_Hini_5 = array(
+					'id' => 'E1_C_Ec_Hini-5',
+					'name' => 'E1_C_Ec_Hini-5',
 					'class' => 'form-control' 
 				);
 
-$fifth_hora_uno_a = array(
-					'id' => 'fifth_hora_uno_a',
-					'name' => 'fifth_hora_uno_a',
+$E1_C_Ec_Hfin_5 = array(
+					'id' => 'E1_C_Ec_Hfin-5',
+					'name' => 'E1_C_Ec_Hfin-5',
 					'class' => 'form-control' 
 				);
 
-$fifth_fecha_dos = array(
-					'id' => 'fifth_fecha_dos',
-					'name' => 'fifth_fecha_dos',
+$E1_C_Ec_Prox_F_5 = array(
+					'id' => 'E1_C_Ec_Prox_F-5',
+					'name' => 'E1_C_Ec_Prox_F-5',
 					'class' => 'form-control' 
 				);
 
-$fifth_hora_dos = array(
-					'id' => 'fifth_hora_dos',
-					'name' => 'fifth_hora_dos',
+$E1_C_Ec_Prox_H_5 = array(
+					'id' => 'E1_C_Ec_Prox_H-5',
+					'name' => 'E1_C_Ec_Prox_H-5',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_5 = array(
+					'id' => 'E1_C_Ec_Res-5',
+					'name' => 'E1_C_Ec_Res-5',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_5 = array(
+					'id' => 'E1_C_Ec_Res_O-5',
+					'name' => 'E1_C_Ec_Res_O-5',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_5 = array(
+					'id' => 'E1_C_Je_Fecha-5',
+					'name' => 'E1_C_Je_Fecha-5',
 					'class' => 'form-control' 
 				);
 
-$fifth_resultado_uno = array(
-					'id' => 'fifth_resultado_uno',
-					'name' => 'fifth_resultado_uno',
+$E1_C_Je_Hini_5 = array(
+					'id' => 'E1_C_Je_Hini-5',
+					'name' => 'E1_C_Je_Hini-5',
 					'class' => 'form-control' 
 				);
 
-$fifth_fecha_tres = array(
-					'id' => 'fifth_fecha_tres',
-					'name' => 'fifth_fecha_tres',
+$E1_C_Je_Hfin_5 = array(
+					'id' => 'E1_C_Je_Hfin-5',
+					'name' => 'E1_C_Je_Hfin-5',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Res_5 = array(
+					'id' => 'E1_C_Je_Res-5',
+					'name' => 'E1_C_Je_Res-5',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Res_O_5 = array(
+					'id' => 'E1_C_Je_Res_O-5',
+					'name' => 'E1_C_Je_Res_O-5',
+					'class' => 'form-control' 
+				);
+// Sexta Visita
+$E1_C_Visita_Nro_6 = array(
+					'id' => 'E1_C_Visita_Nro-6',
+					'name' => 'E1_C_Visita_Nro-6',
+					'value'	=> '6',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_6 = array(
+					'id' => 'E1_C_Ec_Fecha-6',
+					'name' => 'E1_C_Ec_Fecha-6',
 					'class' => 'form-control' 
 				);
 
-$fifth_hora_tres_de = array(
-					'id' => 'fifth_hora_tres_de',
-					'name' => 'fifth_hora_tres_de',
+$E1_C_Ec_Hini_6 = array(
+					'id' => 'E1_C_Ec_Hini-6',
+					'name' => 'E1_C_Ec_Hini-6',
 					'class' => 'form-control' 
 				);
 
-$fifth_hora_tres_a = array(
-					'id' => 'fifth_hora_tres_a',
-					'name' => 'fifth_hora_tres_a',
+$E1_C_Ec_Hfin_6 = array(
+					'id' => 'E1_C_Ec_Hfin-6',
+					'name' => 'E1_C_Ec_Hfin-6',
 					'class' => 'form-control' 
 				);
 
-$fifth_resultado_dos = array(
-					'id' => 'fifth_resultado_dos',
-					'name' => 'fifth_resultado_dos',
-					'class' => 'form-control' 
-				);
-// Sexta Temporada
-$sixth_fecha_uno = array(
-					'id' => 'sixth_fecha_uno',
-					'name' => 'sixth_fecha_uno',
+$E1_C_Ec_Prox_F_6 = array(
+					'id' => 'E1_C_Ec_Prox_F-6',
+					'name' => 'E1_C_Ec_Prox_F-6',
 					'class' => 'form-control' 
 				);
 
-$sixth_hora_uno_de = array(
-					'id' => 'sixth_hora_uno_de',
-					'name' => 'sixth_hora_uno_de',
+$E1_C_Ec_Prox_H_6 = array(
+					'id' => 'E1_C_Ec_Prox_H-6',
+					'name' => 'E1_C_Ec_Prox_H-6',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_6 = array(
+					'id' => 'E1_C_Ec_Res-6',
+					'name' => 'E1_C_Ec_Res-6',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_6 = array(
+					'id' => 'E1_C_Ec_Res_O-6',
+					'name' => 'E1_C_Ec_Res_O-6',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_6 = array(
+					'id' => 'E1_C_Je_Fecha-6',
+					'name' => 'E1_C_Je_Fecha-6',
 					'class' => 'form-control' 
 				);
 
-$sixth_hora_uno_a = array(
-					'id' => 'sixth_hora_uno_a',
-					'name' => 'sixth_hora_uno_a',
+$E1_C_Je_Hini_6 = array(
+					'id' => 'E1_C_Je_Hini-6',
+					'name' => 'E1_C_Je_Hini-6',
 					'class' => 'form-control' 
 				);
 
-$sixth_fecha_dos = array(
-					'id' => 'sixth_fecha_dos',
-					'name' => 'sixth_fecha_dos',
+$E1_C_Je_Hfin_6 = array(
+					'id' => 'E1_C_Je_Hfin-6',
+					'name' => 'E1_C_Je_Hfin-6',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Res_6 = array(
+					'id' => 'E1_C_Je_Res-6',
+					'name' => 'E1_C_Je_Res-6',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Res_O_6 = array(
+					'id' => 'E1_C_Je_Res_O-6',
+					'name' => 'E1_C_Je_Res_O-6',
+					'class' => 'form-control' 
+				);
+// Setima Visita
+$E1_C_Visita_Nro_7 = array(
+					'id' => 'E1_C_Visita_Nro-7',
+					'name' => 'E1_C_Visita_Nro-7',
+					'value'	=> '7',
+					'class' => 'form-control' ,
+					'readonly' => 'readonly',
+				);
+
+$E1_C_Ec_Fecha_7 = array(
+					'id' => 'E1_C_Ec_Fecha-7',
+					'name' => 'E1_C_Ec_Fecha-7',
 					'class' => 'form-control' 
 				);
 
-$sixth_hora_dos = array(
-					'id' => 'sixth_hora_dos',
-					'name' => 'sixth_hora_dos',
+$E1_C_Ec_Hini_7 = array(
+					'id' => 'E1_C_Ec_Hini-7',
+					'name' => 'E1_C_Ec_Hini-7',
 					'class' => 'form-control' 
 				);
 
-$sixth_resultado_uno = array(
-					'id' => 'sixth_resultado_uno',
-					'name' => 'sixth_resultado_uno',
+$E1_C_Ec_Hfin_7 = array(
+					'id' => 'E1_C_Ec_Hfin-7',
+					'name' => 'E1_C_Ec_Hfin-7',
 					'class' => 'form-control' 
 				);
 
-$sixth_fecha_tres = array(
-					'id' => 'sixth_fecha_tres',
-					'name' => 'sixth_fecha_tres',
+$E1_C_Ec_Prox_F_7 = array(
+					'id' => 'E1_C_Ec_Prox_F-7',
+					'name' => 'E1_C_Ec_Prox_F-7',
 					'class' => 'form-control' 
 				);
 
-$sixth_hora_tres_de = array(
-					'id' => 'sixth_hora_tres_de',
-					'name' => 'sixth_hora_tres_de',
+$E1_C_Ec_Prox_H_7 = array(
+					'id' => 'E1_C_Ec_Prox_H-7',
+					'name' => 'E1_C_Ec_Prox_H-7',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_7 = array(
+					'id' => 'E1_C_Ec_Res-7',
+					'name' => 'E1_C_Ec_Res-7',
+					'class' => 'form-control' 
+				);
+$E1_C_Ec_Res_O_7 = array(
+					'id' => 'E1_C_Ec_Res_O-7',
+					'name' => 'E1_C_Ec_Res_O-7',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Fecha_7 = array(
+					'id' => 'E1_C_Je_Fecha-7',
+					'name' => 'E1_C_Je_Fecha-7',
 					'class' => 'form-control' 
 				);
 
-$sixth_hora_tres_a = array(
-					'id' => 'sixth_hora_tres_a',
-					'name' => 'sixth_hora_tres_a',
+$E1_C_Je_Hini_7 = array(
+					'id' => 'E1_C_Je_Hini-7',
+					'name' => 'E1_C_Je_Hini-7',
 					'class' => 'form-control' 
 				);
 
-$sixth_resultado_dos = array(
-					'id' => 'sixth_resultado_dos',
-					'name' => 'sixth_resultado_dos',
+$E1_C_Je_Hfin_7 = array(
+					'id' => 'E1_C_Je_Hfin-7',
+					'name' => 'E1_C_Je_Hfin-7',
 					'class' => 'form-control' 
 				);
+$E1_C_Je_Res_7 = array(
+					'id' => 'E1_C_Je_Res-7',
+					'name' => 'E1_C_Je_Res-7',
+					'class' => 'form-control' 
+				);
+$E1_C_Je_Res_O_7 = array(
+					'id' => 'E1_C_Je_Res_O-7',
+					'name' => 'E1_C_Je_Res_O-7',
+					'class' => 'form-control' 
+				);
+
+
 // Pregunta 17
 $fecha_pregunta_17 = array(
 					'id' => 'fecha_pregunta_17',
@@ -4152,7 +4335,14 @@ $observaciones_300 = array(
 	padding-bottom: 146px !important;
 }
 
+.pad-td div:nth-child(1){
+	padding-left: 0px !important;
+}
 
+.pad-td div:last-child{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 
 </style>
 
@@ -4172,7 +4362,7 @@ $observaciones_300 = array(
 		</tr>
 		<tr>
 			<td colspan="4"> Cuestionario Confidencial: Amparado por el decreto legislativo Nro 604 y por el decreto supremo 043-2001-PCM: Secreto Estadistico </td>
-			<td> <?php echo form_input($cuestionario); ?> </td>
+			<td> <?php echo form_input($E1_Cuestionario_Nro); ?> </td>
 			<td> <?php echo form_input($cuestionario_adicional); ?> </td>
 		</tr>
 	</table>
@@ -4183,22 +4373,22 @@ $observaciones_300 = array(
 			<td>
 				<table class="table">
 					<tr><td colspan="2"><h4>A. UBICACIÓN GEOGRÁFICA</h4></td><td><h4>COD</h4></td></tr>
-					<tr><td> 1. DEPARTAMENTO </td><td> <?php echo form_input($departamento); ?> </td><td> <?php echo form_input($codigo_departamento); ?> </td></tr>
-					<tr><td> 2. PROVINCIA </td><td> <?php echo form_input($provincia); ?> </td><td> <?php echo form_input($codigo_provincia); ?> </td></tr>
-					<tr><td> 3. DISTRITO </td><td> <?php echo form_input($distrito); ?> </td><td> <?php echo form_input($codigo_distrito); ?> </td></tr>
-					<tr><td> 4. CENTRO POBLADO </td><td> <?php echo form_input($centro_poblado); ?> </td></tr>
-					<tr><td> 5. COMUNIDAD NATIVA </td><td> <?php echo form_input($comunidad_nativa); ?> </td></tr>
-					<tr><td> 6. ANEXO CC.NN. </td><td> <?php echo form_input($anexo_ccnn); ?> </td></tr>
+					<tr><td> 1. DEPARTAMENTO </td><td> <?php echo form_input($Nombre_Dpto); ?> </td><td> <?php echo form_input($A_1_Cod_Dpto); ?> </td></tr>
+					<tr><td> 2. PROVINCIA </td><td> <?php echo form_input($Nombre_Prov); ?> </td><td> <?php echo form_input($A_2_Cod_Prov); ?> </td></tr>
+					<tr><td> 3. DISTRITO </td><td> <?php echo form_input($Nombre_Dist); ?> </td><td> <?php echo form_input($A_3_Cod_Dist); ?> </td></tr>
+					<tr><td> 4. CENTRO POBLADO </td><td> <?php echo form_input($A_4_Centro_Poblado); ?> </td></tr>
+					<tr><td> 5. COMUNIDAD NATIVA </td><td> <?php echo form_input($A_5_Comunidad_Nativa); ?> </td></tr>
+					<tr><td> 6. ANEXO CC.NN. </td><td> <?php echo form_input($A_6_Anexo_Cn); ?> </td></tr>
 				</table>
 			</td>
 			<td>
 				<table class="table">
 					<tr><td colspan="3"><h4>B. UBICACIÓN CENSAL</h4></td></tr>
-					<tr><td colspan="2"> 7. ZONA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
-					<tr><td colspan="2"> 8. MANZANA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
-					<tr><td rowspan="2"> 9. A.E.R.N </td><td> Inicial </td><td> <?php echo form_input($zona); ?> </td></tr>
-					<tr><td> Final </td><td> <?php echo form_input($zona); ?> </td></tr>
-					<tr><td colspan="2"> 10. VIVIENDA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
+					<tr><td colspan="2"> 7. ZONA N° </td><td> <?php echo form_input($B_7_Zona); ?> </td></tr>
+					<tr><td colspan="2"> 8. MANZANA N° </td><td> <?php echo form_input($B_8_Manzana); ?> </td></tr>
+					<tr><td rowspan="2"> 9. A.E.R.N </td><td> Inicial </td><td> <?php echo form_input($B_9_1_AER_ini); ?> </td></tr>
+					<tr><td> Final </td><td> <?php echo form_input($B_9_2_AER_fin); ?> </td></tr>
+					<tr><td colspan="2"> 10. VIVIENDA N° </td><td> <?php echo form_input($B_10_Vivienda_nro); ?> </td></tr>
 				</table>
 			</td>
 		</tr>
@@ -4213,7 +4403,7 @@ $observaciones_300 = array(
 		</tr>
 		<tr>
 			<td> Tipo de Via </td>
-			<td colspan="10"> <?php echo form_input($tipo_via); ?> </td>
+			<td colspan="10"> <?php echo form_input($E1_B_11_Tipovia); ?> </td>
 		</tr>
 		<tr>
 			<td colspan="4"> Nombre de Via </td>
@@ -4226,22 +4416,22 @@ $observaciones_300 = array(
 			<td> Telefono </td>
 		</tr>
 		<tr>
-			<td colspan="4"> <?php echo form_input($nombre_via); ?> </td>
-			<td> <?php echo form_input($nro_puerta); ?> </td>
-			<td> <?php echo form_input($interior); ?> </td>
-			<td> <?php echo form_input($piso); ?> </td>
-			<td> <?php echo form_input($manzana); ?> </td>
-			<td> <?php echo form_input($lote); ?> </td>
-			<td> <?php echo form_input($km); ?> </td>
-			<td> <?php echo form_input($telefono); ?> </td>
+			<td colspan="4"> <?php echo form_input($E1_B_11_Nombre); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Nro); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Int); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Piso); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Mz); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Lote); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Km); ?> </td>
+			<td> <?php echo form_input($E1_B_11_Telefono); ?> </td>
 		</tr>
 		<tr>
 			<td> 11A. Referencia </td>
-			<td colspan="10"> <?php echo form_input($referencia); ?>	</td>
+			<td colspan="10"> <?php echo form_input($E1_B_11A_Tipo); ?>	</td>
 		</tr>
 		<tr>
 			<td> Nombre </td>
-			<td colspan="10"> <?php echo form_input($referencia_nombre); ?> </td>
+			<td colspan="10"> <?php echo form_input($E1_B_11A_Nombre); ?> </td>
 		</tr>
 		<tr>
 			<td colspan="10"> 12. Total de Hogares que ocupan la vivienda </td>
@@ -4249,34 +4439,37 @@ $observaciones_300 = array(
 		</tr>
 		<tr>
 			<td colspan="4"> Cuanto hogares ocupan la vivienda? </td>
-			<td colspan="6"> <?php echo form_input($cuantos_hogares); ?> </td>
-			<td> <?php echo form_input($hogar_nro); ?> </td>
+			<td colspan="6"> <?php echo form_input($E1_B_12); ?> </td>
+			<td> <?php echo form_input($E1_B_13_Nro_Hogar); ?> </td>
 		</tr>
 		<tr>
-			<td colspan="4"> 14. Nombres y Apellidos del Jefe del Hogar </td>
-			<td colspan="7"> <?php echo form_input($nombre_jefe_hogar); ?> </td>
+			<td colspan="4"> 14. Jefe del Hogar </td>
+			<td colspan="1"> Nombres</td>
+			<td colspan="2"> <?php echo form_input($E1_B_14_Nombre); ?> </td>
+			<td colspan="1"> Apellidos </td>
+			<td colspan="3"> <?php echo form_input($E1_B_14_Apellidos); ?> </td>
 		</tr>
 		<tr>
 			<td colspan="3"> 15. Esta vivienda es: </td>
 			<td colspan="8"> 16. En que departamento, provincia, distrito y cc.pp. esta ubicada su vivienda principal? </td>
 		</tr>
 		<tr>
-			<td colspan="3" rowspan="3"> <?php echo form_input($esta_vivienda); ?> </td>
+			<td colspan="3" rowspan="3"> <?php echo form_input($E1_B_15); ?> </td>
 			<td> Departamento </td>
-			<td colspan="3"> <?php echo form_input($departamento_preg_16); ?> </td>
+			<td colspan="3"> <?php echo form_input($E1_B_16_Dpto); ?> </td>
 			<td> Distrito </td>
-			<td colspan="3"> <?php echo form_input($distrito_preg_16); ?> </td>
+			<td colspan="3"> <?php echo form_input($E1_B_16_Dist); ?> </td>
 		</tr>
 		<tr>
 			<td> Provincia </td>
-			<td colspan="3"> <?php echo form_input($provincia_preg_16); ?> </td>
+			<td colspan="3"> <?php echo form_input($E1_B_16_Prov); ?> </td>
 			<td> CC.PP. </td>
-			<td colspan="3"> <?php echo form_input($ccpp_preg_16); ?> </td>
+			<td colspan="3"> <?php echo form_input($E1_B_16_CCPP); ?> </td>
 		</tr>
 		<tr>
 			<td colspan="4"></td>
 			<td> En el mismo CC.PP </td>
-			<td colspan="3"> <?php echo form_input($mismo_ccpp_preg_16); ?> </td>
+			<td colspan="3"> <?php echo form_input($E1_B_16_Mismo); ?> </td>
 		</tr>
 
 	</table>
@@ -4308,82 +4501,95 @@ $observaciones_300 = array(
 			<td> A </td>
 		</tr>
 		<tr>
-			<td> Primera </td>
-			<td> <?php echo form_input($first_fecha_uno); ?> </td>
-			<td> <?php echo form_input($first_hora_uno_de); ?> </td>
-			<td> <?php echo form_input($first_hora_uno_a); ?> </td>
-			<td> <?php echo form_input($first_fecha_dos); ?> </td>
-			<td> <?php echo form_input($first_hora_dos); ?> </td>
-			<td> <?php echo form_input($first_resultado_uno); ?> </td>
-			<td> <?php echo form_input($first_fecha_tres); ?> </td>
-			<td> <?php echo form_input($first_hora_tres_de); ?> </td>
-			<td> <?php echo form_input($first_hora_tres_a); ?> </td>
-			<td> <?php echo form_input($first_resultado_dos); ?> </td>
+			<td> <?php echo form_input($E1_C_Visita_Nro_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_1); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_1); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_1); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_1); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_1); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_1); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_1); ?></div> </td>
 		</tr>
 		<tr>
-			<td> Segunda </td>
-			<td> <?php echo form_input($second_fecha_uno); ?> </td>
-			<td> <?php echo form_input($second_hora_uno_de); ?> </td>
-			<td> <?php echo form_input($second_hora_uno_a); ?> </td>
-			<td> <?php echo form_input($second_fecha_dos); ?> </td>
-			<td> <?php echo form_input($second_hora_dos); ?> </td>
-			<td> <?php echo form_input($second_resultado_uno); ?> </td>
-			<td> <?php echo form_input($second_fecha_tres); ?> </td>
-			<td> <?php echo form_input($second_hora_tres_de); ?> </td>
-			<td> <?php echo form_input($second_hora_tres_a); ?> </td>
-			<td> <?php echo form_input($second_resultado_dos); ?> </td>
+			<td> <?php echo form_input($E1_C_Visita_Nro_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_2); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_2); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_2); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_2); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_2); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_2); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_2); ?></div> </td>
 		</tr>
 		<tr>
-			<td> Tercera </td>
-			<td> <?php echo form_input($third_fecha_uno); ?> </td>
-			<td> <?php echo form_input($third_hora_uno_de); ?> </td>
-			<td> <?php echo form_input($third_hora_uno_a); ?> </td>
-			<td> <?php echo form_input($third_fecha_dos); ?> </td>
-			<td> <?php echo form_input($third_hora_dos); ?> </td>
-			<td> <?php echo form_input($third_resultado_uno); ?> </td>
-			<td> <?php echo form_input($third_fecha_tres); ?> </td>
-			<td> <?php echo form_input($third_hora_tres_de); ?> </td>
-			<td> <?php echo form_input($third_hora_tres_a); ?> </td>
-			<td> <?php echo form_input($third_resultado_dos); ?> </td>
+			<td> <?php echo form_input($E1_C_Visita_Nro_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_3); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_3); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_3); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_3); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_3); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_3); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_3); ?></div> </td>
 		</tr>
 		<tr>
-			<td> Cuarta </td>
-			<td> <?php echo form_input($fourth_fecha_uno); ?> </td>
-			<td> <?php echo form_input($fourth_hora_uno_de); ?> </td>
-			<td> <?php echo form_input($fourth_hora_uno_a); ?> </td>
-			<td> <?php echo form_input($fourth_fecha_dos); ?> </td>
-			<td> <?php echo form_input($fourth_hora_dos); ?> </td>
-			<td> <?php echo form_input($fourth_resultado_uno); ?> </td>
-			<td> <?php echo form_input($fourth_fecha_tres); ?> </td>
-			<td> <?php echo form_input($fourth_hora_tres_de); ?> </td>
-			<td> <?php echo form_input($fourth_hora_tres_a); ?> </td>
-			<td> <?php echo form_input($fourth_resultado_dos); ?> </td>
+			<td> <?php echo form_input($E1_C_Visita_Nro_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_4); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_4); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_4); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_4); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_4); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_4); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_4); ?></div> </td>
 		</tr>
 		<tr>
-			<td> Quinta </td>
-			<td> <?php echo form_input($fifth_fecha_uno); ?> </td>
-			<td> <?php echo form_input($fifth_hora_uno_de); ?> </td>
-			<td> <?php echo form_input($fifth_hora_uno_a); ?> </td>
-			<td> <?php echo form_input($fifth_fecha_dos); ?> </td>
-			<td> <?php echo form_input($fifth_hora_dos); ?> </td>
-			<td> <?php echo form_input($fifth_resultado_uno); ?> </td>
-			<td> <?php echo form_input($fifth_fecha_tres); ?> </td>
-			<td> <?php echo form_input($fifth_hora_tres_de); ?> </td>
-			<td> <?php echo form_input($fifth_hora_tres_a); ?> </td>
-			<td> <?php echo form_input($fifth_resultado_dos); ?> </td>
+			<td> <?php echo form_input($E1_C_Visita_Nro_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_5); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_5); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_5); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_5); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_5); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_5); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_5); ?></div> </td>
 		</tr>
 		<tr>
-			<td> Sexta </td>
-			<td> <?php echo form_input($sixth_fecha_uno); ?> </td>
-			<td> <?php echo form_input($sixth_hora_uno_de); ?> </td>
-			<td> <?php echo form_input($sixth_hora_uno_a); ?> </td>
-			<td> <?php echo form_input($sixth_fecha_dos); ?> </td>
-			<td> <?php echo form_input($sixth_hora_dos); ?> </td>
-			<td> <?php echo form_input($sixth_resultado_uno); ?> </td>
-			<td> <?php echo form_input($sixth_fecha_tres); ?> </td>
-			<td> <?php echo form_input($sixth_hora_tres_de); ?> </td>
-			<td> <?php echo form_input($sixth_hora_tres_a); ?> </td>
-			<td> <?php echo form_input($sixth_resultado_dos); ?> </td>
+			<td> <?php echo form_input($E1_C_Visita_Nro_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_6); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_6); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_6); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_6); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_6); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_6); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_6); ?></div> </td>
+		</tr>
+		<tr>
+			<td> <?php echo form_input($E1_C_Visita_Nro_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Fecha_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hini_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Hfin_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_F_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Ec_Prox_H_7); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Ec_Res_7); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Ec_Res_O_7); ?></div> </td>
+			<td> <?php echo form_input($E1_C_Je_Fecha_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hini_7); ?> </td>
+			<td> <?php echo form_input($E1_C_Je_Hfin_7); ?> </td>
+			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_7); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_7); ?></div> </td>
 		</tr>
 		<tr><td colspan="11"></td></tr>
 		<tr>
@@ -5085,7 +5291,7 @@ $observaciones_300 = array(
 				<td>1</td>
 				<td><?php echo form_input($P401); ?></td>
 				<td class="sub-table">
-					<table class="table table-bordered">
+					<table class="table">
 						<tbody>
 							<tr>		
 								<td><?php echo form_input($P402_1); ?></td>
@@ -5101,7 +5307,7 @@ $observaciones_300 = array(
 					</table>
 				</td>		
 				<td class="sub-table">
-					<table class="table table-bordered">
+					<table class="table">
 						<tbody>
 							<tr>		
 								<td><?php echo form_input($P403_1); ?></td>
