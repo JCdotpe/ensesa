@@ -983,6 +983,656 @@ $rpt106_30=array(
 	'class'=>'form-control',
 );
 
+//107
+$rpt107_1=array(
+	'id'=>'$rpt107_1',
+	'name'=>'$rpt107_1',
+	'class'=>'form-control',
+);
+$rpt107_2=array(
+	'id'=>'$rpt107_2',
+	'name'=>'$rpt107_2',
+	'class'=>'form-control',
+);
+$rpt107_3=array(
+	'id'=>'$rpt107_3',
+	'name'=>'$rpt107_3',
+	'class'=>'form-control',
+);
+$rpt107_4=array(
+	'id'=>'$rpt107_4',
+	'name'=>'$rpt107_4',
+	'class'=>'form-control',
+);
+$rpt107_5=array(
+	'id'=>'$rpt107_5',
+	'name'=>'$rpt107_5',
+	'class'=>'form-control',
+);
+
+$rpt107_6=array(
+	'id'=>'$rpt107_6',
+	'name'=>'$rpt107_6',
+	'class'=>'form-control',
+);
+
+$rpt107_7=array(
+	'id'=>'$rpt107_7',
+	'name'=>'$rpt107_7',
+	'class'=>'form-control',
+);
+
+$rpt107_8=array(
+	'id'=>'$rpt107_8',
+	'name'=>'$rpt107_8',
+	'class'=>'form-control',
+);
+
+$rpt107_9=array(
+	'id'=>'$rpt107_9',
+	'name'=>'$rpt107_9',
+	'class'=>'form-control',
+);
+
+$rpt107_10=array(
+	'id'=>'$rpt107_10',
+	'name'=>'$rpt107_10',
+	'class'=>'form-control',
+);
+
+$rpt107_11=array(
+	'id'=>'$rpt107_11',
+	'name'=>'$rpt107_11',
+	'class'=>'form-control',
+);
+
+$rpt107_12=array(
+	'id'=>'$rpt107_12',
+	'name'=>'$rpt107_12',
+	'class'=>'form-control',
+);
+
+$rpt107_13=array(
+	'id'=>'$rpt107_13',
+	'name'=>'$rpt107_13',
+	'class'=>'form-control',
+);
+
+$rpt107_14=array(
+	'id'=>'$rpt107_14',
+	'name'=>'$rpt107_14',
+	'class'=>'form-control',
+);
+
+$rpt107_15=array(
+	'id'=>'$rpt107_15',
+	'name'=>'$rpt107_15',
+	'class'=>'form-control',
+);
+
+$rpt107_16=array(
+	'id'=>'$rpt107_16',
+	'name'=>'$rpt107_16',
+	'class'=>'form-control',
+);
+
+$rpt107_17=array(
+	'id'=>'$rpt107_17',
+	'name'=>'$rpt107_17',
+	'class'=>'form-control',
+);
+
+$rpt107_18=array(
+	'id'=>'$rpt107_18',
+	'name'=>'$rpt107_18',
+	'class'=>'form-control',
+);
+
+$rpt107_19=array(
+	'id'=>'$rpt107_19',
+	'name'=>'$rpt107_19',
+	'class'=>'form-control',
+);
+
+$rpt107_20=array(
+	'id'=>'$rpt107_20',
+	'name'=>'$rpt107_20',
+	'class'=>'form-control',
+);
+
+$rpt107_21=array(
+	'id'=>'$rpt107_21',
+	'name'=>'$rpt107_21',
+	'class'=>'form-control',
+);
+
+$rpt107_22=array(
+	'id'=>'$rpt107_22',
+	'name'=>'$rpt107_22',
+	'class'=>'form-control',
+);
+
+$rpt107_23=array(
+	'id'=>'$rpt107_23',
+	'name'=>'$rpt107_23',
+	'class'=>'form-control',
+);
+
+$rpt107_24=array(
+	'id'=>'$rpt107_24',
+	'name'=>'$rpt107_24',
+	'class'=>'form-control',
+);
+$rpt107_25=array(
+	'id'=>'$rpt107_25',
+	'name'=>'$rpt107_25',
+	'class'=>'form-control',
+);
+$rpt107_26=array(
+	'id'=>'$rpt107_26',
+	'name'=>'$rpt107_26',
+	'class'=>'form-control',
+);
+$rpt107_27=array(
+	'id'=>'$rpt107_27',
+	'name'=>'$rpt107_27',
+	'class'=>'form-control',
+);
+$rpt107_28=array(
+	'id'=>'$rpt107_28',
+	'name'=>'$rpt107_28',
+	'class'=>'form-control',
+);
+$rpt107_29=array(
+	'id'=>'$rpt107_29',
+	'name'=>'$rpt107_29',
+	'class'=>'form-control',
+);
+$rpt107_30=array(
+	'id'=>'$rpt107_30',
+	'name'=>'$rpt107_30',
+	'class'=>'form-control',
+);
+$rpt107_31=array(
+	'id'=>'$rpt107_31',
+	'name'=>'$rpt107_31',
+	'class'=>'form-control',
+);
+$rpt107_32=array(
+	'id'=>'$rpt107_32',
+	'name'=>'$rpt107_32',
+	'class'=>'form-control',
+);
+$rpt107_33=array(
+	'id'=>'$rpt107_33',
+	'name'=>'$rpt107_33',
+	'class'=>'form-control',
+);
+$rpt107_34=array(
+	'id'=>'$rpt107_34',
+	'name'=>'$rpt107_34',
+	'class'=>'form-control',
+);
+$rpt107_35=array(
+	'id'=>'$rpt107_35',
+	'name'=>'$rpt107_35',
+	'class'=>'form-control',
+);
+$rpt107_36=array(
+	'id'=>'$rpt107_36',
+	'name'=>'$rpt107_36',
+	'class'=>'form-control',
+);
+$rpt107_37=array(
+	'id'=>'$rpt107_37',
+	'name'=>'$rpt107_37',
+	'class'=>'form-control',
+);
+$rpt107_38=array(
+	'id'=>'$rpt107_38',
+	'name'=>'$rpt107_38',
+	'class'=>'form-control',
+);
+$rpt107_39=array(
+	'id'=>'$rpt107_39',
+	'name'=>'$rpt107_39',
+	'class'=>'form-control',
+);
+$rpt107_40=array(
+	'id'=>'$rpt107_40',
+	'name'=>'$rpt107_40',
+	'class'=>'form-control',
+);
+$rpt107_41=array(
+	'id'=>'$rpt107_41',
+	'name'=>'$rpt107_41',
+	'class'=>'form-control',
+);
+$rpt107_42=array(
+	'id'=>'$rpt107_42',
+	'name'=>'$rpt107_42',
+	'class'=>'form-control',
+);
+$rpt107_43=array(
+	'id'=>'$rpt107_43',
+	'name'=>'$rpt107_43',
+	'class'=>'form-control',
+);
+$rpt107_44=array(
+	'id'=>'$rpt107_44',
+	'name'=>'$rpt107_44',
+	'class'=>'form-control',
+);
+$rpt107_45=array(
+	'id'=>'$rpt107_45',
+	'name'=>'$rpt107_45',
+	'class'=>'form-control',
+);
+$rpt107_46=array(
+	'id'=>'$rpt107_46',
+	'name'=>'$rpt107_46',
+	'class'=>'form-control',
+);
+$rpt107_47=array(
+	'id'=>'$rpt107_47',
+	'name'=>'$rpt107_47',
+	'class'=>'form-control',
+);
+$rpt107_48=array(
+	'id'=>'$rpt107_48',
+	'name'=>'$rpt107_48',
+	'class'=>'form-control',
+);
+$rpt107_49=array(
+	'id'=>'$rpt107_49',
+	'name'=>'$rpt107_49',
+	'class'=>'form-control',
+);
+$rpt107_50=array(
+	'id'=>'$rpt107_50',
+	'name'=>'$rpt107_50',
+	'class'=>'form-control',
+);
+$rpt107_51=array(
+	'id'=>'$rpt107_51',
+	'name'=>'$rpt107_51',
+	'class'=>'form-control',
+);
+$rpt107_52=array(
+	'id'=>'$rpt107_52',
+	'name'=>'$rpt107_52',
+	'class'=>'form-control',
+);
+$rpt107_53=array(
+	'id'=>'$rpt107_53',
+	'name'=>'$rpt107_53',
+	'class'=>'form-control',
+);
+$rpt107_54=array(
+	'id'=>'$rpt107_54',
+	'name'=>'$rpt107_54',
+	'class'=>'form-control',
+);
+$rpt107_55=array(
+	'id'=>'$rpt107_55',
+	'name'=>'$rpt107_55',
+	'class'=>'form-control',
+);
+$rpt107_56=array(
+	'id'=>'$rpt107_56',
+	'name'=>'$rpt107_56',
+	'class'=>'form-control',
+);
+$rpt107_57=array(
+	'id'=>'$rpt107_57',
+	'name'=>'$rpt107_57',
+	'class'=>'form-control',
+);
+$rpt107_58=array(
+	'id'=>'$rpt107_58',
+	'name'=>'$rpt107_58',
+	'class'=>'form-control',
+);
+$rpt107_59=array(
+	'id'=>'$rpt107_59',
+	'name'=>'$rpt107_59',
+	'class'=>'form-control',
+);
+$rpt107_60=array(
+	'id'=>'$rpt107_60',
+	'name'=>'$rpt107_60',
+	'class'=>'form-control',
+);
+$rpt107_61=array(
+	'id'=>'$rpt107_61',
+	'name'=>'$rpt107_61',
+	'class'=>'form-control',
+);
+
+$rpt107_62=array(
+	'id'=>'$rpt107_62',
+	'name'=>'$rpt107_62',
+	'class'=>'form-control',
+);
+
+$rpt107_63=array(
+	'id'=>'$rpt107_63',
+	'name'=>'$rpt107_63',
+	'class'=>'form-control',
+);
+$rpt107_64=array(
+	'id'=>'$rpt107_64',
+	'name'=>'$rpt107_64',
+	'class'=>'form-control',
+);
+$rpt107_65=array(
+	'id'=>'$rpt107_65',
+	'name'=>'$rpt107_65',
+	'class'=>'form-control',
+);
+$rpt107_66=array(
+	'id'=>'$rpt107_66',
+	'name'=>'$rpt107_66',
+	'class'=>'form-control',
+);
+$rpt107_67=array(
+	'id'=>'$rpt107_67',
+	'name'=>'$rpt107_67',
+	'class'=>'form-control',
+);
+$rpt107_68=array(
+	'id'=>'$rpt107_68',
+	'name'=>'$rpt107_68',
+	'class'=>'form-control',
+);
+
+$rpt107_69=array(
+	'id'=>'$rpt107_69',
+	'name'=>'$rpt107_69',
+	'class'=>'form-control',
+);
+$rpt107_70=array(
+	'id'=>'$rpt107_70',
+	'name'=>'$rpt107_70',
+	'class'=>'form-control',
+);
+$rpt107_71=array(
+	'id'=>'$rpt107_71',
+	'name'=>'$rpt107_71',
+	'class'=>'form-control',
+);
+$rpt107_72=array(
+	'id'=>'$rpt107_72',
+	'name'=>'$rpt107_72',
+	'class'=>'form-control',
+);
+$rpt107_73=array(
+	'id'=>'$rpt107_73',
+	'name'=>'$rpt107_73',
+	'class'=>'form-control',
+);
+$rpt107_74=array(
+	'id'=>'$rpt107_74',
+	'name'=>'$rpt107_74',
+	'class'=>'form-control',
+);
+$rpt107_75=array(
+	'id'=>'$rpt107_75',
+	'name'=>'$rpt107_75',
+	'class'=>'form-control',
+);
+$rpt107_76=array(
+	'id'=>'$rpt107_76',
+	'name'=>'$rpt107_76',
+	'class'=>'form-control',
+);
+$rpt107_77=array(
+	'id'=>'$rpt107_77',
+	'name'=>'$rpt107_77',
+	'class'=>'form-control',
+);
+$rpt107_78=array(
+	'id'=>'$rpt107_78',
+	'name'=>'$rpt107_78',
+	'class'=>'form-control',
+);
+$rpt107_79=array(
+	'id'=>'$rpt107_79',
+	'name'=>'$rpt107_79',
+	'class'=>'form-control',
+);
+$rpt107_80=array(
+	'id'=>'$rpt107_80',
+	'name'=>'$rpt107_80',
+	'class'=>'form-control',
+);
+$rpt107_81=array(
+	'id'=>'$rpt107_81',
+	'name'=>'$rpt107_81',
+	'class'=>'form-control',
+);
+$rpt107_82=array(
+	'id'=>'$rpt107_82',
+	'name'=>'$rpt107_82',
+	'class'=>'form-control',
+);
+$rpt107_83=array(
+	'id'=>'$rpt107_83',
+	'name'=>'$rpt107_83',
+	'class'=>'form-control',
+);
+$rpt107_84=array(
+	'id'=>'$rpt107_84',
+	'name'=>'$rpt107_84',
+	'class'=>'form-control',
+);
+$rpt107_85=array(
+	'id'=>'$rpt107_85',
+	'name'=>'$rpt107_85',
+	'class'=>'form-control',
+);
+$rpt107_86=array(
+	'id'=>'$rpt107_86',
+	'name'=>'$rpt107_86',
+	'class'=>'form-control',
+);
+$rpt107_87=array(
+	'id'=>'$rpt107_87',
+	'name'=>'$rpt107_87',
+	'class'=>'form-control',
+);
+$rpt107_88=array(
+	'id'=>'$rpt107_88',
+	'name'=>'$rpt107_88',
+	'class'=>'form-control',
+);
+$rpt107_89=array(
+	'id'=>'$rpt107_89',
+	'name'=>'$rpt107_89',
+	'class'=>'form-control',
+);
+$rpt107_90=array(
+	'id'=>'$rpt107_90',
+	'name'=>'$rpt107_90',
+	'class'=>'form-control',
+);
+$rpt107_91=array(
+	'id'=>'$rpt107_91',
+	'name'=>'$rpt107_91',
+	'class'=>'form-control',
+);
+$rpt107_92=array(
+	'id'=>'$rpt107_92',
+	'name'=>'$rpt107_92',
+	'class'=>'form-control',
+);
+$especifique3=array(
+	'id'=>'$especifique3',
+	'name'=>'$especifique',
+	'class'=>'form-control',
+);
+$rpt108_1=array(
+	'id'=>'$rpt108_1',
+	'name'=>'$rpt108_1',
+	'class'=> 'form-control',
+);
+
+$rpt108_2=array(
+	'id'=>'$rpt108_2',
+	'name'=>'$rpt108_2',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_3=array(
+	'id'=>'$rpt108_3',
+	'name'=>'$rpt108_3',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_4=array(
+	'id'=>'$rpt108_4',
+	'name'=>'$rpt108_4',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_5=array(
+	'id'=>'$rpt108_5',
+	'name'=>'$rpt108_5',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_6=array(
+	'id'=>'$rpt108_6',
+	'name'=>'$rpt108_6',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_7=array(
+	'id'=>'$rpt108_7',
+	'name'=>'$rpt108_7',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_8=array(
+	'id'=>'$rpt108_8',
+	'name'=>'$rpt108_8',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_9=array(
+	'id'=>'$rpt108_9',
+	'name'=>'$rpt108_9',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_10=array(
+	'id'=>'$rpt108_10',
+	'name'=>'$rpt108_10',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_11=array(
+	'id'=>'$rpt108_11',
+	'name'=>'$rpt108_11',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_12=array(
+	'id'=>'$rpt108_12',
+	'name'=>'$rpt108_12',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_13=array(
+	'id'=>'$rpt108_13',
+	'name'=>'$rpt108_13',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_14=array(
+	'id'=>'$rpt108_14',
+	'name'=>'$rpt108_14',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_15=array(
+	'id'=>'$rpt108_15',
+	'name'=>'$rpt108_15',
+	'class'=> 'form-control',
+);
+
+$rpt108_16=array(
+	'id'=>'$rpt108_16',
+	'name'=>'$rpt108_16',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_17=array(
+	'id'=>'$rpt108_17',
+	'name'=>'$rpt108_17',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_18=array(
+	'id'=>'$rpt108_18',
+	'name'=>'$rpt108_18',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_19=array(
+	'id'=>'$rpt108_19',
+	'name'=>'$rpt108_19',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_20=array(
+	'id'=>'$rpt108_20',
+	'name'=>'$rpt108_20',
+	'class'=> 'form-control',
+);
+
+
+$rpt108_21=array(
+	'id'=>'$rpt108_21',
+	'name'=>'$rpt108_21',
+	'class'=> 'form-control',
+);
+
+$otro3=array(
+	'id'=>'$otro3',
+	'name'=>'$otro3',
+	'class'=>'form-control',
+);
+
+$otro4=array(
+	'id'=>'$otro4',
+	'name'=>'$otro4',
+	'class'=>'form-control',
+);
+$espefique4=array(
+	'id'=>'$especifique4',
+	'name'=>'$especifique4',
+	'class'=>'form-control',
+);
+
+
 ?>
 
 
@@ -1174,47 +1824,47 @@ $rpt106_30=array(
  </tr>
 
 <tr>
- 	<td> Avioneta</td>
+ 	<td> Avioneta </td>
  	<td> <?php echo form_input($avioneta);?></td>
  	<td> <?php echo form_input($h5);?> </td>
   	<td> <?php echo form_input($m5); ?> </td>
  </tr>
 
  <tr>
- 	<td> A pie</td>
+ 	<td> A pie </td>
  	<td> <?php echo form_input($pie);?></td>
  	<td> <?php echo form_input($h6);?> </td>
   	<td> <?php echo form_input($m6); ?> </td>
  </tr>
 
   <tr>
- 	<td> Bicicleta</td>
+ 	<td> Bicicleta </td>
  	<td> <?php echo form_input($bicicleta);?></td>
  	 	<td> <?php echo form_input($h7);?> </td>
   	<td> <?php echo form_input($m7); ?> </td>
  </tr>
   <tr>
- 	<td> Motocicleta</td>
+ 	<td> Motocicleta </td>
  	<td> <?php echo form_input($motocicleta);?></td>
  	<td> <?php echo form_input($h8);?> </td>
   	<td> <?php echo form_input($m8); ?> </td>
  </tr>
 
   <tr>
- 	<td> Camioneta rural / automóvil</td>
+ 	<td> Camioneta rural / automóvil </td>
  	<td> <?php echo form_input($cam_auto);?></td>
  	<td> <?php echo form_input($h9);?> </td>
   	<td> <?php echo form_input($m9); ?> </td>
  </tr>
 
    <tr>
- 	<td> Acémila</td>
+ 	<td> Acémila </td>
  	<td> <?php echo form_input($acemila);?></td>
  	<td> <?php echo form_input($h10);?> </td>
   	<td> <?php echo form_input($m10); ?> </td>
  </tr>
   <tr>
- 	<td> Otro</td>
+ 	<td> Otro </td>
  	<td> <?php echo form_input($otro2);?> </td>
  	<td> <?php echo form_input($h11);?> </td>
  	<td> <?php echo form_input($m11);?> </td>
@@ -1231,77 +1881,15 @@ $rpt106_30=array(
  	<td> <?php echo form_input($m13);?></td>
  </tr>
  <tr>
- 	<td colspan="8"> 106. La comunidad cuenta con los siguientes servicios:</td>
+ 	<td colspan="8"> 106. La comunidad cuenta con los siguientes servicios: </td>
  </tr>
  <tr>
- 	<td colspan="2"> Detalle </td>
- 	<td> Si (1) / No (2) </td>
- 	<td > 106A. ¿Cuantos dias a la semana dispone del servicio? </td>
- 	<td> 106B. ¿Cuantas horas al dia dispone del servicio? </td>
- 	<td colspan="2"> 106C. ¿El servicio proviene de: Red pública?(1), Generador Eléctrico?(2),Otro(3), Especifique </td>
- 	<td> 106D. Anote el nombre de la empresa de celular/ internet / emisora de radio </td>
- </tr>
- <tr>
- 	<td colspan="2">  1.¿Agua potable? </td>
- 	<td> <?php echo form_input($rpt106_1);?> </td>
- 	<td> <?php echo form_input($rpt106_2);?> </td>
- 	<td> <?php echo form_input($rpt106_3);?> </td>
- 	<td colspan="2"> <?php echo form_input($rpt106_4);?> </td>
- 	<td> <?php echo form_input($rpt106_5);?> </td>
- </tr>
-
- <tr>
- 	<td colspan="2">  2.¿Desagüe? </td>
- 	<td> <?php echo form_input($rpt106_6);?> </td>
- 	<td> <?php echo form_input($rpt106_7);?> </td>
- 	<td> <?php echo form_input($rpt106_8);?> </td>
- 	<td colspan="2"> <?php echo form_input($rpt106_9);?> </td>
- 	<td> <?php echo form_input($rpt106_10);?> </td>
- </tr>
- <tr>
- 	<td colspan="2">  3.¿Servicio público de electricidad? </td>
- 	<td> <?php echo form_input($rpt106_11);?> </td>
- 	<td> <?php echo form_input($rpt106_12);?> </td>
- 	<td> <?php echo form_input($rpt106_13);?> </td>
- 	<td colspan="2"> <?php echo form_input($rpt106_14);?> </td>
- 	<td> <?php echo form_input($rpt106_15);?> </td>
- </tr>
-
- <tr>
- 	<td colspan="2">  3.¿Señal telefónica celular? </td>
- 	<td> <?php echo form_input($rpt106_16);?> </td>
- 	<td> <?php echo form_input($rpt106_17);?> </td>
- 	<td> <?php echo form_input($rpt106_18);?> </td>
- 	<td colspan="2"> <?php echo form_input($rpt106_19);?> </td>
- 	<td> <?php echo form_input($rpt106_20);?> </td>
- </tr>
-
-  <tr>
- 	<td colspan="2">  4.¿Internet? </td>
- 	<td> <?php echo form_input($rpt106_21);?> </td>
- 	<td> <?php echo form_input($rpt106_22);?> </td>
- 	<td> <?php echo form_input($rpt106_23);?> </td>
- 	<td colspan="2"> <?php echo form_input($rpt106_24);?> </td>
- 	<td> <?php echo form_input($rpt106_25);?> </td>
- </tr>
-  <tr>
- 	<td colspan="2">  5.¿Señal de emisora de radio? </td>
- 	<td> <?php echo form_input($rpt106_26);?> </td>
- 	<td> <?php echo form_input($rpt106_27);?> </td>
- 	<td> <?php echo form_input($rpt106_28);?> </td>
- 	<td colspan="2"> <?php echo form_input($rpt106_29);?> </td>
- 	<td> <?php echo form_input($rpt106_30);?> </td>
- </tr>
-  <tr>
- 	<td colspan="8"> 106. La comunidad cuenta con los siguientes servicios:</td>
- </tr>
- <tr>
- 	<td colspan="2"> Detalle </td>
- 	<td> Si (1) / No (2) </td>
- 	<td > 106A. ¿Cuantos dias a la semana dispone del servicio? </td>
- 	<td> 106B. ¿Cuantas horas al dia dispone del servicio? </td>
- 	<td colspan="2"> 106C. ¿El servicio proviene de: Red pública?(1), Generador Eléctrico?(2),Otro(3), Especifique </td>
- 	<td> 106D. Anote el nombre de la empresa de celular/ internet / emisora de radio </td>
+ 	<td colspan="2"><center> Detalle </center></td>
+ 	<td><center> Si (1) / No (2) </center></td>
+ 	<td ><center> 106A. ¿Cuantos dias a la semana dispone del servicio? </center></td>
+ 	<td><center> 106B. ¿Cuantas horas al dia dispone del servicio? </center></td>
+ 	<td colspan="2"><center> 106C. ¿El servicio proviene de: Red pública?(1), Generador Eléctrico?(2),Otro(3), Especifique </center></td>
+ 	<td><center> 106D. Anote el nombre de la empresa de celular/ internet / emisora de radio </center></td>
  </tr>
  <tr>
  	<td colspan="2">  1.¿Agua potable? </td>
@@ -1354,7 +1942,287 @@ $rpt106_30=array(
  	<td colspan="2"> <?php echo form_input($rpt106_29);?> </td>
  	<td> <?php echo form_input($rpt106_30);?> </td>
  </tr>
- 
+ <tr>
+ 	<td colspan="8"> 107. La comunidad cuenta con:</td>
+ </tr>
+ <tr>
+ 	<td colspan="3"><center> Detalle </center></td>
+ 	<td><center> Si (1) / No (2) </center></td>
+ 	<td ><center> 107A. Cantidad </center></td>
+ 	<td><center> 107B. ¿Como lo obtuvieron? Comprado(1), Donado(2), Otro(Especifique)</center></td>
+ 	<td colspan="2"><center> 107C. ¿Cuantos funcionan? </center></td>
+ </tr>
+ <tr>
+ 	<td colspan="8"> La propiedad de los siguientes bienes: </td>
+ </tr>
+ <tr>
+ 	<td colspan="3">  1.¿Radiofonia / radio transmisor? </td>
+ 	<td> <?php echo form_input($rpt107_1);?> </td>
+ 	<td> <?php echo form_input($rpt107_2);?> </td>
+ 	<td> <?php echo form_input($rpt107_3);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_4);?> </td>
+ 	
+ </tr>
+
+ <tr>
+ 	<td colspan="3">  2.¿Telefono satelital? </td>
+ 	<td> <?php echo form_input($rpt107_5);?> </td>
+ 	<td> <?php echo form_input($rpt107_6);?> </td>
+ 	<td> <?php echo form_input($rpt107_7);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_8);?> </td>
+ </tr>
+ <tr>
+ 	<td colspan="3">  3.¿Telefono público? </td>
+ 	<td> <?php echo form_input($rpt107_9);?> </td>
+ 	<td> <?php echo form_input($rpt107_10);?> </td>
+ 	<td> <?php echo form_input($rpt107_11);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_12);?> </td>
+  </tr>
+
+ <tr>
+ 	<td colspan="3">  4.¿Antena parabólica? </td>
+ 	<td> <?php echo form_input($rpt107_13);?> </td>
+ 	<td> <?php echo form_input($rpt107_14);?> </td>
+ 	<td> <?php echo form_input($rpt107_15);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_16);?> </td>
+  </tr>
+
+  <tr>
+ 	<td colspan="3">  5.¿Generador eléctrico? </td>
+ 	<td> <?php echo form_input($rpt107_17);?> </td>
+ 	<td> <?php echo form_input($rpt107_18);?> </td>
+ 	<td> <?php echo form_input($rpt107_19);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt106_20);?> </td>
+  </tr>
+  <tr>
+ 	<td colspan="3">  6.¿Panel solar? </td>
+ 	<td> <?php echo form_input($rpt107_21);?> </td>
+ 	<td> <?php echo form_input($rpt107_22);?> </td>
+ 	<td> <?php echo form_input($rpt107_23);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt106_24);?> </td>
+  </tr>
+  <tr>
+ 	<td colspan="3">  7.¿Televisor? </td>
+ 	<td> <?php echo form_input($rpt107_25);?> </td>
+ 	<td> <?php echo form_input($rpt107_26);?> </td>
+ 	<td> <?php echo form_input($rpt107_27);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_28);?> </td>
+  </tr>
+    <tr>
+ 	<td colspan="3">  8.¿Computadora? </td>
+ 	<td> <?php echo form_input($rpt107_29);?> </td>
+ 	<td> <?php echo form_input($rpt107_30);?> </td>
+ 	<td> <?php echo form_input($rpt107_31);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_32);?> </td>
+  </tr>
+    <tr>
+ 	<td colspan="3">  9.¿DVD - Blue Ray? </td>
+ 	<td> <?php echo form_input($rpt107_33);?> </td>
+ 	<td> <?php echo form_input($rpt107_34);?> </td>
+ 	<td> <?php echo form_input($rpt107_35);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_36);?> </td>
+  </tr>
+    <tr>
+ 	<td colspan="3">  10.¿Equipo de Sonido? </td>
+ 	<td> <?php echo form_input($rpt107_37);?> </td>
+ 	<td> <?php echo form_input($rpt107_38);?> </td>
+ 	<td> <?php echo form_input($rpt107_39);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_40);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  11.¿Aserradero? </td>
+ 	<td> <?php echo form_input($rpt107_41);?> </td>
+ 	<td> <?php echo form_input($rpt107_42);?> </td>
+ 	<td> <?php echo form_input($rpt107_43);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_44);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  12.¿Motosierra? </td>
+ 	<td> <?php echo form_input($rpt107_45);?> </td>
+ 	<td> <?php echo form_input($rpt107_46);?> </td>
+ 	<td> <?php echo form_input($rpt107_47);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_48);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  13.¿Peque peque? </td>
+ 	<td> <?php echo form_input($rpt107_49);?> </td>
+ 	<td> <?php echo form_input($rpt107_50);?> </td>
+ 	<td> <?php echo form_input($rpt107_51);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_52);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  14.¿Lancha? </td>
+ 	<td> <?php echo form_input($rpt107_53);?> </td>
+ 	<td> <?php echo form_input($rpt107_54);?> </td>
+ 	<td> <?php echo form_input($rpt107_55);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_56);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  15.¿Canoa? </td>
+ 	<td> <?php echo form_input($rpt107_57);?> </td>
+ 	<td> <?php echo form_input($rpt107_58);?> </td>
+ 	<td> <?php echo form_input($rpt107_59);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_60);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  16.¿Deslizador? </td>
+ 	<td> <?php echo form_input($rpt107_61);?> </td>
+ 	<td> <?php echo form_input($rpt107_62);?> </td>
+ 	<td> <?php echo form_input($rpt107_63);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_64);?> </td>
+  </tr>
+  </tr>
+    <tr>
+ 	<td colspan="3">  17.¿Camión / camioneta? </td>
+ 	<td> <?php echo form_input($rpt107_65);?> </td>
+ 	<td> <?php echo form_input($rpt107_66);?> </td>
+ 	<td> <?php echo form_input($rpt107_67);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_68);?> </td>
+  </tr>
+    <tr>
+ 	<td colspan="3">  18.¿Tractor? </td>
+ 	<td> <?php echo form_input($rpt107_69);?> </td>
+ 	<td> <?php echo form_input($rpt107_70);?> </td>
+ 	<td> <?php echo form_input($rpt107_71);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_72);?> </td>
+ <tr>
+ 	<td colspan="3">  19.¿Red de pescar? </td>
+ 	<td> <?php echo form_input($rpt107_73);?> </td>
+ 	<td> <?php echo form_input($rpt107_74);?> </td>
+ 	<td> <?php echo form_input($rpt107_75);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_76);?> </td>
+
+  </tr>
+    <tr>
+ 	<td colspan="3">  20.¿Apiladora de arroz? </td>
+ 	<td> <?php echo form_input($rpt107_77);?> </td>
+ 	<td> <?php echo form_input($rpt107_78);?> </td>
+ 	<td> <?php echo form_input($rpt107_79);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_80);?> </td>
+  </tr>
+    <tr>
+ 	<td colspan="3">  21.¿Caja de fermentación? </td>
+ 	<td> <?php echo form_input($rpt107_81);?> </td>
+ 	<td> <?php echo form_input($rpt107_82);?> </td>
+ 	<td> <?php echo form_input($rpt107_83);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_84);?> </td>
+  </tr>
+
+  <tr>
+ 	<td colspan="3">  22.¿Redes eléctricas? </td>
+ 	<td> <?php echo form_input($rpt107_85);?> </td>
+ 	<td> <?php echo form_input($rpt107_86);?> </td>
+ 	<td> <?php echo form_input($rpt107_87);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_88);?> </td>
+  </tr>
+
+   <tr>
+ 	<td colspan="3">  23.¿Otro? <br><?php echo form_input($otro3);?></br> <?php echo form_input($especifique3);?> <br> (Especifique) </br> </td>
+ 	<td> <?php echo form_input($rpt107_89);?> </td>
+ 	<td> <?php echo form_input($rpt107_90);?> </td>
+ 	<td> <?php echo form_input($rpt107_91);?> </td>
+ 	<td colspan="2"> <?php echo form_input($rpt107_92);?> </td>
+  </tr>
+  <tr>
+  	<td colspan="8"> 108. La comunidad cuenta con la siguiente infraestructura </td>
+  </tr>
+  <tr>
+  	<td colspan="3"><center> Detalle </center></td>
+  	<td><center> Si/No </center></td>
+  	<td colspan="2"><center> 108 A. <br> Año de construcción </br> </center></td>
+  	<td colspan="2"><center> 108 B. <br> Fuente de financiamiento </br> </center></td>
+  </tr>
+  <tr>
+  	<td colspan="3"> 1. ¿Local comunal? </td>
+  	<td><?php echo form_input($rpt108_1);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_2);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_3);?> </td>
+  </tr>
+  <tr>
+  	<td colspan="3"> 2. ¿Almacén comunal? </td>
+  	<td><?php echo form_input($rpt108_4);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_5);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_6);?> </td>
+  </tr>
+   <tr>
+  	<td colspan="3"> 3. ¿Tienda comunal? </td>
+  	<td><?php echo form_input($rpt108_7);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_8);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_9);?> </td>
+  </tr>
+   <tr>
+  	<td colspan="3"> 4. ¿Albergue o lugar de alojamiento (comunal)? </td>
+  	<td><?php echo form_input($rpt108_10);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_11);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_12);?> </td>
+  </tr>
+   <tr>
+  	<td colspan="3"> 5. ¿Losa deportiva (cemento) (comunal)? </td>
+  	<td><?php echo form_input($rpt108_13);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_14);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_15);?> </td>
+  </tr>
+   <tr>
+  	<td colspan="3"> 6. ¿Botiquin comunal? </td>
+  	<td><?php echo form_input($rpt108_16);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_17);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_18);?> </td>
+  </tr>
+   <tr>
+  	<td colspan="3"> 7. ¿Otro? <br><?php echo form_input($otro4);?></br> <?php echo form_input($espefique4);?> (Especifique)</td>
+  	<td><?php echo form_input($rpt108_19);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_20);?> </td>
+  	<td colspan="2"><?php echo form_input($rpt108_21);?> </td>
+  </tr>
+
 </table>
+
+<?php
+$rpt109_1=array(
+	'id'=>'$rpt109_1',
+	'name'=>'$rpt109_1',
+	'class'=>'form-control',
+);
+
+$rpt109_2=array(
+	'id'=>'$rpt109_2',
+	'name'=>'$rpt109_2',
+	'class'=>'form-control',
+);
+
+?>
+
+
+<table class="table table-bordered">
+<tr>
+	<th colspan="3"> Educación </th>
+</tr>
+<tr>
+	<td><!--Left side -->
+		<table class="table">
+			<tr><td> 109 En la comunidad ¿Existen centro educativos? </td></tr>
+			<tr><td><?php echo form_input($rpt109_1);?></td></tr>
+			<tr><td> <b>¿Cuantos?</b><?php echo form_input($rpt109_2);?><td> Pase a 111 </td> </td> </tr>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<table class="table">
+			<tr><td> 110. Indique los niveles educativos de los centros de enseñanza, como se llaman y la lengua que se imparte la educacion.</td></tr>
+			<tr><td> Nivel Educativo <td> Pase a la siguiente alternativa </td></td></tr>
+			<tr><td> 110A. Nombre de la Institucion Educativa </td></tr>
+			<tr><td colspan="3"> 110B. Lengua en que se imparte la educacion </td></tr>
+			
+
+</tr>	
+</table>
+
 
 
