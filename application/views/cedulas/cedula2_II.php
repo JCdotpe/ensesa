@@ -1,167 +1,228 @@
 
 <?php
-$tabindex = 0;
-$total_hectareas = array(
-				'id' => 'total_hectareas',
-				'name' => 'total_hectareas',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+$pregunta_601 = array(
+				'id' => 'pregunta_601',
+				'name' => 'pregunta_601',
+				'class' => 'form-control'
 			);
-$cantidad_hectareas = array(
-				'id' => 'cantidad_hectareas',
-				'name' => 'cantidad_hectareas',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+$pregunta_602 = array(
+				'id' => 'pregunta_602',
+				'name' => 'pregunta_602',
+				'class' => 'form-control'
 			);
 
-$especifique = array(
-				'id' => 'especifique',
-				'name' => 'especifique',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+$pregunta_603_1 = array(
+				'id' => 'pregunta_603_1',
+				'name' => 'pregunta_603_1',
+				'class' => 'form-control'
 			);
+$pregunta_603_2 = array(
+				'id' => 'pregunta_603_2',
+				'name' => 'pregunta_603_2',
+				'class' => 'form-control'
+			);
+$pregunta_603_3 = array(
+				'id' => 'pregunta_603_3',
+				'name' => 'pregunta_603_3',
+				'class' => 'form-control'
+			);
+$pregunta_603_4_especifique = array(
+				'id' => 'pregunta_603_4_especifique',
+				'name' => 'pregunta_603_4_especifique',
+				'class' => 'form-control'
+			);
+$pregunta_603_4 = array(
+				'id' => 'pregunta_603_4',
+				'name' => 'pregunta_603_4',
+				'class' => 'form-control'
+			);
+$pregunta_603_5_especifique = array(
+				'id' => 'pregunta_603_5_especifique',
+				'name' => 'pregunta_603_5_especifique',
+				'class' => 'form-control'
+			);
+$pregunta_603_5 = array(
+				'id' => 'pregunta_603_5',
+				'name' => 'pregunta_603_5',
+				'class' => 'form-control'
+			);
+$pregunta_603_6_especifique = array(
+				'id' => 'pregunta_603_6_especifique',
+				'name' => 'pregunta_603_6_especifique',
+				'class' => 'form-control'
+			);
+$pregunta_603_6 = array(
+				'id' => 'pregunta_603_6',
+				'name' => 'pregunta_603_6',
+				'class' => 'form-control'
+			);
+
+$pregunta_604_1_provincia = array(
+				'id' => 'pregunta_604_1_provincia',
+				'name' => 'pregunta_604_1_provincia',
+				'class' => 'form-control'
+			);
+$pregunta_604_2_provincia = array(
+				'id' => 'pregunta_604_2_provincia',
+				'name' => 'pregunta_604_2_provincia',
+				'class' => 'form-control'
+			);
+$pregunta_604_1_distrito = array(
+				'id' => 'pregunta_604_1_distrito',
+				'name' => 'pregunta_604_1_distrito',
+				'class' => 'form-control'
+			);
+$pregunta_604_2_distrito = array(
+				'id' => 'pregunta_604_2_distrito',
+				'name' => 'pregunta_604_2_distrito',
+				'class' => 'form-control'
+			);
+$pregunta_604_1_centro_poblado = array(
+				'id' => 'pregunta_604_1_centro_poblado',
+				'name' => 'pregunta_604_1_centro_poblado',
+				'class' => 'form-control'
+			);
+$pregunta_604_2_centro_poblado = array(
+				'id' => 'pregunta_604_1_centro_poblado',
+				'name' => 'pregunta_604_1_centro_poblado',
+				'class' => 'form-control'
+			);
+
+$pregunta_604_1_misma_comunidad = array(
+				'id' => 'pregunta_604_1_misma_comunidad',
+				'name' => 'pregunta_604_1_misma_comunidad',
+				'class' => 'form-control'
+			);
+$pregunta_604_2_misma_comunidad = array(
+				'id' => 'pregunta_604_2_misma_comunidad',
+				'name' => 'pregunta_604_2_misma_comunidad',
+				'class' => 'form-control'
+			);
+
+
+
 $provincia = array(
 				'id' => 'provincia',
 				'name' => 'provincia',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $distrito = array(
 				'id' => 'distrito',
 				'name' => 'distrito',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $ciudad_comunidad = array(
 				'id' => 'ciudad_comunidad',
 				'name' => 'ciudad_comunidad',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 
 $observaciones = array(
 				'id' => 'observaciones',
 				'name' => 'observaciones',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $rpta = array(
 				'id' => 'rpta',
 				'name' => 'rpta',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $rpta2 = array(
 				'id' => 'rpta2',
 				'name' => 'rpta2',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $cod_campo = array(
 				'id' => 'cod_campo',
 				'name' => 'cod_campo',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $actividad_economica = array(
 				'id' => 'actividad_economica',
 				'name' => 'actividad_economica',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $nro_comunidad = array(
 				'id' => 'nro_comunidad',
 				'name' => 'nro_comunidad',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
 			);
 $tecnicas_aprovechamiento = array(
 				'id' => 'tecnicas_aprovechamiento',
 				'name' => 'tecnicas_aprovechamiento',
-				'class' => 'form-control',
-				'tabindex'=>$tabindex++
+				'class' => 'form-control'
+			);
+$n = array(
+				'id' => 'n',
+				'name' => 'n',
+				'class' => 'form-control'
 			);
 
 ?>
 
+<!-- Inicio del CAP 600-->
 
-<table class="table table-bordered">
-<tr>
+<table class ="table table-bordered">
 	<tr>
-		<th colspan="4"><center> 600. ACTIVIDADES ECONÓMICAS QUE SE DESARROLLAN EN LA COMUNIDAD<center></th>
-	</tr>
-</tr>
-</table>
-
-<table class="table table-bordered">
-
-	<tr>
-		<th colspan="2">601. CUANTAS HECTAREAS EN TOTAL TIENE LA COMUNIDAD?<p> Total de Hectáreas<?php echo form_input($total_hectareas);?></th>
-		<th rowspan ="2">603. CUANTAS HECTAREAS ESTAN DESTINADAS A LA:
-			<table class="table table-bordered">
+		<td> <!-- Lado Izquierdo -->
+			<table class ="table table-bordered">
 				<tr>
-					<th><center>Actividades Economicas</center></th>
-					<th><center>Cantidad de Hectáreas</center></th>
+					<th colspan ="2">601. CUANTAS HECTAREAS EN TOTAL TIENE LA COMUNIDAD?</th>
 				</tr>
 				<tr>
-					<td>1. Agricultura? </td>
-					<td><?php echo form_input($cantidad_hectareas);?></td>
+					<th>Total de Hectáreas</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+
+			</table>
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">602. CUANTAS HECTAREAS SON PARA LA CONSERVACIÓN DE BOSQUES?</th>
+				</tr>
+				<tr>
+					<th>Total de Hectáreas</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+
+			</table>
+
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">603. CUANTAS HECTAREAS ESTÁN DESTINADAS A LA:</th>
+				</tr>
+				<tr>
+					<th>Actividades Económicas</th>
+					<th>Cantidad de Hectáreas</th>
+				</tr>
+				<tr>
+					<td>1. Agricultura?</td>
+					<td><?php echo form_input ($n); ?></td>
 				</tr>
 				<tr>
 					<td>2. Ganaderia?</td>
-					<td><?php echo form_input($cantidad_hectareas);?></td>
-
+					<td><?php echo form_input ($n); ?></td>
 				</tr>
 				<tr>
-					<td>3. Extraccion de Madera?</td>
-					<td><?php echo form_input($cantidad_hectareas);?></td>
+					<td>3. Extracción de Madera?</td>
+					<td><?php echo form_input ($n); ?></td>
 				</tr>
 				<tr>
-					<td>4. Otra Actividad? <p> Especifique <?php echo form_input($especifique);?> </td>
-					<td><?php echo form_input($cantidad_hectareas);?></td>
+					<td>4. Otra Actividad? <?php echo form_input ($n); ?> (Especifique) </td>
+					<td><?php echo form_input ($n); ?></td>
 				</tr>
 				<tr>
-					<td>5. Otra Actividad?<p> Especifique <?php echo form_input($especifique);?></td>
-					<td><?php echo form_input($cantidad_hectareas);?></td>
+					<td>5. Otra Actividad? <?php echo form_input ($n); ?> (Especifique) </td>
+					<td><?php echo form_input ($n); ?></td>
 				</tr>
 				<tr>
-					<td>6. Otra Actividad?<p> Especifique <?php echo form_input($especifique);?></td>
-					<td><?php echo form_input($cantidad_hectareas);?></td>
+					<td>6. Otra Actividad? <?php echo form_input ($n); ?> (Especifique) </td>
+					<td><?php echo form_input ($n); ?></td>
 				</tr>
-
-			</table>	
-
-		</th>
-	</tr>
-
-	<tr>
-		<th colspan="2">602. CUANTAS HECTAREAS SON PARA LA CONSERVACION DE BOSQUES? <p>Total de Hectareas <?php echo form_input($total_hectareas); ?> </th>
-	</tr>
-	<tr>
-		<th colspan ="3">604. A QUE LUGAR ACUDEN REGULARMENTE:
-	<table class="table table-bordered">
-		<th>Detalle</th>
-		<th>Provincia</th>
-		<th>Distrito</th>
-		<th>(Centro Poblado) Ciudad /Comunidad</th>
-		<th>En la misma comunidad</th>
-
-		<tr>
-			<td>1. Los miembros de la comunidad para realizar sus compras?</td>
-			<td><?php echo form_input ($provincia); ?></td>
-			<td><?php echo form_input ($distrito); ?></td>
-			<td><?php echo form_input ($ciudad_comunidad); ?></td>
-			<td><?php echo form_input ($nro_comunidad); ?></td>
-		</tr>
-		<tr>
-			<td>2. Los miembros de la comunidad para vender sus productos agricolas</td>
-			<td><?php echo form_input ($provincia); ?></td>
-			<td><?php echo form_input ($distrito); ?></td>
-			<td><?php echo form_input ($ciudad_comunidad); ?></td>
-			<td><?php echo form_input ($nro_comunidad); ?></td>
-		</tr>
-	</table>
-		</th>
+			</table>
+		</td>
 	</tr>
 </table>
 
@@ -170,7 +231,7 @@ $tecnicas_aprovechamiento = array(
 	<th>OBSERVACIONES: </th>
 	</tr>
 	<tr>
-	<td> <?php echo form_input ($observaciones); ?></th>
+	<td> <?php echo form_textarea ($observaciones); ?></th>
 	</tr>
 </table>
 
@@ -291,7 +352,7 @@ $tecnicas_aprovechamiento = array(
 		<td> <?php echo form_input ($cod_campo); ?></td>
 	</tr>
 	<tr>
-		<td>12. ¿Otro? <p>Especifique <?php echo form_input ($especifique); ?></td>
+		<td>12. ¿Otro? <p>Especifique <?php echo form_input ($n); ?></td>
 		<td> <?php echo form_input ($rpta); ?></td>
 		<td> <?php echo form_input ($rpta); ?></td>
 		<td> <?php echo form_input ($rpta2); ?></td>
@@ -300,7 +361,7 @@ $tecnicas_aprovechamiento = array(
 		<td> <?php echo form_input ($cod_campo); ?></td>
 	</tr>
 	<tr>
-		<td>13. ¿Otro? <p>Especifique <?php echo form_input ($especifique); ?> </td>
+		<td>13. ¿Otro? <p>Especifique <?php echo form_input ($n); ?> </td>
 		<td> <?php echo form_input ($rpta); ?></td>
 		<td> <?php echo form_input ($rpta); ?></td>
 		<td> <?php echo form_input ($rpta2); ?></td>
@@ -309,7 +370,7 @@ $tecnicas_aprovechamiento = array(
 		<td> <?php echo form_input ($cod_campo); ?></td>
 	</tr>
 	<tr>
-		<td>14. ¿Otro? <p>Especifique <?php echo form_input ($especifique); ?></td>
+		<td>14. ¿Otro? <p>Especifique <?php echo form_input ($n); ?></td>
 		<td> <?php echo form_input ($rpta); ?></td>
 		<td> <?php echo form_input ($rpta); ?></td>
 		<td> <?php echo form_input ($rpta2); ?></td>
@@ -341,34 +402,34 @@ $tecnicas_aprovechamiento = array(
 		</tr>
 
 		<tr>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 
 	</table>
@@ -388,76 +449,85 @@ $tecnicas_aprovechamiento = array(
 		</tr>
 
 		<tr>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
-			<td>1.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
-			<td>2.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
-			<td>3.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
-			<td>4.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 		<tr>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
-			<td>5.<?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
+			<td><?php echo form_input ($actividad_economica); ?></td>
 		</tr>
 
 
 	</table>
 
+	<table class ="table table-bordered">
+		<tr>
+			<th>609. PARA REALIZAR SUS ACTIVIDADES ECONÓMICAS EN LA COMUNIDAD, REALIZAN LAS SIGUIENTES PRÁCTICAS: (Circule uno o más códigos)</th>
+		</tr>
+	</table>
+
 	<table class = "table table-bordered">
+		<td> <!-- Lado Izquierdo -->
+			<table class ="table table-bordered">
+				<tr>
+					<td>Uso de abono /fertilizante químico?</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+				<tr>
+					<td>Uso de pesticidas?</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+				<tr>
+					<td>Uso de barbasco / huaca?</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+				<tr>
+					<td>Roza / quema de árboles?</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+			</table>
 
-		<tr>
-			<th colspan = "2">609. PARA REALIZAR SUS ACTIVIDADES ECONÓMICAS EN LA COMUNIDAD, REALIZAN LAS SIGUIENTES PRÁCTICAS: (Acepte uno o mas de códigos)</th>
-		</tr>
+		</td>
 
-		<tr>
-			<td> Uso de abono / fertilizante químico <?php echo form_input ($actividad_economica); ?> </td>
-			<td> Otro <p> Especifique / fertilizante químico <?php echo form_input ($actividad_economica); ?> </td>
+		<td> <!-- Lado Derecho -->
+			<table class ="table table-bordered">
+				<tr>
+					<td>Otro <?php echo form_input ($n); ?> (Especifique)</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+				<tr>
+					<td>Otro <?php echo form_input ($n); ?> (Especifique)</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+				<tr>
+					<td>Otro <?php echo form_input ($n); ?> (Especifique)</td>
+					<td><?php echo form_input ($n); ?></td>
+				</tr>
+			</table>
 
-		</tr>
-
-		<tr>
-			<td> Uso de pesticidas? <?php echo form_input ($actividad_economica); ?> </td>
-			<td> Otro <p> Especifique <?php echo form_input ($actividad_economica); ?> </td>
-
-		</tr>
-
-		<tr>
-			<td> Uso de basbasco / huaca? <?php echo form_input ($actividad_economica); ?> </td>
-			<td> Otro <p> Especifique <?php echo form_input ($actividad_economica); ?> </td>
-
-		</tr>
-
-		<tr>
-			<td>Roza / quema de árboles? <?php echo form_input ($actividad_economica); ?> </td>
-
-		</tr>
-
-		<tr>
-			<th> OBSERVACIONES:</th>
-
-		</tr>
-		<tr>
-			<td colspan = "2"> <?php echo form_input ($observaciones); ?></td>
-			
-		</tr>	
+		</td>
 
 	</table>
 
@@ -478,7 +548,7 @@ $tecnicas_aprovechamiento = array(
 	</tr>
 
 </table>
-
+<!--
 <table class = "table table-bordered">
 	<tr>
 		<th colspan = "2">701. EN LOS ULTIMOS 2 AÑOS ¿LA COMUNIDAD HA RECIBIDO CAPACITACION EN TÉCNICAS DE APROVECHAMIENTO SOSTENIBLE?</th>
@@ -495,40 +565,123 @@ $tecnicas_aprovechamiento = array(
 			</tr>
 
 			<tr>
-				<td>Programa Nacional de Bosques?</td>
+				<td>1. Programa Nacional de Bosques?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td>Servicio Nacional de Area Naturales Protegidas por el estado - SERNANP?</td>
+				<td>2. Servicio Nacional de Area Naturales Protegidas por el estado - SERNANP?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td>Ministerio de Agricultura?</td>
+				<td>3. Ministerio de Agricultura?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td>Gobierno Regional?</td>
+				<td>4. Gobierno Regional?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td>Gobierno Provincial?</td>
+				<td>5. Gobierno Provincial?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td>Gobierno Distrital / Local?</td>
+				<td>6. Gobierno Distrital / Local?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td>Organizacion no Gubernamental - ONG?</td>
+				<td>7. Organizacion no Gubernamental - ONG?</td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 			<tr>
-				<td><p>Otro - Especifique<?php echo form_input ($especifique); ?></td>
+				<td><p>8. Otro - Especifique<?php echo form_input ($n); ?></td>
 				<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
 			</tr>
 
 		</table>
 </table>
+-->
+
+<table = class =" table table-bordered">
+	<tr>
+		<td> <!-- Lado Izquierdo -->
+			<table class ="table">
+				<tr>
+					<th colspa="2">702.¿LA(S) INSTITUCION(ES) U ORGANIZACIÓN(ES) QUE HAN BRINDADO ESTAS TÉCNICAS SON: (Lea cada alternativa y circule uno o mas codigos)</th>
+				</tr>
+				<tr>
+					<td>1. Programa Nacional de Bosques?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td>2. Servicio Nacional de Area Naturales Protegidas por el estado - SERNANP?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td>3. Ministerio de Agricultura?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td>4. Gobierno Regional?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td>5. Gobierno Provincial?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td>6. Gobierno Distrital / Local?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td>7. Organizacion no Gubernamental - ONG?</td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><p>8. Otro - Especifique<?php echo form_input ($n); ?></td>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+			</table>
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table class ="table">
+				<tr>
+					<th>703.¿QUÉ TECNICAS DE APROVECHAMIENTO SOSTENIBLE RECIBIO?</th>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+				<tr>
+					<td><?php echo form_input ($tecnicas_aprovechamiento); ?></td>
+				</tr>
+
+			</table>
+
+		</td>
+
+	</tr>
+
+</table>
+
+
 
 <table class="table table-bordered">
 	<tr>
@@ -536,80 +689,84 @@ $tecnicas_aprovechamiento = array(
 	</tr>
 </table>
 
-<table class = "table table-bordered">
-	
+<table class ="table table-bordered">
+	<tr><th colspan ="2">801.  LAS SIGUIENTES PRÁCTICAS SE DESARROLLAN EN SU COMUNIDAD:</th></tr>
 	<tr>
-		<th>801. LAS SIGUIENTES PRÁCTICAS SE DESAROOLLAN EN SU COMUNIDAD</th>
-	</tr>
-		<td>
-			<table class ="table table-bordered">
-			<tr>
-				<th></th>
-				<th>SI</th>
-				<th>NO</th>
-				<th> </th>
-				<th>SI</th>
-				<th>NO</th>
-			</tr>
-			<tr>
-				<td>1. ¿Censo de especies? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> 8. ¿Cuotas de caza?</td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
-			<tr>
-				<td>2. ¿Inventario forestal? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> 9. ¿Vedas temporales de caza?</td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
-			<tr>
-				<td>3. ¿Repoblacion de especies? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> 10. ¿Obtencion de fibras, lianas, hojas, frutos, resinas sin cortar árboles?</td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
-			<tr>
-				<td>4. ¿Planificacion y control de tala de árboles? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> 11. ¿Uso de abono / fertilizante orgánico?</td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
-			<tr>
-				<td>5. ¿Pesca Controlada? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> Otro Especifique <?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
-			<tr>
-				<td>6.. ¿Prohibicion de productos tóxicos para pescar? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> Otro Especifique <?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
-			<tr>
-				<td>7. ¿Caza selectiva de animales machos / adultos? </td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td> Otro Especifique <?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-				<td><?php echo form_input ($rpta2); ?></td>
-			</tr>
+		<td><!-- Lado Izquierdo -->
 
+			<table class ="table">
+				<tr>
+					<th> </th>
+					<th>SI / NO</th>
+				</tr>
+				<tr>
+					<td>1. ¿Censo de especies? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>2. ¿Inventario forestal? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>3. ¿Repoblacion de especies? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>4. ¿Planificacion y control de tala de árboles? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>5. ¿Pesca Controlada? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>6.. ¿Prohibicion de productos tóxicos para pescar? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td>7. ¿Caza selectiva de animales machos / adultos? </td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
 			</table>
 		</td>
+		<td> <!-- Lado Derecho -->
+			<table class ="table">
+				<tr>
+					<th> </th>
+					<th>SI / NO</th>
+				</tr>
+				<tr>
+					<td>8. ¿Cuotas de caza?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td> 9. ¿Vedas temporales de caza?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td> 10. ¿Obtencion de fibras, lianas, hojas, frutos, resinas sin cortar árboles?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td> 11. ¿Uso de abono / fertilizante orgánico?</td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td> Otro Especifique <?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td> Otro Especifique <?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+				<tr>
+					<td> Otro Especifique <?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_input ($rpta2); ?></td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
 </table>
 
 <table class ="table table-bordered">
@@ -617,7 +774,7 @@ $tecnicas_aprovechamiento = array(
 		<th>Observaciones</th>
 	</tr>
 	<tr>
-		<td><?php echo form_input ($observaciones); ?></td>
+		<td><?php echo form_textarea ($observaciones); ?></td>
 	</tr>
 </table>
 
@@ -2097,5 +2254,68 @@ $tecnicas_aprovechamiento = array(
 				</tr>
 			</table>
 		</td>
+	</tr>
+</table>
+
+<table class = "table table-bordered">
+	<tr>
+		<th><center>1500. MIGRACIÓN </center></th>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<td> <!-- Lado Izquierdo -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="4">1501. EN LOS ÚLTIMOS 5 AÑOS, HAN LLEGADO NUEVAS FAMILIAS Y POBLADORES DE OTRAS COMUNIDADES O COMUNIDAD?</th>
+				</tr>
+				<tr>
+					<th> SI / NO</th>
+					<th> <?php echo form_input ($rpta2); ?><b>1501A. Cuantas llegaron?</b></th>
+					<th> <?php echo form_input ($rpta2); ?> <b>Familias</b></th>
+					<th> <?php echo form_input ($rpta2); ?> <b>Pobladores</b></th>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="4">1502. EN LOS ULTIMOS 5 AÑOS, HAN RETORNADO FAMILIAS Y POBLADORES QUE SE HABÍAN RETIRADO DE SU COMUNIDAD?</th>
+				</tr>
+				<tr>
+					<th> SI / NO</th>
+					<th> <?php echo form_input ($rpta2); ?><b>1502A. Cuantas retornaron?</b></th>
+					<th> <?php echo form_input ($rpta2); ?> <b>Familias</b></th>
+					<th> <?php echo form_input ($rpta2); ?> <b>Pobladores</b></th>
+				</tr>
+			</table>
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="4">1503. EN LOS ULTIMOS 5 AÑOS, HAN EMIGRADO FAMILIAS COMPLETAS (PADRES E HIJOS) Y POBLADORES DE SU COMUNIDAD?</th>
+				</tr>
+				<tr>
+					<th> SI / NO</th>
+					<th> <?php echo form_input ($rpta2); ?><b>1502A. Cuantas emigraron?</b></th>
+					<th> <?php echo form_input ($rpta2); ?> <b>Familias</b></th>
+					<th> <?php echo form_input ($rpta2); ?> <b>Pobladores</b></th>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<th>OBSERVACIONES: <?php echo form_textarea ($rpta2); ?></th>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<th><center>EL Jefe o Autoridad de la comunidad Nativa deja constancia que toda información resgistrada en esta cédula ha sido recopilada por el Encuestador(a) responsable de la ENSESA 2013, dando conformidad a la misma.</center></th>
+		<th><?php echo form_input($rpta2); ?><b><center> Sello y Firma </center></b></th>
 	</tr>
 </table>
