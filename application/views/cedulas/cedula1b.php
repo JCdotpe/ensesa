@@ -1,109 +1,141 @@
 
 <?php 
 
-$cuestionario = array(
-				'id' => 'cuestionario',
-				'name' => 'cuestionario',
+$E1_Cuestionario_Nro = array(
+				'id' => 'E1_Cuestionario_Nro',
+				'name' => 'E1_Cuestionario_Nro',
 				'class' => 'form-control',
 			);
 
-$cuestionario_adicional = array(
-				'id' => 'cuestionario_adicional',
-				'name' => 'cuestionario_adicional',
+$Nombre_Dpto = array(
+				'id' => 'Nombre_Dpto',
+				'name' => 'Nombre_Dpto',
 				'class' => 'form-control',
 			);
 
-$departamento = array(
-				'id' => 'departamento',
-				'name' => 'departamento',
+$A_1_Cod_Dpto = array(
+				'id' => 'A_1_Cod_Dpto',
+				'name' => 'A_1_Cod_Dpto',
 				'class' => 'form-control',
 			);
 
-$codigo_departamento = array(
-				'id' => 'codigo_departamento',
-				'name' => 'codigo_departamento',
+$Nombre_Prov = array(
+				'id' => 'Nombre_Prov',
+				'name' => 'Nombre_Prov',
 				'class' => 'form-control',
 			);
 
-$provincia = array(
-				'id' => 'provincia',
-				'name' => 'provincia',
+$A_2_Cod_Prov = array(
+				'id' => 'A_2_Cod_Prov',
+				'name' => 'A_2_Cod_Prov',
 				'class' => 'form-control',
 			);
 
-$codigo_provincia = array(
-				'id' => 'codigo_provincia',
-				'name' => 'codigo_provincia',
+$Nombre_Dist = array(
+				'id' => 'Nombre_Dist',
+				'name' => 'Nombre_Dist',
 				'class' => 'form-control',
 			);
 
-$distrito = array(
-				'id' => 'distrito',
-				'name' => 'distrito',
+$A_3_Cod_Dist = array(
+				'id' => 'A_3_Cod_Dist',
+				'name' => 'A_3_Cod_Dist',
 				'class' => 'form-control',
 			);
 
-$codigo_distrito = array(
-				'id' => 'codigo_distrito',
-				'name' => 'codigo_distrito',
+$A_4_Centro_Poblado = array(
+				'id' => 'A_4_Centro_Poblado',
+				'name' => 'A_4_Centro_Poblado',
 				'class' => 'form-control',
 			);
 
-$centro_poblado = array(
-				'id' => 'centro_poblado',
-				'name' => 'centro_poblado',
+$A_5_Comunidad_Nativa = array(
+				'id' => 'A_5_Comunidad_Nativa',
+				'name' => 'A_5_Comunidad_Nativa',
 				'class' => 'form-control',
 			);
 
-$comunidad_nativa = array(
-				'id' => 'comunidad_nativa',
-				'name' => 'comunidad_nativa',
+$A_6_Anexo_Cn = array(
+				'id' => 'A_6_Anexo_Cn',
+				'name' => 'A_6_Anexo_Cn',
 				'class' => 'form-control',
 			);
 
-$anexo_ccnn = array(
-				'id' => 'anexo_ccnn',
-				'name' => 'anexo_ccnn',
-				'class' => 'form-control',
-			);
-
-$zona = array(
-			'id' => 'zona',
-			'name' => 'zona',
+$B_7_Zona = array(
+			'id' => 'B_7_Zona',
+			'name' => 'B_7_Zona',
 			'class' => 'form-control',
 		);
 
-$hogares = array(
-			'id' => 'hogares',
-			'name' => 'hogares',
-			'class' => 'form-control',
-		);
-$personas = array(
-			'id' => 'personas',
-			'name' => 'personas',
+$B_8_Manzana = array(
+			'id' => 'B_8_Manzana',
+			'name' => 'B_8_Manzana',
 			'class' => 'form-control',
 		);
 
-$nombres = array(
-			'id' => 'nombres',
-			'name' => 'nombres',
+$B_9_1_AER_ini = array(
+			'id' => 'B_9_1_AER_ini',
+			'name' => 'B_9_1_AER_ini',
 			'class' => 'form-control',
 		);
-$informantes = array(
+
+$B_9_2_AER_fin = array(
+			'id' => 'B_9_2_AER_fin',
+			'name' => 'B_9_2_AER_fin',
+			'class' => 'form-control',
+		);
+
+$B_10_Vivienda_nro  = array(
+			'id' => 'B_10_Vivienda_nro',
+			'name' => 'B_10_Vivienda_nro',
+			'class' => 'form-control',
+		);
+
+$E1_B_12 = array(
+			'id' => 'E1_B_12',
+			'name' => 'E1_B_12',
+			'class' => 'form-control',
+		);
+
+$E1_B_13_Nro_Hogar = array(
+			'id' => 'E1_B_13_Nro_Hogar',
+			'name' => 'E1_B_13_Nro_Hogar',
+			'class' => 'form-control',
+		);
+
+$E1_201_Nro = array(
+			'id' => 'E1_201_Nro',
+			'name' => 'E1_201_Nro',
+			'class' => 'form-control',
+		);
+
+$E1_202_Nombre = array(
+			'id' => 'E1_202_Nombre',
+			'name' => 'E1_202_Nombre',
+			'class' => 'form-control',
+		);
+
+$E1_202_Apellidos = array(
+			'id' => 'E1_202_Apellidos',
+			'name' => 'E1_202_Apellidos',
+			'class' => 'form-control',
+		);
+
+$E1B_Informante_Nro = array(
 			'id' => 'informantes',
 			'name' => 'informantes',
 			'class' => 'form-control',
 		);
 
-$resps = array(
-			'id' => 'resps',
-			'name' => 'resps',
+$E1B_13 = array(
+			'id' => 'E1B_13',
+			'name' => 'E1B_13',
 			'class' => 'form-control',
 		);
 
-$obs_01b = array(
-			'id' => 'obs_01b',
-			'name' => 'obs_01b',
+$E1B_13_Obs = array(
+			'id' => 'E1B_13_Obs',
+			'name' => 'E1B_13_Obs',
 			'class' => 'form-control',
 			'type' => 'textarea',
 			'rows' => 2,
@@ -120,12 +152,10 @@ $obs_01b = array(
 	<tr>
 		<th colspan="4"> Vivienda, Hogar, Educacion, Salud, Empleo e Ingresos, Conservacion de bosques, Recursos y Servicios del bosque, Deforestacion y Comite de vigilancia del bosque </th>
 		<th> Cuestionario </th>
-		<th> Cuestionario Adicional </th>
 	</tr>
 	<tr>
 		<td colspan="4"> Cuestionario Confidencial: Amparado por el decreto legislativo Nro 604 y por el decreto supremo 043-2001-PCM: Secreto Estadistico </td>
-		<td> <?php echo form_input($cuestionario); ?> </td>
-		<td> <?php echo form_input($cuestionario_adicional); ?> </td>
+		<td> <?php echo form_input($E1_Cuestionario_Nro); ?> </td>s
 	</tr>
 </table>
 
@@ -134,55 +164,119 @@ $obs_01b = array(
 	<tr>
 		<td>
 			<table class="table">
-				<tr><td colspan="2"><h4>A. UBICACIÓN GEOGRÁFICA</h4></td><td><h4>COD</h4></td></tr>
-				<tr><td> 1. DEPARTAMENTO </td><td> <?php echo form_input($departamento); ?> </td><td> <?php echo form_input($codigo_departamento); ?> </td></tr>
-				<tr><td> 2. PROVINCIA </td><td> <?php echo form_input($provincia); ?> </td><td> <?php echo form_input($codigo_provincia); ?> </td></tr>
-				<tr><td> 3. DISTRITO </td><td> <?php echo form_input($distrito); ?> </td><td> <?php echo form_input($codigo_distrito); ?> </td></tr>
-				<tr><td> 4. CENTRO POBLADO </td><td> <?php echo form_input($centro_poblado); ?> </td></tr>
-				<tr><td> 5. COMUNIDAD NATIVA </td><td> <?php echo form_input($comunidad_nativa); ?> </td></tr>
-				<tr><td> 6. ANEXO CC.NN. </td><td> <?php echo form_input($anexo_ccnn); ?> </td></tr>
+				<tr>
+					<td colspan="2">
+						<h4> A. UBICACIÓN GEOGRÁFICA </h4>
+					</td>
+					<td>
+						<h4> COD </h4>
+					</td>
+				</tr>
+				<tr>
+					<td> 1. DEPARTAMENTO </td>
+					<td> <?php echo form_input($Nombre_Dpto); ?> </td>
+					<td> <?php echo form_input($A_1_Cod_Dpto); ?> </td>
+				</tr>
+				<tr>
+					<td> 2. PROVINCIA </td>
+					<td> <?php echo form_input($Nombre_Prov); ?> </td>
+					<td> <?php echo form_input($A_2_Cod_Prov); ?> </td>
+				</tr>
+				<tr>
+					<td> 3. DISTRITO </td>
+					<td> <?php echo form_input($Nombre_Dist); ?> </td>
+					<td> <?php echo form_input($A_3_Cod_Dist); ?> </td>
+				</tr>
+				<tr>
+					<td> 4. CENTRO POBLADO </td>
+					<td> <?php echo form_input($A_4_Centro_Poblado); ?> </td>
+				</tr>
+				<tr>
+					<td> 5. COMUNIDAD NATIVA </td>
+					<td> <?php echo form_input($A_5_Comunidad_Nativa); ?> </td>
+				</tr>
+				<tr>
+					<td> 6. ANEXO CC.NN. </td>
+					<td> <?php echo form_input($A_6_Anexo_Cn); ?> </td>
+				</tr>
 			</table>
 		</td>
 		<td>
 			<table class="table">
-				<tr><td colspan="3"><h4>B. UBICACIÓN CENSAL</h4></td></tr>
-				<tr><td colspan="2"> 7. ZONA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
-				<tr><td colspan="2"> 8. MANZANA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
-				<tr><td rowspan="2"> 9. A.E.R.N </td><td> Inicial </td><td> <?php echo form_input($zona); ?> </td></tr>
-				<tr><td> Final </td><td> <?php echo form_input($zona); ?> </td></tr>
-				<tr><td colspan="2"> 10. VIVIENDA N° </td><td> <?php echo form_input($zona); ?> </td></tr>
+				<tr>
+					<td colspan="3">
+						<h4>B. UBICACIÓN CENSAL</h4>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="table">
+							<tr>
+								<td colspan="2"> 7. ZONA N° </td>
+								<td> <?php echo form_input($B_7_Zona); ?> </td>			
+							</tr>
+							<tr>
+								<td colspan="2"> 8. MANZANA N° </td>
+								<td> <?php echo form_input($B_8_Manzana); ?> </td>
+							</tr>
+							<tr>
+								<td rowspan="2"> 9. A.E.R.N </td>
+								<td> Inicial </td>
+								<td> <?php echo form_input($B_9_1_AER_ini); ?> </td>
+							</tr>
+							<tr>
+								<td> Final </td>
+								<td> <?php echo form_input($B_9_2_AER_fin); ?> </td>
+							</tr>
+							<tr>
+								<td colspan="2"> 10. VIVIENDA N° </td>
+								<td> <?php echo form_input($B_10_Vivienda_nro); ?> </td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table class="table">
+							<tr>
+								<td colspan="2"> 11. Total de Hogares que ocupan la vivienda </td>
+								<td> <?php echo form_input($E1_B_12); ?> </td>			
+							</tr>
+							<tr>
+								<td colspan="2"> 12. Hogar N° </td>
+								<td> <?php echo form_input($E1_B_13_Nro_Hogar); ?> </td>
+							</tr>
+						</table>
+					</td>
+				</tr>
 			</table>
 		</td>
 	</tr>
 </table>
-<table class="table table-bordered">
-	<tr>
-		<td> Persona N&deg </td>
-		<td colspan="3"> <?php echo form_input($personas); ?> </td>
-		<td colspan="3"> Nombre: </td>
-		<td> <?php echo form_input($nombres); ?> </td>
-		<td colspan="3"> Informante N&deg </td>
-		<td> <?php echo form_input($informantes); ?> </td>
-	</tr>
-</table>
-<table class="table table-bordered">
-	<tr>
-		<th>
-			13. La actividad de recoleccion, caza y/o pesca realizada en los ultimos 12 meses, ¿Fue destinada a la venta?
-		</th>
-		<td> <?php echo form_input($resps); ?> </td>
-	</tr>
-</table>
-<table class="table table-bordered">
-	<tr>
-		<th colspan="2">
-			Para todas las personas de 14 años y mas de edad que en el cap. 500 o en los ultimos 12 meses, manifestaron realizar actividades de caza, recoleccion y/o pesca
-		</th>
 
+<table class="table table-bordered">
+	<tr>
+		<td> Persona N&deg; </td>
+		<td colspan="3"> <?php echo form_input($E1_201_Nro); ?> </td>
+		<td colspan="3"> Nombre: </td>
+		<td> <?php echo form_input($E1_202_Nombre); ?> </td>
+		<td>  <?php echo form_input($E1_202_Apellidos); ?> </td>
+		<td colspan="3"> Informante N&deg; </td>
+		<td> <?php echo form_input($E1B_Informante_Nro); ?> </td>
+	</tr>
+</table>
+
+<table class="table table-bordered">
+	<tr>
+		<th> 13. La actividad de recoleccion, caza y/o pesca realizada en los ultimos 12 meses, ¿Fue destinada a la venta?	</th>
+		<td> <?php echo form_input($E1B_13); ?> </td>
+	</tr>
+</table>
+
+<table class="table table-bordered">
+	<tr>
+		<th colspan="2"> Para todas las personas de 14 años y mas de edad que en el cap. 500 o en los ultimos 12 meses, manifestaron realizar actividades de caza, recoleccion y/o pesca </th>
 	</tr>
 	<tr>
-		<td align="center"> OBSERVACIONES <?php echo form_textarea($obs_01b); ?> </td>
-		
+		<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_13_Obs); ?> </td>
 	</tr>
 </table>
 
@@ -199,21 +293,25 @@ $obs_01b = array(
 </table>
 <!-- Item 100 --> 
 <?php
-$mes_inicio_100_A = array(
-			'id' => 'mes_inicio_100_A', 
-			'name' => 'mes_inicio_100_A', 
+
+$E1B_Mes_Ini = array(
+			'id' => 'E1B_Mes_Ini', 
+			'name' => 'E1B_Mes_Ini', 
 			'class' => 'form-control'
 			);
-$mes_fin_100_A = array(
-			'id' => 'mes_fin_100_A', 
-			'name' => 'mes_fin_100_A', 
+
+$E1B_Mes_Fin = array(
+			'id' => 'E1B_Mes_Fin', 
+			'name' => 'E1B_Mes_Fin', 
 			'class' => 'form-control'
 			);
-$resp_100_A = array(
-			'id' => 'resp_100_A', 
-			'name' => 'resp_100_A', 
+
+$E1B_101_A = array(
+			'id' => 'E1B_101_A', 
+			'name' => 'E1B_101_A', 
 			'class' => 'form-control'
 			);
+
 $pregunta_100_A_1A_1 = array(
 					'id' => 'pregunta_100_A_1A_1',
 					'name' => 'pregunta_100_A_1A_1',
@@ -363,67 +461,68 @@ $pregunta_100_A_O_T_2 = array(
 $pregunta_100_B_a = array(
 					'id' => 'pregunta_100_B_a',
 					'name' => 'pregunta_100_B_a',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_b = array(
 					'id' => 'pregunta_100_B_b',
 					'name' => 'pregunta_100_B_b',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_c = array(
 					'id' => 'pregunta_100_B_c',
 					'name' => 'pregunta_100_B_c',
-					'class' => 'form-control'
+					'class' => 'form-control',
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_d = array(
 					'id' => 'pregunta_100_B_d',
 					'name' => 'pregunta_100_B_d',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_e = array(
 					'id' => 'pregunta_100_B_e',
 					'name' => 'pregunta_100_B_e',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_f = array(
 					'id' => 'pregunta_100_B_f',
 					'name' => 'pregunta_100_B_f',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_g = array(
 					'id' => 'pregunta_100_B_g',
 					'name' => 'pregunta_100_B_g',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_h = array(
 					'id' => 'pregunta_100_B_h',
 					'name' => 'pregunta_100_B_h',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_i = array(
 					'id' => 'pregunta_100_B_i',
 					'name' => 'pregunta_100_B_i',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_j = array(
 					'id' => 'pregunta_100_B_j',
 					'name' => 'pregunta_100_B_j',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_j_o = array(
 					'id' => 'pregunta_100_B_j_o',
 					'name' => 'pregunta_100_B_j_o',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_total = array(
 					'id' => 'pregunta_100_B_total',
 					'name' => 'pregunta_100_B_total',
-					'class' => 'form-control'
+					'class' => 'form-control C1_B_table',
 				);
 $pregunta_100_B_obs = array(
 					'id' => 'pregunta_100_B_obs',
 					'name' => 'pregunta_100_B_obs',
-					'class' => 'form-control',
+					'class' => 'form-control C1_B_table',
 					'rows' => 2,
 			        'cols' => 13
 				);
@@ -556,75 +655,85 @@ $pregunta_100_C_O_T_2 = array(
 					'name' => 'pregunta_100_C_O_T_2',
 					'class' => 'form-control'
 				);
+
 $pregunta_100_D_a = array(
 					'id' => 'pregunta_100_D_a',
 					'name' => 'pregunta_100_D_a',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_b = array(
 					'id' => 'pregunta_100_D_b',
 					'name' => 'pregunta_100_D_b',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_c = array(
 					'id' => 'pregunta_100_D_c',
 					'name' => 'pregunta_100_D_c',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_d = array(
 					'id' => 'pregunta_100_D_d',
 					'name' => 'pregunta_100_D_d',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_e = array(
 					'id' => 'pregunta_100_D_e',
 					'name' => 'pregunta_100_D_e',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_f = array(
 					'id' => 'pregunta_100_D_f',
 					'name' => 'pregunta_100_D_f',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_g = array(
 					'id' => 'pregunta_100_D_g',
 					'name' => 'pregunta_100_D_g',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_h_o = array(
 					'id' => 'pregunta_100_D_h_o',
 					'name' => 'pregunta_100_D_h_o',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_h = array(
 					'id' => 'pregunta_100_D_h',
 					'name' => 'pregunta_100_D_h',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_total = array(
 					'id' => 'pregunta_100_D_total',
 					'name' => 'pregunta_100_D_total',
-					'class' => 'form-control'
+					'class' => 'form-control C1_D_table'
 				);
+
 $pregunta_100_D_obs = array(
 					'id' => 'pregunta_100_D_obs',
 					'name' => 'pregunta_100_D_obs',
-					'class' => 'form-control',
+					'class' => 'form-control C1_D_table',
 					'rows' => 2,
 			        'cols' => 13
 				);
+
 ?>
 
 <table class="table table-bordered">
 	<tr>
-		1. En los ultimos 12 meses, de
-	</tr>
-	<tr>
-		<td> <?php echo form_input($mes_inicio_100_A); ?> </td>
+		<td> 1. En los ultimos 12 meses, de	</td>
+		<td> <?php echo form_input($E1B_Mes_Ini); ?> </td>
 		<td colspan="3" align="center"> a </td>
-		<td colspan="3"><?php echo form_input($mes_fin_100_A); ?> </td>
-		<td align="center">¿Cazó animales silvestres? </td>
-		<td> <?php echo form_input($resp_100_A); ?> </td>
+		<td colspan="3"> <?php echo form_input($E1B_Mes_Fin); ?> </td>
+		<td align="center"> ¿Cazó animales silvestres? </td>
+		<td> <?php echo form_input($E1B_101_A); ?> </td>
 	</tr>
 </table>
 
@@ -2300,3 +2409,5 @@ $pregunta_300_D_obs = array(
 		<td align="center"> OBSERVACIONES <?php echo form_textarea($pregunta_300_D_obs); ?> </td>
 	</tr>
 </table>
+</form>
+<script src="<?php echo base_url('assets/js/cedula1b.js'); ?>"></script>
