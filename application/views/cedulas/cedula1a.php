@@ -251,6 +251,41 @@ $pregunta_100_4A_pres = array(
 			'name' => 'pregunta_100_4A_pres',
 			'class' => 'form-control'
 		);
+$pregunta_100_4A_part = array(
+			'id' => 'pregunta_100_4A_part',
+			'name' => 'pregunta_100_4A_part',
+			'class' => 'form-control'
+		);
+$pregunta_100_4A_otro = array(
+			'id' => 'pregunta_100_4A_otro',
+			'name' => 'pregunta_100_4A_otro',
+			'class' => 'form-control'
+		);
+$pregunta_100_4A_otro_e = array(
+			'id' => 'pregunta_100_4A_otro_e',
+			'name' => 'pregunta_100_4A_otro_e',
+			'class' => 'form-control'
+		);
+$pregunta_100_4B_tecn = array(
+			'id' => 'pregunta_100_4B_tecn',
+			'name' => 'pregunta_100_4B_tecn',
+			'class' => 'form-control'
+		);
+$pregunta_100_4B_grav = array(
+			'id' => 'pregunta_100_4B_grav',
+			'name' => 'pregunta_100_4B_grav',
+			'class' => 'form-control'
+		);
+$pregunta_100_4B_sec = array(
+			'id' => 'pregunta_100_4B_sec',
+			'name' => 'pregunta_100_4B_sec',
+			'class' => 'form-control'
+		);
+$pregunta_100_4B_pozo = array(
+			'id' => 'pregunta_100_4B_pozo',
+			'name' => 'pregunta_100_4B_pozo',
+			'class' => 'form-control'
+		);
 ?>
 <table class="table table-bordered">
 	<tr>
@@ -267,15 +302,15 @@ $pregunta_100_4A_pres = array(
 				<th>1.  ¿Que tipo de actividad realizo en su explotación agropecuaria en los ultimos 12 meses? (Encierre uno mas codigos)</th>
 				<tr>
 					<td>agricola</td>
-					<td><?php echo form_input($distrito);?></td>
+					<td><?php echo form_input($pregunta_100_1_a);?></td>
 				</tr>
 				<tr>
 					<td>Pescuaria</td>
-					<td><?php echo form_input($distrito);?></td>
+					<td><?php echo form_input($pregunta_100_1_p);?></td>
 				</tr>
 				<tr>
 					<td>Forestal</td>
-					<td><?php echo form_input($distrito);?></td>
+					<td><?php echo form_input($pregunta_100_1_f);?></td>
 				</tr>
 			</table>	 
 		</td>
@@ -284,11 +319,65 @@ $pregunta_100_4A_pres = array(
 				<th>1.  ¿Que tipo de actividad realizo en su explotación agropecuaria en los ultimos 12 meses? (Encierre uno mas codigos)</th>
 				<tr>
 					<td>agricola</td>
-					<td><?php echo form_input($distrito);?></td>
+					<td><?php echo form_input($pregunta_100_2_s);?></td>
 					<td>agricola</td>
-					<td><?php echo form_input($distrito);?></td>
+					<td><?php echo form_input($pregunta_100_2_p);?></td>
 				</tr>
 			</table>	 
 		</td>
+	</tr>
+	<tr>
+		<table class="table table-bordered">
+			<tr> 
+				<td rowspan="3">3. Nro de parcela</td>
+				<td colspan="8">4. En los ultimos 12 meses, ¿Este terreno lo uso para:(marque uno o mas codigos)</td>
+				<td colspan="5">4A. ¿El regimen de tendencia es: (solo un codigo)</td>
+				<td colspan="4">4B. ¿El tipo de riego es: ( anote uno o mas codigos)</td>
+			</tr>
+			<tr>
+				<td colspan="8">Código</td>
+				<td colspan="5">Código</td>
+				<td colspan="4">Código</td>
+			</tr>
+			<tr>
+				<td>Cultivo de campaña(Transitorios)?</td>
+				<td>Cultivos permanentes?</td>
+				<td>Pastor naturales?</td>
+				<td>Montes y bosques?</td>
+				<td>Barbecho</td>
+				<td>Descanso</td>
+				<td colspan="2">Otro?</td>
+				<td>Propia?</td>
+				<td>Alquilada?</td>
+				<td>Prestada o cedida?</td>
+				<td>Al partir?</td>
+				<td colspan="1">Otro</td>
+				<td>Tecnificado?</td>
+				<td>Por gravedad?</td>
+				<td>Secano?</td>
+				<td>Pozo/Agua subterranea?</td>
+			</tr>
+			<tr>
+				<td><?php echo form_input($pregunta_100_3); ?></td>
+				<td><?php echo form_input($pregunta_100_4_ct); ?></td>
+				<td><?php echo form_input($pregunta_100_4_cp); ?></td>
+				<td><?php echo form_input($pregunta_100_4_p); ?></td>
+				<td><?php echo form_input($pregunta_100_4_m); ?></td>
+				<td><?php echo form_input($pregunta_100_4_b); ?></td>
+				<td><?php echo form_input($pregunta_100_4_d); ?></td>
+				<td><?php echo form_input($pregunta_100_4_o); ?></td>
+				<td> (Especifique)<?php echo form_input($pregunta_100_4_o_e); ?></td>
+				<td><?php echo form_input($pregunta_100_4A_p); ?></td>
+				<td><?php echo form_input($pregunta_100_4A_a); ?></td>
+				<td><?php echo form_input($pregunta_100_4A_pres); ?></td>
+				<td><?php echo form_input($pregunta_100_4A_part); ?></td>
+				<td><?php echo form_input($pregunta_100_4A_otro); ?>
+				(Especifique)<?php echo form_input($pregunta_100_4A_otro_e); ?></td>
+				<td><?php echo form_input($pregunta_100_4B_tecn); ?></td>
+				<td><?php echo form_input($pregunta_100_4B_grav); ?></td>
+				<td><?php echo form_input($pregunta_100_4B_sec); ?></td>
+				<td><?php echo form_input($pregunta_100_4B_pozo); ?></td>
+			</tr>
+		</table>
 	</tr>
 </table>

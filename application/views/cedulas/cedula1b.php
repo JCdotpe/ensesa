@@ -2111,43 +2111,6 @@ $pregunta_300_D_obs = array(
 		<th>Seccion B. Gastos la pesca</th>
 	</tr>
 </table>
-<table class="table table-bordered">
-	<tr>
-		1. En los ultimos 12 meses, gasto en:
-		<td colspan="2" align="right">Valor S/.</td>
-		<td colspan="2" align="right">Valor S/.</td>
-	</tr>
-	<tr>
-		<td> a.  Cables, redes? </td>
-		<td> <?php echo form_input($pregunta_300_B_a); ?> </td>
-		<td> f.  Mantenimiento/reparacion de otros equipos? </td>
-		<td> <?php echo form_input($pregunta_300_B_f); ?> </td>
-	</tr>
-	<tr>
-		<td> b.  Anzuelo? </td>
-		<td> <?php echo form_input($pregunta_300_B_b); ?> </td>
-		<td> g.  Mantenimiento/reparacion de otros equipos? </td>
-		<td> <?php echo form_input($pregunta_300_B_g); ?> </td>
-	</tr>
-	<tr>
-		<td> c.  Envases? (Bolsas, canastas) </td>
-		<td> <?php echo form_input($pregunta_300_B_c); ?> </td>
-		<td> h. Combustible? </td>
-		<td> <?php echo form_input($pregunta_300_B_h); ?> </td>
-	</tr>
-	<tr>
-		<td> d.  Mano de obra? (Ayudantes cargadores) </td>
-		<td> <?php echo form_input($pregunta_300_B_d); ?> </td>
-		<td> i.  Otros? (Especifique)<?php echo form_input($pregunta_300_B_i_o)?></td>
-		<td> <?php echo form_input($pregunta_300_B_i)?></td>
-	</tr>
-	<tr>
-		<td> e.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
-		<td> <?php echo form_input($pregunta_300_B_e); ?> </td>
-		<td align="center"> TOTAL </td>
-		<td> <?php echo form_input($pregunta_300_B_total); ?> </td>
-	</tr>
-</table>	
 
 <table class="table table-bordered">
 	<tr>1. En los ultimos 12 meses, gasto en:
