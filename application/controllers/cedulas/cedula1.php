@@ -16,5 +16,20 @@ class Cedula1 extends CI_Controller {
 
 		$this->load->view('frontend/template', $data);
 	}
+	function test()
+	{
+		$get = $this->input->post('data');
+		$data = array();
+		foreach ($get as $key => $row) {
+			foreach ($row as $idx => $value) {
+				//var_dump($value);
+				$data[$value['name']] = $value['value'];
+				//echo($value);
+			}
+			
+			//echo var_dump($value);
+		}
+		echo json_encode($data);
+	}
 
 }
