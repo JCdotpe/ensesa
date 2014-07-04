@@ -785,287 +785,181 @@ $n = array(
 
 </table>
 
-<table class = "table table-bordered">
+<table class ="table table-bordered">
 	<tr>
-		<td>	
-			<table class = "table table-bordered">	
-				<th>PERMISO DE APROVECHAMIENTO FORESTAL</th>
-			</table>
-		</td>
-	</tr>
-	<tr>
-		<th>901. ¿LA COMUNIDAD TIENE PERMMISO DE APROVECHAMIENTO FORESTAL?</th>
-		<th>908. ¿COMO DECIDIÓ LA COMUNIDAD CEDER SU PERMISO DE APROVECHAMIENTO FORESTAL A UN TERCERO?</th>
-	</tr>
-
-		<td>
+		<td> <!-- LAdo Izquierdo -->
 			<table class = "table table-bordered">
 				<tr>
-					<th>SI</th>
-					<th><?php echo form_input ($observaciones); ?></th>
-					<th>901A. ¿Se Encuentra Vigente?</th>
-					<th>SI</th>
-					<th><?php echo form_input ($observaciones); ?> </th>
+					<th colspan ="4"><center>PERMISO DE APROVECHAMIENTO FORESTAL</center></th>
 				</tr>
 				<tr>
-					<th>NO</th>
-					<th><?php echo form_input ($observaciones); ?> </th>
-					<th>PASE A 913</th>
-					<th>NO</th>
-					<th><?php echo form_input ($observaciones); ?></th>
+					<th colspan ="4">901. LA COMUNIDAD TIENE PERMISO DE APROVECHAMIENTO FORESTAL?</th>
+				</tr>
+				<tr>
+					<td>SI / NO</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+					<td><b>901A. Se ecuentra vigente?</b></td>
+					<td>SI / NO<?php echo form_input ($observaciones); ?></td>
+				</tr>
 
-				</tr>	
 			</table>
-		</td>
-		<td><?php echo form_input ($rpta2); ?> </td>
 
-	</tr>
-	<tr>
-		<th>902. ¿EN QUE AÑO OBTUVO EL ULTIMO PERMISO DE APROVECHAMIENTO FORESTAL?</th>
-		<th>909. ¿QUE RECIBIO A CAMBIO LA COMUNIDAD POR CEDER SU PERMISO DE APROVECHAMIENTO FORESTAL A UN TERCERO?</th>
-	</tr>
-	<tr>
-		<th>Año <?php echo form_input ($rpta2); ?></th>
-		<th><?php echo form_input ($rpta2); ?></th>
-	</tr>
-
-	<tr>
-		<th>903. POR LA EXTRACCION DE LA MADERA DENTRO DE SUS TIERRAS, LA COMUNIDAD TIENE?: (Lea cada alternativa y circule uno o mas codigos)</th>
-		<th>910. ¿SE HA CUMPLIDO LOS COMPROMISIS DE PARTE DE TERCEROS POR HABERLES CEDIDO SU PERMISO DE APROVECHAMIENTO FORESTAL?</th>
-	</tr>
-	<tr>
-		<td>Deuda Tributaria? <?php echo form_input ($rpta2); ?></td>
-			<td>
-				<table class = "table table-bordered">
-					<tr>
-						<th>SI</th>
-						<th>NO</th>
-					</tr>
-					<tr>
-						<td><?php echo form_input ($rpta2); ?> 910A. Cuales son?</td>
-						<td><?php echo form_input ($rpta2); ?></td>
-					</tr>
-					<tr>
-						
-					</tr>
-				</table>
-
-			</td>
-	</tr>
-	<tr>
-		<td>Multa? <?php echo form_input ($rpta2); ?></td>
-		<td>1. <?php echo form_input ($rpta2); ?></td>
-	</tr>
-	<tr>
-		<td>NO TIENE <?php echo form_input ($rpta2); ?></td>
-		<td>2. <?php echo form_input ($rpta2); ?></td>
-	</tr>
-
-	<tr>
-		<th>904. ¿HA TENIDO LA COMUNIDAD ALGUNA VISITA DE SUPERVISION PARA OBTENER EL PERMISO DE APROVECHAMIENTO FORESTAL POR PARTE DE: (Circule uno o mas codigos)</th>
-		<th>911. PRODUCTO DE LA EXTRACCION DE MADERA, ¿LA COMUNIDAD OBTUVO O RECIBIO DINERO?, ¿QUE USO LE DIÓ? (indique el año)</th>
-	</tr>
-	<tr>
-		<td>
 			<table class = "table table-bordered">
 				<tr>
-					<th rowspan = "2"><center>Institución</center></th>
-					<th colspan ="2"> 904A. ¿Cual es la fecha de la última visita?</th>
+					<th colspan ="2">902. EN QUE AÑO OBTUVO EL ULTIMO PERMISO DE APROVECHAMIENTO FORESTAL?</th>
 				</tr>
 				<tr>
-					<th>Mes</th>
 					<th>Año</th>
+					<th><?php echo form_input ($observaciones); ?></th>
 				</tr>
-				<tr>
-					<td>Organismo de supervision de los recursos forestales y fauna silvestre (OSINFOR)</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Servicio nacional de areas naturales protegidas (SENARP)?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Direccion general forestal y de fauna silvestre (DGFFS)</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Gobierno regional (Direccion Regional de Recursos Naturales)?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Otros <?php echo form_input ($rpta2); ?> (Especifique)</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-
 			</table>
 
-		</td>
-		<td>
-			<table class = "table table-bordered">
-				<th>SI</th>
-				<th><?php echo form_input ($rpta2); ?> </th>
-				<th> NO</th>
-				<th>  <?php echo form_input ($rpta2); ?></th>
-			</table>
 			<table class ="table table-bordered">
 				<tr>
-					<th><center>Uso<center></th>
-					<th><center>Año<center></th>
+					<th colspan ="2">903. POR LA EXTRACCIÓN DE LA MADERA DENTRO DE SUS TIERRAS, LA COMUNIDAD TIENE: (Lea cada alternativa y circule uno o más códigos)</th>
 				</tr>
 				<tr>
-					<th>1. <?php echo form_input ($rpta2); ?></th>
-					<th><?php echo form_input ($rpta2); ?></th>
+					<td>1. Deuda Tributaria?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
 				</tr>
 				<tr>
-					<th>2. <?php echo form_input ($rpta2); ?></th>
-					<th><?php echo form_input ($rpta2); ?></th>
+					<td>2. Multa?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
 				</tr>
 				<tr>
-					<th>3. <?php echo form_input ($rpta2); ?></th>
-					<th><?php echo form_input ($rpta2); ?></th>
-				</tr>
-				<tr>
-					<th>4. <?php echo form_input ($rpta2); ?></th>
-					<th><?php echo form_input ($rpta2); ?></th>
+					<td>3. NO TIENE</td>
+					<td><?php echo form_input ($observaciones); ?></td>
 				</tr>
 			</table>
-		</td>
-	</tr>
 
-	<tr>
-		<th>905. ¿CONOCE SI LA COMUNIDAD TIENE ALGUNA SANCIÓN  DE ENTIDADES DEL SECTOR FORESTAL (OSINFOR, ATFFS, ETC.) POR EL MAL USO DE SU PERMISO DE APROVECHAMIENTO CEDIDO A UN TERCERO?</th>
-		<th colspan="2">912. ¿LA COMUNIDAD CUENTA CON UN PLAN DE ACTIVIDADES FORESTALES?</th>
-	</tr>
-	<tr>
-		<td>
-			<table class = "table table-bordered">
-				<tr>
-					<td>Si <?php echo form_input ($rpta2); ?></td>
-					<td><b>905A. Cuales fueron esas sanciones?</b></td>
-					<td>No <?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td colspan ="3"><?php echo form_input ($rpta2); ?></td>
-				</tr>
-			</table>
-		</td>
-
-		<td>
-			<table class = "table table-bordered">
-				<tr>
-					<td>Si</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td>NO</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-
-	<tr>
-		<th><center>APROVECHAMIENTO FORESTAL POR TERCEROS</center></th>
-		<th><center>APROVECHAMIENTO FORESTAL POR LA COMUNIDAD</center></th>
-	</tr>
-	<tr>
-		<th>906. ¿LA COMUNIDAD HA CEDIDO A UN TERCERO SU PERMISO DE APROVECHAMIENTO FORESTAL?</th>
-		<th>913. ¿LA COMUNIDAD A REALIZADO EXTRACCION DE MADERA??</th>
-	</tr>
-	<tr>
-		<td>
-			<table class = "table table-bordered">
-				<tr>
-					<td>SI</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td>NO</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><b>PASE a 913</b></td>
-				</tr>
-			</table>
-		</td>
-		<td>
 			<table class ="table table-bordered">
-				<tr>
-					<td><center>SI</center></td>
-					<td><?php echo form_input ($rpta2); ?> 913A. En que año inició la extraccion? <?php echo form_input ($rpta2); ?> </td>
-					
-				</tr>
-				<tr>
-					<td><center>NO</center></td>
-					<td><?php echo form_input ($rpta2); ?> PASE A 918</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-	<tr>
-		<th>907. ¿CUAL ES EL NOMBRE DE LA EMPRESA O PERSONA NATURAL QUE HA REALIZADO EXTRACCION DE MADERA DENTOS DE LAS TIERRAS DE LA COMUNIDAD?</th>
-		<th>914. ¿LA EXTRACCION DE MADERA EN LA COMUNIDAD SE REALIZÓ: (Lea cada alternativa y circule uno o mas codigos)</th>
-	</tr>
-	<tr>
-		<td>
-			<table class = "table table-bordered">
-				<tr>
-					<th>Nombre de la Empresa o Persona Natural</th>
-					<th>907A. ¿Cual fue el año de extraccion?</th>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-			</table>
-		</td>
-		<td>
-			<table class = "table table-bordered">
 				<tr>	
-					<td>Por cuenta propia?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<td>Con ayuda de un proyecto / programa?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<td>En convenio con otra empresa o persona natural?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<td>Otra forma? <?php echo form_input ($rpta2); ?></td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<th>904. HA TENIDO LA COMUNIDAD ALGUNA VISITA DE SUPERVISIÓN PARA PBTENER EL PERMISO DE APROVECHAMIENTO FORESTAL POR PARTE DE: (Circuale uno o más códigos)</th>
 				</tr>
 				<tr>
-					<td colspan="2">
-						<table class = "table table-bordered">
+					<td>
+						<table class ="table table-bordered">
 							<tr>
-								<th colspan ="5">915. DE LA MADERA EXTRAIDA, ¿SE PRODUJERON MUEBLES O ARTICULOS PARA LA VENTA?</th>
+								<th colspan ="2" rowspan ="2"><center> Institución</center></th>
+								<th colspan="2"><center>904A. Cual es la fecha de última visita?</center></th>
+							</tr>
+							<tr>	
+								<th>Mes</th>
+								<th>Año</th>
 							</tr>
 							<tr>
-								<th><center>SI</center></th>
-								<th><?php echo form_input ($rpta2); ?></th>
-								<th>915A. Actualmente, Cuenta con algun registro de informacion de elaboracion de muebles o artículos de madera?</th>
-								<th>SI <?php echo form_input ($rpta2); ?></th>
-								<th>NO <?php echo form_input ($rpta2); ?></th>
+								<td>1. Organismo de supervisión de los recursos forestales y faunja silvestre (OSINFOR)?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
 							</tr>
 							<tr>
-								<th><center>NO</center></th>
-								<th><?php echo form_input ($rpta2); ?></th>
-								<th colspan ="3">PASE A 917</th>
+								<td>2. Servicio Nacional de áreas naturales protegidas (SENANP)?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+
+							<tr>
+								<td>3. Dirección general forestal y de fauna silvestre (DGFFS)?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+
+							<tr>
+								<td>4. Gobierno Regional (Dirección REgional de Recursos Naturales)?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+
+							<tr>
+								<td>5. Otro? <?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<td>
+						<table class ="table table-bordered">
+							<tr>
+								<th colspan ="2">905. CONOCE SI LA COMUNIDAD TIENE ALGUNA SANCIÓN DE ENTIDADES DEL SECTOR FORESTAL (OSINFOR, ATFFS, ETC.) POR EL MAL USO DE SU PERMISO DE APROVECHAMIENTO CEDIDO A UN TERCERO?</th>
+							</tr>
+							<tr>
+								<th><center>SI / NO </center></th>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<th colspan ="2">905A. Cuales fueron esas sanciones?</th>
+							</tr>
+							<tr>
+								<td colspan ="2"><?php echo form_input ($observaciones); ?></td>
+							</tr>
+						</table>
+
+					</td>
+				</tr>
+
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<td>
+						<table class ="table table-bordered">
+							<tr>
+								<th colspan ="2"><center>APROVECHAMIENTO FORESTAL POR TERCEROS</center></th>
+							</tr>
+							<tr>
+								<th colspan ="2">906. LA COMUNIDAD HA CEDIDO A UN TERCERO SU PERMISO DE APROVECHAMIENTO FORESTAL?</th>
+							</tr>
+							<tr>
+								<td><b><center>SI / NO</center></b></td>
+								<td><?php echo form_input ($observaciones); ?> </td>
+							</tr>
+						</table>
+
+					</td>
+				</tr>
+
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th>907. CUAL ES EL NOMBRE DE LA EMPRESA O PERSONA NATURAL QUE HA REALIZADO EXTRACCIÓN DE MADERA DENTRO DE LAS TIERRASDE LA COMUNIDAD?</th>
+				</tr>
+				<tr>
+					<td>
+						<table class ="table table-bordered">
+							<tr>
+								<th>Nombre de la Empresa o persona natural</th>
+								<th>907A. Cuál fué el año de extracción?</th>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
 							</tr>
 						</table>
 
@@ -1073,210 +967,362 @@ $n = array(
 				</tr>
 			</table>
 		</td>
-	</tr>
-	<tr>
-		<th>916. ¿CON QUE TIPO DE HERRAMIENTAS, EQUIPOS O MAQUINARIAS DISPONE LA COMUNIDAD PARA LA ELABORACION DE MUEBLES?</th>
-		<th>920. ¿LA DEFORESTACIÓN ES ORIGINADA POR: (Lea cada alternativa y circule uno o mas códigos)</th>
-	</tr>
-	<tr>
-		<td>
-			<table class ="table table-bordered">
-				<tr>
-					<th><center>Herramientas / Equipos / Maquinarias </center></th>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-			</table>
-		</td>
-		<td>
-			<table class = "table table-bordered">
-				<tr>
-					<td>Madereros?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Colonos?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Pobladores de la comunidad?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Empresas petroleras?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Empresas mineras?</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Otro? <?php echo form_input ($rpta2); ?> (Especifique)</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-	<tr>
-		<th>917. LOS COMUNEROS TRABAJAN EN LA EXTRACCION DE MADERA REALIZADA POR UN TERCERO?</th>
-		<th>921. CUALES SON LAS CONSECUENCIAS DE LA DEFORESTACIÓN? (Circule uno o mas códigos)</th>
-	</tr>
-	<tr>
-		<td>
-			<table class = "table table-bordered">
-				<tr>
-					<td> SI </td>
-					<td> <?php echo form_input ($rpta2); ?> </td>
-					<td> 917.A En los últimos 12 meses, Cuántos trabajaron?</td>
-				</tr>
-				<tr>
-					<td> NO </td>
-					<td> <?php echo form_input ($rpta2); ?> </td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-			<tr>
-				<td colspan="3">
-					<table class = "table table-bordered">
-						<tr>
-							<th colspan ="4"><center>RIEGOS DE DEFORESTACIÓN</center></th>
-						</tr>
-						<tr>
-							<th colspan="2">918. ACTUALMENTE, EXISTE DEFORESTACION EN SU COMUNIDAD?</th>
-						</tr>
-						<tr>
-							<th><center>SI</center></th>
-							<th><?php echo form_input ($rpta2); ?></th>
-						</tr>
-						<tr>
-							<th><center>NO</center></th>
-							<th><?php echo form_input ($rpta2); ?> PASE  A CAP 1000</th>
-						</tr>
-					</table>
-					<table class = "table table-bordered">
-						<tr>
-							<th colspan ="2">919. ¿EL ORIGEN DE LA DEFORESTACION ES POR: (Lea cada alternativa y circule uno o mas códigos)</th>
-						</tr>
-						<tr>
-							<td>Tala de árboles?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Cambio del suelo de bosques para la actividad agrícola y/o pecuaria?</td>
-							<td><?php echo form_input ($rpta2); ?> </td>
-						</tr>
-						<tr>
-							<td>Cambio de uso del agua para actividades agrícolas y ganaderas??</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Incendios forestales?</td>
-							<td><?php echo form_input ($rpta2); ?> </td>
-						</tr>
-						<tr>
-							<td>Construccion de espacios urbanos / crecimiento de la poblacion?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Desbordamiento de rios?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Plagas y enfermedades de árboles?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Migracón de colonos?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Apertura de carreteras o vias de acceso?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Explotacion de hidrocarburos?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Plantaciones ilícitas?</td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
-						<tr>
-							<td>Otro <?php echo form_input ($rpta2); ?> (Especifique) </td>
-							<td><?php echo form_input ($rpta2); ?></td>
-						</tr>
 
-					</table>
-				</td>
-			</tr>
-			</table>
-		</td>
-		<td>
+		<td> <!-- Lado Derecho -->
+
 			<table class ="table table-bordered">
 				<tr>
-					<td>Disminucion de lluvias</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<th>908. CÓMO DECIDIÓ LA COMUNIDAD CEDER SU PERMISO DE APROVECHAMIENTO FORESTAL A UN TERCERO?</th>
 				</tr>
 				<tr>
-					<td>Disminucion de humedad del suelo</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_textarea ($observaciones); ?></td>
+				</tr>
+
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th>909. QUE RECIBIÓ A CAMBIO LA COMUNIDAD POR CEDER SU PERMISO DE APROVECHAMIENTO FORESTAL A UN TERCERO?</th>
 				</tr>
 				<tr>
-					<td>Erosión del suelo</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<td><?php echo form_textarea ($observaciones); ?></td>
+				</tr>
+
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">910.  SE HAN CUMPLIDO LOS COMPROMISOS DE PARTE DE TERCEROS POR HABERLES CEDIDO SU PERMISO DE APROVECHAMIENTO FORESTAL?</th>
 				</tr>
 				<tr>
-					<td>Extencion de especies vegetales</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<td><b><center>SI / NO</center></b></td>
+					<td><?php echo form_input ($observaciones); ?>910A. Cuales son?</td>
 				</tr>
 				<tr>
-					<td>Extinción de especies animales</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<td colspan ="2"><?php echo form_input ($observaciones); ?></td>
 				</tr>
 				<tr>
-					<td>Emigración de animales</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<td colspan ="2"><?php echo form_input ($observaciones); ?></td>
 				</tr>
 				<tr>
-					<td>Enfermedades de la población</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>Otro <?php echo form_input ($rpta2); ?> (Especifique)</td>
-					<td><?php echo form_input ($rpta2); ?></td>
-				</tr>
-				<tr>
-					<td>NO SABE / NO OPINA</td>
-					<td><?php echo form_input ($rpta2); ?></td>
+					<td colspan ="2"><?php echo form_input ($observaciones); ?></td>
 				</tr>
 			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">911. PRODUCTO DE LA EXTRACCIÓN DE MADERA, LA COMUNIDAD OBTUVO O RECIBIÓ DINERO? QUE USO LE DIO?(Indique Año)</th>
+				</tr>
+				<tr>
+					<td>SI / NO</td>
+					<td> <?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td colspan ="2">
+						<table class ="table table-bordered">
+							<tr>
+								<th><center>Uso</center></th>
+								<th><center>Año</center></th>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">912. LA COMUNIDAD CUENTA CON UN PLAN DE ACTIVIDADES FORESTALES?</th>
+				</tr>
+				<tr>
+					<th>SI / NO</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="4"><center>APROVECHAMIENTO FORESTAL POR LA COMUNIDAD</center></th>
+				</tr>
+				<tr>
+					<th colspan ="4">913. LA COMUNIDAD A REALIZADO EXTRACCIÓN DE MADERA?</th>
+				</tr>
+				<tr>
+					<th>SI / NO</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+					<th>913A. En que año inició la extracción?</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">914. LA EXTRACCIÓN DE MADERA EN LA COMUNIDAD SE REALIZÓ? (Lea cada alternativa y circule uno o más códigos)</th>
+				</tr>
+				<tr>
+					<td>1. Por cuenta propia?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>2. Con ayuda de un proyecto / programa?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>3. Natural?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>4. Otra forma? <?php echo form_input ($observaciones); ?> (Especifique)</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="5">915. DE LA MADERA EXTRAÍDA, SE PRODUJERON MUEBLES O ARTÍCULOS PARA LA VENTA?</th>
+				</tr>
+				<tr>
+					<th> SI / NO</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+					<th>915A. Actualmente, Cuenta con algún registro de información de elaboración de muebles o artículos de madera?</th>
+					<th>SI / NO</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+
+			</table>
+
+		</td>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<td> <!-- Lado Izquierdo -->
+			<table class "table table-bordered">
+				<tr>
+					<th>916. CON QUE TIPO DE HERRAMIENTAS, EQUIPOS O MAQUINARIAS DISPONE LA COMUNIDAD PARA LA ELABORACIÓN DE MUEBLES?</th>
+				</tr>
+				<tr>
+					<td>
+						<table class ="table table-bordered">
+							<tr>
+								<th><center>Herramientas / Equipos / Maquinarias</center></th>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="4">917. LOS COMUNEROS TRABAJAN EN LA EXTRACIÓN DE MADERA REALIZADA POR UN TERCERO?</th>
+				</tr>
+				<tr>
+					<th>SI / NO</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+					<th>917A. En los últimos 12 meses, cuantos trabajaron?</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2"><center>RIESGOS DE DEFORESTACIÓN</center></th>
+				</tr>
+				<tr>
+					<th colspan ="2">918. ACTUALMENTE, EXISTE DEFORESTACIÓN EN SU COMUNIDAD?</th>
+				</tr>
+				<tr>
+					<th>SI / NO</th>
+					<th><?php echo form_input ($observaciones); ?></th>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th>919. EL ORIGEN DE ESTA DEFORESTACIÓN ES POR: (Lea cada alternativa y circule uno o más códigos)</th>
+				</tr>
+				<tr>
+					<td>
+						<table class ="table table-bordered">
+							<tr>
+								<td>1. Tala de árboles?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>2. Cambio de sueldo de bosques para actividad agrícola y/o pecuaria?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>3. Cambio de uso del agua para actividades agrícolas y ganaderas?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>4. Incendios forestales?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>5. Población</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>6. Desbordamiento de rios?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>7. Plagas y enfermedades de árboles?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>8. Migración de colonos?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>9. Apertura de carreteras o vias de acceso?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>10. Explotación de hidrocarburos?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>11. Plantaciones ilícitas?</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+							<tr>
+								<td>12. Otro? <?php echo form_input ($observaciones); ?> (Espcifique)</td>
+								<td><?php echo form_input ($observaciones); ?></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">920. LA DEFORESTACIÓN ES ORIGINADA POR: (Lea cada alternativa y circule uno o más códigos)</th>
+				</tr>
+				<tr>
+					<td>1. Madereros?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>2. Colonos?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>3. Pobladores en la comunidad?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>4. Empresas petroleras?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>5. Empresas mineras?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>6. Otro? <?php echo form_input ($observaciones); ?> (Especifique)</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">921. CUALES SON LAS CONSECUENCIAS DE LA DEFORESTACIÓN?(circule uno o más códigos)</th>
+				</tr>
+				<tr>
+					<td>1. Disminución de lluvias?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>2. Disminución de humedad del suelo?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>3. Erosión del suelo?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>4. Extinsión de especies vegetales?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>5. Extinción de especies animales?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>6. Emigración de animales?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>7. Enfermedades de la población?</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>8. Otro? <?php echo form_input ($observaciones); ?> (Especifique)</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>9. NO SABE / NO OPINA</td>
+					<td><?php echo form_input ($observaciones); ?></td>
+				</tr>
+			</table>
+
 			<table class ="table table-bordered">
 				<tr>
 					<th>OBSERVACIONES:</th>
 				</tr>
 				<tr>
-					<th><?php echo form_input ($rpta2); ?></th>
+					<td><?php echo form_textarea($observaciones); ?></td>
 				</tr>
-				
 			</table>
+
 		</td>
+
 	</tr>
+
 </table>
+
+
 <table class ="table table-bordered">
 	<tr>	
 		<th><center>1000. RECURSOS Y SERVICIOS QUE BRINDA EL BOSQUE</center></th>
 	</tr>
 </table>
 
+<!--
 <table class ="table table-bordered">
 	<tr>
 		<th colspan="2">1001. CUALES SON LOS RECURSOS QUE LE BRINDA EL BOSQUE? (Circule uno o mas códigos)</th>
@@ -1431,6 +1477,197 @@ $n = array(
 		<th colspan ="4"> <center> OBTENCIÓN DE RECURSOS DEL BOSQUE</center></th>
 	</tr>
 </table>
+-->
+
+<table class ="table table-bordered">
+	<tr>
+		<td> <!-- Lado Izquierdo -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">1101. CUALES SON LOS RECURSOS QUE LE BRINDA EL BOSQUE?</th>
+				</tr>
+				<tr>
+					<th colspan ="2">RESURSOS:</th>
+				</tr>
+				<tr>
+					<td>1. Agua</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>2. Aire</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>3. Suelo</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>4. Fauna</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>5. Flora</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>6. Madera</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>7. Medicinales</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>8. Otro? <?php echo form_input($observaciones); ?></td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro? <?php echo form_input($observaciones); ?></td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>10. No Sabe</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+			</table>
+
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">1102. CUALES SON LOS SERVICIOS QUE LE BRINDA EL BOSQUE?</th>
+				</tr>
+				<tr>
+					<th colspan ="2">SERVICIOS:</th>
+				</tr>
+				<tr>
+					<td>1. Ecoturismo?</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>2. Calidad de agua</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>3. Regulación del clima</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>4. Producción de semillas</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>5. Hábitat de animales</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>6. Culturales</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>7. Recreativos</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>8. Otro? <?php echo form_input($observaciones); ?></td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro? <?php echo form_input($observaciones); ?></td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>10. No Sabe</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table class ="table table-bordered">
+	<tr>
+		<td> <!-- Lado Izquierdo -->
+			<table class ="table table-bordered">
+				<tr>
+					<td colspan ="2"><b>Uso sostenible:</b> Es el aprovechamiento de los recursos del bosque que satisfacen las necesidades actuales de las personas sin comprometer la capacidad de las futuras generaciones para satisfacer las suyas</td>
+				</tr>
+				<tr>
+					<th colspan ="2">1003. EN SU COMUNIDAD CONSIDERAN QUE EL USO SOSTENIBLE DE LOS RECURSOS DEL BOSQUE PERMITE MEJORAR EL NIVEL DE VIDA DE LOS HOGARES?</th>
+				</tr>
+				<tr>
+					<th> SI / NO </th>
+					<td><?php echo form_input($observaciones); ?><b>1003A. Porqué?</b></td>
+				</tr>
+				<tr>
+					<td colspan ="2"><?php echo form_input($observaciones); ?></td>
+				</tr>
+			</table>
+
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">1004. EN SU COMUNIDAD CONSIDERAN QUE EL BOSQUE ES IMPORTANTE PARA LA POBLACIÓN MUNDIAL?</th>
+				</tr>
+				<tr>
+					<th>SI / NO</th>
+					<th><?php echo form_input($observaciones); ?></th>
+				</tr>
+			</table>
+
+		</td>
+
+		<td> <!-- Lado Derecho -->
+			<table class ="table table-bordered">
+				<tr>
+					<th colspan ="2">1005. CONOCE UD. ALGUNAS ACCIONES QUE GENERAN UNA AMENAZA AL BOSQUE COMO: (leer cada alternativa y circule uno o más códigos)</th>
+				</tr>
+				<tr>
+					<td>1. Tala ilegal??</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>2. Incendio forestal?</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>3. Cultivo de plantaciones ilícitas</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>4. Explotación de hidrocarburos?</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>5. Apertura de carreteras?</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>6. Cambio de uso de suelo para actividades agrícolas?</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>7. Mineria</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>8. Otro? <?php echo form_input($observaciones); ?> (Especifique)</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro? <?php echo form_input($observaciones); ?> (Especifique)</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+				<tr>
+					<td>10. No Sabe</td>
+					<td><?php echo form_input($observaciones); ?></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+</table>
+
 <table class ="table table-bordered">
 	<tr>
 		<th colspan ="6">1006. EN LOS ULTIMOS 12 MESES, LA COMUNIDAD HA TENIDO HA TENIDO ALGUNA DIFICULTAD PARA OBTENER:</th>
