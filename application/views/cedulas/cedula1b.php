@@ -830,177 +830,14 @@ $E1B_101_D_Obs = array(
 </table>
 <!-- Item 200 --> 
 <?php
-$mes_inicio_200_A = array(
-			'id' => 'mes_inicio_200_A', 
-			'name' => 'mes_inicio_200_A', 
+
+$E1B_201_A = array(
+			'id' => 'E1B_201_A', 
+			'name' => 'E1B_201_A', 
 			'class' => 'form-control'
 			);
-$mes_fin_200_A = array(
-			'id' => 'mes_fin_200_A', 
-			'name' => 'mes_fin_200_A', 
-			'class' => 'form-control'
-			);
-$resp_200_A = array(
-			'id' => 'resp_200_A', 
-			'name' => 'resp_200_A', 
-			'class' => 'form-control'
-			);
-$pregunta_200_A_1A_1 = array(
-					'id' => 'pregunta_200_A_1A_1',
-					'name' => 'pregunta_200_A_1A_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_1A_2 = array(
-					'id' => 'pregunta_200_A_1A_2',
-					'name' => 'pregunta_200_A_1A_2',
-					'class' => 'form-control'
-				);
 
-$pregunta_200_A_1B_1 = array(
-					'id' => 'pregunta_200_A_1B_1',
-					'name' => 'pregunta_200_A_1B_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_1B_2 = array(
-					'id' => 'pregunta_200_A_1B_2',
-					'name' => 'pregunta_200_A_1B_2',
-					'class' => 'form-control'
-				);
 
-$pregunta_200_A_1C_1 = array(
-					'id' => 'pregunta_200_A_1C_1',
-					'name' => 'pregunta_200_A_1C_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_1C_2 = array(
-					'id' => 'pregunta_200_A_1C_2',
-					'name' => 'pregunta_200_A_1C_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_1D_1 = array(
-					'id' => 'pregunta_200_A_1D_1',
-					'name' => 'pregunta_200_A_1D_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_1D_2 = array(
-					'id' => 'pregunta_200_A_1D_2',
-					'name' => 'pregunta_200_A_1D_2',
-					'class' => 'form-control'
-				);
-
-$pregunta_200_A_V_K_1 = array(
-					'id' => 'pregunta_200_A_V_K_1',
-					'name' => 'pregunta_200_A_V_K_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_V_K_2 = array(
-					'id' => 'pregunta_200_A_V_K_2',
-					'name' => 'pregunta_200_A_V_K_2',
-					'class' => 'form-control'
-				);
-
-$pregunta_200_A_V_T_1 = array(
-					'id' => 'pregunta_200_A_V_T_1',
-					'name' => 'pregunta_200_A_V_T_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_V_T_2 = array(
-					'id' => 'pregunta_200_A_V_T_2',
-					'name' => 'pregunta_200_A_V_T_2',
-					'class' => 'form-control'
-				);
-
-$pregunta_200_A_V_M_1 = array(
-					'id' => 'pregunta_200_A_V_M_1',
-					'name' => 'pregunta_200_A_V_M_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_V_M_2 = array(
-					'id' => 'pregunta_200_A_V_M_2',
-					'name' => 'pregunta_200_A_V_M_2',
-					'class' => 'form-control'
-				);
-
-$pregunta_200_A_C_K_1 = array(
-					'id' => 'pregunta_200_A_C_K_1',
-					'name' => 'pregunta_200_A_C_K_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_C_K_2 = array(
-					'id' => 'pregunta_200_A_C_K_2',
-					'name' => 'pregunta_200_A_C_K_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_C_T_1 = array(
-					'id' => 'pregunta_200_A_C_T_1',
-					'name' => 'pregunta_200_A_C_T_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_C_T_2 = array(
-					'id' => 'pregunta_200_A_C_T_2',
-					'name' => 'pregunta_200_A_C_T_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_T_K_1 = array(
-					'id' => 'pregunta_200_A_T_K_1',
-					'name' => 'pregunta_200_A_T_K_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_T_K_2 = array(
-					'id' => 'pregunta_200_A_T_K_2',
-					'name' => 'pregunta_200_A_T_K_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_T_T_1 = array(
-					'id' => 'pregunta_200_A_T_T_1',
-					'name' => 'pregunta_200_A_T_T_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_T_T_2 = array(
-					'id' => 'pregunta_200_A_T_T_2',
-					'name' => 'pregunta_200_A_T_T_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_E_K_1 = array(
-					'id' => 'pregunta_200_A_E_K_1',
-					'name' => 'pregunta_200_A_E_K_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_E_K_2 = array(
-					'id' => 'pregunta_200_A_E_K_2',
-					'name' => 'pregunta_200_A_E_K_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_E_T_1 = array(
-					'id' => 'pregunta_200_A_E_T_1',
-					'name' => 'pregunta_200_A_E_T_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_E_T_2 = array(
-					'id' => 'pregunta_200_A_E_T_2',
-					'name' => 'pregunta_200_A_E_T_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_O_K_1 = array(
-					'id' => 'pregunta_200_A_O_K_1',
-					'name' => 'pregunta_200_A_O_K_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_O_K_2 = array(
-					'id' => 'pregunta_200_A_O_K_2',
-					'name' => 'pregunta_200_A_O_K_2',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_O_T_1 = array(
-					'id' => 'pregunta_200_A_O_T_1',
-					'name' => 'pregunta_200_A_O_T_1',
-					'class' => 'form-control'
-				);
-$pregunta_200_A_O_T_2 = array(
-					'id' => 'pregunta_200_A_O_T_2',
-					'name' => 'pregunta_200_A_O_T_2',
-					'class' => 'form-control'
-				);
 $pregunta_200_B_a = array(
 					'id' => 'pregunta_200_B_a',
 					'name' => 'pregunta_200_B_a',
@@ -1248,85 +1085,98 @@ $pregunta_200_D_obs = array(
 
 <table class="table table-bordered">
 	<tr>
-		1. En los ultimos 12 meses, de
-	</tr>
-	<tr>
-		<td> <?php echo form_input($mes_inicio_200_A); ?> </td>
-		<td colspan="3" align="center"> a </td>
-		<td colspan="3"><?php echo form_input($mes_fin_200_A); ?> </td>
-		<td align="center">¿recolectó plantas, frutos y/o hojas silvestres? </td>
-		<td> <?php echo form_input($resp_200_A); ?> </td>
+		<td> 1. En los ultimos 12 meses, de </td>
+		<td> mes / anio </td>
+		<td align="center"> a </td>
+		<td> mes / anio </td>
+		<td align="center"> ¿recolectó plantas, frutos y/o hojas silvestres? </td>
+		<td> <?php echo form_input($E1B_201_A); ?> </td>
 	</tr>
 </table>
 
 <table class="table table-bordered">
 	<tr>
-      <td rowspan="4">Nro de orden</td>
-      <td rowspan="4">1A. ¿Que plantas, frutos y/o hojas silvestres obtubo de la recolección?</td>
-      <td rowspan="4">1B. ¿Que cantidad de ........ obtubo?</td>
-      <td rowspan="4">1C. Unidad de medida</td>
-      <td rowspan="4">1D. Peso total (En Kilos)</td>
-      <td colspan="11" align="center">1E. Del total de la recoleccion,¿Cuantos destino para:</td>
-      
-   </tr>
-   <tr>
-     <td colspan="3">Venta</td>
-     <td colspan="2" rowspan="2">Consumo de hogar?</td>
-     <td colspan="2" rowspan="2">Trueque?</td>
-     <td colspan="2" rowspan="2">Elaboracion de subproductos?</td>
-     <td colspan="2" rowspan="2">Otros?</td>
-   </tr><tr>
-     <td rowspan="2">Cant. Kg./Lt.</td>
-     <td rowspan="2">Monto Total S/.</td>
-     <td rowspan="2">La venta la realizo en un mercado:</td>
-   </tr>
-   <tr>
-     <td>Cant. Kg./Lt.</td>
-     <td>Monto Total S/.</td>
-     <td>Cant. Kg./Lt.</td>
-     <td>Monto Total S/.</td>
-     <td>Cant. Kg./Lt.</td>
-     <td>Monto Total S/.</td>
-     <td>Cant. Kg./Lt.</td>
-     <td>Monto Total S/.</td>
-   </tr>
-  <tr>
-   	<td>1</td>
-   	<td> <?php echo form_input($pregunta_200_A_1A_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_1B_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_1C_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_1D_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_V_K_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_V_T_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_V_M_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_C_K_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_C_T_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_T_K_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_T_T_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_E_K_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_E_T_1); ?> </td>
-	<td> <?php echo form_input($pregunta_200_A_O_K_1); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_O_T_1); ?> </td>
-   </tr>
-   <tr>
-   	<td>2</td>
-   	<td> <?php echo form_input($pregunta_200_A_1A_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_1B_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_1C_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_1D_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_V_K_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_V_T_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_V_M_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_C_K_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_C_T_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_T_K_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_T_T_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_E_K_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_E_T_2); ?> </td>
-	<td> <?php echo form_input($pregunta_200_A_O_K_2); ?> </td>
-   	<td> <?php echo form_input($pregunta_200_A_O_T_2); ?> </td>
-   </tr>
+		<td rowspan="4"> Nro de orden </td>
+		<td rowspan="4"> 1A. ¿Que plantas, frutos y/o hojas silvestres obtubo de la recolección? </td>
+		<td rowspan="4"> 1B. ¿Que cantidad de ........ obtubo? </td>
+		<td rowspan="4"> 1C. Unidad de medida </td>
+		<td rowspan="4"> 1D. Peso total (En Kilos) </td>
+		<td colspan="14" align="center">1E. Del total de la recoleccion,¿Cuantos destino para:</td>
+	</tr>
+	<tr>
+		<td colspan="6">Venta</td>
+		<td colspan="2">Consumo de hogar?</td>
+		<td colspan="2">Trueque?</td>
+		<td colspan="2">Elaboracion de subproductos?</td>
+		<td colspan="2">Otros?</td>
+	</tr>
+	<tr>
+		<td rowspan="2">Cant. Kg./Lt.</td>
+		<td rowspan="2">Monto Total S/.</td>
+		<td colspan="4">La venta la realizo en un mercado:</td>
+		<td rowspan="2">Cant. Kg./Lt.</td>
+		<td rowspan="2">Monto Total S/.</td>
+		<td rowspan="2">Cant. Kg./Lt.</td>
+		<td rowspan="2">Monto Total S/.</td>
+		<td rowspan="2">Cant. Kg./Lt.</td>
+		<td rowspan="2">Monto Total S/.</td>
+		<td rowspan="2">Cant. Kg./Lt.</td>
+		<td rowspan="2">Monto Total S/.</td>
+	</tr>
+	<tr>
+		<td> local? </td>
+		<td> Regional? </td>
+		<td> Nacional? </td>
+		<td> N.A? </td>
+	</tr>
+	<tr>
+		<td> <input type="text" id="E1B_Tipo_Nro_5" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
+		<td> <input type="text" id="E1B_1A_Nombre_5" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1B_5" name="E1B_1B[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1C_Um_5" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1C_Peso_5" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_K_5" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_T_5" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
+
+		<td> <input type="text" id="E1B_1D_Venta_M_Local_5" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_M_Region_5" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_M_Nacion_5" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_M_NA_5" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
+
+		<td> <input type="text" id="E1B_1D_Consumo_K_5" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Consumo_T_5" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Trueque_K_5" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Trueque_T_5" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Sub_K_5" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Sub_T_5" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Otro_K_5" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Otro_T_5" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
+	</tr>
+	<tr>
+		<td> <input type="text" id="E1B_Tipo_Nro_6" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
+		<td> <input type="text" id="E1B_1A_Nombre_6" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1B_6" name="E1B_1B[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1C_Um_6" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1C_Peso_6" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_K_6" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_T_6" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
+
+		<td> <input type="text" id="E1B_1D_Venta_M_Local_6" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_M_Region_6" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_M_Nacion_6" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Venta_M_NA_6" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
+
+		<td> <input type="text" id="E1B_1D_Consumo_K_6" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Consumo_T_6" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Trueque_K_6" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Trueque_T_6" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Sub_K_6" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Sub_T_6" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Otro_K_6" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
+		<td> <input type="text" id="E1B_1D_Otro_T_6" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
+	</tr>
 </table>
+
 <table class="table table-bordered">
 	<tr>
 		<th>Seccion B. Gastos por la recolección de plantas, frutas y/o hojas silvestres</th>
