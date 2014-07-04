@@ -1,4 +1,4 @@
-$('#resp_100_A').change(function(event) {
+$('#E1B_101_A').change(function(event) {
 
 	value = $(this).val();
 
@@ -15,7 +15,7 @@ $('#resp_100_A').change(function(event) {
 	 
 });
 
-$('#resp_100_C').change(function(event) {
+$('#E1B_101_C').change(function(event) {
 	
 	value = $(this).val();
 
