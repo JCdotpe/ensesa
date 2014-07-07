@@ -5,20 +5,20 @@
 	
 		$(function(argument) {
 
-			// $(window).keydown(function(event){
+			$(window).keydown(function(event){
 
-			// 	if(event.keyCode == 13) {
-			// 		event.preventDefault();
-			// 		return false;
-			// 	}
+				if(event.keyCode == 13) {
+					event.preventDefault();
+					return false;
+				}
 
-			// });
+			});
 
-			// $(document).on("keyup",'input,select,textarea',function(e) {    
-			// 	var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
-			// 	if(key == 13)
-			// 	$(this).trigger('change');
-			// });
+			$(document).on("keyup",'input,select,textarea',function(e) {    
+				var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+				if(key == 13)
+				$(this).trigger('change');
+			});
 
 			$(document).on("keyup",'input,select,textarea',function(e) {
 
