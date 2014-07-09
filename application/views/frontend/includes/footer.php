@@ -5,6 +5,12 @@
 	
 		$(function(argument) {
 
+			$(document).on("keyup",'.btn-primary,.btn-warning',function(e) {    
+				var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+				if(key == 13)
+				$(this).trigger('click');
+			});
+
 			$(window).keydown(function(event){
 
 				if(event.keyCode == 13) {
@@ -14,13 +20,13 @@
 
 			});
 
-			$(document).on("keyup",'input,select,textarea',function(e) {    
+			$(document).on("keyup",'input,select,textarea',function(e) {
 				var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
 				if(key == 13)
 				$(this).trigger('change');
 			});
 
-			$(document).on("keyup",'input,select,textarea',function(e) {
+			$(document).on("keyup",'input,select,textarea,.btn-warning',function(e) {
 
 				var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
 				var inputs = $(this).closest('form').find(":input:not(:disabled, [readonly='readonly'],:hidden)");

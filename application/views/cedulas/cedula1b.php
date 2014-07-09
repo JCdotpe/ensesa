@@ -578,8 +578,8 @@ $button_1B_head = array(
 					<td> N.A? </td>
 				</tr>
 				<tr>
-					<td> <input type="text" id="E1B_Tipo_Nro_1" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
-					<td> <input type="text" id="E1B_1A_Nombre_1" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
+					<td> <input type="text" id="E1B_Tipo_Nro_1" name="E1B_Tipo_Nro[]" class="form-control order_pc" value="PC-1" readonly /> </td>
+					<td> <input type="text" id="E1B_1A_Nombre_1" name="E1B_1A_Nombre[]" class="form-control focus_pc" value="" /> </td>
 					<td> <input type="text" id="E1B_1B_1" name="E1B_1B[]" class="form-control" value="" /> </td>
 					<td> <input type="text" id="E1B_1C_Peso_1" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
 					<td> <input type="text" id="E1B_1D_Venta_K_1" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
@@ -599,29 +599,6 @@ $button_1B_head = array(
 					<td> <input type="text" id="E1B_1D_Otro_K_1" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
 					<td> <input type="text" id="E1B_1D_Otro_T_1" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
 					<td> <button type="button" class="btn btn-warning"> Add </button> </td>
-				</tr>
-				<tr>
-					<td> <input type="text" id="E1B_Tipo_Nro_1" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
-					<td> <input type="text" id="E1B_1A_Nombre_1" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1B_1" name="E1B_1B[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1C_Peso_1" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Venta_K_1" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Venta_T_1" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
-
-					<td> <input type="text" id="E1B_1D_Venta_M_Local_1" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Venta_M_Region_1" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Venta_M_Nacion_1" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Venta_M_NA_1" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
-
-					<td> <input type="text" id="E1B_1D_Consumo_K_1" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Consumo_T_1" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Trueque_K_1" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Trueque_T_1" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Sub_K_1" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Sub_T_1" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Otro_K_1" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
-					<td> <input type="text" id="E1B_1D_Otro_T_1" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
-					<td> <button type="button" class="btn btn-warning"> Remove </button> </td>
 				</tr>
 			</table>
 
@@ -1868,35 +1845,50 @@ $button_1B_head = array(
 		
 		method = $(this).closest('button').text();
 
+		order = $(this).closest('tr').find('.order_pc').val().split('-');
+		order = order[1];
+		order++;
+
 		if ( method.trim() == 'Add')
 		{
 			var row = 	'<tr>' +
-							'<td> <input type="text" id="E1B_Tipo_Nro_1" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>' +
-							'<td> <input type="text" id="E1B_1A_Nombre_1" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1B_1" name="E1B_1B[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1C_Peso_1" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Venta_K_1" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Venta_T_1" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Venta_M_Local_1" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Venta_M_Region_1" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Venta_M_Nacion_1" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Venta_M_NA_1" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Consumo_K_1" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Consumo_T_1" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Trueque_K_1" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Trueque_T_1" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Sub_K_1" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Sub_T_1" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Otro_K_1" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>' +
-							'<td> <input type="text" id="E1B_1D_Otro_T_1" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_Tipo_Nro_' + order + '" name="E1B_Tipo_Nro[]" class="form-control order_pc" value="PC-' + order + '" readonly /> </td>' +
+							'<td> <input type="text" id="E1B_1A_Nombre_' + order + '" name="E1B_1A_Nombre[]" class="form-control focus_pc" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1B_' + order + '" name="E1B_1B[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1C_Peso_' + order + '" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Venta_K_' + order + '" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Venta_T_' + order + '" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Venta_M_Local_' + order + '" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Venta_M_Region_' + order + '" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Venta_M_Nacion_' + order + '" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Venta_M_NA_' + order + '" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Consumo_K_' + order + '" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Consumo_T_' + order + '" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Trueque_K_' + order + '" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Trueque_T_' + order + '" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Sub_K_' + order + '" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Sub_T_' + order + '" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Otro_K_' + order + '" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>' +
+							'<td> <input type="text" id="E1B_1D_Otro_T_' + order + '" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>' +
 							'<td> <button type="button" class="btn btn-warning"> Add </button> </td>' +
 						'</tr>';
-        	$('#table_100_A').append(row);
-        	$(this).closest('button').text('Remove');
+			$('#table_100_A').append(row);
+			$(this).closest('button').text('Remove');
 		}
 		else if ( method.trim() == 'Remove')
 		{
+			var index = $(this).closest('tr').index() - 4;
+			var i = 0;
+
 			$(this).closest('tr').remove();
+			
+			$('.order_pc').each(function () {
+				++i;
+				$(this).val('PC-' + i);
+			});
+			
+			$('.focus_pc').eq(index).focus();
+
 		}
 
 	});
