@@ -1,23 +1,64 @@
-var name_class = [];
+// general variables //
+var this_value;
 
-$('#E1B_101_A').change(function(event) {
+// specific variables //
+var E1B_101_A = $('#E1B_101_A');
+var table_100_A = $('#table_100_A');
 
-	value = $(this).val();
-	name_class = [ 'C1_B_table', 'C1_D_table' ];
-	input_disabled = 'E1B_101_C';
+var E1B_101_C = $('#E1B_101_C');
+var table_100_C = $('#table_100_C');
 
-	salt_input(value, name_class, input_disabled);
-	 
-});
 
-$('#E1B_101_C').change(function(event) {
-	
-	value = $(this).val();
-	name_class = ['C1_D_table'];
+// Question 100 //
 
-	salt_input(value, name_class);
+// --> section A
+E1B_101_A.on( 
+	{ change : function( event ) 
+				{
+					this_value = $(this).val();
 
-});
+					common_event_group( table_100_A.attr('id'), [ 'C1_B_table', 'C1_D_table' ], this_value, E1B_101_C.attr('id'), 'PC' );
+
+					E1B_101_C.val('');
+					E1B_101_C.trigger('change');
+				},
+	  keyup : event_keyup_jump()
+	}
+);
+
+table_100_A.on( 'click', 'button', 
+	function( event ) 
+	{
+		add_remove_row(event.target, [ table_100_A.attr('id'), 'PC' ]);
+	}
+
+);
+
+
+// --> section C
+E1B_101_C.on( 
+	{ change : function( event ) 
+		{
+			this_value = $(this).val();
+
+			common_event_group( table_100_C.attr('id'), [ 'C1_D_table' ], this_value, null, 'SC' );
+		},
+	  keyup : event_keyup_jump()
+	}
+);
+
+table_100_C.on('click', 'button', 
+	function( event ) 
+	{
+		add_remove_row(event.target, [ table_100_C.attr('id'), 'SC' ]);
+	}
+);
+
+
+
+
+
+
 
 $('#E1B_201_A').change(function(event) {
 	
@@ -29,6 +70,8 @@ $('#E1B_201_A').change(function(event) {
 
 });
 
+
+
 $('#E1B_201_C').change(function(event) {
 	
 	value = $(this).val();
@@ -38,31 +81,9 @@ $('#E1B_201_C').change(function(event) {
 
 });
 
-function salt_input(input_value, name_class, input_disabled)
+
+function common_event_group ( id_table, name_class, input_value, input_disabled, suffix )
 {
-	if ( input_value == 1 )
-	{
-		for (var i = 0; i < name_class.length; i++) 
-		{
-			$('.' + name_class[i]).closest('tr').find(':input').removeAttr('disabled');
-		}
-
-		if ( input_disabled != undefined )
-		{
-			$('#' + input_disabled).removeAttr('disabled');
-		}
-	}
-	else if ( value == 2 )
-	{
-		for (var i = 0; i < name_class.length; i++)
-		{
-			$('.' + name_class[i]).closest('tr').find(':input').attr('disabled','disabled');
-		}
-
-		if ( input_disabled != undefined )
-		{
-			$('#' + input_disabled).attr('disabled', 'disabled');
-		}
-	}
-
+	salt_input( input_value, name_class, input_disabled );
+	validate_table( input_value, id_table, suffix );
 }
