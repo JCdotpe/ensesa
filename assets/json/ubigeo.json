@@ -1,0 +1,2935 @@
+{"Ubigeo":
+	[
+
+        {   "CCDD":"01", "Nombre":"AMAZONAS",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"CHACHAPOYAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHACHAPOYAS"},
+                        {"CCDI":"02", "Nombre":"ASUNCION"},
+                        {"CCDI":"03", "Nombre":"BALSAS"},
+                        {"CCDI":"04", "Nombre":"CHETO"},
+                        {"CCDI":"05", "Nombre":"CHILIQUIN"},
+                        {"CCDI":"06", "Nombre":"CHUQUIBAMBA"},
+                        {"CCDI":"07", "Nombre":"GRANADA"},
+                        {"CCDI":"08", "Nombre":"HUANCAS"},
+                        {"CCDI":"09", "Nombre":"LA JALCA"},
+                        {"CCDI":"10", "Nombre":"LEIMEBAMBA"},
+                        {"CCDI":"11", "Nombre":"LEVANTO"},
+                        {"CCDI":"12", "Nombre":"MAGDALENA"},
+                        {"CCDI":"13", "Nombre":"MARISCAL CASTILLA"},
+                        {"CCDI":"14", "Nombre":"MOLINOPAMPA"},
+                        {"CCDI":"15", "Nombre":"MONTEVIDEO"},
+                        {"CCDI":"16", "Nombre":"OLLEROS"},
+                        {"CCDI":"17", "Nombre":"QUINJALCA"},
+                        {"CCDI":"18", "Nombre":"SAN FRANCISCO DE DAGUAS"},
+                        {"CCDI":"19", "Nombre":"SAN ISIDRO DE MAINO"},
+                        {"CCDI":"20", "Nombre":"SOLOCO"},
+                        {"CCDI":"21", "Nombre":"SONCHE"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"BAGUA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"BAGUA"},
+                        {"CCDI":"02", "Nombre":"ARAMANGO"},
+                        {"CCDI":"03", "Nombre":"COPALLIN"},
+                        {"CCDI":"04", "Nombre":"EL PARCO"},
+                        {"CCDI":"05", "Nombre":"IMAZA"},
+                        {"CCDI":"06", "Nombre":"LA PECA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"BONGARA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JUMBILLA"},
+                        {"CCDI":"02", "Nombre":"CHISQUILLA"},
+                        {"CCDI":"03", "Nombre":"CHURUJA"},
+                        {"CCDI":"04", "Nombre":"COROSHA"},
+                        {"CCDI":"05", "Nombre":"CUISPES"},
+                        {"CCDI":"06", "Nombre":"FLORIDA"},
+                        {"CCDI":"07", "Nombre":"JAZANA"},
+                        {"CCDI":"08", "Nombre":"RECTA"},
+                        {"CCDI":"09", "Nombre":"SAN CARLOS"},
+                        {"CCDI":"10", "Nombre":"SHIPASBAMBA"},
+                        {"CCDI":"11", "Nombre":"VALERA"},
+                        {"CCDI":"12", "Nombre":"YAMBRASBAMBA"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"CONDORCANQUI",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"NIEVA"},
+                        {"CCDI":"02", "Nombre":"EL CENEPA"},
+                        {"CCDI":"03", "Nombre":"RIO SANTIAGO"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"LUYA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"LAMUD"},
+                        {"CCDI":"02", "Nombre":"CAMPORREDONDO"},
+                        {"CCDI":"03", "Nombre":"COCABAMBA"},
+                        {"CCDI":"04", "Nombre":"COLCAMAR"},
+                        {"CCDI":"05", "Nombre":"CONILA"},
+                        {"CCDI":"06", "Nombre":"INGUILPATA"},
+                        {"CCDI":"07", "Nombre":"LONGUITA"},
+                        {"CCDI":"08", "Nombre":"LONYA CHICO"},
+                        {"CCDI":"09", "Nombre":"LUYA"},
+                        {"CCDI":"10", "Nombre":"LUYA VIEJO"},
+                        {"CCDI":"11", "Nombre":"MARIA"},
+                        {"CCDI":"12", "Nombre":"OCALLI"},
+                        {"CCDI":"13", "Nombre":"OCUMAL"},
+                        {"CCDI":"14", "Nombre":"PISUQUIA"},
+                        {"CCDI":"15", "Nombre":"PROVIDENCIA"},
+                        {"CCDI":"16", "Nombre":"SAN CRISTOBAL"},
+                        {"CCDI":"17", "Nombre":"SAN FRANCISCO DEL YESO"},
+                        {"CCDI":"18", "Nombre":"SAN JERONIMO"},
+                        {"CCDI":"19", "Nombre":"SAN JUAN DE LOPECANCHA"},
+                        {"CCDI":"20", "Nombre":"SANTA CATALINA"},
+                        {"CCDI":"21", "Nombre":"SANTO TOMAS"},
+                        {"CCDI":"22", "Nombre":"TINGO"},
+                        {"CCDI":"23", "Nombre":"TRITA"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"RODRIGUEZ DE MENDOZA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"SAN NICOLAS"},
+                        {"CCDI":"02", "Nombre":"CHIRIMOTO"},
+                        {"CCDI":"03", "Nombre":"COCHAMAL"},
+                        {"CCDI":"04", "Nombre":"HUAMBO"},
+                        {"CCDI":"05", "Nombre":"LIMABAMBA"},
+                        {"CCDI":"06", "Nombre":"LONGAR"},
+                        {"CCDI":"07", "Nombre":"MARISCAL BENAVIDES"},
+                        {"CCDI":"08", "Nombre":"MILPUC"},
+                        {"CCDI":"05", "Nombre":"OMIA"},
+                        {"CCDI":"06", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"07", "Nombre":"TOTORA"},
+                        {"CCDI":"08", "Nombre":"VISTA ALEGRE"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"UTCUBAMBA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"BAGUA GRANDE"},
+                        {"CCDI":"02", "Nombre":"CAJARURO"},
+                        {"CCDI":"03", "Nombre":"CUMBA"},
+                        {"CCDI":"04", "Nombre":"EL MILAGRO"},
+                        {"CCDI":"05", "Nombre":"JAMALCA"},
+                        {"CCDI":"05", "Nombre":"LONYA GRANDE"},
+                        {"CCDI":"05", "Nombre":"YAMON"}
+                    ]
+                }               
+            ]                   
+        },
+		{	"CCDD":"02", "Nombre":"ANCASH",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01", "Nombre":"HUARAZ",
+					"DISTRITO":
+					[
+						{"CCDI":"01", "Nombre":"HUARAZ"},
+        				{"CCDI":"02", "Nombre":"COCHABAMBA"},
+        				{"CCDI":"03", "Nombre":"COLCABAMBA"},
+        				{"CCDI":"04", "Nombre":"HUANCHAY"},
+       					{"CCDI":"05", "Nombre":"INDEPENCIA"},
+        				{"CCDI":"06", "Nombre":"JANGAS"},
+        				{"CCDI":"07", "Nombre":"LA LIBERTAD"},
+        				{"CCDI":"08", "Nombre":"OLLEROS"},
+        				{"CCDI":"09", "Nombre":"PAMPAS"},
+        				{"CCDI":"10", "Nombre":"PARIACOTO"},
+        				{"CCDI":"11", "Nombre":"PIRA"},
+        				{"CCDI":"12", "Nombre":"TARICA"}
+					]
+				},
+				{ 	"CCPP":"02", "Nombre":"AIJA",
+     				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"AIJA"},
+        				{"CCDI":"02", "Nombre":"CORIS"},
+        				{"CCDI":"03", "Nombre":"HUACLLAN"},
+        				{"CCDI":"04", "Nombre":"LA MERCED"},
+        				{"CCDI":"05", "Nombre":"SUCCHA"}
+        			]
+        		},
+        		{ 	"CCPP":"03", "Nombre":"ANTONIO RAYMONDI",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"LLAMELLIN"},
+        				{"CCDI":"02", "Nombre":"ACZO"},
+        				{"CCDI":"03", "Nombre":"CHACCHO"},
+        				{"CCDI":"04", "Nombre":"CHINGAS"},
+        				{"CCDI":"05", "Nombre":"MIRGAS"},
+        				{"CCDI":"06", "Nombre":"SAN JUAN DE RONTOY"}
+        			]
+        		},
+        		{ 	"CCPP":"04", "Nombre":"ASUNCION",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHACAS"},
+        				{"CCDI":"02", "Nombre":"ACOCHACA"} 
+        			]
+        		},
+        		{	"CCPP":"05", "Nombre":"BOLOGNESI",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHIQUIAN"},
+        				{"CCDI":"02", "Nombre":"ABELARDO PARDO LEZAMETA"},
+        				{"CCDI":"03", "Nombre":"ANTONIO RAYMONDI"},
+        				{"CCDI":"04", "Nombre":"AQUIA"},
+        				{"CCDI":"05", "Nombre":"CAJACAY"},
+        				{"CCDI":"06", "Nombre":"CANIS"},
+        				{"CCDI":"07", "Nombre":"COLQUIOC"},
+        				{"CCDI":"08", "Nombre":"HUALLANCA"},
+        				{"CCDI":"09", "Nombre":"HUASTA"},
+        				{"CCDI":"10", "Nombre":"HUAYLLACAYAN"},
+        				{"CCDI":"11", "Nombre":"LA PRIMAVERA"},
+        				{"CCDI":"12", "Nombre":"MANGAS"},
+        				{"CCDI":"13", "Nombre":"PACLLON"},
+        				{"CCDI":"14", "Nombre":"SAN MIGUEL DE CORPANQUI"}, 
+        				{"CCDI":"15", "Nombre":"TICLLOS"} 
+        			]
+        		},
+        		{ 	"CCPP":"06", "Nombre":"CARHUAZ", 
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CARHUAZ"},
+        				{"CCDI":"02", "Nombre":"ACOPAMPA"},
+        				{"CCDI":"03", "Nombre":"AMASHCA"},
+        				{"CCDI":"04", "Nombre":"ANTA"},
+        				{"CCDI":"05", "Nombre":"ATAQUERO"},
+        				{"CCDI":"06", "Nombre":"MARCARA"},
+        				{"CCDI":"07", "Nombre":"PARIAHUANCA"},
+        				{"CCDI":"08", "Nombre":"SAN MIGUEL DE ACO"},
+        				{"CCDI":"09", "Nombre":"SHILLA"},
+        				{"CCDI":"10", "Nombre":"TINCO"},
+        				{"CCDI":"11", "Nombre":"YUNGAR"}
+        			]
+        		},
+        		{	"CCPP":"07", "Nombre":"CARLOS FERMIN FITZCARRALD",
+        			"DISTRITO":
+        			[
+        				{"CCDI":"01", "Nombre":"SAN LUIS"},
+        				{"CCDI":"02", "Nombre":"SAN NICOLAS"},
+        				{"CCDI":"03", "Nombre":"YAUYA"}                
+        			]
+        	    },
+        	    { 	"CCPP":"08", "Nombre":"CASMA",
+      				"DISTRITO":
+      				[
+       				 	{"CCDI":"01", "Nombre":"CASMA"},
+        				{"CCDI":"02", "Nombre":"BUENA VISTA ALTA"},
+        				{"CCDI":"03", "Nombre":"COMANDANTE NOEL"},
+        				{"CCDI":"04", "Nombre":"YAUTAN"}
+        			]
+        		},
+        		{ 	"CCPP":"09", "Nombre":"CORONGO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CORONGO"},
+        				{"CCDI":"02", "Nombre":"ACO"},
+        				{"CCDI":"03", "Nombre":"BAMBAS"},
+        				{"CCDI":"04", "Nombre":"CUSCA"},
+        				{"CCDI":"05", "Nombre":"LA PAMPA"},
+        				{"CCDI":"06", "Nombre":"YANAC"},
+        				{"CCDI":"07", "Nombre":"YUPAN"}
+        			]
+        		},
+        		{ 	"CCPP":"10", "Nombre":"HUARI",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"HUARI"},
+        				{"CCDI":"02", "Nombre":"ANRA"},
+        				{"CCDI":"03", "Nombre":"CAJAY"},
+        				{"CCDI":"04", "Nombre":"CHAVIN DE HUANTAR"},
+        				{"CCDI":"05", "Nombre":"HUACACHI"},
+        				{"CCDI":"06", "Nombre":"HUACCHIS"},
+        				{"CCDI":"07", "Nombre":"HUACHIS"},
+        				{"CCDI":"08", "Nombre":"HUANTAR"},
+        				{"CCDI":"09", "Nombre":"MASIN"},
+        				{"CCDI":"10", "Nombre":"PAUCAS"},
+        				{"CCDI":"11", "Nombre":"PONTO"},
+        				{"CCDI":"12", "Nombre":"RAHUAPAMPA"},
+        				{"CCDI":"13", "Nombre":"RAPAYAN"},
+        				{"CCDI":"14", "Nombre":"SAN MARCOS"},
+        				{"CCDI":"15", "Nombre":"SAN PEDRO DE CHAMA"},
+        				{"CCDI":"16", "Nombre":"UCO"}
+        			]
+        		},
+        		{ 	"CCPP":"11", "Nombre":"HUARMEY",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"HUARMEY"},
+        				{"CCDI":"02", "Nombre":"COCHAPETI"},
+        				{"CCDI":"03", "Nombre":"CULEBRAS"},
+        				{"CCDI":"04", "Nombre":"HUAYAN"},
+        				{"CCDI":"05", "Nombre":"MALVAS"}
+        			]
+        		},
+        		{ 	"CCPP":"12", "Nombre":"HUAYLAS",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CARAZ"},
+        				{"CCDI":"02", "Nombre":"HUALLANCA"},
+        				{"CCDI":"03", "Nombre":"HUATA"},
+        				{"CCDI":"04", "Nombre":"HUAYLAS"},
+        				{"CCDI":"05", "Nombre":"MATO"},
+        				{"CCDI":"06", "Nombre":"PAMPAROMAS"},
+        				{"CCDI":"07", "Nombre":"PUEBLO LIBRE"},
+        				{"CCDI":"08", "Nombre":"SANTA CRUZ"},
+        				{"CCDI":"09", "Nombre":"SANTO TORIBIO"},
+        				{"CCDI":"10", "Nombre":"YURACMARCA"}
+        			]
+        		},
+        		{ 	"CCPP":"13", "Nombre":"MARISCAL LUZURIAGA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"PISCOBAMBA"},
+        				{"CCDI":"02", "Nombre":"CASCA"},
+        				{"CCDI":"03", "Nombre":"ELEAZAR GUZMAN BARRON"},
+        				{"CCDI":"04", "Nombre":"FIDEL OLIVAS ESCUDERO"},
+        				{"CCDI":"05", "Nombre":"LLAMA"},
+        				{"CCDI":"06", "Nombre":"LLUMPA"},
+        				{"CCDI":"07", "Nombre":"LUCMA"},
+        				{"CCDI":"08", "Nombre":"MUSGA"}
+        			]
+        		},
+        		{ 	"CCPP":"14", "Nombre":"OCROS",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"OCROS"},
+        				{"CCDI":"02", "Nombre":"ACAS"},
+        				{"CCDI":"03", "Nombre":"CAJAMARQUILLA"},
+        				{"CCDI":"04", "Nombre":"CARHUAPAMPA"},
+        				{"CCDI":"05", "Nombre":"COCHAS"},
+        				{"CCDI":"06", "Nombre":"CONGAS"},
+        				{"CCDI":"07", "Nombre":"LLIPA"},
+        				{"CCDI":"08", "NOELombre":"SAN CRISTOBAL DE RAJAN"},
+        				{"CCDI":"08", "Nombre":"SAN PEDRO"},
+        				{"CCDI":"10", "Nombre":"SANTIAGO DE CHILCAS"}
+        			]
+        		},
+        		{ 	"CCPP":"15", "Nombre":"PALLASCA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CABANA"},
+        				{"CCDI":"02", "Nombre":"BOLOGNESI"},
+        				{"CCDI":"03", "Nombre":"CONCHUCOS"},
+        				{"CCDI":"04", "Nombre":"HUACACHUQUE"},
+        				{"CCDI":"05", "Nombre":"HUANDOVAL"},
+        				{"CCDI":"06", "Nombre":"LACABAMBA"},
+        				{"CCDI":"07", "Nombre":"LLAPO"},
+        				{"CCDI":"08", "Nombre":"PALLASCA"},
+        				{"CCDI":"09", "Nombre":"PAMPAS"},
+        				{"CCDI":"10", "Nombre":"SANTA ROSA"},
+        				{"CCDI":"11", "Nombre":"TAUCA"}
+        			]
+        		},
+        		{ 	"CCPP":"16", "Nombre":"POMABAMBA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"POMABAMBA"},
+        				{"CCDI":"02", "Nombre":"HUAYLLAN"},
+        				{"CCDI":"03", "Nombre":"PAROBAMBA"},
+        				{"CCDI":"04", "Nombre":"QUINUABAMBA"}
+        			]
+        		},
+        		{ 	"CCPP":"17", "Nombre":"RECUAY",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"RECUAY"},
+        				{"CCDI":"02", "Nombre":"CATAC"},
+        				{"CCDI":"03", "Nombre":"COTAPARACO"},
+        				{"CCDI":"04", "Nombre":"HUAYLLAPAMPA"},
+        				{"CCDI":"05", "Nombre":"LLACLLIN"},
+        				{"CCDI":"06", "Nombre":"MARCA"},
+        				{"CCDI":"07", "Nombre":"PAMPAS CHICO"},
+        				{"CCDI":"08", "Nombre":"PARARIN"},
+        				{"CCDI":"09", "Nombre":"TAPACOCHA"},
+        				{"CCDI":"10", "Nombre":"TICAPAMPA"}
+        			]
+        		},
+        		{ 	"CCPP":"18", "Nombre":"SANTA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHIMBOTE"},
+        				{"CCDI":"02", "Nombre":"CACERES DEL PERU"},
+        				{"CCDI":"03", "Nombre":"COISHCO"},
+        				{"CCDI":"04", "Nombre":"MACATE"},
+        				{"CCDI":"05", "Nombre":"MORO"},
+        				{"CCDI":"06", "Nombre":"NEPEÑA"},
+        				{"CCDI":"07", "Nombre":"SAMANCO"},
+        				{"CCDI":"08", "Nombre":"SANTA"},
+        				{"CCDI":"09", "Nombre":"NUEVO CHIMBOTE"}
+        			]
+        		},
+        		{ 	"CCPP":"19", "Nombre":"SIHUAS",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"SIHUAS"},
+        				{"CCDI":"02", "Nombre":"ACOBAMBA"},
+        				{"CCDI":"03", "Nombre":"ALFONSO UGARTE"},
+        				{"CCDI":"04", "Nombre":"CASHAPAMPA"},
+        				{"CCDI":"05", "Nombre":"CHINGALPO"},
+        				{"CCDI":"06", "Nombre":"HUAYLLABAMBA"},
+        				{"CCDI":"07", "Nombre":"QUICHES"},
+        				{"CCDI":"08", "Nombre":"RAGASH"},
+        				{"CCDI":"09", "Nombre":"SAN JUAN"},
+        				{"CCDI":"10", "Nombre":"SICSIBAMBA"}
+        			]
+        		},
+        		{ 	"CCPP":"20", "Nombre":"YUNGAY",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"YUNGAY"},
+        				{"CCDI":"02", "Nombre":"CASCAPARA"},
+        				{"CCDI":"03", "Nombre":"MANCOS"},
+        				{"CCDI":"04", "Nombre":"MATACOTO"},
+        				{"CCDI":"05", "Nombre":"QUILLO"},
+        				{"CCDI":"06", "Nombre":"RANRAHIRCA"},
+        				{"CCDI":"07", "Nombre":"SHUPLUY"},
+        				{"CCDI":"08", "Nombre":"YANAMA"}
+        			]
+        		}			
+			]
+		},
+        {   "CCDD":"03", "Nombre":"APURIMAC",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01","Nombre":"ABANCAY",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ABANCAY"},
+                        {"CCDI":"02", "Nombre":"CHACOCHE"},
+                        {"CCDI":"03", "Nombre":"CIRCA"},
+                        {"CCDI":"04", "Nombre":"CURAHUASI"},
+                        {"CCDI":"05", "Nombre":"HUANIPACA"},
+                        {"CCDI":"06", "Nombre":"LAMBRAMA"},
+                        {"CCDI":"07", "Nombre":"PICHIRHUA"},
+                        {"CCDI":"08", "Nombre":"SAN PEDRO DE CACHORA"},
+                        {"CCDI":"09", "Nombre":"TAMBURCO"}
+                    ]
+                },
+                {   "CCPP":"02","Nombre":"ANDAHUAYLAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ANDAHUAYLAS"},
+                        {"CCDI":"02", "Nombre":"ANDARAPA"},
+                        {"CCDI":"03", "Nombre":"CHIARA"},
+                        {"CCDI":"04", "Nombre":"HUANCARAMA"},
+                        {"CCDI":"05", "Nombre":"HUANCARAY"},
+                        {"CCDI":"06", "Nombre":"HUAYANA"},
+                        {"CCDI":"07", "Nombre":"KISHUARA"},
+                        {"CCDI":"08", "Nombre":"PACOBAMBA"},
+                        {"CCDI":"09", "Nombre":"PACUCHA"},
+                        {"CCDI":"10", "Nombre":"PAMPACHIRI"},
+                        {"CCDI":"11", "Nombre":"POMACOCHA"},
+                        {"CCDI":"12", "Nombre":"SAN ANTONIO DE CACHI"},
+                        {"CCDI":"13", "Nombre":"SAN JERONIMO"},
+                        {"CCDI":"14", "Nombre":"SAN MIGUEL DE CHACCRAMPA"},
+                        {"CCDI":"15", "Nombre":"SANTA MARIA DE CHICMO"},
+                        {"CCDI":"16", "Nombre":"TALAVERA"},
+                        {"CCDI":"17", "Nombre":"TUMAY HUARACA"},
+                        {"CCDI":"18", "Nombre":"TURPO"},
+                        {"CCDI":"19", "Nombre":"KAQUIABAMBA"}
+                    ]
+                },
+                {   "CCPP":"03","Nombre":"ANTABAMBA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ANTABAMBA"},
+                        {"CCDI":"02", "Nombre":"EL ORO"},
+                        {"CCDI":"03", "Nombre":"HUAQUIRCA"},
+                        {"CCDI":"04", "Nombre":"JUAN ESPINOZA MEDRANO"},
+                        {"CCDI":"05", "Nombre":"OROPESA"},
+                        {"CCDI":"06", "Nombre":"PACHACONAS"},
+                        {"CCDI":"07", "Nombre":"SABAINOS"}
+                    ]
+                },
+                {   "CCPP":"04","Nombre":"AYMARAES",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHALHUANCA"},
+                        {"CCDI":"02", "Nombre":"CAPAYA"},
+                        {"CCDI":"03", "Nombre":"CARAYBAMBA"},
+                        {"CCDI":"04", "Nombre":"CHAPIMARCA"},
+                        {"CCDI":"05", "Nombre":"COLCABAMBA"},
+                        {"CCDI":"06", "Nombre":"COTARUSE"},
+                        {"CCDI":"07", "Nombre":"HUAYLLO"},
+                        {"CCDI":"08", "Nombre":"JUSTO APU SAHUARAURA"},
+                        {"CCDI":"09", "Nombre":"LUCRE"},
+                        {"CCDI":"10", "Nombre":"POCOHUANCA"},
+                        {"CCDI":"11", "Nombre":"SAN JUAN DE CHACNA"},
+                        {"CCDI":"12", "Nombre":"SANAYCA"},
+                        {"CCDI":"13", "Nombre":"SORAYA"},
+                        {"CCDI":"14", "Nombre":"TAPAIRIHUA"},
+                        {"CCDI":"15", "Nombre":"TINTAY"},
+                        {"CCDI":"16", "Nombre":"TORAYA"},
+                        {"CCDI":"17", "Nombre":"YANACA"}
+                    ]
+                },
+                {   "CCPP":"05","Nombre":"COTABAMBAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"TAMBOBAMBA"},
+                        {"CCDI":"02", "Nombre":"COTABAMBAS"},
+                        {"CCDI":"03", "Nombre":"COYLLURQUI"},
+                        {"CCDI":"04", "Nombre":"HAQUIRA"},
+                        {"CCDI":"05", "Nombre":"MARA"},
+                        {"CCDI":"06", "Nombre":"CHALLHUAHUACHO"}
+                    ]
+                },
+                {   "CCPP":"06","Nombre":"CHINCHEROS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHINCHEROS"},
+                        {"CCDI":"02", "Nombre":"ANCO_HUALLO"},
+                        {"CCDI":"03", "Nombre":"COCHARCAS"},
+                        {"CCDI":"04", "Nombre":"HUACCANA"},
+                        {"CCDI":"05", "Nombre":"OCOBAMBA"},
+                        {"CCDI":"06", "Nombre":"ONGOY"},
+                        {"CCDI":"07", "Nombre":"URANMARCA"},
+                        {"CCDI":"08", "Nombre":"RANRACANCHA"}
+                    ]
+                },
+                {   "CCPP":"07","Nombre":"GRAU",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHUQUIBAMBILLA"},
+                        {"CCDI":"02", "Nombre":"CURPAHUASI"},
+                        {"CCDI":"03", "Nombre":"GAMARRA"},
+                        {"CCDI":"04", "Nombre":"HUAYLLATI"},
+                        {"CCDI":"05", "Nombre":"MAMARA"},
+                        {"CCDI":"06", "Nombre":"MICAELA BASTIDAS"},
+                        {"CCDI":"07", "Nombre":"PATAYPAMPA"},
+                        {"CCDI":"08", "Nombre":"PROGRESO"},
+                        {"CCDI":"09", "Nombre":"SAN ANTONIO"},
+                        {"CCDI":"10", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"11", "Nombre":"TURPAY"},
+                        {"CCDI":"12", "Nombre":"VILCABAMBA"},
+                        {"CCDI":"13", "Nombre":"VIRUNDO"},
+                        {"CCDI":"14", "Nombre":"CURASCO"}
+                    ]
+                }
+            ]
+        },
+		{	"CCDD":"04", "Nombre":"AREQUIPA",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01", "Nombre":"AREQUIPA",
+      				"DISTRITO":
+      				[
+      					{"CCDI":"01", "Nombre":"AREQUIPA"},
+        				{"CCDI":"02", "Nombre":"ALTO SELVA ALEGRE"},
+        				{"CCDI":"03", "Nombre":"CAYMA"},
+        				{"CCDI":"04", "Nombre":"CERRO COLORADO"},
+        				{"CCDI":"05", "Nombre":"CHARACATO"},
+        				{"CCDI":"06", "Nombre":"CHIGUATA"},
+        				{"CCDI":"07", "Nombre":"JACOBO HUNTER"},
+        				{"CCDI":"08", "Nombre":"LA JOYA"},
+        				{"CCDI":"09", "Nombre":"MARIANO MELGAR"},
+        				{"CCDI":"10", "Nombre":"MIRAFLORES"},
+        				{"CCDI":"11", "Nombre":"MOLLEBAYA"},
+        				{"CCDI":"12", "Nombre":"PAUCARPATA"},
+        				{"CCDI":"13", "Nombre":"POCSI"},
+        				{"CCDI":"14", "Nombre":"POLOBAYA"},
+        				{"CCDI":"15", "Nombre":"QUEQUENA"},
+        				{"CCDI":"16", "Nombre":"SABANDIA"},
+        				{"CCDI":"17", "Nombre":"SACHACA"},
+        				{"CCDI":"18", "Nombre":"SAN JUAN DE SIGUAS"},
+        				{"CCDI":"19", "Nombre":"SAN JUAN DE TARUCANI"},
+        				{"CCDI":"20", "Nombre":"SANTA ISABEL DE SIGUAS"},
+        				{"CCDI":"21", "Nombre":"SANTA RITA DE SIGUAS"},
+        				{"CCDI":"22", "Nombre":"SOCABAYA"},
+        				{"CCDI":"23", "Nombre":"TIABAYA"},
+        				{"CCDI":"24", "Nombre":"UCHUMAYO"},
+        				{"CCDI":"25", "Nombre":"VITOR"},
+        				{"CCDI":"26", "Nombre":"YANAHUARA"},
+        				{"CCDI":"27", "Nombre":"YARABAMBA"},
+        				{"CCDI":"28", "Nombre":"YURA"},
+        				{"CCDI":"29", "Nombre":"JOSE LUIS BUSTAMANTE Y RIVERO"}
+        			]
+        		},
+        		{ 	"CCPP":"02", "Nombre":"CAMANA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CAMANA"},
+        				{"CCDI":"02", "Nombre":"JOSE MARIA QUIMPER"},
+        				{"CCDI":"03", "Nombre":"MARIANO NICOLAS VALCARCEL"},
+        				{"CCDI":"04", "Nombre":"MARISCAL CACERES"},
+        				{"CCDI":"05", "Nombre":"NICOLAS DE PIEROLA"},
+        				{"CCDI":"06", "Nombre":"OCOÑA"},
+        				{"CCDI":"07", "Nombre":"QUILCA"},
+        				{"CCDI":"08", "Nombre":"SAMUEL PASTOR"}
+        			]
+        		},
+        		{ 	"CCPP":"03", "Nombre":"CARAVELI",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CARAVELI"},
+        				{"CCDI":"02", "Nombre":"ACARI"},
+        				{"CCDI":"03", "Nombre":"ATICO"},
+        				{"CCDI":"04", "Nombre":"ATIQUIPA"},
+        				{"CCDI":"05", "Nombre":"BELLA UNION"},
+        				{"CCDI":"06", "Nombre":"CAHUACHO"},
+        				{"CCDI":"07", "Nombre":"CHALA"},
+        				{"CCDI":"08", "Nombre":"CHAPARRA"},
+        				{"CCDI":"09", "Nombre":"HUANUHUANU"},
+        				{"CCDI":"10", "Nombre":"JAQUI"},
+        				{"CCDI":"11", "Nombre":"LOMAS"},
+        				{"CCDI":"12", "Nombre":"QUICACHA"},
+        				{"CCDI":"13", "Nombre":"YAUCA"}
+        			]
+        		},
+        		{ 	"CCPP":"04","Nombre":"CASTILLA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"APLAO"},
+        				{"CCDI":"02", "Nombre":"ANDAGUA"},
+        				{"CCDI":"04", "Nombre":"CHACHAS"},
+        				{"CCDI":"05", "Nombre":"CHILCAYMARCA"},
+        				{"CCDI":"06", "Nombre":"CHOCO"},
+        				{"CCDI":"07", "Nombre":"HUANCARQUI"},
+        				{"CCDI":"08", "Nombre":"MACHAGUAY"},
+        				{"CCDI":"09", "Nombre":"ORCOPAMPA"},
+        				{"CCDI":"10", "Nombre":"PAMPACOLCA"},
+        				{"CCDI":"11", "Nombre":"TIPAN"},
+        				{"CCDI":"12", "Nombre":"UNION"},
+        				{"CCDI":"13", "Nombre":"URACA"},
+        				{"CCDI":"14", "Nombre":"VIRACO"}
+        			]
+        		},
+        		{ 	"CCPP":"05", "Nombre":"CAYLLOMA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHIVAY"},
+        				{"CCDI":"02", "Nombre":"ACHOMA"},
+        				{"CCDI":"03", "Nombre":"CABANACONDE"},
+        				{"CCDI":"04", "Nombre":"CALLALLI"},
+        				{"CCDI":"05", "Nombre":"CAYLLOMA"},
+        				{"CCDI":"06", "Nombre":"COPORAQUE"},
+        				{"CCDI":"07", "Nombre":"HUAMBO"},
+        				{"CCDI":"08", "Nombre":"HUANCA"},
+        				{"CCDI":"09", "Nombre":"ICHUPAMPA"},
+        				{"CCDI":"10", "Nombre":"LARI"},
+        				{"CCDI":"11", "Nombre":"LLUTA"},
+        				{"CCDI":"12", "Nombre":"MACA"},
+        				{"CCDI":"13", "Nombre":"MADRIGAL"},
+        				{"CCDI":"14", "Nombre":"SAN ANTONIO DE CHUCA"},
+        				{"CCDI":"15", "Nombre":"SIBAYO"},
+        				{"CCDI":"16", "Nombre":"TAPAY"},
+        				{"CCDI":"17", "Nombre":"TISCO"},
+        				{"CCDI":"18", "Nombre":"TUTI"},
+        				{"CCDI":"19", "Nombre":"YANQUE"},
+        				{"CCDI":"20", "Nombre":"MAJES"}
+        			]
+        		},
+        		{ 	"CCPP":"06", "Nombre":"CONDESUYOS",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHUQUIBAMBA"},
+        				{"CCDI":"02", "Nombre":"ANDARAY"},
+        				{"CCDI":"03", "Nombre":"CAYARANI"},
+        				{"CCDI":"04", "Nombre":"CHICHAS"},
+        				{"CCDI":"05", "Nombre":"IRAY"},
+        				{"CCDI":"06", "Nombre":"RIO GRANDE"},
+        				{"CCDI":"07", "Nombre":"SALAMANCA"},
+        				{"CCDI":"08", "Nombre":"YANAQUIHUA"}
+        			]
+        		},
+        		{ 	"CCPP":"07", "Nombre":"ISLAY",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"MOLLENDO"},
+        				{"CCDI":"02", "Nombre":"COCACHACRA"},
+        				{"CCDI":"03", "Nombre":"DEAN VALDIVIA"},
+        				{"CCDI":"04", "Nombre":"ISLAY"},
+        				{"CCDI":"06", "Nombre":"PUNTA DE BOMBON"}
+        			]
+        		},
+        		{  	"CCPP":"08","Nombre":"LA UNION",
+       				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"COTAHUASI"},
+        				{"CCDI":"02", "Nombre":"ALCA"},
+        				{"CCDI":"03", "Nombre":"CHARCANA"},
+        				{"CCDI":"04", "Nombre":"HUAYNACOTAS"},
+        				{"CCDI":"05", "Nombre":"PAMPAMARCA"},
+        				{"CCDI":"06", "Nombre":"PUYCA"}, 
+        				{"CCDI":"07", "Nombre":"QUECHUALLA"},
+        				{"CCDI":"08", "Nombre":"SAYLA"},
+        				{"CCDI":"09", "Nombre":"TAURIA"},
+        				{"CCDI":"10", "Nombre":"TOMEPAMPA"},
+        				{"CCDI":"11", "Nombre":"TORO"}
+        			]
+        		}
+      		]		
+		},
+        {   "CCDD":"05", "Nombre":"AYACUCHO",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01","Nombre":"HUAMANGA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"AYACUCHO"},
+                        {"CCDI":"02", "Nombre":"ACOCRO"},
+                        {"CCDI":"03", "Nombre":"ACOS VICHOS"},
+                        {"CCDI":"04", "Nombre":"CARMEN ALTO"},
+                        {"CCDI":"05", "Nombre":"CHIARA"},
+                        {"CCDI":"06", "Nombre":"OCROS"},
+                        {"CCDI":"07", "Nombre":"PACAYCASA"},
+                        {"CCDI":"08", "Nombre":"QUINUA"},
+                        {"CCDI":"09", "Nombre":"SAN JOSE DE TICLLAS"},
+                        {"CCDI":"10", "Nombre":"SAN JUAN BAUTISTA"},
+                        {"CCDI":"11", "Nombre":"SANTIAGO DE PISCHA"},
+                        {"CCDI":"12", "Nombre":"SOCOS"},
+                        {"CCDI":"13", "Nombre":"TAMBILLO"},
+                        {"CCDI":"14", "Nombre":"VINCHOS"},
+                        {"CCDI":"15", "Nombre":"JESUS NAZARENO"}
+                    ]
+                },
+                {   "CCPP":"02","Nombre":"CANGALLO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CANGALLO"},
+                        {"CCDI":"02", "Nombre":"CHUSCHI"},
+                        {"CCDI":"03", "Nombre":"LOS MOROCHUCOS"},
+                        {"CCDI":"04", "Nombre":"MARIA PARADO DE BELLIDO"},
+                        {"CCDI":"05", "Nombre":"PARAS"},
+                        {"CCDI":"06", "Nombre":"TOTOS"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"HUANCA SANCOS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SANCOS"},
+                        {"CCDI":"02", "Nombre":"CARAPO"},
+                        {"CCDI":"03", "Nombre":"SACSAMARCA"},
+                        {"CCDI":"04", "Nombre":"SANTIAGO DE LUCANAMARCA"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"HUANTA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUANTA"},
+                        {"CCDI":"02", "Nombre":"AYAHUANCO"},
+                        {"CCDI":"03", "Nombre":"HUAMANGUILLA"},
+                        {"CCDI":"04", "Nombre":"IGUAIN"},
+                        {"CCDI":"05", "Nombre":"LURICOCHA"},
+                        {"CCDI":"06", "Nombre":"SANTILLANA"},
+                        {"CCDI":"07", "Nombre":"SIVIA"},
+                        {"CCDI":"08", "Nombre":"LLOCHEGUA"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"LA MAR",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SAN MIGUEL"},
+                        {"CCDI":"02", "Nombre":"ANCO"},
+                        {"CCDI":"03", "Nombre":"AYNA"},
+                        {"CCDI":"04", "Nombre":"CHILCAS"},
+                        {"CCDI":"05", "Nombre":"CHUNGUI"},
+                        {"CCDI":"06", "Nombre":"LUIS CARRANZA"},
+                        {"CCDI":"06", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"08", "Nombre":"TAMBO"},
+                        {"CCDI":"09", "Nombre":"SAMUGARI"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"LUCANAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PUQUIO"},
+                        {"CCDI":"02", "Nombre":"AUCARA"},
+                        {"CCDI":"03", "Nombre":"CABANA"},
+                        {"CCDI":"04", "Nombre":"CARMEN SALCEDO"},
+                        {"CCDI":"05", "Nombre":"CHAVINA"},
+                        {"CCDI":"06", "Nombre":"CHIPAO"},
+                        {"CCDI":"07", "Nombre":"HUAC-HUAS"},
+                        {"CCDI":"08", "Nombre":"LARAMATE"},
+                        {"CCDI":"09", "Nombre":"LEONCIO PRADO"},
+                        {"CCDI":"10", "Nombre":"LLAUTA"},
+                        {"CCDI":"11", "Nombre":"LUCANAS"},
+                        {"CCDI":"12", "Nombre":"OCANA"},
+                        {"CCDI":"13", "Nombre":"OTOCA"},
+                        {"CCDI":"14", "Nombre":"SAISA"},
+                        {"CCDI":"15", "Nombre":"SAN CRISTOBAL"},
+                        {"CCDI":"16", "Nombre":"SAN JUAN"},
+                        {"CCDI":"17", "Nombre":"SAN PEDRO"},
+                        {"CCDI":"18", "Nombre":"SAN PEDRO DE PALCO"},
+                        {"CCDI":"19", "Nombre":"SANCOS"},
+                        {"CCDI":"20", "Nombre":"SANTA ANA DE HUAYCAHUACHO"},
+                        {"CCDI":"21", "Nombre":"SANTA LUCIA"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"PARINACOCHAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CORACORA"},
+                        {"CCDI":"02", "Nombre":"CHUMPI"},
+                        {"CCDI":"03", "Nombre":"CORONEL CASTANEDA"},
+                        {"CCDI":"04", "Nombre":"PACAPAUSA"},
+                        {"CCDI":"05", "Nombre":"PULLO"},
+                        {"CCDI":"06", "Nombre":"PUYUSCA"},
+                        {"CCDI":"07", "Nombre":"SAN FRANCISCO DE RAVACAYCO"},
+                        {"CCDI":"08", "Nombre":"UPAHUACHO"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"PAUCAR DEL SARA SARA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PAUSA"},
+                        {"CCDI":"02", "Nombre":"COLTA"},
+                        {"CCDI":"03", "Nombre":"CORCULLA"},
+                        {"CCDI":"04", "Nombre":"LAMPA"},
+                        {"CCDI":"05", "Nombre":"MARCABAMBA"},
+                        {"CCDI":"06", "Nombre":"OYOLO"},
+                        {"CCDI":"07", "Nombre":"PARARCA"},
+                        {"CCDI":"08", "Nombre":"SAN JAVIER DE ALPABAMBA"},
+                        {"CCDI":"09", "Nombre":"SAN JOSE DE USHUA"},
+                        {"CCDI":"10", "Nombre":"SARA SARA"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"SUCRE",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"QUEROBAMBA"},
+                        {"CCDI":"02", "Nombre":"BELEN"},
+                        {"CCDI":"03", "Nombre":"CHALCOS"},
+                        {"CCDI":"04", "Nombre":"CHILCAYOC"},
+                        {"CCDI":"05", "Nombre":"HUACANA"},
+                        {"CCDI":"06", "Nombre":"MORCOLLA"},
+                        {"CCDI":"07", "Nombre":"PAICO"},
+                        {"CCDI":"08", "Nombre":"SAN PEDRO DE LARCAY"},
+                        {"CCDI":"09", "Nombre":"SAN SALVADOR DE QUIJE"},
+                        {"CCDI":"10", "Nombre":"SANTIAGO DE PAUCARAY"},
+                        {"CCDI":"11", "Nombre":"SORAS"}
+                    ]
+                },
+                {   "CCPP":"10", "Nombre":"VICTOR FAJARDO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUANCAPI"},
+                        {"CCDI":"02", "Nombre":"ALCAMENCA"},
+                        {"CCDI":"03", "Nombre":"APONGO"},
+                        {"CCDI":"04", "Nombre":"ASQUIPATA"},
+                        {"CCDI":"05", "Nombre":"CANARIAS"},
+                        {"CCDI":"06", "Nombre":"CAYARA"},
+                        {"CCDI":"07", "Nombre":"COLCA"},
+                        {"CCDI":"08", "Nombre":"HUAMANQUIQUIA"},
+                        {"CCDI":"09", "Nombre":"HUANCARAYLLA"},
+                        {"CCDI":"10", "Nombre":"HUAYA"},
+                        {"CCDI":"11", "Nombre":"SARHUA"},
+                        {"CCDI":"12", "Nombre":"VILCANCHOS"}
+                    ]
+                },
+                {   "CCPP":"11", "Nombre":"VILCAS HUAMAN",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"VILCAS HUAMAN"},
+                        {"CCDI":"02", "Nombre":"ACCOMARCA"},
+                        {"CCDI":"03", "Nombre":"CARHUANCA"},
+                        {"CCDI":"04", "Nombre":"CONCEPCION"},
+                        {"CCDI":"05", "Nombre":"HUAMBALPA"},
+                        {"CCDI":"06", "Nombre":"INDEPENDENCIA"},
+                        {"CCDI":"07", "Nombre":"SARUMA"},
+                        {"CCDI":"08", "Nombre":"VISCHONGO"}
+                    ]
+                }
+            ]   
+        },
+        {   "CCDD":"06", "Nombre":"CAJAMARCA",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"CAJAMARCA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CAJAMARCA"},
+                        {"CCDI":"02", "Nombre":"ASUNCION"},
+                        {"CCDI":"03", "Nombre":"CHETILLA"},
+                        {"CCDI":"04", "Nombre":"COSPAN"},
+                        {"CCDI":"05", "Nombre":"ENCANADA"},
+                        {"CCDI":"06", "Nombre":"JESUS"},
+                        {"CCDI":"07", "Nombre":"LLACANORA"},
+                        {"CCDI":"08", "Nombre":"LOS BAÑOS DEL INCA"},
+                        {"CCDI":"09", "Nombre":"MAGDALENA"},
+                        {"CCDI":"10", "Nombre":"MATARA"},
+                        {"CCDI":"11", "Nombre":"NAMORA"},
+                        {"CCDI":"12", "Nombre":"SAN JUAN"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"CAJABAMBA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CAJABAMBA"},
+                        {"CCDI":"02", "Nombre":"CACHACHI"},
+                        {"CCDI":"03", "Nombre":"CONDEBAMBA"},
+                        {"CCDI":"04", "Nombre":"SITACOCHA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"CELENDIN",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CELENDIN"},
+                        {"CCDI":"02", "Nombre":"CHUMUCH"},
+                        {"CCDI":"03", "Nombre":"CORTEGANA"},
+                        {"CCDI":"04", "Nombre":"HUASMIN"},
+                        {"CCDI":"05", "Nombre":"JORGE CHAVEZ"},
+                        {"CCDI":"06", "Nombre":"JOSE GALVEZ"},
+                        {"CCDI":"07", "Nombre":"MIGUEL IGLESIAS"},
+                        {"CCDI":"08", "Nombre":"OXAMARCA"},
+                        {"CCDI":"09", "Nombre":"SOROCHUCO"},
+                        {"CCDI":"10", "Nombre":"SUCRE"},
+                        {"CCDI":"11", "Nombre":"UTCO"},
+                        {"CCDI":"12", "Nombre":"LA LIBERTAD DE PALLAN"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"CHOTA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHOTA"},
+                        {"CCDI":"02", "Nombre":"ANGUIA"},
+                        {"CCDI":"03", "Nombre":"CHADIN"},
+                        {"CCDI":"04", "Nombre":"CHIGUIRIP"},
+                        {"CCDI":"05", "Nombre":"CHIMBAN"},
+                        {"CCDI":"06", "Nombre":"CHOROPAMPA"},
+                        {"CCDI":"07", "Nombre":"COCHABAMBA"},
+                        {"CCDI":"08", "Nombre":"CONCHAN"},
+                        {"CCDI":"09", "Nombre":"HUAMBOS"},
+                        {"CCDI":"10", "Nombre":"LAJAS"},
+                        {"CCDI":"11", "Nombre":"LLAMA"},
+                        {"CCDI":"12", "Nombre":"MIRACOSTA"},
+                        {"CCDI":"13", "Nombre":"PACCHA"},
+                        {"CCDI":"14", "Nombre":"PION"},
+                        {"CCDI":"15", "Nombre":"QUERECOTO"},
+                        {"CCDI":"16", "Nombre":"SAN JUAN DE LICUPIS"},
+                        {"CCDI":"17", "Nombre":"TACABAMBA"},
+                        {"CCDI":"18", "Nombre":"TOCMOCHE"},
+                        {"CCDI":"19", "Nombre":"CHALAMARCA"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"CONTUMAZA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CONTUMAZA"},
+                        {"CCDI":"02", "Nombre":"CHILETE"},
+                        {"CCDI":"03", "Nombre":"CUPISNIQUE"},
+                        {"CCDI":"04", "Nombre":"GUZMANGO"},
+                        {"CCDI":"05", "Nombre":"SAN BENITO"},
+                        {"CCDI":"06", "Nombre":"SANTA CRUZ DE TOLED"},
+                        {"CCDI":"07", "Nombre":"TANTARICA"},
+                        {"CCDI":"08", "Nombre":"YONAN"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"CUTERVO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CUTERVO"},
+                        {"CCDI":"02", "Nombre":"CALLAYUC"},
+                        {"CCDI":"03", "Nombre":"CHOROS"},
+                        {"CCDI":"04", "Nombre":"CUJILLO"},
+                        {"CCDI":"05", "Nombre":"LA RAMADA"},
+                        {"CCDI":"06", "Nombre":"PIMPINGOS"},
+                        {"CCDI":"07", "Nombre":"QUEROCOTILLO"},
+                        {"CCDI":"08", "Nombre":"SAN ANDRES DE CUTERVO"},
+                        {"CCDI":"09", "Nombre":"SAN JUAN DE CUTERVO"},
+                        {"CCDI":"10", "Nombre":"SAN LUSI DE LUCMA"},
+                        {"CCDI":"11", "Nombre":"SANTA CRUZ"},
+                        {"CCDI":"12", "Nombre":"SANTO DOMINGO DE LA CAPILLA"},
+                        {"CCDI":"13", "Nombre":"SANTO TOMAS"},
+                        {"CCDI":"14", "Nombre":"SACOTA"},
+                        {"CCDI":"15", "Nombre":"TORIBIO CASANOVA"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"HUALGAYOC",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"BAMBAMARCA"},
+                        {"CCDI":"02", "Nombre":"CHUGUR"},
+                        {"CCDI":"03", "Nombre":"HUALGAYOC"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"JAEN",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JAEN"},
+                        {"CCDI":"02", "Nombre":"BELLAVISTA"},
+                        {"CCDI":"03", "Nombre":"CHONTALI"},
+                        {"CCDI":"04", "Nombre":"COLASAY"},
+                        {"CCDI":"05", "Nombre":"HUABAL"},
+                        {"CCDI":"06", "Nombre":"LAS PIRIAS"},
+                        {"CCDI":"07", "Nombre":"POMAHUACA"},
+                        {"CCDI":"08", "Nombre":"PUCARA"},
+                        {"CCDI":"09", "Nombre":"SALLIQUE"},
+                        {"CCDI":"10", "Nombre":"SAN FELIPE"},
+                        {"CCDI":"11", "Nombre":"SAN JOSE DEL ALTO"},
+                        {"CCDI":"12", "Nombre":"SANTA ROSA"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"SAN IGNACIO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SAN IGNACIO"},
+                        {"CCDI":"02", "Nombre":"CHIRINOS"},
+                        {"CCDI":"03", "Nombre":"HUARANGO"},
+                        {"CCDI":"04", "Nombre":"LA COIPA"},
+                        {"CCDI":"05", "Nombre":"NAMBALLE"},
+                        {"CCDI":"06", "Nombre":"SAN JOSE DE LOURDES"},
+                        {"CCDI":"07", "Nombre":"TABACONAS"}
+                    ]
+                },
+                {   "CCPP":"10", "Nombre":"SAN MARCOS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PEDRO GALVEZ"},
+                        {"CCDI":"02", "Nombre":"CHANCAY"},
+                        {"CCDI":"03", "Nombre":"EDUARDO VILLANUEVA"},
+                        {"CCDI":"04", "Nombre":"GREGORIO PITA"},
+                        {"CCDI":"05", "Nombre":"ICHOCAN"},
+                        {"CCDI":"06", "Nombre":"SAN JOSE QUIROZ"},
+                        {"CCDI":"07", "Nombre":"JOSE SABOGAL"}
+                    ]
+                },
+                {   "CCPP":"11", "Nombre":"SAN MIGUEL",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SAN MIGUEL"},
+                        {"CCDI":"02", "Nombre":"BOLIVAR"},
+                        {"CCDI":"03", "Nombre":"CALQUIS"},
+                        {"CCDI":"04", "Nombre":"CATILLUC"},
+                        {"CCDI":"05", "Nombre":"EL PRADO"},
+                        {"CCDI":"06", "Nombre":"LA FLORIDA"},
+                        {"CCDI":"07", "Nombre":"LLAPA"},
+                        {"CCDI":"08", "Nombre":"NANCHOC"},
+                        {"CCDI":"09", "Nombre":"NIEPOS"},
+                        {"CCDI":"10", "Nombre":"SAN GREGORIO"},
+                        {"CCDI":"11", "Nombre":"SAN SILVER DE COCHAN"},
+                        {"CCDI":"12", "Nombre":"TONGOD"},
+                        {"CCDI":"13", "Nombre":"UNION AGUA BLANCA"}
+                    ]
+                },
+                {   "CCPP":"12", "Nombre":"SAN PABLO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SAN PABLO"},
+                        {"CCDI":"02", "Nombre":"SAN BERNARDINO"},
+                        {"CCDI":"03", "Nombre":"SAN LUIS"},
+                        {"CCDI":"04", "Nombre":"TUMBADEN"}
+                    ]
+                },
+                {   "CCPP":"13", "Nombre":"SANTA CRUZ",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SANTA CRUZ"},
+                        {"CCDI":"02", "Nombre":"ANDABAMBA"},
+                        {"CCDI":"03", "Nombre":"CATACHE"},
+                        {"CCDI":"04", "Nombre":"CHANCAYBANOS"},
+                        {"CCDI":"05", "Nombre":"LA ESPERANZA"},
+                        {"CCDI":"06", "Nombre":"NINABAMBA"},
+                        {"CCDI":"07", "Nombre":"PULAN"},
+                        {"CCDI":"08", "Nombre":"SAUCEPAMPA"},
+                        {"CCDI":"09", "Nombre":"SEXI"},
+                        {"CCDI":"10", "Nombre":"UTICYACU"},
+                        {"CCDI":"11", "Nombre":"YAUYUCAN"}
+                    ]
+                }
+            ]
+        },
+		{	"CCDD":"07", "Nombre":"CALLAO",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01","Nombre":"CALLAO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CALLAO"},
+        				{"CCDI":"02", "Nombre":"BELLAVISTA"},
+        				{"CCDI":"03", "Nombre":"CARMEN DE LA LEGUA REYNOSO"},
+        				{"CCDI":"04", "Nombre":"LA PERLA"},
+        				{"CCDI":"05", "Nombre":"LA PUNTA"},
+        				{"CCDI":"06", "Nombre":"VENTANILLA"}
+        			]
+				}
+			]
+		},
+        {   "CCDD":"08", "Nombre":"CUSCO",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"CUSCO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CUSCO"},
+                        {"CCDI":"02", "Nombre":"CCORCA"},
+                        {"CCDI":"03", "Nombre":"POROY"},
+                        {"CCDI":"04", "Nombre":"SAN JERONIMO"},
+                        {"CCDI":"05", "Nombre":"SAN SEBASTIAN"},
+                        {"CCDI":"06", "Nombre":"SANTIAGO"},
+                        {"CCDI":"07", "Nombre":"SAYLLA"},
+                        {"CCDI":"08", "Nombre":"WANCHAQ"}   
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"ACOMAYO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ACOMAYO"},
+                        {"CCDI":"02", "Nombre":"ACOPIA"},
+                        {"CCDI":"03", "Nombre":"ACOS"},
+                        {"CCDI":"04", "Nombre":"MOSOC LLACTA"},
+                        {"CCDI":"05", "Nombre":"POMACANCHI"},
+                        {"CCDI":"06", "Nombre":"RONDOCAN"},
+                        {"CCDI":"07", "Nombre":"SANGARARA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"ANTA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ANTA"},
+                        {"CCDI":"02", "Nombre":"ANCAHUASI"},
+                        {"CCDI":"03", "Nombre":"CACHIMAYO"},
+                        {"CCDI":"04", "Nombre":"CHINCHAYPUJIO"},
+                        {"CCDI":"05", "Nombre":"HUAROCONDO"},
+                        {"CCDI":"06", "Nombre":"LIMATAMBO"},
+                        {"CCDI":"07", "Nombre":"MOLLEPATA"},
+                        {"CCDI":"08", "Nombre":"PUCYURA"},
+                        {"CCDI":"09", "Nombre":"ZURITE"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"CALCA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CALCA"},
+                        {"CCDI":"02", "Nombre":"COYA"},
+                        {"CCDI":"03", "Nombre":"LAMAY"},
+                        {"CCDI":"04", "Nombre":"LARES"},
+                        {"CCDI":"05", "Nombre":"PISAC"},
+                        {"CCDI":"06", "Nombre":"SAN SALVADOR"},
+                        {"CCDI":"07", "Nombre":"TARAY"},
+                        {"CCDI":"08", "Nombre":"YANATILE"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"CANAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"YANAOCA"},
+                        {"CCDI":"02", "Nombre":"CHECCA"},
+                        {"CCDI":"03", "Nombre":"KUNTURKANKI"},
+                        {"CCDI":"04", "Nombre":"LANGUI"},
+                        {"CCDI":"05", "Nombre":"LAYO"},
+                        {"CCDI":"06", "Nombre":"PAMPAMARCA"},
+                        {"CCDI":"07", "Nombre":"QUEHUE"},
+                        {"CCDI":"08", "Nombre":"TUPAC AMARU"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"CANCHIS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SICUANI"},
+                        {"CCDI":"02", "Nombre":"CHECACUPE"},
+                        {"CCDI":"03", "Nombre":"COMBAPATA"},
+                        {"CCDI":"04", "Nombre":"MARANGANI"},
+                        {"CCDI":"05", "Nombre":"PITUMARCA"},
+                        {"CCDI":"06", "Nombre":"SAN PLABLO"},
+                        {"CCDI":"07", "Nombre":"SAN PEDRO"},
+                        {"CCDI":"08", "Nombre":"TINTA"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"CHUMBIVILCAS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SANTO TOMAS"},
+                        {"CCDI":"02", "Nombre":"CAPACMARCA"},
+                        {"CCDI":"03", "Nombre":"CHAMACA"},
+                        {"CCDI":"04", "Nombre":"COLQUEMARCA"},
+                        {"CCDI":"05", "Nombre":"LIVITACA"},
+                        {"CCDI":"06", "Nombre":"LLUSCO"},
+                        {"CCDI":"07", "Nombre":"QUIÑOTA"},
+                        {"CCDI":"08", "Nombre":"VELILLE"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"ESPINAR",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ESPINAR"},
+                        {"CCDI":"02", "Nombre":"CONDORAMA"},
+                        {"CCDI":"03", "Nombre":"COPORAQUE"},
+                        {"CCDI":"04", "Nombre":"OCORURO"},
+                        {"CCDI":"05", "Nombre":"PALLPATA"},
+                        {"CCDI":"06", "Nombre":"PICHIGUA"},
+                        {"CCDI":"07", "Nombre":"SUYCKUTAMBO"},
+                        {"CCDI":"08", "Nombre":"ALTO PICHIGUA"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"LA CONVENCION I",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SANTA ANA"},
+                        {"CCDI":"02", "Nombre":"ECHARATE"},
+                        {"CCDI":"03", "Nombre":"HUAYOPATA"},
+                        {"CCDI":"04", "Nombre":"MARANURA"},
+                        {"CCDI":"05", "Nombre":"OCOBAMBA"},
+                        {"CCDI":"06", "Nombre":"QUELLOUNO"},
+                        {"CCDI":"07", "Nombre":"KIMBIRI"},
+                        {"CCDI":"08", "Nombre":"SANTA TERESA"},
+                        {"CCDI":"09", "Nombre":"VILCABAMBA"},
+                        {"CCDI":"10", "Nombre":"PICHARI"}
+                    ]
+                },
+                {   "CCPP":"10", "Nombre":"PARURO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PARURO"},
+                        {"CCDI":"02", "Nombre":"ACCHA"},
+                        {"CCDI":"03", "Nombre":"CCAPI"},
+                        {"CCDI":"04", "Nombre":"COLCHA"},
+                        {"CCDI":"05", "Nombre":"HUANOQUITE"},
+                        {"CCDI":"06", "Nombre":"OMACHA"},
+                        {"CCDI":"07", "Nombre":"PACCARITAMBO"},
+                        {"CCDI":"08", "Nombre":"PILLPINTO"},
+                        {"CCDI":"09", "Nombre":"YAURISQUE"}
+                    ]
+                },
+                {   "CCPP":"11", "Nombre":"PAUCARTAMBO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PAUCARTAMBO"},
+                        {"CCDI":"02", "Nombre":"CAICAY"},
+                        {"CCDI":"03", "Nombre":"CHALLABAMBA"},
+                        {"CCDI":"04", "Nombre":"COLQUEPATA"},
+                        {"CCDI":"05", "Nombre":"HUANCARANI"},
+                        {"CCDI":"06", "Nombre":"KOSNIPATA"}
+                    ]
+                },
+                {   "CCPP":"12", "Nombre":"QUISPICANCHI",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"URCOS"},
+                        {"CCDI":"02", "Nombre":"ANDAHUAYLILLAS"},
+                        {"CCDI":"03", "Nombre":"CAMANTI"},
+                        {"CCDI":"04", "Nombre":"CCARHUAYO"},
+                        {"CCDI":"05", "Nombre":"CCATCA"},
+                        {"CCDI":"06", "Nombre":"CUSIPATA"},
+                        {"CCDI":"07", "Nombre":"HUARO"},
+                        {"CCDI":"08", "Nombre":"LUCRE"},
+                        {"CCDI":"09", "Nombre":"MARCAPATA"},
+                        {"CCDI":"10", "Nombre":"OCONGATE"},
+                        {"CCDI":"11", "Nombre":"OROPESA"},
+                        {"CCDI":"12", "Nombre":"QUIQUIJANA"}
+                    ]
+                },
+                {   "CCPP":"13", "Nombre":"URUBAMBA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"URUBAMBA"},
+                        {"CCDI":"02", "Nombre":"CHICHEROS"},
+                        {"CCDI":"03", "Nombre":"HUAYLLABAMBA"},
+                        {"CCDI":"04", "Nombre":"MACHUPICCHU"},
+                        {"CCDI":"05", "Nombre":"MARAS"},
+                        {"CCDI":"06", "Nombre":"OLLANTAYTAMBO"},
+                        {"CCDI":"07", "Nombre":"YUCAY"}
+                    ]
+                }
+            ]
+        },
+        {   "CCDD":"09", "Nombre":"HUANCAVELICA",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"HUANCAVELICA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUANCAVELICA"},
+                        {"CCDI":"02", "Nombre":"ACOBAMBILLA"},
+                        {"CCDI":"03", "Nombre":"ACORIA"},
+                        {"CCDI":"04", "Nombre":"CONAYCA"},
+                        {"CCDI":"05", "Nombre":"CUENCA"},
+                        {"CCDI":"06", "Nombre":"HUACHOCOLPA"},
+                        {"CCDI":"07", "Nombre":"HUAYLLAHUARA"},
+                        {"CCDI":"08", "Nombre":"IZCUCHACA"},
+                        {"CCDI":"09", "Nombre":"LARIA"},
+                        {"CCDI":"10", "Nombre":"MANTA"},
+                        {"CCDI":"11", "Nombre":"MARISCAL CACERES"},
+                        {"CCDI":"12", "Nombre":"MOYA"},
+                        {"CCDI":"13", "Nombre":"NUEVO OCCORO"},
+                        {"CCDI":"14", "Nombre":"PALCA"},
+                        {"CCDI":"15", "Nombre":"PILCHACA"},
+                        {"CCDI":"16", "Nombre":"VILCA"},
+                        {"CCDI":"17", "Nombre":"YAULI"},
+                        {"CCDI":"18", "Nombre":"ASCENSION"},
+                        {"CCDI":"19", "Nombre":"HUANDO"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"ACOBAMBA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ACOBAMBA"},
+                        {"CCDI":"02", "Nombre":"ANDABAMBA"},
+                        {"CCDI":"03", "Nombre":"ANTA"},
+                        {"CCDI":"04", "Nombre":"CAJA"},
+                        {"CCDI":"05", "Nombre":"MARCAS"},
+                        {"CCDI":"06", "Nombre":"PAUCARA"},
+                        {"CCDI":"07", "Nombre":"POMACOCHA"},
+                        {"CCDI":"08", "Nombre":"ROSARIO"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"ANGARAES",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"LIRCAY"},
+                        {"CCDI":"02", "Nombre":"ANCHONGA"},
+                        {"CCDI":"03", "Nombre":"CALLANMARCA"},
+                        {"CCDI":"04", "Nombre":"CCOHACCASA"},
+                        {"CCDI":"05", "Nombre":"CHINCHO"},
+                        {"CCDI":"06", "Nombre":"CONGALLA"},
+                        {"CCDI":"07", "Nombre":"HUANCA-HUANCA"},
+                        {"CCDI":"08", "Nombre":"HUAYLLAY GRANDE"},
+                        {"CCDI":"09", "Nombre":"JULCAMARCA"},
+                        {"CCDI":"10", "Nombre":"SAN ANTONIO DE ANTAPARCO"},
+                        {"CCDI":"11", "Nombre":"SANTO TOMAS DE PATA"},
+                        {"CCDI":"12", "Nombre":"SECCLA"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"CASTROVIRREYNA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CASTROVIRREYNA"},
+                        {"CCDI":"02", "Nombre":"ARMA"},
+                        {"CCDI":"03", "Nombre":"AURAHUA"},
+                        {"CCDI":"04", "Nombre":"CAPILLAS"},
+                        {"CCDI":"05", "Nombre":"CHUPAMARCA"},
+                        {"CCDI":"06", "Nombre":"COCAS"},
+                        {"CCDI":"07", "Nombre":"HUACHOS"},
+                        {"CCDI":"08", "Nombre":"HUAMATAMBO"},
+                        {"CCDI":"09", "Nombre":"MOLLEPAMPA"},
+                        {"CCDI":"10", "Nombre":"SAN JUAN"},
+                        {"CCDI":"11", "Nombre":"SANTA ANA"},
+                        {"CCDI":"12", "Nombre":"TANTARA"},
+                        {"CCDI":"13", "Nombre":"TICRAPO"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"CHURCAMPA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHURCAMPA"},
+                        {"CCDI":"02", "Nombre":"ANCO"},
+                        {"CCDI":"03", "Nombre":"CHINCHIHUASI"},
+                        {"CCDI":"04", "Nombre":"EL CARMEN"},
+                        {"CCDI":"05", "Nombre":"LA MERCED"},
+                        {"CCDI":"06", "Nombre":"LOCROJA"},
+                        {"CCDI":"07", "Nombre":"PAUCARBAMBA"},
+                        {"CCDI":"08", "Nombre":"SAN MIGUEL DE MAYOCC"},
+                        {"CCDI":"09", "Nombre":"SAN PEDRO DE CORIS"},
+                        {"CCDI":"10", "Nombre":"PACHAMARCA"},
+                        {"CCDI":"11", "Nombre":"COSME"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"HUAYTARA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUAYTARA"},
+                        {"CCDI":"02", "Nombre":"AYAVI"},
+                        {"CCDI":"03", "Nombre":"CORDOVA"},
+                        {"CCDI":"04", "Nombre":"HUAYACUNDO ARMA"},
+                        {"CCDI":"05", "Nombre":"LARAMARCA"},
+                        {"CCDI":"06", "Nombre":"OCOYO"},
+                        {"CCDI":"07", "Nombre":"PILPICHACA"},
+                        {"CCDI":"08", "Nombre":"QUERCO"},
+                        {"CCDI":"09", "Nombre":"QUITO-ARMA"},
+                        {"CCDI":"10", "Nombre":"SAN ANTONIO DE CUSICANCHA"},
+                        {"CCDI":"11", "Nombre":"SAN FRANCISCO DE SANGAYAICO"},
+                        {"CCDI":"12", "Nombre":"SAN ISIDRO"},
+                        {"CCDI":"13", "Nombre":"SANTIAGO DE CHOCORVOS"},
+                        {"CCDI":"14", "Nombre":"SANTIAGO DE QUIRAHUARA"},
+                        {"CCDI":"15", "Nombre":"SANTO DOMINGO DE CAPILLAS"},
+                        {"CCDI":"16", "Nombre":"TAMBO"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"TAYACAJA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PAMPAS"},
+                        {"CCDI":"02", "Nombre":"ACOSTAMBO"},
+                        {"CCDI":"03", "Nombre":"ACRAQUIA"},
+                        {"CCDI":"04", "Nombre":"AHUAYCHA"},
+                        {"CCDI":"05", "Nombre":"COLCABAMBA"},
+                        {"CCDI":"06", "Nombre":"DANIEL HERNANADEZ"},
+                        {"CCDI":"07", "Nombre":"HUACHOCOLPA"},
+                        {"CCDI":"09", "Nombre":"HUARIBAMBA"},
+                        {"CCDI":"10", "Nombre":"NAHUMPUQUIO"},
+                        {"CCDI":"11", "Nombre":"PAZOS"},
+                        {"CCDI":"13", "Nombre":"QUISHUAR"},
+                        {"CCDI":"14", "Nombre":"SALCABAMBA"},
+                        {"CCDI":"15", "Nombre":"SALCAHUASI"},
+                        {"CCDI":"16", "Nombre":"SAN MARCOS DE ROCCHAC"},
+                        {"CCDI":"17", "Nombre":"SURCUBAMBA"},
+                        {"CCDI":"18", "Nombre":"TINTAY PUNCU"}
+                    ]
+                }
+            ]
+        },
+        {   "CCDD":"10", "Nombre":"HUANUCO",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"HUANUCO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUANUCO"},
+                        {"CCDI":"02", "Nombre":"AMARILIS"},
+                        {"CCDI":"03", "Nombre":"CHINCHAO"},
+                        {"CCDI":"04", "Nombre":"CHURUBAMBA"},
+                        {"CCDI":"05", "Nombre":"MARGOS"},
+                        {"CCDI":"06", "Nombre":"QUISQUI"},
+                        {"CCDI":"07", "Nombre":"SAN FRANCISCO DE CAYRAN"},
+                        {"CCDI":"08", "Nombre":"SAN PEDRO DE CHAULAN"},
+                        {"CCDI":"09", "Nombre":"SANTA MARIA DEL VALLE"},
+                        {"CCDI":"10", "Nombre":"YARUMAYO"},
+                        {"CCDI":"11", "Nombre":"PILLCO MARCA"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"AMBO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"AMBO"},
+                        {"CCDI":"02", "Nombre":"CAYNA"},
+                        {"CCDI":"03", "Nombre":"COLPAS"},
+                        {"CCDI":"04", "Nombre":"CONCHAMARCA"},
+                        {"CCDI":"05", "Nombre":"HUACAR"},
+                        {"CCDI":"06", "Nombre":"SAN FRANCISCO"},
+                        {"CCDI":"07", "Nombre":"SAN RAFAEL"},
+                        {"CCDI":"08", "Nombre":"TOMAY KICHWA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"DOS DE MAYO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"LA UNION"},
+                        {"CCDI":"07", "Nombre":"CHUQUIS"},
+                        {"CCDI":"11", "Nombre":"MARIAS"},
+                        {"CCDI":"13", "Nombre":"PACHAS"},
+                        {"CCDI":"16", "Nombre":"QUIVILLA"},
+                        {"CCDI":"17", "Nombre":"RIPAN"},
+                        {"CCDI":"21", "Nombre":"SHUNQUI"},
+                        {"CCDI":"22", "Nombre":"SILLAPATA"},
+                        {"CCDI":"23", "Nombre":"YANAS"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"HUACAYBAMBA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUACAYBAMBA"},
+                        {"CCDI":"07", "Nombre":"CANCHABAMBA"},
+                        {"CCDI":"11", "Nombre":"COCHABAMBA"},
+                        {"CCDI":"13", "Nombre":"PINRA"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"HUAMALIES",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"LLATA"},
+                        {"CCDI":"02", "Nombre":"ARANCAY"},
+                        {"CCDI":"03", "Nombre":"CHAVIN DE PARIARCA"},
+                        {"CCDI":"04", "Nombre":"JACAS GRANDE"},
+                        {"CCDI":"05", "Nombre":"JIRCAN"},
+                        {"CCDI":"06", "Nombre":"MIRAFLORES"},
+                        {"CCDI":"07", "Nombre":"MONZON"},
+                        {"CCDI":"08", "Nombre":"PUNCHAO"},
+                        {"CCDI":"09", "Nombre":"PUNOS"},
+                        {"CCDI":"10", "Nombre":"SINGA"},
+                        {"CCDI":"11", "Nombre":"TANTAMAYO"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"LEONCIO PRADO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"RUPA-RUPA"},
+                        {"CCDI":"02", "Nombre":"DANIEL ALOMIAS ROBLES"},
+                        {"CCDI":"03", "Nombre":"HERMILIO VALDIZAN"},
+                        {"CCDI":"04", "Nombre":"JOSE CRESPO Y CASTILLO"},
+                        {"CCDI":"05", "Nombre":"LUYANDO"},
+                        {"CCDI":"06", "Nombre":"MARIANO DAMASO BERAUN"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"MARAÑON",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUACRACHUCO"},
+                        {"CCDI":"02", "Nombre":"CHOLON"},
+                        {"CCDI":"03", "Nombre":"SAN BUENAVENTURA"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"PACHITEA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PANAO"},
+                        {"CCDI":"02", "Nombre":"CHAGLLA"},
+                        {"CCDI":"03", "Nombre":"MOLINO"},
+                        {"CCDI":"04", "Nombre":"UMARI"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"PUERTO INCA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PUERTO INCA"},
+                        {"CCDI":"02", "Nombre":"CODO DEL POZUZO"},
+                        {"CCDI":"03", "Nombre":"HONORIA"},
+                        {"CCDI":"04", "Nombre":"TOURNAVISTA"},
+                        {"CCDI":"05", "Nombre":"YAYAPICHIS"}
+                    ]
+                },
+                {   "CCPP":"10", "Nombre":"LAURICOCHA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JESUS"},
+                        {"CCDI":"02", "Nombre":"BAÑOS"},
+                        {"CCDI":"03", "Nombre":"JIVIA"},
+                        {"CCDI":"04", "Nombre":"QUEROPALCA"},
+                        {"CCDI":"05", "Nombre":"RONDOS"},
+                        {"CCDI":"06", "Nombre":"SAN FRANCISCO DE ASIS"},
+                        {"CCDI":"07", "Nombre":"SAN MIGUEL DE CAURI"}
+                    ]
+                },
+                {   "CCPP":"11", "Nombre":"YAROWILCA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHAVINILLO"},
+                        {"CCDI":"02", "Nombre":"CAHUAC"},
+                        {"CCDI":"03", "Nombre":"CHACABAMBA"},
+                        {"CCDI":"04", "Nombre":"APARICIO POMARES"},
+                        {"CCDI":"05", "Nombre":"JACAS CHICO"},
+                        {"CCDI":"06", "Nombre":"OBAS"},
+                        {"CCDI":"07", "Nombre":"PAMPAMARCA"},
+                        {"CCDI":"08", "Nombre":"CHORAS"}
+                    ]
+                }                       
+            ]   
+        },
+		{	"CCDD":"11", "Nombre":"ICA",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01","Nombre":"ICA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"ICA"},
+        				{"CCDI":"02", "Nombre":"LA TINGUIÑA"},
+        				{"CCDI":"03", "Nombre":"LOS AQUIJES"},
+        				{"CCDI":"04", "Nombre":"OCUCAJE"},
+        				{"CCDI":"05", "Nombre":"PACHACUTEC"},
+        				{"CCDI":"06", "Nombre":"PARCONA"},
+        				{"CCDI":"07", "Nombre":"PUEBLO NUEVO"},
+            				{"CCDI":"08", "Nombre":"SALAS"},
+        				{"CCDI":"09", "Nombre":"SAN JOSE DE LOS MOLINOS"},
+        				{"CCDI":"10", "Nombre":"SAN JUAN BAUTISTA"},
+        				{"CCDI":"11", "Nombre":"SANTIAGO"},
+        				{"CCDI":"12", "Nombre":"SUBTANJALLA"},
+        				{"CCDI":"13", "Nombre":"TATE"},
+        				{"CCDI":"14", "Nombre":"YAUCA DEL ROSARIO"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"CHINCHA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHINCHA ALTA"},
+        				{"CCDI":"02", "Nombre":"ALTO LARAN"},
+        				{"CCDI":"03", "Nombre":"CHAVIN"},
+        				{"CCDI":"04", "Nombre":"CHINCHA BAJA"},
+        				{"CCDI":"05", "Nombre":"EL CARMEN"},
+        				{"CCDI":"06", "Nombre":"GROCIO PRADO"},
+        				{"CCDI":"07", "Nombre":"PUEBLO NUEVO"},
+        				{"CCDI":"08", "Nombre":"SAN JUAN DE YANAC"},
+        				{"CCDI":"09", "Nombre":"SAM PEDRO DE HUACARPANA"},
+        				{"CCDI":"10", "Nombre":"SUNAMPE"},
+        				{"CCDI":"11", "Nombre":"TANBO DE MORA"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"NAZCA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"NAZCA"},
+        				{"CCDI":"02", "Nombre":"CHANGUILLO"},
+        				{"CCDI":"03", "Nombre":"EL INGENIO"},
+        				{"CCDI":"04", "Nombre":"MARCONA"},
+        				{"CCDI":"05", "Nombre":"VISTA ALEGRE"}
+        			]
+        		},
+        		{ 	"CCPP":"04","Nombre":"PALPA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"PALPA"},
+        				{"CCDI":"02", "Nombre":"LLIPATA"},
+        				{"CCDI":"03", "Nombre":"RIO GRANDE"},
+        				{"CCDI":"04", "Nombre":"SANTA CRUZ"},
+        				{"CCDI":"05", "Nombre":"TIBILLO"}
+        			]
+        		},
+        		{ 	"CCPP":"05","Nombre":"PISCO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"PISCO"},
+        				{"CCDI":"02", "Nombre":"HUANCANO"},
+        				{"CCDI":"03", "Nombre":"HUMAY"},
+        				{"CCDI":"04", "Nombre":"INDEPENDENCIA"},
+        				{"CCDI":"05", "Nombre":"PARACAS"},
+        				{"CCDI":"06", "Nombre":"SAN ANDRES"},
+        				{"CCDI":"07", "Nombre":"SAN CLEMENTE"},
+        				{"CCDI":"08", "Nombre":"TUPAC AMARU INCA"}
+        			]
+        		}
+			]
+		},
+        {   "CCDD":"12", "Nombre":"JUNIN",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"HUANCAYO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUANCAYO"},
+                        {"CCDI":"04", "Nombre":"CARHUACALLANGA"},
+                        {"CCDI":"05", "Nombre":"CHACAPAMPA"},
+                        {"CCDI":"06", "Nombre":"CHICCHE"},
+                        {"CCDI":"07", "Nombre":"CHILCA"},
+                        {"CCDI":"08", "Nombre":"CHONGOS ALTO"},
+                        {"CCDI":"11", "Nombre":"CHUPURO"},
+                        {"CCDI":"12", "Nombre":"COLCA"},
+                        {"CCDI":"13", "Nombre":"CULLHUAS"},
+                        {"CCDI":"14", "Nombre":"EL TAMBO"},
+                        {"CCDI":"16", "Nombre":"HUACRAPUQUIO"},
+                        {"CCDI":"17", "Nombre":"HUALHUAS"},
+                        {"CCDI":"19", "Nombre":"HUANCAN"},
+                        {"CCDI":"20", "Nombre":"HUASICANCHA"},
+                        {"CCDI":"21", "Nombre":"HUAYUCACHI"},
+                        {"CCDI":"22", "Nombre":"INGENIO"},
+                        {"CCDI":"24", "Nombre":"PARIAHUANCA"},
+                        {"CCDI":"25", "Nombre":"PILCOMAYO"},
+                        {"CCDI":"26", "Nombre":"PUCARA"},
+                        {"CCDI":"27", "Nombre":"QUICHUAY"},
+                        {"CCDI":"28", "Nombre":"QUILCAS"},
+                        {"CCDI":"29", "Nombre":"SAN AGUSTIN"},
+                        {"CCDI":"30", "Nombre":"SAN JERONIMO DE TUNAN"},
+                        {"CCDI":"32", "Nombre":"SANO"},
+                        {"CCDI":"33", "Nombre":"SAPALLANGA"},
+                        {"CCDI":"34", "Nombre":"SICAYA"},
+                        {"CCDI":"35", "Nombre":"SANTO DOMINGO DE ACOBAMBA"},
+                        {"CCDI":"36", "Nombre":"VIQUES"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"CONCEPCION",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CONCEPCION"},
+                        {"CCDI":"02", "Nombre":"ACO"},
+                        {"CCDI":"03", "Nombre":"ANDAMARCA"},
+                        {"CCDI":"04", "Nombre":"CHAMBARA"},
+                        {"CCDI":"05", "Nombre":"COCHAS"},
+                        {"CCDI":"06", "Nombre":"COMAS"},
+                        {"CCDI":"07", "Nombre":"HEROINAS TOLEDO"},
+                        {"CCDI":"08", "Nombre":"MANZANARES"},
+                        {"CCDI":"09", "Nombre":"MARISCAL CASTILLA"},
+                        {"CCDI":"10", "Nombre":"MATAHUASI"},
+                        {"CCDI":"11", "Nombre":"MITO"},
+                        {"CCDI":"12", "Nombre":"NUEVE DE JULIO"},
+                        {"CCDI":"13", "Nombre":"ORCOTUNA"},
+                        {"CCDI":"14", "Nombre":"SAN JOSE DE QUERO"},
+                        {"CCDI":"15", "Nombre":"SANTA ROSA DE OCOPA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"CHANCHAMAYO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHANCHAMAYO"},
+                        {"CCDI":"02", "Nombre":"PERENE"},
+                        {"CCDI":"03", "Nombre":"PICHANAQUI"},
+                        {"CCDI":"04", "Nombre":"SAN LUIS DE SHUARO"},
+                        {"CCDI":"05", "Nombre":"SAN RAMON"},
+                        {"CCDI":"06", "Nombre":"VITOC"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"JAUJA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JAUJA"},
+                        {"CCDI":"02", "Nombre":"ACOLLA"},
+                        {"CCDI":"03", "Nombre":"APATA"},
+                        {"CCDI":"04", "Nombre":"ATAURA"},
+                        {"CCDI":"05", "Nombre":"CANCHAYLLO"},
+                        {"CCDI":"06", "Nombre":"CURICACA"},
+                        {"CCDI":"07", "Nombre":"EL MANTARO"},
+                        {"CCDI":"08", "Nombre":"HUAMALI"},
+                        {"CCDI":"09", "Nombre":"HUARIPAMPA"},
+                        {"CCDI":"10", "Nombre":"HUERTAS"},
+                        {"CCDI":"11", "Nombre":"JANJAILLO"},
+                        {"CCDI":"12", "Nombre":"JULCAN"},
+                        {"CCDI":"13", "Nombre":"LEONOR ORDONEZ"},
+                        {"CCDI":"14", "Nombre":"LLOCLLAPAMPA"},
+                        {"CCDI":"15", "Nombre":"MARCO"},
+                        {"CCDI":"16", "Nombre":"MASMA"},
+                        {"CCDI":"17", "Nombre":"MASMA CHICCE"},
+                        {"CCDI":"18", "Nombre":"MOLINOS"},
+                        {"CCDI":"19", "Nombre":"MONOBAMBA"},
+                        {"CCDI":"20", "Nombre":"MUQUI"},
+                        {"CCDI":"21", "Nombre":"MUQUIYAUYO"},
+                        {"CCDI":"22", "Nombre":"PACA"},
+                        {"CCDI":"23", "Nombre":"PACCHA"},
+                        {"CCDI":"24", "Nombre":"PANCAN"},
+                        {"CCDI":"25", "Nombre":"PARCO"},
+                        {"CCDI":"26", "Nombre":"POMACANCHA"},
+                        {"CCDI":"27", "Nombre":"RICRAN"},
+                        {"CCDI":"28", "Nombre":"SAN LORENZO"},
+                        {"CCDI":"29", "Nombre":"SAN PEDRO DE CHUNAN"},
+                        {"CCDI":"30", "Nombre":"SAUSA"},
+                        {"CCDI":"31", "Nombre":"SINCOS"},
+                        {"CCDI":"32", "Nombre":"TUNAN MARCA"},
+                        {"CCDI":"33", "Nombre":"YAULI"},
+                        {"CCDI":"34", "Nombre":"YAUYOS"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"JUNIN",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JUNIN"},
+                        {"CCDI":"02", "Nombre":"CARHUAMAYO"},
+                        {"CCDI":"03", "Nombre":"ONDORES"},
+                        {"CCDI":"04", "Nombre":"ULCUMAYO"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"SATIPO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SATIPO"},
+                        {"CCDI":"02", "Nombre":"COVIRIALI"},
+                        {"CCDI":"03", "Nombre":"LLAYLLA"},
+                        {"CCDI":"04", "Nombre":"MAZAMARI"},
+                        {"CCDI":"05", "Nombre":"PAMPA HERMOSA"},
+                        {"CCDI":"06", "Nombre":"PANGOA"},
+                        {"CCDI":"07", "Nombre":"RIO NEGRO"},
+                        {"CCDI":"08", "Nombre":"RIO TAMBO"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"TARMA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"TARMA"},
+                        {"CCDI":"02", "Nombre":"ACOBAMBA"},
+                        {"CCDI":"03", "Nombre":"HUARICOLCA"},
+                        {"CCDI":"04", "Nombre":"HUASAHUASI"},
+                        {"CCDI":"05", "Nombre":"LA UNION"},
+                        {"CCDI":"06", "Nombre":"PALCA"},
+                        {"CCDI":"07", "Nombre":"PALCAMAYO"},
+                        {"CCDI":"08", "Nombre":"SAN PEDERO DE CAJAS"},
+                        {"CCDI":"09", "Nombre":"TAPO"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"YAULI",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"LA OROYA"},
+                        {"CCDI":"02", "Nombre":"CHACAPALPA"},
+                        {"CCDI":"03", "Nombre":"HUAY-HUAY"},
+                        {"CCDI":"04", "Nombre":"MARCAPOMACOCHA"},
+                        {"CCDI":"05", "Nombre":"MOROCOHA"},
+                        {"CCDI":"06", "Nombre":"PACCHA"},
+                        {"CCDI":"07", "Nombre":"SANTA BARBARA DE CARHUACAYAN"},
+                        {"CCDI":"08", "Nombre":"SANTA ROSA DE SACCO"},
+                        {"CCDI":"09", "Nombre":"SUITUCANCHA"},
+                        {"CCDI":"10", "Nombre":"YAULI"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"CHUPACA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHUPACA"},
+                        {"CCDI":"02", "Nombre":"AHUAC"},
+                        {"CCDI":"03", "Nombre":"CHONGOS BAJO"},
+                        {"CCDI":"04", "Nombre":"HUACHAC"},
+                        {"CCDI":"05", "Nombre":"HUAMANCACA CHICO"},
+                        {"CCDI":"06", "Nombre":"SAN JUAN DE YSCOS"},
+                        {"CCDI":"07", "Nombre":"SAN JUAN DE JARPA"},
+                        {"CCDI":"08", "Nombre":"TRES DE DICIEMBRE"},
+                        {"CCDI":"09", "Nombre":"YANACANCHA"}
+                    ]
+                }
+            ]
+        },
+		{	"CCDD":"13", "Nombre":"LA LIBERTAD",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01","Nombre":"TRUJILLO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"TRUJILLO"},
+        				{"CCDI":"02", "Nombre":"EL PORVENIR"},
+        				{"CCDI":"03", "Nombre":"FLORENCIA DE MORA"},
+        				{"CCDI":"04", "Nombre":"HUANCHACO"},
+        				{"CCDI":"05", "Nombre":"LA ESPERANZA"},
+        				{"CCDI":"06", "Nombre":"LAREDO"},
+        				{"CCDI":"07", "Nombre":"MOCHE"},
+        				{"CCDI":"08", "Nombre":"POROTO"},
+        				{"CCDI":"09", "Nombre":"SALAVERRY"},
+        				{"CCDI":"10", "Nombre":"SIMBAL"},
+        				{"CCDI":"11", "Nombre":"VICTOR LARCO HERRERA"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"ASCOPE",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"ASCOPE"},
+        				{"CCDI":"02", "Nombre":"CHICAMA"},
+        				{"CCDI":"03", "Nombre":"CHOCOPE"},
+        				{"CCDI":"04", "Nombre":"MAGDALENA DE CAO"},
+        				{"CCDI":"05", "Nombre":"PAIJAN"},
+        				{"CCDI":"06", "Nombre":"RAZURI"},
+        				{"CCDI":"07", "Nombre":"SANTIAGO DE CAO"},
+        				{"CCDI":"08", "Nombre":"CASA GRANDE"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"BOLIVAR",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"BOLIVAR"},
+        				{"CCDI":"02", "Nombre":"BAMBAMARCA"},
+        				{"CCDI":"03", "Nombre":"CONDORMARCA"},
+        				{"CCDI":"04", "Nombre":"LONGOTEA"},
+        				{"CCDI":"05", "Nombre":"UCHUMARCA"},
+        				{"CCDI":"06", "Nombre":"UCUNCHA"}
+        			]
+        		},
+        		{ 	"CCPP":"04","Nombre":"CHEPEN",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHEPEN"},
+        				{"CCDI":"02", "Nombre":"PACANGA"},
+        				{"CCDI":"03", "Nombre":"PUEBLO NUEVO"}
+        			]
+        		},
+        		{ 	"CCPP":"05","Nombre":"JULCAN",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"JULCAN"},
+        				{"CCDI":"02", "Nombre":"CALAMARCA"},
+        				{"CCDI":"03", "Nombre":"CARABAMBA"},
+        				{"CCDI":"04", "Nombre":"HUASO"}
+        			]
+        		},
+        		{ 	"CCPP":"06","Nombre":"OTUZCO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"OTUZCO"},
+        				{"CCDI":"02", "Nombre":"AGALLPAMPA"},
+        				{"CCDI":"04", "Nombre":"CHARAT"},
+        				{"CCDI":"05", "Nombre":"HUARANCHAL"},
+        				{"CCDI":"06", "Nombre":"LA CUESTA"},
+        				{"CCDI":"08", "Nombre":"MACHE"},
+        				{"CCDI":"10", "Nombre":"PARANDAY"},
+        				{"CCDI":"11", "Nombre":"SALPO"},
+        				{"CCDI":"13", "Nombre":"SINSICAP"},
+        				{"CCDI":"14", "Nombre":"USQUIL"}
+        			]
+        		},
+        		{ 	"CCPP":"07","Nombre":"PACASMAYO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"SAN PEDRO DE LLOC"},
+        				{"CCDI":"02", "Nombre":"GUADALUPE"},
+        				{"CCDI":"03", "Nombre":"JEQUETEPEQUE"},
+        				{"CCDI":"04", "Nombre":"PACASMAYO"},
+        				{"CCDI":"05", "Nombre":"SAN JOSE"}
+        			]
+        		},
+        		{ 	"CCPP":"08","Nombre":"PATAZ",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"TAYABAMBA"},
+        				{"CCDI":"02", "Nombre":"BULDIBUYO"},
+        				{"CCDI":"03", "Nombre":"CHILLIA"},
+        				{"CCDI":"04", "Nombre":"HUANCASPATA"},
+        				{"CCDI":"05", "Nombre":"HAYLILLAS"},
+        				{"CCDI":"06", "Nombre":"HUAYO"},
+        				{"CCDI":"07", "Nombre":"ONGON"},
+        				{"CCDI":"08", "Nombre":"PARCOY"},
+        				{"CCDI":"09", "Nombre":"PATAZ"},
+        				{"CCDI":"10", "Nombre":"PIAS"},
+        				{"CCDI":"11", "Nombre":"SANTIAGO DE CHALLAS"},
+        				{"CCDI":"12", "Nombre":"TAURIJA"},
+        				{"CCDI":"13", "Nombre":"URPAY"}
+        			]
+        		},
+        		{ 	"CCPP":"09","Nombre":"SANCHEZ CARRION",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"HUAMACHUCO"},
+        				{"CCDI":"02", "Nombre":"CHUGAY"},
+        				{"CCDI":"03", "Nombre":"COCHORCO"},
+        				{"CCDI":"04", "Nombre":"CURGOS"},
+        				{"CCDI":"05", "Nombre":"MARCABAL"},
+        				{"CCDI":"06", "Nombre":"SANAGORAN"},
+        				{"CCDI":"07", "Nombre":"SARIN"},
+        				{"CCDI":"08", "Nombre":"SARTIMBAMBA"}
+        			]
+        		},
+        		{ 	"CCPP":"10","Nombre":"SANTIAGO DE CHUCO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"SANTIAGO DE CHUCO"},
+        				{"CCDI":"02", "Nombre":"ANGASMARCA"},
+        				{"CCDI":"03", "Nombre":"CACHICADAN"},
+        				{"CCDI":"04", "Nombre":"MOLLEBAMBA"},
+        				{"CCDI":"05", "Nombre":"MOLLEPATA"},
+        				{"CCDI":"06", "Nombre":"QUIRUVILCA"},
+        				{"CCDI":"07", "Nombre":"SANTA CRUZ DE CHUCA"},
+        				{"CCDI":"08", "Nombre":"SITABAMBA"}
+        			]
+        		},
+        		{ 	"CCPP":"11","Nombre":"GRAN CHIMU",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CASCAS"},
+        				{"CCDI":"02", "Nombre":"LUCMA"},
+        				{"CCDI":"03", "Nombre":"MARMOT"},
+        				{"CCDI":"04", "Nombre":"SAYAPULLO"}
+        			]
+        		},
+        		{ 	"CCPP":"12","Nombre":"VIRU",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"VIRU"},
+        				{"CCDI":"02", "Nombre":"CHAO"},
+        				{"CCDI":"03", "Nombre":"GUADALUPITO"}
+        			]
+        		}				
+			]
+		},
+		{	"CCDD":"14", "Nombre":"LAMBAYEQUE",
+			"PROVINCIA":
+			[
+				{ 	"CCPP":"01","Nombre":"CHICLAYO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHICLAYO"},
+        				{"CCDI":"02", "Nombre":"CHONGOYAPE"},
+        				{"CCDI":"03", "Nombre":"ETEN"},
+        				{"CCDI":"04", "Nombre":"ETEN PUERTO"},
+        				{"CCDI":"05", "Nombre":"JOSE LEONARDO ORTIZ"},
+        				{"CCDI":"06", "Nombre":"LA VICTORIA"},
+        				{"CCDI":"07", "Nombre":"LAGUNAS"},
+        				{"CCDI":"08", "Nombre":"MONSEFU"},
+        				{"CCDI":"09", "Nombre":"NUEVA ARICA"},
+        				{"CCDI":"10", "Nombre":"OYOTUN"},
+        				{"CCDI":"11", "Nombre":"PICSI"},
+        				{"CCDI":"12", "Nombre":"PIMENTEL"},
+        				{"CCDI":"13", "Nombre":"REQUE"},
+        				{"CCDI":"14", "Nombre":"SANTA ROSA"},
+        				{"CCDI":"15", "Nombre":"SANA"},
+        				{"CCDI":"16", "Nombre":"CAYALTI"},
+        				{"CCDI":"17", "Nombre":"PATAPO"},
+        				{"CCDI":"18", "Nombre":"POMALCA"},
+        				{"CCDI":"19", "Nombre":"PUCALA"},
+        				{"CCDI":"20", "Nombre":"TUMAN"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"FERREÑAFE",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"FERREÑAFE"},
+        				{"CCDI":"02", "Nombre":"CAÑARIS"},
+        				{"CCDI":"03", "Nombre":"INCAHUASI"},
+        				{"CCDI":"04", "Nombre":"MANUEL ANTONIO MESONES MURO"},
+        				{"CCDI":"05", "Nombre":"PITIPO"},
+        				{"CCDI":"06", "Nombre":"PUEBLO NUEVO"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"LAMBAYEQUE",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"LAMBAYEQUE"},
+        				{"CCDI":"02", "Nombre":"CHOCHOPE"},
+        				{"CCDI":"03", "Nombre":"ILLIMO"},
+        				{"CCDI":"04", "Nombre":"JAYANCA"},
+        				{"CCDI":"05", "Nombre":"MOCHUMI"},
+        				{"CCDI":"06", "Nombre":"MORROPE"},
+        				{"CCDI":"07", "Nombre":"MOTUPE"},
+        				{"CCDI":"08", "Nombre":"OLMOS"},
+        				{"CCDI":"09", "Nombre":"PACORA"},
+        				{"CCDI":"10", "Nombre":"SALAS"},
+        				{"CCDI":"11", "Nombre":"SAN JOSE"},
+        				{"CCDI":"12", "Nombre":"TUCUME"}
+        			]
+        		}
+			]
+		},
+        {   "CCDD":"15", "Nombre":"LIMA",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01","Nombre":"LIMA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"LIMA"},
+                        {"CCDI":"02", "Nombre":"ANCON"},
+                        {"CCDI":"03", "Nombre":"ATE"},
+                        {"CCDI":"04", "Nombre":"BARRANCO"},
+                        {"CCDI":"05", "Nombre":"BREÑA"},
+                        {"CCDI":"06", "Nombre":"CARABAYLLO"},
+                        {"CCDI":"07", "Nombre":"CHACLACAYO"},
+                        {"CCDI":"08", "Nombre":"CHORRILLOS"},
+                        {"CCDI":"09", "Nombre":"CIENEGUILLA"},
+                        {"CCDI":"10", "Nombre":"COMAS"},
+                        {"CCDI":"11", "Nombre":"EL AGUSTINO"},
+                        {"CCDI":"12", "Nombre":"INDEPENDENCIA"},
+                        {"CCDI":"13", "Nombre":"JESUS MARIA"},
+                        {"CCDI":"14", "Nombre":"LA MOLINA"},
+                        {"CCDI":"15", "Nombre":"LA VICTORIA"},
+                        {"CCDI":"16", "Nombre":"LINCE"},
+                        {"CCDI":"17", "Nombre":"LOS OLIVOS"},
+                        {"CCDI":"18", "Nombre":"LURIGANCHO"},
+                        {"CCDI":"19", "Nombre":"LURIN"},
+                        {"CCDI":"20", "Nombre":"MAGDALENA DEL MAR"},
+                        {"CCDI":"21", "Nombre":"MAGDALENA VIEJA - PUEBLO LIBRE"},
+                        {"CCDI":"22", "Nombre":"MIRAFLORES"},
+                        {"CCDI":"23", "Nombre":"PACHACAMAC"},
+                        {"CCDI":"24", "Nombre":"PUCUSANA"},
+                        {"CCDI":"25", "Nombre":"PUENTE PIEDRA"},
+                        {"CCDI":"26", "Nombre":"PUNTA HERMOSA"},
+                        {"CCDI":"27", "Nombre":"PUNTA NEGRA"},
+                        {"CCDI":"28", "Nombre":"RIMAC"},
+                        {"CCDI":"29", "Nombre":"SAN BARTOLO"},
+                        {"CCDI":"30", "Nombre":"SAN BORJA"},
+                        {"CCDI":"31", "Nombre":"SAN ISIDRO"},
+                        {"CCDI":"32", "Nombre":"SAN JUAN DE LURIGANCHO"},
+                        {"CCDI":"33", "Nombre":"SAN JUAN DE MIRAFLORES"},
+                        {"CCDI":"34", "Nombre":"SAN LUIS"},
+                        {"CCDI":"35", "Nombre":"SAN MARTIN DE PORRES"},
+                        {"CCDI":"36", "Nombre":"SAN MIGUEL"},
+                        {"CCDI":"37", "Nombre":"SANTA ANITA"},
+                        {"CCDI":"38", "Nombre":"SANTA MARIA DEL MAR"},
+                        {"CCDI":"39", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"40", "Nombre":"SANTIAGO DE SURCO"},
+                        {"CCDI":"41", "Nombre":"SURQUILLO"},
+                        {"CCDI":"42", "Nombre":"VILLA EL SALVADOR"},
+                        {"CCDI":"43", "Nombre":"VILLA MARIA DEL TRIUNFO"}
+                    ]
+                },
+                {   "CCPP":"02","Nombre":"BARRANCA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"BARRANCA"},
+                        {"CCDI":"02", "Nombre":"PARAMONGA"},
+                        {"CCDI":"03", "Nombre":"PATIVILCA"},
+                        {"CCDI":"04", "Nombre":"SUPE"},
+                        {"CCDI":"05", "Nombre":"SUPE PUERTO"}
+                    ]
+                },
+                {   "CCPP":"03","Nombre":"CAJATAMBO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CAJATAMBO"},
+                        {"CCDI":"02", "Nombre":"COPA"},
+                        {"CCDI":"03", "Nombre":"GORGOR"},
+                        {"CCDI":"04", "Nombre":"HUANCAPON"},
+                        {"CCDI":"05", "Nombre":"MANAS"}
+                    ]
+                },
+                {   "CCPP":"04","Nombre":"CANTA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CANTA"},
+                        {"CCDI":"02", "Nombre":"ARAHUAY"},
+                        {"CCDI":"03", "Nombre":"HUAMANTANGA"},
+                        {"CCDI":"04", "Nombre":"HUAROS"},
+                        {"CCDI":"05", "Nombre":"LACHAQUI"},
+                        {"CCDI":"06", "Nombre":"SAN BUENAVENTURA"},
+                        {"CCDI":"07", "Nombre":"SANTA ROSA DE QUIVES"}
+                    ]
+                },
+                {   "CCPP":"05","Nombre":"CANETE",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SAN VICENTE DE CANETE"},
+                        {"CCDI":"02", "Nombre":"ASIA"},
+                        {"CCDI":"03", "Nombre":"CALANGO"},
+                        {"CCDI":"04", "Nombre":"CERRO AZUL"},
+                        {"CCDI":"05", "Nombre":"CHILCA"},
+                        {"CCDI":"06", "Nombre":"COAYLLO"},
+                        {"CCDI":"07", "Nombre":"IMPERIAL"},
+                        {"CCDI":"08", "Nombre":"LUNAHUANA"},
+                        {"CCDI":"09", "Nombre":"MALA"},
+                        {"CCDI":"10", "Nombre":"NUEVO IMPERIAL"},
+                        {"CCDI":"11", "Nombre":"PACARAN"},
+                        {"CCDI":"12", "Nombre":"QUILMANA"},
+                        {"CCDI":"13", "Nombre":"SAN ANTONIO"},
+                        {"CCDI":"14", "Nombre":"SAN LUIS"},
+                        {"CCDI":"15", "Nombre":"SANTA CRUZ DE FLORES"},
+                        {"CCDI":"16", "Nombre":"ZUNIGA"}
+                    ]
+                },
+                {   "CCPP":"06","Nombre":"HUARAL",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUARAL"},
+                        {"CCDI":"02", "Nombre":"ATAVILLOS ALTO"},
+                        {"CCDI":"03", "Nombre":"ATAVILLOS BAJO"},
+                        {"CCDI":"04", "Nombre":"AUCALLAMA"},
+                        {"CCDI":"05", "Nombre":"CHANCAY"},
+                        {"CCDI":"06", "Nombre":"IHUARI"},
+                        {"CCDI":"07", "Nombre":"LAMPIAN"},
+                        {"CCDI":"08", "Nombre":"PACARAOS"},
+                        {"CCDI":"09", "Nombre":"SAN MIGUEL DE ACOS"},
+                        {"CCDI":"10", "Nombre":"SANTA CRUZ DE ANDAMARCA"},
+                        {"CCDI":"11", "Nombre":"SUMBILCA"},
+                        {"CCDI":"12", "Nombre":"VEINTISIETE DE NOVIEMBRE"}
+                    ]
+                },
+                {   "CCPP":"07","Nombre":"HUAROCHIRI",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"MATUCANA"},
+                        {"CCDI":"02", "Nombre":"ANTIOQUIA"},
+                        {"CCDI":"03", "Nombre":"CALLAHUANCA"},
+                        {"CCDI":"04", "Nombre":"CARAMPOMA"},
+                        {"CCDI":"05", "Nombre":"CHICLA"},
+                        {"CCDI":"06", "Nombre":"CUENCA"},
+                        {"CCDI":"07", "Nombre":"HUACHUPAMPA"},
+                        {"CCDI":"08", "Nombre":"HUANZA"},
+                        {"CCDI":"09", "Nombre":"HUAROCHIRI"},
+                        {"CCDI":"10", "Nombre":"LAHUAYTAMBO"},
+                        {"CCDI":"11", "Nombre":"LANGA"},
+                        {"CCDI":"12", "Nombre":"LARAOS"},
+                        {"CCDI":"13", "Nombre":"MARIATANA"},
+                        {"CCDI":"14", "Nombre":"RICARDO PALMA"},
+                        {"CCDI":"15", "Nombre":"SAN ANDRES DE TUPICOCHA"},
+                        {"CCDI":"16", "Nombre":"SAN ANTONIO"},
+                        {"CCDI":"17", "Nombre":"SAN BARTOLOME"},
+                        {"CCDI":"18", "Nombre":"SAN DAMIAN"},
+                        {"CCDI":"19", "Nombre":"SAN JUAN DE IRIS"},
+                        {"CCDI":"20", "Nombre":"SAN JUAN DE TANTARANCHE"},
+                        {"CCDI":"21", "Nombre":"SAN LORENZO DE QUINTI"},
+                        {"CCDI":"22", "Nombre":"SAN MATEO"},
+                        {"CCDI":"23", "Nombre":"SAN MATEO DE OTAO"},
+                        {"CCDI":"24", "Nombre":"SAN PEDRO DE CASTA"},
+                        {"CCDI":"25", "Nombre":"SAN PEDRO DE HUANCAYRE"},
+                        {"CCDI":"26", "Nombre":"SANGALLAYA"},
+                        {"CCDI":"27", "Nombre":"SANTA CRUZ DE COCACHACRA"},
+                        {"CCDI":"28", "Nombre":"SANTA EULALIA"},
+                        {"CCDI":"29", "Nombre":"SANTIAGO DE ANCHUCAYA"},
+                        {"CCDI":"30", "Nombre":"SANTIAGO DE TUNA"},
+                        {"CCDI":"31", "Nombre":"SANTO DOMINGO DE LOS OLLEROS"},
+                        {"CCDI":"32", "Nombre":"SURCO"}
+                    ]
+                },
+                {   "CCPP":"08","Nombre":"HUAURA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUACHO"},
+                        {"CCDI":"02", "Nombre":"AMBAR"},
+                        {"CCDI":"03", "Nombre":"CALETA DE CARQUIN"},
+                        {"CCDI":"04", "Nombre":"CHECRAS"},
+                        {"CCDI":"05", "Nombre":"HUALMAY"},
+                        {"CCDI":"06", "Nombre":"HUAURA"},
+                        {"CCDI":"07", "Nombre":"LEONCIO PRADO"},
+                        {"CCDI":"08", "Nombre":"PACCHO"},
+                        {"CCDI":"09", "Nombre":"SANTA LEONOR"},
+                        {"CCDI":"10", "Nombre":"SANTA MARIA"},
+                        {"CCDI":"11", "Nombre":"SAYAN"},
+                        {"CCDI":"12", "Nombre":"VEGUETA"}
+                    ]
+                },
+                {   "CCPP":"09","Nombre":"OYON",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"OYON"},
+                        {"CCDI":"02", "Nombre":"ANDAJES"},
+                        {"CCDI":"03", "Nombre":"CAUJUL"},
+                        {"CCDI":"04", "Nombre":"COCHAMARCA"},
+                        {"CCDI":"05", "Nombre":"NAVAN"},
+                        {"CCDI":"06", "Nombre":"PACHANGARA"}
+                    ]
+                },
+                {   "CCPP":"10","Nombre":"YAUYOS",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"YAUYOS"},
+                        {"CCDI":"02", "Nombre":"ALIS"},
+                        {"CCDI":"03", "Nombre":"AYAUCA"},
+                        {"CCDI":"04", "Nombre":"AYAVIRI"},
+                        {"CCDI":"05", "Nombre":"AZANGARO"},
+                        {"CCDI":"06", "Nombre":"CACRA"},
+                        {"CCDI":"07", "Nombre":"CARANIA"},
+                        {"CCDI":"08", "Nombre":"CATAHUASI"},
+                        {"CCDI":"09", "Nombre":"CHOCOS"},
+                        {"CCDI":"10", "Nombre":"COCHAS"},
+                        {"CCDI":"11", "Nombre":"COLONIA"},
+                        {"CCDI":"12", "Nombre":"HONGOS"},
+                        {"CCDI":"13", "Nombre":"HUAMPARA"},
+                        {"CCDI":"14", "Nombre":"HUANCAYA"},
+                        {"CCDI":"15", "Nombre":"HUANGASCAR"},
+                        {"CCDI":"16", "Nombre":"HUANTAN"},
+                        {"CCDI":"17", "Nombre":"HUANEC"},
+                        {"CCDI":"18", "Nombre":"LARAOS"},
+                        {"CCDI":"19", "Nombre":"LINCHA"},
+                        {"CCDI":"20", "Nombre":"MADEAN"},
+                        {"CCDI":"21", "Nombre":"MIRAFLORES"},
+                        {"CCDI":"22", "Nombre":"OMAS"},
+                        {"CCDI":"23", "Nombre":"PUTINZA"},
+                        {"CCDI":"24", "Nombre":"QUINCHES"},
+                        {"CCDI":"25", "Nombre":"QUINOCAY"},
+                        {"CCDI":"26", "Nombre":"SAN JOAQUIN"},
+                        {"CCDI":"27", "Nombre":"SAN PEDRO DE PILAS"},
+                        {"CCDI":"28", "Nombre":"TANTA"},
+                        {"CCDI":"29", "Nombre":"TAURIPAMPA"},
+                        {"CCDI":"30", "Nombre":"TOMAS"},
+                        {"CCDI":"31", "Nombre":"TUPE"},
+                        {"CCDI":"32", "Nombre":"VIÑAC"},
+                        {"CCDI":"33", "Nombre":"VITIS"}
+                    ]
+                }
+            ]
+        },
+        {   "CCDD":"16", "Nombre":"LORETO",
+            "PROVINCIA":  
+            [
+                {   "CCPP":"01", "Nombre":"MAYNAS",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"IQUITOS"},
+                        {"CCDI":"02", "Nombre":"ALTO NANAY"},
+                        {"CCDI":"03", "Nombre":"INDIANA"},
+                        {"CCDI":"04", "Nombre":"LAS AMAZONAS"},
+                        {"CCDI":"06", "Nombre":"MAZAN"},
+                        {"CCDI":"07", "Nombre":"NAPO"},
+                        {"CCDI":"08", "Nombre":"PUNCHANA"}, 
+                        {"CCDI":"09", "Nombre":"PUTUMAYO"},
+                        {"CCDI":"10", "Nombre":"TORRES CAUSANAA"},
+                        {"CCDI":"12", "Nombre":"BELEN"},
+                        {"CCDI":"13", "Nombre":"SAN JUAN BAUTISTA"},
+                        {"CCDI":"14", "Nombre":"TENIENTE MANUEL CLAVERO"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"ALTO AMAZONAS",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"YURIMAGUAS"},
+                        {"CCDI":"02", "Nombre":"BALSAPUERTO"},
+                        {"CCDI":"05", "Nombre":"JEBEROS"},
+                        {"CCDI":"06", "Nombre":"LAGUNAS"},
+                        {"CCDI":"10", "Nombre":"SANTA CRUZ"},
+                        {"CCDI":"11", "Nombre":"TENIENTE CESAR LOPEZ ROJAS"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"LORETO",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"NAUTA"},
+                        {"CCDI":"02", "Nombre":"PARINARI"},
+                        {"CCDI":"03", "Nombre":"TIGRE"},
+                        {"CCDI":"05", "Nombre":"URARINAS"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"MARISCAL RAMON CASTILLA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"RAMON CASTILLA"},
+                        {"CCDI":"02", "Nombre":"PEBAS"},
+                        {"CCDI":"03", "Nombre":"YAVARI"},
+                        {"CCDI":"04", "Nombre":"SAN PABLO"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"REQUENA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"REQUENA"},
+                        {"CCDI":"02", "Nombre":"ALTO TAPICHE"},
+                        {"CCDI":"03", "Nombre":"CAPELO"},
+                        {"CCDI":"04", "Nombre":"EMILIO SAN MARTIN"},
+                        {"CCDI":"05", "Nombre":"MAQUIA"},
+                        {"CCDI":"06", "Nombre":"PUINAHUA"},
+                        {"CCDI":"07", "Nombre":"SAQUENA"},
+                        {"CCDI":"08", "Nombre":"SOPLIN"},
+                        {"CCDI":"09", "Nombre":"TAPICHE"},
+                        {"CCDI":"10", "Nombre":"JENARO HERRERA"},
+                        {"CCDI":"11", "Nombre":"YAQUERANA"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"UCAYALI",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"CONTAMANA"},
+                        {"CCDI":"03", "Nombre":"PADRE MARQUEZ"},
+                        {"CCDI":"04", "Nombre":"PAMPA HERMOSA"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"DATEM DEL MARAÑON",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"BARRANCA"},
+                        {"CCDI":"02", "Nombre":"CAHUANPANAS"},
+                        {"CCDI":"03", "Nombre":"MANSERICHE"},
+                        {"CCDI":"04", "Nombre":"MORONA"},
+                        {"CCDI":"05", "Nombre":"PASTAZA"},
+                        {"CCDI":"06", "Nombre":"ANDOAS"}
+                    ]
+                }
+            ]
+        },
+        {   "CCDD":"17", "Nombre":"MADRE DE DIOS",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"TAMBOPATA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"TAMBOPATA"},
+                        {"CCDI":"02", "Nombre":"INAMBARI"},
+                        {"CCDI":"03", "Nombre":"LAS PIEDRAS"},
+                        {"CCDI":"04", "Nombre":"LABERINTO"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"MANU",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"MANU"},
+                        {"CCDI":"02", "Nombre":"FITZCARRALD"},
+                        {"CCDI":"03", "Nombre":"MADRE DE DIOS"},
+                        {"CCDI":"04", "Nombre":"HUEPETUHE"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"TAHUAMANU",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"IBAPARI"},
+                        {"CCDI":"02", "Nombre":"IBERIA"},
+                        {"CCDI":"03", "Nombre":"TAHUAMANU"}
+                    ]
+                }
+            ]
+        },
+		{	"CCDD":"18", "Nombre":"MOQUEGUA",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01","Nombre":"MARISCAL NIETO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"MOQUEGUA"},
+        				{"CCDI":"02", "Nombre":"CARUMAS"},
+        				{"CCDI":"03", "Nombre":"CUCHUMBAYA"},
+        				{"CCDI":"04", "Nombre":"SAMEGUA"},
+        				{"CCDI":"05", "Nombre":"SAN CRISTOBAL"},
+        				{"CCDI":"06", "Nombre":"TORATA"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"GENERAL SANCHEZ CERRO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"OMATE"},
+        				{"CCDI":"02", "Nombre":"CHIJATA"},
+        				{"CCDI":"03", "Nombre":"COALAQUE"},
+        				{"CCDI":"04", "Nombre":"ICHUNA"},
+        				{"CCDI":"05", "Nombre":"LA CAPILLA"},
+        				{"CCDI":"06", "Nombre":"LLOQUE"},
+        				{"CCDI":"07", "Nombre":"MATALAQUE"},
+        				{"CCDI":"08", "Nombre":"PUQUINA"},
+        				{"CCDI":"09", "Nombre":"QUINISTAQUILLAS"},
+        				{"CCDI":"10", "Nombre":"UBINAS"},
+        				{"CCDI":"11", "Nombre":"YUNGA"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"ILO",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"ILO"},
+        				{"CCDI":"02", "Nombre":"EL ALGARROBAL"},
+        				{"CCDI":"03", "Nombre":"PACOCHA"}
+        			]
+        		}
+			]
+		},
+        {   "CCDD":"19", "Nombre":"PASCO",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"PASCO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"CHAUPIMARCA"},
+                        {"CCDI":"02", "Nombre":"HUACHON"},
+                        {"CCDI":"03", "Nombre":"HUARIACA"},
+                        {"CCDI":"04", "Nombre":"HUAYLLAY"},
+                        {"CCDI":"05", "Nombre":"NINACACA"},
+                        {"CCDI":"06", "Nombre":"PALLACHACRA"},
+                        {"CCDI":"07", "Nombre":"PAUCARTAMBO"},
+                        {"CCDI":"08", "Nombre":"SAN FRANCISCO DE ASIS DE YARUSYACAN"},
+                        {"CCDI":"09", "Nombre":"SIMON BOLIVAR"},
+                        {"CCDI":"10", "Nombre":"TICLACAYAN"},
+                        {"CCDI":"11", "Nombre":"TINYAHUARCO"},
+                        {"CCDI":"12", "Nombre":"VICCO"},
+                        {"CCDI":"13", "Nombre":"YANACANCHA"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"DANIEL ALCIDES CARRION",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"YANAHUANCA"},
+                        {"CCDI":"02", "Nombre":"CHACAYAN"},
+                        {"CCDI":"03", "Nombre":"GOYLLARISQUIZGA"},
+                        {"CCDI":"04", "Nombre":"PAUCAR"},
+                        {"CCDI":"05", "Nombre":"SAN PEDRO DE PILLAO"},
+                        {"CCDI":"06", "Nombre":"SANTA ANA DE TUSI"},
+                        {"CCDI":"07", "Nombre":"TAPUC"},
+                        {"CCDI":"08", "Nombre":"VILCABAMBA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"OXAPAMPA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"OXAPAMPA"},
+                        {"CCDI":"02", "Nombre":"CHONTABAMBA"},
+                        {"CCDI":"03", "Nombre":"HUANCABAMBA"},
+                        {"CCDI":"04", "Nombre":"PALCAZU"},
+                        {"CCDI":"05", "Nombre":"POZUZO"},
+                        {"CCDI":"06", "Nombre":"PUERTO BERMUDEZ"},
+                        {"CCDI":"07", "Nombre":"VILLA RICA"},
+                        {"CCDI":"08", "Nombre":"CONSTITUCION"}
+                    ]
+                }
+            ]
+        },
+		{	"CCDD":"20", "Nombre":"PIURA",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01","Nombre":"PIURA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"PIURA"},
+        				{"CCDI":"04", "Nombre":"CASTILLA"},
+        				{"CCDI":"05", "Nombre":"CATACAOS"},
+        				{"CCDI":"07", "Nombre":"CURA MORI"},
+        				{"CCDI":"08", "Nombre":"EL TALLAN"},
+        				{"CCDI":"09", "Nombre":"LA ARENA"},
+        				{"CCDI":"10", "Nombre":"LA UNION"},
+        				{"CCDI":"11", "Nombre":"LAS LOMAS"},
+        				{"CCDI":"14", "Nombre":"TAMBO GRANDE"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"AYABACA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"AYABACA"},
+        				{"CCDI":"02", "Nombre":"FRIAS"},
+        				{"CCDI":"03", "Nombre":"JILILI"},
+        				{"CCDI":"04", "Nombre":"LAGUNAS"},
+        				{"CCDI":"05", "Nombre":"MONTERO"},
+        				{"CCDI":"06", "Nombre":"PACAIPAMPA"},
+        				{"CCDI":"07", "Nombre":"PAIMAS"},
+        				{"CCDI":"08", "Nombre":"SAPILLICA"},
+        				{"CCDI":"09", "Nombre":"SICCHEZ"},
+        				{"CCDI":"10", "Nombre":"SUYO"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"HUANCABAMBA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"HUANCABAMBA"},
+        				{"CCDI":"02", "Nombre":"CANCHAQUE"},
+        				{"CCDI":"03", "Nombre":"EL CARMEN DE LA FRONTERA"},
+        				{"CCDI":"04", "Nombre":"HUARMACA"},
+        				{"CCDI":"05", "Nombre":"LALAQUIZ"},
+        				{"CCDI":"06", "Nombre":"SAN MIGUEL DE EL FAIQUE"},
+        				{"CCDI":"07", "Nombre":"SONDOR"},
+        				{"CCDI":"08", "Nombre":"SONDORILLO"}
+        			]
+        		},
+        		{ 	"CCPP":"04","Nombre":"MORROPON",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CHULUCANAS"},
+        				{"CCDI":"02", "Nombre":"BUENOS AIRES"},
+        				{"CCDI":"03", "Nombre":"CHALACO"},
+        				{"CCDI":"04", "Nombre":"LA MATANZA"},
+        				{"CCDI":"05", "Nombre":"MORROPON"},
+        				{"CCDI":"06", "Nombre":"SALITRAL"},
+        				{"CCDI":"07", "Nombre":"SAN JUAN DE BIGOTE"},
+        				{"CCDI":"08", "Nombre":"SANTA CATALINA DE MOSSA"},
+        				{"CCDI":"09", "Nombre":"SANTO DOMINGO"},
+        				{"CCDI":"10", "Nombre":"YAMANGO"}
+        			]
+        		},
+        		{ 	"CCPP":"05","Nombre":"PAITA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"PAITA"},
+        				{"CCDI":"02", "Nombre":"AMOTAPE"},
+        				{"CCDI":"03", "Nombre":"ARENAL"},
+        				{"CCDI":"04", "Nombre":"COLAN"},
+        				{"CCDI":"05", "Nombre":"LA HUACA"},
+        				{"CCDI":"06", "Nombre":"TAMARINDO"},
+        				{"CCDI":"07", "Nombre":"VICHAYAL"}
+        			]
+        		},
+        		{ 	"CCPP":"06","Nombre":"SULLANA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"SULLANA"},
+        				{"CCDI":"02", "Nombre":"BELLAVISTA"},
+        				{"CCDI":"03", "Nombre":"IGNACIO ESCUDERO"},
+        				{"CCDI":"04", "Nombre":"LANCONES"},
+        				{"CCDI":"05", "Nombre":"MARCAVELICA"},
+        				{"CCDI":"06", "Nombre":"MIGUEL CHECA"},
+        				{"CCDI":"07", "Nombre":"QUERECOTILLO"},
+        				{"CCDI":"08", "Nombre":"SALITRAL"}
+        			]
+        		},
+        		{ 	"CCPP":"07","Nombre":"TALARA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"PARINAS"},
+        				{"CCDI":"02", "Nombre":"EL ALTO"},
+        				{"CCDI":"03", "Nombre":"LA BREA"},
+        				{"CCDI":"04", "Nombre":"LOBITOS"},
+        				{"CCDI":"05", "Nombre":"LOS ORGANOS"},
+        				{"CCDI":"06", "Nombre":"MANCORA"}
+        			]
+        		},
+        		{ 	"CCPP":"08","Nombre":"SECHURA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"SECHURA"},
+        				{"CCDI":"02", "Nombre":"BELLAVISTA DE LA UNION"},
+        				{"CCDI":"03", "Nombre":"BERNAL"},
+        				{"CCDI":"04", "Nombre":"CRISTO NOS VALGA"},
+        				{"CCDI":"05", "Nombre":"VICE"},
+        				{"CCDI":"06", "Nombre":"RINCONADA LLICUAR"}
+        			]
+        		}				
+			]
+		},
+        {   "CCDD":"21", "Nombre":"PUNO",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"PUNO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PUNO"},
+                        {"CCDI":"02", "Nombre":"ACORA"},
+                        {"CCDI":"03", "Nombre":"AMANTANI"},
+                        {"CCDI":"04", "Nombre":"ATUNCOLLA"},
+                        {"CCDI":"05", "Nombre":"CAPACHICA"},
+                        {"CCDI":"06", "Nombre":"CUCUITO"},
+                        {"CCDI":"07", "Nombre":"COATA"},
+                        {"CCDI":"08", "Nombre":"HUATA"},
+                        {"CCDI":"09", "Nombre":"MANAZO"},
+                        {"CCDI":"10", "Nombre":"PAUCARCOLLA"},
+                        {"CCDI":"11", "Nombre":"PICHACANI"},
+                        {"CCDI":"12", "Nombre":"PLATERIA"},
+                        {"CCDI":"13", "Nombre":"SAN ANTONIO"},
+                        {"CCDI":"14", "Nombre":"TIQUILLACA"},
+                        {"CCDI":"15", "Nombre":"VILQUE"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"AZANGARO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"AZANGARO"},
+                        {"CCDI":"02", "Nombre":"ACHAYA"},
+                        {"CCDI":"03", "Nombre":"ARAPA"},
+                        {"CCDI":"04", "Nombre":"ASILLO"},
+                        {"CCDI":"05", "Nombre":"CAMINACA"},
+                        {"CCDI":"06", "Nombre":"CHUPA"},
+                        {"CCDI":"07", "Nombre":"JOSE DOMINGO CHOQUEHUANCA"},
+                        {"CCDI":"08", "Nombre":"MUNANI"},
+                        {"CCDI":"09", "Nombre":"POTONI"},
+                        {"CCDI":"10", "Nombre":"SAMAN"},
+                        {"CCDI":"11", "Nombre":"SAN ANTON"},
+                        {"CCDI":"12", "Nombre":"SAN JOSE"},
+                        {"CCDI":"13", "Nombre":"SAN JUAN DE SALINAS"},
+                        {"CCDI":"14", "Nombre":"SANTIAGO DE PUPUJA"},
+                        {"CCDI":"15", "Nombre":"TIRAPATA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"CARABAYA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"MACUSANI"},
+                        {"CCDI":"02", "Nombre":"AJOYANI"},
+                        {"CCDI":"03", "Nombre":"AYAPATA"},
+                        {"CCDI":"04", "Nombre":"COASA"},
+                        {"CCDI":"05", "Nombre":"CORANI"},
+                        {"CCDI":"06", "Nombre":"CRUCERO"},
+                        {"CCDI":"07", "Nombre":"ITUATA"},
+                        {"CCDI":"08", "Nombre":"OLLACHEA"},
+                        {"CCDI":"09", "Nombre":"SAN GABAN"},
+                        {"CCDI":"10", "Nombre":"USICAYOS"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"CHUCUITO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JULI"},
+                        {"CCDI":"02", "Nombre":"DESAGUADERO"},
+                        {"CCDI":"03", "Nombre":"HUACULLANI"},
+                        {"CCDI":"04", "Nombre":"KELLUYO"},
+                        {"CCDI":"05", "Nombre":"PISACOMA"},
+                        {"CCDI":"06", "Nombre":"POMATA"},
+                        {"CCDI":"07", "Nombre":"ZEPITA"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"EL COLLAO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"ILAVE"},
+                        {"CCDI":"02", "Nombre":"CAPAZO"},
+                        {"CCDI":"03", "Nombre":"PILCUYO"},
+                        {"CCDI":"04", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"05", "Nombre":"CONDURIRI"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"HUANCANE",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"HUANCANE"},
+                        {"CCDI":"02", "Nombre":"COJATA"},
+                        {"CCDI":"03", "Nombre":"HUANTASANI"},
+                        {"CCDI":"04", "Nombre":"INCHUPALLA"},
+                        {"CCDI":"05", "Nombre":"PUSI"},
+                        {"CCDI":"06", "Nombre":"ROSASPATA"},
+                        {"CCDI":"07", "Nombre":"TARACO"},
+                        {"CCDI":"08", "Nombre":"VILQUE CHICO"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"LAMPA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"LAMPA"},
+                        {"CCDI":"02", "Nombre":"CABANILLA"},
+                        {"CCDI":"03", "Nombre":"CALAPUJA"},
+                        {"CCDI":"04", "Nombre":"NICASIO"},
+                        {"CCDI":"05", "Nombre":"OCUVIRI"},
+                        {"CCDI":"06", "Nombre":"PALCA"},
+                        {"CCDI":"07", "Nombre":"PARATIA"},
+                        {"CCDI":"08", "Nombre":"PUCARA"},
+                        {"CCDI":"09", "Nombre":"SANTA LUCIA"},  
+                        {"CCDI":"10", "Nombre":"VILAVILA"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"MELGAR",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"AYAVIRI"},
+                        {"CCDI":"02", "Nombre":"ANTAUTA"},
+                        {"CCDI":"03", "Nombre":"CUPI"},
+                        {"CCDI":"04", "Nombre":"LLALLI"},
+                        {"CCDI":"05", "Nombre":"MACARI"},
+                        {"CCDI":"06", "Nombre":"NUNOA"},
+                        {"CCDI":"07", "Nombre":"ORURILLO"},
+                        {"CCDI":"08", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"09", "Nombre":"UMACHIRI"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"MOHO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"MOHO"},
+                        {"CCDI":"02", "Nombre":"CONIMA"},
+                        {"CCDI":"03", "Nombre":"HUAYRAPATA"},
+                        {"CCDI":"04", "Nombre":"TILALI"}
+                    ]
+                },
+                {   "CCPP":"10", "Nombre":"SAN ANTONIO DE PUTINA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"PUTINA"},
+                        {"CCDI":"02", "Nombre":"ANANEA"},
+                        {"CCDI":"03", "Nombre":"PEDRO VILCA APAZA"},
+                        {"CCDI":"04", "Nombre":"QUILCAPUNCU"},
+                        {"CCDI":"05", "Nombre":"SINA"}
+                    ]
+                },
+                {   "CCPP":"11", "Nombre":"SAN ROMAN",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"JULIACA"},
+                        {"CCDI":"02", "Nombre":"CABANA"},
+                        {"CCDI":"03", "Nombre":"CABANILLAS"},
+                        {"CCDI":"04", "Nombre":"CARACOTO"}
+                    ]
+                },
+                {   "CCPP":"12", "Nombre":"SANDIA",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"SANDIA"},
+                        {"CCDI":"02", "Nombre":"CUYOCUYO"},
+                        {"CCDI":"03", "Nombre":"LIMBANI"},
+                        {"CCDI":"04", "Nombre":"PATAMBUCO"},
+                        {"CCDI":"04", "Nombre":"PHARA"},
+                        {"CCDI":"04", "Nombre":"QUIACA"},
+                        {"CCDI":"04", "Nombre":"SAN JUAN DEL ORO"},
+                        {"CCDI":"04", "Nombre":"YANAHUAYA"},
+                        {"CCDI":"04", "Nombre":"ALTO INAMBARI"},
+                        {"CCDI":"04", "Nombre":"SAN PEDRO DE PUTINA PUNCO"}
+                    ]
+                },
+                {   "CCPP":"13", "Nombre":"YUNGUYO",
+                    "DISTRITO":
+                    [
+                        {"CCDI":"01", "Nombre":"YUNGUYO"},
+                        {"CCDI":"02", "Nombre":"ANAPIA"},
+                        {"CCDI":"03", "Nombre":"COPANI"},
+                        {"CCDI":"04", "Nombre":"CUTURAPI"},
+                        {"CCDI":"04", "Nombre":"OLLARAYA"},
+                        {"CCDI":"04", "Nombre":"TINICACHI"},
+                        {"CCDI":"04", "Nombre":"UNICACHI"}
+                    ]
+                }       
+            ]   
+        },
+        {   "CCDD":"22", "Nombre":"SAN MARTIN",
+            "PROVINCIA":
+            [
+                {   "CCPP":"01", "Nombre":"MOYOBAMBA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"MOYOBAMBA"},
+                        {"CCDI":"02", "Nombre":"CALZADA"},
+                        {"CCDI":"03", "Nombre":"HABANA"},
+                        {"CCDI":"04", "Nombre":"JEPELACIO"},
+                        {"CCDI":"05", "Nombre":"SORITOR"},
+                        {"CCDI":"06", "Nombre":"YANTALO"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"BELLAVISTA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"BELLAVISTA"},
+                        {"CCDI":"02", "Nombre":"ALTO BIAVO"},
+                        {"CCDI":"03", "Nombre":"BAJO BIAVO"},
+                        {"CCDI":"04", "Nombre":"HUALLAGA"},
+                        {"CCDI":"05", "Nombre":"SAN PABLO"},
+                        {"CCDI":"06", "Nombre":"SAN RAFAEL"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"EL DORADO",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"SAN JOSE DE SISA"},
+                        {"CCDI":"02", "Nombre":"AGUA BLANCA"},
+                        {"CCDI":"03", "Nombre":"SAN MARTIN"},
+                        {"CCDI":"04", "Nombre":"SANTA ROSA"},
+                        {"CCDI":"05", "Nombre":"SHATOJA"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"HUALLAGA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"SAPOSOA"},
+                        {"CCDI":"02", "Nombre":"ALTO SAPOSOA"},
+                        {"CCDI":"03", "Nombre":"EL ESLABON"},
+                        {"CCDI":"04", "Nombre":"PISCOYACU"},
+                        {"CCDI":"05", "Nombre":"SACANCHE"},
+                        {"CCDI":"06", "Nombre":"TINGO DE SAPOSOA"}
+                    ]
+                },
+                {   "CCPP":"05", "Nombre":"LAMAS",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"LAMAS"},
+                        {"CCDI":"02", "Nombre":"ALONSO DE ALVARADO"},
+                        {"CCDI":"03", "Nombre":"BARRANQUITA"},
+                        {"CCDI":"04", "Nombre":"CAYNARACHI"},
+                        {"CCDI":"05", "Nombre":"CUNUMBUQUI"},
+                        {"CCDI":"06", "Nombre":"PINTO RECODO"},
+                        {"CCDI":"07", "Nombre":"RUMISAPA"},
+                        {"CCDI":"08", "Nombre":"SAN ROQUE DE CUMBAZA"},
+                        {"CCDI":"09", "Nombre":"SHANAO"},
+                        {"CCDI":"10", "Nombre":"TABALOSOS"},
+                        {"CCDI":"11", "Nombre":"ZAPATERO"}
+                    ]
+                },
+                {   "CCPP":"06", "Nombre":"MARISCAL CACERES",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"JUANJUI"},
+                        {"CCDI":"02", "Nombre":"CAMPANILLA"},
+                        {"CCDI":"03", "Nombre":"HUICUNGO"},
+                        {"CCDI":"04", "Nombre":"PACHIZA"},
+                        {"CCDI":"05", "Nombre":"PAJARILLO"}
+                    ]
+                },
+                {   "CCPP":"07", "Nombre":"PICOTA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"PICOTA"},
+                        {"CCDI":"02", "Nombre":"BUENOS AIRES"},
+                        {"CCDI":"03", "Nombre":"CASPISAPA"},
+                        {"CCDI":"04", "Nombre":"PILLUANA"},
+                        {"CCDI":"05", "Nombre":"PUCACACA"},
+                        {"CCDI":"06", "Nombre":"SAN CRISTOBAL"},
+                        {"CCDI":"07", "Nombre":"SAN HILARION"},
+                        {"CCDI":"08", "Nombre":"SHAMBOYACU"},
+                        {"CCDI":"09", "Nombre":"TINGO DE PONASA"},
+                        {"CCDI":"10", "Nombre":"TRES UNIDOS"}
+                    ]
+                },
+                {   "CCPP":"08", "Nombre":"RIOJA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"RIOJA"},
+                        {"CCDI":"02", "Nombre":"AWAJUN"},
+                        {"CCDI":"03", "Nombre":"ELIAS SOPLIN VARGAS"},
+                        {"CCDI":"04", "Nombre":"NUEVA CAJAMARCA"},
+                        {"CCDI":"05", "Nombre":"PARDO MIGUEL"},
+                        {"CCDI":"07", "Nombre":"SAN FERNANDO"},
+                        {"CCDI":"08", "Nombre":"YORONGOS"},
+                        {"CCDI":"09", "Nombre":"YURACYACU"}
+                    ]
+                },
+                {   "CCPP":"09", "Nombre":"SAN MARTIN",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"TARAPOTO"},
+                        {"CCDI":"02", "Nombre":"ALBERTO LEVEAU"},
+                        {"CCDI":"03", "Nombre":"CACATACHI"},
+                        {"CCDI":"04", "Nombre":"CHAZUTA"},
+                        {"CCDI":"05", "Nombre":"CHIPURANA"},
+                        {"CCDI":"06", "Nombre":"EL PORVENIR"},
+                        {"CCDI":"07", "Nombre":"HUIMBAYOC"},
+                        {"CCDI":"08", "Nombre":"JUAN GUERRA"},
+                        {"CCDI":"09", "Nombre":"LA BANDA DE SHILCAYO"},
+                        {"CCDI":"10", "Nombre":"MORALES"},
+                        {"CCDI":"11", "Nombre":"PAPAPLAYA"},
+                        {"CCDI":"12", "Nombre":"SAN ANTONIO"},
+                        {"CCDI":"13", "Nombre":"SAUCE"},
+                        {"CCDI":"14", "Nombre":"SHAPAJA"}
+                    ]
+                },
+                {   "CCPP":"10", "Nombre":"TOCACHE",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"TOCACHE"},
+                        {"CCDI":"02", "Nombre":"NUEVO PROGRESO"},
+                        {"CCDI":"03", "Nombre":"POLVORA"},
+                        {"CCDI":"04", "Nombre":"SHUNTE"},
+                        {"CCDI":"05", "Nombre":"UCHIZA"}
+                    ]
+                }                                
+            ]
+        },
+		{	"CCDD":"23", "Nombre":"TACNA",
+			"PROVINCIA":
+			[
+				{	"CCPP":"01","Nombre":"TACNA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"TACNA"},
+        				{"CCDI":"02", "Nombre":"ALTO DE LA ALIANZA"},
+        				{"CCDI":"03", "Nombre":"CALANA"},
+        				{"CCDI":"04", "Nombre":"CIUDAD NUEVA"},
+        				{"CCDI":"05", "Nombre":"INCLAN"},
+        				{"CCDI":"06", "Nombre":"PACHIA"},
+        				{"CCDI":"07", "Nombre":"PALCA"},
+        				{"CCDI":"08", "Nombre":"POCOLLAY"},
+        				{"CCDI":"09", "Nombre":"SAMA"},
+        				{"CCDI":"10", "Nombre":"CORONEL GREGORIO ALBARRACIN LANCHIP"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"CANDARAVE",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"CANDARAVE"},
+        				{"CCDI":"02", "Nombre":"CAIRANI"},
+        				{"CCDI":"03", "Nombre":"CAMILACA"},
+        				{"CCDI":"04", "Nombre":"CURIBAYA"},
+        				{"CCDI":"05", "Nombre":"HUANUARA"},
+        				{"CCDI":"06", "Nombre":"QUILAHUANI"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"JORGE BASADRE",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"LOCUMBA"},
+        				{"CCDI":"02", "Nombre":"ILABAYA"},
+        				{"CCDI":"03", "Nombre":"ITE"}
+        			]
+        		},
+        		{ 	"CCPP":"04","Nombre":"TARATA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"TARATA"},
+        				{"CCDI":"02", "Nombre":"HEROES ALBARRACIN"},
+        				{"CCDI":"03", "Nombre":"ESTIQUE"},
+        				{"CCDI":"04", "Nombre":"ESTIQUE-PAMPA"},
+        				{"CCDI":"05", "Nombre":"SITAJARA"},
+        				{"CCDI":"06", "Nombre":"SUSAPAYA"},
+        				{"CCDI":"07", "Nombre":"TARUCACHI"},
+        				{"CCDI":"08", "Nombre":"TICACO"}
+        			]
+        		}
+			]
+		},
+		{	"CCDD":"24", "Nombre":"TUMBES",
+			"PROVINCIA":
+			[ 
+				{	"CCPP":"01","Nombre":"TUMBES",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"TUMBES"},
+        				{"CCDI":"02", "Nombre":"CORRALES"},
+        				{"CCDI":"03", "Nombre":"LA CRUZ"},
+        				{"CCDI":"04", "Nombre":"PAMPAS DE HOSPITAL"},
+        				{"CCDI":"05", "Nombre":"SAN JACINTO"},
+        				{"CCDI":"06", "Nombre":"SAN JUAN DE LA VIRGE"}
+        			]
+				},
+				{ 	"CCPP":"02","Nombre":"CONTRALMIRANTE VILLAR",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"ZORRITOS"},
+        				{"CCDI":"02", "Nombre":"CASITAS"},
+        				{"CCDI":"03", "Nombre":"CANOAS DE PUNTAL SAL"}
+        			]
+        		},
+        		{ 	"CCPP":"03","Nombre":"ZARUMILLA",
+      				"DISTRITO":
+      				[
+        				{"CCDI":"01", "Nombre":"ZARUMILLA"},
+        				{"CCDI":"02", "Nombre":"AGUAS VERDES"},
+        				{"CCDI":"03", "Nombre":"MATAPALO"},
+        				{"CCDI":"04", "Nombre":"PAPAYAL"}
+        			]
+        		}
+			]
+		},
+        {   "CCDD":"25", "Nombre":"UCAYALI",
+            "PROVINCIA": 
+            [
+                {   "CCPP":"01", "Nombre":"CORONEL PORTILLO",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"CALLERIA"},
+                        {"CCDI":"02", "Nombre":"CAMPOVERDE"},
+                        {"CCDI":"03", "Nombre":"IPARIA"},
+                        {"CCDI":"04", "Nombre":"MASISEA"},
+                        {"CCDI":"05", "Nombre":"YARINACOCHA"}, 
+                        {"CCDI":"06", "Nombre":"NUEVA REQUENA"},
+                        {"CCDI":"07", "Nombre":"MANANTAY"}
+                    ]
+                },
+                {   "CCPP":"02", "Nombre":"ATALAYA",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"RAYMONDI"},
+                        {"CCDI":"02", "Nombre":"SEPAHUA"},
+                        {"CCDI":"03", "Nombre":"TAHUANIA"},
+                        {"CCDI":"04", "Nombre":"YURUA"}
+                    ]
+                },
+                {   "CCPP":"03", "Nombre":"PADRE ABAD",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"PADRE ABAD"},
+                        {"CCDI":"02", "Nombre":"IRAZOLA"},
+                        {"CCDI":"03", "Nombre":"CURIMANA"}
+                    ]
+                },
+                {   "CCPP":"04", "Nombre":"PURUS",
+                    "DISTRITO":
+                    [   
+                        {"CCDI":"01", "Nombre":"PURUS"}
+                    ]
+                }
+            ] 
+        }
+
+	]
+}
