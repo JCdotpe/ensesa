@@ -180,7 +180,7 @@
 		</tr>
 	</table>
 
-	<table class="table table-bordered">
+	<table id="table_200_A" class="table table-bordered">
 		<tr>
 			<td rowspan="4"> Nro de orden </td>
 			<td rowspan="4"> 1A. ¿Que plantas, frutos y/o hojas silvestres obtubo de la recolección? </td>
@@ -188,6 +188,7 @@
 			<td rowspan="4"> 1C. Unidad de medida </td>
 			<td rowspan="4"> 1D. Peso total (En Kilos) </td>
 			<td colspan="14" align="center">1E. Del total de la recoleccion,¿Cuantos destino para:</td>
+			<td rowspan="4"></td>
 		</tr>
 		<tr>
 			<td colspan="6">Venta</td>
@@ -214,52 +215,6 @@
 			<td> Regional? </td>
 			<td> Nacional? </td>
 			<td> N.A? </td>
-		</tr>
-		<tr>
-			<td> <input type="text" id="E1B_Tipo_Nro_5" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
-			<td> <input type="text" id="E1B_1A_Nombre_5" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1B_5" name="E1B_1B[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1C_Um_5" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1C_Peso_5" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_K_5" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_T_5" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Venta_M_Local_5" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Region_5" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Nacion_5" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_NA_5" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Consumo_K_5" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Consumo_T_5" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_K_5" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_T_5" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Sub_K_5" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Sub_T_5" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_K_5" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_T_5" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
-		</tr>
-		<tr>
-			<td> <input type="text" id="E1B_Tipo_Nro_6" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
-			<td> <input type="text" id="E1B_1A_Nombre_6" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1B_6" name="E1B_1B[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1C_Um_6" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1C_Peso_6" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_K_6" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_T_6" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Venta_M_Local_6" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Region_6" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Nacion_6" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_NA_6" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Consumo_K_6" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Consumo_T_6" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_K_6" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_T_6" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Sub_K_6" name="E1B_1D_Sub_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Sub_T_6" name="E1B_1D_Sub_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_K_6" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_T_6" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
 		</tr>
 	</table>
 
@@ -361,12 +316,13 @@
 		</tr>
 	</table>
 
-	<table class="table table-bordered">
+	<table id="table_200_C" class="table table-bordered">
 		<tr>
 			<td rowspan="4"> Nro de orden </td>
 			<td rowspan="4"> 1A. ¿Que sub-producto elaboro? </td>
 			<td rowspan="4"> 1B. ¿Peso total?(Kilos) </td>
 			<td colspan="12" align="center"> 1C. Del total del sub-producto,¿Cuanto destino para: </td>
+			<td rowspan="4"></td>
 		</tr>
 		<tr>
 			<td colspan="6"> Venta </td>
@@ -390,44 +346,6 @@
 			<td> Regional? </td>
 			<td> Nacional? </td>
 			<td> N.A? </td>
-		</tr>
-		<tr>
-			<td> <input type="text" id="E1B_Tipo_Nro_7" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
-			<td> <input type="text" id="E1B_1A_Nombre_7" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1C_Peso_7" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_K_7" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_T_7" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Venta_M_Local_7" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Region_7" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Nacion_7" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_NA_7" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Consumo_K_7" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Consumo_T_7" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_K_7" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_T_7" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_K_7" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_T_7" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
-		</tr>
-		<tr>
-			<td> <input type="text" id="E1B_Tipo_Nro_8" name="E1B_Tipo_Nro[]" class="form-control" value="" readonly /> </td>
-			<td> <input type="text" id="E1B_1A_Nombre_8" name="E1B_1A_Nombre[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1C_Peso_8" name="E1B_1C_Peso[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_K_8" name="E1B_1D_Venta_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_T_8" name="E1B_1D_Venta_T[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Venta_M_Local_8" name="E1B_1D_Venta_M_Local[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Region_8" name="E1B_1D_Venta_M_Region[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_Nacion_8" name="E1B_1D_Venta_M_Nacion[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Venta_M_NA_8" name="E1B_1D_Venta_M_NA[]" class="form-control" value="" /> </td>
-
-			<td> <input type="text" id="E1B_1D_Consumo_K_8" name="E1B_1D_Consumo_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Consumo_T_8" name="E1B_1D_Consumo_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_K_8" name="E1B_1D_Trueque_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Trueque_T_8" name="E1B_1D_Trueque_T[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_K_8" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>
-			<td> <input type="text" id="E1B_1D_Otro_T_8" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>
 		</tr>
 	</table>
 	<table class="table table-bordered">

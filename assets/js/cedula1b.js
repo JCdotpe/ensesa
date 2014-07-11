@@ -9,8 +9,21 @@ var E1B_101_C = $('#E1B_101_C');
 var table_100_C = $('#table_100_C');
 
 
-// Question 100 //
+var E1B_201_A = $('#E1B_201_A');
+var table_200_A = $('#table_200_A');
 
+var E1B_201_C = $('#E1B_201_C');
+var table_200_C = $('#table_200_C');
+
+
+var E1B_301_A = $('#E1B_301_A');
+var table_300_A = $('#table_300_A');
+
+var E1B_301_C = $('#E1B_301_C');
+var table_300_C = $('#table_300_C');
+
+
+// Question 100 //
 // --> section A
 E1B_101_A.on( 
 	{ change : function( event ) 
@@ -34,7 +47,6 @@ table_100_A.on( 'click', 'button',
 
 );
 
-
 // --> section C
 E1B_101_C.on( 
 	{ change : function( event ) 
@@ -55,31 +67,90 @@ table_100_C.on('click', 'button',
 );
 
 
+// Question 200 //
+// --> section A
+E1B_201_A.on( 
+	{ change : function(event) 
+		{
+			this_value = $(this).val();
+
+			common_event_group( table_200_A.attr('id'), [ 'C2_B_table', 'C2_D_table' ], this_value, E1B_201_C.attr('id'), 'PR' );
+
+			E1B_201_C.val('');
+			E1B_201_C.trigger('change');
+		},
+	  keyup : event_keyup_jump()
+	}
+);
+
+table_200_A.on('click', 'button',
+	function( event ) 
+	{
+		add_remove_row(event.target, [ table_200_A.attr('id'), 'PR' ]);	
+	}
+);
+
+// --> section C
+E1B_201_C.on(
+	{ change : function(event) 
+		{
+			this_value = $(this).val();
+
+			common_event_group( table_200_C.attr('id'), [ 'C2_D_table' ], this_value, null, 'SR' );
+		},
+	  keyup : event_keyup_jump()
+	}
+);
+
+table_200_C.on('click', 'button',
+	function( event ) 
+	{
+		add_remove_row(event.target, [ table_200_C.attr('id'), 'SR' ]);	
+	}
+);
 
 
+// Question 300 //
+// --> section A
+E1B_301_A.on( 
+	{ change : function(event) 
+		{
+			this_value = $(this).val();
 
+			common_event_group( table_300_A.attr('id'), [ 'C3_B_table', 'C3_D_table' ], this_value, E1B_301_C.attr('id'), 'PA' );
 
+			E1B_301_C.val('');
+			E1B_301_C.trigger('change');
+		},
+	  keyup : event_keyup_jump()
+	}
+);
 
-$('#E1B_201_A').change(function(event) {
-	
-	value = $(this).val();
-	name_class = ['C2_B_table', 'C2_D_table'];
-	input_disabled = 'E1B_201_C';
+table_300_A.on('click', 'button',
+	function( event ) 
+	{
+		add_remove_row(event.target, [ table_300_A.attr('id'), 'PA' ]);	
+	}
+);
 
-	salt_input(value, name_class, input_disabled);
+// --> section C
+E1B_301_C.on(
+	{ change : function(event) 
+		{
+			this_value = $(this).val();
 
-});
+			common_event_group( table_300_C.attr('id'), [ 'C3_D_table' ], this_value, null, 'SA' );
+		},
+	  keyup : event_keyup_jump()
+	}
+);
 
-
-
-$('#E1B_201_C').change(function(event) {
-	
-	value = $(this).val();
-	name_class = ['C2_D_table'];
-
-	salt_input(value, name_class);
-
-});
+table_300_C.on('click', 'button',
+	function( event ) 
+	{
+		add_remove_row(event.target, [ table_300_C.attr('id'), 'SA' ]);	
+	}
+);
 
 
 function common_event_group ( id_table, name_class, input_value, input_disabled, suffix )
