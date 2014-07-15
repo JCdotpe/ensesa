@@ -158,3 +158,47 @@ function common_event_group ( id_table, name_class, input_value, input_disabled,
 	salt_input( input_value, name_class, input_disabled );
 	validate_table( input_value, id_table, suffix );
 }
+
+
+// Form 1B_100 //
+
+var frm_1B_100 = $('#1B_100');
+
+frm_1B_100.validate(
+	{
+		rules : {
+			E1B_Ini_M : {
+				required : true
+			}
+		},
+		messages : {
+
+		},
+		errorPlacement: function(error, element) {
+			$(element).next().after(error);
+		},
+		invalidHandler: function(form, validator) {
+			var errors = validator.numberOfInvalids();
+			if (errors) 
+			{
+				var message = errors == 1
+				? 'Por favor corrige estos errores:\n'
+				: 'Por favor corrige los ' + errors + ' errores.\n';
+				var errors = "";
+				if (validator.errorList.length > 0) 
+				{
+					for (x=0;x<validator.errorList.length;x++) 
+					{
+						errors += "\n\u25CF " + validator.errorList[x].message;
+					}
+				}
+				alert(message + errors);
+			}
+			validator.focusInvalid();
+		},
+		submitHandler: function(form)
+		{
+
+		}
+	}
+);

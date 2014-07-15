@@ -1,5 +1,11 @@
 <!-- *********************** PREGUNTA 100 *********************** -->
-<?php echo form_open('table1b_100'); ?>
+<?php 
+	
+	$attr = array('id' => '1B_100');
+	
+	echo form_open('table1b_100', $attr); 
+
+?>
 
 	<table class="table table-bordered">
 		<tr>
@@ -224,7 +230,7 @@
 	<table class="table table-bordered">
 		<tr>
 			<td> 1. En los ultimos 12 meses, de	</td>
-			<td> <?php echo form_input($E1B_Ini_M); ?>(Mes) </td>
+			<td> <?php echo form_input($E1B_Ini_M); ?>(Mes) <div class="help-block error"></div> </td>
 			<td> <?php echo form_input($E1B_Ini_A); ?>(Año) </td>
 			<td align="center"> a </td>
 			<td> <?php echo form_input($E1B_Fin_M); ?>(Mes) </td>
