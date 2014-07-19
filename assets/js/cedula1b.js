@@ -168,7 +168,8 @@ frm_1B_100.validate(
 	{
 		rules : {
 			E1B_Ini_M : {
-				required : true
+				required : true,
+				valmes : 'E1B_Ini_M'
 			}
 		},
 		messages : {
