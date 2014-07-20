@@ -153,7 +153,12 @@ $button_1B_head = array(
 ?>
 
 <!-- Items A y B -->
-<?php echo form_open('tabla1b'); ?>
+<?php 
+
+$attributes = array( 'id' => '1B' );
+echo form_open( $this->uri->uri_string(), $attributes ); 
+
+?>
 
 <table class="table table-bordered">
 	<tr>
@@ -249,7 +254,10 @@ $button_1B_head = array(
 							</tr>
 							<tr>
 								<td colspan="2"> 12. Hogar N° </td>
-								<td> <?php echo form_input($E1_B_13_Nro_Hogar); ?> </td>
+								<td> 
+									<?php echo form_input($E1_B_13_Nro_Hogar); ?> 
+									<div class="help-block error"></div>
+								</td>
 							</tr>
 						</table>
 					</td>
@@ -262,12 +270,18 @@ $button_1B_head = array(
 <table class="table table-bordered">
 	<tr>
 		<td> Persona N&deg; </td>
-		<td colspan="3"> <?php echo form_input($E1_201_Nro); ?> </td>
+		<td colspan="3"> 
+			<?php echo form_input($E1_201_Nro); ?> 
+			<div class="help-block error"></div>
+		</td>
 		<td colspan="3"> Nombre: </td>
 		<td> <?php echo form_input($E1_202_Nombre); ?> </td>
 		<td>  <?php echo form_input($E1_202_Apellidos); ?> </td>
 		<td colspan="3"> Informante N&deg; </td>
-		<td> <?php echo form_input($E1B_Informante_Nro); ?> </td>
+		<td> 
+			<?php echo form_input($E1B_Informante_Nro); ?> 
+			<div class="help-block error"></div>
+		</td>
 	</tr>
 </table>
 

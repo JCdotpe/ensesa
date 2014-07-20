@@ -30,6 +30,14 @@
 	<script src="<?php echo base_url('assets/js/common.js'); ?>"></script>
 
 	<script type="text/javascript">
+		<!--
+		var CI = {
+			'base_url': '<?php echo base_url(); ?>',
+			'site_url': '<?php echo site_url(); ?>'
+		};
+		-->
+    </script>
+	<script type="text/javascript">
 		$(function () 
 		{
 			$.extend(jQuery.validator.messages, {

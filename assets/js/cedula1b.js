@@ -160,6 +160,72 @@ function common_event_group ( id_table, name_class, input_value, input_disabled,
 }
 
 
+// Form 1B //
+
+var frm_1B = $('#1B');
+frm_1B.validate(
+	{
+		rules : 
+		{
+			E1_B_13_Nro_Hogar : 
+			{
+				required : true
+			},
+			E1_201_Nro :
+			{
+				required : true
+			}
+		},
+		messages :
+		{
+
+		},
+		errorPlacement: function(error, element) {
+			$(element).next().after(error);
+		},
+		invalidHandler: function(form, validator) {
+			var errors = validator.numberOfInvalids();
+			if (errors) 
+			{
+				var message = errors == 1
+				? 'Por favor corrige estos errores:\n'
+				: 'Por favor corrige los ' + errors + ' errores.\n';
+				var errors = "";
+				if (validator.errorList.length > 0) 
+				{
+					for (x=0;x<validator.errorList.length;x++) 
+					{
+						errors += "\n\u25CF " + validator.errorList[x].message;
+					}
+				}
+				alert(message + errors);
+			}
+			validator.focusInvalid();
+		},
+		submitHandler: function(form)
+		{
+			var data_1b = frm_1B.serializeArray();
+			
+			// var b_frm_1b = frm_1B.find(':submit');
+			// button_frm_1b.attr('disabled','disabled');
+
+			$.ajax({
+				url: CI.site_url + '/cedulas/cedula1b/register_1b',
+				type: 'POST',
+				data: data_1b,
+				dataType: 'json',
+				success:function(json) 
+				{
+					alert(json.msg);
+					// button_frm_1b.removeAttr('disabled');
+				}
+			});
+		}
+	}
+);
+
+
+
 // Form 1B_100 //
 
 var frm_1B_100 = $('#1B_100');
@@ -199,7 +265,26 @@ frm_1B_100.validate(
 		},
 		submitHandler: function(form)
 		{
+			var data_1b_100 = frm_1B_100.serializeArray();
 
+			data_1b_100.push(
+				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
+				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
+			);
+			
+			// var b_frm_1b = frm_1B.find(':submit');
+			// button_frm_1b.attr('disabled','disabled');
+
+			$.ajax({
+				url: CI.site_url + '/cedulas/cedula1b/register_1b_100',
+				type: 'POST',
+				data: data_1b_100,
+				dataType: 'json',
+				success:function(json) 
+				{
+					alert(json.msg);				
+				}
+			});
 		}
 	}
 );

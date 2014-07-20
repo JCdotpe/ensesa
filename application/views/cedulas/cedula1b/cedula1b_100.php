@@ -3,7 +3,7 @@
 	
 	$attr = array('id' => '1B_100');
 	
-	echo form_open('table1b_100', $attr); 
+	echo form_open( $this->uri->uri_string(), $attr); 
 
 ?>
 
@@ -130,9 +130,9 @@
 						'class' => 'form-control C1_B_table',
 					);
 
-	$E1B_101_B_Caza = array(
-						'id' => 'E1B_101_B_Caza',
-						'name' => 'E1B_101_B_Caza',
+	$E1B_101_B_Total = array(
+						'id' => 'E1B_101_B_Total',
+						'name' => 'E1B_101_B_Total',
 						'class' => 'form-control C1_B_table',
 					);
 
@@ -348,7 +348,7 @@
 					</tr>
 					<tr>
 						<td align="center"> TOTAL </td>
-						<td> <?php echo form_input($E1B_101_B_Caza); ?> </td>
+						<td> <?php echo form_input($E1B_101_B_Total); ?> </td>
 					</tr>
 				</table>
 			</td>
