@@ -99,7 +99,7 @@ function DynamicRows(order, suffix)
 				
 				if ( suf.toUpperCase() == 'PR' )
 				{
-					row += '<td> <input type="text" id="E1B_1C_Um_' + order + '_' + suf + '" name="E1B_1C_Peso[]" class="form-control input-sm" value="" /> </td>';
+					row += '<td> <input type="text" id="E1B_1C_Um_' + order + '_' + suf + '" name="E1B_1C_Um[]" class="form-control input-sm" value="" /> </td>';
 				}
 				
 				if ( suf.toUpperCase() == 'PC' || suf.toUpperCase() == 'PR' || suf.toUpperCase() == 'SR' || suf.toUpperCase() == 'PA' || suf.toUpperCase() == 'SA' )

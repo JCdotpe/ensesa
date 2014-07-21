@@ -6,6 +6,8 @@ class Cedula1b extends CI_Controller {
 	private $table_details;
 	private $table_local;
 
+	private $array_primary_key;
+
 	private $data_master;
 	private $data_deails;
 
@@ -44,12 +46,11 @@ class Cedula1b extends CI_Controller {
 		$this->primary_key();
 
 		$this->array_fields = array( 'E1B_Informante_Nro', 'E1B_13', 'E1B_13_Obs' );
-		
 		$this->result_boolen = $this->operation_data( $this->array_fields );
 
 
 		// End Transaction //
-		$this->operation_result( $boolean, "los datos del informante" );
+		$this->operation_result( $this->result_boolen, "los datos del informante" );
 	}
 
 	public function register_1b_100()
@@ -57,6 +58,7 @@ class Cedula1b extends CI_Controller {
 		// Data General //
 		$this->get_fields( $this->table_master );
 		$this->primary_key();
+		
 
 		$this->array_fields = array( 'E1B_Ini_A', 'E1B_Fin_M', 'E1B_Fin_A', 'E1B_101_A', 'E1B_101_B_a', 'E1B_101_B_b', 'E1B_101_B_c', 'E1B_101_B_d', 'E1B_101_B_e', 'E1B_101_B_f', 'E1B_101_B_g', 'E1B_101_B_h', 'E1B_101_B_i', 'E1B_101_B_j', 'E1B_101_B_j_O', 'E1B_101_B_Total', 'E1B_101_B_Obs', 'E1B_101_C', 'E1B_101_D_a', 'E1B_101_D_b', 'E1B_101_D_c', 'E1B_101_D_d', 'E1B_101_D_e', 'E1B_101_D_f', 'E1B_101_D_g', 'E1B_101_D_h', 'E1B_101_D_h_O', 'E1B_101_D_Total', 'E1B_101_D_Obs' );
 
@@ -66,11 +68,9 @@ class Cedula1b extends CI_Controller {
 		// Data Dynamic //
 		$this->get_fields( $this->table_details );
 
-		$this->array_fields = array( 'E1B_Tipo_Nro', 'E1B_1A_Nombre', 'E1B_1B', 'E1B_1C_Peso', 'E1B_1D_Venta_K', 'E1B_1D_Venta_T' , 'E1B_1D_Venta_M_Local', 'E1B_1D_Venta_M_Region', 'E1B_1D_Venta_M_Nacion', 'E1B_1D_Venta_M_NA', 'E1B_1D_Consumo_K', 'E1B_1D_Consumo_T', 'E1B_1D_Trueque_K', 'E1B_1D_Trueque_T', 'E1B_1D_Sub_K', 'E1B_1D_Sub_T', 'E1B_1D_Otro_K', 'E1B_1D_Otro_T' );
+		$this->condition =  $this->condition . ' AND E1B_Tipo = "PC" OR E1B_Tipo = "SC"';
 
-		$this->condition = 'Cod_Vivienda = ' . $this->data_master['Cod_Vivienda'] . ' AND E1_B_13_Nro_Hogar = ' . $this->data_master['E1_B_13_Nro_Hogar'] . ' AND E1_201_Nro = ' . $this->data_master['E1_201_Nro'] . ' AND E1B_Tipo = "PC" OR E1B_Tipo = "SC"';
-
-		$this->result_boolen = ( $this->result_boolen == true ) ? $this->operation_data_details( $this->array_fields ) : false;
+		$this->result_boolen = ( $this->result_boolen == true ) ? $this->operation_data_details() : false;
 
 
 		// End Transaction //
@@ -83,14 +83,50 @@ class Cedula1b extends CI_Controller {
 		$this->get_fields( $this->table_master );
 		$this->primary_key();
 
+
 		$this->array_fields = array( 'E1B_201_A', 'E1B_201_B_a', 'E1B_201_B_b', 'E1B_201_B_c', 'E1B_201_B_d', 'E1B_201_B_e', 'E1B_201_B_f', 'E1B_201_B_g', 'E1B_201_B_h', 'E1B_201_B_h_O', 'E1B_201_B_Total', 'E1B_201_B_Obs', 'E1B_201_C', 'E1B_201_D_a', 'E1B_201_D_b', 'E1B_201_D_c', 'E1B_201_D_d', 'E1B_201_D_e', 'E1B_201_D_f', 'E1B_201_D_g', 'E1B_201_D_h', 'E1B_201_D_h_O', 'E1B_201_D_Total', 'E1B_201_D_Obs' );
 
 		$this->result_boolen = $this->operation_data( $this->array_fields );
+
+		
+		// Data Dynamic //
+		$this->get_fields( $this->table_details );
+
+		$this->condition = $this->condition . ' AND E1B_Tipo = "PR" OR E1B_Tipo = "SR"';
+
+		$this->result_boolen = ( $this->result_boolen == true ) ? $this->operation_data_details() : false;
 
 
 		// End Transaction //
 		$this->operation_result( $this->result_boolen, "los datos de la seccion 200." );
 	}
+
+
+	public function register_1b_300()
+	{
+		// Data General //
+		$this->get_fields( $this->table_master );
+		$this->primary_key();
+
+
+		$this->array_fields = array( 'E1B_301_A', 'E1B_301_B_a', 'E1B_301_B_b', 'E1B_301_B_c', 'E1B_301_B_d', 'E1B_301_B_e', 'E1B_301_B_f', 'E1B_301_B_g', 'E1B_301_B_h', 'E1B_301_B_i', 'E1B_301_B_i_O', 'E1B_301_B_Total', 'E1B_301_B_Obs', 'E1B_301_C', 'E1B_301_D_a', 'E1B_301_D_b', 'E1B_301_D_c', 'E1B_301_D_d', 'E1B_301_D_e', 'E1B_301_D_f', 'E1B_301_D_g', 'E1B_301_D_h', 'E1B_301_D_h_O', 'E1B_301_D_Total', 'E1B_301_D_Obs' );
+
+		$this->result_boolen = $this->operation_data( $this->array_fields );
+
+
+		// Data Dynamic //
+		$this->get_fields( $this->table_details );
+
+		$this->condition = $this->condition . ' AND E1B_Tipo = "PA" OR E1B_Tipo = "SA"';
+
+		$this->result_boolen = ( $this->result_boolen == true ) ? $this->operation_data_details() : false;
+
+
+		// End Transaction //
+
+		$this->operation_result( $this->result_boolen, "los datos de la seccion 300." );
+	}
+
 
 	private function get_fields($name_table)
 	{
@@ -99,13 +135,22 @@ class Cedula1b extends CI_Controller {
 
 	private function primary_key()
 	{
-		$this->data_master['Cod_Vivienda'] = '00001';
-		$this->data_master['E1_B_13_Nro_Hogar'] = $this->input->post('E1_B_13_Nro_Hogar');
-		$this->data_master['E1_201_Nro'] = $this->input->post('E1_201_Nro');
+		$this->Cod_Vivienda = '00001';
+		$this->E1_B_13_Nro_Hogar = $this->input->post('E1_B_13_Nro_Hogar');
+		$this->E1_201_Nro = $this->input->post('E1_201_Nro');
 
-		$this->data_deails['Cod_Vivienda'] = '00001';
-		$this->data_deails['E1_B_13_Nro_Hogar'] = $this->input->post('E1_B_13_Nro_Hogar');
-		$this->data_deails['E1_201_Nro'] = $this->input->post('E1_201_Nro');
+		$this->data_master['Cod_Vivienda'] = $this->Cod_Vivienda;
+		$this->data_master['E1_B_13_Nro_Hogar'] = $this->E1_B_13_Nro_Hogar;
+		$this->data_master['E1_201_Nro'] = $this->E1_201_Nro;
+
+		$this->data_deails['Cod_Vivienda'] = $this->Cod_Vivienda;
+		$this->data_deails['E1_B_13_Nro_Hogar'] = $this->E1_B_13_Nro_Hogar;
+		$this->data_deails['E1_201_Nro'] = $this->E1_201_Nro;
+
+		$this->condition = 'Cod_Vivienda = ' . '00001' . ' AND E1_B_13_Nro_Hogar = ' . $this->E1_B_13_Nro_Hogar . ' AND E1_201_Nro = ' . $this->E1_201_Nro;
+
+		$this->array_primary_key = array( 'Cod_Vivienda', 'E1_B_13_Nro_Hogar', 'E1_201_Nro' );
+
 	}
 
 	private function operation_data( $array_fields )
@@ -118,13 +163,11 @@ class Cedula1b extends CI_Controller {
 			}
 		}
 
-		$this->condition = array('Cod_Vivienda' => $this->data_master['Cod_Vivienda'], 'E1_B_13_Nro_Hogar' => $this->data_master['E1_B_13_Nro_Hogar'], 'E1_201_Nro' => $this->data_master['E1_201_Nro'] );
-
 		$this->number_rows = $this->cedula1b_model->count_result( $this->condition, $this->table_master );
 
 		if ( $this->number_rows > 0 )
 		{
-			$this->result = $this->cedula1b_model->update_data( $this->data_master, 'E1B_Recursos_Naturales', $this->condition );	
+			$this->result = $this->cedula1b_model->update_data( $this->data_master, $this->table_master, $this->condition );
 		}
 		else
 		{
@@ -135,11 +178,11 @@ class Cedula1b extends CI_Controller {
 
 	}
 
-	private function operation_data_details( $array_fields )
+	private function operation_data_details()
 	{
 		foreach ($this->table_local as $key => $name_field)
 		{
-			if ( in_array( $name_field, $array_fields ) ) 
+			if ( !in_array( $name_field, $this->array_primary_key ) ) 
 			{
 				$this->data_master[$name_field] = ($this->input->post($name_field) == '') ? null : $this->input->post($name_field);
 			}
@@ -160,7 +203,7 @@ class Cedula1b extends CI_Controller {
 		{
 			foreach ($this->table_local as $second_key => $name_field)
 			{
-				if ( in_array( $name_field, $array_fields ) ) 
+				if ( !in_array( $name_field, $this->array_primary_key ) ) 
 				{
 					if ( $name_field == 'E1B_Tipo_Nro' )
 					{
