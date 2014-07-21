@@ -24,5 +24,17 @@
 			return $this->db->affected_rows() > 0;
 		}
 
+		function delete_data( $table, $condition )
+		{
+			$this->db->delete( $table, $condition );
+			return $this->db->affected_rows() > 0;
+		}
+
+		function count_result( $condition, $table )
+		{
+			$this->db->where( $condition );
+			return $this->db->count_all_results( $table );
+		}
+
 	}
 ?>

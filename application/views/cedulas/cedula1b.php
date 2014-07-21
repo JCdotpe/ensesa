@@ -122,8 +122,8 @@ $E1_202_Apellidos = array(
 		);
 
 $E1B_Informante_Nro = array(
-			'id' => 'informantes',
-			'name' => 'informantes',
+			'id' => 'E1B_Informante_Nro',
+			'name' => 'E1B_Informante_Nro',
 			'class' => 'form-control',
 		);
 

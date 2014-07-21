@@ -288,3 +288,64 @@ frm_1B_100.validate(
 		}
 	}
 );
+
+
+// Form 1B_200 //
+
+var frm_1B_200 = $('#1B_200');
+
+frm_1B_200.validate(
+	{
+		rules : {
+			
+		},
+		messages : {
+
+		},
+		errorPlacement: function(error, element) {
+			$(element).next().after(error);
+		},
+		invalidHandler: function(form, validator) {
+			var errors = validator.numberOfInvalids();
+			if (errors) 
+			{
+				var message = errors == 1
+				? 'Por favor corrige estos errores:\n'
+				: 'Por favor corrige los ' + errors + ' errores.\n';
+				var errors = "";
+				if (validator.errorList.length > 0) 
+				{
+					for (x=0;x<validator.errorList.length;x++) 
+					{
+						errors += "\n\u25CF " + validator.errorList[x].message;
+					}
+				}
+				alert(message + errors);
+			}
+			validator.focusInvalid();
+		},
+		submitHandler: function(form)
+		{
+			var data_1b_200 = frm_1B_200.serializeArray();
+
+			data_1b_200.push(
+				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
+				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
+			);
+			
+			// var b_frm_1b = frm_1B.find(':submit');
+			// button_frm_1b.attr('disabled','disabled');
+
+			$.ajax({
+				url: CI.site_url + '/cedulas/cedula1b/register_1b_200',
+				type: 'POST',
+				data: data_1b_200,
+				dataType: 'json',
+				success:function(json) 
+				{
+					alert(json.msg);				
+				}
+			});
+		}
+	}
+);

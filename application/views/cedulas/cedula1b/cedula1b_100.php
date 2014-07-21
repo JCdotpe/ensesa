@@ -1,9 +1,217 @@
 <!-- *********************** PREGUNTA 100 *********************** -->
-<?php 
-	
-	$attr = array('id' => '1B_100');
-	
-	echo form_open( $this->uri->uri_string(), $attr); 
+<!-- Item 100 --> 
+<?php
+
+$E1B_Ini_M = array(
+			'id' => 'E1B_Ini_M', 
+			'name' => 'E1B_Ini_M', 
+			'class' => 'form-control'
+			);
+
+$E1B_Ini_A = array(
+			'id' => 'E1B_Ini_A', 
+			'name' => 'E1B_Ini_A', 
+			'class' => 'form-control'
+			);
+
+$E1B_Fin_M = array(
+			'id' => 'E1B_Fin_M', 
+			'name' => 'E1B_Fin_M', 
+			'class' => 'form-control'
+			);
+
+$E1B_Fin_A = array(
+			'id' => 'E1B_Fin_A', 
+			'name' => 'E1B_Fin_A', 
+			'class' => 'form-control'
+			);
+
+$E1B_101_A = array(
+			'id' => 'E1B_101_A', 
+			'name' => 'E1B_101_A', 
+			'class' => 'form-control'
+			);
+
+
+$E1B_Tipo_Nro = array(
+					'id' => 'E1B_Tipo_Nro',
+					'name' => 'E1B_Tipo_Nro',
+					'class' => 'form-control',
+					'readonly' => 'readonly'
+				);
+
+$E1B_1A_Nombre = array(
+					'id' => 'E1B_1A_Nombre',
+					'name' => 'E1B_1A_Nombre',
+					'class' => 'form-control'
+				);
+
+
+$E1B_101_B_a = array(
+					'id' => 'E1B_101_B_a',
+					'name' => 'E1B_101_B_a',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_b = array(
+					'id' => 'E1B_101_B_b',
+					'name' => 'E1B_101_B_b',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_c = array(
+					'id' => 'E1B_101_B_c',
+					'name' => 'E1B_101_B_c',
+					'class' => 'form-control',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_d = array(
+					'id' => 'E1B_101_B_d',
+					'name' => 'E1B_101_B_d',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_e = array(
+					'id' => 'E1B_101_B_e',
+					'name' => 'E1B_101_B_e',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_f = array(
+					'id' => 'E1B_101_B_f',
+					'name' => 'E1B_101_B_f',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_g = array(
+					'id' => 'E1B_101_B_g',
+					'name' => 'E1B_101_B_g',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_h = array(
+					'id' => 'E1B_101_B_h',
+					'name' => 'E1B_101_B_h',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_i = array(
+					'id' => 'E1B_101_B_i',
+					'name' => 'E1B_101_B_i',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_j = array(
+					'id' => 'E1B_101_B_j',
+					'name' => 'E1B_101_B_j',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_j_O = array(
+					'id' => 'E1B_101_B_j_O',
+					'name' => 'E1B_101_B_j_O',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_Total = array(
+					'id' => 'E1B_101_B_Total',
+					'name' => 'E1B_101_B_Total',
+					'class' => 'form-control C1_B_table',
+				);
+
+$E1B_101_B_Obs = array(
+					'id' => 'E1B_101_B_Obs',
+					'name' => 'E1B_101_B_Obs',
+					'class' => 'form-control C1_B_table',
+					'rows' => 2,
+			        'cols' => 13
+				);
+
+$E1B_101_C = array(
+			'id' => 'E1B_101_C', 
+			'name' => 'E1B_101_C', 
+			'class' => 'form-control'
+			);
+
+$E1B_101_D_a = array(
+					'id' => 'E1B_101_D_a',
+					'name' => 'E1B_101_D_a',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_b = array(
+					'id' => 'E1B_101_D_b',
+					'name' => 'E1B_101_D_b',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_c = array(
+					'id' => 'E1B_101_D_c',
+					'name' => 'E1B_101_D_c',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_d = array(
+					'id' => 'E1B_101_D_d',
+					'name' => 'E1B_101_D_d',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_e = array(
+					'id' => 'E1B_101_D_e',
+					'name' => 'E1B_101_D_e',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_f = array(
+					'id' => 'E1B_101_D_f',
+					'name' => 'E1B_101_D_f',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_g = array(
+					'id' => 'E1B_101_D_g',
+					'name' => 'E1B_101_D_g',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_h_O = array(
+					'id' => 'E1B_101_D_h_O',
+					'name' => 'E1B_101_D_h_O',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_h = array(
+					'id' => 'E1B_101_D_h',
+					'name' => 'E1B_101_D_h',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_Total = array(
+					'id' => 'E1B_101_D_Total',
+					'name' => 'E1B_101_D_Total',
+					'class' => 'form-control C1_D_table'
+				);
+
+$E1B_101_D_Obs = array(
+					'id' => 'E1B_101_D_Obs',
+					'name' => 'E1B_101_D_Obs',
+					'class' => 'form-control C1_D_table',
+					'rows' => 2,
+			        'cols' => 13
+				);
+
+$button_1B_100 = array(
+					'id' => 'button_1B_100',
+					'name' => 'button_1B_100',
+					'class' => 'btn btn-primary',
+					'value' => 'Guardar',
+				);
+
+$attributes = array('id' => '1B_100');
+
+echo form_open( $this->uri->uri_string(), $attributes ); 
 
 ?>
 
@@ -15,217 +223,7 @@
 			<th> Seccion A. ingreso por la caza de animales </th>
 		</tr>
 	</table>
-	<!-- Item 100 --> 
-	<?php
-
-	$E1B_Ini_M = array(
-				'id' => 'E1B_Ini_M', 
-				'name' => 'E1B_Ini_M', 
-				'class' => 'form-control'
-				);
-
-	$E1B_Ini_A = array(
-				'id' => 'E1B_Ini_A', 
-				'name' => 'E1B_Ini_A', 
-				'class' => 'form-control'
-				);
-
-	$E1B_Fin_M = array(
-				'id' => 'E1B_Fin_M', 
-				'name' => 'E1B_Fin_M', 
-				'class' => 'form-control'
-				);
-
-	$E1B_Fin_A = array(
-				'id' => 'E1B_Fin_A', 
-				'name' => 'E1B_Fin_A', 
-				'class' => 'form-control'
-				);
-
-	$E1B_101_A = array(
-				'id' => 'E1B_101_A', 
-				'name' => 'E1B_101_A', 
-				'class' => 'form-control'
-				);
-
-
-	$E1B_Tipo_Nro = array(
-						'id' => 'E1B_Tipo_Nro',
-						'name' => 'E1B_Tipo_Nro',
-						'class' => 'form-control',
-						'readonly' => 'readonly'
-					);
-
-	$E1B_1A_Nombre = array(
-						'id' => 'E1B_1A_Nombre',
-						'name' => 'E1B_1A_Nombre',
-						'class' => 'form-control'
-					);
-
-
-	$E1B_101_B_a = array(
-						'id' => 'E1B_101_B_a',
-						'name' => 'E1B_101_B_a',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_b = array(
-						'id' => 'E1B_101_B_b',
-						'name' => 'E1B_101_B_b',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_c = array(
-						'id' => 'E1B_101_B_c',
-						'name' => 'E1B_101_B_c',
-						'class' => 'form-control',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_d = array(
-						'id' => 'E1B_101_B_d',
-						'name' => 'E1B_101_B_d',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_e = array(
-						'id' => 'E1B_101_B_e',
-						'name' => 'E1B_101_B_e',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_f = array(
-						'id' => 'E1B_101_B_f',
-						'name' => 'E1B_101_B_f',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_g = array(
-						'id' => 'E1B_101_B_g',
-						'name' => 'E1B_101_B_g',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_h = array(
-						'id' => 'E1B_101_B_h',
-						'name' => 'E1B_101_B_h',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_i = array(
-						'id' => 'E1B_101_B_i',
-						'name' => 'E1B_101_B_i',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_j = array(
-						'id' => 'E1B_101_B_j',
-						'name' => 'E1B_101_B_j',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_j_O = array(
-						'id' => 'E1B_101_B_j_O',
-						'name' => 'E1B_101_B_j_O',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_Total = array(
-						'id' => 'E1B_101_B_Total',
-						'name' => 'E1B_101_B_Total',
-						'class' => 'form-control C1_B_table',
-					);
-
-	$E1B_101_B_Obs = array(
-						'id' => 'E1B_101_B_Obs',
-						'name' => 'E1B_101_B_Obs',
-						'class' => 'form-control C1_B_table',
-						'rows' => 2,
-				        'cols' => 13
-					);
-
-	$E1B_101_C = array(
-				'id' => 'E1B_101_C', 
-				'name' => 'E1B_101_C', 
-				'class' => 'form-control'
-				);
-
-	$E1B_101_D_a = array(
-						'id' => 'E1B_101_D_a',
-						'name' => 'E1B_101_D_a',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_b = array(
-						'id' => 'E1B_101_D_b',
-						'name' => 'E1B_101_D_b',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_c = array(
-						'id' => 'E1B_101_D_c',
-						'name' => 'E1B_101_D_c',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_d = array(
-						'id' => 'E1B_101_D_d',
-						'name' => 'E1B_101_D_d',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_e = array(
-						'id' => 'E1B_101_D_e',
-						'name' => 'E1B_101_D_e',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_f = array(
-						'id' => 'E1B_101_D_f',
-						'name' => 'E1B_101_D_f',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_g = array(
-						'id' => 'E1B_101_D_g',
-						'name' => 'E1B_101_D_g',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_h_O = array(
-						'id' => 'E1B_101_D_h_O',
-						'name' => 'E1B_101_D_h_O',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_h = array(
-						'id' => 'E1B_101_D_h',
-						'name' => 'E1B_101_D_h',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_Total = array(
-						'id' => 'E1B_101_D_Total',
-						'name' => 'E1B_101_D_Total',
-						'class' => 'form-control C1_D_table'
-					);
-
-	$E1B_101_D_Obs = array(
-						'id' => 'E1B_101_D_Obs',
-						'name' => 'E1B_101_D_Obs',
-						'class' => 'form-control C1_D_table',
-						'rows' => 2,
-				        'cols' => 13
-					);
-
-	$button_1B_100 = array(
-						'id' => 'button_1B_100',
-						'name' => 'button_1B_100',
-						'class' => 'btn btn-primary',
-						'value' => 'Guardar',
-					);
-
-	?>
+	
 
 	<table class="table table-bordered">
 		<tr>

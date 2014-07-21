@@ -2,8 +2,20 @@
 
 class Cedula1b extends CI_Controller {
 
-	protected $E1B_Recursos_Naturales;
-	private $E1B_Recursos_Naturales_data;
+	private $table_master;
+	private $table_details;
+	private $table_local;
+
+	private $data_master;
+	private $data_deails;
+
+	private $array_fields;
+	private $condition;
+	private $number_rows;
+	private $result;
+	private $result_boolen;
+	private $message;
+	private $parameters;
 
 	function __construct()
 	{
@@ -11,87 +23,180 @@ class Cedula1b extends CI_Controller {
 		
 		$this->load->library('ion_auth');
 		$this->load->model('cedula1b_model');
-	}
 
-	private function get_fields($name_table)
-	{
-		$this->E1B_Recursos_Naturales = $this->cedula1b_model->get_fields($name_table);
+		$this->table_master = 'E1B_Recursos_Naturales';
+		$this->table_details = 'E1B_Produccion_Recursos';
 	}
-
 
 	public function index()
 	{
-		$data['title'] = 'Doc. ENSENSA 01B';
-		$data['nav'] = 'cedula1b';
-		$data['main_content'] = 'cedulas/cedula1b';
+		$this->parameters['title'] = 'Doc. ENSENSA 01B';
+		$this->parameters['nav'] = 'cedula1b';
+		$this->parameters['main_content'] = 'cedulas/cedula1b';
 
-		$this->load->view('frontend/template', $data);
+		$this->load->view('frontend/template', $this->parameters);
 	}
 
 	public function register_1b()
 	{
-		$this->get_fields('E1B_Recursos_Naturales');
-		$this->E1B_Recursos_Naturales_data['Cod_Vivienda'] = '00001';
+		// Data General //
+		$this->get_fields( $this->table_master );
+		$this->primary_key();
 
-		foreach ($this->E1B_Recursos_Naturales as $key => $name_field)
-		{
-			
-			if ( !in_array( $name_field, array('Cod_Vivienda') ) ) 
-			{
-				$this->E1B_Recursos_Naturales_data[$name_field] = ($this->input->post($name_field) == '') ? null : $this->input->post($name_field);
-			}
-		}
+		$this->array_fields = array( 'E1B_Informante_Nro', 'E1B_13', 'E1B_13_Obs' );
+		
+		$this->result_boolen = $this->operation_data( $this->array_fields );
 
-		$result = $this->cedula1b_model->insert_data( $this->E1B_Recursos_Naturales_data, 'E1B_Recursos_Naturales');
 
-		if ( $result > 0) 
-		{
-			$msg = "Se ha registrado satisfactoriamente los datos del informante.";
-		}
-		else
-		{
-			$msg = "Se ha producido un error.";	
-		}
-
-		$datos['msg'] = $msg;
-
-		$data['datos'] = $datos;
-		$this->load->view('frontend/json/json_view', $data);
-
+		// End Transaction //
+		$this->operation_result( $boolean, "los datos del informante" );
 	}
 
 	public function register_1b_100()
 	{
-		$this->E1B_Recursos_Naturales_data['Cod_Vivienda'] = '00001';
+		// Data General //
+		$this->get_fields( $this->table_master );
+		$this->primary_key();
 
-		$this->get_fields('E1B_Recursos_Naturales');
+		$this->array_fields = array( 'E1B_Ini_A', 'E1B_Fin_M', 'E1B_Fin_A', 'E1B_101_A', 'E1B_101_B_a', 'E1B_101_B_b', 'E1B_101_B_c', 'E1B_101_B_d', 'E1B_101_B_e', 'E1B_101_B_f', 'E1B_101_B_g', 'E1B_101_B_h', 'E1B_101_B_i', 'E1B_101_B_j', 'E1B_101_B_j_O', 'E1B_101_B_Total', 'E1B_101_B_Obs', 'E1B_101_C', 'E1B_101_D_a', 'E1B_101_D_b', 'E1B_101_D_c', 'E1B_101_D_d', 'E1B_101_D_e', 'E1B_101_D_f', 'E1B_101_D_g', 'E1B_101_D_h', 'E1B_101_D_h_O', 'E1B_101_D_Total', 'E1B_101_D_Obs' );
 
-		foreach ($this->E1B_Recursos_Naturales as $key => $name_field)
+		$this->result_boolen = $this->operation_data( $this->array_fields );
+
+
+		// Data Dynamic //
+		$this->get_fields( $this->table_details );
+
+		$this->array_fields = array( 'E1B_Tipo_Nro', 'E1B_1A_Nombre', 'E1B_1B', 'E1B_1C_Peso', 'E1B_1D_Venta_K', 'E1B_1D_Venta_T' , 'E1B_1D_Venta_M_Local', 'E1B_1D_Venta_M_Region', 'E1B_1D_Venta_M_Nacion', 'E1B_1D_Venta_M_NA', 'E1B_1D_Consumo_K', 'E1B_1D_Consumo_T', 'E1B_1D_Trueque_K', 'E1B_1D_Trueque_T', 'E1B_1D_Sub_K', 'E1B_1D_Sub_T', 'E1B_1D_Otro_K', 'E1B_1D_Otro_T' );
+
+		$this->condition = 'Cod_Vivienda = ' . $this->data_master['Cod_Vivienda'] . ' AND E1_B_13_Nro_Hogar = ' . $this->data_master['E1_B_13_Nro_Hogar'] . ' AND E1_201_Nro = ' . $this->data_master['E1_201_Nro'] . ' AND E1B_Tipo = "PC" OR E1B_Tipo = "SC"';
+
+		$this->result_boolen = ( $this->result_boolen == true ) ? $this->operation_data_details( $this->array_fields ) : false;
+
+
+		// End Transaction //
+		$this->operation_result( $this->result_boolen, "los datos de la seccion 100." );
+	}
+
+	public function register_1b_200()
+	{
+		// Data General //
+		$this->get_fields( $this->table_master );
+		$this->primary_key();
+
+		$this->array_fields = array( 'E1B_201_A', 'E1B_201_B_a', 'E1B_201_B_b', 'E1B_201_B_c', 'E1B_201_B_d', 'E1B_201_B_e', 'E1B_201_B_f', 'E1B_201_B_g', 'E1B_201_B_h', 'E1B_201_B_h_O', 'E1B_201_B_Total', 'E1B_201_B_Obs', 'E1B_201_C', 'E1B_201_D_a', 'E1B_201_D_b', 'E1B_201_D_c', 'E1B_201_D_d', 'E1B_201_D_e', 'E1B_201_D_f', 'E1B_201_D_g', 'E1B_201_D_h', 'E1B_201_D_h_O', 'E1B_201_D_Total', 'E1B_201_D_Obs' );
+
+		$this->result_boolen = $this->operation_data( $this->array_fields );
+
+
+		// End Transaction //
+		$this->operation_result( $this->result_boolen, "los datos de la seccion 200." );
+	}
+
+	private function get_fields($name_table)
+	{
+		$this->table_local = $this->cedula1b_model->get_fields($name_table);
+	}
+
+	private function primary_key()
+	{
+		$this->data_master['Cod_Vivienda'] = '00001';
+		$this->data_master['E1_B_13_Nro_Hogar'] = $this->input->post('E1_B_13_Nro_Hogar');
+		$this->data_master['E1_201_Nro'] = $this->input->post('E1_201_Nro');
+
+		$this->data_deails['Cod_Vivienda'] = '00001';
+		$this->data_deails['E1_B_13_Nro_Hogar'] = $this->input->post('E1_B_13_Nro_Hogar');
+		$this->data_deails['E1_201_Nro'] = $this->input->post('E1_201_Nro');
+	}
+
+	private function operation_data( $array_fields )
+	{
+		foreach ($this->table_local as $key => $name_field)
 		{
-			if ( in_array( $name_field, array( 'E1_B_13_Nro_Hogar', 'E1_201_Nro', 'E1B_Ini_A', 'E1B_Fin_M', 'E1B_Fin_A', 'E1B_101_A', 'E1B_101_B_a', 'E1B_101_B_b', 'E1B_101_B_c', 'E1B_101_B_d', 'E1B_101_B_e', 'E1B_101_B_f', 'E1B_101_B_g', 'E1B_101_B_h', 'E1B_101_B_i', 'E1B_101_B_j', 'E1B_101_B_j_O', 'E1B_101_B_Total', 'E1B_101_B_Obs', 'E1B_101_C', 'E1B_101_D_a', 'E1B_101_D_b', 'E1B_101_D_c', 'E1B_101_D_d', 'E1B_101_D_e', 'E1B_101_D_f', 'E1B_101_D_g', 'E1B_101_D_h', 'E1B_101_D_h_O', 'E1B_101_D_Total', 'E1B_101_D_Obs') ) ) 
+			if ( in_array( $name_field, $array_fields ) )
 			{
-				$this->E1B_Recursos_Naturales_data[$name_field] = ($this->input->post($name_field) == '') ? null : $this->input->post($name_field);
+				$this->data_master[$name_field] = ($this->input->post($name_field) == '') ? null : $this->input->post($name_field);
 			}
 		}
 
-		$condition = array('Cod_Vivienda' => $this->E1B_Recursos_Naturales_data['Cod_Vivienda'], 'E1_B_13_Nro_Hogar' => $this->E1B_Recursos_Naturales_data['E1_B_13_Nro_Hogar'], 'E1_201_Nro' => $this->E1B_Recursos_Naturales_data['E1_201_Nro'] );
+		$this->condition = array('Cod_Vivienda' => $this->data_master['Cod_Vivienda'], 'E1_B_13_Nro_Hogar' => $this->data_master['E1_B_13_Nro_Hogar'], 'E1_201_Nro' => $this->data_master['E1_201_Nro'] );
 
-		$result = $this->cedula1b_model->update_data( $this->E1B_Recursos_Naturales_data, 'E1B_Recursos_Naturales', $condition);
+		$this->number_rows = $this->cedula1b_model->count_result( $this->condition, $this->table_master );
 
-		if ( $result > 0) 
+		if ( $this->number_rows > 0 )
 		{
-			$msg = "Se ha registrado satisfactoriamente los datos del 1B - 100.";
+			$this->result = $this->cedula1b_model->update_data( $this->data_master, 'E1B_Recursos_Naturales', $this->condition );	
 		}
 		else
 		{
-			$msg = "Se ha producido un error.";	
+			$this->result = $this->cedula1b_model->insert_data( $this->data_master, $this->table_master );
 		}
 
-		$datos['msg'] = $msg;
+		return ( $this->result > 0 ) ? true : false;
 
-		$data['datos'] = $datos;
+	}
+
+	private function operation_data_details( $array_fields )
+	{
+		foreach ($this->table_local as $key => $name_field)
+		{
+			if ( in_array( $name_field, $array_fields ) ) 
+			{
+				$this->data_master[$name_field] = ($this->input->post($name_field) == '') ? null : $this->input->post($name_field);
+			}
+		}
+
+		$this->number_rows = $this->cedula1b_model->count_result( $this->condition, $this->table_details );
+
+		if ( $this->number_rows > 0)
+		{
+			$this->result = $this->cedula1b_model->delete_data( $this->table_details, $this->condition );
+			if ( $this->result == 0 )
+			{
+				return false;
+			}
+		}
+
+		foreach ($this->data_master['E1B_Tipo_Nro'] as $key => $value) 
+		{
+			foreach ($this->table_local as $second_key => $name_field)
+			{
+				if ( in_array( $name_field, $array_fields ) ) 
+				{
+					if ( $name_field == 'E1B_Tipo_Nro' )
+					{
+						$tipo = explode( "-", $value );
+						$this->data_deails['E1B_Tipo'] = $tipo[0];
+						$this->data_deails['E1B_Tipo_Nro'] = $tipo[1];
+					}
+					else
+					{
+						$this->data_deails[$name_field] = @$this->data_master[$name_field][$key];	
+					}
+				}
+			}
+
+			$this->result = $this->cedula1b_model->insert_data( $this->data_deails, $this->table_details );
+		}
+
+		return ( $this->result > 0 ) ? true : false;
+
+	}
+
+	private function operation_result($boolean, $message_succes)
+	{
+		if ( $boolean ) 
+		{
+			$this->message = "Se ha registrado satisfactoriamente " . $message_succes;
+		}
+		else
+		{
+			$this->message = "Se ha producido un error, recargue, verifique y vuelvalo a intentar.";
+		}
+
+		$this->parameters['msg'] = $this->message;
+
+		$data['datos'] = $this->parameters;
 		$this->load->view('frontend/json/json_view', $data);
-
 	}
 
 }
