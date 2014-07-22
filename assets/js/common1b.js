@@ -130,7 +130,7 @@ function DynamicRows(order, suffix)
 		row +=	'<td> <input type="text" id="E1B_1D_Otro_K_' + order + '_' + suf + '" name="E1B_1D_Otro_K[]" class="form-control" value="" /> </td>' +
 				'<td> <input type="text" id="E1B_1D_Otro_T_' + order + '_' + suf + '" name="E1B_1D_Otro_T[]" class="form-control" value="" /> </td>' +
 				
-				'<td> <button type="button" class="btn btn-warning"> Add </button> </td>' +
+				'<td> <button type="button" id="button_' + order + '_' + suf + '" class="btn btn-warning"> Add </button> </td>' +
 			'</tr>';
 
 	return row;

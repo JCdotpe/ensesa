@@ -186,7 +186,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		</tr>
 	</table>
 
-	<table id="table_200_A" class="table table-bordered">
+	<table id="table_PR" class="table table-bordered">
 		<tr>
 			<td rowspan="4"> Nro de orden </td>
 			<td rowspan="4"> 1A. ¿Que plantas, frutos y/o hojas silvestres obtubo de la recolección? </td>
@@ -322,7 +322,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		</tr>
 	</table>
 
-	<table id="table_200_C" class="table table-bordered">
+	<table id="table_SR" class="table table-bordered">
 		<tr>
 			<td rowspan="4"> Nro de orden </td>
 			<td rowspan="4"> 1A. ¿Que sub-producto elaboro? </td>

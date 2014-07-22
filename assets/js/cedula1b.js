@@ -2,25 +2,27 @@
 var this_value;
 
 // specific variables //
+var E1_201_Nro = $('#E1_201_Nro');
+
 var E1B_101_A = $('#E1B_101_A');
-var table_100_A = $('#table_100_A');
+var table_100_A = $('#table_PC');
 
 var E1B_101_C = $('#E1B_101_C');
-var table_100_C = $('#table_100_C');
+var table_100_C = $('#table_SC');
 
 
 var E1B_201_A = $('#E1B_201_A');
-var table_200_A = $('#table_200_A');
+var table_200_A = $('#table_PR');
 
 var E1B_201_C = $('#E1B_201_C');
-var table_200_C = $('#table_200_C');
+var table_200_C = $('#table_SR');
 
 
 var E1B_301_A = $('#E1B_301_A');
-var table_300_A = $('#table_300_A');
+var table_300_A = $('#table_PA');
 
 var E1B_301_C = $('#E1B_301_C');
-var table_300_C = $('#table_300_C');
+var table_300_C = $('#table_SA');
 
 // form variables //
 var frm_1B = $('#1B');
@@ -28,6 +30,115 @@ var frm_1B = $('#1B');
 var frm_1B_100 = $('#1B_100');
 var frm_1B_200 = $('#1B_200');
 var frm_1B_300 = $('#1B_300');
+
+
+// Head //
+E1_201_Nro.on(
+	{ change : function ( event ) 
+		{
+			var search_parameters = { 
+				E1_B_13_Nro_Hogar: $("input[name='E1_B_13_Nro_Hogar']").val(),
+				E1_201_Nro: $("input[name='E1_201_Nro']").val(),
+			};
+
+			$.ajax({
+				url: CI.site_url + '/cedulas/cedula1b/get_data',
+				type: 'POST',
+				cache: false,
+				data: search_parameters,
+				dataType: 'json',
+				success:function(json_data)
+				{
+
+					frm_1B_100[0].reset();
+					frm_1B_200[0].reset();
+					frm_1B_300[0].reset();
+
+					remove_rows = table_100_A.find('.row_pc');
+					remove_rows.remove();
+
+					box = frm_1B_100.find(':input');
+					box.removeAttr('disabled');
+					box.removeAttr('readonly');
+
+					var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
+
+					$.each( json_data.E1B_Recursos_Naturales, 
+							function(fila, valor)
+							{
+								valor = ( valor == null ) ? '' : valor;
+								
+								$('#' + fila).val(valor);
+
+								if ( $.inArray( fila, fields ) !== -1 )
+								{
+									if ( valor == 2 ) $('#' + fila).trigger('change');
+								}
+							}
+						);
+
+					var old_nro = 0;
+					var old_tipo = '';
+
+					$.each( json_data.E1B_Produccion_Recursos, 
+							function(i, datos)
+							{
+								tipo = datos.E1B_Tipo.toLowerCase();
+								nro = datos.E1B_Tipo_Nro;
+
+								if ( old_nro == 0 && old_tipo == '' )
+								{
+									old_tipo = tipo;
+									old_nro = nro;
+								}
+								else if ( old_nro != nro && old_tipo != tipo )
+								{
+									$('#button_' + old_nro + '_' + old_tipo).text('Add');
+									old_tipo = tipo;
+									old_nro = nro;
+								}
+
+								var row = DynamicRows( datos.E1B_Tipo_Nro, datos.E1B_Tipo );
+								$('#table_' + datos.E1B_Tipo).append(row);
+
+								$('#E1B_Tipo_Nro' + '_'+ nro +'_' + tipo).val( datos.E1B_Tipo + '-' + datos.E1B_Tipo_Nro );
+								$('#E1B_1A_Nombre' + '_'+ nro +'_' + tipo).val( datos.E1B_1A_Nombre );
+								
+								$('#E1B_1B' + '_' + nro + '_' + tipo).val( datos.E1B_1B );
+								$('#E1B_1C_Um' + '_' + nro + '_' + tipo).val( datos.E1B_1C_Um );
+								$('#E1B_1C_Peso' + '_' + nro + '_' + tipo).val( datos.E1B_1C_Peso );
+								
+								$('#E1B_1D_Venta_K' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Venta_K );
+								$('#E1B_1D_Venta_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Venta_T );
+								
+								$('#E1B_1D_Venta_M_Local' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Venta_M_Local );
+								$('#E1B_1D_Venta_M_Region' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Venta_M_Region );
+								$('#E1B_1D_Venta_M_Nacion' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Venta_M_Nacion );
+								$('#E1B_1D_Venta_M_NA' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Venta_M_NA );
+								
+								$('#E1B_1D_Consumo_K' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Consumo_K );
+								$('#E1B_1D_Consumo_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Consumo_T );
+								
+								$('#E1B_1D_Trueque_K' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Trueque_K );
+								$('#E1B_1D_Trueque_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Trueque_T );
+								
+								$('#E1B_1D_Sub_K' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Sub_K );
+								$('#E1B_1D_Sub_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Sub_T );
+								
+								$('#E1B_1D_Otro_K' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Otro_K );
+								$('#E1B_1D_Otro_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Otro_T );
+
+
+								$('#button_' + datos.E1B_Tipo_Nro + '_'  + tipo).text('Remove');
+							}
+						);
+
+					$('#button_' + nro + '_' + tipo).text('Add');
+				}
+			});
+		}
+	}
+);
 
 
 // Question 100 //

@@ -191,7 +191,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		</tr>
 	</table>
 
-	<table id="table_300_A" class="table table-bordered">
+	<table id="table_PA" class="table table-bordered">
 		<tr>
 			<td rowspan="4"> Nro de orden </td>
 			<td rowspan="4"> 1A. ¿Que especies obtubo de la pesca? </td>
@@ -324,7 +324,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		</tr>
 	</table>
 
-	<table id="table_300_C" class="table table-bordered">
+	<table id="table_SA" class="table table-bordered">
 		<tr>
 			<td rowspan="4"> Nro de orden </td>
 			<td rowspan="4"> 1A. ¿Que sub-producto elaboro? </td>
