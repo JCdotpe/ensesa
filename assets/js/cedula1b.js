@@ -50,16 +50,10 @@ E1_201_Nro.on(
 				success:function(json_data)
 				{
 
-					frm_1B_100[0].reset();
-					frm_1B_200[0].reset();
-					frm_1B_300[0].reset();
-
-					remove_rows = table_100_A.find('.row_pc');
-					remove_rows.remove();
-
-					box = frm_1B_100.find(':input');
-					box.removeAttr('disabled');
-					box.removeAttr('readonly');
+					var forms = [ frm_1B_100.attr('id'), frm_1B_200.attr('id'), frm_1B_300.attr('id') ];
+					var tables = [ table_100_A.attr('id'), table_100_C.attr('id'), table_200_A.attr('id'), table_200_C.attr('id'), table_300_A.attr('id'), table_300_C.attr('id') ];
+					
+					clear_form( forms, tables, 'row_pc' );
 
 					var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
 
