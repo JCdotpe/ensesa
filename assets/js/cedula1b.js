@@ -73,6 +73,8 @@ E1_201_Nro.on(
 
 					var old_nro = 0;
 					var old_tipo = '';
+					var nro = 0;
+					var tipo = '';
 
 					$.each( json_data.E1B_Produccion_Recursos, 
 							function(i, datos)
@@ -316,8 +318,8 @@ frm_1B.validate(
 		{
 			var data_1b = frm_1B.serializeArray();
 			
-			// var b_frm_1b = frm_1B.find(':submit');
-			// button_frm_1b.attr('disabled','disabled');
+			var button_form = $(frm_1B).find(':submit');
+			button_form.attr('disabled','disabled');
 
 			$.ajax({
 				url: CI.site_url + '/cedulas/cedula1b/register_1b',
@@ -327,13 +329,12 @@ frm_1B.validate(
 				success:function(json) 
 				{
 					alert(json.msg);
-					// button_frm_1b.removeAttr('disabled');
+					button_form.removeAttr('disabled');
 				}
 			});
 		}
 	}
 );
-
 
 
 // Form 1B_100 //
@@ -374,6 +375,9 @@ frm_1B_100.validate(
 		{
 			var data_1b_100 = frm_1B_100.serializeArray();
 
+			var button_form = $(frm_1B_100).find(':submit');
+			button_form.attr('disabled','disabled');
+
 			data_1b_100.push(
 				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
@@ -386,7 +390,8 @@ frm_1B_100.validate(
 				dataType: 'json',
 				success:function(json) 
 				{
-					alert(json.msg);				
+					alert(json.msg);
+					button_form.removeAttr('disabled');
 				}
 			});
 		}
@@ -429,6 +434,9 @@ frm_1B_200.validate(
 		{
 			var data_1b_200 = frm_1B_200.serializeArray();
 
+			var button_form = $(frm_1B_200).find(':submit');
+			button_form.attr('disabled','disabled');
+
 			data_1b_200.push(
 				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
@@ -441,12 +449,14 @@ frm_1B_200.validate(
 				dataType: 'json',
 				success:function(json) 
 				{
-					alert(json.msg);				
+					alert(json.msg);
+					button_form.removeAttr('disabled');		
 				}
 			});
 		}
 	}
 );
+
 
 // Form 1B_300 //
 frm_1B_300.validate(
@@ -483,6 +493,9 @@ frm_1B_300.validate(
 		{
 			var data_1b_300 = frm_1B_300.serializeArray();
 
+			var button_form = $(frm_1B_300).find(':submit');
+			button_form.attr('disabled','disabled');
+
 			data_1b_300.push(
 				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
@@ -495,7 +508,8 @@ frm_1B_300.validate(
 				dataType: 'json',
 				success:function(json) 
 				{
-					alert(json.msg);				
+					alert(json.msg);
+					button_form.removeAttr('disabled');
 				}
 			});
 		}

@@ -1,4 +1,4 @@
-<?php 
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 	class Base_model extends CI_MODEL
 	{
@@ -34,6 +34,12 @@
 		{
 			$this->db->where( $condition );
 			return $this->db->count_all_results( $table );
+		}
+
+		function select_data( $table, $condition )
+		{
+			$query = $this->db->get_where( $table, $condition );
+			return $query;
 		}
 
 	}

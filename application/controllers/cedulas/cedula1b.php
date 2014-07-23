@@ -131,8 +131,8 @@ class Cedula1b extends CI_Controller {
 	{
 		$this->primary_key();
 
-		$this->parameters[$this->table_master] = $this->cedula1b_model->get_data( $this->table_master, $this->condition )->row();
-		$this->parameters[$this->table_details] = $this->cedula1b_model->get_data( $this->table_details, $this->condition )->result();
+		$this->parameters[$this->table_master] = $this->cedula1b_model->select_data( $this->table_master, $this->condition )->row();
+		$this->parameters[$this->table_details] = $this->cedula1b_model->select_data( $this->table_details, $this->condition )->result();
 
 		$data['datos'] = $this->parameters;
 		$this->load->view('frontend/json/json_view', $data);
