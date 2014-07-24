@@ -47,10 +47,11 @@ class Location extends CI_Controller {
 		}
 
 		$result = $this->location_model->select_data( 'PadVivienda', $this->condition )->row();
-
 		$this->condition = 'Cod_Vivienda = ' . $result->Cod_Vivienda;
 
-		$this->parameters['HOGAR'] = $this->location_model->select_data( 'E1_Vivienda_Hogar', $this->condition )->row();
+
+		$this->parameters['HOGAR'] = $this->location_model->select_for_field( 'E1_Vivienda_Hogar', 'E1_B_12', $this->condition )->row();
+		$this->parameters['HOGAR_DETAIL'] = $this->location_model->select_for_field( 'E1_Vivienda_Hogar', 'E1_B_13_Nro_Hogar', $this->condition )->result();
 
 		$data['datos'] = $this->parameters;
 		$this->load->view('frontend/json/json_view', $data);

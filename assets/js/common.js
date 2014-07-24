@@ -13,3 +13,9 @@ function event_keyup_jump()
 				}
 			}
 }
+
+function clear_by_class ( name_class )
+{
+	$(':input.' + name_class +'[type="text"]').val('');
+	$('.' + name_class).empty();
+}

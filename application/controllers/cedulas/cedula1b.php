@@ -123,7 +123,6 @@ class Cedula1b extends CI_Controller {
 
 
 		// End Transaction //
-
 		$this->operation_result( $this->result_boolen, "los datos de la seccion 300." );
 	}
 
@@ -133,6 +132,7 @@ class Cedula1b extends CI_Controller {
 
 		$this->parameters[$this->table_master] = $this->cedula1b_model->select_data( $this->table_master, $this->condition )->row();
 		$this->parameters[$this->table_details] = $this->cedula1b_model->select_data( $this->table_details, $this->condition )->result();
+		$this->parameters['E1_Persona'] = $this->cedula1b_model->get_data_person( 'E1_202_Nombre, E1_202_Apellidos', 'E1_Persona', $this->condition )->row();
 
 		$data['datos'] = $this->parameters;
 		$this->load->view('frontend/json/json_view', $data);
@@ -158,7 +158,7 @@ class Cedula1b extends CI_Controller {
 		$this->data_deails['E1_B_13_Nro_Hogar'] = $this->E1_B_13_Nro_Hogar;
 		$this->data_deails['E1_201_Nro'] = $this->E1_201_Nro;
 
-		$this->condition = 'Cod_Vivienda = ' . '00001' . ' AND E1_B_13_Nro_Hogar = ' . $this->E1_B_13_Nro_Hogar . ' AND E1_201_Nro = ' . $this->E1_201_Nro;
+		$this->condition = 'Cod_Vivienda = ' . '"00001"' . ' AND E1_B_13_Nro_Hogar = "' . $this->E1_B_13_Nro_Hogar . '" AND E1_201_Nro = ' . $this->E1_201_Nro;
 
 		$this->array_primary_key = array( 'Cod_Vivienda', 'E1_B_13_Nro_Hogar', 'E1_201_Nro' );
 

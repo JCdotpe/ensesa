@@ -98,31 +98,33 @@ $E1_201_Nro = array(
 $E1_202_Nombre = array(
 			'id' => 'E1_202_Nombre',
 			'name' => 'E1_202_Nombre',
-			'class' => 'form-control',
+			'class' => 'form-control data_head',
+			'readonly' => 'readonly',
 		);
 
 $E1_202_Apellidos = array(
 			'id' => 'E1_202_Apellidos',
 			'name' => 'E1_202_Apellidos',
-			'class' => 'form-control',
+			'class' => 'form-control data_head',
+			'readonly' => 'readonly',
 		);
 
 $E1B_Informante_Nro = array(
 			'id' => 'E1B_Informante_Nro',
 			'name' => 'E1B_Informante_Nro',
-			'class' => 'form-control',
+			'class' => 'form-control data_head',
 		);
 
 $E1B_13 = array(
 			'id' => 'E1B_13',
 			'name' => 'E1B_13',
-			'class' => 'form-control',
+			'class' => 'form-control data_head',
 		);
 
 $E1B_13_Obs = array(
 			'id' => 'E1B_13_Obs',
 			'name' => 'E1B_13_Obs',
-			'class' => 'form-control',
+			'class' => 'form-control data_head',
 			'type' => 'textarea',
 			'rows' => 2,
 			'cols' => 13
@@ -253,7 +255,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 							<tr>
 								<td colspan="2"> 12. Hogar N° </td>
 								<td> 
-									<?php echo form_input($E1_B_13_Nro_Hogar); ?> 
+									<select id="E1_B_13_Nro_Hogar" name="E1_B_13_Nro_Hogar" class="form-control"></select>
 									<div class="help-block error"></div>
 								</td>
 							</tr>
@@ -273,8 +275,14 @@ echo form_open( $this->uri->uri_string(), $attributes );
 			<div class="help-block error"></div>
 		</td>
 		<td colspan="3"> Nombre: </td>
-		<td> <?php echo form_input($E1_202_Nombre); ?> </td>
-		<td>  <?php echo form_input($E1_202_Apellidos); ?> </td>
+		<td> 
+			<?php echo form_input($E1_202_Nombre); ?>
+			<div class="help-block error"></div>
+		</td>
+		<td>  
+			<?php echo form_input($E1_202_Apellidos); ?>
+			<div class="help-block error"></div>
+		</td>
 		<td colspan="3"> Informante N&deg; </td>
 		<td> 
 			<?php echo form_input($E1B_Informante_Nro); ?> 
@@ -286,7 +294,10 @@ echo form_open( $this->uri->uri_string(), $attributes );
 <table class="table table-bordered">
 	<tr>
 		<th> 13. La actividad de recoleccion, caza y/o pesca realizada en los ultimos 12 meses, ¿Fue destinada a la venta?	</th>
-		<td> <?php echo form_input($E1B_13); ?> </td>
+		<td> 
+			<?php echo form_input($E1B_13); ?>
+			<div class="help-block error"></div>
+		</td>
 	</tr>
 </table>
 

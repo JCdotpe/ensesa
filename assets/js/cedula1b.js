@@ -117,6 +117,9 @@ B_10_Vivienda_nro.on(
 		{
 			var data = $('.location').serializeArray();
 
+			$('#E1_B_13_Nro_Hogar').empty();
+			$('#E1_B_12').val('');
+
 			$.ajax({
 				url: CI.site_url + '/cedulas/location/get_ubicacion_hogar',
 				type: 'POST',
@@ -129,7 +132,15 @@ B_10_Vivienda_nro.on(
 							function(fila, valor)
 							{
 								valor = ( valor == null ) ? '' : valor;
-								$('#' + fila).val(valor);
+								$('#E1_B_12').val(valor);
+							}
+						);
+
+					$.each( json_data.HOGAR_DETAIL,
+							function (i, datos)
+							{
+								row = '<option id="' + i + '" value="' + datos.search_column + '" >' + datos.search_column + '</option>';
+								$('#E1_B_13_Nro_Hogar').append(row);
 							}
 						);
 				}
@@ -143,9 +154,11 @@ E1_201_Nro.on(
 	{ change : function ( event ) 
 		{
 			var search_parameters = { 
-				E1_B_13_Nro_Hogar: $("input[name='E1_B_13_Nro_Hogar']").val(),
+				E1_B_13_Nro_Hogar: $("#E1_B_13_Nro_Hogar").val(),
 				E1_201_Nro: $("input[name='E1_201_Nro']").val(),
 			};
+
+			clear_by_class('data_head');
 
 			$.ajax({
 				url: CI.site_url + '/cedulas/cedula1b/get_data',
@@ -155,6 +168,14 @@ E1_201_Nro.on(
 				dataType: 'json',
 				success:function(json_data)
 				{
+
+					$.each( json_data.E1_Persona,
+							function (fila, valor)
+							{
+								valor = ( valor ==  null ) ? '' : valor;
+								$('#' + fila).val( valor );
+							}
+						);
 
 					var forms = [ frm_1B_100.attr('id'), frm_1B_200.attr('id'), frm_1B_300.attr('id') ];
 					var tables = [ table_100_A.attr('id'), table_100_C.attr('id'), table_200_A.attr('id'), table_200_C.attr('id'), table_300_A.attr('id'), table_300_C.attr('id') ];
@@ -391,7 +412,26 @@ frm_1B.validate(
 			},
 			E1_201_Nro :
 			{
+				required : true,
+				number : true,
+			},
+			E1_202_Nombre :
+			{
 				required : true
+			},
+			E1_202_Apellidos :
+			{
+				required : true
+			},
+			E1B_Informante_Nro :
+			{
+				required : true,
+				number : true,
+			},
+			E1B_13 :
+			{
+				required : true,
+				number : true,
 			}
 		},
 		messages :
