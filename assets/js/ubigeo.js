@@ -56,7 +56,8 @@ distrito.on(
 			set_code_ubigeo( codigo_distrito, value );
 
 			// **** Codigo eventual, de acuerdo sea el caso del app. Si no se necesita se elimna o comenta *** //
-
+			list_dropdown = ['A_4_Centro_Poblado', 'A_5_Comunidad_Nativa', 'A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
 			search_data_ubicacion('A_4_Centro_Poblado');
 			// ****
 		}
@@ -105,6 +106,7 @@ function set_code_ubigeo( input_code, value )
 	}
 }
 
+// **** Codigo eventual, de acuerdo sea el caso del app. Si no se necesita se elimna o comenta *** //
 function search_data_ubicacion( name_dropdown )
 {
 
@@ -119,6 +121,8 @@ function search_data_ubicacion( name_dropdown )
 		dataType: 'json',
 		success:function(json_data)
 		{
+			if (json_data.VIVIENDA.length == 0 ) { return; }
+
 			var row = '<option id="0" value="">SELECCIONE</option>';
 			$.each( json_data.VIVIENDA, 
 					function(i, datos)
@@ -129,4 +133,12 @@ function search_data_ubicacion( name_dropdown )
 			$('#' + name_dropdown).html(row);
 		}
 	});
+}
+
+function clean_dropdown( list_dropdown )
+{
+	for (var i = 0; i < list_dropdown.length; i++)
+	{
+		$('#' + list_dropdown[i]).empty();
+	}
 }

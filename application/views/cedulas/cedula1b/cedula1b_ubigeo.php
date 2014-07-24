@@ -248,7 +248,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 						<table class="table">
 							<tr>
 								<td colspan="2"> 11. Total de Hogares que ocupan la vivienda </td>
-								<td> <?php echo form_input($E1_B_12); ?> </td>			
+								<td> <?php echo form_input($E1_B_12); ?> </td>
 							</tr>
 							<tr>
 								<td colspan="2"> 12. Hogar N° </td>

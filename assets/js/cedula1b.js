@@ -2,6 +2,15 @@
 var this_value;
 
 // specific variables //
+var A_4_Centro_Poblado = $('#A_4_Centro_Poblado');
+var A_5_Comunidad_Nativa = $('#A_5_Comunidad_Nativa');
+var A_6_Anexo_Cn = $('#A_6_Anexo_Cn');
+var B_7_Zona = $('#B_7_Zona');
+var B_8_Manzana = $('#B_8_Manzana');
+var B_9_1_AER_ini = $('#B_9_1_AER_ini');
+var B_9_2_AER_fin = $('#B_9_2_AER_fin');
+var B_10_Vivienda_nro = $('#B_10_Vivienda_nro');
+
 var E1_201_Nro = $('#E1_201_Nro');
 
 var E1B_101_A = $('#E1B_101_A');
@@ -33,6 +42,103 @@ var frm_1B_300 = $('#1B_300');
 
 
 // Head //
+A_4_Centro_Poblado.on(
+	{ change: function ( event ) 
+		{
+			list_dropdown = ['A_5_Comunidad_Nativa', 'A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('A_5_Comunidad_Nativa');
+		}
+	}
+);
+
+A_5_Comunidad_Nativa.on(
+	{ change: function ( event )
+		{
+			list_dropdown = ['A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('A_6_Anexo_Cn');
+		}
+	}
+);
+
+A_6_Anexo_Cn.on(
+	{ change: function ( event )
+		{
+			list_dropdown = ['B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('B_7_Zona');
+		}
+	}
+);
+
+B_7_Zona.on(
+	{ change: function ( event )
+		{
+			list_dropdown = ['B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('B_8_Manzana');
+		}
+	}
+);
+
+B_8_Manzana.on(
+	{ change: function ( event )
+		{
+			list_dropdown = ['B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('B_9_1_AER_ini');
+		}
+	}
+);
+
+B_9_1_AER_ini.on(
+	{ change: function ( event ) 
+		{
+			list_dropdown = ['B_9_2_AER_fin', 'B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('B_9_2_AER_fin');
+		}
+	}
+);
+
+B_9_2_AER_fin.on(
+	{ change: function ( event ) 
+		{
+			list_dropdown = ['B_10_Vivienda_nro'];
+			clean_dropdown( list_dropdown );
+			search_data_ubicacion('B_10_Vivienda_nro');
+		}
+	}
+);
+
+B_10_Vivienda_nro.on(
+	{ change: function ( event ) 
+		{
+			var data = $('.location').serializeArray();
+
+			$.ajax({
+				url: CI.site_url + '/cedulas/location/get_ubicacion_hogar',
+				type: 'POST',
+				cache: false,
+				data: {'key':data},
+				dataType: 'json',
+				success:function(json_data)
+				{
+					$.each( json_data.HOGAR,
+							function(fila, valor)
+							{
+								valor = ( valor == null ) ? '' : valor;
+								$('#' + fila).val(valor);
+							}
+						);
+				}
+			});
+		}
+	}
+);
+
+
 E1_201_Nro.on(
 	{ change : function ( event ) 
 		{
