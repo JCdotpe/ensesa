@@ -253,10 +253,11 @@ E1_201_Nro.on(
 
 
 								$('#button_' + datos.E1B_Tipo_Nro + '_'  + tipo).text('Remove');
+								alert('nro: ' + nro + ' tipo: ' + tipo);
 							}
 						);
 
-					$('#button_' + nro + '_' + tipo).text('Add');
+					// $('#button_' + nro + '_' + tipo).text('Add');
 				}
 			});
 		}
@@ -525,7 +526,7 @@ frm_1B_100.validate(
 			button_form.attr('disabled','disabled');
 
 			data_1b_100.push(
-				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
+				{ name: 'E1_B_13_Nro_Hogar', value: $("#E1_B_13_Nro_Hogar").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
 			);
 			
@@ -584,7 +585,7 @@ frm_1B_200.validate(
 			button_form.attr('disabled','disabled');
 
 			data_1b_200.push(
-				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
+				{ name: 'E1_B_13_Nro_Hogar', value: $("#E1_B_13_Nro_Hogar").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
 			);
 			
@@ -643,7 +644,7 @@ frm_1B_300.validate(
 			button_form.attr('disabled','disabled');
 
 			data_1b_300.push(
-				{ name: 'E1_B_13_Nro_Hogar', value: $("input[name='E1_B_13_Nro_Hogar']").val() },
+				{ name: 'E1_B_13_Nro_Hogar', value: $("#E1_B_13_Nro_Hogar").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
 			);
 			

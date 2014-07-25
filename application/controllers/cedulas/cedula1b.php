@@ -210,26 +210,29 @@ class Cedula1b extends CI_Controller {
 			}
 		}
 
-		foreach ($this->data_master['E1B_Tipo_Nro'] as $key => $value) 
+		if ( isset($this->data_master['E1B_Tipo_Nro']) )
 		{
-			foreach ($this->table_local as $second_key => $name_field)
+			foreach ($this->data_master['E1B_Tipo_Nro'] as $key => $value) 
 			{
-				if ( !in_array( $name_field, $this->array_primary_key ) ) 
+				foreach ($this->table_local as $second_key => $name_field)
 				{
-					if ( $name_field == 'E1B_Tipo_Nro' )
+					if ( !in_array( $name_field, $this->array_primary_key ) ) 
 					{
-						$tipo = explode( "-", $value );
-						$this->data_deails['E1B_Tipo'] = $tipo[0];
-						$this->data_deails['E1B_Tipo_Nro'] = $tipo[1];
-					}
-					else
-					{
-						$this->data_deails[$name_field] = @$this->data_master[$name_field][$key];	
+						if ( $name_field == 'E1B_Tipo_Nro' )
+						{
+							$tipo = explode( "-", $value );
+							$this->data_deails['E1B_Tipo'] = $tipo[0];
+							$this->data_deails['E1B_Tipo_Nro'] = $tipo[1];
+						}
+						else
+						{
+							$this->data_deails[$name_field] = @$this->data_master[$name_field][$key];	
+						}
 					}
 				}
-			}
 
-			$this->result = $this->cedula1b_model->insert_data( $this->data_deails, $this->table_details );
+				$this->result = $this->cedula1b_model->insert_data( $this->data_deails, $this->table_details );
+			}
 		}
 
 		return ( $this->result > 0 ) ? true : false;

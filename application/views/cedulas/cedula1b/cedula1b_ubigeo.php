@@ -28,53 +28,53 @@ $A_3_Cod_Dist = array(
 				'readonly' => 'readonly',
 			);
 
-$A_4_Centro_Poblado = array(
-				'id' => 'A_4_Centro_Poblado',
-				'name' => 'A_4_Centro_Poblado',
-				'class' => 'form-control',
-			);
+// $A_4_Centro_Poblado = array(
+// 				'id' => 'A_4_Centro_Poblado',
+// 				'name' => 'A_4_Centro_Poblado',
+// 				'class' => 'form-control',
+// 			);
 
-$A_5_Comunidad_Nativa = array(
-				'id' => 'A_5_Comunidad_Nativa',
-				'name' => 'A_5_Comunidad_Nativa',
-				'class' => 'form-control',
-			);
+// $A_5_Comunidad_Nativa = array(
+// 				'id' => 'A_5_Comunidad_Nativa',
+// 				'name' => 'A_5_Comunidad_Nativa',
+// 				'class' => 'form-control',
+// 			);
 
-$A_6_Anexo_Cn = array(
-				'id' => 'A_6_Anexo_Cn',
-				'name' => 'A_6_Anexo_Cn',
-				'class' => 'form-control',
-			);
+// $A_6_Anexo_Cn = array(
+// 				'id' => 'A_6_Anexo_Cn',
+// 				'name' => 'A_6_Anexo_Cn',
+// 				'class' => 'form-control',
+// 			);
 
-$B_7_Zona = array(
-			'id' => 'B_7_Zona',
-			'name' => 'B_7_Zona',
-			'class' => 'form-control',
-		);
+// $B_7_Zona = array(
+// 			'id' => 'B_7_Zona',
+// 			'name' => 'B_7_Zona',
+// 			'class' => 'form-control',
+// 		);
 
-$B_8_Manzana = array(
-			'id' => 'B_8_Manzana',
-			'name' => 'B_8_Manzana',
-			'class' => 'form-control',
-		);
+// $B_8_Manzana = array(
+// 			'id' => 'B_8_Manzana',
+// 			'name' => 'B_8_Manzana',
+// 			'class' => 'form-control',
+// 		);
 
-$B_9_1_AER_ini = array(
-			'id' => 'B_9_1_AER_ini',
-			'name' => 'B_9_1_AER_ini',
-			'class' => 'form-control',
-		);
+// $B_9_1_AER_ini = array(
+// 			'id' => 'B_9_1_AER_ini',
+// 			'name' => 'B_9_1_AER_ini',
+// 			'class' => 'form-control',
+// 		);
 
-$B_9_2_AER_fin = array(
-			'id' => 'B_9_2_AER_fin',
-			'name' => 'B_9_2_AER_fin',
-			'class' => 'form-control',
-		);
+// $B_9_2_AER_fin = array(
+// 			'id' => 'B_9_2_AER_fin',
+// 			'name' => 'B_9_2_AER_fin',
+// 			'class' => 'form-control',
+// 		);
 
-$B_10_Vivienda_nro  = array(
-			'id' => 'B_10_Vivienda_nro',
-			'name' => 'B_10_Vivienda_nro',
-			'class' => 'form-control',
-		);
+// $B_10_Vivienda_nro  = array(
+// 			'id' => 'B_10_Vivienda_nro',
+// 			'name' => 'B_10_Vivienda_nro',
+// 			'class' => 'form-control',
+// 		);
 
 $E1_B_12 = array(
 			'id' => 'E1_B_12',
@@ -83,11 +83,11 @@ $E1_B_12 = array(
 			'readonly' => 'readonly',
 		);
 
-$E1_B_13_Nro_Hogar = array(
-			'id' => 'E1_B_13_Nro_Hogar',
-			'name' => 'E1_B_13_Nro_Hogar',
-			'class' => 'form-control',
-		);
+// $E1_B_13_Nro_Hogar = array(
+// 			'id' => 'E1_B_13_Nro_Hogar',
+// 			'name' => 'E1_B_13_Nro_Hogar',
+// 			'class' => 'form-control',
+// 		);
 
 $E1_201_Nro = array(
 			'id' => 'E1_201_Nro',
@@ -255,7 +255,9 @@ echo form_open( $this->uri->uri_string(), $attributes );
 							<tr>
 								<td colspan="2"> 12. Hogar N° </td>
 								<td> 
-									<select id="E1_B_13_Nro_Hogar" name="E1_B_13_Nro_Hogar" class="form-control"></select>
+									<select id="E1_B_13_Nro_Hogar" name="E1_B_13_Nro_Hogar" class="form-control">
+										<option value="145">145</option>
+									</select>
 									<div class="help-block error"></div>
 								</td>
 							</tr>
