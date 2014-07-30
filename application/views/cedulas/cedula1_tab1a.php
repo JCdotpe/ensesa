@@ -63,44 +63,52 @@ $A_4_Centro_Poblado = array(
 				'id' => 'A_4_Centro_Poblado',
 				'name' => 'A_4_Centro_Poblado',
 				'class' => 'form-control',
+				'value' => set_value('A_4_Centro_Poblado'),
 			);
 
 $A_5_Comunidad_Nativa = array(
 				'id' => 'A_5_Comunidad_Nativa',
 				'name' => 'A_5_Comunidad_Nativa',
 				'class' => 'form-control',
+				'value' => set_value('A_5_Comunidad_Nativa'),
 			);
 
 $A_6_Anexo_Cn = array(
 				'id' => 'A_6_Anexo_Cn',
 				'name' => 'A_6_Anexo_Cn',
 				'class' => 'form-control',
+				'value' => set_value('A_6_Anexo_Cn'),
 			);
 $B_7_Zona = array(
 			'id' => 'B_7_Zona',
 			'name' => 'B_7_Zona',
 			'class' => 'form-control',
+			'value' => set_value('B_7_Zona'),
 		);
 
 $B_8_Manzana = array(
 			'id' => 'B_8_Manzana',
 			'name' => 'B_8_Manzana',
 			'class' => 'form-control',
+			'value' => set_value('B_8_Manzana'),
 		);
 $B_9_1_AER_ini = array(
 			'id' => 'B_9_1_AER_ini',
 			'name' => 'B_9_1_AER_ini',
 			'class' => 'form-control',
+			'value' => set_value('B_9_1_AER_ini'),
 		);
 $B_9_2_AER_fin = array(
 			'id' => 'B_9_2_AER_fin',
 			'name' => 'B_9_2_AER_fin',
 			'class' => 'form-control',
+			'value' => set_value('B_9_2_AER_fin'),
 		);
 $B_10_Vivienda_nro = array(
 			'id' => 'B_10_Vivienda_nro',
 			'name' => 'B_10_Vivienda_nro',
 			'class' => 'form-control',
+			'value' => set_value('B_10_Vivienda_nro'),
 		);
 ?>
 
@@ -114,7 +122,7 @@ $B_10_Vivienda_nro = array(
 *************************************************************************************************************************************************************************************************************************************************************-->
 <?php echo form_open('','id="frmTab1"'); ?>
 	<br><br>
-	<table class="table table-bordered tableSerialized">
+	<table class="table table-bordered E1_Vivienda_Hogar">
 		<tr>
 			<th colspan="3"><center><h3>VIVIENDA, HOGAR, EDUCACIÓN, SALUD, EMPLEO E INGRESOS, CONSERVACIÓN DE BOSQUES, RECURSOS Y SERVICIOS DEL BOSQUE, DEFORESTACIÓN Y COMITÉ DE VIGILANCIA DEL BOSQUE</h3></center>   </th>
 		</tr>
@@ -127,8 +135,14 @@ $B_10_Vivienda_nro = array(
 		</tr>
 	</table><br>
 
-	
-	<table id="tableUbigeo" name="tableUbigeo"class="table table-bordered"><!-- ubigeo-->
+	<?php echo validation_errors(); ?>
+	<?php if(isset($msgBox)){ 
+		echo '<div class="alert '.$msgBox['type'].' alert-dismissable">
+		  <button type="button" class="close" data-dismiss="alert">&times;</button>
+		  <strong>¡'.$msgBox['title'].'!</strong> '.$msgBox['msg'].'.
+		</div>';
+	} ?>
+	<table id="PadVivienda" name="PadVivienda" class="table table-bordered"><!-- ubigeo-->
 		<tr>
 			<td>
 				<table class="table">
@@ -153,21 +167,25 @@ $B_10_Vivienda_nro = array(
 			</td>
 		</tr>
 	</table>
+
+
+
+
 	<?php 
-		if (isset($cod_vivienda) && !is_null($cod_vivienda)) {
+		if (isset($Cod_Vivienda) && !is_null($Cod_Vivienda)) {
+			echo '<input type="hidden" id="Cod_Vivienda" name="Cod_Vivienda" value="'.$Cod_Vivienda. '">'; 
+			echo '<br><table class="table table-bordered">
+				<tr>
+					<td colspan="4"> <div class="col-md-2">HOGAR N°</div><div class="col-md-2"><input type="input" id="hogarFind" name="hogarFind" class="form-control" required/></div><div class="col-md-2">'.form_button('find1','Buscar','id="find1" class="btn btn-info"').'</div> </td>
+					<td>'.form_button('nuevoHogar','Nuevo hogar','id="nuevoHogar" class="btn btn-info"').'</td>
+					<td>'.anchor('/cedulas/cedula1','Nuevo ubigeo','class="btn btn-info"').'</td>
+				</tr>
+			</table>';
 			$this->load->view('cedulas/cedula1_tab1b');
-		}else{
-			echo form_submit('find1','Buscar','id="find1"'); 
+			echo form_button('save1','Guardar','id="save1" class="btn btn-info hide"'); 
 		}
-	
-
-
 	?>
-
-
-
-	<?php //echo form_button('save1','Guardar','id="save1"'); ?>
-	<?php echo form_button('save1','Guardar','id="save1"'); ?>
+	
 
 <?php echo form_close(); ?>
 
@@ -175,22 +193,6 @@ $B_10_Vivienda_nro = array(
 
 
 <script type="text/javascript">
-
-    var jsonUbigeo = (function () {
-          var json = null;
-          $.ajax({
-              type: 'GET',
-              'async': false,
-              'global': false,
-              'url': "<?php echo base_url(); ?>" + 'assets/json/ubigeo.json' ,// json file en servidor
-              'dataType': "json",
-              'success': function(data) {
-                  json = data;
-              }
-          });
-          return json.Ubigeo;
-    })();
-
 
     $("#A_1_Cod_Dpto").change(function () {
     	var depVal = parseInt($(this).val())-1;
@@ -216,10 +218,104 @@ $B_10_Vivienda_nro = array(
     	};
     })
 
-    $("#find1").click(function (argument) {
-    	//$("#tableUbigeo :input").attr('disabled','disabled');
-    	var formData = $(".tableSerialized :input").serializeArray();
-    	console.log(formData);
+
+    $("#nuevoHogar").click(function () {
+    	$('body').find('li, button, table').removeClass('hide');
+		$("#E1_Cuestionario_Nro").removeAttr('disabled');
+		$("#E1_Cuestionario_Nro").focus();
     })
+
+    $("#find1").click(function () {
+    	var btn = $(this);
+    	var hogarFind = $("#hogarFind").val();
+    	if (hogarFind!=""  && hogarFind.match(/^[0-9]+$/) ) {
+    		btn.attr('disabled','disabled');
+	    	$.ajax({
+	    		url:"<?php echo current_url(); ?>"+"/"+hogarFind,
+	    		type:'GET',
+	    		dataType:'JSON',
+	    		//data:{'E1_B_13_Nro_Hogar':hogarFind},
+	    		success:function (returnData) {
+	    			if ($.type(returnData.E1_Vivienda_Hogar) !== 'null') {
+		    			$.each(returnData.E1_Vivienda_Hogar[0],function (fName,fValue) {
+		    				$("#"+fName).val(fValue);
+		    				//console.log(fName);
+		    			})	    				
+	    			};
+	    			if ($.type(returnData.E1_Visita_VH) !== 'null') {
+	    				for (var i = 0; i < 7; i++) {
+			    			$.each(returnData.E1_Visita_VH[i],function (fName,fValue) {
+			    				$("#"+fName+"_"+(i+1)).val(fValue);
+			    			})	  
+	    				};
+  				
+	    			};	    			
+	    			$('.liUbigeo a').html('UBIGEO - CAP. 100');
+	    			btn.removeAttr('disabled');
+			    	$('body').find('li, button, table').removeClass('hide');
+					$("#E1_Cuestionario_Nro").removeAttr('disabled');
+					$("#E1_Cuestionario_Nro").focus();
+					$("#E1_B_13_Nro_Hogar").attr('readonly','readonly');
+	    		}
+	    	})    		
+    	}else{
+    		$("#hogarFind").focus().select();
+    		alert('Ingrese número válido para hogar');
+    	}
+
+    })
+
+    $("#save1").click(function () {
+    	//$("#PadVivienda :input").attr('disabled','disabled');
+    	var formData = $(".E1_Vivienda_Hogar :input").serializeArray();
+    	formData.push({name:'Cod_Vivienda',value:$('#Cod_Vivienda').val()});
+    	var visitaData = {};
+    	for (var i = 1; i <= 7; i++) {
+    		visitaData[i-1] = ($("#tableVisitaRow-"+i+" input").serializeArray());
+    	};
+    	//formData.push({name :'visitaData', value: visitaData});
+    	var nana = {hola:15,quehace:45};
+    	formData.push({name :'visitaData', value: JSON.stringify(visitaData)});
+    	console.log(formData);
+    	$.ajax({
+    		url:"<?php echo site_url(); ?>"+"/cedulas/cedula1/save/1",
+    		type:'POST',
+    		dataType:'JSON',
+    		data:formData,
+    		success:function (argument) {
+    			alert("ok");
+    		}
+    	})
+    })
+    
+
+
+$(function () {
+
+
+	var PadVivienda = <?php echo (isset($PadVivienda)? json_encode($PadVivienda) : "''"); ?>;
+	if (PadVivienda.length>=1) {
+
+		$.each(PadVivienda,function (idx,row) {
+			$.each(row,function (fieldName,fieldValue) {
+				if (fieldName == "A_1_Cod_Dpto" || fieldName == "A_2_Cod_Prov") {
+					$("#"+fieldName).val(fieldValue).trigger('change');
+				}else{
+					$("#"+fieldName).val(fieldValue);
+				};
+				$("#"+fieldName).attr('disabled','disabled');
+			})
+		})
+	};
+
+
+
+
+
+})
+
+
+
+
 
 </script>
