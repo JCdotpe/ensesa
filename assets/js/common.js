@@ -16,6 +16,19 @@ function event_keyup_jump()
 
 function clear_by_class ( name_class )
 {
-	$(':input.' + name_class +'[type="text"]').val('');
-	$('.' + name_class).empty();
+
+	for (var i = 0; i < name_class.length; i++)
+	{
+		$(':input.' + name_class[i] +'[type="text"],textarea').val('');
+		$('.' + name_class[i]).empty();
+	}
+}
+
+
+function clean_dropdown( list_dropdown )
+{
+	for (var i = 0; i < list_dropdown.length; i++)
+	{
+		$('#' + list_dropdown[i]).empty();
+	}
 }

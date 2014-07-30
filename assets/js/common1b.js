@@ -136,17 +136,20 @@ function DynamicRows(order, suffix)
 	return row;
 }
 
-function clear_form( array_form, array_table, name_class )
+function clear_form_1B( array_form, array_table, name_class )
 {
 
 	for (var i = 0; i < array_form.length; i++) 
 	{
-		$('#' + array_form[i])[0].reset();
+		$('#' + array_form[i]).get(0).reset();
 		$('#' + array_form[i]).find(':input').removeAttr('disabled');
 		$('#' + array_form[i]).find(':input').removeAttr('readonly');
 	}
 
-	for (var i = 0; i < array_table.length; i++) {
-		$('#' + array_table[i]).find('.' + name_class).remove();
+	for (var i = 0; i < array_table.length; i++) 
+	{
+		table = array_table[i];
+		suf = table.split('_');
+		$('#' + table).find('.' + name_class + suf[1].toLowerCase()).remove();
 	}
 }

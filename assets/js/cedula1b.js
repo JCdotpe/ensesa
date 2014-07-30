@@ -7,8 +7,6 @@ var A_5_Comunidad_Nativa = $('#A_5_Comunidad_Nativa');
 var A_6_Anexo_Cn = $('#A_6_Anexo_Cn');
 var B_7_Zona = $('#B_7_Zona');
 var B_8_Manzana = $('#B_8_Manzana');
-var B_9_1_AER_ini = $('#B_9_1_AER_ini');
-var B_9_2_AER_fin = $('#B_9_2_AER_fin');
 var B_10_Vivienda_nro = $('#B_10_Vivienda_nro');
 
 var E1_201_Nro = $('#E1_201_Nro');
@@ -45,8 +43,8 @@ var frm_1B_300 = $('#1B_300');
 A_4_Centro_Poblado.on(
 	{ change: function ( event ) 
 		{
-			list_dropdown = ['A_5_Comunidad_Nativa', 'A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
+			list_dropdown = ['A_5_Comunidad_Nativa', 'A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro', 'E1_B_13_Nro_Hogar'];
+			clean_ubigeo( list_dropdown, ['ubigeo'] );
 			search_data_ubicacion('A_5_Comunidad_Nativa');
 		}
 	}
@@ -55,8 +53,8 @@ A_4_Centro_Poblado.on(
 A_5_Comunidad_Nativa.on(
 	{ change: function ( event )
 		{
-			list_dropdown = ['A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
+			list_dropdown = ['A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro', 'E1_B_13_Nro_Hogar'];
+			clean_ubigeo( list_dropdown, ['ubigeo'] );
 			search_data_ubicacion('A_6_Anexo_Cn');
 		}
 	}
@@ -65,8 +63,8 @@ A_5_Comunidad_Nativa.on(
 A_6_Anexo_Cn.on(
 	{ change: function ( event )
 		{
-			list_dropdown = ['B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
+			list_dropdown = ['B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro', 'E1_B_13_Nro_Hogar'];
+			clean_ubigeo( list_dropdown, ['ubigeo'] );
 			search_data_ubicacion('B_7_Zona');
 		}
 	}
@@ -75,8 +73,8 @@ A_6_Anexo_Cn.on(
 B_7_Zona.on(
 	{ change: function ( event )
 		{
-			list_dropdown = ['B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
+			list_dropdown = ['B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro', 'E1_B_13_Nro_Hogar'];
+			clean_ubigeo( list_dropdown, ['ubigeo'] );
 			search_data_ubicacion('B_8_Manzana');
 		}
 	}
@@ -85,38 +83,47 @@ B_7_Zona.on(
 B_8_Manzana.on(
 	{ change: function ( event )
 		{
-			list_dropdown = ['B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
-			search_data_ubicacion('B_9_1_AER_ini');
+			list_dropdown = ['B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro', 'E1_B_13_Nro_Hogar'];
+			clean_ubigeo( list_dropdown, ['ubigeo'] );
+
+			var data = $('.location').serializeArray();
+			data.push({ name: 'search', value: 'B_10_Vivienda_nro' });
+
+			$.ajax({
+				url: CI.site_url + '/cedulas/location/get_ubicacion_vivienda',
+				type: 'POST',
+				cache: false,
+				data: {'key':data},
+				dataType: 'json',
+				success:function(json_data)
+				{
+					if (json_data.VIVIENDA.length == 0 ) { return; }
+
+					var row = '<option id="0" value="">SELECCIONE</option>';
+					$.each( json_data.VIVIENDA, 
+							function(i, datos)
+							{
+								$('#B_9_1_AER_ini').val( datos.B_9_1_AER_ini );
+								$('#B_9_2_AER_fin').val( datos.B_9_2_AER_fin );
+								
+								row += '<option id="' + i + '" value="' + datos.Cod_Vivienda + '" >' + datos.search_column + '</option>';
+							}
+						);
+					$('#B_10_Vivienda_nro').html(row);
+				}
+			});
 		}
 	}
 );
 
-B_9_1_AER_ini.on(
-	{ change: function ( event ) 
-		{
-			list_dropdown = ['B_9_2_AER_fin', 'B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
-			search_data_ubicacion('B_9_2_AER_fin');
-		}
-	}
-);
-
-B_9_2_AER_fin.on(
-	{ change: function ( event ) 
-		{
-			list_dropdown = ['B_10_Vivienda_nro'];
-			clean_dropdown( list_dropdown );
-			search_data_ubicacion('B_10_Vivienda_nro');
-		}
-	}
-);
 
 B_10_Vivienda_nro.on(
 	{ change: function ( event ) 
 		{
-			var data = $('.location').serializeArray();
+			contenido = $('#B_10_Vivienda_nro').val();
+			var data = { vivienda: contenido }
 
+			$('#vivienda').val( contenido );
 			$('#E1_B_13_Nro_Hogar').empty();
 			$('#E1_B_12').val('');
 
@@ -124,7 +131,7 @@ B_10_Vivienda_nro.on(
 				url: CI.site_url + '/cedulas/location/get_ubicacion_hogar',
 				type: 'POST',
 				cache: false,
-				data: {'key':data},
+				data: data,
 				dataType: 'json',
 				success:function(json_data)
 				{
@@ -139,7 +146,7 @@ B_10_Vivienda_nro.on(
 					$.each( json_data.HOGAR_DETAIL,
 							function (i, datos)
 							{
-								row = '<option id="' + i + '" value="' + datos.search_column + '" >' + datos.search_column + '</option>';
+								row = '<option id="' + i + '" value="' + datos.E1_B_13_Nro_Hogar + '" >' + datos.E1_B_13_Nro_Hogar + '</option>';
 								$('#E1_B_13_Nro_Hogar').append(row);
 							}
 						);
@@ -154,11 +161,12 @@ E1_201_Nro.on(
 	{ change : function ( event ) 
 		{
 			var search_parameters = { 
+				vivienda: $("input[name='vivienda']").val(),
 				E1_B_13_Nro_Hogar: $("#E1_B_13_Nro_Hogar").val(),
 				E1_201_Nro: $("input[name='E1_201_Nro']").val(),
 			};
 
-			clear_by_class('data_head');
+			clear_by_class(['data_head']);
 
 			$.ajax({
 				url: CI.site_url + '/cedulas/cedula1b/get_data',
@@ -180,7 +188,7 @@ E1_201_Nro.on(
 					var forms = [ frm_1B_100.attr('id'), frm_1B_200.attr('id'), frm_1B_300.attr('id') ];
 					var tables = [ table_100_A.attr('id'), table_100_C.attr('id'), table_200_A.attr('id'), table_200_C.attr('id'), table_300_A.attr('id'), table_300_C.attr('id') ];
 					
-					clear_form( forms, tables, 'row_pc' );
+					clear_form_1B( forms, tables, 'row_' );
 
 					var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
 
@@ -209,16 +217,22 @@ E1_201_Nro.on(
 								tipo = datos.E1B_Tipo.toLowerCase();
 								nro = datos.E1B_Tipo_Nro;
 
-								if ( old_nro == 0 && old_tipo == '' )
+								switch (old_tipo)
 								{
-									old_tipo = tipo;
-									old_nro = nro;
-								}
-								else if ( old_nro != nro && old_tipo != tipo )
-								{
-									$('#button_' + old_nro + '_' + old_tipo).text('Add');
-									old_tipo = tipo;
-									old_nro = nro;
+									case '':
+										old_tipo = tipo;
+										old_nro = nro;
+										break;
+
+									case tipo:
+										old_nro = nro;
+										break;
+
+									default:
+										$('#button_' + old_nro + '_' + old_tipo).text('Add');
+										old_tipo = tipo;
+										old_nro = nro;
+										break;
 								}
 
 								var row = DynamicRows( datos.E1B_Tipo_Nro, datos.E1B_Tipo );
@@ -253,11 +267,10 @@ E1_201_Nro.on(
 
 
 								$('#button_' + datos.E1B_Tipo_Nro + '_'  + tipo).text('Remove');
-								alert('nro: ' + nro + ' tipo: ' + tipo);
 							}
 						);
 
-					// $('#button_' + nro + '_' + tipo).text('Add');
+					$('#button_' + nro + '_' + tipo).text('Add');
 				}
 			});
 		}
@@ -468,6 +481,10 @@ frm_1B.validate(
 			var button_form = $(frm_1B).find(':submit');
 			button_form.attr('disabled','disabled');
 
+			data_1b.push(
+				{ name: 'vivienda', value: $("input[name='vivienda']").val() }
+			);
+
 			$.ajax({
 				url: CI.site_url + '/cedulas/cedula1b/register_1b',
 				type: 'POST',
@@ -526,6 +543,7 @@ frm_1B_100.validate(
 			button_form.attr('disabled','disabled');
 
 			data_1b_100.push(
+				{ name: 'vivienda', value: $("input[name='vivienda']").val() },
 				{ name: 'E1_B_13_Nro_Hogar', value: $("#E1_B_13_Nro_Hogar").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
 			);
@@ -585,6 +603,7 @@ frm_1B_200.validate(
 			button_form.attr('disabled','disabled');
 
 			data_1b_200.push(
+				{ name: 'vivienda', value: $("input[name='vivienda']").val() },
 				{ name: 'E1_B_13_Nro_Hogar', value: $("#E1_B_13_Nro_Hogar").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
 			);
@@ -644,6 +663,7 @@ frm_1B_300.validate(
 			button_form.attr('disabled','disabled');
 
 			data_1b_300.push(
+				{ name: 'vivienda', value: $("input[name='vivienda']").val() },
 				{ name: 'E1_B_13_Nro_Hogar', value: $("#E1_B_13_Nro_Hogar").val() },
 				{ name: 'E1_201_Nro', value: $("input[name='E1_201_Nro']").val() }
 			);

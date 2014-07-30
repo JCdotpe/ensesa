@@ -26,6 +26,11 @@ class Cedula1b extends CI_Controller {
 		$this->load->library('ion_auth');
 		$this->load->model('cedula1b_model');
 
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+
 		$this->table_master = 'E1B_Recursos_Naturales';
 		$this->table_details = 'E1B_Produccion_Recursos';
 	}
@@ -146,7 +151,7 @@ class Cedula1b extends CI_Controller {
 
 	private function primary_key()
 	{
-		$this->Cod_Vivienda = '00001';
+		$this->Cod_Vivienda = $this->my_encryption->decode( $this->input->post('vivienda') );
 		$this->E1_B_13_Nro_Hogar = $this->input->post('E1_B_13_Nro_Hogar');
 		$this->E1_201_Nro = $this->input->post('E1_201_Nro');
 
@@ -158,7 +163,7 @@ class Cedula1b extends CI_Controller {
 		$this->data_deails['E1_B_13_Nro_Hogar'] = $this->E1_B_13_Nro_Hogar;
 		$this->data_deails['E1_201_Nro'] = $this->E1_201_Nro;
 
-		$this->condition = 'Cod_Vivienda = ' . '"00001"' . ' AND E1_B_13_Nro_Hogar = "' . $this->E1_B_13_Nro_Hogar . '" AND E1_201_Nro = ' . $this->E1_201_Nro;
+		$this->condition = "Cod_Vivienda = '" . $this->Cod_Vivienda . "' AND E1_B_13_Nro_Hogar = '" . $this->E1_B_13_Nro_Hogar . "' AND E1_201_Nro = '" . $this->E1_201_Nro . "'";
 
 		$this->array_primary_key = array( 'Cod_Vivienda', 'E1_B_13_Nro_Hogar', 'E1_201_Nro' );
 

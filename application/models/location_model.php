@@ -4,10 +4,8 @@
 	{
 		function select_for_field( $table, $field, $condition)
 		{
-			$this->db->distinct();
-			$this->db->select( $field . ' AS search_column ' );
+			$this->db->select( $field );
 			$this->db->from( $table );
-			$this->db->group_by( $field );
 			$this->db->where( $condition );
 			$query = $this->db->get();
 			return $query;
