@@ -500,17 +500,246 @@ frm_1B.validate(
 	}
 );
 
+$.validator.addClassRules({
+	'E1B_1A_Nombre':
+	{
+		required: true
+	},
+	'E1B_1D_Venta_K':
+	{
+		required: true,
+		number: true
+	},
+	'E1B_1B':
+	{
+		required: true,
+		number:true,
+	},
+	'E1B_1C_Um':
+	{
+		required: true,
+	},
+	'E1B_1C_Peso':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Venta_K':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Venta_T':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Venta_M_Local':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Venta_M_Region':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Venta_M_Nacion':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Venta_M_NA':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Consumo_K':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Consumo_T':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Trueque_K':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Trueque_T':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Sub_K':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Sub_T':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Otro_K':
+	{
+		required: true,
+		number: true,
+	},
+	'E1B_1D_Otro_T':
+	{
+		required: true,
+		number: true,
+	}
+});
 
 // Form 1B_100 //
-frm_1B_100.validate(
-	{
-		rules : {
-			E1B_Ini_M : {
-				required : true,
-				valmes : 'E1B_Ini_M'
-			}
+$('#1B_100').validate({
+		rules : 
+		{
+			E1B_Ini_M: 
+			{
+				required: true,
+				mes: true
+			},
+			E1B_Ini_A: 
+			{
+				required: true,
+				digits: true,
+				year: true
+			},
+			E1B_Fin_M: 
+			{
+				required: true,
+				mes: true
+			},
+			E1B_Fin_A: 
+			{
+				required: true,
+				digits: true,
+				year: true
+			},
+			E1B_101_A: 
+			{
+				required: true,
+				digits: true
+			},
+			E1B_101_B_a:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_b:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_c:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_c:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_d:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_e:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_f:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_g:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_h:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_i:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_j:
+			{
+				required: true,
+				number: true
+			},
+			E1B_101_B_Total:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_C:
+			{
+				required: true,
+				digits: true,
+			},
+			E1B_101_D_a:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_b:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_c:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_d:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_e:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_f:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_g:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_h:
+			{
+				required: true,
+				number: true,
+			},
+			E1B_101_D_Total:
+			{
+				required: true,
+				number: true,
+			},
 		},
-		messages : {
+		messages : 
+		{
 
 		},
 		errorPlacement: function(error, element) {
@@ -518,16 +747,13 @@ frm_1B_100.validate(
 		},
 		invalidHandler: function(form, validator) {
 			var errors = validator.numberOfInvalids();
-			if (errors) 
-			{
+			if (errors) {
 				var message = errors == 1
 				? 'Por favor corrige estos errores:\n'
 				: 'Por favor corrige los ' + errors + ' errores.\n';
 				var errors = "";
-				if (validator.errorList.length > 0) 
-				{
-					for (x=0;x<validator.errorList.length;x++) 
-					{
+				if (validator.errorList.length > 0) {
+					for (x=0;x<validator.errorList.length;x++) {
 						errors += "\n\u25CF " + validator.errorList[x].message;
 					}
 				}

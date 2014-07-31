@@ -86,7 +86,7 @@ $E1B_13 = array(
 $E1B_13_Obs = array(
 			'id' => 'E1B_13_Obs',
 			'name' => 'E1B_13_Obs',
-			'class' => 'form-control data_head',
+			'class' => 'form-control uppercase data_head',
 			'type' => 'textarea',
 			'rows' => 2,
 			'cols' => 13
@@ -122,7 +122,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 </table>
 
 <br>
-<table class="table table-bordered">
+<table class="table table-bordered" >
 	<tr>
 		<td>
 			<table class="table">
