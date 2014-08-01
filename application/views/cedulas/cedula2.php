@@ -5,7 +5,7 @@
 		<li> <a href="#sec_100" role="tab" data-toggle="tab"> 100 </a> </li>
 		<li> <a href="#sec_200" role="tab" data-toggle="tab"> 200 </a> </li>
 		<li> <a href="#sec_300" role="tab" data-toggle="tab"> 300 </a> </li>
-		<li> <a href="#sec_400" role="tab" data-toggle="tab"> 400  - 600 </a> </li>
+		<li> <a href="#sec_400" role="tab" data-toggle="tab"> 400  - 500 </a> </li>
 	</ul>
 
 	<!-- Tab panes -->
@@ -14,11 +14,16 @@
 			<?php $this->load->view('cedulas/cedula2/cedula2_ubigeo'); ?>
 		</div>
 		<div class="tab-pane" id="sec_100">
-			<?php $this->load->view('cedulas/cedula2/cedula2_base'); ?>
+			<?php $this->load->view('cedulas/cedula2/cedula2_100'); ?>
 		</div>
 		<div class="tab-pane" id="sec_200">
-			200
+			<?php $this->load->view('cedulas/cedula2/cedula2_200'); ?>
 		</div>
-	</div>
+		<div class="tab-pane" id="sec_300">
+			<?php $this->load->view('cedulas/cedula2/cedula2_300'); ?>
+		</div>
+		<div class="tab-pane" id="sec_400">
+			<?php $this->load->view('cedulas/cedula2/cedula2_400_500'); ?>
+		</div>
 
-</div>
+	</div>
