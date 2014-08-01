@@ -10,11 +10,6 @@
 			$(function() 
 			{
 				// the DOM is ready
-				$(document).on("keyup",'.btn-primary,.btn-warning',function(e) {    
-					var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
-					if(key == 13)
-					$(this).trigger('click');
-				});
 
 				$(window).keydown(function(event){
 
@@ -24,10 +19,20 @@
 					}
 
 				});
+				
+				$(document).on("keyup",'.btn-primary,.btn-warning',function(e) {    
+					var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+					if(key == 13)
+					$(this).trigger('click');
+				});
+
+				$(document).on("keyup",'.change',function(e) {
+					var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+					if(key == 13)
+					$(this).trigger('change');
+				});
 
 				$(document).on("keyup",'input,select,textarea,.btn-warning', event_keyup_jump());
-
-				
 
 			});
 			
