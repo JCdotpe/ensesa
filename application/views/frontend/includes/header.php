@@ -55,7 +55,7 @@
 			// creditcard: "Please enter a valid credit card number.",
 			// equalTo: "Please enter the same value again.",
 			// accept: "Please enter a value with a valid extension.",
-			// maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+			maxlength: jQuery.validator.format("Por favor no ingrese mas de {0} caracteres."),
 			// minlength: jQuery.validator.format("Please enter at least {0} characters."),
 			// rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
 			// range: jQuery.validator.format("Please enter a value between {0} and {1}."),
@@ -63,9 +63,15 @@
 			// min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
 		});
 
-		$.validator.addMethod("year", function(value, element, param) {
-			return this.optional(element) || ( (value > 1950 && value <= CI.year) || value == 9999 ) ;
+		$.validator.addMethod("year", function(value, element, param)
+		{
+			return this.optional(element) || ( (value > 1950 && value <= CI.year) || value == 9999 );
 		}, "Ingrese un año válido");
+
+		$.validator.addMethod("lettersonly", function(value, element) 
+		{
+			return this.optional(element) || /^[a-z]+$/i.test(value);
+		}, "Solo se permiten letras");
 
 		$.validator.addMethod("mes", function(value, element)
 		{
@@ -83,6 +89,34 @@
 			return flag;
 
 		}, "Ingrese un mes válido");
+
+		$.validator.addMethod("rangofecha", function(value, element, arg)
+		{
+			var flag = false;
+			var diferencia = 0;
+
+			var valores = [ $('#'+arg[0]).val() ,  $('#'+arg[1]).val() , $('#'+arg[2]).val() ];
+
+			var meses = new Array('ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC');
+
+			mes_inicio = $.inArray( valores[0].toUpperCase() , meses );
+			mes_fin = $.inArray( valores[2].toUpperCase(), meses );
+
+			if ( value > valores[1] )
+			{
+				diferencia = ( parseInt(value) - parseInt(valores[1]) ) + 9;
+				diferencia = diferencia + ( mes_inicio - mes_fin );
+			}
+			else if ( value == valores[1] )
+			{
+				diferencia = ( mes_fin - mes_inicio );
+			}
+
+			if ( diferencia == 11 ) { flag = true; }
+
+			return flag;
+
+		}, "Rango de fechas incorrecto");
 		
 	</script>
 

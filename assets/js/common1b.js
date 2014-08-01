@@ -12,7 +12,7 @@ function add_remove_row(event_target, params)
 
 	if ( method.trim() == 'Add' )
 	{
-		var row = DynamicRows(order, suf);
+		var row = DynamicRows( order, suf );
 
 		$('#'+ table).append(row);
 
@@ -47,7 +47,7 @@ function validate_table(input_value, name_table, suffix)
 	if (input_value == 1)
 	{
 		var order = 1;
-		var row = DynamicRows(order, suffix);
+		var row = DynamicRows( order, suffix );
 		
 		$('#' + name_table).append(row);
 
@@ -75,76 +75,67 @@ function salt_input(input_value, name_class, input_disabled)
 		for (var i = 0; i < name_class.length; i++)
 		{
 			$('.' + name_class[i]).closest('tr').find(':input').attr('disabled','disabled');
+			$('.' + name_class[i]).closest('tr').find(':input').val('');
 		}
 
 		if ( input_disabled != undefined )
 		{
 			$('#' + input_disabled).attr('disabled', 'disabled');
-		}
-	}
-	else if ( input_value == 3 )
-	{
-		for (var i = 0; i < name_class.length; i++)
-		{
-			$('.' + name_class[i]).closest('tr').find(':input').attr('disabled','disabled');
-		}
-
-		if ( input_disabled != undefined )
-		{
-			$('#' + input_disabled).attr('disabled', 'disabled');
+			$('#' + input_disabled).val('');
 		}
 	}
 
 }
 
-function DynamicRows(order, suffix)
+function DynamicRows( order, suffix )
 {
 	var suf = suffix.toLowerCase();
 	var row = '';
-		
+	// order = order - 1;
+
 	row = 	'<tr class="row_' + suf + '">' +
-				'<td> <input type="text" id="E1B_Tipo_Nro_0_' + suf + '" name="E1B_Tipo_Nro[0]" class="form-control order_' + suf + ' uppercase E1B_Tipo_Nro" value="' + suf.toUpperCase() + '-' + order + '" readonly /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1A_Nombre_0_' + suf + '" name="E1B_1A_Nombre[0]" class="form-control focus_' + suf + ' uppercase E1B_1A_Nombre" value="" /> <div class="help-block error"></div> </td>';
+				'<td> <input type="text" id="E1B_Tipo_Nro_' + order + '_' + suf + '" name="E1B_Tipo_Nro[' + order + ']" class="form-control order_' + suf + ' uppercase E1B_Tipo_Nro" value="' + suf.toUpperCase() + '-' + order + '" readonly /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1A_Nombre_' + order + '_' + suf + '" name="E1B_1A_Nombre[' + order + ']" class="form-control focus_' + suf + ' uppercase E1B_1A_Nombre" value="" maxlength="20" /> <div class="help-block error"></div> </td>';
 
 				if ( suf.toUpperCase() == 'PC' || suf.toUpperCase() == 'SC' || suf.toUpperCase() == 'PR' )
 				{
-					row += '<td> <input type="text" id="E1B_1B_0_' + suf + '" name="E1B_1B[0]" class="form-control E1B_1B" value="" /> <div class="help-block error"></div> </td>';
+					row += '<td> <input type="text" id="E1B_1B_' + order + '_' + suf + '" name="E1B_1B[' + order + ']" class="form-control E1B_1B" value="" maxlength="2" /> <div class="help-block error"></div> </td>';
 				}
 				
 				if ( suf.toUpperCase() == 'PR' )
 				{
-					row += '<td> <input type="text" id="E1B_1C_Um_0_' + suf + '" name="E1B_1C_Um[0]" class="form-control input-sm E1B_1C_Um" value="" /> <div class="help-block error"></div> </td>';
+					row += '<td> <input type="text" id="E1B_1C_Um_' + order + '_' + suf + '" name="E1B_1C_Um[' + order + ']" class="form-control input-sm uppercase E1B_1C_Um" value="" maxlength="20" /> <div class="help-block error"></div> </td>';
 				}
 				
 				if ( suf.toUpperCase() == 'PC' || suf.toUpperCase() == 'PR' || suf.toUpperCase() == 'SR' || suf.toUpperCase() == 'PA' || suf.toUpperCase() == 'SA' )
 				{
-					row += '<td> <input type="text" id="E1B_1C_Peso_0_' + suf + '" name="E1B_1C_Peso[0]" class="form-control E1B_1C_Peso" value="" /> <div class="help-block error"></div> </td>';
+					row += '<td> <input type="text" id="E1B_1C_Peso_' + order + '_' + suf + '" name="E1B_1C_Peso[' + order + ']" class="form-control E1B_1C_Peso" value="" maxlength="9" /> <div class="help-block error"></div> </td>';
 				}
 
-		row +=	'<td> <input type="text" id="E1B_1D_Venta_K_0_' + suf + '" name="E1B_1D_Venta_K[0]" class="form-control E1B_1D_Venta_K" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Venta_T_0_' + suf + '" name="E1B_1D_Venta_T[0]" class="form-control E1B_1D_Venta_T" value="" /> <div class="help-block error"></div> </td>' +
+		row +=	'<td> <input type="text" id="E1B_1D_Venta_K_' + order + '_' + suf + '" name="E1B_1D_Venta_K[' + order + ']" class="form-control E1B_1D_Venta_K" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Venta_T_' + order + '_' + suf + '" name="E1B_1D_Venta_T[' + order + ']" class="form-control E1B_1D_Venta_T" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
 				
-				'<td> <input type="text" id="E1B_1D_Venta_M_Local_0_' + suf + '" name="E1B_1D_Venta_M_Local[0]" class="form-control E1B_1D_Venta_M_Local" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Venta_M_Region_0_' + suf + '" name="E1B_1D_Venta_M_Region[0]" class="form-control E1B_1D_Venta_M_Region" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Venta_M_Nacion_0_' + suf + '" name="E1B_1D_Venta_M_Nacion[0]" class="form-control E1B_1D_Venta_M_Nacion" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Venta_M_NA_0_' + suf + '" name="E1B_1D_Venta_M_NA[0]" class="form-control E1B_1D_Venta_M_NA" value="" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Venta_M_Local_' + order + '_' + suf + '" name="E1B_1D_Venta_M_Local[' + order + ']" class="form-control E1B_1D_Venta_M_Local" value="" maxlength="1" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Venta_M_Region_' + order + '_' + suf + '" name="E1B_1D_Venta_M_Region[' + order + ']" class="form-control E1B_1D_Venta_M_Region" value="" maxlength="1" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Venta_M_Nacion_' + order + '_' + suf + '" name="E1B_1D_Venta_M_Nacion[' + order + ']" class="form-control E1B_1D_Venta_M_Nacion" value="" maxlength="1" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Venta_M_NA_' + order + '_' + suf + '" name="E1B_1D_Venta_M_NA[' + order + ']" class="form-control E1B_1D_Venta_M_NA" value="" maxlength="1" /> <div class="help-block error"></div> </td>' +
 				
-				'<td> <input type="text" id="E1B_1D_Consumo_K_0_' + suf + '" name="E1B_1D_Consumo_K[0]" class="form-control E1B_1D_Consumo_K" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Consumo_T_0_' + suf + '" name="E1B_1D_Consumo_T[0]" class="form-control E1B_1D_Consumo_T" value="" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Consumo_K_' + order + '_' + suf + '" name="E1B_1D_Consumo_K[' + order + ']" class="form-control E1B_1D_Consumo_K" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Consumo_T_' + order + '_' + suf + '" name="E1B_1D_Consumo_T[' + order + ']" class="form-control E1B_1D_Consumo_T" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
 				
-				'<td> <input type="text" id="E1B_1D_Trueque_K_0_' + suf + '" name="E1B_1D_Trueque_K[0]" class="form-control E1B_1D_Trueque_K" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Trueque_T_0_' + suf + '" name="E1B_1D_Trueque_T[0]" class="form-control E1B_1D_Trueque_T" value="" /> <div class="help-block error"></div> </td>';
+				'<td> <input type="text" id="E1B_1D_Trueque_K_' + order + '_' + suf + '" name="E1B_1D_Trueque_K[' + order + ']" class="form-control E1B_1D_Trueque_K" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Trueque_T_' + order + '_' + suf + '" name="E1B_1D_Trueque_T[' + order + ']" class="form-control E1B_1D_Trueque_T" value="" maxlength="9" /> <div class="help-block error"></div> </td>';
 				
 				if ( suf.toUpperCase() == 'PC' || suf.toUpperCase() == 'PR' || suf.toUpperCase() == 'PA' )
 				{
-					row += 	'<td> <input type="text" id="E1B_1D_Sub_K_0_' + suf + '" name="E1B_1D_Sub_K[0]" class="form-control E1B_1D_Sub_K" value="" /> <div class="help-block error"></div> </td>' +
-							'<td> <input type="text" id="E1B_1D_Sub_T_0_' + suf + '" name="E1B_1D_Sub_T[0]" class="form-control E1B_1D_Sub_T" value="" /> <div class="help-block error"></div> </td>';
+					row += 	'<td> <input type="text" id="E1B_1D_Sub_K_' + order + '_' + suf + '" name="E1B_1D_Sub_K[' + order + ']" class="form-control E1B_1D_Sub_K" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
+							'<td> <input type="text" id="E1B_1D_Sub_T_' + order + '_' + suf + '" name="E1B_1D_Sub_T[' + order + ']" class="form-control E1B_1D_Sub_T" value="" maxlength="9" /> <div class="help-block error"></div> </td>';
 				}
 
-		row +=	'<td> <input type="text" id="E1B_1D_Otro_K_0_' + suf + '" name="E1B_1D_Otro_K[0]" class="form-control E1B_1D_Otro_K" value="" /> <div class="help-block error"></div> </td>' +
-				'<td> <input type="text" id="E1B_1D_Otro_T_0_' + suf + '" name="E1B_1D_Otro_T[0]" class="form-control E1B_1D_Otro_T" value="" /> <div class="help-block error"></div> </td>' +
+		row +=	'<td> <input type="text" id="E1B_1D_Otro_K_' + order + '_' + suf + '" name="E1B_1D_Otro_K[' + order + ']" class="form-control E1B_1D_Otro_K" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
+				'<td> <input type="text" id="E1B_1D_Otro_T_' + order + '_' + suf + '" name="E1B_1D_Otro_T[' + order + ']" class="form-control E1B_1D_Otro_T" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
 				
-				'<td> <button type="button" id="button_0_' + suf + '" class="btn btn-warning"> Add </button> </td>' +
+				'<td> <button type="button" id="button_' + order + '_' + suf + '" class="btn btn-warning"> Add </button> </td>' +
 			'</tr>';
 
 	return row;

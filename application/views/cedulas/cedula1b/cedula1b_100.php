@@ -55,75 +55,86 @@ $E1B_1A_Nombre = array(
 $E1B_101_B_a = array(
 					'id' => 'E1B_101_B_a',
 					'name' => 'E1B_101_B_a',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_b = array(
 					'id' => 'E1B_101_B_b',
 					'name' => 'E1B_101_B_b',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_c = array(
 					'id' => 'E1B_101_B_c',
 					'name' => 'E1B_101_B_c',
-					'class' => 'form-control',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_d = array(
 					'id' => 'E1B_101_B_d',
 					'name' => 'E1B_101_B_d',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_e = array(
 					'id' => 'E1B_101_B_e',
 					'name' => 'E1B_101_B_e',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_f = array(
 					'id' => 'E1B_101_B_f',
 					'name' => 'E1B_101_B_f',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_g = array(
 					'id' => 'E1B_101_B_g',
 					'name' => 'E1B_101_B_g',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_h = array(
 					'id' => 'E1B_101_B_h',
 					'name' => 'E1B_101_B_h',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_i = array(
 					'id' => 'E1B_101_B_i',
 					'name' => 'E1B_101_B_i',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_j = array(
 					'id' => 'E1B_101_B_j',
 					'name' => 'E1B_101_B_j',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control change C1_B_table C1_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_B_j_O = array(
 					'id' => 'E1B_101_B_j_O',
 					'name' => 'E1B_101_B_j_O',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control uppercase C1_B_table',
+					'readonly' => 'readonly',
+					'maxlength' => 20
 				);
 
 $E1B_101_B_Total = array(
 					'id' => 'E1B_101_B_Total',
 					'name' => 'E1B_101_B_Total',
 					'class' => 'form-control C1_B_table',
-					'readonly' => 'readonly',
+					'readonly' => 'readonly'
 				);
 
 $E1B_101_B_Obs = array(
@@ -144,55 +155,65 @@ $E1B_101_C = array(
 $E1B_101_D_a = array(
 					'id' => 'E1B_101_D_a',
 					'name' => 'E1B_101_D_a',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_b = array(
 					'id' => 'E1B_101_D_b',
 					'name' => 'E1B_101_D_b',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_c = array(
 					'id' => 'E1B_101_D_c',
 					'name' => 'E1B_101_D_c',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_d = array(
 					'id' => 'E1B_101_D_d',
 					'name' => 'E1B_101_D_d',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_e = array(
 					'id' => 'E1B_101_D_e',
 					'name' => 'E1B_101_D_e',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_f = array(
 					'id' => 'E1B_101_D_f',
 					'name' => 'E1B_101_D_f',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_g = array(
 					'id' => 'E1B_101_D_g',
 					'name' => 'E1B_101_D_g',
-					'class' => 'form-control C1_D_table'
-				);
-
-$E1B_101_D_h_O = array(
-					'id' => 'E1B_101_D_h_O',
-					'name' => 'E1B_101_D_h_O',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_101_D_h = array(
 					'id' => 'E1B_101_D_h',
 					'name' => 'E1B_101_D_h',
-					'class' => 'form-control C1_D_table'
+					'class' => 'form-control C1_D_table C1_D_suma',
+					'maxlength' => 9
+				);
+
+$E1B_101_D_h_O = array(
+					'id' => 'E1B_101_D_h_O',
+					'name' => 'E1B_101_D_h_O',
+					'class' => 'form-control uppercase C1_D_table',
+					'readonly' => 'readonly',
+					'maxlength' => 20
 				);
 
 $E1B_101_D_Total = array(
@@ -363,7 +384,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 			<td colspan="2">
 				<table width="100%">
 					<tr>
-						<td> OBSERVACIONES <?php echo form_textarea($E1B_101_B_Obs); ?> </td>
+						<td> OBSERVACIONES <?php echo form_textarea($E1B_101_B_Obs); ?> <div class="help-block error"></div> </td>
 					</tr>
 				</table>
 			</td>
@@ -378,11 +399,17 @@ echo form_open( $this->uri->uri_string(), $attributes );
 	<table class="table table-bordered">
 		<tr>
 			<td> 1. En los ultimos 12 meses, de	</td>
-			<td> mes / anio </td>
+			<td> 
+				<label id="mes_inicio_1" name="mes_inicio_1" class="mes_inicio"></label> 
+				<label id="anio_inicio_1" name="anio_inicio_1" class="anio_inicio"></label>
+			</td>
 			<td align="center"> a </td>
-			<td> mes / anio </td>
+			<td> 
+				<label id="mes_fin_1" name="mes_fin_1" class="mes_fin"></label> 
+				<label id="anio_fin_1" name="anio_fin_1" class="anio_fin"></label>
+			</td>
 			<td align="center">¿Obtuvo o elaboro subproductos tales como: Cecina, pieles, etc.? </td>
-			<td> <?php echo form_input($E1B_101_C); ?> </td>
+			<td> <?php echo form_input($E1B_101_C); ?> <div class="help-block error"></div> </td>
 		</tr>
 	</table>
 
@@ -472,7 +499,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 	</table>
 	<table class="table table-bordered">
 		<tr>
-			<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_101_D_Obs); ?> </td>
+			<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_101_D_Obs); ?> <div class="help-block error"></div> </td>
 		</tr>
 	</table>
 	<div class="row">
@@ -481,3 +508,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		</div>
 	</div>
 <?php echo form_close(); ?>
+
+<script type="text/javascript">
+	
+</script>

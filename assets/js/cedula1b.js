@@ -11,6 +11,11 @@ var B_10_Vivienda_nro = $('#B_10_Vivienda_nro');
 
 var E1_201_Nro = $('#E1_201_Nro');
 
+var E1B_Ini_M = $('#E1B_Ini_M');
+var E1B_Ini_A = $('#E1B_Ini_A');
+var E1B_Fin_M = $('#E1B_Fin_M');
+var E1B_Fin_A = $('#E1B_Fin_A');
+
 var E1B_101_A = $('#E1B_101_A');
 var table_100_A = $('#table_PC');
 
@@ -235,12 +240,13 @@ E1_201_Nro.on(
 										break;
 								}
 
-								var row = DynamicRows( datos.E1B_Tipo_Nro, datos.E1B_Tipo );
+								var row = DynamicRows( datos.E1B_Tipo_Nro , datos.E1B_Tipo );
 								$('#table_' + datos.E1B_Tipo).append(row);
 
 								$('#E1B_Tipo_Nro' + '_'+ nro +'_' + tipo).val( datos.E1B_Tipo + '-' + datos.E1B_Tipo_Nro );
 								$('#E1B_1A_Nombre' + '_'+ nro +'_' + tipo).val( datos.E1B_1A_Nombre );
-								
+
+
 								$('#E1B_1B' + '_' + nro + '_' + tipo).val( datos.E1B_1B );
 								$('#E1B_1C_Um' + '_' + nro + '_' + tipo).val( datos.E1B_1C_Um );
 								$('#E1B_1C_Peso' + '_' + nro + '_' + tipo).val( datos.E1B_1C_Peso );
@@ -266,7 +272,7 @@ E1_201_Nro.on(
 								$('#E1B_1D_Otro_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Otro_T );
 
 
-								$('#button_' + datos.E1B_Tipo_Nro + '_'  + tipo).text('Remove');
+								$('#button_' + nro + '_'  + tipo).text('Remove');
 							}
 						);
 
@@ -279,6 +285,50 @@ E1_201_Nro.on(
 
 
 // Question 100 //
+E1B_Ini_M.on(
+	{ change: function () 
+			{
+				this_value = $(this).val().toUpperCase();
+
+				set_label( 'mes_inicio', this_value );
+			}
+	}
+);
+
+E1B_Ini_A.on(
+	{ change: function () 
+			{
+				this_value = $(this).val().toUpperCase();
+
+				set_label( 'anio_inicio', this_value );
+			}
+	}
+);
+
+E1B_Fin_M.on(
+	{ change: function () 
+			{
+				this_value = $(this).val().toUpperCase();
+				set_label( 'mes_fin', this_value );
+			}
+	}
+);
+
+E1B_Fin_A.on(
+	{ change: function () 
+			{
+				this_value = $(this).val().toUpperCase();
+				set_label( 'anio_fin', this_value );
+			}
+	}
+);
+
+function set_label ( name_class, valor )
+{
+	$('.' + name_class).text( valor );
+}
+
+
 // --> section A
 E1B_101_A.on( 
 	{ change : function( event ) 
@@ -302,6 +352,36 @@ table_100_A.on( 'click', 'button',
 
 );
 
+
+// --> section B
+$('input.C1_B_suma').on(
+	{ change: function () 
+			{
+				sum_per_class( 'C1_B_suma', 'E1B_101_B_Total');
+			}
+	}
+);
+
+var E1B_101_B_j = $('#E1B_101_B_j');
+
+E1B_101_B_j.on(
+	{ change: function () 
+			{
+				this_value = $(this).val();
+
+				if ( this_value.trim() != '' && this_value != '0' )
+				{
+					$('#E1B_101_B_j_O').removeAttr( 'readonly' );
+				}
+				else
+				{
+					$('#E1B_101_B_j_O').attr( 'readonly', 'readonly' );
+				}
+
+			}
+	}
+);
+
 // --> section C
 E1B_101_C.on( 
 	{ change : function( event ) 
@@ -318,6 +398,16 @@ table_100_C.on('click', 'button',
 	function( event ) 
 	{
 		add_remove_row(event.target, [ table_100_C.attr('id'), 'SC' ]);
+	}
+);
+
+
+// --> section D
+$('input.C1_D_suma').on(
+	{ change: function () 
+			{
+				sum_per_class( 'C1_D_suma', 'E1B_101_D_Total');
+			}
 	}
 );
 
@@ -344,6 +434,9 @@ table_200_A.on('click', 'button',
 		add_remove_row(event.target, [ table_200_A.attr('id'), 'PR' ]);	
 	}
 );
+
+
+
 
 // --> section C
 E1B_201_C.on(
@@ -414,38 +507,65 @@ function common_event_group ( id_table, name_class, input_value, input_disabled,
 	validate_table( input_value, id_table, suffix );
 }
 
+function sum_per_class ( name_class, input_total )
+{
+	var total = 0;
+
+	$('.' + name_class).each(function () {
+		
+		this_value = $(this).val();
+		this_value = ( this_value == '' || this_value == '0' ) ? 0 : parseInt(this_value);
+
+		total += this_value;
+	});
+
+	$('#' + input_total).val( total );
+
+}
+
 
 // Form 1B //
 frm_1B.validate(
 	{
 		rules : 
 		{
-			E1_B_13_Nro_Hogar : 
+			B_10_Vivienda_nro:
 			{
-				required : true
+				required: true
 			},
-			E1_201_Nro :
+			E1_B_13_Nro_Hogar:
 			{
-				required : true,
-				number : true,
+				required: true
 			},
-			E1_202_Nombre :
+			E1_201_Nro:
 			{
-				required : true
+				required: true,
+				digits: true,
+				range: [1,99]
 			},
-			E1_202_Apellidos :
+			E1_202_Nombre:
 			{
-				required : true
+				required: true
 			},
-			E1B_Informante_Nro :
+			E1_202_Apellidos:
 			{
-				required : true,
-				number : true,
+				required: true
 			},
-			E1B_13 :
+			E1B_Informante_Nro:
 			{
-				required : true,
-				number : true,
+				required: true,
+				digits: true,
+				range: [1, 99]
+			},
+			E1B_13:
+			{
+				required: true,
+				digits: true,
+				range: [0,1]
+			},
+			E1B_13_Obs:
+			{
+				maxlength: 200
 			}
 		},
 		messages :
@@ -513,7 +633,8 @@ $.validator.addClassRules({
 	'E1B_1B':
 	{
 		required: true,
-		number:true,
+		digits:true,
+		range: [1,98]
 	},
 	'E1B_1C_Um':
 	{
@@ -522,77 +643,92 @@ $.validator.addClassRules({
 	'E1B_1C_Peso':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [1,999999998]
 	},
 	'E1B_1D_Venta_K':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [1,999999998]
 	},
 	'E1B_1D_Venta_T':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [1,999999998]
 	},
 	'E1B_1D_Venta_M_Local':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,1]
 	},
 	'E1B_1D_Venta_M_Region':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,1]
 	},
 	'E1B_1D_Venta_M_Nacion':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,1]
 	},
 	'E1B_1D_Venta_M_NA':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,1]
 	},
 	'E1B_1D_Consumo_K':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Consumo_T':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Trueque_K':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Trueque_T':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Sub_K':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Sub_T':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Otro_K':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	},
 	'E1B_1D_Otro_T':
 	{
 		required: true,
-		number: true,
+		digits: true,
+		range: [0,999999998]
 	}
 });
 
@@ -620,123 +756,149 @@ $('#1B_100').validate({
 			{
 				required: true,
 				digits: true,
-				year: true
+				year: true,
+				rangofecha: [ 'E1B_Ini_M', 'E1B_Ini_A', 'E1B_Fin_M' ]
 			},
 			E1B_101_A: 
 			{
 				required: true,
-				digits: true
+				digits: true,
+				range: [1,2]
 			},
 			E1B_101_B_a:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_b:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_c:
 			{
 				required: true,
-				number: true
-			},
-			E1B_101_B_c:
-			{
-				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_d:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_e:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_f:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_g:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_h:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_i:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_j:
 			{
 				required: true,
-				number: true
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_B_Total:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [1,999999998]
+			},
+			E1B_101_B_Obs:
+			{
+				maxlength: 500
 			},
 			E1B_101_C:
 			{
 				required: true,
 				digits: true,
+				range: [1,2]
 			},
 			E1B_101_D_a:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_b:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_c:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_d:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_e:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_f:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_g:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_h:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [0,999999998]
 			},
 			E1B_101_D_Total:
 			{
 				required: true,
-				number: true,
+				digits: true,
+				range: [1,999999998]
 			},
+			E1B_101_D_Obs:
+			{
+				maxlength: 200
+			}
 		},
 		messages : 
 		{

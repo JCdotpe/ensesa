@@ -55,6 +55,7 @@ $E1_201_Nro = array(
 			'id' => 'E1_201_Nro',
 			'name' => 'E1_201_Nro',
 			'class' => 'form-control ubigeo',
+			'maxlength' => 2
 		);
 
 $E1_202_Nombre = array(
@@ -75,12 +76,14 @@ $E1B_Informante_Nro = array(
 			'id' => 'E1B_Informante_Nro',
 			'name' => 'E1B_Informante_Nro',
 			'class' => 'form-control data_head',
+			'maxlength' => 2
 		);
 
 $E1B_13 = array(
 			'id' => 'E1B_13',
 			'name' => 'E1B_13',
 			'class' => 'form-control data_head',
+			'maxlength' => 1
 		);
 
 $E1B_13_Obs = array(
@@ -204,7 +207,10 @@ echo form_open( $this->uri->uri_string(), $attributes );
 							</tr>
 							<tr>
 								<td colspan="2"> 10. VIVIENDA N° </td>
-								<td> <select id="B_10_Vivienda_nro" name="B_10_Vivienda_nro" class="form-control location"></select> </td>
+								<td> 
+									<select id="B_10_Vivienda_nro" name="B_10_Vivienda_nro" class="form-control location"></select>
+									<div class="help-block error"></div>
+								</td>
 							</tr>
 						</table>
 					</td>
@@ -217,9 +223,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 							<tr>
 								<td colspan="2"> 12. Hogar N° </td>
 								<td> 
-									<select id="E1_B_13_Nro_Hogar" name="E1_B_13_Nro_Hogar" class="form-control">
-										<!-- <option value="145">145</option> -->
-									</select>
+									<select id="E1_B_13_Nro_Hogar" name="E1_B_13_Nro_Hogar" class="form-control"></select>
 									<div class="help-block error"></div>
 								</td>
 							</tr>
@@ -270,7 +274,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		<th colspan="2"> Para todas las personas de 14 años y mas de edad que en el cap. 500 o en los ultimos 12 meses, manifestaron realizar actividades de caza, recoleccion y/o pesca </th>
 	</tr>
 	<tr>
-		<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_13_Obs); ?> </td>
+		<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_13_Obs); ?> <div class="help-block error"></div></td>
 	</tr>
 </table>
 <div class="row">
