@@ -133,7 +133,7 @@ $E1B_101_B_j_O = array(
 $E1B_101_B_Total = array(
 					'id' => 'E1B_101_B_Total',
 					'name' => 'E1B_101_B_Total',
-					'class' => 'form-control C1_B_table',
+					'class' => 'form-control not_enable C1_B_table',
 					'readonly' => 'readonly'
 				);
 
@@ -204,7 +204,7 @@ $E1B_101_D_g = array(
 $E1B_101_D_h = array(
 					'id' => 'E1B_101_D_h',
 					'name' => 'E1B_101_D_h',
-					'class' => 'form-control C1_D_table C1_D_suma',
+					'class' => 'form-control change C1_D_table C1_D_suma',
 					'maxlength' => 9
 				);
 
@@ -219,7 +219,7 @@ $E1B_101_D_h_O = array(
 $E1B_101_D_Total = array(
 					'id' => 'E1B_101_D_Total',
 					'name' => 'E1B_101_D_Total',
-					'class' => 'form-control C1_D_table',
+					'class' => 'form-control not_enable C1_D_table',
 					'readonly' => 'readonly'
 				);
 

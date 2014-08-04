@@ -65,7 +65,7 @@ class Cedula1b extends CI_Controller {
 		$this->primary_key();
 		
 
-		$this->array_fields = array( 'E1B_Ini_A', 'E1B_Fin_M', 'E1B_Fin_A', 'E1B_101_A', 'E1B_101_B_a', 'E1B_101_B_b', 'E1B_101_B_c', 'E1B_101_B_d', 'E1B_101_B_e', 'E1B_101_B_f', 'E1B_101_B_g', 'E1B_101_B_h', 'E1B_101_B_i', 'E1B_101_B_j', 'E1B_101_B_j_O', 'E1B_101_B_Total', 'E1B_101_B_Obs', 'E1B_101_C', 'E1B_101_D_a', 'E1B_101_D_b', 'E1B_101_D_c', 'E1B_101_D_d', 'E1B_101_D_e', 'E1B_101_D_f', 'E1B_101_D_g', 'E1B_101_D_h', 'E1B_101_D_h_O', 'E1B_101_D_Total', 'E1B_101_D_Obs' );
+		$this->array_fields = array( 'E1B_Ini_M', 'E1B_Ini_A', 'E1B_Fin_M', 'E1B_Fin_A', 'E1B_101_A', 'E1B_101_B_a', 'E1B_101_B_b', 'E1B_101_B_c', 'E1B_101_B_d', 'E1B_101_B_e', 'E1B_101_B_f', 'E1B_101_B_g', 'E1B_101_B_h', 'E1B_101_B_i', 'E1B_101_B_j', 'E1B_101_B_j_O', 'E1B_101_B_Total', 'E1B_101_B_Obs', 'E1B_101_C', 'E1B_101_D_a', 'E1B_101_D_b', 'E1B_101_D_c', 'E1B_101_D_d', 'E1B_101_D_e', 'E1B_101_D_f', 'E1B_101_D_g', 'E1B_101_D_h', 'E1B_101_D_h_O', 'E1B_101_D_Total', 'E1B_101_D_Obs' );
 
 		$this->result_boolen = $this->operation_data( $this->array_fields );
 

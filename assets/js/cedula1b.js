@@ -11,6 +11,7 @@ var B_10_Vivienda_nro = $('#B_10_Vivienda_nro');
 
 var E1_201_Nro = $('#E1_201_Nro');
 
+// --> seccion 100
 var E1B_Ini_M = $('#E1B_Ini_M');
 var E1B_Ini_A = $('#E1B_Ini_A');
 var E1B_Fin_M = $('#E1B_Fin_M');
@@ -19,22 +20,34 @@ var E1B_Fin_A = $('#E1B_Fin_A');
 var E1B_101_A = $('#E1B_101_A');
 var table_100_A = $('#table_PC');
 
+var E1B_101_B_j = $('#E1B_101_B_j');
+
 var E1B_101_C = $('#E1B_101_C');
 var table_100_C = $('#table_SC');
 
+var E1B_101_D_h = $('#E1B_101_D_h');
 
+// --> seccion 200
 var E1B_201_A = $('#E1B_201_A');
 var table_200_A = $('#table_PR');
+
+var E1B_201_B_h = $('#E1B_201_B_h');
 
 var E1B_201_C = $('#E1B_201_C');
 var table_200_C = $('#table_SR');
 
+var E1B_201_D_h = $('#E1B_201_D_h');
 
+// --> seccion 300
 var E1B_301_A = $('#E1B_301_A');
 var table_300_A = $('#table_PA');
 
+var E1B_301_B_i = $('#E1B_301_B_i');
+
 var E1B_301_C = $('#E1B_301_C');
 var table_300_C = $('#table_SA');
+
+var E1B_301_D_h = $('#E1B_301_D_h');
 
 // form variables //
 var frm_1B = $('#1B');
@@ -195,21 +208,16 @@ E1_201_Nro.on(
 					
 					clear_form_1B( forms, tables, 'row_' );
 
-					var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
-
 					$.each( json_data.E1B_Recursos_Naturales, 
 							function(fila, valor)
 							{
 								valor = ( valor == null ) ? '' : valor;
 								
 								$('#' + fila).val(valor);
-
-								if ( $.inArray( fila, fields ) !== -1 )
-								{
-									if ( valor == 2 ) $('#' + fila).trigger('change');
-								}
 							}
 						);
+
+					execute_trigger_1B();
 
 					var old_nro = 0;
 					var old_tipo = '';
@@ -277,11 +285,36 @@ E1_201_Nro.on(
 						);
 
 					$('#button_' + nro + '_' + tipo).text('Add');
+
+					rename_order();
 				}
 			});
 		}
 	}
 );
+
+
+function execute_trigger_1B()
+{
+	var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
+
+	for (var i = 0; i < fields.length; i++)
+	{
+		valor = $('#' + fields[i]).val();
+		if ( valor == 2 ) $('#' + fields[i]).trigger('change');
+	}
+
+	// Tener en cuenta que el evento change de Otros? se ejecuta automaticamente cuando se llama al trigger de la clase. //
+	$('input.C1_B_suma').trigger('change');
+	$('input.C1_D_suma').trigger('change');
+
+	$('input.C2_B_suma').trigger('change');
+	$('input.C2_D_suma').trigger('change');
+
+	$('input.C3_B_suma').trigger('change');
+	$('input.C3_D_suma').trigger('change');
+
+}
 
 
 // Question 100 //
@@ -328,7 +361,6 @@ function set_label ( name_class, valor )
 	$('.' + name_class).text( valor );
 }
 
-
 // --> section A
 E1B_101_A.on( 
 	{ change : function( event ) 
@@ -352,7 +384,6 @@ table_100_A.on( 'click', 'button',
 
 );
 
-
 // --> section B
 $('input.C1_B_suma').on(
 	{ change: function () 
@@ -362,8 +393,6 @@ $('input.C1_B_suma').on(
 	}
 );
 
-var E1B_101_B_j = $('#E1B_101_B_j');
-
 E1B_101_B_j.on(
 	{ change: function () 
 			{
@@ -371,11 +400,12 @@ E1B_101_B_j.on(
 
 				if ( this_value.trim() != '' && this_value != '0' )
 				{
-					$('#E1B_101_B_j_O').removeAttr( 'readonly' );
+					$('#E1B_101_B_j_O').removeAttr( 'disabled' );
 				}
 				else
 				{
-					$('#E1B_101_B_j_O').attr( 'readonly', 'readonly' );
+					$('#E1B_101_B_j_O').attr( 'disabled', 'disabled' );
+					$('#E1B_101_B_j_O').val('');
 				}
 
 			}
@@ -401,12 +431,30 @@ table_100_C.on('click', 'button',
 	}
 );
 
-
 // --> section D
 $('input.C1_D_suma').on(
 	{ change: function () 
 			{
 				sum_per_class( 'C1_D_suma', 'E1B_101_D_Total');
+			}
+	}
+);
+
+E1B_101_D_h.on(
+	{ change: function () 
+			{
+				this_value = $(this).val();
+
+				if ( this_value.trim() != '' && this_value != '0' )
+				{
+					$('#E1B_101_D_h_O').removeAttr( 'disabled' );
+				}
+				else
+				{
+					$('#E1B_101_D_h_O').attr( 'disabled', 'disabled' );
+					$('#E1B_101_D_h_O').val('');
+				}
+
 			}
 	}
 );
@@ -435,8 +483,33 @@ table_200_A.on('click', 'button',
 	}
 );
 
+// --> section B
+$('input.C2_B_suma').on(
+	{ change: function () 
+			{
+				sum_per_class( 'C2_B_suma', 'E1B_201_B_Total');
+			}
+	}
+);
 
+E1B_201_B_h.on(
+	{ change: function () 
+			{
+				this_value = $(this).val();
 
+				if ( this_value.trim() != '' && this_value != '0' )
+				{
+					$('#E1B_201_B_h_O').removeAttr( 'disabled' );
+				}
+				else
+				{
+					$('#E1B_201_B_h_O').attr( 'disabled', 'disabled' );
+					$('#E1B_201_B_h_O').val('');
+				}
+
+			}
+	}
+);
 
 // --> section C
 E1B_201_C.on(
@@ -454,6 +527,34 @@ table_200_C.on('click', 'button',
 	function( event ) 
 	{
 		add_remove_row(event.target, [ table_200_C.attr('id'), 'SR' ]);	
+	}
+);
+
+// --> section D
+$('input.C2_D_suma').on(
+	{ change: function () 
+			{
+				sum_per_class( 'C2_D_suma', 'E1B_201_D_Total');
+			}
+	}
+);
+
+E1B_201_D_h.on(
+	{ change: function () 
+			{
+				this_value = $(this).val();
+
+				if ( this_value.trim() != '' && this_value != '0' )
+				{
+					$('#E1B_201_D_h_O').removeAttr( 'disabled' );
+				}
+				else
+				{
+					$('#E1B_201_D_h_O').attr( 'disabled', 'disabled' );
+					$('#E1B_201_D_h_O').val('');
+				}
+
+			}
 	}
 );
 
@@ -481,6 +582,34 @@ table_300_A.on('click', 'button',
 	}
 );
 
+// --> section B
+$('input.C3_B_suma').on(
+	{ change: function () 
+			{
+				sum_per_class( 'C3_B_suma', 'E1B_301_B_Total');
+			}
+	}
+);
+
+E1B_301_B_i.on(
+	{ change: function () 
+			{
+				this_value = $(this).val();
+
+				if ( this_value.trim() != '' && this_value != '0' )
+				{
+					$('#E1B_301_B_i_O').removeAttr( 'disabled' );
+				}
+				else
+				{
+					$('#E1B_301_B_i_O').attr( 'disabled', 'disabled' );
+					$('#E1B_301_B_i_O').val('');
+				}
+
+			}
+	}
+);
+
 // --> section C
 E1B_301_C.on(
 	{ change : function(event) 
@@ -497,6 +626,34 @@ table_300_C.on('click', 'button',
 	function( event ) 
 	{
 		add_remove_row(event.target, [ table_300_C.attr('id'), 'SA' ]);	
+	}
+);
+
+// --> section D
+$('input.C3_D_suma').on(
+	{ change: function () 
+			{
+				sum_per_class( 'C3_D_suma', 'E1B_301_D_Total');
+			}
+	}
+);
+
+E1B_301_D_h.on(
+	{ change: function () 
+			{
+				this_value = $(this).val();
+
+				if ( this_value.trim() != '' && this_value != '0' )
+				{
+					$('#E1B_301_D_h_O').removeAttr( 'disabled' );
+				}
+				else
+				{
+					$('#E1B_301_D_h_O').attr( 'disabled', 'disabled' );
+					$('#E1B_301_D_h_O').val('');
+				}
+
+			}
 	}
 );
 
@@ -956,7 +1113,138 @@ $('#1B_100').validate({
 frm_1B_200.validate(
 	{
 		rules : {
-			
+			E1B_201_A:
+			{
+				required: true,
+				digits: true,
+				range: [1,2]
+			},
+			E1B_201_B_a:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_b:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_c:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_d:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_e:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_f:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_g:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_h:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_B_h_O:
+			{
+				required: true
+			},
+			E1B_201_B_Total:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_C:
+			{
+				required: true,
+				digits: true,
+				range: [1,2]
+			},
+			E1B_201_D_a:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_b:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_c:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_d:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_e:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_f:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_g:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_h:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_h_O:
+			{
+				required: true
+			},
+			E1B_201_D_Total:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_201_D_Obs:
+			{
+				maxlength: 200
+			}
 		},
 		messages : {
 
@@ -1016,7 +1304,144 @@ frm_1B_200.validate(
 frm_1B_300.validate(
 	{
 		rules : {
-			
+			E1B_301_A:
+			{
+				required: true,
+				digits: true,
+				range: [1,2]
+			},
+			E1B_301_B_a:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_b:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_c:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_d:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_e:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_f:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_g:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_h:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_i:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_B_i_O:
+			{
+				required: true
+			},
+			E1B_301_B_Total:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_C:
+			{
+				required: true,
+				digits: true,
+				range: [1,2]
+			},
+			E1B_301_D_a:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_b:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_c:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_d:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_e:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_f:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_g:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_h:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_h_O:
+			{
+				required: true
+			},
+			E1B_301_D_Total:
+			{
+				required: true,
+				digits: true,
+				range: [0,999999998]
+			},
+			E1B_301_D_Obs:
+			{
+				maxlength: 200
+			}
 		},
 		messages : {
 

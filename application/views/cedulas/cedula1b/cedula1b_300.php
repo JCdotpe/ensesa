@@ -5,80 +5,94 @@
 $E1B_301_A = array(
 			'id' => 'E1B_301_A', 
 			'name' => 'E1B_301_A', 
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => 1
 			);
 
 
 $E1B_301_B_a = array(
 					'id' => 'E1B_301_B_a',
 					'name' => 'E1B_301_B_a',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_b = array(
 					'id' => 'E1B_301_B_b',
 					'name' => 'E1B_301_B_b',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_c = array(
 					'id' => 'E1B_301_B_c',
 					'name' => 'E1B_301_B_c',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_d = array(
 					'id' => 'E1B_301_B_d',
 					'name' => 'E1B_301_B_d',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_e = array(
 					'id' => 'E1B_301_B_e',
 					'name' => 'E1B_301_B_e',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_f = array(
 					'id' => 'E1B_301_B_f',
 					'name' => 'E1B_301_B_f',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_g = array(
 					'id' => 'E1B_301_B_g',
 					'name' => 'E1B_301_B_g',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_h = array(
 					'id' => 'E1B_301_B_h',
 					'name' => 'E1B_301_B_h',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_i = array(
 					'id' => 'E1B_301_B_i',
 					'name' => 'E1B_301_B_i',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control change C3_B_table C3_B_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_i_O = array(
 					'id' => 'E1B_301_B_i_O',
 					'name' => 'E1B_301_B_i_O',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control uppercase C3_B_table',
+					'disabled' => 'disabled',
+					'maxlength' => 20
 				);
 
 $E1B_301_B_Total = array(
 					'id' => 'E1B_301_B_Total',
 					'name' => 'E1B_301_B_Total',
-					'class' => 'form-control C3_B_table'
+					'class' => 'form-control not_enable C3_B_table',
+					'readonly' => 'readonly',
+					'maxlength' => 9
 				);
 
 $E1B_301_B_Obs = array(
 					'id' => 'E1B_301_B_Obs',
 					'name' => 'E1B_301_B_Obs',
-					'class' => 'form-control C3_B_table',
+					'class' => 'form-control uppercase C3_B_table',
 					'rows' => 2,
 			        'cols' => 13
 				);
@@ -86,73 +100,86 @@ $E1B_301_B_Obs = array(
 $E1B_301_C = array(
 			'id' => 'E1B_301_C', 
 			'name' => 'E1B_301_C', 
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => 1
 			);
 
 $E1B_301_D_a = array(
 					'id' => 'E1B_301_D_a',
 					'name' => 'E1B_301_D_a',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_b = array(
 					'id' => 'E1B_301_D_b',
 					'name' => 'E1B_301_D_b',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_c = array(
 					'id' => 'E1B_301_D_c',
 					'name' => 'E1B_301_D_c',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_d = array(
 					'id' => 'E1B_301_D_d',
 					'name' => 'E1B_301_D_d',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_e = array(
 					'id' => 'E1B_301_D_e',
 					'name' => 'E1B_301_D_e',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_f = array(
 					'id' => 'E1B_301_D_f',
 					'name' => 'E1B_301_D_f',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_g = array(
 					'id' => 'E1B_301_D_g',
 					'name' => 'E1B_301_D_g',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_h = array(
 					'id' => 'E1B_301_D_h',
 					'name' => 'E1B_301_D_h',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control change C3_D_table C3_D_suma',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_h_O = array(
 					'id' => 'E1B_301_D_h_O',
 					'name' => 'E1B_301_D_h_O',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control uppercase C3_D_table',
+					'disabled' => 'disabled',
+					'maxlength' => 20
 				);
 
 $E1B_301_D_Total = array(
 					'id' => 'E1B_301_D_Total',
 					'name' => 'E1B_301_D_Total',
-					'class' => 'form-control C3_D_table'
+					'class' => 'form-control not_enable C3_D_table',
+					'readonly' => 'readonly',
+					'maxlength' => 9
 				);
 
 $E1B_301_D_Obs = array(
 					'id' => 'E1B_301_D_Obs',
 					'name' => 'E1B_301_D_Obs',
-					'class' => 'form-control C3_D_table',
+					'class' => 'form-control uppercase C3_D_table',
 					'rows' => 2,
 			        'cols' => 13
 				);
@@ -187,7 +214,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 			<td align="center"> a </td>
 			<td> mes / anio </td>
 			<td align="center"> ¿pesco? </td>
-			<td> <?php echo form_input($E1B_301_A); ?> </td>
+			<td> <?php echo form_input($E1B_301_A); ?> <div class="help-block error"></div> </td>
 		</tr>
 	</table>
 
@@ -244,23 +271,23 @@ echo form_open( $this->uri->uri_string(), $attributes );
 					</tr>
 					<tr>
 						<td> a.  Cables, redes? </td>
-						<td> <?php echo form_input($E1B_301_B_a); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_a); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> b.  Anzuelo? </td>
-						<td> <?php echo form_input($E1B_301_B_b); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_b); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> c.  Envases? (Bolsas, canastas) </td>
-						<td> <?php echo form_input($E1B_301_B_c); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_c); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> d.  Mano de obra? (Ayudantes cargadores) </td>
-						<td> <?php echo form_input($E1B_301_B_d); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_d); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> e.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
-						<td> <?php echo form_input($E1B_301_B_e); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_e); ?> <div class="help-block error"></div> </td>
 					</tr>
 					
 				</table>
@@ -272,27 +299,27 @@ echo form_open( $this->uri->uri_string(), $attributes );
 					</tr>
 					<tr>
 						<td> f.  Mantenimiento/reparacion de otros equipos? </td>
-						<td> <?php echo form_input($E1B_301_B_f); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_f); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> g.  Mantenimiento/reparacion de otros equipos? </td>
-						<td> <?php echo form_input($E1B_301_B_g); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_g); ?> <div class="help-block error"></div> </td>
 				    </tr>
 					<tr>
 						<td> h. Combustible? </td>
-						<td> <?php echo form_input($E1B_301_B_h); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_h); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> i. Otros? </td>
-						<td> <?php echo form_input($E1B_301_B_i); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_i); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>
 						<td> (especifique) </td>
-						<td> <?php echo form_input($E1B_301_B_i_O); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_i_O); ?> <div class="help-block error"></div> </td>
 					</tr>
 					<tr>	
 						<td align="center"> TOTAL </td>
-						<td> <?php echo form_input($E1B_301_B_Total); ?> </td>
+						<td> <?php echo form_input($E1B_301_B_Total); ?> <div class="help-block error"></div> </td>
 					</tr>
 				</table>
 			</td>
@@ -301,7 +328,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 			<td colspan="2">
 				<table width="100%">
 					<tr>
-						<td> OBSERVACIONES <?php echo form_textarea($E1B_301_B_Obs); ?> </td>
+						<td> OBSERVACIONES <?php echo form_textarea($E1B_301_B_Obs); ?> <div class="help-block error"></div> </td>
 					</tr>
 				</table>
 			</td>
@@ -320,7 +347,7 @@ echo form_open( $this->uri->uri_string(), $attributes );
 			<td align="center"> a </td>
 			<td> mes / anio </td>
 			<td align="center"> ¿Elaboro subproductos tales como: Sabalo ahumado, paiche salado, etc.? </td>
-			<td> <?php echo form_input($E1B_301_C); ?> </td>
+			<td> <?php echo form_input($E1B_301_C); ?> <div class="help-block error"></div> </td>
 		</tr>
 	</table>
 
@@ -368,47 +395,47 @@ echo form_open( $this->uri->uri_string(), $attributes );
 		</tr>
 		<tr>
 			<td> a.  Insumo y materia prima? </td>
-			<td> <?php echo form_input($E1B_301_D_a); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_a); ?> <div class="help-block error"></div> </td>
 		<tr>
 			<td> b.  Emvases?(Bolsas, canastas) </td>
-			<td> <?php echo form_input($E1B_301_D_b); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_b); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> c.  Mano de obra? (ayudante, cargadores) </td>
-			<td> <?php echo form_input($E1B_301_D_c); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_c); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> d.  Transporte?(incluye fletes) </td>
-			<td> <?php echo form_input($E1B_301_D_d); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_d); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> e.  Mantenimiento/reparacion de vehiculo para uso exclusivo de la actividad?</td>
-			<td> <?php echo form_input($E1B_301_D_e); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_e); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> f.  Mantenimiento/reparacion de otros equipos? </td>
-			<td> <?php echo form_input($E1B_301_D_f); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_f); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> g.  Combustible?</td>
-			<td> <?php echo form_input($E1B_301_D_g); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_g); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> h.  otros? </td>
-			<td> <?php echo form_input($E1B_301_D_h); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_h); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td> (Especifique) </td>
-			<td> <?php echo form_input($E1B_301_D_h_O); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_h_O); ?> <div class="help-block error"></div> </td>
 		</tr>
 		<tr>
 			<td align="center"> TOTAL </td>
-			<td> <?php echo form_input($E1B_301_D_Total); ?> </td>
+			<td> <?php echo form_input($E1B_301_D_Total); ?> <div class="help-block error"></div> </td>
 		</tr>
 	</table>
 	<table class="table table-bordered">
 		<tr>
-			<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_301_D_Obs); ?> </td>
+			<td align="center"> OBSERVACIONES <?php echo form_textarea($E1B_301_D_Obs); ?> <div class="help-block error"></div> </td>
 		</tr>
 	</table>
 	<div class="row">
