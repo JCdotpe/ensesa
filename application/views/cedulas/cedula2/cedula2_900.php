@@ -4,634 +4,634 @@
 $E2_900_Obs = array(
 				'id' => 'E2_900_Obs',
 				'name' => 'E2_900_Obs', 
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 
 //901
 $E2_901 = array(
 				'id' => 'E2_901',
 				'name' => 'E2_901',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_901A = array(
 				'id' => 'E2_901A',
 				'name' => 'E2_901A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 //902
 $E2_902 = array(
 				'id' => 'E2_902',
 				'name' => 'E2_902',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 //903
 $E2_903_1 = array(
 				'id' => 'E2_903_1',
 				'name' => 'E2_9E2_903_102',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_903_2 = array(
 				'id' => 'E2_903_1',
 				'name' => 'E2_9E2_903_102',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_903_3 = array(
 				'id' => 'E2_903_1',
 				'name' => 'E2_9E2_903_102',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 //904
 $E2_904_1 = array(
 				'id' => 'E2_904_1',
 				'name' => 'E2_904_1',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_1_A = array(
 				'id' => 'E2_904A_1_A',
 				'name' => 'E2_904A_1_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_1_M = array(
 				'id' => 'E2_904A_1_M',
 				'name' => 'E2_904A_1_M',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904_2 = array(
 				'id' => 'E2_904_2',
 				'name' => 'E2_904_2',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_2_A = array(
 				'id' => 'E2_904A_2_A',
 				'name' => 'E2_904A_2_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_2_M = array(
 				'id' => 'E2_904A_2_M',
 				'name' => 'E2_904A_2_M',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904_3 = array(
 				'id' => 'E2_904_3',
 				'name' => 'E2_904_3',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_3_A = array(
 				'id' => 'E2_904A_3_A',
 				'name' => 'E2_904A_3_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_3_M = array(
 				'id' => 'E2_904A_3_M',
 				'name' => 'E2_904A_3_M',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904_4 = array(
 				'id' => 'E2_904_4',
 				'name' => 'E2_904_4',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_4_A = array(
 				'id' => 'E2_904A_4_A',
 				'name' => 'E2_904A_4_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_4_M = array(
 				'id' => 'E2_904A_4_M',
 				'name' => 'E2_904A_4_M',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904_5 = array(
 				'id' => 'E2_904_5',
 				'name' => 'E2_904_5',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904_5_O = array(
 				'id' => 'E2_904_5_O',
 				'name' => 'E2_904_5_O',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_5_A = array(
 				'id' => 'E2_904A_5_A',
 				'name' => 'E2_904A_5_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 $E2_904A_5_M = array(
 				'id' => 'E2_904A_5_M',
 				'name' => 'E2_904A_5_M',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest'
 			);
 // 905
 $E2_905 = array(
 				'id' => 'E2_905',
 				'name' => 'E2_905',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest change'
 			);
 $E2_905A = array(
 				'id' => 'E2_905A',
 				'name' => 'E2_905A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest sanctions'
 			);
 // 906
 $E2_906 = array(
 				'id' => 'E2_906',
 				'name' => 'E2_906',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest change'
 			);
 //907
 $E2_907_1 = array(
 				'id' => 'E2_907_1',
 				'name' => 'E2_907_1',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_1_A = array(
 				'id' => 'E2_907A_1_A',
 				'name' => 'E2_907A_1_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_2 = array(
 				'id' => 'E2_907_2',
 				'name' => 'E2_907_2',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_2_A = array(
 				'id' => 'E2_907A_2_A',
 				'name' => 'E2_907A_2_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_3 = array(
 				'id' => 'E2_907_3',
 				'name' => 'E2_907_3',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_3_A = array(
 				'id' => 'E2_907A_3_A',
 				'name' => 'E2_907A_3_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_4 = array(
 				'id' => 'E2_907_4',
 				'name' => 'E2_907_4',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_4_A = array(
 				'id' => 'E2_907A_4_A',
 				'name' => 'E2_907A_4_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_5 = array(
 				'id' => 'E2_907_5',
 				'name' => 'E2_907_5',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_5_A = array(
 				'id' => 'E2_907A_5_A',
 				'name' => 'E2_907A_5_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_6 = array(
 				'id' => 'E2_907_6',
 				'name' => 'E2_907_6',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_6_A = array(
 				'id' => 'E2_907A_6_A',
 				'name' => 'E2_907A_6_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_7 = array(
 				'id' => 'E2_907_7',
 				'name' => 'E2_907_7',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_7_A = array(
 				'id' => 'E2_907A_7_A',
 				'name' => 'E2_907A_7_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_8 = array(
 				'id' => 'E2_907_8',
 				'name' => 'E2_907_8',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_8_A = array(
 				'id' => 'E2_907A_8_A',
 				'name' => 'E2_907A_8_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_9 = array(
 				'id' => 'E2_907_9',
 				'name' => 'E2_907_9',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_9_A = array(
 				'id' => 'E2_907A_9_A',
 				'name' => 'E2_907A_9_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907_10 = array(
 				'id' => 'E2_907_10',
 				'name' => 'E2_907_10',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 $E2_907A_10_A = array(
 				'id' => 'E2_907A_10_A',
 				'name' => 'E2_907A_10_A',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 // 908
 $E2_908 = array(
 				'id' => 'E2_908',
 				'name' => 'E2_908',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 //909
 $E2_909 = array(
 				'id' => 'E2_909',
 				'name' => 'E2_909',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 //910
 $E2_910 = array(
 				'id' => 'E2_910',
 				'name' => 'E2_910',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission change'
 			);
 $E2_910A_1 = array(
 				'id' => 'E2_910A_1',
 				'name' => 'E2_910A_1',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission commitment'
 			);
 $E2_910A_2 = array(
 				'id' => 'E2_910A_2',
 				'name' => 'E2_910A_2',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission  commitment'
 			);
 $E2_910A_3 = array(
 				'id' => 'E2_910A_3',
 				'name' => 'E2_910A_3',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission  commitment'
 			);
 $E2_910A_4 = array(
 				'id' => 'E2_910A_4',
 				'name' => 'E2_910A_4',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission  commitment'
 			);
 $E2_910A_5 = array(
 				'id' => 'E2_910A_5',
 				'name' => 'E2_910A_5',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission  commitment'
 			);
 $E2_910A_6 = array(
 				'id' => 'E2_910A_6',
 				'name' => 'E2_910A_6',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission  commitment'
 			);
 // 911
 $E2_911 = array(
 				'id' => 'E2_911',
 				'name' => 'E2_911',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission change'
 			);
 $E2_911_1_Uso = array(
 				'id' => 'E2_911_1_Uso',
 				'name' => 'E2_911_1_Uso',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission  uses'
 			);
 $E2_911_1_Ano = array(
 				'id' => 'E2_911_1_Ano',
 				'name' => 'E2_911_1_Ano',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_2_Uso = array(
 				'id' => 'E2_911_2_Uso',
 				'name' => 'E2_911_2_Uso',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_2_Ano = array(
 				'id' => 'E2_911_2_Ano',
 				'name' => 'E2_911_2_Ano',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_3_Uso = array(
 				'id' => 'E2_911_3_Uso',
 				'name' => 'E2_911_3_Uso',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_3_Ano = array(
 				'id' => 'E2_911_3_Ano',
 				'name' => 'E2_911_3_Ano',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_4_Uso = array(
 				'id' => 'E2_911_4_Uso',
 				'name' => 'E2_911_4_Uso',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_4_Ano = array(
 				'id' => 'E2_911_4_Ano',
 				'name' => 'E2_911_4_Ano',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_5_Uso = array(
 				'id' => 'E2_911_5_Uso',
 				'name' => 'E2_911_5_Uso',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_5_Ano = array(
 				'id' => 'E2_911_5_Ano',
 				'name' => 'E2_911_5_Ano',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 $E2_911_6_Uso = array(
 				'id' => 'E2_911_6_Uso',
 				'name' => 'E2_911_6_Uso',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses' 
 			);
 $E2_911_6_Ano = array(
 				'id' => 'E2_911_6_Ano',
 				'name' => 'E2_911_6_Ano',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission uses'
 			);
 // 912
 $E2_912 = array(
 				'id' => 'E2_912',
 				'name' => 'E2_912',
-				'class' => 'form-control'
+				'class' => 'form-control activity_forest permission'
 			);
 // 913
 $E2_913 = array(
 				'id' => 'E2_913',
 				'name' => 'E2_913',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_913A = array(
 				'id' => 'E2_913A',
 				'name' => 'E2_913A',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year'
 			);
 // 914
 $E2_914_1 = array(
 				'id' => 'E2_914_1',
 				'name' => 'E2_914_1',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year'
 			);
 $E2_914_2 = array(
 				'id' => 'E2_914_2',
 				'name' => 'E2_914_2',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year'
 			);
 $E2_914_3 = array(
 				'id' => 'E2_914_3',
 				'name' => 'E2_914_3',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year'
 			);
 $E2_914_4 = array(
 				'id' => 'E2_914_4',
 				'name' => 'E2_914_4',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year'
 			);
 $E2_914_4_O = array(
 				'id' => 'E2_914_4_O',
 				'name' => 'E2_914_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year'
 			);
 // 915
 $E2_915 = array(
 				'id' => 'E2_915',
 				'name' => 'E2_915',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year change'
 			);
 
 $E2_915A = array(
 				'id' => 'E2_915A',
 				'name' => 'E2_915A',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles' 
 			);
 // 916
 $E2_916_1 = array(
 				'id' => 'E2_916_1',
 				'name' => 'E2_916_1',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_2 = array(
 				'id' => 'E2_916_2',
 				'name' => 'E2_916_2',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_3 = array(
 				'id' => 'E2_916_3',
 				'name' => 'E2_916_3',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_4 = array(
 				'id' => 'E2_916_4',
 				'name' => 'E2_916_4',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_5 = array(
 				'id' => 'E2_916_5',
 				'name' => 'E2_916_5',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_6 = array(
 				'id' => 'E2_916_6',
 				'name' => 'E2_916_6',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_7 = array(
 				'id' => 'E2_916_7',
 				'name' => 'E2_916_7',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_8 = array(
 				'id' => 'E2_916_8',
 				'name' => 'E2_916_8',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_9 = array(
 				'id' => 'E2_916_9',
 				'name' => 'E2_916_9',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 $E2_916_10 = array(
 				'id' => 'E2_916_10',
 				'name' => 'E2_916_10',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year articles'
 			);
 
 // 917
 $E2_917 = array(
 				'id' => 'E2_917',
 				'name' => 'E2_917',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year change'
 			);
 $E2_917A = array(
 				'id' => 'E2_917A',
 				'name' => 'E2_917A',
-				'class' => 'form-control'
+				'class' => 'form-control extract_year workers'
 			);
 
 // 918
 $E2_918 = array(
 				'id' => 'E2_918',
 				'name' => 'E2_918',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 
 // 919
 $E2_919_1 = array(
 				'id' => 'E2_919_1',
 				'name' => 'E2_919_1',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_2 = array(
 				'id' => 'E2_919_2',
 				'name' => 'E2_919_2',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_3 = array(
 				'id' => 'E2_919_3',
 				'name' => 'E2_919_3',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_4 = array(
 				'id' => 'E2_919_4',
 				'name' => 'E2_919_4',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_5 = array(
 				'id' => 'E2_919_5',
 				'name' => 'E2_919_5',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_6 = array(
 				'id' => 'E2_919_6',
 				'name' => 'E2_919_6',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_7 = array(
 				'id' => 'E2_919_7',
 				'name' => 'E2_919_7',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_8 = array(
 				'id' => 'E2_919_8',
 				'name' => 'E2_919_8',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_9 = array(
 				'id' => 'E2_919_9',
 				'name' => 'E2_919_9',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation' 
 			);
 $E2_919_10 = array(
 				'id' => 'E2_919_10',
 				'name' => 'E2_919_10',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_11 = array(
 				'id' => 'E2_919_11',
 				'name' => 'E2_919_11',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_12 = array(
 				'id' => 'E2_919_12',
 				'name' => 'E2_919_12',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_919_12_O = array(
 				'id' => 'E2_919_12_O',
 				'name' => 'E2_919_12_O',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 
 // 920
 $E2_920_1 = array(
 				'id' => 'E2_920_1',
 				'name' => 'E2_920_1',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_920_2 = array(
 				'id' => 'E2_920_2',
 				'name' => 'E2_920_2',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_920_3 = array(
 				'id' => 'E2_920_3',
 				'name' => 'E2_920_3',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_920_4 = array(
 				'id' => 'E2_920_4',
 				'name' => 'E2_920_4',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_920_5 = array(
 				'id' => 'E2_920_5',
 				'name' => 'E2_920_5',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_920_6 = array(
 				'id' => 'E2_920_6',
 				'name' => 'E2_920_6',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_920_6_O = array(
 				'id' => 'E2_920_6_O',
 				'name' => 'E2_920_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 // 921
 $E2_921_1 = array(
 				'id' => 'E2_921_1',
 				'name' => 'E2_921_1',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_2 = array(
 				'id' => 'E2_921_2',
 				'name' => 'E2_921_2',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_3 = array(
 				'id' => 'E2_921_3',
 				'name' => 'E2_921_3',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_4 = array(
 				'id' => 'E2_921_4',
 				'name' => 'E2_921_4',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_5 = array(
 				'id' => 'E2_921_5',
 				'name' => 'E2_921_5',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_6 = array(
 				'id' => 'E2_921_6',
 				'name' => 'E2_921_6',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_7 = array(
 				'id' => 'E2_921_7',
 				'name' => 'E2_921_7',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_8 = array(
 				'id' => 'E2_921_8',
 				'name' => 'E2_921_8',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation'
 			);
 $E2_921_8_O = array(
 				'id' => 'E2_921_8_O',
 				'name' => 'E2_921_8_O',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation' 
 			);
 $E2_921_9 = array(
 				'id' => 'E2_921_9',
 				'name' => 'E2_921_9',
-				'class' => 'form-control'
+				'class' => 'form-control deforestation' 
 			);
 $button_900 = array(
 					'id' => 'button_900',
@@ -1240,3 +1240,118 @@ $button_900 = array(
 		<?php echo form_submit($button_900); ?>
 	</div>
 </div>
+
+<script class ="text/javascript">
+
+$('#E2_901').change (function  (event) 
+
+			{
+				if ($('#E2_901').val() == '2') 
+				{
+					$('.activity_forest').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_901').val() == '1' )
+					{
+						$('.activity_forest').removeAttr ('disabled');
+					};
+			});
+
+
+$('#E2_905').change (function (event)
+			 {
+			 	if ($('#E2_905').val() == '2') 
+				{
+					$('.sanctions').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_905').val() == '1' )
+					{
+						$('.sanctions').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_906').change (function (event)
+			 {
+			 	if ($('#E2_906').val() == '2') 
+				{
+					$('.permission').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_906').val() == '1' )
+					{
+						$('.permission').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_910').change (function (event)
+			 {
+			 	if ($('#E2_910').val() == '2') 
+				{
+					$('.commitment').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_910').val() == '1' )
+					{
+						$('.commitment').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_911').change (function (event)
+			 {
+			 	if ($('#E2_911').val() == '2') 
+				{
+					$('.uses').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_911').val() == '1' )
+					{
+						$('.uses').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_913').change (function (event)
+			 {
+			 	if ($('#E2_913').val() == '2') 
+				{
+					$('.extract_year').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_913').val() == '1' )
+					{
+						$('.extract_year').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_915').change (function (event)
+			 {
+			 	if ($('#E2_915').val() == '2') 
+				{
+					$('.articles').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_915').val() == '1' )
+					{
+						$('.articles').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_917').change (function (event)
+			 {
+			 	if ($('#E2_917').val() == '2') 
+				{
+					$('.workers').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_917').val() == '1' )
+					{
+						$('.workers').removeAttr ('disabled');
+					};
+			 });
+
+$('#E2_918').change (function (event)
+			 {
+			 	if ($('#E2_918').val() == '2') 
+				{
+					$('.deforestation').attr ('disabled', 'disabled')
+				}
+				else if ($('#E2_918').val() == '1' )
+					{
+						$('.deforestation').removeAttr ('disabled');
+					};
+			 });
+
+
+</script>

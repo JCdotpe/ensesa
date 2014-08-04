@@ -121,72 +121,72 @@ $E2_604_2_Local = array(
 $E2_605_1 = array(
 				'id' => 'E2_605_1',
 				'name' => 'E2_605_1',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_2 = array(
 				'id' => 'E2_605_2',
 				'name' => 'E2_605_2',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_3 = array(
 				'id' => 'E2_605_3',
 				'name' => 'E2_605_3',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_4 = array(
 				'id' => 'E2_605_4',
 				'name' => 'E2_605_4',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_5 = array(
 				'id' => 'E2_605_5',
 				'name' => 'E2_605_5',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_6 = array(
 				'id' => 'E2_605_6',
 				'name' => 'E2_605_6',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_7 = array(
 				'id' => 'E2_605_7',
 				'name' => 'E2_605_7',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_8 = array(
 				'id' => 'E2_605_8',
 				'name' => 'E2_605_8',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_9 = array(
 				'id' => 'E2_605_9',
 				'name' => 'E2_605_9',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_10 = array(
 				'id' => 'E2_605_10',
 				'name' => 'E2_605_10',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_11 = array(
 				'id' => 'E2_605_11',
 				'name' => 'E2_605_11',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_12 = array(
 				'id' => 'E2_605_12',
 				'name' => 'E2_605_12',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_13 = array(
 				'id' => 'E2_605_13',
 				'name' => 'E2_605_13',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_605_14 = array(
 				'id' => 'E2_605_14',
 				'name' => 'E2_605_14',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 
 
@@ -194,7 +194,7 @@ $E2_605_14 = array(
 $E2_606_1_1 = array(
 				'id' => 'E2_606_1_1',
 				'name' => 'E2_606_1_1',
-				'class' => 'form-control destiny_sale_1'
+				'class' => 'form-control destiny_sale_1 change'
 			);
 $E2_606_1_2 = array(
 				'id' => 'E2_606_1_2',
@@ -209,7 +209,7 @@ $E2_606_1_3 = array(
 $E2_606_2_1 = array(
 				'id' => 'E2_606_2_1',
 				'name' => 'E2_606_2_1',
-				'class' => 'form-control destiny_sale_2'
+				'class' => 'form-control destiny_sale_2 change'
 			);
 $E2_606_2_2 = array(
 				'id' => 'E2_606_2_2',
@@ -224,7 +224,7 @@ $E2_606_2_3 = array(
 $E2_606_3_1 = array(
 				'id' => 'E2_606_3_1',
 				'name' => 'E2_606_3_1',
-				'class' => 'form-control destiny_sale_3'
+				'class' => 'form-control destiny_sale_3 change'
 			);
 $E2_606_3_2 = array(
 				'id' => 'E2_606_3_2',
@@ -239,7 +239,7 @@ $E2_606_3_3 = array(
 $E2_606_4_1 = array(
 				'id' => 'E2_606_4_1',
 				'name' => 'E2_606_4_1',
-				'class' => 'form-control destiny_sale_4'
+				'class' => 'form-control destiny_sale_4 change'
 			);
 $E2_606_4_2 = array(
 				'id' => 'E2_606_4_2',
@@ -254,7 +254,7 @@ $E2_606_4_3 = array(
 $E2_606_5_1 = array(
 				'id' => 'E2_606_5_1',
 				'name' => 'E2_606_5_1',
-				'class' => 'form-control destiny_sale_5'
+				'class' => 'form-control destiny_sale_5 change'
 			);
 $E2_606_5_2 = array(
 				'id' => 'E2_606_5_2',
@@ -269,7 +269,7 @@ $E2_606_5_3 = array(
 $E2_606_6_1 = array(
 				'id' => 'E2_606_6_1',
 				'name' => 'E2_606_6_1',
-				'class' => 'form-control destiny_sale_6'
+				'class' => 'form-control destiny_sale_6 change'
 			);
 $E2_606_6_2 = array(
 				'id' => 'E2_606_6_2',
@@ -284,7 +284,7 @@ $E2_606_6_3 = array(
 $E2_606_7_1 = array(
 				'id' => 'E2_606_7_1',
 				'name' => 'E2_606_7_1',
-				'class' => 'form-control destiny_sale_7'
+				'class' => 'form-control destiny_sale_7 change'
 			);
 $E2_606_7_2 = array(
 				'id' => 'E2_606_7_2',
@@ -299,7 +299,7 @@ $E2_606_7_3 = array(
 $E2_606_8_1 = array(
 				'id' => 'E2_606_8_1',
 				'name' => 'E2_606_8_1',
-				'class' => 'form-control destiny_sale_8'
+				'class' => 'form-control destiny_sale_8 change'
 			);
 $E2_606_8_2 = array(
 				'id' => 'E2_606_8_2',
@@ -314,7 +314,7 @@ $E2_606_8_3 = array(
 $E2_606_9_1 = array(
 				'id' => 'E2_606_9_1',
 				'name' => 'E2_606_9_1',
-				'class' => 'form-control destiny_sale_9'
+				'class' => 'form-control destiny_sale_9 change'
 			);
 $E2_606_9_2 = array(
 				'id' => 'E2_606_9_2',
@@ -329,7 +329,7 @@ $E2_606_9_3 = array(
 $E2_606_10_1 = array(
 				'id' => 'E2_606_10_1',
 				'name' => 'E2_606_10_1',
-				'class' => 'form-control destiny_sale_10'
+				'class' => 'form-control destiny_sale_10 change'
 			);
 $E2_606_10_2 = array(
 				'id' => 'E2_606_10_2',
@@ -344,7 +344,7 @@ $E2_606_10_3 = array(
 $E2_606_11_1 = array(
 				'id' => 'E2_606_11_1',
 				'name' => 'E2_606_11_1',
-				'class' => 'form-control destiny_sale_11'
+				'class' => 'form-control destiny_sale_11 change'
 			);
 $E2_606_11_2 = array(
 				'id' => 'E2_606_11_2',
@@ -364,7 +364,7 @@ $E2_605_12_O = array(
 $E2_606_12_1 = array(
 				'id' => 'E2_606_12_1',
 				'name' => 'E2_606_12_1',
-				'class' => 'form-control destiny_sale_12'
+				'class' => 'form-control destiny_sale_12 change'
 			);
 $E2_606_12_2 = array(
 				'id' => 'E2_606_12_2',
@@ -384,7 +384,7 @@ $E2_605_13_O = array(
 $E2_606_13_1 = array(
 				'id' => 'E2_606_13_1',
 				'name' => 'E2_606_13_1',
-				'class' => 'form-control destiny_sale_13' 
+				'class' => 'form-control destiny_sale_13 change' 
 			);
 $E2_606_13_2 = array(
 				'id' => 'E2_606_13_2',
@@ -404,7 +404,7 @@ $E2_605_14_O = array(
 $E2_606_14_1 = array(
 				'id' => 'E2_606_14_1',
 				'name' => 'E2_606_14_1',
-				'class' => 'form-control destiny_sale_14'
+				'class' => 'form-control destiny_sale_14 change'
 			);
 $E2_606_14_2 = array(
 				'id' => 'E2_606_14_2',
@@ -1349,26 +1349,6 @@ $button_600 = array(
 	</div>
 </div>
 
-<!--
-<script type="text/javascript">
-
-$('#E2_103').change(function (event) 
-{
-if ( $('#E2_103').val()=='2' ) 
-{
-
-$('.anexos_caserios').attr( 'disabled', 'disabled');
-}
-else
-{
-$('.anexos_caserios').removeAttr('disabled');
-
-}
-
-});
-
-</script>
--->
 
 <script type ="text/javascript">
 

@@ -142,12 +142,12 @@ $E2_1403_3 = array(
 $E2_1404 = array(
 				'id' => 'E2_1404',
 				'name' => 'E2_1404',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1404A = array(
 				'id' => 'E2_1404A',
 				'name' => 'E2_1404A',
-				'class' => 'form-control'
+				'class' => 'form-control tranquility'
 			);
 // 1405
 $E2_1405 = array(
@@ -261,114 +261,114 @@ $E2_1408_6 = array(
 $E2_1409 = array(
 				'id' => 'E2_1409',
 				'name' => 'E2_1409',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 
 // 1410
 $E2_1410_1 = array(
 				'id' => 'E2_1410_1',
 				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_2 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_2',
+				'name' => 'E2_1410_2',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_3 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_3',
+				'name' => 'E2_1410_3',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_4 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_4',
+				'name' => 'E2_1410_4',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_5 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_5',
+				'name' => 'E2_1410_5',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_6 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_6',
+				'name' => 'E2_1410_6',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_7 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_7',
+				'name' => 'E2_1410_7',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_8 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_8',
+				'name' => 'E2_1410_8',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_9 = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_9',
+				'name' => 'E2_1410_9',
+				'class' => 'form-control institutional_development'
 			);
 $E2_1410_9_O = array(
-				'id' => 'E2_1410_1',
-				'name' => 'E2_1410_1',
-				'class' => 'form-control'
+				'id' => 'E2_1410_9_O',
+				'name' => 'E2_1410_9_O',
+				'class' => 'form-control institutional_development'
 			);
 
 // 1500
 $E2_1501 = array(
 				'id' => 'E2_1501',
 				'name' => 'E2_1501',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 // 1500A Cantidad
 $E2_1501A_Cantidad = array(
 				'id' => 'E2_1501A_Cantidad',
 				'name' => 'E2_1501A_Cantidad',
-				'class' => 'form-control'
+				'class' => 'form-control new_family'
 			);
 // 1500A Poblacion
 $E2_1501A_Poblacion = array(
 				'id' => 'E2_1501A_Poblacion',
 				'name' => 'E2_1501A_Poblacion',
-				'class' => 'form-control'
+				'class' => 'form-control new_family'
 			);
 // 1502
 $E2_1502 = array(
 				'id' => 'E2_1502',
 				'name' => 'E2_1502',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 // 1502A Cantidad
 $E2_1502A_Cantidad = array(
 				'id' => 'E2_1502A_Cantidad',
 				'name' => 'E2_1502A_Cantidad',
-				'class' => 'form-control'
+				'class' => 'form-control return_family'
 			);
 // 1502A Población
 $E2_1502A_Poblacion = array(
 				'id' => 'E2_1502A_Poblacion',
 				'name' => 'E2_1502A_Poblacion',
-				'class' => 'form-control'
+				'class' => 'form-control return_family'
 			);
 // 1503
 $E2_1503 = array(
 				'id' => 'E2_1503',
 				'name' => 'E2_1503',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 //1503A Cantidad
 $E2_1503A_Cantidad = array(
 				'id' => 'E2_1503A_Cantidad',
 				'name' => 'E2_1503A_Cantidad',
-				'class' => 'form-control'
+				'class' => 'form-control emigration_family'
 			);
 //1503A Poblacion
 $E2_1503A_Poblacion = array(
 				'id' => 'E2_1503A_Poblacion',
 				'name' => 'E2_1503A_Poblacion',
-				'class' => 'form-control'
+				'class' => 'form-control emigration_family'
 			);
 
 $E2_1503_O = array(
@@ -379,11 +379,6 @@ $E2_1503_O = array(
 $firma = array(
 				'id' => 'firma',
 				'name' => 'firma',
-				'class' => 'form-control'
-			);
-$rpta2 = array(
-				'id' => 'rpta2',
-				'name' => 'rpta2',
 				'class' => 'form-control'
 			);
 
@@ -577,7 +572,7 @@ $button_1400_1500 = array(
 							<td>
 								<table class ="table table-bordered">
 									<tr>
-										<td><center>SI /NO</center></td>
+										<td><center><b>SI /NO</b></center></td>
 										<td><?php echo form_input ($E2_1404); ?></td>
 									</tr>
 									<tr>
@@ -597,7 +592,7 @@ $button_1400_1500 = array(
 							</td>
 						</tr>
 						<tr>
-							<th>1405. DESDE QUE SE AFILIARON AL PROGRAMA, EL NIVEL DE VIDA<?php echo form_input ($rpta2); ?> </th>
+							<th>1405. DESDE QUE SE AFILIARON AL PROGRAMA, EL NIVEL DE VIDA. </th>
 						</tr>
 						<tr>
 							<td>
@@ -665,7 +660,7 @@ $button_1400_1500 = array(
 <table class ="table table-bordered">
 	<tr>
 		<th colspan ="2">1407. USTED NOTA DESAROOLLO EN SU COMUNIDAD EN EL ASPECTO:</th>
-		<th>1408. COMO VE A SU COMUNIDAD EN 5 AÑOS EN EL ASPECTO <?php echo form_input ($rpta2); ?> (Circule un código)</th>
+		<th>1408. COMO VE A SU COMUNIDAD EN 5 AÑOS EN EL ASPECTO. (Circule un código)</th>
 	</tr>
 	<tr>
 		<th> </th>
@@ -838,3 +833,82 @@ $button_1400_1500 = array(
 		<?php echo form_submit($button_1400_1500); ?>
 	</div>
 </div>
+
+<script class ="text/javascript">
+
+
+$('#E2_1404').change (function (event) 
+			{
+				if ($('#E2_1404').val() == '2') 
+					{
+						$('.tranquility').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1404').val() == '1')
+					 {
+						$('.tranquility').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1409').change (function (event) 
+			{
+				if ($('#E2_1409').val() == '2') 
+					{
+						$('.institutional_development').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1409').val() == '1')
+					 {
+						$('.institutional_development').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1501').change (function (event) 
+			{
+				if ($('#E2_1501').val() == '2') 
+					{
+						$('.new_family').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1501').val() == '1')
+					 {
+						$('.new_family').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1502').change (function (event) 
+			{
+				if ($('#E2_1502').val() == '2') 
+					{
+						$('.return_family').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1502').val() == '1')
+					 {
+						$('.return_family').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1503').change (function (event) 
+			{
+				if ($('#E2_1503').val() == '2') 
+					{
+						$('.emigration_family').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1503').val() == '1')
+					 {
+						$('.emigration_family').removeAttr ('disabled')
+					 };
+			});
+
+
+/* $('#E2_1405').change (function (event) 
+			{
+				if ($('#E2_1405').val() == '1') 
+					{
+						$('.life_level').attr ('disabled','disabled')
+					}
+					else if ((($('#E2_1405').val() == '2') || ($('#E2_1405').val() == '3')) || ($('#E2_1405').val() == '4'))
+					 {
+						$('.life_level').removeAttr ('disabled')
+					 };
+			}); */
+
+
+</script>

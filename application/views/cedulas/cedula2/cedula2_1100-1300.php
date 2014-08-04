@@ -4,42 +4,42 @@
 $E2_1101_1 = array(
 				'id' => 'E2_1101_1',
 				'name' => 'E2_1101_1',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_2 = array(
 				'id' => 'E2_1101_2',
 				'name' => 'E2_1101_2',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_3 = array(
 				'id' => 'E2_1101_3',
 				'name' => 'E2_1101_3',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_4 = array(
 				'id' => 'E2_1101_4',
 				'name' => 'E2_1101_4',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_5 = array(
 				'id' => 'E2_1101_5',
 				'name' => 'E2_1101_5',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_6 = array(
-				'id' => 'E2_1101_1',
-				'name' => 'E2_1101_1',
-				'class' => 'form-control'
+				'id' => 'E2_1101_6',
+				'name' => 'E2_1101_6',
+				'class' => 'form-control change'
 			);
 $E2_1101_7 = array(
 				'id' => 'E2_1101_7',
 				'name' => 'E2_1101_7',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_8 = array(
 				'id' => 'E2_1101_8',
 				'name' => 'E2_1101_8',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_8_O = array(
 				'id' => 'E2_1101_8_O',
@@ -49,7 +49,7 @@ $E2_1101_8_O = array(
 $E2_1101_9 = array(
 				'id' => 'E2_1101_9',
 				'name' => 'E2_1101_9',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_9_O = array(
 				'id' => 'E2_1101_9_O',
@@ -59,7 +59,7 @@ $E2_1101_9_O = array(
 $E2_1101_10 = array(
 				'id' => 'E2_1101_10',
 				'name' => 'E2_1101_10',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1101_10_O = array(
 				'id' => 'E2_1101_10_O',
@@ -71,569 +71,569 @@ $E2_1101_10_O = array(
 $E2_1102_1 = array(
 				'id' => 'E2_1102_1',
 				'name' => 'E2_1102_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1102_2 = array(
 				'id' => 'E2_1102_2',
 				'name' => 'E2_1102_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1102_3 = array(
 				'id' => 'E2_1102_3',
 				'name' => 'E2_1102_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1102_4 = array(
 				'id' => 'E2_1102_4',
 				'name' => 'E2_1102_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1102_5 = array(
 				'id' => 'E2_1102_5',
 				'name' => 'E2_1102_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1102_6 = array(
 				'id' => 'E2_1102_6',
 				'name' => 'E2_1102_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1102_7 = array(
 				'id' => 'E2_1102_7',
 				'name' => 'E2_1102_7',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1102_8 = array(
 				'id' => 'E2_1102_8',
 				'name' => 'E2_1102_8',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1102_9 = array(
 				'id' => 'E2_1102_9',
 				'name' => 'E2_1102_9',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1102_10 = array(
 				'id' => 'E2_1102_10',
 				'name' => 'E2_1102_10',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 
 // 1103
 $E2_1103_1 = array(
 				'id' => 'E2_1103_1',
 				'name' => 'E2_1103_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1103_2 = array(
 				'id' => 'E2_1103_2',
 				'name' => 'E2_1103_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1103_3 = array(
 				'id' => 'E2_1103_3',
 				'name' => 'E2_1103_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3' 
 			);
 $E2_1103_4 = array(
 				'id' => 'E2_1103_4',
 				'name' => 'E2_1103_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1103_5 = array(
 				'id' => 'E2_1103_5',
 				'name' => 'E2_1103_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1103_6 = array(
 				'id' => 'E2_1103_6',
 				'name' => 'E2_1103_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1103_7 = array(
 				'id' => 'E2_1103_7',
 				'name' => 'E2_1103_7',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7' 
 			);
 $E2_1103_8 = array(
 				'id' => 'E2_1103_8',
 				'name' => 'E2_1103_8',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1103_9 = array(
 				'id' => 'E2_1103_9',
 				'name' => 'E2_1103_9',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1103_10 = array(
 				'id' => 'E2_1103_10',
 				'name' => 'E2_1103_10',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 
 // 1104
 $E2_1104_1 = array(
 				'id' => 'E2_1104_1',
 				'name' => 'E2_1104_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1104_2 = array(
 				'id' => 'E2_1104_2',
 				'name' => 'E2_1104_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1104_3 = array(
 				'id' => 'E2_1104_3',
 				'name' => 'E2_1104_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1104_4 = array(
 				'id' => 'E2_1104_4',
 				'name' => 'E2_1104_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1104_5 = array(
 				'id' => 'E2_1104_5',
 				'name' => 'E2_1104_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1104_6 = array(
 				'id' => 'E2_1104_6',
 				'name' => 'E2_1104_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1104_7 = array(
 				'id' => 'E2_1104_7',
 				'name' => 'E2_1104_7',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1104_8 = array(
 				'id' => 'E2_1104_8',
 				'name' => 'E2_1104_8',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1104_9 = array(
 				'id' => 'E2_1104_9',
 				'name' => 'E2_1104_9',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1104_10 = array(
 				'id' => 'E2_1104_10',
 				'name' => 'E2_1104_10',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 
 // 1105
 $E2_1105_1 = array(
 				'id' => 'E2_1105_1',
 				'name' => 'E2_1105_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1105_2 = array(
 				'id' => 'E2_1105_2',
 				'name' => 'E2_1105_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1105_3 = array(
 				'id' => 'E2_1105_3',
 				'name' => 'E2_1105_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1105_4 = array(
 				'id' => 'E2_1105_4',
 				'name' => 'E2_1105_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1105_5 = array(
 				'id' => 'E2_1105_5',
 				'name' => 'E2_1105_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1105_6 = array(
 				'id' => 'E2_1105_6',
 				'name' => 'E2_1105_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1105_7 = array(
 				'id' => 'E2_1105_7',
 				'name' => 'E2_1105_7',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1105_8 = array(
 				'id' => 'E2_1105_8',
 				'name' => 'E2_1105_8',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1105_9 = array(
 				'id' => 'E2_1105_9',
 				'name' => 'E2_1105_9',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1105_10 = array(
 				'id' => 'E2_1105_10',
 				'name' => 'E2_1105_10',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 
 // 1106
 $E2_1106_1_1 = array(
 				'id' => 'E2_1106_1_1',
 				'name' => 'E2_1106_1_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1106_1_2 = array(
 				'id' => 'E2_1106_1_2',
 				'name' => 'E2_1106_1_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1106_1_3 = array(
 				'id' => 'E2_1106_1_3',
 				'name' => 'E2_1106_1_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1106_1_4 = array(
 				'id' => 'E2_1106_1_4',
 				'name' => 'E2_1106_1_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1106_1_5 = array(
 				'id' => 'E2_1106_1_5',
 				'name' => 'E2_1106_1_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1106_1_6 = array(
 				'id' => 'E2_1106_1_6',
 				'name' => 'E2_1106_1_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 $E2_1106_1_6_O = array(
 				'id' => 'E2_1106_1_6_O',
 				'name' => 'E2_1106_1_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_1'
 			);
 
 $E2_1106_2_1 = array(
 				'id' => 'E2_1106_2_1',
 				'name' => 'E2_1106_2_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1106_2_2 = array(
 				'id' => 'E2_1106_2_2',
 				'name' => 'E2_1106_2_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1106_2_3 = array(
 				'id' => 'E2_1106_2_3',
 				'name' => 'E2_1106_2_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1106_2_4 = array(
 				'id' => 'E2_1106_2_4',
 				'name' => 'E2_1106_2_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1106_2_5 = array(
 				'id' => 'E2_1106_2_5',
 				'name' => 'E2_1106_2_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1106_2_6 = array(
 				'id' => 'E2_1106_2_6',
 				'name' => 'E2_1106_2_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 $E2_1106_2_6_O = array(
 				'id' => 'E2_1106_2_6_O',
 				'name' => 'E2_1106_2_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_2'
 			);
 
 $E2_1106_3_1 = array(
 				'id' => 'E2_1106_3_1',
 				'name' => 'E2_1106_3_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1106_3_2 = array(
 				'id' => 'E2_1106_3_2',
 				'name' => 'E2_1106_3_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1106_3_3 = array(
 				'id' => 'E2_1106_3_3',
 				'name' => 'E2_1106_3_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1106_3_4 = array(
-				'id' => 'E2_1106_2_1',
-				'name' => 'E2_1106_2_1',
-				'class' => 'form-control'
+				'id' => 'E2_1106_3_4',
+				'name' => 'E2_1106_3_4',
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1106_3_5 = array(
 				'id' => 'E2_1106_3_5',
 				'name' => 'E2_1106_3_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1106_3_6 = array(
 				'id' => 'E2_1106_3_6',
 				'name' => 'E2_1106_3_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 $E2_1106_3_6_O = array(
 				'id' => 'E2_1106_3_6_O',
 				'name' => 'E2_1106_3_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_3'
 			);
 
 $E2_1106_4_1 = array(
 				'id' => 'E2_1106_4_1',
 				'name' => 'E2_1106_4_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1106_4_2 = array(
 				'id' => 'E2_1106_4_2',
 				'name' => 'E2_1106_4_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1106_4_3 = array(
 				'id' => 'E2_1106_4_3',
 				'name' => 'E2_1106_4_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1106_4_4 = array(
 				'id' => 'E2_1106_4_4',
 				'name' => 'E2_1106_4_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1106_4_5 = array(
 				'id' => 'E2_1106_4_5',
 				'name' => 'E2_1106_4_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1106_4_6 = array(
 				'id' => 'E2_1106_4_6',
 				'name' => 'E2_1106_4_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 $E2_1106_4_6_O = array(
 				'id' => 'E2_1106_4_6_O',
 				'name' => 'E2_1106_4_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_4'
 			);
 
 $E2_1106_5_1 = array(
 				'id' => 'E2_1106_5_1',
 				'name' => 'E2_1106_5_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1106_5_2 = array(
 				'id' => 'E2_1106_5_2',
 				'name' => 'E2_1106_5_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1106_5_3 = array(
 				'id' => 'E2_1106_5_3',
 				'name' => 'E2_1106_5_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1106_5_4 = array(
 				'id' => 'E2_1106_5_4',
 				'name' => 'E2_1106_5_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1106_5_5 = array(
 				'id' => 'E2_1106_5_5',
 				'name' => 'E2_1106_5_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1106_5_6 = array(
 				'id' => 'E2_1106_5_6',
 				'name' => 'E2_1106_5_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 $E2_1106_5_6_O = array(
 				'id' => 'E2_1106_5_6_O',
 				'name' => 'E2_1106_5_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_5'
 			);
 
 $E2_1106_6_1 = array(
 				'id' => 'E2_1106_6_1',
 				'name' => 'E2_1106_6_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1106_6_2 = array(
 				'id' => 'E2_1106_6_2',
 				'name' => 'E2_1106_6_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1106_6_3 = array(
 				'id' => 'E2_1106_6_3',
 				'name' => 'E2_1106_6_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1106_6_4 = array(
 				'id' => 'E2_1106_6_4',
 				'name' => 'E2_1106_6_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1106_6_5 = array(
 				'id' => 'E2_1106_6_5',
 				'name' => 'E2_1106_6_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1106_6_6 = array(
 				'id' => 'E2_1106_6_6',
 				'name' => 'E2_1106_6_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 $E2_1106_6_6_O = array(
 				'id' => 'E2_1106_6_6_O',
 				'name' => 'E2_1106_6_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_6'
 			);
 
 $E2_1106_7_1 = array(
 				'id' => 'E2_1106_7_1',
 				'name' => 'E2_1106_7_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1106_7_2 = array(
 				'id' => 'E2_1106_7_2',
 				'name' => 'E2_1106_7_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1106_7_3 = array(
 				'id' => 'E2_1106_7_3',
 				'name' => 'E2_1106_7_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1106_7_4 = array(
 				'id' => 'E2_1106_7_4',
 				'name' => 'E2_1106_7_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1106_7_5 = array(
 				'id' => 'E2_1106_7_5',
 				'name' => 'E2_1106_7_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1106_7_6 = array(
 				'id' => 'E2_1106_7_6',
 				'name' => 'E2_1106_7_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 $E2_1106_7_6_O = array(
 				'id' => 'E2_1106_7_6_O',
 				'name' => 'E2_1106_7_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_7'
 			);
 
 $E2_1106_8_1 = array(
 				'id' => 'E2_1106_8_1',
 				'name' => 'E2_1106_8_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1106_8_2 = array(
 				'id' => 'E2_1106_8_2',
 				'name' => 'E2_1106_8_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1106_8_3 = array(
 				'id' => 'E2_1106_8_3',
 				'name' => 'E2_1106_8_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1106_8_4 = array(
 				'id' => 'E2_1106_8_4',
 				'name' => 'E2_1106_8_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1106_8_5 = array(
 				'id' => 'E2_1106_8_5',
 				'name' => 'E2_1106_8_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1106_8_6 = array(
 				'id' => 'E2_1106_8_6',
 				'name' => 'E2_1106_8_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 $E2_1106_8_6_O = array(
 				'id' => 'E2_1106_8_6_O',
 				'name' => 'E2_1106_8_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_8'
 			);
 
 $E2_1106_9_1 = array(
 				'id' => 'E2_1106_9_1',
 				'name' => 'E2_1106_9_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1106_9_2 = array(
 				'id' => 'E2_1106_9_2',
 				'name' => 'E2_1106_9_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1106_9_3 = array(
 				'id' => 'E2_1106_9_3',
 				'name' => 'E2_1106_9_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1106_9_4 = array(
 				'id' => 'E2_1106_9_4',
 				'name' => 'E2_1106_9_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1106_9_5 = array(
 				'id' => 'E2_1106_9_5',
 				'name' => 'E2_1106_9_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1106_9_6 = array(
 				'id' => 'E2_1106_9_6',
 				'name' => 'E2_1106_9_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 $E2_1106_9_6_O = array(
 				'id' => 'E2_1106_9_6_O',
 				'name' => 'E2_1106_9_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_9'
 			);
 
 $E2_1106_10_1 = array(
 				'id' => 'E2_1106_10_1',
 				'name' => 'E2_1106_10_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 $E2_1106_10_2 = array(
 				'id' => 'E2_1106_10_2',
 				'name' => 'E2_1106_10_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 $E2_1106_10_3 = array(
 				'id' => 'E2_1106_10_3',
 				'name' => 'E2_1106_10_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 $E2_1106_10_4 = array(
 				'id' => 'E2_1106_10_4',
 				'name' => 'E2_1106_10_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 $E2_1106_10_5 = array(
 				'id' => 'E2_1106_10_5',
 				'name' => 'E2_1106_10_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 $E2_1106_10_6 = array(
 				'id' => 'E2_1106_10_6',
 				'name' => 'E2_1106_10_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 $E2_1106_10_6_O = array(
 				'id' => 'E2_1106_10_6_O',
 				'name' => 'E2_1106_10_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_resources_10'
 			);
 // 1107
 
@@ -677,331 +677,331 @@ $E2_1107_6 = array(
 $E2_1201 = array(
 				'id' => 'E2_1201',
 				'name' => 'E2_1201',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 // 1202
 $E2_1202_1 = array(
 				'id' => 'E2_1202_1',
 				'name' => 'E2_1202_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1202_2 = array(
 				'id' => 'E2_1202_2',
 				'name' => 'E2_1202_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1202_3 = array(
 				'id' => 'E2_1202_3',
 				'name' => 'E2_1202_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1202_4 = array(
 				'id' => 'E2_1202_4',
 				'name' => 'E2_1202_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1202_5 = array(
 				'id' => 'E2_1202_5',
 				'name' => 'E2_1202_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1202_5_O = array(
 				'id' => 'E2_1202_5_O',
 				'name' => 'E2_1202_5_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 // 1202 A
 $E2_1202A = array(
 				'id' => 'E2_1202A',
 				'name' => 'E2_1202A',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 // 1203
 $E2_1203_1 = array(
 				'id' => 'E2_1203_1',
 				'name' => 'E2_1203_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1203_2 = array(
 				'id' => 'E2_1203_2',
 				'name' => 'E2_1203_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1203_3 = array(
 				'id' => 'E2_1203_3',
 				'name' => 'E2_1203_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1203_4 = array(
 				'id' => 'E2_1203_4',
 				'name' => 'E2_1203_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1203_5 = array(
 				'id' => 'E2_1203_5',
 				'name' => 'E2_1203_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1203_6 = array(
 				'id' => 'E2_1203_6',
 				'name' => 'E2_1203_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1203_7 = array(
 				'id' => 'E2_1203_7',
 				'name' => 'E2_1203_7',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 // 1204
 $E2_1204_1_1 = array(
 				'id' => 'E2_1204_1_1',
 				'name' => 'E2_1204_1_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_1_2 = array(
 				'id' => 'E2_1204_1_2',
 				'name' => 'E2_1204_1_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_1_3 = array(
 				'id' => 'E2_1204_1_3',
 				'name' => 'E2_1204_1_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_1_4 = array(
-				'id' => 'E2_1204_1_1',
-				'name' => 'E2_1204_1_1',
-				'class' => 'form-control'
+				'id' => 'E2_1204_1_4',
+				'name' => 'E2_1204_1_4',
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_1_4_O = array(
 				'id' => 'E2_1204_1_4_O',
 				'name' => 'E2_1204_1_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_1_5 = array(
 				'id' => 'E2_1204_1_5',
 				'name' => 'E2_1204_1_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 $E2_1204_2_1 = array(
 				'id' => 'E2_1204_2_1',
 				'name' => 'E2_1204_2_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_2_2 = array(
 				'id' => 'E2_1204_2_2',
 				'name' => 'E2_1204_2_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_2_3 = array(
 				'id' => 'E2_1204_2_3',
 				'name' => 'E2_1204_2_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_2_4 = array(
 				'id' => 'E2_1204_2_4',
 				'name' => 'E2_1204_2_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_2_4_O = array(
 				'id' => 'E2_1204_2_4_O',
 				'name' => 'E2_1204_2_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 $E2_1204_2_5 = array(
 				'id' => 'E2_1204_2_5',
 				'name' => 'E2_1204_2_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 $E2_1204_3_1 = array(
 				'id' => 'E2_1204_3_1',
 				'name' => 'E2_1204_3_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_3_2 = array(
 				'id' => 'E2_1204_3_2',
 				'name' => 'E2_1204_3_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_3_3 = array(
 				'id' => 'E2_1204_3_3',
 				'name' => 'E2_1204_3_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_3_4 = array(
 				'id' => 'E2_1204_3_4',
 				'name' => 'E2_1204_3_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_3_4_O = array(
 				'id' => 'E2_1204_3_4_O',
 				'name' => 'E2_1204_3_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_3_5 = array(
 				'id' => 'E2_1204_3_5',
 				'name' => 'E2_1204_3_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 $E2_1204_4_1 = array(
 				'id' => 'E2_1204_4_1',
 				'name' => 'E2_1204_4_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_4_2 = array(
 				'id' => 'E2_1204_4_2',
 				'name' => 'E2_1204_4_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_4_3 = array(
 				'id' => 'E2_1204_4_3',
 				'name' => 'E2_1204_4_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_4_4 = array(
 				'id' => 'E2_1204_4_4',
 				'name' => 'E2_1204_4_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_4_4_O = array(
 				'id' => 'E2_1204_4_4_O',
 				'name' => 'E2_1204_4_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_4_5 = array(
 				'id' => 'E2_1204_4_5',
 				'name' => 'E2_1204_4_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 
 $E2_1204_5_1 = array(
 				'id' => 'E2_1204_5_1',
 				'name' => 'E2_1204_5_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_5_2 = array(
 				'id' => 'E2_1204_5_2',
 				'name' => 'E2_1204_5_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_5_3 = array(
 				'id' => 'E2_1204_5_3',
 				'name' => 'E2_1204_5_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_5_4 = array(
 				'id' => 'E2_1204_5_4',
 				'name' => 'E2_1204_5_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_5_4_O = array(
 				'id' => 'E2_1204_5_4_O',
 				'name' => 'E2_1204_5_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_5_5 = array(
 				'id' => 'E2_1204_5_5',
 				'name' => 'E2_1204_5_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 $E2_1204_6_1 = array(
 				'id' => 'E2_1204_6_1',
 				'name' => 'E2_1204_6_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_6_2 = array(
 				'id' => 'E2_1204_6_2',
 				'name' => 'E2_1204_6_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_6_3 = array(
 				'id' => 'E2_1204_6_3',
 				'name' => 'E2_1204_6_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_6_4 = array(
 				'id' => 'E2_1204_6_4',
 				'name' => 'E2_1204_6_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_6_4_O = array(
 				'id' => 'E2_1204_6_4_O',
 				'name' => 'E2_1204_6_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1204_6_5 = array(
 				'id' => 'E2_1204_6_5',
 				'name' => 'E2_1204_6_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 // 1205
 $E2_1205_1 = array(
 				'id' => 'E2_1205_1',
 				'name' => 'E2_1205_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_1_O = array(
 				'id' => 'E2_1205_1_O',
 				'name' => 'E2_1205_1_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_2 = array(
 				'id' => 'E2_1205_2',
 				'name' => 'E2_1205_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_2_O = array(
 				'id' => 'E2_1205_2_O',
 				'name' => 'E2_1205_2_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_3 = array(
 				'id' => 'E2_1205_3',
 				'name' => 'E2_1205_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_3_O = array(
 				'id' => 'E2_1205_3_O',
 				'name' => 'E2_1205_3_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_4 = array(
 				'id' => 'E2_1205_4',
 				'name' => 'E2_1205_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_4_O = array(
 				'id' => 'E2_1205_4_O',
 				'name' => 'E2_1205_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_5 = array(
-				'id' => 'E2_1205_4',
-				'name' => 'E2_1205_4',
-				'class' => 'form-control'
+				'id' => 'E2_1205_5',
+				'name' => 'E2_1205_5',
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_5_O = array(
 				'id' => 'E2_1205_5_O',
 				'name' => 'E2_1205_5_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_6 = array(
 				'id' => 'E2_1205_6',
 				'name' => 'E2_1205_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1205_6_O = array(
 				'id' => 'E2_1205_6_O',
 				'name' => 'E2_1205_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 
@@ -1009,62 +1009,62 @@ $E2_1205_6_O = array(
 $E2_1206_1 = array(
 				'id' => 'E2_1204_1_1',
 				'name' => 'E2_1204_1_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_1_O = array(
 				'id' => 'E2_1206_1_O',
 				'name' => 'E2_1206_1_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_2 = array(
 				'id' => 'E2_1206_2',
 				'name' => 'E2_1206_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_2_O = array(
 				'id' => 'E2_1206_2_O',
 				'name' => 'E2_1206_2_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_3 = array(
 				'id' => 'E2_1206_3',
 				'name' => 'E2_1206_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_3_O = array(
 				'id' => 'E2_1206_3_O',
 				'name' => 'E2_1206_3_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_4 = array(
 				'id' => 'E2_1206_4',
 				'name' => 'E2_1206_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_4_O = array(
 				'id' => 'E2_1206_4_O',
 				'name' => 'E2_1206_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_5 = array(
 				'id' => 'E2_1206_5',
 				'name' => 'E2_1206_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_5_O = array(
 				'id' => 'E2_1206_5_O',
 				'name' => 'E2_1206_5_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_6 = array(
 				'id' => 'E2_1206_6',
 				'name' => 'E2_1206_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1206_6_O = array(
 				'id' => 'E2_1206_6_O',
 				'name' => 'E2_1206_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 // 1207
@@ -1072,57 +1072,57 @@ $E2_1206_6_O = array(
 $E2_1207_1 = array(
 				'id' => 'E2_1207_1',
 				'name' => 'E2_1207_1',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_2 = array(
 				'id' => 'E2_1207_2',
 				'name' => 'E2_1207_2',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_3 = array(
 				'id' => 'E2_1207_3',
 				'name' => 'E2_1207_3',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_4 = array(
 				'id' => 'E2_1207_4',
 				'name' => 'E2_1207_4',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_5 = array(
 				'id' => 'E2_1207_5',
 				'name' => 'E2_1207_5',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_6 = array(
 				'id' => 'E2_1207_6',
 				'name' => 'E2_1207_6',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_7 = array(
 				'id' => 'E2_1207_7',
 				'name' => 'E2_1207_7',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_8 = array(
 				'id' => 'E2_1207_8',
 				'name' => 'E2_1207_8',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_8_O = array(
 				'id' => 'E2_1207_8_O',
 				'name' => 'E2_1207_8_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_9 = array(
 				'id' => 'E2_1207_9',
 				'name' => 'E2_1207_9',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 $E2_1207_9_O = array(
 				'id' => 'E2_1207_9_O',
 				'name' => 'E2_1207_9_O',
-				'class' => 'form-control'
+				'class' => 'form-control forest_management'
 			);
 
 // CAPITULO 1300
@@ -1130,99 +1130,99 @@ $E2_1207_9_O = array(
 $E2_1301 = array(
 				'id' => 'E2_1301',
 				'name' => 'E2_1301',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 // 1302
 $E2_1302_1 = array(
 				'id' => 'E2_1302_1',
 				'name' => 'E2_1302_1',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_2 = array(
 				'id' => 'E2_1302_2',
 				'name' => 'E2_1302_2',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_3 = array(
 				'id' => 'E2_1302_3',
 				'name' => 'E2_1302_3',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_4 = array(
 				'id' => 'E2_1302_4',
 				'name' => 'E2_1302_4',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_5 = array(
 				'id' => 'E2_1302_5',
 				'name' => 'E2_1302_5',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_6 = array(
 				'id' => 'E2_1302_6',
 				'name' => 'E2_1302_6',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_7 = array(
 				'id' => 'E2_1302_7',
 				'name' => 'E2_1302_7',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_8 = array(
 				'id' => 'E2_1302_8',
 				'name' => 'E2_1302_8',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1302_9 = array(
 				'id' => 'E2_1302_9',
 				'name' => 'E2_1302_9',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 // 1303
 $E2_1303_1 = array(
 				'id' => 'E2_1303_1',
 				'name' => 'E2_1303_1',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_2 = array(
 				'id' => 'E2_1303_2',
 				'name' => 'E2_1303_2',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_3 = array(
 				'id' => 'E2_1303_3',
 				'name' => 'E2_1303_3',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_4 = array(
 				'id' => 'E2_1303_4',
 				'name' => 'E2_1303_4',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_5 = array(
 				'id' => 'E2_1303_5',
 				'name' => 'E2_1303_5',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_6 = array(
 				'id' => 'E2_1303_6',
 				'name' => 'E2_1303_6',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_7 = array(
 				'id' => 'E2_1303_7',
 				'name' => 'E2_1303_7',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_8 = array(
 				'id' => 'E2_1303_8',
 				'name' => 'E2_1303_8',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $E2_1303_9 = array(
 				'id' => 'E2_1303_9',
 				'name' => 'E2_1303_9',
-				'class' => 'form-control'
+				'class' => 'form-control early_warning'
 			);
 $button_1100_1300 = array(
 					'id' => 'button_1100_1300',
@@ -1306,7 +1306,7 @@ $button_1100_1300 = array(
 		<td><?php echo form_input ($E2_1103_3); ?></td>
 		<td><?php echo form_input ($E2_1104_3); ?></td>
 		<td><?php echo form_input ($E2_1105_3); ?></td>
-		<td><?php echo form_input ($E2_1106_1_1); ?></td>
+		<td><?php echo form_input ($E2_1106_3_1); ?></td>
 		<td><?php echo form_input ($E2_1106_3_2); ?></td>
 		<td><?php echo form_input ($E2_1106_3_3); ?></td>
 		<td><?php echo form_input ($E2_1106_3_4); ?></td>
@@ -1336,7 +1336,7 @@ $button_1100_1300 = array(
 		<td><?php echo form_input ($E2_1103_5); ?></td>
 		<td><?php echo form_input ($E2_1104_5); ?></td>
 		<td><?php echo form_input ($E2_1105_5); ?></td>
-		<td><?php echo form_input ($E2_1106_1_1); ?></td>
+		<td><?php echo form_input ($E2_1106_5_1); ?></td>
 		<td><?php echo form_input ($E2_1106_5_2); ?></td>
 		<td><?php echo form_input ($E2_1106_5_3); ?></td>
 		<td><?php echo form_input ($E2_1106_5_4); ?></td>
@@ -1769,3 +1769,152 @@ $button_1100_1300 = array(
 		<?php echo form_submit($button_1100_1300); ?>
 	</div>
 </div>
+
+<script class ="text/javascript">
+
+$('#E2_1101_1').change (function (event) 
+			{
+				if ($('#E2_1101_1').val() == '2') 
+					{
+						$('.forest_resources_1').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_1').val() == '1')
+					 {
+						$('.forest_resources_1').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_2').change (function (event) 
+			{
+				if ($('#E2_1101_2').val() == '2') 
+					{
+						$('.forest_resources_2').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_2').val() == '1')
+					 {
+						$('.forest_resources_2').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_3').change (function (event) 
+			{
+				if ($('#E2_1101_3').val() == '2') 
+					{
+						$('.forest_resources_3').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_3').val() == '1')
+					 {
+						$('.forest_resources_3').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_4').change (function (event) 
+			{
+				if ($('#E2_1101_4').val() == '2') 
+					{
+						$('.forest_resources_4').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_4').val() == '1')
+					 {
+						$('.forest_resources_4').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_5').change (function (event) 
+			{
+				if ($('#E2_1101_5').val() == '2') 
+					{
+						$('.forest_resources_5').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_5').val() == '1')
+					 {
+						$('.forest_resources_5').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_6').change (function (event) 
+			{
+				if ($('#E2_1101_6').val() == '2') 
+					{
+						$('.forest_resources_6').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_6').val() == '1')
+					 {
+						$('.forest_resources_6').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_7').change (function (event) 
+			{
+				if ($('#E2_1101_7').val() == '2') 
+					{
+						$('.forest_resources_7').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_7').val() == '1')
+					 {
+						$('.forest_resources_7').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_8').change (function (event) 
+			{
+				if ($('#E2_1101_8').val() == '2') 
+					{
+						$('.forest_resources_8').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_8').val() == '1')
+					 {
+						$('.forest_resources_8').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1101_9').change (function (event) 
+			{
+				if ($('#E2_1101_9').val() == '2') 
+					{
+						$('.forest_resources_9').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_9').val() == '1')
+					 {
+						$('.forest_resources_9').removeAttr ('disabled')
+					 };E2_1102_2
+			});
+
+$('#E2_1101_10').change (function (event) 
+			{
+				if ($('#E2_1101_10').val() == '2') 
+					{
+						$('.forest_resources_10').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1101_10').val() == '1')
+					 {
+						$('.forest_resources_10').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1201').change (function (event) 
+			{
+				if ($('#E2_1201').val() == '2') 
+					{
+						$('.forest_management').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1201').val() == '1')
+					 {
+						$('.forest_management').removeAttr ('disabled')
+					 };
+			});
+
+$('#E2_1301').change (function (event) 
+			{
+				if ($('#E2_1301').val() == '2') 
+					{
+						$('.early_warning').attr ('disabled','disabled')
+					}
+					else if ($('#E2_1301').val() == '1')
+					 {
+						$('.early_warning').removeAttr ('disabled')
+					 };
+			});
+
+
+</script>

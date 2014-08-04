@@ -127,12 +127,12 @@ $E2_1002_10 = array(
 $E2_1003 = array(
 				'id' => 'E2_1003',
 				'name' => 'E2_1003',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1003A = array(
 				'id' => 'E2_1003A',
 				'name' => 'E2_1003A',
-				'class' => 'form-control'
+				'class' => 'form-control homes'
 			);
 // 1004
 $E2_1004 = array(
@@ -147,180 +147,180 @@ $E2_1005_1 = array(
 				'class' => 'form-control'
 			);
 $E2_1005_2 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_2',
+				'name' => 'E2_1005_2',
 				'class' => 'form-control'
 			);
 $E2_1005_3 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_3',
+				'name' => 'E2_1005_3',
 				'class' => 'form-control'
 			);
 $E2_1005_4 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_4',
+				'name' => 'E2_1005_4',
 				'class' => 'form-control'
 			);
 $E2_1005_5 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_5',
+				'name' => 'E2_1005_5',
 				'class' => 'form-control'
 			);
 $E2_1005_6 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_6',
+				'name' => 'E2_1005_6',
 				'class' => 'form-control'
 			);
 $E2_1005_7 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_7',
+				'name' => 'E2_1005_7',
 				'class' => 'form-control'
 			);
 $E2_1005_8 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_8',
+				'name' => 'E2_1005_8',
 				'class' => 'form-control'
 			);
 $E2_1005_8_O = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_8_O',
+				'name' => 'E2_1005_8_O',
 				'class' => 'form-control'
 			);
 $E2_1005_9 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_9',
+				'name' => 'E2_1005_9',
 				'class' => 'form-control'
 			);
 $E2_1005_9_O = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_9_O',
+				'name' => 'E2_1005_9_O',
 				'class' => 'form-control'
 			);
 $E2_1005_10 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
+				'id' => 'E2_1005_10',
+				'name' => 'E2_1005_10',
 				'class' => 'form-control'
 			);
 // 1006
 $E2_1006_1 = array(
-				'id' => 'E2_1005_1',
-				'name' => 'E2_1005_1',
-				'class' => 'form-control'
+				'id' => 'E2_1006_1',
+				'name' => 'E2_1006_1',
+				'class' => 'form-control change'
 			);
 $E2_1006A_1 = array(
 				'id' => 'E2_1006A_1',
 				'name' => 'E2_1006A_1',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_1 change'
 			);
 $E2_1006B_1 = array(
 				'id' => 'E2_1006B_1',
 				'name' => 'E2_1006B_1',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_1 dificult_1'
 			);
 $E2_1006B_1_O = array(
 				'id' => 'E2_1006B_1_O',
 				'name' => 'E2_1006B_1_O',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_1 dificult_1'
 			);
 $E2_1006_2 = array(
 				'id' => 'E2_1006_2',
 				'name' => 'E2_1006_2',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1006A_2 = array(
 				'id' => 'E2_1006A_2',
 				'name' => 'E2_1006A_2',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_2 change'
 			);
 $E2_1006B_2 = array(
 				'id' => 'E2_1006B_2',
 				'name' => 'E2_1006B_2',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_2 dificult_2'
 			);
 $E2_1006B_2_O = array(
 				'id' => 'E2_1006B_2_O',
 				'name' => 'E2_1006B_2_O',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_2 dificult_2'
 			);
 $E2_1006_3 = array(
 				'id' => 'E2_1006_3',
 				'name' => 'E2_1006_3',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1006A_3 = array(
 				'id' => 'E2_1006A_3',
 				'name' => 'E2_1006A_3',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_3 change'
 			);
 $E2_1006B_3 = array(
 				'id' => 'E2_1006B_3',
 				'name' => 'E2_1006B_3',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_3 dificult_3'
 			);
 $E2_1006B_3_O = array(
 				'id' => 'E2_1006B_3_O',
 				'name' => 'E2_1006B_3_O',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_3 dificult_3'
 			);
 $E2_1006_4 = array(
 				'id' => 'E2_1006_4',
 				'name' => 'E2_1006_4',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1006A_4 = array(
 				'id' => 'E2_1006A_4',
 				'name' => 'E2_1006A_4',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_4 change'
 			);
 $E2_1006B_4 = array(
 				'id' => 'E2_1006B_4',
 				'name' => 'E2_1006B_4',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_4 dificult_4'
 			);
 $E2_1006B_4_O = array(
 				'id' => 'E2_1006B_4_O',
 				'name' => 'E2_1006B_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_4 dificult_4'
 			);
 $E2_1006_5 = array(
 				'id' => 'E2_1006_5',
 				'name' => 'E2_1006_5',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 $E2_1006A_5 = array(
 				'id' => 'E2_1006A_5',
 				'name' => 'E2_1006A_5',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_5 change'
 			);
 $E2_1006B_5 = array(
 				'id' => 'E2_1006B_5',
 				'name' => 'E2_1006B_5',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_5 dificult_5'
 			);
 $E2_1006B_5_O = array(
 				'id' => 'E2_1006B_5_O',
 				'name' => 'E2_1006B_5_O',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_5 dificult_5'
 			);
 $E2_1006_6 = array(
 				'id' => 'E2_1006_6',
 				'name' => 'E2_1006_6',
-				'class' => 'form-control'
+				'class' => 'form-control change' 
 			);
 $E2_1006A_6 = array(
 				'id' => 'E2_1006A_6',
 				'name' => 'E2_1006A_6',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_6 change'
 			);
 $E2_1006B_6 = array(
 				'id' => 'E2_1006B_6',
 				'name' => 'E2_1006B_6',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_6 dificult_6'
 			);
 $E2_1006B_6_O = array(
 				'id' => 'E2_1006B_6_O',
 				'name' => 'E2_1006B_6_O',
-				'class' => 'form-control'
+				'class' => 'form-control conservation_6 dificult_6'
 			);
 $button_1000 = array(
 					'id' => 'button_1000',
@@ -462,7 +462,7 @@ $button_1000 = array(
 					<td><?php echo form_input($E2_1003); ?><b>1003A. Porqué?</b></td>
 				</tr>
 				<tr>
-					<td colspan ="2"><?php echo form_input($E2_1003A); ?></td>
+					<td colspan ="2"><?php echo form_textarea($E2_1003A); ?></td>
 				</tr>
 			</table>
 
@@ -534,19 +534,20 @@ $button_1000 = array(
 		<th colspan ="6"><center>1006. EN LOS ULTIMOS 12 MESES, LA COMUNIDAD HA TENIDO HA TENIDO ALGUNA DIFICULTAD PARA OBTENER:</center></th>
 	</tr>
 	<tr>
-		<th colspan="2">Especie</th>
-		<th>1006A. La dificultad que tuvo fue:</th>
-		<th colspan ="2">1006B. Si respondió "Mucha", Porque?</th>
+		<th colspan="2"><center>Especie</center></th>
+		<th><center>1006A. La dificultad que tuvo fue:</center></th>
+		<th colspan ="2"><center>1006B. Si respondió "Mucha", Porque?</center></th>
 	</tr>
 	<tr>
 		<th></th>
-		<th>SI / NO</th>
-		<th>Mucha / Poca / Ninguna</th>
+		<th><center>SI / NO</center></th>
+		<th><center>Mucha / Poca / Ninguna</center></th>
 		<th><center>Código</center></th>
 		<th><center>Otro</center></th>
 	</tr>
 	<tr>
 		<td>1. Animales terrestres para la caza?</td>
+		<!--<td><?php //echo form_input ($E2_1006_1); ?></td>-->
 		<td><?php echo form_input ($E2_1006_1); ?></td>
 		<td><?php echo form_input ($E2_1006A_1); ?></td>
 		<td><?php echo form_input ($E2_1006B_1); ?></td>
@@ -556,7 +557,7 @@ $button_1000 = array(
 		<td>2. Aves para la caza?</td>
 		<td><?php echo form_input ($E2_1006_2); ?></td>
 		<td><?php echo form_input ($E2_1006A_2); ?></td>
-		<td><?php echo form_input ($E2_1006B_1); ?></td>
+		<td><?php echo form_input ($E2_1006B_2); ?></td>
 		<td><?php echo form_input ($E2_1006B_2_O); ?></td>
 	</tr>
 	<tr>
@@ -594,3 +595,166 @@ $button_1000 = array(
 		<?php echo form_submit($button_1000); ?>
 	</div>
 </div>
+
+<script class ="text/javascript">
+
+$('#E2_1003').change (function (event) 
+			{
+				if ($('#E2_1003').val() == '2') 
+					{
+						$('.homes').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1003').val() == '1')
+					 {
+					 	$('.homes').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006_1').change (function (event) 
+			{
+				if ($('#E2_1006_1').val() == '2') 
+					{
+						$('.conservation_1').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006_1').val() == '1')
+					 {
+					 	$('.conservation_1').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006_2').change (function (event) 
+			{
+				if ($('#E2_1006_2').val() == '2') 
+					{
+						$('.conservation_2').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006_2').val() == '1')
+					 {
+					 	$('.conservation_2').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006_3').change (function (event) 
+			{
+				if ($('#E2_1006_3').val() == '2') 
+					{
+						$('.conservation_3').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006_3').val() == '1')
+					 {
+					 	$('.conservation_3').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006_4').change (function (event) 
+			{
+				if ($('#E2_1006_4').val() == '2') 
+					{
+						$('.conservation_4').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006_4').val() == '1')
+					 {
+					 	$('.conservation_4').removeAttr('disabled');
+					 };
+			});
+$('#E2_1006_5').change (function (event) 
+			{
+				if ($('#E2_1006_5').val() == '2') 
+					{
+						$('.conservation_5').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006_5').val() == '1')
+					 {
+					 	$('.conservation_5').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006_6').change (function (event) 
+			{
+				if ($('#E2_1006_6').val() == '2') 
+					{
+						$('.conservation_6').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006_6').val() == '1')
+					 {
+					 	$('.conservation_6').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006A_1').change (function (event) 
+			{
+				if (($('#E2_1006A_1').val() == '2') ||  ($('#E2_1006A_1').val() == '3'))
+					{
+						$('.dificult_1').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006A_1').val() == '1')
+					 {
+					 	$('.dificult_1').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006A_2').change (function (event) 
+			{
+				if (($('#E2_1006A_2').val() == '2') ||  ($('#E2_1006A_2').val() == '3'))
+					{
+						$('.dificult_2').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006A_2').val() == '1')
+					 {
+					 	$('.dificult_2').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006A_3').change (function (event) 
+			{
+				if (($('#E2_1006A_3').val() == '2') ||  ($('#E2_1006A_3').val() == '3'))
+					{
+						$('.dificult_3').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006A_3').val() == '1')
+					 {
+					 	$('.dificult_3').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006A_4').change (function (event) 
+			{
+				if (($('#E2_1006A_4').val() == '2') ||  ($('#E2_1006A_4').val() == '3'))
+					{
+						$('.dificult_4').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006A_4').val() == '1')
+					 {
+					 	$('.dificult_4').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006A_5').change (function (event) 
+			{
+				if (($('#E2_1006A_5').val() == '2') ||  ($('#E2_1006A_5').val() == '3'))
+					{
+						$('.dificult_5').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006A_5').val() == '1')
+					 {
+					 	$('.dificult_5').removeAttr('disabled');
+					 };
+			});
+
+$('#E2_1006A_6').change (function (event) 
+			{
+				if (($('#E2_1006A_6').val() == '2') ||  ($('#E2_1006A_6').val() == '3'))
+					{
+						$('.dificult_6').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_1006A_6').val() == '1')
+					 {
+					 	$('.dificult_6').removeAttr('disabled');
+					 };
+			});
+
+
+
+
+
+</script>

@@ -1,11 +1,11 @@
-<?php 
+<?php  
 
 // CAPITULO 700
 // 701
 $E2_701 = array(
 				'id' => 'E2_701',
 				'name' => 'E2_701',
-				'class' => 'form-control'
+				'class' => 'form-control change'
 			);
 
 //702
@@ -65,42 +65,42 @@ $E2_702_8_O = array(
 $E2_703_1 = array(
 				'id' => 'E2_703_1',
 				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'class' => 'form-control tech_capa provide_technical_1 provide_technical_1'
 			);
 $E2_703_2 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'id' => 'E2_703_2',
+				'name' => 'E2_703_2',
+				'class' => 'form-control tech_capa provide_technical_2'
 			);
 $E2_703_3 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'id' => 'E2_703_3',
+				'name' => 'E2_703_3',
+				'class' => 'form-control tech_capa provide_technical_3'
 			);
 $E2_703_4 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'id' => 'E2_703_4',
+				'name' => 'E2_703_4',
+				'class' => 'form-control tech_capa provide_technical_4'
 			);
 $E2_703_5 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'id' => 'E2_703_5',
+				'name' => 'E2_703_5',
+				'class' => 'form-control tech_capa provide_technical_5'
 			);
 $E2_703_6 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'id' => 'E2_703_6',
+				'name' => 'E2_703_6',
+				'class' => 'form-control tech_capa provide_technical_6'
 			);
 $E2_703_7 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa'
+				'id' => 'E2_703_7',
+				'name' => 'E2_703_7',
+				'class' => 'form-control tech_capa provide_technical_7'
 			);
 $E2_703_8 = array(
-				'id' => 'E2_703_1',
-				'name' => 'E2_703_1',
-				'class' => 'form-control tech_capa' 
+				'id' => 'E2_703_8',
+				'name' => 'E2_703_8',
+				'class' => 'form-control tech_capa provide_technical_8' 
 			);
 
 // CAPITULO 800
@@ -224,7 +224,7 @@ $button_700_800 = array(
 </table>
 
 
-<table = class =" table table-bordered" id ="table_700" name ="table_700">
+<table = class =" table table-bordered">
 	<tr>
 		<th colspan ="3">701. EN LOS ÚLTIMOS 2 AÑOS LA COMUNIDAD HA RECIBIDO CAPACITACION EN TÉCNICAS DE APROVECHAMIENTO SOSTENIBLE?</th>
 	</tr>
@@ -232,81 +232,50 @@ $button_700_800 = array(
 		<th><center>SI / NO</center></th>
 		<th><?php echo form_input ($E2_701); ?></th>
 	</tr>
+	
 	<tr>
-		<td> <!-- Lado Izquierdo -->
-			<table class ="table table-bordered">
-				<tr>
-					<th colspan="2">702.¿LA(S) INSTITUCION(ES) U ORGANIZACIÓN(ES) QUE HAN BRINDADO ESTAS TÉCNICAS SON: (Lea cada alternativa y circule uno o mas codigos)</th>
-				</tr>
-				<tr>
-					<td>1. Programa Nacional de Bosques?</td>
-					<td><?php echo form_input ($E2_702_1); ?></td>
-				</tr>
-				<tr>
-					<td>2. Servicio Nacional de Area Naturales Protegidas por el estado - SERNANP?</td>
-					<td><?php echo form_input ($E2_702_2); ?></td>
-				</tr>
-				<tr>
-					<td>3. Ministerio de Agricultura?</td>
-					<td><?php echo form_input ($E2_702_3); ?></td>
-				</tr>
-				<tr>
-					<td>4. Gobierno Regional?</td>
-					<td><?php echo form_input ($E2_702_4); ?></td>
-				</tr>
-				<tr>
-					<td>5. Gobierno Provincial?</td>
-					<td><?php echo form_input ($E2_702_5);?></td>
-				</tr>
-				<tr>
-					<td>6. Gobierno Distrital / Local?</td>
-					<td><?php echo form_input ($E2_702_6) ?></td>
-				</tr>
-				<tr>
-					<td>7. Organizacion no Gubernamental - ONG?</td>
-					<td><?php echo form_input ($E2_702_7); ?></td>
-				</tr>
-				<tr>
-					<td><p>8. Otro - Especifique<?php echo form_input ($E2_702_8_O); ?></td>
-					<td><?php echo form_input ($E2_702_8); ?></td>
-				</tr>
-			</table>
-		</td>
-
-		<td> <!-- Lado Derecho -->
-			<table class ="table">
-				<tr>
-					<th>703.¿QUÉ TECNICAS DE APROVECHAMIENTO SOSTENIBLE RECIBIO?</th>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_1); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_2); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_3); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_4); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_5); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_6); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_7); ?></td>
-				</tr>
-				<tr>
-					<td><?php echo form_input ($E2_703_8); ?></td>
-				</tr>
-
-			</table>
-
-		</td>
-
+		<th colspan ="2"><center>702. LA(S) INSTITUCION(ES) U ORGANIZACION(ES) QUE HAN BRINDADO ESTAS TÉCNICAS SON: (Lea cada alternativa y circule uno o más códigos)</center></th>
+		<th><center>703. QUÉ TÉCNICAS DE APROVECHAMIENTO SOSTENIBLE RECIBIÓ?</center></th>
+	</tr>
+	<tr>
+		<td>1. Programa Nacional de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_1); ?></td>
+		<td><?php echo form_input ($E2_703_1); ?></td>
+	</tr>
+	<tr>
+		<td>2. Servicio NAcional de Ar?</td>
+		<td><?php echo form_input ($E2_702_2); ?></td>
+		<td><?php echo form_input ($E2_703_2); ?></td>
+	</tr>
+	<tr>
+		<td>3. Programa Nacionak de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_3); ?></td>
+		<td><?php echo form_input ($E2_703_3); ?></td>
+	</tr>
+	<tr>
+		<td>4. Programa Nacionak de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_4); ?></td>
+		<td><?php echo form_input ($E2_703_4); ?></td>
+	</tr>
+	<tr>
+		<td>5. Programa Nacionak de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_5); ?></td>
+		<td><?php echo form_input ($E2_703_5); ?></td>
+	</tr>
+	<tr>
+		<td>6. Programa Nacionak de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_6); ?></td>
+		<td><?php echo form_input ($E2_703_6); ?></td>
+	</tr>
+	<tr>
+		<td>7. Programa Nacionak de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_7); ?></td>
+		<td><?php echo form_input ($E2_703_7); ?></td>
+	</tr>
+	<tr>
+		<td>8. Programa Nacionak de Conservación de Bosques?</td>
+		<td><?php echo form_input ($E2_702_8); ?></td>
+		<td><?php echo form_input ($E2_703_8); ?></td>
 	</tr>
 
 </table>
@@ -430,5 +399,121 @@ $('#E2_701').change (function  (event)
 						};
 
 				});
+
+$('#E2_702_1').change (function  (event) 
+				{
+					if ($('#E2_702_1').val()== '2') 
+					{
+						$('.provide_technical_1').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_1').val() == '1' )
+						{
+							
+							$('.provide_technical').removeAttr ('disabled');
+							$('#E2_703_1').focus();
+						};
+
+				});
+
+$('#E2_702_2').change (function  (event) 
+				{
+					if ($('#E2_702_2').val()== '2') 
+					{
+						$('.provide_technical_2').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_2').val() == '1' )
+						{
+							
+							$('.provide_technical_2').removeAttr ('disabled');
+						};
+
+				});
+
+$('#E2_702_3').change (function  (event) 
+				{
+					if ($('#E2_702_3').val()== '2') 
+					{
+						$('.provide_technical_3').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_3').val() == '1' )
+						{
+							
+							$('.provide_technical_3').removeAttr ('disabled');
+						};
+
+				});
+
+$('#E2_702_4').change (function  (event) 
+				{
+					if ($('#E2_702_4').val()== '2') 
+					{
+						$('.provide_technical_4').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_4').val() == '1' )
+						{
+							
+							$('.provide_technical_4').removeAttr ('disabled');
+						};
+
+				});
+
+$('#E2_702_5').change (function  (event) 
+				{
+					if ($('#E2_702_5').val()== '2') 
+					{
+						$('.provide_technical_5').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_5').val() == '1' )
+						{
+							
+							$('.provide_technical_5').removeAttr ('disabled');
+						};
+
+				});
+
+$('#E2_702_6').change (function  (event) 
+				{
+					if ($('#E2_702_6').val()== '2') 
+					{
+						$('.provide_technical_6').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_6').val() == '1' )
+						{
+							
+							$('.provide_technical_6').removeAttr ('disabled');
+						};
+
+				});
+
+$('#E2_702_7').change (function  (event) 
+				{
+					if ($('#E2_702_7').val()== '2') 
+					{
+						$('.provide_technical_7').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_7').val() == '1' )
+						{
+							
+							$('.provide_technical_7').removeAttr ('disabled');
+						};
+
+				});
+
+$('#E2_702_8').change (function  (event) 
+				{
+					if ($('#E2_702_8').val()== '2') 
+					{
+						$('.provide_technical_8').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_702_8').val() == '1' )
+						{
+							
+							$('.provide_technical_8').removeAttr ('disabled');
+						};
+
+				});
+
+
+
 
 </script>
