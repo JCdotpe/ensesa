@@ -19,11 +19,9 @@ function clear_by_class ( name_class )
 
 	for (var i = 0; i < name_class.length; i++)
 	{
-		$(':input.' + name_class[i] +'[type="text"],textarea').val('');
-		$('.' + name_class[i]).empty();
+		$(':input.' + name_class[i] +'[type="text"],textarea,:hidden.' + name_class[i]).val('');
 	}
 }
-
 
 function clean_dropdown( list_dropdown )
 {

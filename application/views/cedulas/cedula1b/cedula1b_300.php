@@ -189,6 +189,7 @@ $button_1B_300 = array(
 					'name' => 'button_1B_300',
 					'class' => 'btn btn-primary',
 					'value' => 'Guardar',
+					'disabled' => 'disabled'
 				);
 
 $attributes = array('id' => '1B_300');

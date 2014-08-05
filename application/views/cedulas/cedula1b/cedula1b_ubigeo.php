@@ -101,6 +101,7 @@ $button_1B_head = array(
 			'class' => 'btn btn-primary',
 			'value' => 'Guardar',
 			'align' => 'right',
+			'disabled' => 'disabled'
 		);
 
 ?>

@@ -1,13 +1,17 @@
 // general variables //
 var this_value;
+var forms = [];
 
 // specific variables //
+var distrito = $('#Nombre_Dist');
+var codigo_distrito = $('#A_3_Cod_Dist');
 var A_4_Centro_Poblado = $('#A_4_Centro_Poblado');
 var A_5_Comunidad_Nativa = $('#A_5_Comunidad_Nativa');
 var A_6_Anexo_Cn = $('#A_6_Anexo_Cn');
 var B_7_Zona = $('#B_7_Zona');
 var B_8_Manzana = $('#B_8_Manzana');
 var B_10_Vivienda_nro = $('#B_10_Vivienda_nro');
+var E1_B_13_Nro_Hogar = $('#E1_B_13_Nro_Hogar');
 
 var E1_201_Nro = $('#E1_201_Nro');
 
@@ -58,6 +62,24 @@ var frm_1B_300 = $('#1B_300');
 
 
 // Head //
+
+distrito.on(
+	{ change: function( event )
+		{
+			value = $(distrito).val();
+			set_code_ubigeo( codigo_distrito, value );
+
+			// **** Codigo eventual, de acuerdo sea el caso del app. Si no se necesita se elimna o comenta *** //
+			list_dropdown = ['A_4_Centro_Poblado', 'A_5_Comunidad_Nativa', 'A_6_Anexo_Cn', 'B_7_Zona', 'B_8_Manzana', 'B_9_1_AER_ini', 'B_9_2_AER_fin', 'B_10_Vivienda_nro', 'E1_B_13_Nro_Hogar'];
+			
+			clean_ubigeo( list_dropdown, ['ubigeo']);
+			search_data_ubicacion('A_4_Centro_Poblado');
+
+			// ****
+		}
+	}
+);
+
 A_4_Centro_Poblado.on(
 	{ change: function ( event ) 
 		{
@@ -141,9 +163,12 @@ B_10_Vivienda_nro.on(
 			contenido = $('#B_10_Vivienda_nro').val();
 			var data = { vivienda: contenido }
 
+			clean_modulo();
+
 			$('#vivienda').val( contenido );
 			$('#E1_B_13_Nro_Hogar').empty();
 			$('#E1_B_12').val('');
+			$('#E1_201_Nro').val('');
 
 			$.ajax({
 				url: CI.site_url + '/cedulas/location/get_ubicacion_hogar',
@@ -174,6 +199,52 @@ B_10_Vivienda_nro.on(
 	}
 );
 
+E1_B_13_Nro_Hogar.on(
+	{ change: function ( event ) 
+		{
+			clean_modulo();
+			$('#E1_201_Nro').val('');
+		}
+	}
+);
+
+// **** Codigo eventual, de acuerdo sea el caso del app. Si no se necesita se elimna o comenta *** //
+function search_data_ubicacion( name_dropdown )
+{
+
+	var data = $('.location').serializeArray();
+	data.push({ name: 'search', value: name_dropdown });
+
+	$.ajax({
+		url: CI.site_url + '/cedulas/location/get_ubicacion_vivienda',
+		type: 'POST',
+		cache: false,
+		data: {'key':data},
+		dataType: 'json',
+		success:function(json_data)
+		{
+			if (json_data.VIVIENDA.length == 0 ) { return; }
+
+			var row = '<option id="0" value="">SELECCIONE</option>';
+			$.each( json_data.VIVIENDA, 
+					function(i, datos)
+					{
+						name_ubicacion  = ( datos.search_column != null )  ? datos.search_column : 'NO TIENE';
+						row += '<option id="' + i + '" value="' + datos.search_column + '" >' + name_ubicacion + '</option>';
+					}
+				);
+			$('#' + name_dropdown).html(row);
+		}
+	});
+}
+
+function clean_ubigeo ( list_dropdown, name_class )
+{
+	clean_dropdown( list_dropdown );
+	clear_by_class ( name_class );
+
+	clean_modulo();
+}
 
 E1_201_Nro.on(
 	{ change : function ( event ) 
@@ -184,7 +255,7 @@ E1_201_Nro.on(
 				E1_201_Nro: $("input[name='E1_201_Nro']").val(),
 			};
 
-			clear_by_class(['data_head']);
+			clean_modulo();
 
 			$.ajax({
 				url: CI.site_url + '/cedulas/cedula1b/get_data',
@@ -195,6 +266,8 @@ E1_201_Nro.on(
 				success:function(json_data)
 				{
 
+					var vivienda = '';
+
 					$.each( json_data.E1_Persona,
 							function (fila, valor)
 							{
@@ -203,17 +276,14 @@ E1_201_Nro.on(
 							}
 						);
 
-					var forms = [ frm_1B_100.attr('id'), frm_1B_200.attr('id'), frm_1B_300.attr('id') ];
-					var tables = [ table_100_A.attr('id'), table_100_C.attr('id'), table_200_A.attr('id'), table_200_C.attr('id'), table_300_A.attr('id'), table_300_C.attr('id') ];
-					
-					clear_form_1B( forms, tables, 'row_' );
-
 					$.each( json_data.E1B_Recursos_Naturales, 
 							function(fila, valor)
 							{
 								valor = ( valor == null ) ? '' : valor;
 								
 								$('#' + fila).val(valor);
+
+								validate_vivienda( forms );
 							}
 						);
 
@@ -242,7 +312,10 @@ E1_201_Nro.on(
 										break;
 
 									default:
-										$('#button_' + old_nro + '_' + old_tipo).text('Add');
+										button_add = buttons( old_nro, old_tipo, 'Add' );
+										button_remove = buttons( old_nro, old_tipo, 'Remove' );
+										$('#botones_' + old_nro + '_' + old_tipo).html( button_add + ' ' + button_remove );
+										// $('#button_' + old_nro + '_' + old_tipo).text('+');
 										old_tipo = tipo;
 										old_nro = nro;
 										break;
@@ -280,41 +353,22 @@ E1_201_Nro.on(
 								$('#E1B_1D_Otro_T' + '_' + nro + '_' + tipo).val( datos.E1B_1D_Otro_T );
 
 
-								$('#button_' + nro + '_'  + tipo).text('Remove');
+								$('#button_' + nro + '_'  + tipo).text('-');
 							}
 						);
 
-					$('#button_' + nro + '_' + tipo).text('Add');
+					// $('#button_' + nro + '_' + tipo).text('+');
+					button_add = buttons( nro, tipo, 'Add' );
+					button_remove = buttons( nro, tipo, 'Remove' );
+					$('#botones_' + nro + '_' + tipo).html( button_add + ' ' + button_remove );
 
 					rename_order();
+					$(frm_1B).find(':submit').removeAttr('disabled');
 				}
 			});
 		}
 	}
 );
-
-
-function execute_trigger_1B()
-{
-	var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
-
-	for (var i = 0; i < fields.length; i++)
-	{
-		valor = $('#' + fields[i]).val();
-		if ( valor == 2 ) $('#' + fields[i]).trigger('change');
-	}
-
-	// Tener en cuenta que el evento change de Otros? se ejecuta automaticamente cuando se llama al trigger de la clase. //
-	$('input.C1_B_suma').trigger('change');
-	$('input.C1_D_suma').trigger('change');
-
-	$('input.C2_B_suma').trigger('change');
-	$('input.C2_D_suma').trigger('change');
-
-	$('input.C3_B_suma').trigger('change');
-	$('input.C3_D_suma').trigger('change');
-
-}
 
 
 // Question 100 //
@@ -771,6 +825,7 @@ frm_1B.validate(
 				{
 					alert(json.msg);
 					button_form.removeAttr('disabled');
+					validate_vivienda('1B_100');
 				}
 			});
 		}
@@ -1102,6 +1157,7 @@ $('#1B_100').validate({
 				{
 					alert(json.msg);
 					button_form.removeAttr('disabled');
+					validate_vivienda('1B_200');
 				}
 			});
 		}
@@ -1292,7 +1348,8 @@ frm_1B_200.validate(
 				success:function(json) 
 				{
 					alert(json.msg);
-					button_form.removeAttr('disabled');		
+					button_form.removeAttr('disabled');
+					validate_vivienda('1B_300');
 				}
 			});
 		}

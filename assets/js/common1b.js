@@ -4,38 +4,89 @@ function add_remove_row(event_target, params)
 	var table = params[0];
 	var suffix = params[1].toLowerCase();
 
-	method = $(event_target).closest('button').text();
+	// method = $(event_target).closest('button').text();
+	method = $(event_target).closest('button');
 	
 	order = $(event_target).closest('tr').find('.order_' + suffix).val().split('-');
 	order = order[1];
 	order++;
 
-	if ( method.trim() == 'Add' )
+	// if ( method.trim() == 'Add' )
+	if ( method.hasClass('Add') )
 	{
+		// se resta menos 4 porque son la cantidad de filas que tiene como cabecera la tabla //
+		var index = $(event_target).closest('tr').index() - 4;
+		index++;
+
 		var row = DynamicRows( order, suffix );
 
 		$('#'+ table).append(row);
 
-		$(event_target).closest('button').text('Remove');
+		// $(event_target).closest('button').text('Remove');
+		button_remove = buttons( --order, suffix, 'Remove' );
+		$(event_target).closest('div').html( button_remove );
+
+		button_add = buttons( order, suffix, 'Add' );
+		button_remove = buttons( order, suffix, 'Remove' );
+		$('.boton_' + suffix).eq(index).html( button_add + ' ' + button_remove);
+
+
+		$('.focus_' + suffix).eq(index).focus();
 
 	}
-	else if ( method.trim() == 'Remove')
+	// else if ( method.trim() == 'Remove')
+	else if ( method.hasClass('Remove') )
 	{
+		// total de filas que tiene la tabla //
+		var num_rows = $('#table_' + suffix.toUpperCase() + ' tr:last').index() - 4;
+
+		// se resta menos 4 porque son la cantidad de filas que tiene como cabecera la tabla //
 		var index = $(event_target).closest('tr').index() - 4;
 		var i = 0;
 
-		$(event_target).closest('tr').remove();
+		// FALTA RESOLVER QUE NO SE BORRE SI SOLO SE TIENE UNA FILA //
+		if ( index != num_rows ) { $(event_target).closest('tr').remove(); }
 		
 		$('.order_' + suffix).each(function () {
 			++i;
 			$(this).val(suffix.toUpperCase() + '-' + i);
 		});
+
+
+		if ( i == index )
+		{
+			--index;
+
+			button_add = buttons( order, suffix, 'Add' );
+			button_remove = buttons( order, suffix, 'Remove' );
+			$('.boton_' + suffix).eq(index).html( button_add + ' ' + button_remove );
+
+			$('.focus_' + suffix).eq(index).focus();
+		}
+		else
+		{
+			$('.focus_' + suffix).eq(index).focus();
+		}
+
+		// $('.focus_' + suffix).eq(index).focus();
+
 		
-		$('.focus_' + suffix).eq(index).focus();
 
 	}
 
 	rename_order();
+
+}
+
+function buttons ( order, suffix, action )
+{
+	var button = '';
+
+	symbol = ( action == 'Add' ) ? '+' : '-';
+
+	button = '<button type="button" id="button_' + order + '_' + suffix + '" class="btn btn-warning ' + action + '" > ' + symbol + ' </button>';
+
+	return button;
 
 }
 
@@ -53,38 +104,6 @@ function validate_table(input_value, name_table, suffix)
 
 		rename_order();
 
-	}
-
-}
-
-function salt_input(input_value, name_class, input_disabled)
-{
-
-	if ( input_value == 1 )
-	{
-		for (var i = 0; i < name_class.length; i++) 
-		{
-			$('.' + name_class[i]).closest('tr').find(':input').removeAttr('disabled');
-		}
-
-		if ( input_disabled != undefined )
-		{
-			$('#' + input_disabled).removeAttr('disabled');
-		}
-	}
-	else if ( input_value == 2 )
-	{
-		for (var i = 0; i < name_class.length; i++)
-		{
-			$('.' + name_class[i]).closest('tr').find(':input').attr('disabled','disabled');
-			$('.' + name_class[i]).closest('tr').find(':input').val('');
-		}
-
-		if ( input_disabled != undefined )
-		{
-			$('#' + input_disabled).attr('disabled', 'disabled');
-			$('#' + input_disabled).val('');
-		}
 	}
 
 }
@@ -138,29 +157,46 @@ function DynamicRows( order, suffix )
 		row +=	'<td> <input type="text" id="E1B_1D_Otro_K_' + order + '_' + suf + '" name="E1B_1D_Otro_K[]" class="form-control E1B_1D_Otro_K" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
 				'<td> <input type="text" id="E1B_1D_Otro_T_' + order + '_' + suf + '" name="E1B_1D_Otro_T[]" class="form-control E1B_1D_Otro_T" value="" maxlength="9" /> <div class="help-block error"></div> </td>' +
 				
-				'<td> <button type="button" id="button_' + order + '_' + suf + '" class="btn btn-warning"> Add </button> </td>' +
+				'<td> <div id="botones_' + order + '_' + suf + '" class="boton_' + suf + '"> <button type="button" id="button_' + order + '_' + suf + '" class="btn btn-warning Add" > + </button>  </div> </td>' +
 			'</tr>';
 
 	return row;
 }
 
-function clear_form_1B( array_form, array_table, name_class )
+function salt_input(input_value, name_class, input_disabled)
 {
 
-	for (var i = 0; i < array_form.length; i++) 
+	if ( input_value == 1 )
 	{
-		$('#' + array_form[i]).get(0).reset();
-		$('#' + array_form[i]).find(':input:not(.not_enable)').removeAttr('disabled');
-		$('#' + array_form[i]).find(':input:not(.not_enable)').removeAttr('readonly');
+		for (var i = 0; i < name_class.length; i++) 
+		{
+			$('.' + name_class[i]).closest('tr').find(':input').removeAttr('disabled');
+		}
+
+		if ( input_disabled != undefined )
+		{
+			$('#' + input_disabled).removeAttr('disabled');
+		}
+	}
+	else if ( input_value == 2 )
+	{
+		for (var i = 0; i < name_class.length; i++)
+		{
+			$('.' + name_class[i]).closest('tr').find(':input').attr('disabled','disabled');
+			$('.' + name_class[i]).closest('tr').find(':input').val('');
+		}
+
+		if ( input_disabled != undefined )
+		{
+			$('#' + input_disabled).attr('disabled', 'disabled');
+			$('#' + input_disabled).val('');
+		}
 	}
 
-	for (var i = 0; i < array_table.length; i++) 
-	{
-		table = array_table[i];
-		suf = table.split('_');
-		$('#' + table).find('.' + name_class + suf[1].toLowerCase()).remove();
-	}
 }
+
+
+
 
 /*****
 Funcion creada para poder hacer la validaciones de los input[], ya que jquery necesita tener un indice definido porque sino solo valida la primera posicion es decir input[0].
@@ -276,4 +312,69 @@ function rename_order()
 			
 		});
 	}
+}
+
+function clear_form_1B( array_form, array_table, name_class )
+{
+
+	for (var i = 0; i < array_form.length; i++) 
+	{
+		$('#' + array_form[i]).get(0).reset();
+		$('#' + array_form[i]).find(':input:not(.not_enable)').removeAttr('disabled');
+		$('#' + array_form[i]).find(':input:not(.not_enable)').removeAttr('readonly');
+		$('#' + array_form[i]).find(':submit').attr('disabled', 'disabled');
+	}
+
+	for (var i = 0; i < array_table.length; i++) 
+	{
+		table = array_table[i];
+		suf = table.split('_');
+		$('#' + table).find('.' + name_class + suf[1].toLowerCase()).remove();
+	}
+}
+
+function validate_vivienda ( array_form )
+{
+	value = $('#vivienda').val();
+
+	if ( value != '' )
+	{
+		for (var i = 0; i < array_form.length; i++) 
+		{
+			$('#' + array_form[i]).find(':submit').removeAttr('disabled');
+		}
+	}
+}
+
+
+function clean_modulo (argument) 
+{
+	clear_by_class(['data_head']);
+
+	forms = [ frm_1B_100.attr('id'), frm_1B_200.attr('id'), frm_1B_300.attr('id') ];
+	var tables = [ table_100_A.attr('id'), table_100_C.attr('id'), table_200_A.attr('id'), table_200_C.attr('id'), table_300_A.attr('id'), table_300_C.attr('id') ];
+	
+	clear_form_1B( forms, tables, 'row_' );
+}
+
+function execute_trigger_1B()
+{
+	var fields = [ 'E1B_101_A', 'E1B_101_C', 'E1B_201_A', 'E1B_201_C', 'E1B_301_A', 'E1B_301_C' ];
+
+	for (var i = 0; i < fields.length; i++)
+	{
+		valor = $('#' + fields[i]).val();
+		if ( valor == 2 ) $('#' + fields[i]).trigger('change');
+	}
+
+	// Tener en cuenta que el evento change de Otros? se ejecuta automaticamente cuando se llama al trigger de la clase. //
+	$('input.C1_B_suma').trigger('change');
+	$('input.C1_D_suma').trigger('change');
+
+	$('input.C2_B_suma').trigger('change');
+	$('input.C2_D_suma').trigger('change');
+
+	$('input.C3_B_suma').trigger('change');
+	$('input.C3_D_suma').trigger('change');
+
 }

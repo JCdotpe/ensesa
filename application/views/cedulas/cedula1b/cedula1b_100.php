@@ -126,7 +126,7 @@ $E1B_101_B_j_O = array(
 					'id' => 'E1B_101_B_j_O',
 					'name' => 'E1B_101_B_j_O',
 					'class' => 'form-control uppercase C1_B_table',
-					'readonly' => 'readonly',
+					'disabled' => 'disabled',
 					'maxlength' => 20
 				);
 
@@ -212,7 +212,7 @@ $E1B_101_D_h_O = array(
 					'id' => 'E1B_101_D_h_O',
 					'name' => 'E1B_101_D_h_O',
 					'class' => 'form-control uppercase C1_D_table',
-					'readonly' => 'readonly',
+					'disabled' => 'disabled',
 					'maxlength' => 20
 				);
 
@@ -236,6 +236,7 @@ $button_1B_100 = array(
 					'name' => 'button_1B_100',
 					'class' => 'btn btn-primary',
 					'value' => 'Guardar',
+					'disabled' => 'disabled'
 				);
 
 $attributes = array('id' => '1B_100');

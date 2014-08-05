@@ -24,7 +24,7 @@
 			<?php $this->load->view('cedulas/cedula1b/cedula1b_300'); ?>
 		</div>
 	</div>
-	<input type="hidden" id="vivienda" name="vivienda" value="" />
+	<input type="hidden" id="vivienda" name="vivienda" class="ubigeo" value="" />
 </div>
 
 <script src="<?php echo base_url('assets/js/cedula1b.js'); ?>"></script>
