@@ -40,9 +40,9 @@
 <ul class="nav nav-tabs" role="tablist">
   <li class="liUbigeo active"><a href="#cedula1_tab1" role="tab" data-toggle="tab">UBIGEO</a></li>
   <!--<li class="hide"><a href="#cedula1_tab2" role="tab" data-toggle="tab">CAP. 100</a></li>-->
-  <li class="hide"><a href="#cedula1_tab3" role="tab" data-toggle="tab">CAP. 200 - 400</a></li>
-  <li class="hide"><a href="#cedula1_tab4" role="tab" data-toggle="tab">CAP. 500</a></li>
-  <li class="hide"><a href="#cedula1_tab5" role="tab" data-toggle="tab">CAP. 600 - 900</a></li>
+  <li class="hide"><a href="#cedula1_tab2" role="tab" data-toggle="tab">CAP. 200 - 400</a></li>
+  <li class="hide"><a href="#cedula1_tab3" role="tab" data-toggle="tab">CAP. 500</a></li>
+  <li class="hide"><a href="#cedula1_tab4" role="tab" data-toggle="tab">CAP. 600 - 900</a></li>
 </ul>
 
 <!-- Tab panes -->
@@ -51,13 +51,9 @@
   <div class="tab-pane" id="cedula1_tab2"> <?php echo $this->load->view('cedulas/cedula1_tab2'); ?> </div>
   <div class="tab-pane" id="cedula1_tab3"> <?php echo $this->load->view('cedulas/cedula1_tab3'); ?> </div>
   <div class="tab-pane" id="cedula1_tab4"> <?php echo $this->load->view('cedulas/cedula1_tab4'); ?> </div>
-  <div class="tab-pane" id="cedula1_tab5"> <?php echo $this->load->view('cedulas/cedula1_tab5'); ?> </div>
 </div>
-<?php 
 
 
-
-?>
 
 
 

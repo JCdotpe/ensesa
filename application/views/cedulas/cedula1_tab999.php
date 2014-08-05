@@ -1082,12 +1082,12 @@ $E1_112_19 = array(
 
 <!--************************************************************************************************************************************************************************************************************************************************************
 ****************************************************************************************************************************************************************************************************************************************************************
-																				TAB I - B
+																				TAB II
 ****************************************************************************************************************************************************************************************************************************************************************
 *************************************************************************************************************************************************************************************************************************************************************-->
 
 	<br>
-	<table class="table table-bordered E1_Vivienda_Hogar hide">
+	<table class="table table-bordered">
 		<tr>
 			<td colspan="11"> 11. Direccion </td>
 		</tr>
@@ -1164,7 +1164,7 @@ $E1_112_19 = array(
 
 	</table>
 
-	<table class="table table-bordered hide">
+	<table class="table table-bordered">
 		<tr>
 			<th colspan="11"><h4> C. ENTREVISTA Y SUPERVISIÓN</h4> </th>
 		</tr>
@@ -1190,7 +1190,7 @@ $E1_112_19 = array(
 			<td> De </td>
 			<td> A </td>
 		</tr>
-		<tr id="tableVisitaRow-1" name="tableVisitaRow-1">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_1); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_1); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_1); ?> </td>
@@ -1203,7 +1203,7 @@ $E1_112_19 = array(
 			<td> <?php echo form_input($E1_C_Je_Hfin_1); ?> </td>
 			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_1); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_1); ?></div> </td>
 		</tr>
-		<tr id="tableVisitaRow-2" name="tableVisitaRow-2">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_2); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_2); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_2); ?> </td>
@@ -1216,7 +1216,7 @@ $E1_112_19 = array(
 			<td> <?php echo form_input($E1_C_Je_Hfin_2); ?> </td>
 			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_2); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_2); ?></div> </td>
 		</tr>
-		<tr id="tableVisitaRow-3" name="tableVisitaRow-3">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_3); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_3); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_3); ?> </td>
@@ -1229,7 +1229,7 @@ $E1_112_19 = array(
 			<td> <?php echo form_input($E1_C_Je_Hfin_3); ?> </td>
 			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_3); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_3); ?></div> </td>
 		</tr>
-		<tr id="tableVisitaRow-4" name="tableVisitaRow-4">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_4); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_4); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_4); ?> </td>
@@ -1242,7 +1242,7 @@ $E1_112_19 = array(
 			<td> <?php echo form_input($E1_C_Je_Hfin_4); ?> </td>
 			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_4); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_4); ?></div> </td>
 		</tr>
-		<tr id="tableVisitaRow-5" name="tableVisitaRow-5">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_5); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_5); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_5); ?> </td>
@@ -1255,7 +1255,7 @@ $E1_112_19 = array(
 			<td> <?php echo form_input($E1_C_Je_Hfin_5); ?> </td>
 			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_5); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_5); ?></div> </td>
 		</tr>
-		<tr id="tableVisitaRow-6" name="tableVisitaRow-6">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_6); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_6); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_6); ?> </td>
@@ -1268,7 +1268,7 @@ $E1_112_19 = array(
 			<td> <?php echo form_input($E1_C_Je_Hfin_6); ?> </td>
 			<td class="pad-td"> <div class="col-md-5"><?php echo form_input($E1_C_Je_Res_6); ?></div><div class="col-md-7"><?php echo form_input($E1_C_Je_Res_O_6); ?></div> </td>
 		</tr>
-		<tr id="tableVisitaRow-7" name="tableVisitaRow-7">
+		<tr>
 			<td> <?php echo form_input($E1_C_Visita_Nro_7); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Fecha_7); ?> </td>
 			<td> <?php echo form_input($E1_C_Ec_Hini_7); ?> </td>
@@ -1299,7 +1299,7 @@ $E1_112_19 = array(
 		</tr>
 	</table>
 
-	<table class="table table-bordered E1_Vivienda_Hogar hide">
+	<table class="table table-bordered">
 		<tr>
 			<th colspan="8"><h4>D.FUNCIONARIOS DE LA ENCUESTA</h4>  </th>
 		</tr>
@@ -1341,7 +1341,7 @@ $E1_112_19 = array(
 	</table>
 
 
-	<table class="table table-bordered E1_Vivienda_Hogar hide">
+	<table class="table table-bordered">
 		<tr><th colspan="7"><center><h4>100. CARACTERISTICAS DE LA VIVIENDA Y DEL HOGAR</h4></center>  </th></tr>
 		<tr>
 			<td><!-- LEFT SIDE -->
@@ -1446,3 +1446,16 @@ $E1_112_19 = array(
 
 
 
+
+<script type="text/javascript">
+
+	$("#save2").click(function (argument) {
+		alert("holas");
+	})
+
+
+
+
+
+
+</script>

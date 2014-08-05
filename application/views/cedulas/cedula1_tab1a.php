@@ -223,6 +223,7 @@ $B_10_Vivienda_nro = array(
     	$('body').find('li, button, table').removeClass('hide');
 		$("#E1_Cuestionario_Nro").removeAttr('disabled');
 		$("#E1_Cuestionario_Nro").focus();
+		$('.liUbigeo a').html('UBIGEO - CAP. 100');
     })
 
     $("#find1").click(function () {

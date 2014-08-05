@@ -91,21 +91,22 @@ class Cedula1 extends CI_Controller {
 		$get = $this->input->post('data');
 		$data = array();
 		foreach ($get as $key => $row) {
+			echo json_encode($row);
 			foreach ($row as $idx => $value) {
 				//var_dump($value);
-				$data[$value['name']] = $value['value'];
+				//$data[$value['name']] = $value['value'];
 				//echo($value);
 			}
 			
 			//echo var_dump($value);
 		}
-		echo json_encode($data);
+		
 	}
 
 	function save($tab)
 	{
-		if ($tab == 1) {//E1_Vivienda_Hogar
-			if ($this->input->post('Cod_Vivienda')!="" && $this->input->post('E1_B_13_Nro_Hogar')!="") {
+		if ($this->input->post('Cod_Vivienda')!="" && $this->input->post('E1_B_13_Nro_Hogar')!="") {	
+			if ($tab == 1) {//E1_Vivienda_Hogar
 				$tableLocal = 'E1_Vivienda_Hogar';
 				$fieldsName = $this->cedula1_model->getFieldsName($tableLocal);
 				$dataModel =  array();
@@ -156,11 +157,11 @@ class Cedula1 extends CI_Controller {
 					}
 				}
 
-			}else{
-				echo json_encode(array('response'=>'error','msg' =>'Error: Cod_Vivienda o Nro_Hogar vacios' ));
-			}
+			}			
+		}else{
+			echo json_encode(array('response'=>'error','msg' =>'Error: Cod_Vivienda o Nro_Hogar vacios' ));
+		}		
 
-		}
 	}
 
 

@@ -1,1168 +1,1749 @@
-<?php 
 
+<?php 
 
 /**************************************************************************
 ***************************************************************************
 **																		 **
-**								 5 0 0 									 **
+**								 6 0 0 									 **
 **																		 **
 ***************************************************************************
 ***************************************************************************/
-
-	$E1_500 = array(
-		'id' 	=> 'E1_500-1',
-		'name'	=> 'E1_500',
-		'class'	=> 'form-control',
-		'value'	=> '1',
-		'maxlength'		=> '1',
-	);
-	$E1_501 = array(
-		'id' 	=> 'E1_501-1',
-		'name'	=> 'E1_501',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_502_1 = array(
-		'id' 	=> 'E1_502_1-1',
-		'name'	=> 'E1_502_1',
-		'class'	=> 'form-control',
-		'placeholder' => 'P1',
-		'maxlength'		=> '1',
-	);
-
-	$E1_502_2 = array(
-		'id' 	=> 'E1_502_2-1',
-		'name'	=> 'E1_502_2',
-		'class'	=> 'form-control',
-		'placeholder' => 'P2',
-		'maxlength'		=> '1',
-	);
-	$E1_502_3 = array(
-		'id' 	=> 'E1_502_3-1',
-		'name'	=> 'E1_502_3',
-		'class'	=> 'form-control',
-		'placeholder' => 'P3',
-		'maxlength'		=> '1',
-	);
-	$E1_502_4 = array(
-		'id' 	=> 'E1_502_4-1',
-		'name'	=> 'E1_502_4',
-		'class'	=> 'form-control',
-		'placeholder' => 'P4',
-		'maxlength'		=> '1',
-	);
-	$E1_502_5 = array(
-		'id' 	=> 'E1_502_5-1',
-		'name'	=> 'E1_502_5',
-		'class'	=> 'form-control',
-		'placeholder' => 'P5',
-		'maxlength'		=> '1',
-	);
-	$E1_502_6 = array(
-		'id' 	=> 'E1_502_6-1',
-		'name'	=> 'E1_502_6',
-		'class'	=> 'form-control',
-		'placeholder' => 'P6',
-		'maxlength'		=> '1',
-	);
-	$E1_502_7 = array(
-		'id' 	=> 'E1_502_7-1',
-		'name'	=> 'E1_502_7',
-		'class'	=> 'form-control',
-		'placeholder' => 'P5',
-		'maxlength'		=> '1',
-	);
-	$E1_502_8 = array(
-		'id' 	=> 'E1_502_8-1',
-		'name'	=> 'E1_502_8',
-		'class'	=> 'form-control',
-		'placeholder' => 'P8',
-		'maxlength'		=> '1',
-	);
-	$E1_502_9 = array(
-		'id' 	=> 'E1_502_9-1',
-		'name'	=> 'E1_502_9',
-		'class'	=> 'form-control',
-		'placeholder' => 'P9',
-		'maxlength'		=> '1',
-	);
-	$E1_502_10 = array(
-		'id' 	=> 'E1_502_10-1',
-		'name'	=> 'E1_502_10',
-		'class'	=> 'form-control',
-		'placeholder' => 'P10',
-		'maxlength'		=> '1',
-	);
-	$E1_502_11 = array(
-		'id' 	=> 'E1_502_11-1',
-		'name'	=> 'E1_502_11',
-		'class'	=> 'form-control',
-		'placeholder' => 'P11',
-		'maxlength'		=> '1',
-	);
-	$E1_502_11_O = array(
-		'id' 	=> 'E1_502_11_O-1',
-		'name'	=> 'E1_502_11_O',
-		'class'	=> 'form-control',
-		'placeholder' => 'Especifique',
-		'maxlength'		=> '100',
-	);
-	$E1_502_12 = array(
-		'id' 	=> 'E1_502_12-1',
-		'name'	=> 'E1_502_12',
-		'class'	=> 'form-control',
-		'placeholder' => 'P12',
-		'maxlength'		=> '1',
-	);
-	$E1_503 = array(
-		'id' 	=> 'E1_503-1',
-		'name'	=> 'E1_503',
-		'class'	=> 'form-control',
-		'maxlength' => '100',
-	);
-	$E1_504 = array(
-		'id' 	=> 'E1_504-1',
-		'name'	=> 'E1_504',
-		'class'	=> 'form-control',
-		'maxlength' => '100',
-	);
-	$E1_505 = array(
-		'id' 	=> 'E1_505-1',
-		'name'	=> 'E1_505',
-		'class'	=> 'form-control',
-		'maxlength' => '1',
-	);
-	$E1_505_O = array(
-		'id' 	=> 'E1_505_O-1',
-		'name'	=> 'E1_505_O',
-		'class'	=> 'form-control',
-		'maxlength' => '200',
-	);
-	$E1_506 = array(
-		'id' 	=> 'E1_506-1',
-		'name'	=> 'E1_506',
-		'class'	=> 'form-control',
-		'maxlength' => '1',
-		'maxlength'		=> '1',
-	);
-	$E1_507 = array(
-		'id' 	=> 'E1_507-1',
-		'name'	=> 'E1_507',
-		'class'	=> 'form-control',
-		'maxlength' => '1',
-	);
-	$E1_508 = array(
-		'id' 	=> 'E1_508-1',
-		'name'	=> 'E1_508',
-		'class'	=> 'form-control',
-		'maxlength' => '1',
-	);
-	$E1_508_O = array(
-		'id' 	=> 'E1_508_O-1',
-		'name'	=> 'E1_508_O',
-		'class'	=> 'form-control',
-		'maxlength' => '200',
-	);
-	$E1_509_1 = array(
-		'id' 	=> 'E1_509_1-1',
-		'name'	=> 'E1_509_1',
-		'class'	=> 'form-control',
-		'placeholder' => 'P1',
-		'maxlength'		=> '1',
-	);
-
-	$E1_509_2 = array(
-		'id' 	=> 'E1_509_2-1',
-		'name'	=> 'E1_509_2',
-		'class'	=> 'form-control',
-		'placeholder' => 'P2',
-		'maxlength'		=> '1',
-	);
-	$E1_509_3 = array(
-		'id' 	=> 'E1_509_3-1',
-		'name'	=> 'E1_509_3',
-		'class'	=> 'form-control',
-		'placeholder' => 'P3',
-		'maxlength'		=> '1',
-	);
-	$E1_509_4 = array(
-		'id' 	=> 'E1_509_4-1',
-		'name'	=> 'E1_509_4',
-		'class'	=> 'form-control',
-		'placeholder' => 'P4',
-		'maxlength'		=> '1',
-	);
-	$E1_509_5 = array(
-		'id' 	=> 'E1_509_5-1',
-		'name'	=> 'E1_509_5',
-		'class'	=> 'form-control',
-		'placeholder' => 'P5',
-		'maxlength'		=> '1',
-	);
-	$E1_509_6 = array(
-		'id' 	=> 'E1_509_6-1',
-		'name'	=> 'E1_509_6',
-		'class'	=> 'form-control',
-		'placeholder' => 'P6',
-		'maxlength'		=> '1',
-	);
-	$E1_509_7 = array(
-		'id' 	=> 'E1_509_7-1',
-		'name'	=> 'E1_509_7',
-		'class'	=> 'form-control',
-		'placeholder' => 'P7',
-		'maxlength'		=> '1',
-	);
-	$E1_509_8 = array(
-		'id' 	=> 'E1_509_8-1',
-		'name'	=> 'E1_509_8',
-		'class'	=> 'form-control',
-		'placeholder' => 'P8',
-		'maxlength'		=> '1',
-	);
-	$E1_509_9 = array(
-		'id' 	=> 'E1_509_9-1',
-		'name'	=> 'E1_509_9',
-		'class'	=> 'form-control',
-		'placeholder' => 'P9',
-		'maxlength'		=> '1',
-	);
-	$E1_509_10 = array(
-		'id' 	=> 'E1_509_10-1',
-		'name'	=> 'E1_509_10',
-		'class'	=> 'form-control',
-		'placeholder' => 'P10',
-		'maxlength'		=> '1',
-	);
-	$E1_509_11 = array(
-		'id' 	=> 'E1_509_11-1',
-		'name'	=> 'E1_509_11',
-		'class'	=> 'form-control',
-		'placeholder' => 'P11',
-		'maxlength'		=> '1',
-	);
-	$E1_509_11_O = array(
-		'id' 	=> 'E1_509_11_O-1',
-		'name'	=> 'E1_509_11_O',
-		'class'	=> 'form-control',
-		'placeholder' => 'Especifique',
-		'maxlength'		=> '100',
-	);
-	$E1_509_12 = array(
-		'id' 	=> 'E1_509_12-1',
-		'name'	=> 'E1_509_12',
-		'class'	=> 'form-control',
-		'placeholder' => 'P12',
-		'maxlength'		=> '1',
-	);
-	$E1_510 = array(
-		'id' 	=> 'E1_510-1',
-		'name'	=> 'E1_510',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_510_O = array(
-		'id' 	=> 'E1_510_O-1',
-		'name'	=> 'E1_510_O',
-		'class'	=> 'form-control',
-		'maxlength'		=> '100',
-	);
-	$E1_511 = array(
-		'id' 	=> 'E1_511-1',
-		'name'	=> 'E1_511',
+	$E1_600_Informante = array(
+		'id' 	=> 'E1_600_Informante',
+		'name'	=> 'E1_600_Informante',
 		'class'	=> 'form-control',
 		'maxlength'		=> '3',
 	);
-	$E1_512 = array(
-		'id' 	=> 'E1_512-1',
-		'name'	=> 'E1_512',
-		'class'	=> 'form-control',
-		'maxlength'		=> '3',
-	);	
-
-	$E1_513_A = array(
-		'id' 	=> 'E1_513_A-1',
-		'name'	=> 'E1_513_A',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_513_A_ns = array(
-		'id' 	=> 'E1_513_A_ns-1',
-		'name'	=> 'E1_513_A_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_513_B = array(
-		'id' 	=> 'E1_513_B-1',
-		'name'	=> 'E1_513_B',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_513_B_ns = array(
-		'id' 	=> 'E1_513_B_ns-1',
-		'name'	=> 'E1_513_B_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_513_C = array(
-		'id' 	=> 'E1_513_C-1',
-		'name'	=> 'E1_513_C',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_513_C_ns = array(
-		'id' 	=> 'E1_513_C_ns-1',
-		'name'	=> 'E1_513_C_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_513_D = array(
-		'id' 	=> 'E1_513_D-1',
-		'name'	=> 'E1_513_D',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_513_D_ns = array(
-		'id' 	=> 'E1_513_D_ns-1',
-		'name'	=> 'E1_513_D_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_513_E = array(
-		'id' 	=> 'E1_513_E-1',
-		'name'	=> 'E1_513_E',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_513_E_ns = array(
-		'id' 	=> 'E1_513_E_ns-1',
-		'name'	=> 'E1_513_E_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_514 = array(
-		'id' 	=> 'E1_514-1',
-		'name'	=> 'E1_514',
-		'class'	=> 'form-control',
-		'maxlength'		=> '3',
-	);
-	$E1_515 = array(
-		'id' 	=> 'E1_515-1',
-		'name'	=> 'E1_515',
-		'class'	=> 'form-control',
-		'maxlength'		=> '3',
-	);
-	$E1_515_ns = array(
-		'id' 	=> 'E1_515_ns-1',
-		'name'	=> 'E1_515_ns',
+	$E1_601 = array(
+		'id' 	=> 'E1_601',
+		'name'	=> 'E1_601',
 		'class'	=> 'form-control',
 		'maxlength'		=> '1',
 	);
-	$E1_516 = array(
-		'id' 	=> 'E1_516-1',
-		'name'	=> 'E1_516',
+	$E1_602_1 = array(
+		'id' 	=> 'E1_602_1',
+		'name'	=> 'E1_602_1',
 		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_517 = array(
-		'id' 	=> 'E1_517-1',
-		'name'	=> 'E1_517',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_518 = array(
-		'id' 	=> 'E1_518-1',
-		'name'	=> 'E1_518',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_519 = array(
-		'id' 	=> 'E1_519-1',
-		'name'	=> 'E1_519',
-		'class'	=> 'form-control',
-		'maxlength'		=> '100',
-	);
-	$E1_520 = array(
-		'id' 	=> 'E1_520-1',
-		'name'	=> 'E1_520',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_520_O = array(
-		'id' 	=> 'E1_520_O-1',
-		'name'	=> 'E1_520_O',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_521 = array(
-		'id' 	=> 'E1_521-1',
-		'name'	=> 'E1_521',
-		'class'	=> 'form-control',
-		'maxlength'	=> '3',
-	);
-	$E1_522 = array(
-		'id' 	=> 'E1_522-1',
-		'name'	=> 'E1_522',
-		'class'	=> 'form-control',
-		'maxlength'	=> '1',
-	);
-
-	$E1_523_A = array(
-		'id' 	=> 'E1_523_A-1',
-		'name'	=> 'E1_523_A',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_523_A_ns = array(
-		'id' 	=> 'E1_523_A_ns-1',
-		'name'	=> 'E1_523_A_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_523_B = array(
-		'id' 	=> 'E1_523_B-1',
-		'name'	=> 'E1_523_B',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_523_B_ns = array(
-		'id' 	=> 'E1_523_B_ns-1',
-		'name'	=> 'E1_523_B_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_523_C = array(
-		'id' 	=> 'E1_523_C-1',
-		'name'	=> 'E1_523_C',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_523_C_ns = array(
-		'id' 	=> 'E1_523_C_ns-1',
-		'name'	=> 'E1_523_C_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_523_D = array(
-		'id' 	=> 'E1_523_D-1',
-		'name'	=> 'E1_523_D',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_523_D_ns = array(
-		'id' 	=> 'E1_523_D_ns-1',
-		'name'	=> 'E1_523_D_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_523_E = array(
-		'id' 	=> 'E1_523_E-1',
-		'name'	=> 'E1_523_E',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);	
-	$E1_523_E_ns = array(
-		'id' 	=> 'E1_523_E_ns-1',
-		'name'	=> 'E1_523_E_ns',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_524 = array(
-		'id' 	=> 'E1_524-1',
-		'name'	=> 'E1_524',
-		'class'	=> 'form-control',
-		'maxlength'	=> '6',
-	);	
-	$E1_525 = array(
-		'id' 	=> 'E1_525-1',
-		'name'	=> 'E1_525',
-		'class'	=> 'form-control',
-		'maxlength'	=> '6',
-	);
-	$E1_526 = array(
-		'id' 	=> 'E1_526-1',
-		'name'	=> 'E1_526',
-		'class'	=> 'form-control',
-		'maxlength'	=> '1',
-	);
-	$E1_527 = array(
-		'id' 	=> 'E1_527-1',
-		'name'	=> 'E1_527',
-		'class'	=> 'form-control',
-		'maxlength'	=> '6',
-	);
-	$E1_528_1 = array(
-		'id' 	=> 'E1_528_1-1',
-		'name'	=> 'E1_528_1',
-		'class'	=> 'form-control',
-		'placeholder' => 'P1',
 		'maxlength'		=> '1',
 	);
 
-	$E1_528_2 = array(
-		'id' 	=> 'E1_528_2-1',
-		'name'	=> 'E1_528_2',
-		'class'	=> 'form-control',
-		'placeholder' => 'P2',
-		'maxlength'		=> '1',
-	);
-	$E1_528_3 = array(
-		'id' 	=> 'E1_528_3-1',
-		'name'	=> 'E1_528_3',
-		'class'	=> 'form-control',
-		'placeholder' => 'P3',
-		'maxlength'		=> '1',
-	);
-	$E1_528_4 = array(
-		'id' 	=> 'E1_528_4-1',
-		'name'	=> 'E1_528_4',
-		'class'	=> 'form-control',
-		'placeholder' => 'P4',
-		'maxlength'		=> '1',
-	);
-	$E1_528_5 = array(
-		'id' 	=> 'E1_528_5-1',
-		'name'	=> 'E1_528_5',
-		'class'	=> 'form-control',
-		'placeholder' => 'P5',
-		'maxlength'		=> '1',
-	);
-	$E1_528_6 = array(
-		'id' 	=> 'E1_528_6-1',
-		'name'	=> 'E1_528_6',
-		'class'	=> 'form-control',
-		'placeholder' => 'P6',
-		'maxlength'		=> '1',
-	);
-	$E1_528_7 = array(
-		'id' 	=> 'E1_528_7-1',
-		'name'	=> 'E1_528_7',
-		'class'	=> 'form-control',
-		'placeholder' => 'P7',
-		'maxlength'		=> '1',
-	);
-	$E1_528_8 = array(
-		'id' 	=> 'E1_528_8-1',
-		'name'	=> 'E1_528_8',
-		'class'	=> 'form-control',
-		'placeholder' => 'P8',
-		'maxlength'		=> '1',
-	);
-	$E1_528_8_O = array(
-		'id' 	=> 'E1_528_8_O-1',
-		'name'	=> 'E1_528_8_O',
-		'class'	=> 'form-control',
-		'placeholder' => 'Especifique',
-		'maxlength'		=> '1',
-	);
-	$E1_528_9 = array(
-		'id' 	=> 'E1_528_9-1',
-		'name'	=> 'E1_528_9',
-		'class'	=> 'form-control',
-		'placeholder' => 'P9',
-		'maxlength'		=> '1',
-	);
-	$E1_528_10 = array(
-		'id' 	=> 'E1_528_10-1',
-		'name'	=> 'E1_528_10',
-		'class'	=> 'form-control',
-		'placeholder' => 'P10',
-		'maxlength'		=> '1',
-	);
-	$E1_528_Total = array(
-		'id' 	=> 'E1_528_Total-1',
-		'name'	=> 'E1_528_Total',
-		'class'	=> 'form-control',
-		'maxlength'		=> '6',
-	);
-	$E1_529 = array(
-		'id' 	=> 'E1_529-1',
-		'name'	=> 'E1_529',
+	$E1_602_2 = array(
+		'id' 	=> 'E1_602_2',
+		'name'	=> 'E1_602_2',
 		'class'	=> 'form-control',
 		'maxlength'		=> '1',
 	);
-	$E1_530 = array(
-		'id' 	=> 'E1_530-1',
-		'name'	=> 'E1_530',
+	$E1_602_3 = array(
+		'id' 	=> 'E1_602_3',
+		'name'	=> 'E1_602_3',
 		'class'	=> 'form-control',
 		'maxlength'		=> '1',
 	);
-	$E1_530_O = array(
-		'id' 	=> 'E1_530_O-1',
-		'name'	=> 'E1_530_O',
+	$E1_602_4 = array(
+		'id' 	=> 'E1_602_4',
+		'name'	=> 'E1_602_4',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_602_5 = array(
+		'id' 	=> 'E1_602_5',
+		'name'	=> 'E1_602_5',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_602_5_O = array(
+		'id' 	=> 'E1_602_5_O',
+		'name'	=> 'E1_602_5_O',
 		'class'	=> 'form-control',
 		'maxlength'	=> '100',
 		'disabled'	=> 'disabled',
 	);
-	$E1_531 = array(
-		'id' 	=> 'E1_531-1',
-		'name'	=> 'E1_531',
+	$E1_602_6 = array(
+		'id' 	=> 'E1_602_6',
+		'name'	=> 'E1_602_6',
 		'class'	=> 'form-control',
 		'maxlength'		=> '1',
 	);
-	$E1_532 = array(
-		'id' 	=> 'E1_532-1',
-		'name'	=> 'E1_532',
+	$E1_602_6_O = array(
+		'id' 	=> 'E1_602_6_O',
+		'name'	=> 'E1_602_6_O',
 		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_533 = array(
-		'id' 	=> 'E1_533-1',
-		'name'	=> 'E1_533',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
-	);
-	$E1_533_O = array(
-		'id' 	=> 'E1_533_O-1',
-		'name'	=> 'E1_533_O',
-		'class'	=> 'form-control',
-		'maxlength'		=> '1',
+		'maxlength'		=> '100',
 		'disabled'	=> 'disabled',
 	);
-	$E1_534 = array(
-		'id' 	=> 'E1_534-1',
-		'name'	=> 'E1_534',
+	$E1_603 = array(
+		'id' 	=> 'E1_603',
+		'name'	=> 'E1_603',
 		'class'	=> 'form-control',
 		'maxlength'		=> '1',
 	);
-	$E1_534_O = array(
-		'id' 	=> 'E1_534_O-1',
-		'name'	=> 'E1_534_O',
+	$E1_604_1 = array(
+		'id' 	=> 'E1_604_1',
+		'name'	=> 'E1_604_1',
 		'class'	=> 'form-control',
-		'disabled'	=> 'disabled',
-		'maxlength'		=> '1',
-	);
-	$E1_535_1 = array(
-		'id' 	=> 'E1_535_1-1',
-		'name'	=> 'E1_535_1',
-		'class'	=> 'form-control',
-		'placeholder' => 'P1',
 		'maxlength'		=> '1',
 	);
 
-	$E1_535_2 = array(
-		'id' 	=> 'E1_535_2-1',
-		'name'	=> 'E1_535_2',
+	$E1_604_2 = array(
+		'id' 	=> 'E1_604_2',
+		'name'	=> 'E1_604_2',
 		'class'	=> 'form-control',
-		'placeholder' => 'P2',
 		'maxlength'		=> '1',
 	);
-	$E1_535_3 = array(
-		'id' 	=> 'E1_535_3-1',
-		'name'	=> 'E1_535_3',
+	$E1_604_3 = array(
+		'id' 	=> 'E1_604_3',
+		'name'	=> 'E1_604_3',
 		'class'	=> 'form-control',
-		'placeholder' => 'P3',
 		'maxlength'		=> '1',
 	);
-	$E1_535_4 = array(
-		'id' 	=> 'E1_535_4-1',
-		'name'	=> 'E1_535_4',
+	$E1_604_4 = array(
+		'id' 	=> 'E1_604_4',
+		'name'	=> 'E1_604_4',
 		'class'	=> 'form-control',
-		'placeholder' => 'P4',
 		'maxlength'		=> '1',
 	);
-	$E1_535_5 = array(
-		'id' 	=> 'E1_535_5-1',
-		'name'	=> 'E1_535_5',
+	$E1_604_5 = array(
+		'id' 	=> 'E1_604_5',
+		'name'	=> 'E1_604_5',
 		'class'	=> 'form-control',
-		'placeholder' => 'P5',
 		'maxlength'		=> '1',
 	);
-	$E1_535_6 = array(
-		'id' 	=> 'E1_535_6-1',
-		'name'	=> 'E1_535_6',
+	$E1_604_6 = array(
+		'id' 	=> 'E1_604_6',
+		'name'	=> 'E1_604_6',
 		'class'	=> 'form-control',
-		'placeholder' => 'P6',
 		'maxlength'		=> '1',
 	);
-	$E1_535_7 = array(
-		'id' 	=> 'E1_535_7-1',
-		'name'	=> 'E1_535_7',
+	$E1_604_7 = array(
+		'id' 	=> 'E1_604_7',
+		'name'	=> 'E1_604_7',
 		'class'	=> 'form-control',
-		'placeholder' => 'P7',
 		'maxlength'		=> '1',
 	);
-	$E1_535_7_O = array(
-		'id' 	=> 'E1_535_7_O-1',
-		'name'	=> 'E1_535_7_O',
+	$E1_604_7_O = array(
+		'id' 	=> 'E1_604_7_O',
+		'name'	=> 'E1_604_7_O',
 		'class'	=> 'form-control',
-		'placeholder' => 'Especifique',
 		'maxlength'		=> '100',
+	);
+	$E1_605 = array(
+		'id' 	=> 'E1_605',
+		'name'	=> 'E1_605',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_1 = array(
+		'id' 	=> 'E1_606_1',
+		'name'	=> 'E1_606_1',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_2 = array(
+		'id' 	=> 'E1_606_2',
+		'name'	=> 'E1_606_2',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_3 = array(
+		'id' 	=> 'E1_606_3',
+		'name'	=> 'E1_606_3',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_4 = array(
+		'id' 	=> 'E1_606_4',
+		'name'	=> 'E1_606_4',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_5 = array(
+		'id' 	=> 'E1_606_5',
+		'name'	=> 'E1_606_5',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_6 = array(
+		'id' 	=> 'E1_606_6',
+		'name'	=> 'E1_606_6',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_7 = array(
+		'id' 	=> 'E1_606_7',
+		'name'	=> 'E1_606_7',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_8 = array(
+		'id' 	=> 'E1_606_8',
+		'name'	=> 'E1_606_8',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_9 = array(
+		'id' 	=> 'E1_606_9',
+		'name'	=> 'E1_606_9',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_10 = array(
+		'id' 	=> 'E1_606_10',
+		'name'	=> 'E1_606_10',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_10_O = array(
+		'id' 	=> 'E1_606_10_O',
+		'name'	=> 'E1_606_10_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_606_11 = array(
+		'id' 	=> 'E1_606_11',
+		'name'	=> 'E1_606_11',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_606_11_O = array(
+		'id' 	=> 'E1_606_11_O',
+		'name'	=> 'E1_606_11_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+
+/**************************************************************************
+***************************************************************************
+**																		 **
+**								 7 0 0 									 **
+**																		 **
+***************************************************************************
+***************************************************************************/
+	$E1_701_1 = array(
+		'id' 	=> 'E1_701_1',
+		'name'	=> 'E1_701_1',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_2 = array(
+		'id' 	=> 'E1_701_2',
+		'name'	=> 'E1_701_2',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_3 = array(
+		'id' 	=> 'E1_701_3',
+		'name'	=> 'E1_701_3',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_4 = array(
+		'id' 	=> 'E1_701_4',
+		'name'	=> 'E1_701_4',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_5 = array(
+		'id' 	=> 'E1_701_5',
+		'name'	=> 'E1_701_5',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_6 = array(
+		'id' 	=> 'E1_701_6',
+		'name'	=> 'E1_701_6',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_7 = array(
+		'id' 	=> 'E1_701_7',
+		'name'	=> 'E1_701_7',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_8 = array(
+		'id' 	=> 'E1_701_8',
+		'name'	=> 'E1_701_8',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_701_8_O = array(
+		'id' 	=> 'E1_701_8_O',
+		'name'	=> 'E1_701_8_O',
+		'class'	=> 'form-control',
+		'maxlength'	=> '200',
 		'disabled'	=> 'disabled',
 	);
-	$E1_535_8 = array(
-		'id' 	=> 'E1_535_8-1',
-		'name'	=> 'E1_535_8',
+	$E1_701_9 = array(
+		'id' 	=> 'E1_701_9',
+		'name'	=> 'E1_701_9',
 		'class'	=> 'form-control',
-		'placeholder' => 'P8',
 		'maxlength'		=> '1',
 	);
-	$E1_535_Total = array(
-		'id' 	=> 'E1_535_Total-1',
-		'name'	=> 'E1_535_Total',
+	$E1_701_9_O = array(
+		'id' 	=> 'E1_701_9_O',
+		'name'	=> 'E1_701_9_O',
 		'class'	=> 'form-control',
-		'maxlength'		=> '6',
+		'maxlength'		=> '200',
+		'disabled'	=> 'disabled',
 	);
-	$E1_536_1 = array(
-		'id' 	=> 'E1_536_1-1',
-		'name'	=> 'E1_536_1',
+	$E1_701_10 = array(
+		'id' 	=> 'E1_701_10',
+		'name'	=> 'E1_701_10',
 		'class'	=> 'form-control',
-		'placeholder' => 'P1',
+		'maxlength'		=> '1',
+	);
+	//202 =====
+	$E1_702_1 = array(
+		'id' 	=> 'E1_702_1',
+		'name'	=> 'E1_702_1',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_2 = array(
+		'id' 	=> 'E1_702_2',
+		'name'	=> 'E1_702_2',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_3 = array(
+		'id' 	=> 'E1_702_3',
+		'name'	=> 'E1_702_3',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_4 = array(
+		'id' 	=> 'E1_702_4',
+		'name'	=> 'E1_702_4',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_5 = array(
+		'id' 	=> 'E1_702_5',
+		'name'	=> 'E1_702_5',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_6 = array(
+		'id' 	=> 'E1_702_6',
+		'name'	=> 'E1_702_6',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_7 = array(
+		'id' 	=> 'E1_702_7',
+		'name'	=> 'E1_702_7',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_8 = array(
+		'id' 	=> 'E1_702_8',
+		'name'	=> 'E1_702_8',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_8_O = array(
+		'id' 	=> 'E1_702_8_O',
+		'name'	=> 'E1_702_8_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '200',
+		'disabled'	=> 'disabled',
+	);
+	$E1_702_9 = array(
+		'id' 	=> 'E1_702_9',
+		'name'	=> 'E1_702_9',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_702_9_O = array(
+		'id' 	=> 'E1_702_9_O',
+		'name'	=> 'E1_702_9_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '200',
+		'disabled'	=> 'disabled',
+	);
+	$E1_702_10 = array(
+		'id' 	=> 'E1_702_10',
+		'name'	=> 'E1_702_10',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_703 = array(
+		'id' 	=> 'E1_703',
+		'name'	=> 'E1_703',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_703A = array(
+		'id' 	=> 'E1_703A',
+		'name'	=> 'E1_703A',
+		'class'	=> 'form-control',
+		'maxlength'	=> '500',
+		'disabled'	=> 'disabled',
+	);
+	$E1_704 = array(
+		'id' 	=> 'E1_704',
+		'name'	=> 'E1_704',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_1 = array(
+		'id' 	=> 'E1_705_1',
+		'name'	=> 'E1_705_1',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_2 = array(
+		'id' 	=> 'E1_705_2',
+		'name'	=> 'E1_705_2',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_3 = array(
+		'id' 	=> 'E1_705_3',
+		'name'	=> 'E1_705_3',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_4 = array(
+		'id' 	=> 'E1_705_4',
+		'name'	=> 'E1_705_4',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_5 = array(
+		'id' 	=> 'E1_705_5',
+		'name'	=> 'E1_705_5',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_6 = array(
+		'id' 	=> 'E1_705_6',
+		'name'	=> 'E1_705_6',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_7 = array(
+		'id' 	=> 'E1_705_7',
+		'name'	=> 'E1_705_7',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_8 = array(
+		'id' 	=> 'E1_705_8',
+		'name'	=> 'E1_705_8',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_8_O = array(
+		'id' 	=> 'E1_705_8_O',
+		'name'	=> 'E1_705_8_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '200',
+		'disabled'	=> 'disabled',
+	);
+	$E1_705_9 = array(
+		'id' 	=> 'E1_705_9',
+		'name'	=> 'E1_705_9',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_705_9_O = array(
+		'id' 	=> 'E1_705_9_O',
+		'name'	=> 'E1_705_9_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '200',
+		'disabled'	=> 'disabled',
+	);
+	$E1_705_10 = array(
+		'id' 	=> 'E1_705_10',
+		'name'	=> 'E1_705_10',
+		'class'	=> 'form-control',
 		'maxlength'		=> '1',
 	);
 
-	$E1_536_2 = array(
-		'id' 	=> 'E1_536_2-1',
-		'name'	=> 'E1_536_2',
+/**************************************************************************
+***************************************************************************
+**																		 **
+**								 8 0 0 									 **
+**																		 **
+***************************************************************************
+***************************************************************************/
+	$E1_801 = array(
+		'id' 	=> 'E1_801',
+		'name'	=> 'E1_801',
 		'class'	=> 'form-control',
-		'placeholder' => 'P2',
 		'maxlength'		=> '1',
 	);
-	$E1_536_3 = array(
-		'id' 	=> 'E1_536_3-1',
-		'name'	=> 'E1_536_3',
+	$E1_802 = array(
+		'id' 	=> 'E1_802',
+		'name'	=> 'E1_802',
 		'class'	=> 'form-control',
-		'placeholder' => 'P3',
 		'maxlength'		=> '1',
 	);
-	$E1_536_4 = array(
-		'id' 	=> 'E1_536_4-1',
-		'name'	=> 'E1_536_4',
+	$E1_803_1 = array(
+		'id' 	=> 'E1_803_1',
+		'name'	=> 'E1_803_1',
 		'class'	=> 'form-control',
-		'placeholder' => 'P4',
 		'maxlength'		=> '1',
 	);
-	$E1_536_5 = array(
-		'id' 	=> 'E1_536_5-1',
-		'name'	=> 'E1_536_5',
+	$E1_803_2 = array(
+		'id' 	=> 'E1_803_2',
+		'name'	=> 'E1_803_2',
 		'class'	=> 'form-control',
-		'placeholder' => 'P5',
 		'maxlength'		=> '1',
 	);
-	$E1_536_6 = array(
-		'id' 	=> 'E1_536_6-1',
-		'name'	=> 'E1_536_6',
+	$E1_803_3 = array(
+		'id' 	=> 'E1_803_3',
+		'name'	=> 'E1_803_3',
 		'class'	=> 'form-control',
-		'placeholder' => 'P6',
 		'maxlength'		=> '1',
 	);
-	$E1_536_7 = array(
-		'id' 	=> 'E1_536_7-1',
-		'name'	=> 'E1_536_7',
+	$E1_803_4 = array(
+		'id' 	=> 'E1_803_4',
+		'name'	=> 'E1_803_4',
 		'class'	=> 'form-control',
-		'placeholder' => 'P7',
 		'maxlength'		=> '1',
 	);
-	$E1_536_8 = array(
-		'id' 	=> 'E1_536_8-1',
-		'name'	=> 'E1_536_8',
+	$E1_803_5 = array(
+		'id' 	=> 'E1_803_5',
+		'name'	=> 'E1_803_5',
 		'class'	=> 'form-control',
-		'placeholder' => 'P8',
 		'maxlength'		=> '1',
 	);
-	$E1_536_8_O = array(
-		'id' 	=> 'E1_536_8_O-1',
-		'name'	=> 'E1_536_8_O',
+	$E1_803_6 = array(
+		'id' 	=> 'E1_803_6',
+		'name'	=> 'E1_803_6',
 		'class'	=> 'form-control',
-		'placeholder' => 'Especifique',
+		'maxlength'		=> '1',
+	);
+	$E1_803_7 = array(
+		'id' 	=> 'E1_803_7',
+		'name'	=> 'E1_803_7',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_803_8 = array(
+		'id' 	=> 'E1_803_8',
+		'name'	=> 'E1_803_8',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_803_9 = array(
+		'id' 	=> 'E1_803_9',
+		'name'	=> 'E1_803_9',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_803_10 = array(
+		'id' 	=> 'E1_803_10',
+		'name'	=> 'E1_803_10',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_803_11 = array(
+		'id' 	=> 'E1_803_11',
+		'name'	=> 'E1_803_11',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_803_12 = array(
+		'id' 	=> 'E1_803_12',
+		'name'	=> 'E1_803_12',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_803_12_O = array(
+		'id' 	=> 'E1_803_12_O',
+		'name'	=> 'E1_803_12_O',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+		'disabled'	=> 'disabled',
+	);
+	$E1_804_1 = array(
+		'id' 	=> 'E1_804_1',
+		'name'	=> 'E1_804_1',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_2 = array(
+		'id' 	=> 'E1_804_2',
+		'name'	=> 'E1_804_2',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_3 = array(
+		'id' 	=> 'E1_804_3',
+		'name'	=> 'E1_804_3',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_4 = array(
+		'id' 	=> 'E1_804_4',
+		'name'	=> 'E1_804_4',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_5 = array(
+		'id' 	=> 'E1_804_5',
+		'name'	=> 'E1_804_5',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_6 = array(
+		'id' 	=> 'E1_804_6',
+		'name'	=> 'E1_804_6',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_7 = array(
+		'id' 	=> 'E1_804_7',
+		'name'	=> 'E1_804_7',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_8 = array(
+		'id' 	=> 'E1_804_8',
+		'name'	=> 'E1_804_8',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_804_8_O = array(
+		'id' 	=> 'E1_804_8_O',
+		'name'	=> 'E1_804_8_O',
+		'class'	=> 'form-control',
+		'maxlength'		=> '200',
+	);
+	$E1_804_9 = array(
+		'id' 	=> 'E1_804_9',
+		'name'	=> 'E1_804_9',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+
+/**************************************************************************
+***************************************************************************
+**																		 **
+**								 9 0 0 									 **
+**																		 **
+***************************************************************************
+***************************************************************************/
+	$E1_901 = array(
+		'id' 	=> 'E1_901',
+		'name'	=> 'E1_901',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_902 = array(
+		'id' 	=> 'E1_902',
+		'name'	=> 'E1_902',
+		'class'	=> 'form-control',
+		'maxlength'		=> '1',
+	);
+	$E1_903_1_Nro_Persona = array(
+		'id' 	=> 'E1_903_1_Nro_Persona',
+		'name'	=> 'E1_903_1_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_1_Cargo = array(
+		'id' 	=> 'E1_903_1_Cargo',
+		'name'	=> 'E1_903_1_Cargo',
+		'class'	=> 'form-control',
 		'maxlength'		=> '100',
 	);
-	$E1_536_9 = array(
-		'id' 	=> 'E1_536_9-1',
-		'name'	=> 'E1_536_9',
+	$E1_903_2_Nro_Persona = array(
+		'id' 	=> 'E1_903_2_Nro_Persona',
+		'name'	=> 'E1_903_2_Nro_Persona',
 		'class'	=> 'form-control',
-		'placeholder' => 'P9',
-		'maxlength'		=> '1',
+		'maxlength'		=> '2',
 	);
-	$E1_536_Total = array(
-		'id' 	=> 'E1_536_Total-1',
-		'name'	=> 'E1_536_Total',
+	$E1_903_2_Cargo = array(
+		'id' 	=> 'E1_903_2_Cargo',
+		'name'	=> 'E1_903_2_Cargo',
 		'class'	=> 'form-control',
 		'maxlength'		=> '100',
+	);
+	$E1_903_3_Nro_Persona = array(
+		'id' 	=> 'E1_903_3_Nro_Persona',
+		'name'	=> 'E1_903_3_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_3_Cargo = array(
+		'id' 	=> 'E1_903_3_Cargo',
+		'name'	=> 'E1_903_3_Cargo',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_903_4_Nro_Persona = array(
+		'id' 	=> 'E1_903_4_Nro_Persona',
+		'name'	=> 'E1_903_4_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_4_Cargo = array(
+		'id' 	=> 'E1_903_4_Cargo',
+		'name'	=> 'E1_903_4_Cargo',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_903_5_Nro_Persona = array(
+		'id' 	=> 'E1_903_5_Nro_Persona',
+		'name'	=> 'E1_903_5_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_5_Cargo = array(
+		'id' 	=> 'E1_903_5_Cargo',
+		'name'	=> 'E1_903_5_Cargo',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_903_6_Nro_Persona = array(
+		'id' 	=> 'E1_903_6_Nro_Persona',
+		'name'	=> 'E1_903_6_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_6_Cargo = array(
+		'id' 	=> 'E1_903_6_Cargo',
+		'name'	=> 'E1_903_6_Cargo',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_903_7_Nro_Persona = array(
+		'id' 	=> 'E1_903_7_Nro_Persona',
+		'name'	=> 'E1_903_7_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_7_Cargo = array(
+		'id' 	=> 'E1_903_7_Cargo',
+		'name'	=> 'E1_903_7_Cargo',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_903_8_Nro_Persona = array(
+		'id' 	=> 'E1_903_8_Nro_Persona',
+		'name'	=> 'E1_903_8_Nro_Persona',
+		'class'	=> 'form-control',
+		'maxlength'		=> '2',
+	);
+	$E1_903_8_Cargo = array(
+		'id' 	=> 'E1_903_8_Cargo',
+		'name'	=> 'E1_903_8_Cargo',
+		'class'	=> 'form-control',
+		'maxlength'		=> '100',
+	);
+	$E1_900_Obs = array(
+		'id' 	=> 'E1_900_Obs',
+		'name'	=> 'E1_900_Obs',
+		'class'	=> 'form-control',
+		'maxlength'	=> '500',
+		'rows'		=> '3',
+	);
+	$E1_1001_1 = array(
+		'id' 	=> 'E1_1001_1',
+		'name'	=> 'E1_1001_1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+	);
+	$E1_1002_1_P1 = array(
+		'id' 	=> 'E1_1002_1_P1',
+		'name'	=> 'E1_1002_1_P1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P2 = array(
+		'id' 	=> 'E1_1002_1_P2',
+		'name'	=> 'E1_1002_1_P2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P3 = array(
+		'id' 	=> 'E1_1002_1_P3',
+		'name'	=> 'E1_1002_1_P3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P4 = array(
+		'id' 	=> 'E1_1002_1_P4',
+		'name'	=> 'E1_1002_1_P4',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P5 = array(
+		'id' 	=> 'E1_1002_1_P5',
+		'name'	=> 'E1_1002_1_P5',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P6 = array(
+		'id' 	=> 'E1_1002_1_P6',
+		'name'	=> 'E1_1002_1_P6',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P7 = array(
+		'id' 	=> 'E1_1002_1_P7',
+		'name'	=> 'E1_1002_1_P7',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P8 = array(
+		'id' 	=> 'E1_1002_1_P8',
+		'name'	=> 'E1_1002_1_P8',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P9 = array(
+		'id' 	=> 'E1_1002_1_P9',
+		'name'	=> 'E1_1002_1_P9',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P10 = array(
+		'id' 	=> 'E1_1002_1_P10',
+		'name'	=> 'E1_1002_1_P10',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P11 = array(
+		'id' 	=> 'E1_1002_1_P11',
+		'name'	=> 'E1_1002_1_P11',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P12 = array(
+		'id' 	=> 'E1_1002_1_P12',
+		'name'	=> 'E1_1002_1_P12',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P13 = array(
+		'id' 	=> 'E1_1002_1_P13',
+		'name'	=> 'E1_1002_1_P13',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_1_P14 = array(
+		'id' 	=> 'E1_1002_1_P14',
+		'name'	=> 'E1_1002_1_P14',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1001_2 = array(
+		'id' 	=> 'E1_1001_2',
+		'name'	=> 'E1_1001_2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+	);
+	$E1_1002_2_P1 = array(
+		'id' 	=> 'E1_1002_2_P1',
+		'name'	=> 'E1_1002_2_P1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P2 = array(
+		'id' 	=> 'E1_1002_2_P2',
+		'name'	=> 'E1_1002_2_P2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P3 = array(
+		'id' 	=> 'E1_1002_2_P3',
+		'name'	=> 'E1_1002_2_P3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P4 = array(
+		'id' 	=> 'E1_1002_2_P4',
+		'name'	=> 'E1_1002_2_P4',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P5 = array(
+		'id' 	=> 'E1_1002_2_P5',
+		'name'	=> 'E1_1002_2_P5',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P6 = array(
+		'id' 	=> 'E1_1002_2_P6',
+		'name'	=> 'E1_1002_2_P6',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P7 = array(
+		'id' 	=> 'E1_1002_2_P7',
+		'name'	=> 'E1_1002_2_P7',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P8 = array(
+		'id' 	=> 'E1_1002_2_P8',
+		'name'	=> 'E1_1002_2_P8',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P9 = array(
+		'id' 	=> 'E1_1002_2_P9',
+		'name'	=> 'E1_1002_2_P9',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P10 = array(
+		'id' 	=> 'E1_1002_2_P10',
+		'name'	=> 'E1_1002_2_P10',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P11 = array(
+		'id' 	=> 'E1_1002_2_P11',
+		'name'	=> 'E1_1002_2_P11',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P12 = array(
+		'id' 	=> 'E1_1002_2_P12',
+		'name'	=> 'E1_1002_2_P12',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P13 = array(
+		'id' 	=> 'E1_1002_2_P13',
+		'name'	=> 'E1_1002_2_P13',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_2_P14 = array(
+		'id' 	=> 'E1_1002_2_P14',
+		'name'	=> 'E1_1002_2_P14',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1001_3 = array(
+		'id' 	=> 'E1_1001_1',
+		'name'	=> 'E1_1001_1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+	);
+	$E1_1002_3_P1 = array(
+		'id' 	=> 'E1_1002_3_P1',
+		'name'	=> 'E1_1002_3_P1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P2 = array(
+		'id' 	=> 'E1_1002_3_P2',
+		'name'	=> 'E1_1002_3_P2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P3 = array(
+		'id' 	=> 'E1_1002_3_P3',
+		'name'	=> 'E1_1002_3_P3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P4 = array(
+		'id' 	=> 'E1_1002_3_P4',
+		'name'	=> 'E1_1002_3_P4',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P5 = array(
+		'id' 	=> 'E1_1002_3_P5',
+		'name'	=> 'E1_1002_3_P5',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P6 = array(
+		'id' 	=> 'E1_1002_3_P6',
+		'name'	=> 'E1_1002_3_P6',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P7 = array(
+		'id' 	=> 'E1_1002_3_P7',
+		'name'	=> 'E1_1002_3_P7',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P8 = array(
+		'id' 	=> 'E1_1002_3_P8',
+		'name'	=> 'E1_1002_3_P8',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P9 = array(
+		'id' 	=> 'E1_1002_3_P9',
+		'name'	=> 'E1_1002_3_P9',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P10 = array(
+		'id' 	=> 'E1_1002_3_P10',
+		'name'	=> 'E1_1002_3_P10',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P11 = array(
+		'id' 	=> 'E1_1002_3_P11',
+		'name'	=> 'E1_1002_3_P11',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P12 = array(
+		'id' 	=> 'E1_1002_3_P12',
+		'name'	=> 'E1_1002_3_P12',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P13 = array(
+		'id' 	=> 'E1_1002_3_P13',
+		'name'	=> 'E1_1002_3_P13',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1002_3_P14 = array(
+		'id' 	=> 'E1_1002_3_P14',
+		'name'	=> 'E1_1002_3_P14',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1003_1 = array(
+		'id' 	=> 'E1_1003_1',
+		'name'	=> 'E1_1003_1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+	);
+	$E1_1004_1_P1 = array(
+		'id' 	=> 'E1_1004_1_P1',
+		'name'	=> 'E1_1004_1_P1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P2 = array(
+		'id' 	=> 'E1_1004_1_P2',
+		'name'	=> 'E1_1004_1_P2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P3 = array(
+		'id' 	=> 'E1_1004_1_P3',
+		'name'	=> 'E1_1004_1_P3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P4 = array(
+		'id' 	=> 'E1_1004_1_P4',
+		'name'	=> 'E1_1004_1_P4',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P5 = array(
+		'id' 	=> 'E1_1004_1_P5',
+		'name'	=> 'E1_1004_1_P5',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P6 = array(
+		'id' 	=> 'E1_1004_1_P6',
+		'name'	=> 'E1_1004_1_P6',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P7 = array(
+		'id' 	=> 'E1_1004_1_P7',
+		'name'	=> 'E1_1004_1_P7',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P8 = array(
+		'id' 	=> 'E1_1004_1_P8',
+		'name'	=> 'E1_1004_1_P8',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P9 = array(
+		'id' 	=> 'E1_1004_1_P9',
+		'name'	=> 'E1_1004_1_P9',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P10 = array(
+		'id' 	=> 'E1_1004_1_P10',
+		'name'	=> 'E1_1004_1_P10',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P11 = array(
+		'id' 	=> 'E1_1004_1_P11',
+		'name'	=> 'E1_1004_1_P11',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P12 = array(
+		'id' 	=> 'E1_1004_1_P12',
+		'name'	=> 'E1_1004_1_P12',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P13 = array(
+		'id' 	=> 'E1_1004_1_P13',
+		'name'	=> 'E1_1004_1_P13',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_1_P14 = array(
+		'id' 	=> 'E1_1004_1_P14',
+		'name'	=> 'E1_1004_1_P14',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1003_2 = array(
+		'id' 	=> 'E1_1003_2',
+		'name'	=> 'E1_1003_2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+	);
+	$E1_1004_2_P1 = array(
+		'id' 	=> 'E1_1004_2_P1',
+		'name'	=> 'E1_1004_2_P1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P2 = array(
+		'id' 	=> 'E1_1004_2_P2',
+		'name'	=> 'E1_1004_2_P2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P3 = array(
+		'id' 	=> 'E1_1004_2_P3',
+		'name'	=> 'E1_1004_2_P3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P4 = array(
+		'id' 	=> 'E1_1004_2_P4',
+		'name'	=> 'E1_1004_2_P4',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P5 = array(
+		'id' 	=> 'E1_1004_2_P5',
+		'name'	=> 'E1_1004_2_P5',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P6 = array(
+		'id' 	=> 'E1_1004_2_P6',
+		'name'	=> 'E1_1004_2_P6',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P7 = array(
+		'id' 	=> 'E1_1004_2_P7',
+		'name'	=> 'E1_1004_2_P7',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P8 = array(
+		'id' 	=> 'E1_1004_2_P8',
+		'name'	=> 'E1_1004_2_P8',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P9 = array(
+		'id' 	=> 'E1_1004_2_P9',
+		'name'	=> 'E1_1004_2_P9',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P10 = array(
+		'id' 	=> 'E1_1004_2_P10',
+		'name'	=> 'E1_1004_2_P10',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P11 = array(
+		'id' 	=> 'E1_1004_2_P11',
+		'name'	=> 'E1_1004_2_P11',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P12 = array(
+		'id' 	=> 'E1_1004_2_P12',
+		'name'	=> 'E1_1004_2_P12',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P13 = array(
+		'id' 	=> 'E1_1004_2_P13',
+		'name'	=> 'E1_1004_2_P13',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_2_P14 = array(
+		'id' 	=> 'E1_1004_2_P14',
+		'name'	=> 'E1_1004_2_P14',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1003_3 = array(
+		'id' 	=> 'E1_1003_3',
+		'name'	=> 'E1_1003_3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '1',
+	);
+	$E1_1004_3_P1 = array(
+		'id' 	=> 'E1_1004_3_P1',
+		'name'	=> 'E1_1004_3_P1',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P2 = array(
+		'id' 	=> 'E1_1004_3_P2',
+		'name'	=> 'E1_1004_3_P2',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P3 = array(
+		'id' 	=> 'E1_1004_3_P3',
+		'name'	=> 'E1_1004_3_P3',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P4 = array(
+		'id' 	=> 'E1_1004_3_P4',
+		'name'	=> 'E1_1004_3_P4',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P5 = array(
+		'id' 	=> 'E1_1004_3_P5',
+		'name'	=> 'E1_1004_3_P5',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P6 = array(
+		'id' 	=> 'E1_1004_3_P6',
+		'name'	=> 'E1_1004_3_P6',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P7 = array(
+		'id' 	=> 'E1_1004_3_P7',
+		'name'	=> 'E1_1004_3_P7',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P8 = array(
+		'id' 	=> 'E1_1004_3_P8',
+		'name'	=> 'E1_1004_3_P8',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P9 = array(
+		'id' 	=> 'E1_1004_3_P9',
+		'name'	=> 'E1_1004_3_P9',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P10 = array(
+		'id' 	=> 'E1_1004_3_P10',
+		'name'	=> 'E1_1004_3_P10',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P11 = array(
+		'id' 	=> 'E1_1004_3_P11',
+		'name'	=> 'E1_1004_3_P11',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P12 = array(
+		'id' 	=> 'E1_1004_3_P12',
+		'name'	=> 'E1_1004_3_P12',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P13 = array(
+		'id' 	=> 'E1_1004_3_P13',
+		'name'	=> 'E1_1004_3_P13',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1004_3_P14 = array(
+		'id' 	=> 'E1_1004_3_P14',
+		'name'	=> 'E1_1004_3_P14',
+		'class'	=> 'form-control',
+		'maxlength'	=> '2',
+		'disabled'	=> 'disabled',
+	);
+	$E1_1000_Obs = array(
+		'id' 	=> 'E1_1000_Obs',
+		'name'	=> 'E1_1000_Obs',
+		'class'	=> 'form-control',
+		'maxlength'	=> '500',
+		'rows'	=> '3',
 	);
 
 ?>
 
+
+
 <!--************************************************************************************************************************************************************************************************************************************************************
 ****************************************************************************************************************************************************************************************************************************************************************
-																				TAB III
+																				TAB IV
 ****************************************************************************************************************************************************************************************************************************************************************
 *************************************************************************************************************************************************************************************************************************************************************-->
-<?php echo form_open('','id="frmTab4"'); ?>
-	<br>
-	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-1- -->
-		<thead>
-			<tr>
-				<td colspan="6"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad)</h4></center></td>
-			</tr>
-			<tr>
-				<td colspan="4" rowspan="2">CONDICIÓN DE ACTIVIDAD</td>
-				<td colspan="2">OCUPADOS</td>
-			</tr>
-			<tr>
-				<td colspan="2">OCUPACIÓN PRINCIPAL</td>
-			</tr>				
-		</thead>
-		<tbody>
-			<tr>
-				<td>201. N° DE ORDEN</td>
-				<td>500. N° DE INFORMANTE</td>
-				<td>501. LA SEMANA PASADA DEL .... AL ....  </td>
-				<td>502. LA SEMANA PASADA REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O ESPECIE COMO: (Anote uno más códigos)</td>
-				<td>503. ¿CUÁL ES LA OCUPACIÓN PRINCIPAL QUE DESEMPEÑÓ</td>
-				<td>504. ¿A QUÉ SE DEDICA EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ EN SU OCUPACIÓN PRINCIPAL</td>
-			</tr>
-			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGOS</td><td>ESPECIFIQUE</td><td>ESPECIFIQUE</td></tr>
-			<tr>	
-				<td>1</td>
-				<td><?php echo form_input($E1_500); ?></td>
-				<td><?php echo form_input($E1_501); ?></td>		
-				<td class="sub-table">
-					<table class="table">
-						<tbody>
-							<tr>		
-								<td><?php echo form_input($E1_502_1); ?></td>
-								<td><?php echo form_input($E1_502_2); ?></td>
-								<td><?php echo form_input($E1_502_3); ?></td>
-								<td><?php echo form_input($E1_502_4); ?></td>
-								<td><?php echo form_input($E1_502_5); ?></td>
-								<td><?php echo form_input($E1_502_6); ?></td>
-								<td><?php echo form_input($E1_502_7); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_502_8); ?></td>
-								<td><?php echo form_input($E1_502_9); ?></td>
-								<td><?php echo form_input($E1_502_10); ?></td>
-								<td><?php echo form_input($E1_502_11); ?></td>
-								<td colspan="2"><?php echo form_input($E1_502_11_O); ?></td>	
-								<td><?php echo form_input($E1_502_12); ?></td>															
-							</tr>
-						</tbody>
-					</table>
-				</td>	
-				<td><?php echo form_input($E1_503); ?></td>	
-				<td><?php echo form_input($E1_504); ?></td>
-			</tr>
+<?php echo form_open('','id="frmTab5"'); ?>
+	<br><br>
+	<table class="table table-bordered"><!-- 600 -->
+		<tr>
+			<th colspan="2" ><div class="col-md-2"><div class="form-group">Informante Nro<?php echo form_input($E1_600_Informante); ?></div></div><div class="col-md-10"><h4><center>600. CONOCIMIENTO DE LA IMPORTANCIA Y PRACTICAS PARA LA CONSERVACIÓN DE BOSQUES <br>(Solo para el jefe del hogar) </center></h4></div> </th>
+		</tr>
+		<tr>
+			<td><!-- LEFT SIDE -->
+				<table class="table">
+					<tr><td> 601. ¿CONSIDERA UD. QUE ES IMPORTANTE CONSERVAR LOS BOSQUES? </td></tr>
+					<tr><td class="pd146"> <?php echo form_input($E1_601); ?> </td></tr>
+					<tr><td> 602. ¿POR QUÉ CONSIDERA QUE ES IMPORTANTE CONSERVAR LOS BOSQUES?<br> (Ingrese uno o mas códigos): </td></tr>
+					<tr><td><table class="table">
+							<tr><td> Son fuentes de oxigeno </td><td> <?php echo form_input($E1_602_1); ?> </td></tr>
+							<tr><td> Son fuentes de recursos para las CC.NN </td><td> <?php echo form_input($E1_602_2); ?> </td></tr>
+							<tr><td> Son fuentes de biodiversidad </td><td> <?php echo form_input($E1_602_3); ?> </td></tr>
+							<tr><td> Son hábitat de diferentes especies </td><td> <?php echo form_input($E1_602_4); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_602_5); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_602_5_O); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_602_6); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_602_6_O); ?> </td></tr>					
+						</table></td>
+					</tr>
+					<tr><td> 603. UD. O ALGÚN MIEMBRO DE SU HOGAR, EN LOS ULTIMOS 2 A ÑOS ¿HA RECIBIDO ALGUNA CHARLA INFORMATIVA SOBRE LA CONSERVACIÓN DE LOS BOSQUES? </td></tr>
+					<tr><td> <?php echo form_input($E1_603); ?> </td></tr>
+				</table>
+			</td>
+			<td><!-- RIGHT SIDE -->
+				<table class="table">
+					<tr><td> 604. ¿QUÉ INSTITUCIÓN(ES) Y/O ORGANIZACIÓN(ES) LE BRINDARON ESTAS CHARLAS INFORMATIVAS <br>(Ingrese uno o mas códigos)  </td></tr>
+					<tr><td><table class="table">
+							<tr><td> ONG's </td><td> <?php echo form_input($E1_604_1); ?> </td></tr>
+							<tr><td> Ministerio de Agricultura (MINAG) </td><td> <?php echo form_input($E1_604_2); ?> </td></tr>
+							<tr><td> Ministerio de Ambiente (MINAM) </td><td> <?php echo form_input($E1_604_3); ?> </td></tr>
+							<tr><td> Programa Nacional de Conservación de Bosques (PNCB) </td><td> <?php echo form_input($E1_604_4); ?> </td></tr>
+							<tr><td> Gobierno Regional </td><td> <?php echo form_input($E1_604_5); ?> </td></tr>
+							<tr><td> Gobierno Local </td><td> <?php echo form_input($E1_604_6); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_604_7); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_604_7_O); ?> </td></tr>					
+						</table></td>
+					</tr>
+					<tr><td> 605. ¿USTED REALIZA PRÁCTICAS PARA CONSERVAR LOS BOSQUES?  </td></tr>
+					<tr><td> <?php echo form_input($E1_605); ?> </td></tr>
+					<tr><td> 606. ¿ESTAS PRÁCTICAS SON:<br>(Ingrese uno o mas códigos) </td></tr>
+					<tr><td><table class="table">
+							<tr><td> Reforestación? </td><td> <?php echo form_input($E1_606_1); ?> </td></tr>
+							<tr><td> Cuota de caza? </td><td> <?php echo form_input($E1_606_2); ?> </td></tr>
+							<tr><td> Vedas temporales de caza? </td><td> <?php echo form_input($E1_606_3); ?> </td></tr>
+							<tr><td> Prohibición de uso de productos tóxicos para pescar? </td><td> <?php echo form_input($E1_606_4); ?> </td></tr>
+							<tr><td> Quemas controladas? </td><td> <?php echo form_input($E1_606_5); ?> </td></tr>
+							<tr><td> Establecimiento de áreas de protección? </td><td> <?php echo form_input($E1_606_6); ?> </td></tr>
+							<tr><td> Vigilancia de Bosques? </td><td> <?php echo form_input($E1_606_7); ?> </td></tr>
+							<tr><td> Implementación de sistemas agroforestales? </td><td> <?php echo form_input($E1_606_8); ?> </td></tr>
+							<tr><td> Uso de abono / fertilizante orgánico? </td><td> <?php echo form_input($E1_606_9); ?> </td></tr>
+							<tr><td> Otro? </td><td> <?php echo form_input($E1_606_10); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_606_10_O); ?> </td></tr>
+							<tr><td> Otro? </td><td> <?php echo form_input($E1_606_11); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_606_11_O); ?> </td></tr>
+						</table></td>
+					</tr>
 
-		</tbody>
-	</table> <!-- SECCION  500-1 -->
-	<br>
-	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-2- -->
-		<thead>
-			<tr>
-				<td colspan="9"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
-			</tr>
-			<tr>
-				<td colspan="9">OCUPADOS</td>
-			</tr>
-			<tr>
-				<td colspan="9">OCUPACIÓN PRINCIPAL</td>
-			</tr>				
-		</thead>
-		<tbody>
-			<tr>
-				<td>201.<br> N° DE ORDEN</td>
-				<td>505.<br> USTED SE DESEMPEÑÓ EN SU OCUPACIÓN PRINICIAL COMO :</td>
-				<td>506.<br> ¿LE AYUDARON PERSONAS DE SU FAMILIA SIN RECIBIR UNA REMUNERACIÓN FIJA?</td>
-				<td>507.<br> ¿TENÍA USTED TRABAJADORES REMUNERADOS A SU CARGO?</td>
-				<td>508.<br> EN SU OCUPACIÓN PRINCIPAL ¿USTED TRABAJÓ PARA:</td>
-				<td>509.<br> ¿EL TIPO DE PAGO O INGRESO QUE USTED RECIBE EN SU OCUPACIÓN PRINCIPAL ES: (Anote uno más códigos)</td>
-				<td>510.<br> ¿EL TIPO DE CONTRATO POR EL CUAL UD. LABORA ES: (Anote un solo código)</td>
-				<td>511.<br> ¿CUANTAS PERSONAS LABORARON EN SU TRABAJO, NEGOCIO O EMPRESA, INCLUYENDOSE UD.?</td>
-				<td>512.<br> ¿CUANTAS HORAS TRABAJÓ LA SEMANA PASADA, EN SU OCUPACIÓN PRINCIPAL?</td>
-			</tr>
-			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGOS</td><td>CÓDIGO</td><td>NÚMERO</td><td>HORAS</td></tr>
-			<tr>	
-				<td>1</td>
-				<td><table class="table"><tr><td><?php echo form_input($E1_505); ?></td></tr><tr><td><?php echo form_input($E1_505_O); ?>(Especifique)</td></tr></table></td>
-				<td><?php echo form_input($E1_506); ?></td>		
-				<td><?php echo form_input($E1_507); ?></td>		
-				<td><table class="table"><tr><td><?php echo form_input($E1_508); ?></td></tr><tr><td><?php echo form_input($E1_508_O); ?>(Especifique)</td></tr></table></td>
+				</table>
+			</td>
+		</tr>
+	</table><br>
+		
+	<table class="table table-bordered"><!-- 700--> 
+		<tr>
+			<th colspan="2" ><h4><center>700. RECURSOS Y SERVICIOS QUE BRINDA EL BOSQUE <br>(Solo para el jefe del hogar)</center> </h4> </th>
+		</tr>
+		<tr>
+			<td><!-- LEFT SIDE -->
+				<table class="table">
+					<tr><td> 701. ¿CUÁLES SON LOS RECURSOS QUE LE BRINDA EL BOSQUE?<br>(Ingrese uno o mas códigos) </td></tr>
+					<tr><td><table class="table">
+							<tr><th colspan="2"> RECURSOS: </th></tr>
+							<tr><td> Agua </td><td> <?php echo form_input($E1_701_1); ?> </td></tr>
+							<tr><td> Aire </td><td> <?php echo form_input($E1_701_2); ?> </td></tr>
+							<tr><td> Suelo </td><td> <?php echo form_input($E1_701_3); ?> </td></tr>
+							<tr><td> Fauna </td><td> <?php echo form_input($E1_701_4); ?> </td></tr>
+							<tr><td> Flora </td><td> <?php echo form_input($E1_701_5); ?> </td></tr>
+							<tr><td> Madera </td><td> <?php echo form_input($E1_701_6); ?> </td></tr>
+							<tr><td> Medicinales </td><td> <?php echo form_input($E1_701_7); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_701_8); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_701_8_O); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_701_9); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_701_9_O); ?> </td></tr>
+							<tr><td> NO SABE </td><td> <?php echo form_input($E1_701_10); ?> </td></tr>					
+						</table></td>
+					</tr>
+					<tr><td> 702. ¿CUÁLES SON LOS SERVICIOS QUE LE BRINDA EL BOSQUE?<br>(Ingrese uno o más códigos) </td></tr>
+					<tr><td><table class="table">
+							<tr><th colspan="2"> SERVICIOS: </th></tr>
+							<tr><td> Ecoturismo </td><td> <?php echo form_input($E1_702_1); ?> </td></tr>
+							<tr><td> Calidad de agua </td><td> <?php echo form_input($E1_702_2); ?> </td></tr>
+							<tr><td> Regulación del clima </td><td> <?php echo form_input($E1_702_3); ?> </td></tr>
+							<tr><td> Producción de semillas </td><td> <?php echo form_input($E1_702_4); ?> </td></tr>
+							<tr><td> Hábitat de animales </td><td> <?php echo form_input($E1_702_5); ?> </td></tr>
+							<tr><td> Culturales </td><td> <?php echo form_input($E1_702_6); ?> </td></tr>
+							<tr><td> Recreativos </td><td> <?php echo form_input($E1_702_7); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_702_8); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_702_8_O); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_702_9); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_702_9_O); ?> </td></tr>
+							<tr><td> NO SABE </td><td> <?php echo form_input($E1_702_10); ?> </td></tr>					
+						</table></td>
+					</tr>
+				</table>
+			</td>
+			<td><!-- RIGHT SIDE -->
+				<table class="table">
+					<tr><td> 703. ¿CONSIDERA UD. QUE EL USO SOSTENIBLE DE LOS RECRUSOS DEL BOSQUE PERMITE MEJORAR SU NIVEL DE VIDA? </td></tr>
+					<tr><td> <?php echo form_input($E1_703); ?> </td></tr>
+					<tr><td>   ¿Por qué? </td></tr>
+					<tr><td class="pd146"> <?php echo form_input($E1_703A); ?> </td></tr>
+					<tr><td> 704. ¿CONSIDERA UD. QUE EL BOSQUE ES IMPORTANTE PARA LA POBLACIÓN MUNDIAL? </td></tr>
+					<tr><td class="pd146"> <?php echo form_input($E1_704); ?> </td></tr>
+					<tr><td> 705. ¿CONOCE UD. ALGUNAS ACCIONES QUE GENERAN UNA AMENAZA AL BOSQUE COMO:<br>(Ingrese uno o mas códigos)  </td></tr>
+					<tr><td><table class="table">
+							<tr><td> Tala ilegal? </td><td> <?php echo form_input($E1_705_1); ?> </td></tr>
+							<tr><td> Incendio forestal? </td><td> <?php echo form_input($E1_705_2); ?> </td></tr>
+							<tr><td> Cultivo de plantaciones ilicitas? </td><td> <?php echo form_input($E1_705_3); ?> </td></tr>
+							<tr><td> Explotación de hidrocarburos? </td><td> <?php echo form_input($E1_705_4); ?> </td></tr>
+							<tr><td> Apertura de carreteras? </td><td> <?php echo form_input($E1_705_5); ?> </td></tr>
+							<tr><td> Cambio de uso de suelo para actividades agrícolas? </td><td> <?php echo form_input($E1_705_6); ?> </td></tr>
+							<tr><td> Minería? </td><td> <?php echo form_input($E1_705_7); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_705_8); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_705_8_O); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_705_9); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_705_9_O); ?> </td></tr>
+							<tr><td> NO SABE </td><td> <?php echo form_input($E1_705_10); ?> </td></tr>					
+						</table></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table><br>
+		
+	<table class="table table-bordered"><!-- 800 -->
+		<tr>
+			<th colspan="2" ><div class="col-md-2"><div class="form-group">Informante Nro<?php echo form_input($E1_600_Informante); ?></div></div><div class="col-md-10"><h4><center>800. CONOCIMIENTO SOBRE LA DEFORESTACIÓN<br>(Solo para el jefe del hogar) </center></h4></div> </th>
+		</tr>
+		<tr>
+			<td><!-- LEFT SIDE -->
+				<table class="table">
+					<tr><td> 801. ¿SABE UD. QUÉ ES LA DEFORESTACIÓN? </td></tr>
+					<tr><td> <?php echo form_input($E1_801); ?> </td></tr>
+					<tr><td> 801. ¿ACTUALMENTE EXISTE DEFORESTACIÓN EN SU COMUNIDAD? </td></tr>
+					<tr><td> <?php echo form_input($E1_802); ?> </td></tr>
+					<tr><td> 803. ¿EL ORIGEN DE ESTA DEFORESTACIÓN ES:<br> (Ingrese uno o mas códigos): </td></tr>
+					<tr><td><table class="table">
+							<tr><td> Tala de árboles? </td><td> <?php echo form_input($E1_803_1); ?> </td></tr>
+							<tr><td> Cambio del suelo de bosques para actividad agricola y/o pecuaria? </td><td> <?php echo form_input($E1_803_2); ?> </td></tr>
+							<tr><td> Cambio del uso del agua para actividades agricolas y/o pecuarias? </td><td> <?php echo form_input($E1_803_3); ?> </td></tr>
+							<tr><td> Incendio forestal? </td><td> <?php echo form_input($E1_803_4); ?> </td></tr>
+							<tr><td> Crecimiento de la población / construcción de espacios urbanos? </td><td> <?php echo form_input($E1_803_5); ?> </td></tr>
+							<tr><td> Desbordamiento de ríos? </td><td> <?php echo form_input($E1_803_6); ?> </td></tr>
+							<tr><td> Plagas y enfermedades de árboles? </td><td> <?php echo form_input($E1_803_7); ?> </td></tr>
+							<tr><td> Migración de colonos? </td><td> <?php echo form_input($E1_803_8); ?> </td></tr>
+							<tr><td> Apertura de carreteras y vías de acceso? </td><td> <?php echo form_input($E1_803_9); ?> </td></tr>
+							<tr><td> Explotación de hidrocarburos? </td><td> <?php echo form_input($E1_803_10); ?> </td></tr>
+							<tr><td> Cultivos de plantaciones ilicitas? </td><td> <?php echo form_input($E1_803_11); ?> </td></tr>
+							<tr><td> Otro? </td><td> <?php echo form_input($E1_803_12); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_803_12_O); ?> </td></tr>
+						</table></td>
+					</tr>
+				</table>
+			</td>
+			<td><!-- RIGHT SIDE -->
+				<table class="table">
+					<tr><td> 804. ¿CUÁLES SON LAS CONSECUENCIAS DE LA DEFORESTACIÓN?<br>(Ingrese uno o mas códigos) </td></tr>
+					<tr><td><table class="table">
+							<tr><td> Disminución de lluvias </td><td> <?php echo form_input($E1_804_1); ?> </td></tr>
+							<tr><td> Disminución de humedad del suelo </td><td> <?php echo form_input($E1_804_2); ?> </td></tr>
+							<tr><td> Erosión del suelo </td><td> <?php echo form_input($E1_804_3); ?> </td></tr>
+							<tr><td> Extinción de especies vegetales </td><td> <?php echo form_input($E1_804_4); ?> </td></tr>
+							<tr><td> Extención de especies animales </td><td> <?php echo form_input($E1_804_5); ?> </td></tr>
+							<tr><td> Emigración de animales </td><td> <?php echo form_input($E1_804_6); ?> </td></tr>
+							<tr><td> Enfermedades de la población </td><td> <?php echo form_input($E1_804_7); ?> </td></tr>
+							<tr><td> Otro </td><td> <?php echo form_input($E1_804_8); ?> </td></tr>
+							<tr><td> (Especifique) </td><td> <?php echo form_input($E1_804_8_O); ?> </td></tr>
+							<tr><td> Uso de abono / fertilizante orgánico? </td><td> <?php echo form_input($E1_804_9); ?> </td></tr>
+						</table></td>
+					</tr>
 
-				<td class="sub-table">
-					<table class="table">
-						<tbody>
-							<tr>		
-								<td><?php echo form_input($E1_509_1); ?></td>
-								<td><?php echo form_input($E1_509_2); ?></td>
-								<td><?php echo form_input($E1_509_3); ?></td>
-								<td><?php echo form_input($E1_509_4); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_509_5); ?></td>
-								<td><?php echo form_input($E1_509_6); ?></td>
-								<td><?php echo form_input($E1_509_7); ?></td>
-								<td><?php echo form_input($E1_509_8); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_509_9); ?></td>
-								<td><?php echo form_input($E1_509_10); ?></td>
+				</table>
+			</td>
+		</tr>
+	</table><br>
+		
+	<table class="table table-bordered"><!-- 900 -->
+		<tr>
+			<th colspan="2" ><h4><center>900. PARTICIPACIÓN EN COMITÉ DE VIGILANCIA COMUNAL DE BOSQUES<br>(Solo para el jefe del hogar) </center></h4> </th>
+		</tr>
+		<tr>
+			<td>901. ¿EXISTE EN SU COMUNIDAD ALGÚN COMITÉ PARA LA VIGILANCIADEL BOSQUE?</td>
+			<td>902. ¿UD. O ALGÚN MIEMBRO DE SU HOGAR PARTICIPA EN EL COMITÉ DE VIGILANCIA?</td>
+		</tr>
+		<tr>
+			<td> <?php echo form_input($E1_901); ?> </td>
+			<td> <?php echo form_input($E1_902); ?> </td>
+		</tr>
+		<tr><td colspan="2">903. ¿CUÁLES SON LOS MIEMBROS DE SU HOGAR QUE PARTICIPAN Y QUE CARGO DESEMPEÑAN?</td></tr>
+		<tr>
+			<td colspan="2"><table class="table table-bordered">
+					<tr><th>N°</th><th>N° Orden Cap.200</th><th>Cargo que desempeña</th></tr>
+					<tr><td>1</td><td> <?php echo form_input($E1_903_1_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_1_Cargo); ?></td></tr>
+					<tr><td>2</td><td> <?php echo form_input($E1_903_2_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_2_Cargo); ?></td></tr>
+					<tr><td>3</td><td> <?php echo form_input($E1_903_3_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_3_Cargo); ?></td></tr>
+					<tr><td>4</td><td> <?php echo form_input($E1_903_4_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_4_Cargo); ?></td></tr>
+					<tr><td>5</td><td> <?php echo form_input($E1_903_5_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_5_Cargo); ?></td></tr>
+					<tr><td>6</td><td> <?php echo form_input($E1_903_6_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_6_Cargo); ?></td></tr>
+					<tr><td>7</td><td> <?php echo form_input($E1_903_7_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_7_Cargo); ?></td></tr>
+					<tr><td>8</td><td> <?php echo form_input($E1_903_8_Nro_Persona); ?> </td><td><?php echo form_input($E1_903_8_Cargo); ?></td></tr>
+			</table></td>
+		</tr>
+	</table><br>
 
-							</tr>	
-							<tr>	
-								<td><?php echo form_input($E1_509_11); ?></td>
-								<td colspan="2"><?php echo form_input($E1_509_11_O); ?></td>	
-								<td><?php echo form_input($E1_509_12); ?></td>
-							</tr>
-						</tbody>
-					</table>
-				</td>	
-				<td>
-					<table class="table">
-						<tr><td><?php echo form_input($E1_510); ?></td></tr>
-						<tr><td><?php echo form_input($E1_510_O); ?>(Especifique)</td></tr>
-					</table>
-				</td>	
-				<td><?php echo form_input($E1_511); ?></td>
-				<td><?php echo form_input($E1_512); ?></td>
-			</tr>
+	<table class="table table-bordered">
+		<tr>
+			<td> OBSERVACIONES </td>
+		</tr>
+		<tr>
+			<td> <?php echo form_textarea($E1_900_Obs); ?> </td>
+		</tr>
+	</table><br>
 
-		</tbody>
-	</table> <!-- SECCION  500-2 -->
-	<br>
-	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-3- -->
-		<thead>
-			<tr>
-				<td colspan="16"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
-			</tr>
-			<tr>
-				<td colspan="12">INGRESO EN OCUPACIÓN PRINCIPAL POR TRABAJO DEPENDIENTE</td>
-				<td colspan="4">INGRESO EN OCUPACIÓN PRINCIPAL POR TRABAJO INDEPENDIENTE</td>
-			</tr>
-			<tr>
-				<td colspan="11">MONETARIO</td>
-				<td>ESPECIE</td>
-				<td colspan="4">MONETARIO/ESPECIE</td>
-			</tr>				
-		</thead>
-		<tbody>
-			<tr>
-				<td>201.<br> N° DE ORDEN</td>
-				<td colspan="10">513.<br> ¿CUANTO FUE SU INGRESO EN EL MES ANTERIOR? (Incluyendo horas extras, bonificaciones, refrigerio, movilidad, comisiones, etc.)</td>
-				<td>514.<br> ¿EN CUÁNTO ESTIMA UD. EL VALOR DE LOS PRODUCTOS RECIBIDOS COMO PARTE DE PAGO POR SU TRABAJO EN EL MES ANTERIOR?</td>
-				<td colspan="2">515.<br> EN SU OCUPACIÓN PRINCIPAL, ¿CUÁL FUE LA GANANCIA NETA EN EL MES ANTERIOR? (Si solo recibe ingreso en especie valoricelo en el recuadro)</td>
-				<td>516.<br> ¿UTILIZA PARA SU CONSUMO, BIENES PRODUCIOS EN SU HOGAR Y/O ADQUIRIDOS CON FINES COMERCIALES?</td>
-				<td>517.<br> ¿EN CUÁNTO ESTIMA UD. EL VALOR DE LOS PRODUCTOS UTILIZADOS PARA SU CONSUMO EN EL MES ANTERIOR?</td>
-			</tr>
-			<tr><td>N°</td><td>A</td><td>No sabe</td><td>B</td><td>No sabe</td><td>C</td><td>No sabe</td><td>D</td><td>No sabe</td><td>E</td><td>No sabe</td><td>MONTO S/.</td><td>MONTO S/.</td><td>No sabe</td><td>CÓDIGO</td><td>MONTO S/.</td></tr>
-			<tr>	
-				<td>1</td>		
-				<td><?php echo form_input($E1_513_A); ?></td>
-				<td><?php echo form_input($E1_513_A_ns); ?></td>
-				<td><?php echo form_input($E1_513_B); ?></td>
-				<td><?php echo form_input($E1_513_B_ns); ?></td>
-				<td><?php echo form_input($E1_513_C); ?></td>
-				<td><?php echo form_input($E1_513_C_ns); ?></td>
-				<td><?php echo form_input($E1_513_D); ?></td>
-				<td><?php echo form_input($E1_513_D_ns); ?></td>
-				<td><?php echo form_input($E1_513_E); ?></td>
-				<td><?php echo form_input($E1_513_E_ns); ?></td>
-				<td><?php echo form_input($E1_514); ?></td>
-				<td><?php echo form_input($E1_515); ?></td>
-				<td><?php echo form_input($E1_515_ns); ?></td>
-				<td><?php echo form_input($E1_516); ?></td>
-				<td><?php echo form_input($E1_517); ?></td>
-			</tr>
+	<table class="table table-bordered"><!-- 1000 -->
+		<tr>
+			<td>1001. ¿EN LOS ÚLTIMOS 12 MESES ¿UD. O ALGÚN MIEMBRO DEL HOGAR, SE DEDICÓ A LA:</td>
+			<td>SI / NO</td>
+			<td colspan="14">1002 ¿QUIÉN EFECTÚO LA ACTIVIDAD DE:<br>(Anote el número de orden registrado en el Capitulo 200 de aquellos miembros del hogar de 14 años y más de edad que realizaron la actividad de manera independiente)</td>
+		</tr>
+		<tr>
+			<td>1. Agricultura?</td>
+			<td> <?php echo form_input($E1_1001_1); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P1); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P2); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P3); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P4); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P5); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P6); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P7); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P8); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P9); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P10); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P11); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P12); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P13); ?> </td>
+			<td> <?php echo form_input($E1_1002_1_P14); ?> </td>
+		</tr>
+		<tr>
+			<td>2. Crianza de animales?</td>
+			<td> <?php echo form_input($E1_1001_2); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P1); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P2); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P3); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P4); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P5); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P6); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P7); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P8); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P9); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P10); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P11); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P12); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P13); ?> </td>
+			<td> <?php echo form_input($E1_1002_2_P14); ?> </td>
+		</tr>
+		<tr>
+			<td>3. Tala?</td>
+			<td> <?php echo form_input($E1_1001_3); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P1); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P2); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P3); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P4); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P5); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P6); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P7); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P8); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P9); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P10); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P11); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P12); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P13); ?> </td>
+			<td> <?php echo form_input($E1_1002_3_P14); ?> </td>
+		</tr>
+	</table><br>
 
-		</tbody>
-	</table> <!-- SECCION  500-2 -->
-	<br>
-	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-4 -->
-		<thead>
-			<tr>
-				<td colspan="6"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
-			</tr>
-			<tr>
-				<td colspan="6">OCUPADOS</td>
-			</tr>	
-			<tr>
-				<td colspan="6">OCUPACIÓN SECUNDARIA</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>201.<br> N° DE ORDEN</td>
-				<td>518.<br> ADEMÁS DE SU OCUPACION PRINCIPAL, LA SEMANA PASADA, ¿TUVO UD. OTRO TRABAJO PARA OBTENER INGRESOS)</td>
-				<td>519.<br> ¿A QUÉ SE DEDICA EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ EN SU OCUPACIÓN SECUNDARIA?</td>
-				<td>520.<br> UD. SE DESEMPEÑA EN SU OCUPACIÓN SECUNDARIA O NEGOCIO COMO:</td>
-				<td>521.<br> ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S)</td>
-				<td>522.<br> ¿CUÁL ES EL TIPO DE PAGO QUE RECIBIÓ EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S):</td>
-			</tr>
-			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td></tr>
-			<tr>	
-				<td>1</td>			
-				<td><?php echo form_input($E1_518); ?></td>
-				<td><?php echo form_input($E1_519); ?></td>
-				<td class="pad-td"><div class="col-md-5"><?php echo form_input($E1_520); ?></div><div class="col-md-7"><?php echo form_input($E1_520_O); ?></div></td>
-				<td><?php echo form_input($E1_521); ?></td>
-				<td><?php echo form_input($E1_522); ?></td>
-			</tr>
+	<table class="table table-bordered"><!-- 1000 -->
+		<tr>
+			<td>1003. ¿EN LOS ÚLTIMOS 12 MESES ¿UD. O ALGÚN MIEMBRO DEL HOGAR, SE DEDICÓ A LA:</td>
+			<td>SI / NO</td>
+			<td colspan="14">1002 ¿QUIÉN EFECTÚO LA ACTIVIDAD DE:<br>(Anote el número de orden registrado en el Capitulo 200 de aquellos miembros del hogar de 14 años y más de edad que realizaron la actividad de manera independiente)</td>
+		</tr>
+		<tr>
+			<td>1. Caza de animales?</td>
+			<td> <?php echo form_input($E1_1003_1); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P1); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P2); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P3); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P4); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P5); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P6); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P7); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P8); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P9); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P10); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P11); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P12); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P13); ?> </td>
+			<td> <?php echo form_input($E1_1004_1_P14); ?> </td>
+		</tr>
+		<tr>
+			<td>2. Recolección?</td>
+			<td> <?php echo form_input($E1_1003_2); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P1); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P2); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P3); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P4); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P5); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P6); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P7); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P8); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P9); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P10); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P11); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P12); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P13); ?> </td>
+			<td> <?php echo form_input($E1_1004_2_P14); ?> </td>
+		</tr>
+		<tr>
+			<td>3. Pesca?</td>
+			<td> <?php echo form_input($E1_1003_3); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P1); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P2); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P3); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P4); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P5); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P6); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P7); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P8); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P9); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P10); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P11); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P12); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P13); ?> </td>
+			<td> <?php echo form_input($E1_1004_3_P14); ?> </td>
+		</tr>
+	</table><br>
 
-		</tbody>
-	</table> <!-- SECCION  500-2 -->
-	<br>
-	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-5- -->
-		<thead>
-			<tr><td colspan="17"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td></tr>
-			<tr>
-				<td colspan="12">INGRESO EN OCUPACIÓN PRINCIPAL POR TRABAJO DEPENDIENTE</td>
-				<td colspan="3">INGRESO EN OCUPACIÓN PRINCIPAL POR TRABAJO INDEPENDIENTE</td>
-				<td colspan="2" rowspan="2">INGRESOS EXTRAORDINARIO POR TRABAJO DEPENDIENTE, ACTIVIDAD PRINCIPAL Y/O SECUNDARIA</td>
-			</tr>
-			<tr>
-				<td colspan="11">MONETARIO</td>
-				<td>ESPECIE</td>
-				<td colspan="3">MONETARIO/ESPECIE</td>
-			</tr>				
-		</thead>
-		<tbody>
-			<tr>
-				<td>201.<br> N° DE ORDEN</td>
-				<td colspan="10">523.<br> ¿CUANTO FUE SU INGRESO EN EL MES ANTERIOR? (Incluyendo horas extras, bonificaciones, refrigerio, movilidad, comisiones, etc.)</td>
-				<td>524.<br> ¿EN CUÁNTO ESTIMA UD. EL VALOR DE LOS PRODUCTOS RECIBIDOS COMO PARTE DE PAGO POR SU TRABAJO EN EL MES ANTERIOR?</td>
-				<td>525.<br> EN SU OCUPACIÓN PRINCIPAL, ¿CUÁL FUE LA GANANCIA NETA EN EL MES ANTERIOR? (Si solo recibe ingreso en especie valoricelo en el recuadro)</td>
-				<td>526.<br> ¿UTILIZA PARA SU CONSUMO, BIENES PRODUCIOS EN SU HOGAR Y/O ADQUIRIDOS CON FINES COMERCIALES?</td>
-				<td>527.<br> ¿EN CUÁNTO ESTIMA UD. EL VALOR DE LOS PRODUCTOS UTILIZADOS PARA SU CONSUMO EN EL MES ANTERIOR?</td>
-				<td colspan="2">528.<br> EN LOS ÚLTIMOS MESES, DE .... A ...... ¿RECIBIÓ ALGÚN DINERO POR_: (solo para trabajadores dependientes de actividad principal y/o secundaria)</td>
-			</tr>
-			<tr><td>N°</td><td>A</td><td>No sabe</td><td>B</td><td>No sabe</td><td>C</td><td>No sabe</td><td>D</td><td>No sabe</td><td>E</td><td>No sabe</td><td>MONTO</td><td>MONTO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td></tr>			
-			<tr>	
-				<td>1</td>		
-				<td><?php echo form_input($E1_523_A); ?></td>
-				<td><?php echo form_input($E1_523_A_ns); ?></td>
-				<td><?php echo form_input($E1_523_B); ?></td>
-				<td><?php echo form_input($E1_523_B_ns); ?></td>
-				<td><?php echo form_input($E1_523_C); ?></td>
-				<td><?php echo form_input($E1_523_C_ns); ?></td>
-				<td><?php echo form_input($E1_523_D); ?></td>
-				<td><?php echo form_input($E1_523_D_ns); ?></td>
-				<td><?php echo form_input($E1_523_E); ?></td>
-				<td><?php echo form_input($E1_523_E_ns); ?></td>
-				<td><?php echo form_input($E1_524); ?></td>
-				<td><?php echo form_input($E1_525); ?></td>
-				<td><?php echo form_input($E1_526); ?></td>
-				<td><?php echo form_input($E1_527); ?></td>
-				<td class="sub-table">
-					<table class="table">
-						<tbody>
-							<tr>		
-								<td><?php echo form_input($E1_528_1); ?></td>
-								<td><?php echo form_input($E1_528_2); ?></td>
-								<td><?php echo form_input($E1_528_3); ?></td>
-								<td><?php echo form_input($E1_528_4); ?></td>
-								<td><?php echo form_input($E1_528_5); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_528_6); ?></td>
-								<td><?php echo form_input($E1_528_7); ?></td>
-								<td><?php echo form_input($E1_528_8); ?></td>
-								<td colspan="2"><?php echo form_input($E1_528_8_O); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_528_9); ?></td>
-								<td><?php echo form_input($E1_528_10); ?></td>
-							</tr>						
-						</tbody>
-					</table>
-				</td>
-				<td><?php echo form_input($E1_528_Total); ?></td>	
-			</tr>
 
-		</tbody>
-	</table> <!-- SECCION  500-5 -->
-	<br>
-	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-6- -->
-		<thead>
-			<tr>
-				<td colspan="11"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
-			</tr>
-			<tr>
-				<td colspan="7">DESOCUPADOS</td>
-				<td colspan="2">TRANSFERENCIAS CORRIENTES</td>
-				<td colspan="2">RENTAS DE LA PROPIEDAD</td>
-			</tr>			
-		</thead>
-		<tbody>
-			<tr>
-				<td>201.<br> N° DE ORDEN</td>
-				<td>529.<br> ¿LA SEMANA PASADA HIZO ALGO PARA CONSEGUIR TRABAJO?</td>
-				<td>530.<br> ¿QUE ESTUVO HACIENDO LA SEMANA PASADA?</td>
-				<td>531.<br> ¿LA SEMANA PASADA UD. QUERÍA TRABAJAR?</td>
-				<td>532.<br> LA SEMANA PASADA ¿ESTUVO DISPONIBLE PARA TRABAJAR?</td>
-				<td>533.<br> ¿POR QUÉ NO BUSCO TRABAJO?</td>
-				<td>534.<br> LA SEMANA PASADA, ¿QUÉ HIZO PARA CONSEGUIR TRABAJO?</td>
-				<td colspan="2">535.<br> EN LOS ÚLTIMOS 6 MESES DE .... A ..... ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE:</td>
-				<td colspan="2">536.<br> EN LOS ÚLTIMOS 12 MESES DE .... A ..... ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE:</td>
-			</tr>
-			<tr><td>N°</td><td>SI / NO</td><td>CÓDIGO</td><td>SI / NO</td><td>SI / NO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td></tr>
-			<tr>	
-				<td>1</td>
-				<td><?php echo form_input($E1_529); ?></td>
-				<td><table class="table"><tr><td><?php echo form_input($E1_530); ?></td></tr><tr><td><?php echo form_input($E1_530_O); ?>(Especifique)</td></tr></table></td>		
-				<td><?php echo form_input($E1_531); ?></td>		
-				<td><?php echo form_input($E1_532); ?></td>	
-				<td><table class="table"><tr><td><?php echo form_input($E1_533); ?></td></tr><tr><td><?php echo form_input($E1_533_O); ?>(Especifique)</td></tr></table></td>	
-				<td><table class="table"><tr><td><?php echo form_input($E1_534); ?></td></tr><tr><td><?php echo form_input($E1_534_O); ?>(Especifique)</td></tr></table></td>	
-				<td class="sub-table">
-					<table class="table">
-						<tbody>
-							<tr>		
-								<td><?php echo form_input($E1_535_1); ?></td>
-								<td><?php echo form_input($E1_535_2); ?></td>
-								<td><?php echo form_input($E1_535_3); ?></td>
-								<td><?php echo form_input($E1_535_4); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_535_5); ?></td>
-								<td><?php echo form_input($E1_535_6); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_535_7); ?></td>
-								<td colspan="3"><?php echo form_input($E1_535_7_O); ?></td>
-							</tr>	
-							<tr>		
-								<td><?php echo form_input($E1_535_8); ?></td>
-							</tr>
-						</tbody>
-					</table>
-				</td>
-				<td><?php echo form_input($E1_535_Total); ?></td>		
-				<td class="sub-table">
-					<table class="table">
-						<tbody>
-							<tr>		
-								<td><?php echo form_input($E1_536_1); ?></td>
-								<td><?php echo form_input($E1_536_2); ?></td>
-								<td><?php echo form_input($E1_536_3); ?></td>
-								<td><?php echo form_input($E1_536_4); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_536_5); ?></td>
-								<td><?php echo form_input($E1_536_6); ?></td>
-								<td><?php echo form_input($E1_536_7); ?></td>
-							</tr>	
-							<tr>		
-								<td><?php echo form_input($E1_536_8); ?></td>
-								<td colspan="3"><?php echo form_input($E1_536_8_O); ?></td>
-							</tr>
-							<tr>		
-								<td><?php echo form_input($E1_536_9); ?></td>
-							</tr>	
-						</tbody>
-					</table>
-				</td>
-				<td><?php echo form_input($E1_536_Total); ?></td>
-			</tr>
+	<table class="table table-bordered">
+		<tr>
+			<td> OBSERVACIONES </td>
+		</tr>
+		<tr>
+			<td> <?php echo form_textarea($E1_1000_Obs); ?> </td>
+		</tr>
+	</table>
 
-		</tbody>
-	</table> <!-- SECCION  500-6 -->
-	<br>
-	<br>
+
 	<?php echo form_button('save4','Guardar','id="save4"'); ?>
 <?php echo form_close(); ?>
