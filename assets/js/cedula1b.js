@@ -208,7 +208,7 @@ E1_B_13_Nro_Hogar.on(
 	}
 );
 
-// **** Codigo eventual, de acuerdo sea el caso del app. Si no se necesita se elimna o comenta *** //
+// **** De acuerdo vaya llenando los dropdown los serializo y busco la data para el siguiente dropdown *** //
 function search_data_ubicacion( name_dropdown )
 {
 
@@ -312,10 +312,8 @@ E1_201_Nro.on(
 										break;
 
 									default:
-										button_add = buttons( old_nro, old_tipo, 'Add' );
-										button_remove = buttons( old_nro, old_tipo, 'Remove' );
-										$('#botones_' + old_nro + '_' + old_tipo).html( button_add + ' ' + button_remove );
-										// $('#button_' + old_nro + '_' + old_tipo).text('+');
+										get_botones( old_nro, old_tipo );
+										
 										old_tipo = tipo;
 										old_nro = nro;
 										break;
@@ -357,10 +355,7 @@ E1_201_Nro.on(
 							}
 						);
 
-					// $('#button_' + nro + '_' + tipo).text('+');
-					button_add = buttons( nro, tipo, 'Add' );
-					button_remove = buttons( nro, tipo, 'Remove' );
-					$('#botones_' + nro + '_' + tipo).html( button_add + ' ' + button_remove );
+					get_botones( nro, tipo );
 
 					rename_order();
 					$(frm_1B).find(':submit').removeAttr('disabled');
@@ -369,6 +364,13 @@ E1_201_Nro.on(
 		}
 	}
 );
+
+function get_botones ( number, type )
+{
+	button_add = buttons( number, type, 'Add' );
+	button_remove = buttons( number, type, 'Remove' );
+	$('#botones_' + number + '_' + type).html( button_add + ' ' + button_remove );
+}
 
 
 // Question 100 //

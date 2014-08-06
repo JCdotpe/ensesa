@@ -4,78 +4,83 @@ function add_remove_row(event_target, params)
 	var table = params[0];
 	var suffix = params[1].toLowerCase();
 
-	// method = $(event_target).closest('button').text();
 	method = $(event_target).closest('button');
 	
+	// obtengo de acuerdo a la posicion del cursor dentro del tr el input de la clase order_ y su valor lo devuelvo en un array //
 	order = $(event_target).closest('tr').find('.order_' + suffix).val().split('-');
 	order = order[1];
 	order++;
 
-	// if ( method.trim() == 'Add' )
+	// obtengo el indice de la fila del cursor //
+	var index = $(event_target).closest('tr').index();
+
+	// se resta menos 4 porque son la cantidad de filas que tiene como cabecera la tabla con lo cual obtengo la posicion donde voy a poner el focus //
+	new_index = index - 4;
+
 	if ( method.hasClass('Add') )
 	{
-		// se resta menos 4 porque son la cantidad de filas que tiene como cabecera la tabla //
-		var index = $(event_target).closest('tr').index() - 4;
-		index++;
+		// le aumento en 1 para poder posicionarlo en la nueva fila que se va agregar //
+		new_index++;
 
+		// obtengo el html de la nueva fila //
 		var row = DynamicRows( order, suffix );
 
+		// adjunto en la tabla la nueva fila //
 		$('#'+ table).append(row);
 
-		// $(event_target).closest('button').text('Remove');
+		// obtengo el html del boton quitar //
 		button_remove = buttons( --order, suffix, 'Remove' );
+
+		// cambio el html del div botones por el nuevo boton quitar //
 		$(event_target).closest('div').html( button_remove );
 
+		// obtengo el html de los botones agregar y quitar //
 		button_add = buttons( order, suffix, 'Add' );
 		button_remove = buttons( order, suffix, 'Remove' );
-		$('.boton_' + suffix).eq(index).html( button_add + ' ' + button_remove);
 
-
-		$('.focus_' + suffix).eq(index).focus();
+		// adjunto en el div que se igual al nuevo indice, los botones de agregar y quitar //
+		$('.boton_' + suffix).eq(new_index).html( button_add + ' ' + button_remove);
 
 	}
-	// else if ( method.trim() == 'Remove')
 	else if ( method.hasClass('Remove') )
 	{
-		// total de filas que tiene la tabla //
-		var num_rows = $('#table_' + suffix.toUpperCase() + ' tr:last').index() - 4;
+		// total de filas que tiene la tabla ( obtengo el indice de la ultima fila ) //
+		var last_tr = $('#table_' + suffix.toUpperCase() + ' tr:last').index();
 
-		// se resta menos 4 porque son la cantidad de filas que tiene como cabecera la tabla //
-		var index = $(event_target).closest('tr').index() - 4;
-		var i = 0;
-
-		// FALTA RESOLVER QUE NO SE BORRE SI SOLO SE TIENE UNA FILA //
-		if ( index != num_rows ) { $(event_target).closest('tr').remove(); }
+		// se valida que solo pueda eliminar filas mayores a 4 ya que debe tener como minimo una fila //
+		if ( last_tr > 4 )
+		{
+			$(event_target).closest('tr').remove();
+		}
 		
+		// recorro la clase para poder reordenar la numeracion //
+		var i = 0;
 		$('.order_' + suffix).each(function () {
 			++i;
 			$(this).val(suffix.toUpperCase() + '-' + i);
 		});
-
-
-		if ( i == index )
+		
+		// condiciono si la fila eliminada corresponde a la ultima fila de la tabla //
+		if ( last_tr == index )
 		{
-			--index;
+			// resto menos 1 al nuevo indice para poder posicionarlo en la ultima fila //
+			--new_index;
 
+			// obtengo el html de los botones agregar y quitar //
 			button_add = buttons( order, suffix, 'Add' );
 			button_remove = buttons( order, suffix, 'Remove' );
-			$('.boton_' + suffix).eq(index).html( button_add + ' ' + button_remove );
 
-			$('.focus_' + suffix).eq(index).focus();
+			// adjunto en el div que se igual al nuevo indice, los botones de agregar y quitar //
+			$('.boton_' + suffix).eq(new_index).html( button_add + ' ' + button_remove );
 		}
-		else
-		{
-			$('.focus_' + suffix).eq(index).focus();
-		}
-
-		// $('.focus_' + suffix).eq(index).focus();
-
 		
-
 	}
 
-	rename_order();
+	// posiciono el focus en el input con la clase focus_ que sea igual al nuevo indice //
+	$('.focus_' + suffix).eq(new_index).focus();
 
+	// reordeno el name e id de los input //
+	rename_order();
 }
 
 function buttons ( order, suffix, action )
@@ -92,7 +97,7 @@ function buttons ( order, suffix, action )
 
 function validate_table(input_value, name_table, suffix)
 {
-
+	// busca todos tr de la tabla y elimina los que tienen la clase row_ //
 	$('#' + name_table).find('tr').remove('.row_' + suffix.toLowerCase());
 	
 	if (input_value == 1)
@@ -102,8 +107,8 @@ function validate_table(input_value, name_table, suffix)
 		
 		$('#' + name_table).append(row);
 
+		// reordeno el name e id de los input //
 		rename_order();
-
 	}
 
 }
@@ -166,6 +171,8 @@ function DynamicRows( order, suffix )
 function salt_input(input_value, name_class, input_disabled)
 {
 
+	// input_disabled es el input especifico que se debe habilitar o deshabilitar el cual puede ser opcional //
+
 	if ( input_value == 1 )
 	{
 		for (var i = 0; i < name_class.length; i++) 
@@ -194,8 +201,6 @@ function salt_input(input_value, name_class, input_disabled)
 	}
 
 }
-
-
 
 
 /*****
@@ -306,9 +311,9 @@ function rename_order()
 					break;
 			}
 
+			// renombro el name y el id //
 			$(this).prop( 'name', name_class[i] + '['+ posicion +']' );
 			$(this).prop( 'id', name_class[i] + '_' + posicion + '_' + suffix );
-
 			
 		});
 	}
