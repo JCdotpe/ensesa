@@ -47,7 +47,7 @@ $E2_603_4 = array(
 $E2_603_4_O = array(
 				'id' => 'E2_603_4_O',
 				'name' => 'E2_603_4_O',
-				'class' => 'form-control'
+				'class' => 'form-control validate_1 change'
 			);
 $E2_603_5 = array(
 				'id' => 'E2_603_5',
@@ -121,72 +121,86 @@ $E2_604_2_Local = array(
 $E2_605_1 = array(
 				'id' => 'E2_605_1',
 				'name' => 'E2_605_1',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_2 = array(
 				'id' => 'E2_605_2',
 				'name' => 'E2_605_2',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_3 = array(
 				'id' => 'E2_605_3',
 				'name' => 'E2_605_3',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_4 = array(
 				'id' => 'E2_605_4',
 				'name' => 'E2_605_4',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_5 = array(
 				'id' => 'E2_605_5',
 				'name' => 'E2_605_5',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_6 = array(
 				'id' => 'E2_605_6',
 				'name' => 'E2_605_6',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_7 = array(
 				'id' => 'E2_605_7',
 				'name' => 'E2_605_7',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_8 = array(
 				'id' => 'E2_605_8',
 				'name' => 'E2_605_8',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_9 = array(
 				'id' => 'E2_605_9',
 				'name' => 'E2_605_9',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_10 = array(
 				'id' => 'E2_605_10',
 				'name' => 'E2_605_10',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_11 = array(
 				'id' => 'E2_605_11',
 				'name' => 'E2_605_11',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_12 = array(
 				'id' => 'E2_605_12',
 				'name' => 'E2_605_12',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_13 = array(
 				'id' => 'E2_605_13',
 				'name' => 'E2_605_13',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_605_14 = array(
 				'id' => 'E2_605_14',
 				'name' => 'E2_605_14',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 
 
@@ -194,167 +208,200 @@ $E2_605_14 = array(
 $E2_606_1_1 = array(
 				'id' => 'E2_606_1_1',
 				'name' => 'E2_606_1_1',
-				'class' => 'form-control destiny_sale_1 change'
+				'class' => 'form-control destiny_sale_1 change', 
+				'maxlength' => '1',
 			);
 $E2_606_1_2 = array(
 				'id' => 'E2_606_1_2',
 				'name' => 'E2_606_1_2',
-				'class' => 'form-control destiny_sale_1 sale_code_1'
+				'class' => 'form-control destiny_sale_1 sale_code_1', 
+				'maxlength' => '1',
 			);
 $E2_606_1_3 = array(
 				'id' => 'E2_606_1_3',
 				'name' => 'E2_606_1_3',
-				'class' => 'form-control destiny_sale_1 sale_code_1'
+				'class' => 'form-control destiny_sale_1 sale_code_1', 
+				'maxlength' => '1',
 			);
 $E2_606_2_1 = array(
 				'id' => 'E2_606_2_1',
 				'name' => 'E2_606_2_1',
-				'class' => 'form-control destiny_sale_2 change'
+				'class' => 'form-control destiny_sale_2 change', 
+				'maxlength' => '1',
 			);
 $E2_606_2_2 = array(
 				'id' => 'E2_606_2_2',
 				'name' => 'E2_606_2_2',
-				'class' => 'form-control destiny_sale_2 sale_code_2'
+				'class' => 'form-control destiny_sale_2 sale_code_2', 
+				'maxlength' => '1',
 			);
 $E2_606_2_3 = array(
 				'id' => 'E2_606_2_3',
 				'name' => 'E2_606_2_3',
-				'class' => 'form-control destiny_sale_2 sale_code_2'
+				'class' => 'form-control destiny_sale_2 sale_code_2', 
+				'maxlength' => '1',
 			);
 $E2_606_3_1 = array(
 				'id' => 'E2_606_3_1',
 				'name' => 'E2_606_3_1',
-				'class' => 'form-control destiny_sale_3 change'
+				'class' => 'form-control destiny_sale_3 change', 
+				'maxlength' => '1',
 			);
 $E2_606_3_2 = array(
 				'id' => 'E2_606_3_2',
 				'name' => 'E2_606_3_2',
-				'class' => 'form-control destiny_sale_3 sale_code_3'
+				'class' => 'form-control destiny_sale_3 sale_code_3', 
+				'maxlength' => '1',
 			);
 $E2_606_3_3 = array(
 				'id' => 'E2_606_3_3',
 				'name' => 'E2_606_3_3',
-				'class' => 'form-control destiny_sale_3 sale_code_3'
+				'class' => 'form-control destiny_sale_3 sale_code_3', 
+				'maxlength' => '1',
 			);
 $E2_606_4_1 = array(
 				'id' => 'E2_606_4_1',
 				'name' => 'E2_606_4_1',
-				'class' => 'form-control destiny_sale_4 change'
+				'class' => 'form-control destiny_sale_4 change', 
+				'maxlength' => '1',
 			);
 $E2_606_4_2 = array(
 				'id' => 'E2_606_4_2',
 				'name' => 'E2_606_4_2',
-				'class' => 'form-control destiny_sale_4 sale_code_4'
+				'class' => 'form-control destiny_sale_4 sale_code_4', 
+				'maxlength' => '1',
 			);
 $E2_606_4_3 = array(
 				'id' => 'E2_606_4_3',
 				'name' => 'E2_606_4_3',
-				'class' => 'form-control destiny_sale_4 sale_code_4'
+				'class' => 'form-control destiny_sale_4 sale_code_4', 
+				'maxlength' => '1',
 			);
 $E2_606_5_1 = array(
 				'id' => 'E2_606_5_1',
 				'name' => 'E2_606_5_1',
-				'class' => 'form-control destiny_sale_5 change'
+				'class' => 'form-control destiny_sale_5 change', 
+				'maxlength' => '1',
 			);
 $E2_606_5_2 = array(
 				'id' => 'E2_606_5_2',
 				'name' => 'E2_606_5_2',
-				'class' => 'form-control destiny_sale_5 sale_code_5'
+				'class' => 'form-control destiny_sale_5 sale_code_5', 
+				'maxlength' => '1',
 			);
 $E2_606_5_3 = array(
 				'id' => 'E2_606_5_3',
 				'name' => 'E2_606_5_3',
-				'class' => 'form-control destiny_sale_5 sale_code_5'
+				'class' => 'form-control destiny_sale_5 sale_code_5', 
+				'maxlength' => '1',
 			);
 $E2_606_6_1 = array(
 				'id' => 'E2_606_6_1',
 				'name' => 'E2_606_6_1',
-				'class' => 'form-control destiny_sale_6 change'
+				'class' => 'form-control destiny_sale_6 change', 
+				'maxlength' => '1',
 			);
 $E2_606_6_2 = array(
 				'id' => 'E2_606_6_2',
 				'name' => 'E2_606_6_2',
-				'class' => 'form-control destiny_sale_6 sale_code_6'
+				'class' => 'form-control destiny_sale_6 sale_code_6', 
+				'maxlength' => '1',
 			);
 $E2_606_6_3 = array(
 				'id' => 'E2_606_6_3',
 				'name' => 'E2_606_6_3',
-				'class' => 'form-control destiny_sale_6 sale_code_6' 
+				'class' => 'form-control destiny_sale_6 sale_code_6' , 
+				'maxlength' => '1',
 			);
 $E2_606_7_1 = array(
 				'id' => 'E2_606_7_1',
 				'name' => 'E2_606_7_1',
-				'class' => 'form-control destiny_sale_7 change'
+				'class' => 'form-control destiny_sale_7 change', 
+				'maxlength' => '1',
 			);
 $E2_606_7_2 = array(
 				'id' => 'E2_606_7_2',
 				'name' => 'E2_606_7_2',
-				'class' => 'form-control destiny_sale_7 sale_code_7'
+				'class' => 'form-control destiny_sale_7 sale_code_7', 
+				'maxlength' => '1',
 			);
 $E2_606_7_3 = array(
 				'id' => 'E2_606_7_3',
 				'name' => 'E2_606_7_3',
-				'class' => 'form-control destiny_sale_7 sale_code_7'
+				'class' => 'form-control destiny_sale_7 sale_code_7',
+				'maxlength' => '1',
 			);
 $E2_606_8_1 = array(
 				'id' => 'E2_606_8_1',
 				'name' => 'E2_606_8_1',
-				'class' => 'form-control destiny_sale_8 change'
+				'class' => 'form-control destiny_sale_8 change',
+				'maxlength' => '1',
 			);
 $E2_606_8_2 = array(
 				'id' => 'E2_606_8_2',
 				'name' => 'E2_606_8_2',
-				'class' => 'form-control destiny_sale_8 sale_code_8'
+				'class' => 'form-control destiny_sale_8 sale_code_8',
+				'maxlength' => '1',
 			);
 $E2_606_8_3 = array(
 				'id' => 'E2_606_8_3',
 				'name' => 'E2_606_8_3',
-				'class' => 'form-control destiny_sale_8 sale_code_8'
+				'class' => 'form-control destiny_sale_8 sale_code_8',
+				'maxlength' => '1',
 			);
 $E2_606_9_1 = array(
 				'id' => 'E2_606_9_1',
 				'name' => 'E2_606_9_1',
-				'class' => 'form-control destiny_sale_9 change'
+				'class' => 'form-control destiny_sale_9 change',
+				'maxlength' => '1',
 			);
 $E2_606_9_2 = array(
 				'id' => 'E2_606_9_2',
 				'name' => 'E2_606_9_2',
-				'class' => 'form-control destiny_sale_9 sale_code_9'
+				'class' => 'form-control destiny_sale_9 sale_code_9',
+				'maxlength' => '1',
 			);
 $E2_606_9_3 = array(
 				'id' => 'E2_606_9_3',
 				'name' => 'E2_606_9_3',
-				'class' => 'form-control destiny_sale_9 sale_code_9'
+				'class' => 'form-control destiny_sale_9 sale_code_9',
+				'maxlength' => '1',
 			);
 $E2_606_10_1 = array(
 				'id' => 'E2_606_10_1',
 				'name' => 'E2_606_10_1',
-				'class' => 'form-control destiny_sale_10 change'
+				'class' => 'form-control destiny_sale_10 change',
+				'maxlength' => '1',
 			);
 $E2_606_10_2 = array(
 				'id' => 'E2_606_10_2',
 				'name' => 'E2_606_10_2',
-				'class' => 'form-control destiny_sale_10 sale_code_10'
+				'class' => 'form-control destiny_sale_10 sale_code_10',
+				'maxlength' => '1',
 			);
 $E2_606_10_3 = array(
 				'id' => 'E2_606_10_3',
 				'name' => 'E2_606_10_3', 
-				'class' => 'form-control destiny_sale_10 sale_code_10' 
+				'class' => 'form-control destiny_sale_10 sale_code_10',
+				'maxlength' => '1', 
 			);
 $E2_606_11_1 = array(
 				'id' => 'E2_606_11_1',
 				'name' => 'E2_606_11_1',
-				'class' => 'form-control destiny_sale_11 change'
+				'class' => 'form-control destiny_sale_11 change',
+				'maxlength' => '1',
 			);
 $E2_606_11_2 = array(
 				'id' => 'E2_606_11_2',
 				'name' => 'E2_606_10_3',
-				'class' => 'form-control destiny_sale_11 sale_code_11'
+				'class' => 'form-control destiny_sale_11 sale_code_11',
+				'maxlength' => '1',
 			);
 $E2_606_11_3 = array(
 				'id' => 'E2_606_11_3',
 				'name' => 'E2_606_10_3',
-				'class' => 'form-control destiny_sale_11 sale_code_11'
+				'class' => 'form-control destiny_sale_11 sale_code_11',
+				'maxlength' => '1',
 			);
 $E2_605_12_O = array(
 				'id' => 'E2_605_12_O',
@@ -364,17 +411,20 @@ $E2_605_12_O = array(
 $E2_606_12_1 = array(
 				'id' => 'E2_606_12_1',
 				'name' => 'E2_606_12_1',
-				'class' => 'form-control destiny_sale_12 change'
+				'class' => 'form-control destiny_sale_12 change',
+				'maxlength' => '1',
 			);
 $E2_606_12_2 = array(
 				'id' => 'E2_606_12_2',
 				'name' => 'E2_606_12_2',
-				'class' => 'form-control destiny_sale_12 sale_code_12'
+				'class' => 'form-control destiny_sale_12 sale_code_12',
+				'maxlength' => '1',
 			);
 $E2_606_12_3 = array(
 				'id' => 'E2_606_12_3',
 				'name' => 'E2_606_12_3',
-				'class' => 'form-control destiny_sale_12 sale_code_12'
+				'class' => 'form-control destiny_sale_12 sale_code_12',
+				'maxlength' => '1',
 			);
 $E2_605_13_O = array(
 				'id' => 'E2_605_13_O',
@@ -384,17 +434,20 @@ $E2_605_13_O = array(
 $E2_606_13_1 = array(
 				'id' => 'E2_606_13_1',
 				'name' => 'E2_606_13_1',
-				'class' => 'form-control destiny_sale_13 change' 
+				'class' => 'form-control destiny_sale_13 change',
+				'maxlength' => '1', 
 			);
 $E2_606_13_2 = array(
 				'id' => 'E2_606_13_2',
 				'name' => 'E2_606_13_2',
-				'class' => 'form-control destiny_sale_13 sale_code_13'
+				'class' => 'form-control destiny_sale_13 sale_code_13',
+				'maxlength' => '1',
 			);
 $E2_606_13_3 = array(
 				'id' => 'E2_606_13_3',
 				'name' => 'E2_606_13_3',
-				'class' => 'form-control destiny_sale_13 sale_code_13'
+				'class' => 'form-control destiny_sale_13 sale_code_13',
+				'maxlength' => '1',
 			);
 $E2_605_14_O = array(
 				'id' => 'E2_605_14_O',
@@ -404,229 +457,274 @@ $E2_605_14_O = array(
 $E2_606_14_1 = array(
 				'id' => 'E2_606_14_1',
 				'name' => 'E2_606_14_1',
-				'class' => 'form-control destiny_sale_14 change'
+				'class' => 'form-control destiny_sale_14 change',
+				'maxlength' => '1',
 			);
 $E2_606_14_2 = array(
 				'id' => 'E2_606_14_2',
 				'name' => 'E2_606_13_3',
-				'class' => 'form-control destiny_sale_14 sale_code_14'
+				'class' => 'form-control destiny_sale_14 sale_code_14',
+				'maxlength' => '1',
 			);
 $E2_606_14_3 = array(
 				'id' => 'E2_606_14_3',
 				'name' => 'E2_606_13_3',
-				'class' => 'form-control destiny_sale_14 sale_code_14'
+				'class' => 'form-control destiny_sale_14 sale_code_14',
+				'maxlength' => '1',
 			);
 
 // CAPITULO 607
 $E2_607_1_1 = array(
 				'id' => 'E2_607_1_1',
 				'name' => 'E2_607_1_1',
-				'class' => 'form-control destiny_sale_1'
+				'class' => 'form-control destiny_sale_1',
+				'maxlength' => '1',
 			);
 $E2_607_1_2 = array(
 				'id' => 'E2_607_1_2',
 				'name' => 'E2_607_1_2',
-				'class' => 'form-control destiny_sale_1'
+				'class' => 'form-control destiny_sale_1',
+				'maxlength' => '1',
 			);
 $E2_607_1_3 = array(
 				'id' => 'E2_607_1_3',
 				'name' => 'E2_607_1_3',
-				'class' => 'form-control destiny_sale_1'
+				'class' => 'form-control destiny_sale_1',
+				'maxlength' => '1',
 			);
 $E2_607_2_1 = array(
 				'id' => 'E2_607_2_1',
 				'name' => 'E2_607_2_1',
-				'class' => 'form-control destiny_sale_2'
+				'class' => 'form-control destiny_sale_2',
+				'maxlength' => '1',
 			);
 $E2_607_2_2 = array(
 				'id' => 'E2_607_2_2',
 				'name' => 'E2_607_2_2',
-				'class' => 'form-control destiny_sale_2'
+				'class' => 'form-control destiny_sale_2',
+				'maxlength' => '1',
 			);
 $E2_607_2_3 = array(
 				'id' => 'E2_607_2_3',
 				'name' => 'E2_607_2_3',
-				'class' => 'form-control destiny_sale_2'
+				'class' => 'form-control destiny_sale_2',
+				'maxlength' => '1',
 			);
 $E2_607_3_1 = array(
 				'id' => 'E2_607_3_1',
 				'name' => 'E2_607_3_1',
-				'class' => 'form-control destiny_sale_3'
+				'class' => 'form-control destiny_sale_3',
+				'maxlength' => '1',
 			);
 $E2_607_3_2 = array(
 				'id' => 'E2_607_3_2',
 				'name' => 'E2_607_3_2',
-				'class' => 'form-control destiny_sale_3'
+				'class' => 'form-control destiny_sale_3',
+				'maxlength' => '1',
 			);
 $E2_607_3_3 = array(
 				'id' => 'E2_607_3_3',
 				'name' => 'E2_607_3_3',
-				'class' => 'form-control destiny_sale_3'
+				'class' => 'form-control destiny_sale_3',
+				'maxlength' => '1',
 			);
 $E2_607_4_1 = array(
 				'id' => 'E2_607_4_1',
 				'name' => 'E2_607_4_1',
-				'class' => 'form-control destiny_sale_4'
+				'class' => 'form-control destiny_sale_4',
+				'maxlength' => '1',
 			);
 $E2_607_4_2 = array(
 				'id' => 'E2_607_4_2',
 				'name' => 'E2_607_4_2',
-				'class' => 'form-control destiny_sale_4'
+				'class' => 'form-control destiny_sale_4',
+				'maxlength' => '1',
 			);
 $E2_607_4_3 = array(
 				'id' => 'E2_607_4_3',
 				'name' => 'E2_607_4_3',
-				'class' => 'form-control destiny_sale_4' 
+				'class' => 'form-control destiny_sale_4',
+				'maxlength' => '1', 
 			);
 $E2_607_5_1 = array(
 				'id' => 'E2_607_5_1',
 				'name' => 'E2_607_5_1',
-				'class' => 'form-control destiny_sale_5'
+				'class' => 'form-control destiny_sale_5',
+				'maxlength' => '1',
 			);
 $E2_607_5_2 = array(
 				'id' => 'E2_607_5_2',
 				'name' => 'E2_607_5_2',
-				'class' => 'form-control destiny_sale_5'
+				'class' => 'form-control destiny_sale_5',
+				'maxlength' => '1',
 			);
 $E2_607_5_3 = array(
 				'id' => 'E2_607_5_3',
 				'name' => 'E2_607_5_3',
-				'class' => 'form-control destiny_sale_5'
+				'class' => 'form-control destiny_sale_5',
+				'maxlength' => '1',
 			);
 $E2_607_6_1 = array(
 				'id' => 'E2_607_6_1',
 				'name' => 'E2_607_6_1',
-				'class' => 'form-control destiny_sale_6'
+				'class' => 'form-control destiny_sale_6',
+				'maxlength' => '1',
 			);
 $E2_607_6_2 = array(
 				'id' => 'E2_607_6_2',
 				'name' => 'E2_607_6_2',
-				'class' => 'form-control destiny_sale_6'
+				'class' => 'form-control destiny_sale_6',
+				'maxlength' => '1',
 			);
 $E2_607_6_3 = array(
 				'id' => 'E2_607_6_3',
 				'name' => 'E2_607_6_3',
-				'class' => 'form-control destiny_sale_6'
+				'class' => 'form-control destiny_sale_6',
+				'maxlength' => '1',
 			);
 $E2_607_7_1 = array(
 				'id' => 'E2_607_7_1',
 				'name' => 'E2_607_7_1',
-				'class' => 'form-control destiny_sale_7'
+				'class' => 'form-control destiny_sale_7',
+				'maxlength' => '1',
 			);
 $E2_607_7_2 = array(
 				'id' => 'E2_607_7_2',
 				'name' => 'E2_607_7_2',
-				'class' => 'form-control destiny_sale_7'
+				'class' => 'form-control destiny_sale_7',
+				'maxlength' => '1',
 			);
 $E2_607_7_3 = array(
 				'id' => 'E2_607_7_3',
 				'name' => 'E2_607_7_3',
-				'class' => 'form-control destiny_sale_7'
+				'class' => 'form-control destiny_sale_7',
+				'maxlength' => '1',
 			);
 $E2_607_8_1 = array(
 				'id' => 'E2_607_8_1',
 				'name' => 'E2_607_8_1',
-				'class' => 'form-control destiny_sale_8'
+				'class' => 'form-control destiny_sale_8',
+				'maxlength' => '1',
 			);
 $E2_607_8_2 = array(
 				'id' => 'E2_607_8_2',
 				'name' => 'E2_607_8_2',
-				'class' => 'form-control destiny_sale_8'
+				'class' => 'form-control destiny_sale_8',
+				'maxlength' => '1',
 			);
 $E2_607_8_3 = array(
 				'id' => 'E2_607_8_3',
 				'name' => 'E2_607_8_3',
-				'class' => 'form-control destiny_sale_8'
+				'class' => 'form-control destiny_sale_8',
+				'maxlength' => '1',
 			);
 $E2_607_9_1 = array(
 				'id' => 'E2_607_9_1',
 				'name' => 'E2_607_9_1',
-				'class' => 'form-control destiny_sale_9'
+				'class' => 'form-control destiny_sale_9',
+				'maxlength' => '1',
 			);
 $E2_607_9_2 = array(
 				'id' => 'E2_607_9_2',
 				'name' => 'E2_607_9_2',
-				'class' => 'form-control destiny_sale_9'
+				'class' => 'form-control destiny_sale_9',
+				'maxlength' => '1',
 			);
 $E2_607_9_3 = array(
 				'id' => 'E2_607_9_3',
 				'name' => 'E2_607_9_3',
-				'class' => 'form-control destiny_sale_9'
+				'class' => 'form-control destiny_sale_9',
+				'maxlength' => '1',
 			);
 $E2_607_10_1 = array(
 				'id' => 'E2_607_10_1',
 				'name' => 'E2_607_10_1',
-				'class' => 'form-control destiny_sale_10'
+				'class' => 'form-control destiny_sale_10',
+				'maxlength' => '1',
 			);
 $E2_607_10_2 = array(
 				'id' => 'E2_607_10_2',
 				'name' => 'E2_607_10_2',
-				'class' => 'form-control destiny_sale_10'
+				'class' => 'form-control destiny_sale_10',
+				'maxlength' => '1',
 			);
 $E2_607_10_3 = array(
 				'id' => 'E2_607_10_3',
 				'name' => 'E2_607_10_3',
-				'class' => 'form-control destiny_sale_10'
+				'class' => 'form-control destiny_sale_10',
+				'maxlength' => '1',
 			);
 $E2_607_11_1 = array(
 				'id' => 'E2_607_11_1',
 				'name' => 'E2_607_11_1',
-				'class' => 'form-control destiny_sale_11'
+				'class' => 'form-control destiny_sale_11',
+				'maxlength' => '1',
 			);
 $E2_607_11_2 = array(
 				'id' => 'E2_607_11_2',
 				'name' => 'E2_607_11_2',
-				'class' => 'form-control destiny_sale_11'
+				'class' => 'form-control destiny_sale_11',
+				'maxlength' => '1',
 			);
 $E2_607_11_3 = array(
 				'id' => 'E2_607_11_3',
 				'name' => 'E2_607_11_3',
-				'class' => 'form-control destiny_sale_11'
+				'class' => 'form-control destiny_sale_11',
+				'maxlength' => '1',
 			);
 $E2_607_12_1 = array(
 				'id' => 'E2_607_12_1',
 				'name' => 'E2_607_12_1',
-				'class' => 'form-control destiny_sale_12'
+				'class' => 'form-control destiny_sale_12',
+				'maxlength' => '1',
 			);
 $E2_607_12_2 = array(
 				'id' => 'E2_607_12_2',
 				'name' => 'E2_607_12_2',
-				'class' => 'form-control destiny_sale_12'
+				'class' => 'form-control destiny_sale_12',
+				'maxlength' => '1',
 			);
 $E2_607_12_3 = array(
 				'id' => 'E2_607_12_3',
 				'name' => 'E2_607_12_3',
-				'class' => 'form-control destiny_sale_12'
+				'class' => 'form-control destiny_sale_12',
+				'maxlength' => '1',
 			);
 $E2_607_13_1 = array(
 				'id' => 'E2_607_13_1',
 				'name' => 'E2_607_13_1',
-				'class' => 'form-control destiny_sale_13'
+				'class' => 'form-control destiny_sale_13',
+				'maxlength' => '1',
 			);
 $E2_607_13_2 = array(
 				'id' => 'E2_607_13_1',
 				'name' => 'E2_607_13_1',
-				'class' => 'form-control destiny_sale_13'
+				'class' => 'form-control destiny_sale_13',
+				'maxlength' => '1',
 			);
 $E2_607_13_3 = array(
 				'id' => 'E2_607_13_1',
 				'name' => 'E2_607_13_1',
-				'class' => 'form-control destiny_sale_13'
+				'class' => 'form-control destiny_sale_13',
+				'maxlength' => '1',
 			);
 $E2_607_14_1 = array(
 				'id' => 'E2_607_14_1',
 				'name' => 'E2_607_14_1',
-				'class' => 'form-control destiny_sale_14'
+				'class' => 'form-control destiny_sale_14',
+				'maxlength' => '1',
 			);
 $E2_607_14_2 = array(
 				'id' => 'E2_607_14_2',
 				'name' => 'E2_607_14_2',
-				'class' => 'form-control destiny_sale_14'
+				'class' => 'form-control destiny_sale_14',
+				'maxlength' => '1',
 			);
 $E2_607_14_3 = array(
 				'id' => 'E2_607_14_3',
 				'name' => 'E2_607_14_3',
-				'class' => 'form-control destiny_sale_14'
+				'class' => 'form-control destiny_sale_14',
+				'maxlength' => '1',
 			);
 
 // CAPITULO 608
@@ -875,52 +973,62 @@ $E2_608_8_P5 = array(
 $E2_609_1 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_2 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_3 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_4 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_5 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_5_O = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_6 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_6_O = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_7 = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $E2_609_7_O = array(
 				'id' => 'E2_609_1',
 				'name' => 'E2_609_1',
-				'class' => 'form-control'
+				'class' => 'form-control',
+				'maxlength' => '1',
 			);
 $button_600 = array(
 					'id' => 'button_600',
@@ -986,17 +1094,32 @@ $button_600 = array(
 					<td><?php echo form_input ($E2_603_3); ?></td>
 				</tr>
 				<tr>
-					<td>4. Otra Actividad? <?php echo form_input ($E2_603_4_O); ?> (Especifique) </td>
+					<td>4. Otra Actividad? </td>
 					<td><?php echo form_input ($E2_603_4); ?></td>
+					<!--<td> <?php //echo form_input ($E2_603_4_O); ?> (Especifique)</td>-->
 				</tr>
 				<tr>
-					<td>5. Otra Actividad? <?php echo form_input ($E2_603_5_O); ?> (Especifique) </td>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_603_4_O); ?> </td>
+				</tr>
+				
+				<tr>
+					<td>5. Otra Actividad?  </td>
 					<td><?php echo form_input ($E2_603_5); ?></td>
 				</tr>
 				<tr>
-					<td>6. Otra Actividad? <?php echo form_input ($E2_603_6_O); ?> (Especifique) </td>
+					<td> (Especifique)</td>
+					<td><?php echo form_input ($E2_603_5_O); ?></td>
+				</tr>
+				<tr>
+					<td>6. Otra Actividad? </td>
 					<td><?php echo form_input ($E2_603_6); ?></td>
 				</tr>
+				<tr>
+					<td> (Especifique)</td>
+					<td> <?php echo form_input ($E2_603_6_O); ?></td>
+				</tr>
+			
 			</table>
 		</td>
 	</tr>
@@ -1160,34 +1283,46 @@ $button_600 = array(
 		<td> <?php echo form_input ($E2_607_11_3); ?></td>
 	</tr>
 	<tr>
-		<td>12. ¿Otro? <p>Especifique <?php echo form_input ($E2_605_12_O); ?></td>
+		<td>12. ¿Otro? <p></td>
 		<td> <?php echo form_input ($E2_605_12); ?></td>
-		<td> <?php echo form_input ($E2_606_12_1); ?></td>
-		<td> <?php echo form_input ($E2_606_12_2); ?></td>
-		<td> <?php echo form_input ($E2_606_12_3); ?></td>
-		<td> <?php echo form_input ($E2_607_12_1); ?></td>
-		<td> <?php echo form_input ($E2_607_12_2); ?></td>
-		<td> <?php echo form_input ($E2_607_12_3); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_606_12_1); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_12_2); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_12_3); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_12_1); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_12_2); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_12_3); ?></td>
 	</tr>
 	<tr>
-		<td>13. ¿Otro? <p>Especifique <?php echo form_input ($E2_605_13_O); ?> </td>
+		<td>Especifique</td>
+		<td> <?php echo form_input ($E2_605_12_O); ?></td>
+	</tr>
+	<tr>
+		<td>13. ¿Otro? </td>
 		<td> <?php echo form_input ($E2_605_13); ?></td>
-		<td> <?php echo form_input ($E2_606_13_1); ?></td>
-		<td> <?php echo form_input ($E2_606_13_2); ?></td>
-		<td> <?php echo form_input ($E2_606_13_3); ?></td>
-		<td> <?php echo form_input ($E2_607_13_1); ?></td>
-		<td> <?php echo form_input ($E2_607_13_2); ?></td>
-		<td> <?php echo form_input ($E2_607_13_3); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_13_1); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_13_2); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_13_3); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_13_1); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_13_2); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_13_3); ?></td>
 	</tr>
 	<tr>
-		<td>14. ¿Otro? <p>Especifique <?php echo form_input ($E2_605_14_O); ?></td>
+		<td>(Especifique)</td>
+		<td><?php echo form_input ($E2_605_13_O); ?></td>
+	</tr>
+	<tr>
+		<td>14. ¿Otro? <p> </td>
 		<td> <?php echo form_input ($E2_605_14); ?></td>
-		<td> <?php echo form_input ($E2_606_14_1); ?></td>
-		<td> <?php echo form_input ($E2_606_14_2); ?></td>
-		<td> <?php echo form_input ($E2_606_14_3); ?></td>
-		<td> <?php echo form_input ($E2_607_14_1); ?></td>
-		<td> <?php echo form_input ($E2_607_14_2); ?></td>
-		<td> <?php echo form_input ($E2_607_14_3); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_14_1); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_14_2); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_606_14_3); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_14_1); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_14_2); ?></td>
+		<td rowspan="2"> <?php echo form_input ($E2_607_14_3); ?></td>
+	</tr>
+	<tr>
+		<td>(Especifique)</td>
+		<td><?php echo form_input ($E2_605_14_O); ?></td>
 	</tr>
 </table>
 	
@@ -1324,16 +1459,28 @@ $button_600 = array(
 		<td> <!-- Lado Derecho -->
 			<table class ="table table-bordered">
 				<tr>
-					<td>5. Otro <?php echo form_input ($E2_609_5_O); ?> (Especifique)</td>
+					<td>5. Otro</td>
 					<td><?php echo form_input ($E2_609_5); ?></td>
 				</tr>
 				<tr>
-					<td>6. Otro <?php echo form_input ($E2_609_6_O); ?> (Especifique)</td>
+					<td> (Especifique)</td>
+					<td><?php echo form_input ($E2_609_5_O); ?></td>
+				</tr>
+				<tr>
+					<td>6. Otro</td>
 					<td><?php echo form_input ($E2_609_6); ?></td>
 				</tr>
 				<tr>
-					<td>7. Otro <?php echo form_input ($E2_609_7_O); ?> (Especifique)</td>
+					<td>(Especifique)</td>
+					<td> <?php echo form_input ($E2_609_6_O); ?></td>
+				</tr>
+				<tr>
+					<td>7. Otro </td>
 					<td><?php echo form_input ($E2_609_7); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_609_7_O); ?></td>
 				</tr>
 			</table>
 
@@ -1707,5 +1854,18 @@ $('#E2_606_14_1').change (function  (event)
 					}
 				});
 
+$('#E2_603_4').change (function  (event) 
+				{
+					if ($('#E2_603_4').val()== '2') 
+					{
+						$('.validate_1').attr ('disabled', 'disabled')
+					}
+					else if ($('#E2_603_4').val() == '1' )
+						{
+							
+							$('.validate_1').removeAttr ('disabled');
+						};
+
+				});
 </script>
 

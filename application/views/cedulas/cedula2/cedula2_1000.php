@@ -379,12 +379,20 @@ $button_1000 = array(
 					<td><?php echo form_input($E2_1001_7); ?></td>
 				</tr>
 				<tr>
-					<td>8. Otro? <?php echo form_input($E2_1001_8_O); ?></td>
+					<td>8. Otro? </td>
 					<td><?php echo form_input($E2_1001_8); ?></td>
 				</tr>
 				<tr>
-					<td>9. Otro? <?php echo form_input($E2_1001_8_O); ?></td>
+					<td>(Especifique)</td>
+					<td><?php echo form_input($E2_1001_8_O); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro? </td>
 					<td><?php echo form_input($E2_1001_9); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input($E2_1001_8_O); ?></td>
 				</tr>
 				<tr>
 					<td>10. No Sabe</td>
@@ -431,12 +439,20 @@ $button_1000 = array(
 					<td><?php echo form_input($E2_1002_7); ?></td>
 				</tr>
 				<tr>
-					<td>8. Otro? <?php echo form_input($E2_1002_8_O); ?></td>
+					<td>8. Otro? </td>
 					<td><?php echo form_input($E2_1002_8); ?></td>
 				</tr>
 				<tr>
-					<td>9. Otro? <?php echo form_input($E2_1002_9_O); ?></td>
+					<td>(Especifique)</td>
+					<td><?php echo form_input($E2_1002_8_O); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro? </td>
 					<td><?php echo form_input($E2_1002_9); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input($E2_1002_9_O); ?></td>
 				</tr>
 				<tr>
 					<td>10. No Sabe</td>
@@ -512,12 +528,20 @@ $button_1000 = array(
 					<td><?php echo form_input($E2_1005_7); ?></td>
 				</tr>
 				<tr>
-					<td>8. Otro? <?php echo form_input($E2_1005_8_O); ?> (Especifique)</td>
+					<td>8. Otro?  </td>
 					<td><?php echo form_input($E2_1005_8); ?></td>
 				</tr>
 				<tr>
-					<td>9. Otro? <?php echo form_input($E2_1005_9_O); ?> (Especifique)</td>
+					<td>(Especifique)</td>
+					<td><?php echo form_input($E2_1005_8_O); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro?  </td>
 					<td><?php echo form_input($E2_1005_9); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input($E2_1005_9_O); ?></td>
 				</tr>
 				<tr>
 					<td>10. No Sabe</td>

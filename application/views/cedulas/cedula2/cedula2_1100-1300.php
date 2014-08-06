@@ -742,11 +742,25 @@ $E2_1203_5 = array(
 				'name' => 'E2_1203_5',
 				'class' => 'form-control forest_management'
 			);
+
+$E2_1203_5_O = array(
+				'id' => 'E2_1203_5_O',
+				'name' => 'E2_1203_5_O',
+				'class' => 'form-control forest_management'
+			);
+
 $E2_1203_6 = array(
 				'id' => 'E2_1203_6',
 				'name' => 'E2_1203_6',
 				'class' => 'form-control forest_management'
 			);
+
+$E2_1203_6_O = array(
+				'id' => 'E2_1203_6_O',
+				'name' => 'E2_1203_6_O',
+				'class' => 'form-control forest_management'
+			);
+
 $E2_1203_7 = array(
 				'id' => 'E2_1203_7',
 				'name' => 'E2_1203_7',
@@ -1375,49 +1389,61 @@ $button_1100_1300 = array(
 		<td><?php echo form_input ($E2_1106_7_6_O); ?></td>
 	</tr>
 	<tr>
-		<td>8. Otro? <?php echo form_input ($E2_1101_8_O); ?> (Especifique)</td>
+		<td>8. Otro? </td>
 		<td><?php echo form_input ($E2_1101_8); ?></td>
-		<td><?php echo form_input ($E2_1102_8); ?></td>
-		<td><?php echo form_input ($E2_1103_8); ?></td>
-		<td><?php echo form_input ($E2_1104_8); ?></td>
-		<td><?php echo form_input ($E2_1105_8); ?></td>
-		<td><?php echo form_input ($E2_1106_8_1); ?></td>
-		<td><?php echo form_input ($E2_1106_8_2); ?></td>
-		<td><?php echo form_input ($E2_1106_8_3); ?></td>
-		<td><?php echo form_input ($E2_1106_8_4); ?></td>
-		<td><?php echo form_input ($E2_1106_8_5); ?></td>
-		<td><?php echo form_input ($E2_1106_8_6); ?></td>
-		<td><?php echo form_input ($E2_1106_8_6_O); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1102_8); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1103_8); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1104_8); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1105_8); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_1); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_2); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_3); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_4); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_5); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_6); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_8_6_O); ?></td>
 	</tr>
 	<tr>
-		<td>9. Otro? <?php echo form_input ($E2_1101_9_O); ?> (Especifique)</td>
+		<td>(Especifique)</td>
+		<td> <?php echo form_input ($E2_1101_8_O); ?></td>
+	</tr>
+	<tr>
+		<td>9. Otro? </td>
 		<td><?php echo form_input ($E2_1101_9); ?></td>
-		<td><?php echo form_input ($E2_1102_9); ?></td>
-		<td><?php echo form_input ($E2_1103_9); ?></td>
-		<td><?php echo form_input ($E2_1104_9); ?></td>
-		<td><?php echo form_input ($E2_1105_9); ?></td>
-		<td><?php echo form_input ($E2_1106_9_1); ?></td>
-		<td><?php echo form_input ($E2_1106_9_2); ?></td>
-		<td><?php echo form_input ($E2_1106_9_3); ?></td>
-		<td><?php echo form_input ($E2_1106_9_4); ?></td>
-		<td><?php echo form_input ($E2_1106_9_5); ?></td>
-		<td><?php echo form_input ($E2_1106_9_6); ?></td>
-		<td><?php echo form_input ($E2_1106_9_6_O); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1102_9); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1103_9); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1104_9); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1105_9); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_1); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_2); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_3); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_4); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_5); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_6); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_9_6_O); ?></td>
 	</tr>
 	<tr>
-		<td>10. Otro? <?php echo form_input ($E2_1101_10_O); ?>(Especifique)</td>
+		<td>(Especifique)</td>
+		<td><?php echo form_input ($E2_1101_9_O); ?> </td>
+	</tr>
+	<tr>
+		<td>10. Otro? </td>
 		<td><?php echo form_input ($E2_1101_10); ?></td>
-		<td><?php echo form_input ($E2_1102_10); ?></td>
-		<td><?php echo form_input ($E2_1103_10); ?></td>
-		<td><?php echo form_input ($E2_1104_10); ?></td>
-		<td><?php echo form_input ($E2_1105_10); ?></td>
-		<td><?php echo form_input ($E2_1106_10_1); ?></td>
-		<td><?php echo form_input ($E2_1106_10_2); ?></td>
-		<td><?php echo form_input ($E2_1106_10_3); ?></td>
-		<td><?php echo form_input ($E2_1106_10_4); ?></td>
-		<td><?php echo form_input ($E2_1106_10_5); ?></td>
-		<td><?php echo form_input ($E2_1106_10_6); ?></td>
-		<td><?php echo form_input ($E2_1106_10_6_O); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1102_10); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1103_10); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1104_10); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1105_10); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_1); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_2); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_3); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_4); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_5); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_6); ?></td>
+		<td rowspan="2"><?php echo form_input ($E2_1106_10_6_O); ?></td>
+	</tr>
+	<tr>
+		<td>(Especifique)</td>
+		<td><?php echo form_input ($E2_1101_10_O); ?></td>
 	</tr>
 	<tr>
 		<td colspan ="13"><b>Encuestador: </b> No olvide que las cantidades de las preguntas 1103, 1104 y 1105 debe ser igaul a la cantidad de la pregunta 1102</td>
@@ -1450,8 +1476,12 @@ $button_1100_1300 = array(
 					<td><?php echo form_input ($E2_1107_4); ?> </td>
 				</tr>
 				<tr>
-					<td>5. Otro? <?php echo form_input ($E2_1107_5_O); ?> (Especifique) </td>
+					<td>5. Otro?   </td>
 					<td><?php echo form_input ($E2_1107_5); ?> </td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_1107_5_O); ?></td>
 				</tr>
 			</table>
 		</td>
@@ -1518,8 +1548,12 @@ $button_1100_1300 = array(
 								<td><?php echo form_input ($E2_1202_4); ?></td>
 							</tr>
 							<tr>
-								<td>5. Otro? <?php echo form_input ($E2_1202_5_O); ?> (Especifique)</td> 
+								<td>5. Otro? </td> 
 								<td><?php echo form_input ($E2_1202_5); ?></td>
+							</tr>
+							<tr>
+								<td>(Especifique)</td>
+								<td><?php echo form_input ($E2_1202_5_O); ?></td>
 							</tr>
 						</table>
 					</td>
@@ -1607,35 +1641,43 @@ $button_1100_1300 = array(
 			<td><?php echo form_input ($E2_1206_3_O); ?></td>
 		</tr>
 		<tr>
-			<td>4. Otro? <?php echo form_input ($E2_1203_4); ?> (Especifique) </td>
+			<td>4. Otro? </td>
 			<td><?php echo form_input ($E2_1203_4); ?></td>
-			<td><?php echo form_input ($E2_1204_4_1); ?></td>
-			<td><?php echo form_input ($E2_1204_4_2); ?></td>
-			<td><?php echo form_input ($E2_1204_4_3); ?></td>
-			<td><?php echo form_input ($E2_1204_4_4); ?></td>
-			<td><?php echo form_input ($E2_1204_4_4_O); ?></td>
-			<td><?php echo form_input ($E2_1204_4_5); ?></td>
-			<td><?php echo form_input ($E2_1205_4); ?></td>
-			<td><?php echo form_input ($E2_1205_4_O); ?></td>
-			<td><?php echo form_input ($E2_1206_4); ?></td>
-			<td><?php echo form_input ($E2_1206_4_O); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_4_1); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_4_2); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_4_3); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_4_4); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_4_4_O); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_4_5); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1205_4); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1205_4_O); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1206_4); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1206_4_O); ?></td>
 		</tr>
 		<tr>
-			<td>5. Otro? <?php echo form_input ($E2_1203_5); ?> (Especifique) </td>
+			<td> (Especifique)</td>
+			<td><?php echo form_input ($E2_1204_3_4_O); ?></td>
+		</tr>
+		<tr>
+			<td>5. Otro?   </td>
 			<td><?php echo form_input ($E2_1203_5); ?></td>
-			<td><?php echo form_input ($E2_1204_5_1); ?></td>
-			<td><?php echo form_input ($E2_1204_5_2); ?></td>
-			<td><?php echo form_input ($E2_1204_5_3); ?></td>
-			<td><?php echo form_input ($E2_1204_5_4); ?></td>
-			<td><?php echo form_input ($E2_1204_5_4_O); ?></td>
-			<td><?php echo form_input ($E2_1204_5_5); ?></td>
-			<td><?php echo form_input ($E2_1205_5); ?></td>
-			<td><?php echo form_input ($E2_1205_5_O); ?></td>
-			<td><?php echo form_input ($E2_1206_5); ?></td>
-			<td><?php echo form_input ($E2_1206_5_O); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_5_1); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_5_2); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_5_3); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_5_4); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_5_4_O); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1204_5_5); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1205_5); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1205_5_O); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1206_5); ?></td>
+			<td rowspan="2"><?php echo form_input ($E2_1206_5_O); ?></td>
 		</tr>
 		<tr>
-			<td>6. Otro? <?php echo form_input ($E2_1203_6); ?> (Especifique) </td>
+			<td>(Especifique)</td>
+			<td><?php echo form_input ($E2_1203_5_O); ?></td>
+		</tr>
+		<tr>
+			<td>6. Otro?   </td>
 			<td><?php echo form_input ($E2_1203_6); ?></td>
 			<td><?php echo form_input ($E2_1204_6_1); ?></td>
 			<td><?php echo form_input ($E2_1204_6_2); ?></td>
@@ -1647,6 +1689,10 @@ $button_1100_1300 = array(
 			<td><?php echo form_input ($E2_1205_6_O); ?></td>
 			<td><?php echo form_input ($E2_1206_6); ?></td>
 			<td><?php echo form_input ($E2_1206_6_O); ?></td>
+		</tr>
+		<tr>
+			<td>(Especifique)</td>
+			<td><?php echo form_input ($E2_1203_6_O); ?></td>
 		</tr>
 		<tr>
 			<td>7. NINGUNO</td>
@@ -1690,12 +1736,20 @@ $button_1100_1300 = array(
 					<td><?php echo form_input ($E2_1207_7); ?></td>
 				</tr>
 				<tr>
-					<td>8. Otro? <?php echo form_input ($E2_1207_8_O); ?> (Especifique)</td>
+					<td>8. Otro? </td>
 					<td><?php echo form_input ($E2_1207_8); ?></td>
 				</tr>
 				<tr>
-					<td>9. Otro? <?php echo form_input ($E2_1207_9_O); ?> (Especifique)</td>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_1207_8_O); ?></td>
+				</tr>
+				<tr>
+					<td>9. Otro?  </td>
 					<td><?php echo form_input ($E2_1207_9); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_1207_9_O); ?></td>
 				</tr>
 			</table>
 		</td>

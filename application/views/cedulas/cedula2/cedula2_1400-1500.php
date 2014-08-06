@@ -500,8 +500,12 @@ $button_1400_1500 = array(
 										<th><?php echo form_input ($E2_1401_20); ?></th>
 									</tr>
 									<tr>
-										<th>21. Otra? <?php echo form_input ($E2_1401_21_O); ?> (Especifique)</th>
+										<th>21. Otra? </th>
 										<th><?php echo form_input ($E2_1401_21); ?></th>
+									</tr>
+									<tr>
+										<td>(Especifique)</td>
+										<td><?php echo form_input ($E2_1401_21_O); ?> </td>
 									</tr>
 								</table>
 							</td>
@@ -638,8 +642,12 @@ $button_1400_1500 = array(
 											<td><?php echo form_input ($E2_1406_4); ?></td>
 										</tr>
 										<tr>
-											<td>Otro <?php echo form_input ($E2_1406_5_O); ?> (Especifique)</td>
+											<td>Otro </td>
 											<td><?php echo form_input ($E2_1406_5); ?></td>
+										</tr>
+										<tr>
+											<td> (Especifique)</td>
+											<td><?php echo form_input ($E2_1406_5_O); ?></td>
 										</tr>
 									</td>
 								</table>
@@ -693,9 +701,13 @@ $button_1400_1500 = array(
 		<th><?php echo form_input ($E2_1408_5); ?></th>
 	</tr>
 	<tr>
-		<th>6. Otro? <?php echo form_input ($E2_1407_6_O); ?> (Especifique)</th>
+		<th>6. Otro? </th>
 		<th><?php echo form_input ($E2_1407_6); ?></th>
-		<th><?php echo form_input ($E2_1408_6); ?></th>
+		<th rowspan="2"><?php echo form_input ($E2_1408_6); ?></th>
+	</tr>
+	<tr>
+		<th>(Especifique)</th>
+		<td><?php echo form_input ($E2_1407_6_O); ?></td>
 	</tr>
 </table>
 
@@ -757,8 +769,12 @@ $button_1400_1500 = array(
 					<td><?php echo form_input ($E2_1410_8); ?></td>
 				</tr>
 				<tr>
-					<td>9.Otro <?php echo form_input ($E2_1410_9_O); ?> (Especifique)</td>
+					<td>9.Otro </td>
 					<td><?php echo form_input ($E2_1410_9); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_1410_9_O); ?> </td>
 				</tr>
 			</table>
 		</td>
@@ -897,8 +913,7 @@ $('#E2_1503').change (function (event)
 					 };
 			});
 
-
-/* $('#E2_1405').change (function (event) 
+ $('#E2_1405').change (function (event) 
 			{
 				if ($('#E2_1405').val() == '1') 
 					{
@@ -908,7 +923,7 @@ $('#E2_1503').change (function (event)
 					 {
 						$('.life_level').removeAttr ('disabled')
 					 };
-			}); */
+			}); 
 
 
 </script>

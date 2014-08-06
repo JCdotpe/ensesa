@@ -11,121 +11,143 @@ $E2_900_Obs = array(
 $E2_901 = array(
 				'id' => 'E2_901',
 				'name' => 'E2_901',
-				'class' => 'form-control change'
+				'class' => 'form-control change',
+				'maxlength' => '1',
 			);
 $E2_901A = array(
 				'id' => 'E2_901A',
 				'name' => 'E2_901A',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 //902
 $E2_902 = array(
 				'id' => 'E2_902',
 				'name' => 'E2_902',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '4',
 			);
 //903
 $E2_903_1 = array(
 				'id' => 'E2_903_1',
 				'name' => 'E2_9E2_903_102',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_903_2 = array(
 				'id' => 'E2_903_1',
 				'name' => 'E2_9E2_903_102',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_903_3 = array(
 				'id' => 'E2_903_1',
 				'name' => 'E2_9E2_903_102',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 //904
 $E2_904_1 = array(
 				'id' => 'E2_904_1',
 				'name' => 'E2_904_1',
-				'class' => 'form-control activity_forest'
-			);
-$E2_904A_1_A = array(
-				'id' => 'E2_904A_1_A',
-				'name' => 'E2_904A_1_A',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_904A_1_M = array(
 				'id' => 'E2_904A_1_M',
 				'name' => 'E2_904A_1_M',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '2'
+			);
+$E2_904A_1_A = array(
+				'id' => 'E2_904A_1_A',
+				'name' => 'E2_904A_1_A',
+				'class' => 'form-control activity_forest',
+				'maxlength' => '4',
 			);
 $E2_904_2 = array(
 				'id' => 'E2_904_2',
 				'name' => 'E2_904_2',
-				'class' => 'form-control activity_forest'
-			);
-$E2_904A_2_A = array(
-				'id' => 'E2_904A_2_A',
-				'name' => 'E2_904A_2_A',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_904A_2_M = array(
 				'id' => 'E2_904A_2_M',
 				'name' => 'E2_904A_2_M',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '2'
+			);
+$E2_904A_2_A = array(
+				'id' => 'E2_904A_2_A',
+				'name' => 'E2_904A_2_A',
+				'class' => 'form-control activity_forest',
+				'maxlength' => '4',
 			);
 $E2_904_3 = array(
 				'id' => 'E2_904_3',
 				'name' => 'E2_904_3',
-				'class' => 'form-control activity_forest'
-			);
-$E2_904A_3_A = array(
-				'id' => 'E2_904A_3_A',
-				'name' => 'E2_904A_3_A',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_904A_3_M = array(
 				'id' => 'E2_904A_3_M',
 				'name' => 'E2_904A_3_M',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '2'
+			);
+$E2_904A_3_A = array(
+				'id' => 'E2_904A_3_A',
+				'name' => 'E2_904A_3_A',
+				'class' => 'form-control activity_forest',
+				'maxlength' => '4',
 			);
 $E2_904_4 = array(
 				'id' => 'E2_904_4',
 				'name' => 'E2_904_4',
-				'class' => 'form-control activity_forest'
-			);
-$E2_904A_4_A = array(
-				'id' => 'E2_904A_4_A',
-				'name' => 'E2_904A_4_A',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_904A_4_M = array(
 				'id' => 'E2_904A_4_M',
 				'name' => 'E2_904A_4_M',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '2'
+			);
+$E2_904A_4_A = array(
+				'id' => 'E2_904A_4_A',
+				'name' => 'E2_904A_4_A',
+				'class' => 'form-control activity_forest',
+				'maxlength' => '4',
 			);
 $E2_904_5 = array(
 				'id' => 'E2_904_5',
 				'name' => 'E2_904_5',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '1',
 			);
 $E2_904_5_O = array(
 				'id' => 'E2_904_5_O',
 				'name' => 'E2_904_5_O',
 				'class' => 'form-control activity_forest'
 			);
-$E2_904A_5_A = array(
-				'id' => 'E2_904A_5_A',
-				'name' => 'E2_904A_5_A',
-				'class' => 'form-control activity_forest'
-			);
 $E2_904A_5_M = array(
 				'id' => 'E2_904A_5_M',
 				'name' => 'E2_904A_5_M',
-				'class' => 'form-control activity_forest'
+				'class' => 'form-control activity_forest',
+				'maxlength' => '2'
+			);
+$E2_904A_5_A = array(
+				'id' => 'E2_904A_5_A',
+				'name' => 'E2_904A_5_A',
+				'class' => 'form-control activity_forest',
+				'maxlength' => '4',
 			);
 // 905
 $E2_905 = array(
 				'id' => 'E2_905',
 				'name' => 'E2_905',
-				'class' => 'form-control activity_forest change'
+				'class' => 'form-control activity_forest change',
+				'maxlength' => '1',
 			);
 $E2_905A = array(
 				'id' => 'E2_905A',
@@ -136,7 +158,8 @@ $E2_905A = array(
 $E2_906 = array(
 				'id' => 'E2_906',
 				'name' => 'E2_906',
-				'class' => 'form-control activity_forest change'
+				'class' => 'form-control activity_forest change',
+				'maxlength' => '1',
 			);
 //907
 $E2_907_1 = array(
@@ -147,7 +170,8 @@ $E2_907_1 = array(
 $E2_907A_1_A = array(
 				'id' => 'E2_907A_1_A',
 				'name' => 'E2_907A_1_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_2 = array(
 				'id' => 'E2_907_2',
@@ -157,7 +181,8 @@ $E2_907_2 = array(
 $E2_907A_2_A = array(
 				'id' => 'E2_907A_2_A',
 				'name' => 'E2_907A_2_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_3 = array(
 				'id' => 'E2_907_3',
@@ -167,7 +192,8 @@ $E2_907_3 = array(
 $E2_907A_3_A = array(
 				'id' => 'E2_907A_3_A',
 				'name' => 'E2_907A_3_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_4 = array(
 				'id' => 'E2_907_4',
@@ -177,7 +203,8 @@ $E2_907_4 = array(
 $E2_907A_4_A = array(
 				'id' => 'E2_907A_4_A',
 				'name' => 'E2_907A_4_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_5 = array(
 				'id' => 'E2_907_5',
@@ -187,7 +214,8 @@ $E2_907_5 = array(
 $E2_907A_5_A = array(
 				'id' => 'E2_907A_5_A',
 				'name' => 'E2_907A_5_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_6 = array(
 				'id' => 'E2_907_6',
@@ -197,7 +225,8 @@ $E2_907_6 = array(
 $E2_907A_6_A = array(
 				'id' => 'E2_907A_6_A',
 				'name' => 'E2_907A_6_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_7 = array(
 				'id' => 'E2_907_7',
@@ -207,7 +236,8 @@ $E2_907_7 = array(
 $E2_907A_7_A = array(
 				'id' => 'E2_907A_7_A',
 				'name' => 'E2_907A_7_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_8 = array(
 				'id' => 'E2_907_8',
@@ -217,7 +247,8 @@ $E2_907_8 = array(
 $E2_907A_8_A = array(
 				'id' => 'E2_907A_8_A',
 				'name' => 'E2_907A_8_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_9 = array(
 				'id' => 'E2_907_9',
@@ -227,7 +258,8 @@ $E2_907_9 = array(
 $E2_907A_9_A = array(
 				'id' => 'E2_907A_9_A',
 				'name' => 'E2_907A_9_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 $E2_907_10 = array(
 				'id' => 'E2_907_10',
@@ -237,7 +269,8 @@ $E2_907_10 = array(
 $E2_907A_10_A = array(
 				'id' => 'E2_907A_10_A',
 				'name' => 'E2_907A_10_A',
-				'class' => 'form-control activity_forest permission'
+				'class' => 'form-control activity_forest permission',
+				'maxlength' => '4',
 			);
 // 908
 $E2_908 = array(
@@ -255,7 +288,8 @@ $E2_909 = array(
 $E2_910 = array(
 				'id' => 'E2_910',
 				'name' => 'E2_910',
-				'class' => 'form-control activity_forest permission change'
+				'class' => 'form-control activity_forest permission change',
+				'maxlength' => '1',
 			);
 $E2_910A_1 = array(
 				'id' => 'E2_910A_1',
@@ -291,7 +325,8 @@ $E2_910A_6 = array(
 $E2_911 = array(
 				'id' => 'E2_911',
 				'name' => 'E2_911',
-				'class' => 'form-control activity_forest permission change'
+				'class' => 'form-control activity_forest permission change',
+				'maxlength' => '1',
 			);
 $E2_911_1_Uso = array(
 				'id' => 'E2_911_1_Uso',
@@ -301,7 +336,8 @@ $E2_911_1_Uso = array(
 $E2_911_1_Ano = array(
 				'id' => 'E2_911_1_Ano',
 				'name' => 'E2_911_1_Ano',
-				'class' => 'form-control activity_forest permission uses'
+				'class' => 'form-control activity_forest permission uses',
+				'maxlength' => '4',
 			);
 $E2_911_2_Uso = array(
 				'id' => 'E2_911_2_Uso',
@@ -311,7 +347,8 @@ $E2_911_2_Uso = array(
 $E2_911_2_Ano = array(
 				'id' => 'E2_911_2_Ano',
 				'name' => 'E2_911_2_Ano',
-				'class' => 'form-control activity_forest permission uses'
+				'class' => 'form-control activity_forest permission uses',
+				'maxlength' => '4',
 			);
 $E2_911_3_Uso = array(
 				'id' => 'E2_911_3_Uso',
@@ -321,7 +358,8 @@ $E2_911_3_Uso = array(
 $E2_911_3_Ano = array(
 				'id' => 'E2_911_3_Ano',
 				'name' => 'E2_911_3_Ano',
-				'class' => 'form-control activity_forest permission uses'
+				'class' => 'form-control activity_forest permission uses',
+				'maxlength' => '4',
 			);
 $E2_911_4_Uso = array(
 				'id' => 'E2_911_4_Uso',
@@ -331,7 +369,8 @@ $E2_911_4_Uso = array(
 $E2_911_4_Ano = array(
 				'id' => 'E2_911_4_Ano',
 				'name' => 'E2_911_4_Ano',
-				'class' => 'form-control activity_forest permission uses'
+				'class' => 'form-control activity_forest permission uses',
+				'maxlength' => '4',
 			);
 $E2_911_5_Uso = array(
 				'id' => 'E2_911_5_Uso',
@@ -341,7 +380,8 @@ $E2_911_5_Uso = array(
 $E2_911_5_Ano = array(
 				'id' => 'E2_911_5_Ano',
 				'name' => 'E2_911_5_Ano',
-				'class' => 'form-control activity_forest permission uses'
+				'class' => 'form-control activity_forest permission uses',
+				'maxlength' => '4',
 			);
 $E2_911_6_Uso = array(
 				'id' => 'E2_911_6_Uso',
@@ -351,13 +391,15 @@ $E2_911_6_Uso = array(
 $E2_911_6_Ano = array(
 				'id' => 'E2_911_6_Ano',
 				'name' => 'E2_911_6_Ano',
-				'class' => 'form-control activity_forest permission uses'
+				'class' => 'form-control activity_forest permission uses',
+				'maxlength' => '4',
 			);
 // 912
 $E2_912 = array(
 				'id' => 'E2_912',
 				'name' => 'E2_912',
 				'class' => 'form-control activity_forest permission'
+				'maxlength' => '1',
 			);
 // 913
 $E2_913 = array(
@@ -716,35 +758,39 @@ $button_900 = array(
 							<tr>
 								<td>1. Organismo de supervisión de los recursos forestales y faunja silvestre (OSINFOR)?</td>
 								<td><?php echo form_input ($E2_904_1); ?></td>
-								<td><?php echo form_input ($E2_904A_1_A); ?></td>
 								<td><?php echo form_input ($E2_904A_1_M); ?></td>
+								<td><?php echo form_input ($E2_904A_1_A); ?></td>
 							</tr>
 							<tr>
 								<td>2. Servicio Nacional de áreas naturales protegidas (SENANP)?</td>
 								<td><?php echo form_input ($E2_904_2); ?></td>
-								<td><?php echo form_input ($E2_904A_2_A); ?></td>
 								<td><?php echo form_input ($E2_904A_2_M); ?></td>
+								<td><?php echo form_input ($E2_904A_2_A); ?></td>
 							</tr>
 
 							<tr>
 								<td>3. Dirección general forestal y de fauna silvestre (DGFFS)?</td>
 								<td><?php echo form_input ($E2_904_3); ?></td>
-								<td><?php echo form_input ($E2_904A_3_A); ?></td>
 								<td><?php echo form_input ($E2_904A_3_M); ?></td>
+								<td><?php echo form_input ($E2_904A_3_A); ?></td>
 							</tr>
 
 							<tr>
 								<td>4. Gobierno Regional (Dirección REgional de Recursos Naturales)?</td>
 								<td><?php echo form_input ($E2_904_4); ?></td>
-								<td><?php echo form_input ($E2_904A_4_A); ?></td>
 								<td><?php echo form_input ($E2_904A_4_M); ?></td>
+								<td><?php echo form_input ($E2_904A_4_A); ?></td>
 							</tr>
 
 							<tr>
-								<td>5. Otro? <?php echo form_input ($E2_904_5_O); ?></td>
+								<td>5. Otro?</td>
 								<td><?php echo form_input ($E2_904_5); ?></td>
-								<td><?php echo form_input ($E2_904A_5_A); ?></td>
-								<td><?php echo form_input ($E2_904A_5_M); ?></td>
+								<td rowspan="2"><?php echo form_input ($E2_904A_5_M); ?></td>
+								<td rowspan="2"><?php echo form_input ($E2_904A_5_A); ?></td>
+							</tr>
+							<tr>
+								<td>(Especifique)</td>
+								<td> <?php echo form_input ($E2_904_5_O); ?></td>
 							</tr>
 						</table>
 					</td>
@@ -990,8 +1036,12 @@ $button_900 = array(
 					<td><?php echo form_input ($E2_914_3); ?></td>
 				</tr>
 				<tr>
-					<td>4. Otra forma? <?php echo form_input ($E2_914_4_O); ?> (Especifique)</td>
+					<td>4. Otra forma?  </td>
 					<td><?php echo form_input ($E2_914_4); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_914_4_O); ?></td>
 				</tr>
 			</table>
 
@@ -1139,8 +1189,12 @@ $button_900 = array(
 								<td><?php echo form_input ($E2_919_11); ?></td>
 							</tr>
 							<tr>
-								<td>12. Otro? <?php echo form_input ($E2_919_12_O); ?> (Espcifique)</td>
+								<td>12. Otro?  </td>
 								<td><?php echo form_input ($E2_919_12); ?></td>
+							</tr>
+							<tr>
+								<td>(Especifique)</td>
+								<td><?php echo form_input ($E2_919_12_O); ?></td>
 							</tr>
 						</table>
 					</td>
@@ -1174,8 +1228,12 @@ $button_900 = array(
 					<td><?php echo form_input ($E2_920_5); ?></td>
 				</tr>
 				<tr>
-					<td>6. Otro? <?php echo form_input ($E2_920_6_O); ?> (Especifique)</td>
+					<td>6. Otro?  </td>
 					<td><?php echo form_input ($E2_920_6); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_920_6_O); ?></td>
 				</tr>
 			</table>
 
@@ -1212,8 +1270,12 @@ $button_900 = array(
 					<td><?php echo form_input ($E2_921_7); ?></td>
 				</tr>
 				<tr>
-					<td>8. Otro? <?php echo form_input ($E2_921_8_O); ?> (Especifique)</td>
+					<td>8. Otro?  </td>
 					<td><?php echo form_input ($E2_921_8); ?></td>
+				</tr>
+				<tr>
+					<td>(Especifique)</td>
+					<td><?php echo form_input ($E2_921_8_O); ?></td>
 				</tr>
 				<tr>
 					<td>9. NO SABE / NO OPINA</td>
