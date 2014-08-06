@@ -1,5 +1,10 @@
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
+			<div class="navbar-header pull-left">
+				<a id="nav-expander" class="nav-expander fixed">
+					MENU &nbsp;<i class="glyphicon glyphicon-th-list"></i>
+				</a>
+			</div>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
