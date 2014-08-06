@@ -6,282 +6,298 @@
 $E2_201_1=array(
 	'id'=>'E2_201_1',
 	'name'=>'E2_201_1',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
 $E2_201A_1=array(
 	'id'=>'E2_201A_1',
 	'name'=>'E2_201A_1',
-	'class'=>'form-control',
+	'class'=>'form-control jefe',
+	'maxlength' => '1',
 
 );
 
 $E2_201B_1=array(
 	'id'=>'E2_201B_1',
 	'name'=>'E2_201B_1',
-	'class'=>'form-control',
+	'class'=>'form-control jefe',
+	'maxlength' => '2',
 
 );
 
 $E2_201_2=array(
 	'id'=>'E2_201_2',
 	'name'=>'E2_201_2',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
 $E2_201A_2=array(
 	'id'=>'E2_201A_2',
 	'name'=>'E2_201A_2',
-	'class'=>'form-control',
+	'class'=>'form-control viceapu',
+	'maxlength' => '1',
 
 );
 
 $E2_201B_2=array(
 	'id'=>'E2_201B_2',
 	'name'=>'E2_201B_2',
-	'class'=>'form-control',
+	'class'=>'form-control viceapu',
+	'maxlength' => '2',
 
 );
 
 $E2_201_3=array(
 	'id'=>'E2_201_3',
 	'name'=>'E2_201_3',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 $E2_201A_3=array(
 	'id'=>'E2_201A_3',
 	'name'=>'E2_201A_3',
-	'class'=>'form-control',
+	'class'=>'form-control tesorero',
+	'maxlength' => '1',
 
 );
 $E2_201B_3=array(
 	'id'=>'E2_201B_3',
 	'name'=>'E2_201B_3',
-	'class'=>'form-control',
+	'class'=>'form-control tesorero',
+	'maxlength' => '2',
 
 );
 
 $E2_201_4=array(
 	'id'=>'E2_201_4',
 	'name'=>'E2_201_4',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
 $E2_201A_4=array(
 	'id'=>'E2_201A_4',
 	'name'=>'E2_201A_4',
-	'class'=>'form-control',
+	'class'=>'form-control secretario',
+	'maxlength' => '1',
 
 );
 
 $E2_201B_4=array(
 	'id'=>'E2_201B_4',
 	'name'=>'E2_201B_4',
-	'class'=>'form-control',
+	'class'=>'form-control secretario',
+	'maxlength' => '2',
 
 );
 $E2_201_5=array(
 	'id'=>'E2_201_5',
 	'name'=>'E2_201_5',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 $E2_201A_5=array(
 	'id'=>'E2_201A_5',
 	'name'=>'E2_201A_5',
-	'class'=>'form-control',
+	'class'=>'form-control presidente',
+	'maxlength' => '1',
 
 );
 $E2_201B_5=array(
 	'id'=>'E2_201B_5',
 	'name'=>'E2_201B_5',
-	'class'=>'form-control',
+	'class'=>'form-control presidente',
+	'maxlength' => '2',
 
 );
 $E2_201_6=array(
 	'id'=>'E2_201_6',
 	'name'=>'E2_201_6',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 $E2_201A_6=array(
 	'id'=>'E2_201A_6',
 	'name'=>'E2_201A_6',
-	'class'=>'form-control',
+	'class'=>'form-control pproductores',
+	'maxlength' => '1',
 
 );
 $E2_201B_6=array(
 	'id'=>'E2_201B_6',
 	'name'=>'E2_201B_6',
-	'class'=>'form-control',
+	'class'=>'form-control pproductores',
+	'maxlength' => '2',
 
 );
 $E2_201_7=array(
 	'id'=>'E2_201_7',
 	'name'=>'E2_201_7',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
 $E2_201A_7=array(
 	'id'=>'E2_201A_7',
 	'name'=>'E2_201A_7',
-	'class'=>'form-control',
+	'class'=>'form-control pleche',
+	'maxlength' => '1',
 
 );
 $E2_201B_7=array(
 	'id'=>'E2_201B_7',
 	'name'=>'E2_201B_7',
-	'class'=>'form-control',
+	'class'=>'form-control pleche',
+	'maxlength' => '2',
 
 );
 $E2_201_8=array(
 	'id'=>'E2_201_8',
 	'name'=>'E2_201_8',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 $E2_201A_8=array(
 	'id'=>'E2_201A_8',
 	'name'=>'E2_201A_8',
-	'class'=>'form-control',
+	'class'=>'form-control amunicipal',
+	'maxlength' => '1',
 
 );
 $E2_201B_8=array(
 	'id'=>'E2_201B_8',
 	'name'=>'E2_201B_8',
-	'class'=>'form-control',
+	'class'=>'form-control amunicipal',
+	'maxlength' => '2',
 
 );
 $E2_201_9=array(
 	'id'=>'E2_201_9',
 	'name'=>'E2_201_9',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 $E2_201A_9=array(
 	'id'=>'E2_201A_9',
 	'name'=>'E2_201A_9',
-	'class'=>'form-control',
+	'class'=>'form-control mindigena',
+	'maxlength' => '1',
 
 );
 $E2_201B_9=array(
 	'id'=>'E2_201B_9',
 	'name'=>'E2_201B_9',
-	'class'=>'form-control',
+	'class'=>'form-control mindigena',
+	'maxlength' => '2',
 
 );
 
 $E2_201_10=array(
 	'id'=>'E2_201_10',
 	'name'=>'E2_201_10',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 $E2_201_10_O=array(
 	'id'=>'E2_201_10_O',
 	'name'=>'E2_201_10_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro1',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
 
 );
+
 $E2_201A_10=array(
 	'id'=>'E2_201A_10',
 	'name'=>'E2_201A_10',
-	'class'=>'form-control',
+	'class'=>'form-control otro1',
 
 );
 
 $E2_201B_10=array(
 	'id'=>'E2_201B_10',
 	'name'=>'E2_201B_10',
-	'class'=>'form-control',
+	'class'=>'form-control otro1',
+	'maxlength' => '2',
 
 );
 
 $E2_201_11=array(
 	'id'=>'E2_201_11',
 	'name'=>'E2_201_11',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
 $E2_201_11_O=array(
 	'id'=>'E2_201_11_O',
 	'name'=>'E2_201_11_O',
-	'class'=>'form-control',
-
-);
-$E2_201A_11=array(
-	'id'=>'E2_201A_11',
-	'name'=>'E2_201A_11',
-	'class'=>'form-control',
-
-);
-
-$E2_201A_10=array(
-	'id'=>'E2_201A_10',
-	'name'=>'E2_201A_10',
-	'class'=>'form-control',
-
-);
-
-$E2_201B_10=array(
-	'id'=>'E2_201B_10',
-	'name'=>'E2_201B_10',
-	'class'=>'form-control',
-
-);
-
-$E2_201_11=array(
-	'id'=>'E2_201_11',
-	'name'=>'E2_201_11',
-	'class'=>'form-control',
+	'class'=>'form-control otro2',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
 
 );
 
 $E2_201A_11=array(
 	'id'=>'E2_201A_11',
 	'name'=>'E2_201A_11',
-	'class'=>'form-control',
+	'class'=>'form-control otro2',
+	'maxlength' => '1',
 
 );
+
 
 $E2_201B_11=array(
 	'id'=>'E2_201B_11',
 	'name'=>'E2_201B_11',
-	'class'=>'form-control',
+	'class'=>'form-control otro2',
+	'maxlength' => '2',
 
 );
 
 $E2_201_12=array(
 	'id'=>'E2_201_12',
 	'name'=>'E2_201_12',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
 $E2_201_12_O=array(
 	'id'=>'E2_201_12_O',
 	'name'=>'E2_201_12_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro3',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
 
 );
 
 $E2_201A_12=array(
 	'id'=>'E2_201A_12',
 	'name'=>'E2_201A_12',
-	'class'=>'form-control',
+	'class'=>'form-control otro3',
+	'maxlength' => '1',
 
 );
 
 $E2_201B_12=array(
 	'id'=>'E2_201B_12',
 	'name'=>'E2_201B_12',
-	'class'=>'form-control',
+	'class'=>'form-control otro3',
+	'maxlength' => '2',
 
 );
 
@@ -289,6 +305,7 @@ $E2_202=array(
 	'id'=>'E2_202',
 	'name'=>'E2_202',
 	'class'=>'form-control',
+	'maxlength' => '1',
 
 );
 
@@ -296,13 +313,15 @@ $E2_202A=array(
 	'id'=>'E2_202A',
 	'name'=>'E2_202A',
 	'class'=>'form-control',
+	'maxlength' => '60',
 
 );
 
 $E2_203_1=array(
 	'id'=>'E2_203_1',
 	'name'=>'E2_203_1',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 
 );
 
@@ -310,6 +329,7 @@ $E2_203_2=array(
 	'id'=>'E2_203_2',
 	'name'=>'E2_203_2',
 	'class'=>'form-control',
+	'maxlength' => '1',
 
 );
 
@@ -317,12 +337,14 @@ $E2_203_3=array(
 	'id'=>'E2_203_3',
 	'name'=>'E2_203_3',
 	'class'=>'form-control',
+	'maxlength' => '1',
 
 );
 $E2_203_4=array(
 	'id'=>'E2_203_4',
 	'name'=>'E2_203_4',
 	'class'=>'form-control',
+	'maxlength' => '1',
 
 );
 
@@ -330,6 +352,7 @@ $E2_203_5=array(
 	'id'=>'E2_203_5',
 	'name'=>'E2_203_5',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '1',
 
 );
 
@@ -337,6 +360,8 @@ $E2_203_5_O=array(
 	'id'=>'E2_203_5_O',
 	'name'=>'E2_203_5_O',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 
 );
 
@@ -346,34 +371,26 @@ $E2_204_1=array(
 	'id'=>'E2_204_1',
 	'name'=>'E2_204_1',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '1',
 
 );
 
-$E2_204_Frec1=array(
-	'id'=>'E2_204_Frec1',
-	'name'=>'E2_204_Frec1',
-	'class'=>'form-control actividades_comunales',
-
-);
 
 $E2_204_2=array(
 	'id'=>'E2_204_2',
 	'name'=>'E2_204_2',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '1',
 
 );
 
-$E2_204_Frec2=array(
-	'id'=>'E2_204_Frec2',
-	'name'=>'E2_204_Frec2',
-	'class'=>'form-control actividades_comunales',
 
-);
 
 $E2_204_3=array(
 	'id'=>'E2_204_3',
 	'name'=>'E2_204_3',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '1',
 
 );
 
@@ -381,20 +398,18 @@ $E2_204_3_O=array(
 	'id'=>'E2_204_3_O',
 	'name'=>'E2_204_3_O',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 
 );
 
-$E2_204_Frec3=array(
-	'id'=>'E2_204_Frec3',
-	'name'=>'E2_204_Frec3',
-	'class'=>'form-control actividades_comunales',
 
-);
 
 $E2_204_4=array(
 	'id'=>'E2_204_4',
 	'name'=>'E2_204_4',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '1',
 
 );
 
@@ -402,1823 +417,2058 @@ $E2_204_4_O=array(
 	'id'=>'E2_204_4_O',
 	'name'=>'E2_204_4_O',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 
 );
 
-$E2_204_Frec4=array(
-	'id'=>'E2_204_Frec4',
-	'name'=>'E2_204_Frec4',
-	'class'=>'form-control actividades_comunales',
 
-);
 
 $E2_205_1=array(
 	'id'=>'E2_205_1',
 	'name'=>'E2_205_1',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_1=array(
 	'id'=>'E2_205A_1',
 	'name'=>'E2_205A_1',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales dirigentes',
+	'maxlength' => '1',
 );
 
 $E2_205_2=array(
 	'id'=>'E2_205_2',
 	'name'=>'E2_205_2',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_2=array(
 	'id'=>'E2_205A_2',
 	'name'=>'E2_205A_2',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales madera',
+	'maxlength' => '1',
 );
 
 $E2_205_3=array(
 	'id'=>'E2_205_3',
 	'name'=>'E2_205_3',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_3=array(
 	'id'=>'E2_205A_3',
 	'name'=>'E2_205A_3',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales productivo',
+	'maxlength' => '1',
 );
 $E2_205_4=array(
 	'id'=>'E2_205_4',
 	'name'=>'E2_205_4',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_4=array(
 	'id'=>'E2_205A_4',
 	'name'=>'E2_205A_4',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales faena',
+	'maxlength' => '1',
 );
 $E2_205_5=array(
 	'id'=>'E2_205_5',
 	'name'=>'E2_205_5',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 $E2_205A_5=array(
 	'id'=>'E2_205A_5',
 	'name'=>'E2_205A_5',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales dfestivos',
+	'maxlength' => '1',
 );
 
 $E2_205_6=array(
 	'id'=>'E2_205_6',
 	'name'=>'E2_205_6',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_6=array(
 	'id'=>'E2_205A_6',
 	'name'=>'E2_205A_6',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales fnativa',
+	'maxlength' => '1',
 );
 
 $E2_205_7=array(
 	'id'=>'E2_205_7',
 	'name'=>'E2_205_7',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_7=array(
 	'id'=>'E2_205A_7',
 	'name'=>'E2_205A_7',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales rcuenta ',
+	'maxlength' => '1',
 );
 
 $E2_205_8=array(
 	'id'=>'E2_205_8',
 	'name'=>'E2_205_8',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205A_8=array(
 	'id'=>'E2_205A_8',
 	'name'=>'E2_205A_8',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales gestion',
+	'maxlength' => '1',
 );
 
 $E2_205_9=array(
 	'id'=>'E2_205_9',
 	'name'=>'E2_205_9',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales change',
+	'maxlength' => '1',
 );
 
 $E2_205_9_O=array(
 	'id'=>'E2_205_9_O',
 	'name'=>'E2_205_9_O',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales otro4',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
 );
 
 $E2_205A_9=array(
 	'id'=>'$E2_205A_9',
 	'name'=>'$E2_205A_9',
-	'class'=>'form-control actividades_comunales',
+	'class'=>'form-control actividades_comunales otro4',
+	'maxlength' => '1',
 );
 
 $E2_206=array(
 	'id'=>'E2_206',
 	'name'=>'E2_206',
 	'class'=>'form-control actividades_comunales',
+	'maxlength' => '1',
 );
 
 $E2_207_1=array(
 	'id'=>'E2_207_1',
 	'name'=>'E2_207_1',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_1=array(
 	'id'=>'E2_207A_1',
 	'name'=>'E2_207A_1',
-	'class'=>'form-control',
+	'class'=>'form-control vleche',
+	'maxlength' => '3',
 );
 
 $E2_207B_1=array(
 	'id'=>'E2_207B_1',
 	'name'=>'E2_207B_1',
-	'class'=>'form-control',
+	'class'=>'form-control vleche',
+	'maxlength' => '3',
 );
 
 $E2_207_2=array(
 	'id'=>'E2_207_2',
 	'name'=>'E2_207_2',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_2=array(
 	'id'=>'E2_207A_2',
 	'name'=>'E2_207A_2',
-	'class'=>'form-control',
+	'class'=>'form-control comedor',
+	'maxlength' => '3',
 );
 
 $E2_207B_2=array(
 	'id'=>'E2_207B_2',
 	'name'=>'E2_207B_2',
-	'class'=>'form-control',
+	'class'=>'form-control comedor',
+	'maxlength' => '3',
 );
 
 $E2_207_3=array(
 	'id'=>'E2_207_3',
 	'name'=>'E2_207_3',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_3=array(
 	'id'=>'E2_207A_3',
 	'name'=>'E2_207A_3',
-	'class'=>'form-control',
+	'class'=>'form-control club',
+	'maxlength' => '3',
 );
 $E2_207B_3=array(
 	'id'=>'E2_207B_3',
 	'name'=>'E2_207B_3',
-	'class'=>'form-control',
+	'class'=>'form-control club',
+	'maxlength' => '3',
 );
 $E2_207_4=array(
 	'id'=>'E2_207_4',
 	'name'=>'E2_207_4',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_4=array(
 	'id'=>'E2_207A_4',
 	'name'=>'E2_207A_4',
-	'class'=>'form-control',
+	'class'=>'form-control asociacion',
+	'maxlength' => '3',
 );
 
 $E2_207B_4=array(
 	'id'=>'E2_207B_4',
 	'name'=>'E2_207B_4',
-	'class'=>'form-control',
+	'class'=>'form-control asociacion',
+	'maxlength' => '3',
 );
 
 $E2_207_5=array(
 	'id'=>'E2_207_5',
 	'name'=>'E2_207_5',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_5=array(
 	'id'=>'E2_207A_5',
 	'name'=>'E2_207A_5',
-	'class'=>'form-control',
+	'class'=>'form-control comite',
+	'maxlength' => '3',
 );
 $E2_207B_5=array(
 	'id'=>'E2_207B_5',
 	'name'=>'E2_207B_5',
-	'class'=>'form-control',
+	'class'=>'form-control comite',
+	'maxlength' => '3',
 );
 $E2_207_6=array(
 	'id'=>'E2_207_6',
 	'name'=>'E2_207_6',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_6=array(
 	'id'=>'E2_207A_6',
 	'name'=>'E2_207A_6',
-	'class'=>'form-control',
+	'class'=>'form-control cdeportivo',
+	'maxlength' => '3',
 );
 
 $E2_207B_6=array(
 	'id'=>'E2_207B_6',
 	'name'=>'E2_207B_6',
-	'class'=>'form-control',
+	'class'=>'form-control cdeportivo',
+	'maxlength' => '3',
 );
 
 $E2_207_7=array(
 	'id'=>'E2_207_7',
 	'name'=>'E2_207_7',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_7=array(
 	'id'=>'E2_207A_7',
 	'name'=>'E2_207A_7',
-	'class'=>'form-control',
+	'class'=>'form-control apadre',
+	'maxlength' => '3',
 );
 
 $E2_207B_7=array(
 	'id'=>'E2_207B_7',
 	'name'=>'E2_207B_7',
-	'class'=>'form-control',
+	'class'=>'form-control apadre',
+	'maxlength' => '3',
 );
 
 $E2_207_8=array(
 	'id'=>'E2_207_8',
 	'name'=>'E2_207_8',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_8=array(
 	'id'=>'E2_207A_8',
 	'name'=>'E2_207A_8',
-	'class'=>'form-control',
+	'class'=>'form-control clocal',
+	'maxlength' => '3',
 );
 
 $E2_207B_8=array(
 	'id'=>'E2_207B_8',
 	'name'=>'E2_207B_8',
-	'class'=>'form-control',
+	'class'=>'form-control clocal',
+	'maxlength' => '3',
 );
 
 $E2_207_9=array(
 	'id'=>'E2_207_9',
 	'name'=>'E2_207_9',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_9=array(
 	'id'=>'E2_207A_9',
 	'name'=>'E2_207A_9',
-	'class'=>'form-control',
+	'class'=>'form-control acomerciante',
+	'maxlength' => '3',
 );
 $E2_207B_9=array(
 	'id'=>'E2_207B_9',
 	'name'=>'E2_207B_9',
-	'class'=>'form-control',
+	'class'=>'form-control acomerciante',
+	'maxlength' => '3',
 );
 $E2_207_10=array(
 	'id'=>'E2_207_10',
 	'name'=>'E2_207_10',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_10=array(
 	'id'=>'E2_207A_10',
 	'name'=>'E2_207A_10',
-	'class'=>'form-control',
+	'class'=>'form-control aproductor',
+	'maxlength' => '3',
 );
 $E2_207B_10=array(
 	'id'=>'E2_207B_10',
 	'name'=>'E2_207B_10',
-	'class'=>'form-control',
+	'class'=>'form-control aproductor',
+	'maxlength' => '3',
 );
 $E2_207_11=array(
 	'id'=>'E2_207_11',
 	'name'=>'E2_207_11',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 $E2_207A_11=array(
 	'id'=>'E2_207A_11',
 	'name'=>'E2_207A_11',
-	'class'=>'form-control',
+	'class'=>'form-control jdirectiva',
+	'maxlength' => '3',
 );
 
 $E2_207B_11=array(
 	'id'=>'E2_207B_11',
 	'name'=>'E2_207B_11',
-	'class'=>'form-control',
+	'class'=>'form-control jdirectiva',
+	'maxlength' => '3',
 );
 
 $E2_207_12=array(
 	'id'=>'E2_207_12',
 	'name'=>'E2_207_12',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 $E2_207A_12=array(
 	'id'=>'E2_207A_12',
 	'name'=>'E2_207A_12',
-	'class'=>'form-control',
+	'class'=>'form-control nejecutor',
+	'maxlength' => '3',
 );
 $E2_207B_12=array(
 	'id'=>'E2_207B_12',
 	'name'=>'E2_207B_12',
-	'class'=>'form-control',
+	'class'=>'form-control nejecutor',
+	'maxlength' => '3',
 );
 
 $E2_207_13=array(
 	'id'=>'E2_207_13',
 	'name'=>'E2_207_13',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_13=array(
 	'id'=>'$E2_207A_13',
 	'name'=>'$E2_207A_13',
-	'class'=>'form-control',
+	'class'=>'form-control cgestion',
+	'maxlength' => '3',
 );
 $E2_207B_13=array(
 	'id'=>'E2_207B_13',
 	'name'=>'E2_207B_13',
-	'class'=>'form-control',
+	'class'=>'form-control cgestion',
+	'maxlength' => '3',
 );
 
 $E2_207_14=array(
 	'id'=>'E2_207_14',
 	'name'=>'E2_207_14',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207A_14=array(
 	'id'=>'E2_207A_14',
 	'name'=>'E2_207A_14',
-	'class'=>'form-control',
+	'class'=>'form-control apolitico',
+	'maxlength' => '3',
 );
 
 $E2_207B_14=array(
 	'id'=>'E2_207B_14',
 	'name'=>'E2_207B_14',
-	'class'=>'form-control',
+	'class'=>'form-control apolitico',
+	'maxlength' => '3',
 );
 
 $E2_207_15=array(
 	'id'=>'E2_207_15',
 	'name'=>'E2_207_15',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '3',
 );
 
 $E2_207A_15=array(
 	'id'=>'E2_207A_15',
 	'name'=>'E2_207A_15',
-	'class'=>'form-control',
+	'class'=>'form-control ccultural',
+	'maxlength' => '3',
 );
 
 $E2_207B_15=array(
 	'id'=>'E2_207B_15',
 	'name'=>'E2_207B_15',
-	'class'=>'form-control',
+	'class'=>'form-control ccultural',
+	'maxlength' => '3',
 );
 
 $E2_207_16=array(
 	'id'=>'E2_207_16',
 	'name'=>'E2_207_16',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 $E2_207A_16=array(
 	'id'=>'E2_207A_16',
 	'name'=>'E2_207A_16',
-	'class'=>'form-control',
+	'class'=>'form-control ong',
+	'maxlength' => '3',
 );
 $E2_207B_16=array(
 	'id'=>'E2_207B_16',
 	'name'=>'E2_207B_16',
-	'class'=>'form-control',
+	'class'=>'form-control ong',
+	'maxlength' => '3',
 );
 $E2_207_17=array(
 	'id'=>'E2_207_17',
 	'name'=>'E2_207_17',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 $E2_207A_17=array(
 	'id'=>'E2_207A_17',
 	'name'=>'E2_207A_17',
-	'class'=>'form-control',
+	'class'=>'form-control iglesia',
+	'maxlength' => '3',
 );
 
 $E2_207B_17=array(
 	'id'=>'E2_207B_17',
 	'name'=>'E2_207B_17',
-	'class'=>'form-control',
+	'class'=>'form-control iglesia',
+	'maxlength' => '3',
 );
 $E2_207_18=array(
 	'id'=>'E2_207_18',
 	'name'=>'E2_207_18',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 $E2_207A_18=array(
 	'id'=>'$E2_207A_18',
 	'name'=>'$E2_207A_18',
-	'class'=>'form-control',
+	'class'=>'form-control cconservacion',
+	'maxlength' => '3',
 );
 
 $E2_207B_18=array(
 	'id'=>'$E2_207B_18',
 	'name'=>'$E2_207B_18',
-	'class'=>'form-control',
+	'class'=>'form-control cconservacion',
+	'maxlength' => '3',
 );
 $E2_207_19=array(
 	'id'=>'E2_207_19',
 	'name'=>'E2_207_19',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 $E2_207A_19=array(
 	'id'=>'E2_207A_19',
 	'name'=>'E2_207A_19',
-	'class'=>'form-control',
+	'class'=>'form-control rcomunal',
+	'maxlength' => '3',
 );
 
 $E2_207B_19=array(
 	'id'=>'E2_207B_19',
 	'name'=>'E2_207B_19',
-	'class'=>'form-control',
+	'class'=>'form-control rcomunal',
+	'maxlength' => '3',
 );
 
 $E2_207_20=array(
 	'id'=>'E2_207_20',
 	'name'=>'E2_207_20',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 $E2_207_20_O=array(
 	'id'=>'E2_207_20_O',
 	'name'=>'E2_207_20_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro5',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
 );
 
 $E2_207A_20=array(
 	'id'=>'E2_207A_20',
 	'name'=>'E2_207A_20',
-	'class'=>'form-control',
+	'class'=>'form-control otro5',
+	'maxlength' => '3',
 );
 $E2_207B_20=array(
 	'id'=>'E2_207B_20',
 	'name'=>'E2_207B_20',
-	'class'=>'form-control',
+	'class'=>'form-control otro5',
+	'maxlength' => '3',
 );
 
 $E2_208_1=array(
 	'id'=>'E2_208_1',
 	'name'=>'E2_208_1',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208A_1_1=array(
+$E2_208A_1_1=array(
 	'id'=>'E2_208A_1_1',
 	'name'=>'E2_208A_1_1',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208A_1_2=array(
+$E2_208A_1_2=array(
 	'id'=>'E2_208A_1_2',
 	'name'=>'E2_208A_1_2',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_1_3=array(
+$E2_208A_1_3=array(
 	'id'=>'E2_208A_1_3',
 	'name'=>'E2_208A_1_3',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208A_1_4=array(
+$E2_208A_1_4=array(
 	'id'=>'E2_208A_1_4',
 	'name'=>'E2_208A_1_4',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_1_5=array(
+$E2_208A_1_5=array(
 	'id'=>'E2_208A_1_5',
-	'name'=>'E2_208A_1_5',
+	'name'=>'E2_208A_1_5 vleche2',
 	'class'=>'form-control',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_1_6=array(
+$E2_208A_1_6=array(
 	'id'=>'E2_208A_1_6',
 	'name'=>'E2_208A_1_6',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_1_6_O=array(
+$E2_208A_1_6_O=array(
 	'id'=>'E2_208A_1_6_O',
 	'name'=>'E2_208A_1_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 	
 );
-	$E2_208A_1_7=array(
+$E2_208A_1_7=array(
 	'id'=>'E2_208A_1_7',
 	'name'=>'E2_208A_1_7',
-	'class'=>'form-control',
+	'class'=>'form-control vleche2',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208_2=array(
+$E2_208_2=array(
 	'id'=>'E2_208_2',
 	'name'=>'E2_208_2',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 
-	$E2_208A_2_1=array(
+$E2_208A_2_1=array(
 	'id'=>'E2_208A_2_1',
 	'name'=>'E2_208A_2_1',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_2_1=array(
+$E2_208A_2_1=array(
 	'id'=>'E2_208A_2_1',
 	'name'=>'E2_208A_2_1',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
 	'maxlength' => '1',	
 );
-	$E2_208A_2_2=array(
+$E2_208A_2_2=array(
 	'id'=>'E2_208A_2_2',
 	'name'=>'E2_208A_2_2',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208A_2_3=array(
+$E2_208A_2_3=array(
 	'id'=>'E2_208A_2_3',
 	'name'=>'E2_208A_2_3',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_2_4=array(
+$E2_208A_2_4=array(
 	'id'=>'$E2_208A_2_4',
 	'name'=>'$E2_208A_2_4',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
+	'maxlength' => '1',
 );
-	$E2_208A_2_5=array(
+$E2_208A_2_5=array(
 	'id'=>'E2_208A_2_5',
 	'name'=>'E2_208A_2_5',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_2_6=array(
+$E2_208A_2_6=array(
 	'id'=>'E2_208A_2_6',
 	'name'=>'E2_208A_2_6',
-	'class'=>'form-control',	
+	'class'=>'form-control canasta',	
+	'maxlength' => '1',
 );
-	$E2_208A_2_6_O=array(
+$E2_208A_2_6_O=array(
 	'id'=>'E2_208A_2_6_O',
 	'name'=>'E2_208A_2_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 
 );
 
-	$E2_208A_2_7=array(
+$E2_208A_2_7=array(
 	'id'=>'E2_208A_2_7',
 	'name'=>'E2_208A_2_7',
-	'class'=>'form-control',
+	'class'=>'form-control canasta',
+	'maxlength' => '1',
 
 );	
 
 
 
-	$E2_208_3=array(
+$E2_208_3=array(
 	'id'=>'E2_208_3',
 	'name'=>'E2_208_3',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 
-	$E2_208A_3_1=array(
+$E2_208A_3_1=array(
 	'id'=>'E2_208A_3_1',
 	'name'=>'E2_208A_3_1',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 
 );
 
-	$E2_208A_3_2=array(
+$E2_208A_3_2=array(
 	'id'=>'E2_208A_3_2',
 	'name'=>'E2_208A_3_2',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 
 );
-	$E2_208A_3_3=array(
+$E2_208A_3_3=array(
 	'id'=>'E2_208A_3_3',
 	'name'=>'E2_208A_3_3',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208A_3_4=array(
+$E2_208A_3_4=array(
 	'id'=>'E2_208A_3_4',
 	'name'=>'E2_208A_3_4',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_3_5=array(
+$E2_208A_3_5=array(
 	'id'=>'E2_208A_3_5',
 	'name'=>'E2_208A_3_5',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 		
 );
-	$E2_208A_3_6=array(
+$E2_208A_3_6=array(
 	'id'=>'E2_208A_3_6',
 	'name'=>'E2_208A_3_6',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 	
 );
-	$E2_208A_3_6_O=array(
+$E2_208A_3_6_O=array(
 	'id'=>'E2_208A_3_6_O',
 	'name'=>'E2_208A_3_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 	
 );
-	$E2_208A_3_7=array(
+$E2_208A_3_7=array(
 	'id'=>'E2_208A_3_7',
 	'name'=>'E2_208A_3_7',
-	'class'=>'form-control',
+	'class'=>'form-control papilla',
+	'maxlength' => '1',
 
 );
 
 
-	$E2_208_4=array(
+$E2_208_4=array(
 	'id'=>'E2_208_4',
 	'name'=>'E2_208_4',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 
-	$E2_208A_4_1=array(
+$E2_208A_4_1=array(
 	'id'=>'E2_208A_4_1',
 	'name'=>'E2_208A_4_1',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
+	'maxlength' => '1',
 	
 );
 
-	$E2_208A_4_2=array(
+$E2_208A_4_2=array(
 	'id'=>'E2_208A_4_2',
 	'name'=>'E2_208A_4_2',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
+	'maxlength' => '1',
 
 );
-	$E2_208A_4_3=array(
+
+$E2_208A_4_3=array(
 	'id'=>'E2_208A_4_3',
 	'name'=>'E2_208A_4_3',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
+	'maxlength' => '1',
 
 );
 
-	$E2_208A_4_4=array(
+$E2_208A_4_4=array(
 	'id'=>'E2_208A_4_4',
 	'name'=>'E2_208A_4_4',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
 	'maxlength' => '1',	
 );
-	$E2_208A_4_5=array(
+
+$E2_208A_4_5=array(
 	'id'=>'E2_208A_4_5',
 	'name'=>'E2_208A_4_5',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
 	'maxlength' => '1',	
 );
-	$E2_208A_4_6=array(
+
+$E2_208A_4_6=array(
 	'id'=>'E2_208A_4_6',
 	'name'=>'E2_208A_4_6',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
 	'maxlength' => '1',	
 );
-	$E2_208A_4_6_O=array(
+
+$E2_208A_4_6_O=array(
 	'id'=>'E2_208A_4_6_O',
 	'name'=>'E2_208A_4_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control cpopular',
+	'maxlength' => '20',
+	'disabled' => 'disabled',	
 );
-	$E2_208A_4_7=array(
+
+$E2_208A_4_7=array(
 	'id'=>'E2_208A_4_7',
 	'name'=>'E2_208A_4_7',
-	'class'=>'form-control',
+	'class'=>'form-control cpopular',
 	'maxlength' => '1',
 );
 
 
-	$E2_208_5=array(
-	'id'=>'$E2_208_5',
-	'name'=>'$E2_208_5',
-	'class'=>'form-control',
+$E2_208_5=array(
+	'id'=>'E2_208_5',
+	'name'=>'E2_208_5',
+	'class'=>'form-control change',
 );
 
 
-	$E2_208A_5_1=array(
-	'id'=>'$E2_208A_5_1',
-	'name'=>'$E2_208A_5_1',
-	'class'=>'form-control',
+$E2_208A_5_1=array(
+	'id'=>'E2_208A_5_1',
+	'name'=>'E2_208A_5_1',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_5_2=array(
+$E2_208A_5_2=array(
 	'id'=>'E2_208A_5_2',
 	'name'=>'E2_208A_5_2',
-	'class'=>'form-control',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',	
 );
-	$E2_208A_5_3=array(
+
+$E2_208A_5_3=array(
 	'id'=>'E2_208A_5_3',
 	'name'=>'E2_208A_5_3',
-	'class'=>'form-control',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_5_4=array(
+$E2_208A_5_4=array(
 	'id'=>'E2_208A_5_4',
 	'name'=>'E2_208A_5_4',
-	'class'=>'form-control',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',	
 );
-	$E2_208A_5_5=array(
+
+$E2_208A_5_5=array(
 	'id'=>'E2_208A_5_5',
 	'name'=>'E2_208A_5_5',
-	'class'=>'form-control',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',	
 );
-	$E2_208A_5_6=array(
+
+$E2_208A_5_6=array(
 	'id'=>'E2_208A_5_6',
 	'name'=>'E2_208A_5_6',
-	'class'=>'form-control',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',	
 );
-	$E2_208A_5_6_O=array(
+
+$E2_208A_5_6_O=array(
 	'id'=>'E2_208A_5_6_O',
 	'name'=>'E2_208A_5_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control desayuno',
+	'maxlength' => '20',
+	'disabled' => 'disabled',	
 );
-	$E2_208A_5_7=array(
+
+$E2_208A_5_7=array(
 	'id'=>'E2_208A_5_7',
 	'name'=>'E2_208A_5_7',
-	'class'=>'form-control',
+	'class'=>'form-control desayuno',
 	'maxlength' => '1',
 );
 
 
-	$E2_208_6=array(
+$E2_208_6=array(
 	'id'=>'E2_208_6',
 	'name'=>'E2_208_6',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 
-	$E2_208A_6_1=array(
+$E2_208A_6_1=array(
 	'id'=>'E2_208A_6_1',
 	'name'=>'E2_208A_6_1',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_6_2=array(
+$E2_208A_6_2=array(
 	'id'=>'E2_208A_6_2',
 	'name'=>'E2_208A_6_2',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',	
 );
-	$E2_208A_6_3=array(
+
+$E2_208A_6_3=array(
 	'id'=>'E2_208A_6_3',
 	'name'=>'E2_208A_6_3',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_6_4=array(
+$E2_208A_6_4=array(
 	'id'=>'E2_208A_6_4',
 	'name'=>'E2_208A_6_4',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',	
 );
-	$E2_208A_6_5=array(
+
+$E2_208A_6_5=array(
 	'id'=>'E2_208A_6_5',
 	'name'=>'E2_208A_6_5',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',	
 );
-	$E2_208A_6_6=array(
+
+$E2_208A_6_6=array(
 	'id'=>'E2_208A_6_6',
 	'name'=>'E2_208A_6_6',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',	
 );
-	$E2_208A_6_6_O=array(
+
+$E2_208A_6_6_O=array(
 	'id'=>'E2_208A_6_6_O',
 	'name'=>'E2_208A_6_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control uniforme',
+	'maxlength' => '20',
+	'disabled' => 'disabled',	
 );
-	$E2_208A_6_7=array(
+
+$E2_208A_6_7=array(
 	'id'=>'E2_208A_6_7',
 	'name'=>'E2_208A_6_7',
-	'class'=>'form-control',
+	'class'=>'form-control uniforme',
 	'maxlength' => '1',
 );
 
-	$E2_208_7=array(
-	'id'=>'$E2_208_7',
-	'name'=>'$E2_208_7',
-	'class'=>'form-control',
+$E2_208_7=array(
+	'id'=>'E2_208_7',
+	'name'=>'E2_208_7',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 
-	$E2_208A_7_1=array(
+$E2_208A_7_1=array(
 	'id'=>'E2_208A_7_1',
 	'name'=>'E2_208A_7_1',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_7_2=array(
+$E2_208A_7_2=array(
 	'id'=>'E2_208A_7_2',
 	'name'=>'E2_208A_7_2',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
-	$E2_208A_7_3=array(
+
+$E2_208A_7_3=array(
 	'id'=>'E2_208A_7_3',
 	'name'=>'E2_208A_7_3',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_7_4=array(
+$E2_208A_7_4=array(
 	'id'=>'E2_208A_7_4',
 	'name'=>'E2_208A_7_4',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
-	$E2_208A_7_5=array(
+$E2_208A_7_5=array(
 	'id'=>'E2_208A_7_5',
 	'name'=>'E2_208A_7_5',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
-	$E2_208A_7_6=array(
+$E2_208A_7_6=array(
 	'id'=>'E2_208A_7_6',
 	'name'=>'E2_208A_7_6',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
-	$E2_208A_7_6_O=array(
+$E2_208A_7_6_O=array(
 	'id'=>'E2_208A_7_6_O',
 	'name'=>'E2_208A_7_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',	
 );
-	$E2_208A_7_7=array(
+
+$E2_208A_7_7=array(
 	'id'=>'E2_208A_7_7',
 	'name'=>'E2_208A_7_7',
-	'class'=>'form-control',
+	'class'=>'form-control texto',
 	'maxlength' => '1',
 );
 
 
-	$E2_208_8=array(
+$E2_208_8=array(
 	'id'=>'E2_208_8',
 	'name'=>'E2_208_8',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
 
-	$E2_208A_8_1=array(
+$E2_208A_8_1=array(
 	'id'=>'E2_208A_8_1',
 	'name'=>'E2_208A_8_1',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_8_2=array(
+$E2_208A_8_2=array(
 	'id'=>'E2_208A_8_2',
 	'name'=>'E2_208A_8_2',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
 );
-	$E2_208A_8_3=array(
+
+$E2_208A_8_3=array(
 	'id'=>'E2_208A_8_3',
 	'name'=>'E2_208A_8_3',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_8_4=array(
+$E2_208A_8_4=array(
 	'id'=>'E2_208A_8_4',
 	'name'=>'E2_208A_8_4',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
 );
-	$E2_208A_8_5=array(
+
+$E2_208A_8_5=array(
 	'id'=>'E2_208A_8_5',
 	'name'=>'E2_208A_8_5',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
 );
-	$E2_208A_8_6=array(
+
+$E2_208A_8_6=array(
 	'id'=>'E2_208A_8_6',
 	'name'=>'E2_208A_8_6',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
 );
-	$E2_208A_8_6_O=array(
+
+$E2_208A_8_6_O=array(
 	'id'=>'E2_208A_8_6_O',
 	'name'=>'E2_208A_8_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',	
+	'disabled' => 'disabled',
 );
-	$E2_208A_8_7=array(
+
+$E2_208A_8_7=array(
 	'id'=>'E2_208A_8_7',
 	'name'=>'E2_208A_8_7',
-	'class'=>'form-control',
+	'class'=>'form-control seguro',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_9=array(
+$E2_208_9=array(
 	'id'=>'E2_208_9',
 	'name'=>'E2_208_9',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_9_1=array(
+$E2_208A_9_1=array(
 	'id'=>'E2_208A_9_1',
 	'name'=>'E2_208A_9_1',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_9_2=array(
+$E2_208A_9_2=array(
 	'id'=>'E2_208A_9_2',
 	'name'=>'E2_208A_9_2',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
-	$E2_208A_9_3=array(
+
+$E2_208A_9_3=array(
 	'id'=>'E2_208A_9_3',
 	'name'=>'E2_208A_9_3',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_9_4=array(
+$E2_208A_9_4=array(
 	'id'=>'E2_208A_9_4',
 	'name'=>'E2_208A_9_4',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
-	$E2_208A_9_5=array(
+
+$E2_208A_9_5=array(
 	'id'=>'E2_208A_9_5',
 	'name'=>'E2_208A_9_5',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
-	$E2_208A_9_6=array(
+
+$E2_208A_9_6=array(
 	'id'=>'E2_208A_9_6',
 	'name'=>'E2_208A_9_6',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
-	$E2_208A_9_7=array(
+
+$E2_208A_9_7=array(
 	'id'=>'E2_208A_9_7',
 	'name'=>'E2_208A_9_7',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',	
 );
-	$E2_208A_9_6_O=array(
+
+$E2_208A_9_6_O=array(
 	'id'=>'E2_208A_9_6_O',
 	'name'=>'E2_208A_9_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control beca',
 	'maxlength' => '1',
+	'disabled' => 'disabled',
 );
 
-
-
-	$E2_208_10=array(
+$E2_208_10=array(
 	'id'=>'E2_208_10',
 	'name'=>'E2_208_10',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_10_1=array(
+$E2_208A_10_1=array(
 	'id'=>'E2_208A_10_1',
 	'name'=>'E2_208A_10_1',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_10_2=array(
+$E2_208A_10_2=array(
 	'id'=>'E2_208A_10_2',
 	'name'=>'E2_208A_10_2',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_10_3=array(
+
+$E2_208A_10_3=array(
 	'id'=>'E2_208A_10_3',
 	'name'=>'E2_208A_10_3',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_10_4=array(
+$E2_208A_10_4=array(
 	'id'=>'E2_208A_10_4',
 	'name'=>'E2_208A_10_4',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_10_5=array(
+
+$E2_208A_10_5=array(
 	'id'=>'E2_208A_10_5',
 	'name'=>'E2_208A_10_5',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_10_6=array(
+
+$E2_208A_10_6=array(
 	'id'=>'E2_208A_10_6',
 	'name'=>'E2_208A_10_6',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_10_6_O=array(
+
+$E2_208A_10_6_O=array(
 	'id'=>'E2_208A_10_6_O',
 	'name'=>'E2_208A_10_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control capacitacion',
+	'maxlength' => '20',	
+	'disabled' => 'disabled',
 );
-	$E2_208A_10_7=array(
+
+$E2_208A_10_7=array(
 	'id'=>'E2_208A_10_7',
 	'name'=>'E2_208A_10_7',
-	'class'=>'form-control',
+	'class'=>'form-control capacitacion',
 	'maxlength' => '1',
 );
 
-
-
-	$E2_208_11=array(
+$E2_208_11=array(
 	'id'=>'E2_208_11',
 	'name'=>'E2_208_11',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_11_1=array(
+$E2_208A_11_1=array(
 	'id'=>'E2_208A_11_1',
 	'name'=>'E2_208A_11_1',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_11_2=array(
+$E2_208A_11_2=array(
 	'id'=>'E2_208A_11_2',
 	'name'=>'E2_208A_11_2',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',	
 );
-	$E2_208A_11_3=array(
+
+$E2_208A_11_3=array(
 	'id'=>'E2_208A_11_3',
 	'name'=>'E2_208A_11_3',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_11_4=array(
+$E2_208A_11_4=array(
 	'id'=>'E2_208A_11_4',
 	'name'=>'E2_208A_11_4',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',	
 );
-	$E2_208A_11_5=array(
+
+$E2_208A_11_5=array(
 	'id'=>'E2_208A_11_5',
 	'name'=>'E2_208A_11_5',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',	
 );
-	$E2_208A_11_6=array(
+
+$E2_208A_11_6=array(
 	'id'=>'E2_208A_11_6',
 	'name'=>'E2_208A_11_6',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',	
 );
-	$E2_208A_11_6_O=array(
+
+$E2_208A_11_6_O=array(
 	'id'=>'E2_208A_11_6_O',
 	'name'=>'E2_208A_11_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control claboral',
+	'maxlength' => '20',	
+	'disabled' => 'disabled',
 );
-	$E2_208A_11_7=array(
+
+$E2_208A_11_7=array(
 	'id'=>'E2_208A_11_7',
 	'name'=>'E2_208A_11_7',
-	'class'=>'form-control',
+	'class'=>'form-control claboral',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_12=array(
+$E2_208_12=array(
 	'id'=>'E2_208_12',
 	'name'=>'E2_208_12',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_12_1=array(
+$E2_208A_12_1=array(
 	'id'=>'E2_208A_12_1',
 	'name'=>'E2_208A_12_1',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_12_2=array(
+$E2_208A_12_2=array(
 	'id'=>'E2_208A_12_2',
 	'name'=>'E2_208A_12_2',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',	
 );
-	$E2_208A_12_3=array(
+
+$E2_208A_12_3=array(
 	'id'=>'E2_208A_12_3',
 	'name'=>'E2_208A_12_3',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_12_4=array(
+$E2_208A_12_4=array(
 	'id'=>'E2_208A_12_4',
 	'name'=>'E2_208A_12_4',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',	
 );
-	$E2_208A_12_5=array(
+
+$E2_208A_12_5=array(
 	'id'=>'E2_208A_12_5',
 	'name'=>'E2_208A_12_5',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',	
 );
-	$E2_208A_12_6=array(
+
+$E2_208A_12_6=array(
 	'id'=>'E2_208A_12_6',
 	'name'=>'E2_208A_12_6',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',	
 );
-	$E2_208A_12_6_O=array(
+
+$E2_208A_12_6_O=array(
 	'id'=>'E2_208A_12_6_O',
 	'name'=>'E2_208A_12_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control control',
+	'maxlength' => '20',
+	'disabled' => 'disabled',	
 );
-	$E2_208A_12_7=array(
+
+$E2_208A_12_7=array(
 	'id'=>'E2_208A_12_7',
 	'name'=>'E2_208A_12_7',
-	'class'=>'form-control',
+	'class'=>'form-control control',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_13=array(
+$E2_208_13=array(
 	'id'=>'E2_208_13',
 	'name'=>'E2_208_13',
-	'class'=>'form-control',
+	'class'=>'form-control change',
 );
 
-
-	$E2_208A_13_1=array(
+$E2_208A_13_1=array(
 	'id'=>'E2_208A_13_1',
 	'name'=>'E2_208A_13_1',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_13_2=array(
+$E2_208A_13_2=array(
 	'id'=>'E2_208A_13_2',
 	'name'=>'E2_208A_13_2',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_13_3=array(
+
+$E2_208A_13_3=array(
 	'id'=>'E2_208A_13_3',
 	'name'=>'E2_208A_13_3',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_13_4=array(
+$E2_208A_13_4=array(
 	'id'=>'E2_208A_13_4',
 	'name'=>'E2_208A_13_4',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_13_5=array(
+
+$E2_208A_13_5=array(
 	'id'=>'E2_208A_13_5',
 	'name'=>'E2_208A_13_5',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_13_6=array(
+
+$E2_208A_13_6=array(
 	'id'=>'$E2_208A_13_6',
 	'name'=>'$E2_208A_13_6',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',	
 );
-	$E2_208A_13_6_O=array(
+	
+$E2_208A_13_6_O=array(
 	'id'=>'E2_208A_13_6_O',
 	'name'=>'E2_208A_13_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control planificacion',
+	'maxlength' => '20',	
+	'disabled' => 'disabled',
 );
-	$E2_208A_13_7=array(
+
+$E2_208A_13_7=array(
 	'id'=>'E2_208A_13_7',
 	'name'=>'E2_208A_13_7',
-	'class'=>'form-control',
+	'class'=>'form-control planificacion',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_14=array(
+$E2_208_14=array(
 	'id'=>'E2_208_14',
 	'name'=>'E2_208_14',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_14_1=array(
+$E2_208A_14_1=array(
 	'id'=>'E2_208A_14_1',
 	'name'=>'E2_208A_14_1',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_14_2=array(
+$E2_208A_14_2=array(
 	'id'=>'E2_208A_14_2',
 	'name'=>'E2_208A_14_2',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',	
 );
-	$E2_208A_14_3=array(
+
+$E2_208A_14_3=array(
 	'id'=>'E2_208A_14_3',
 	'name'=>'E2_208A_14_3',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_14_4=array(
+$E2_208A_14_4=array(
 	'id'=>'E2_208A_14_4',
 	'name'=>'E2_208A_14_4',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',	
 );
-	$E2_208A_14_5=array(
+
+$E2_208A_14_5=array(
 	'id'=>'E2_208A_14_5',
 	'name'=>'E2_208A_14_5',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',	
 );
-	$E2_208A_14_6=array(
+
+$E2_208A_14_6=array(
 	'id'=>'E2_208A_14_6',
 	'name'=>'E2_208A_14_6',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',	
 );
-	$E2_208A_14_6_O=array(
+
+$E2_208A_14_6_O=array(
 	'id'=>'E2_208A_14_6_O',
 	'name'=>'E2_208A_14_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control ctuberculosis',
+	'disabled' => 'disabled',
+	'maxlength' => '20',	
 );
-	$E2_208A_14_7=array(
+
+$E2_208A_14_7=array(
 	'id'=>'E2_208A_14_7',
 	'name'=>'E2_208A_14_7',
-	'class'=>'form-control',
+	'class'=>'form-control ctuberculosis',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_15=array(
+$E2_208_15=array(
 	'id'=>'E2_208_15',
 	'name'=>'E2_208_15',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_15_1=array(
+$E2_208A_15_1=array(
 	'id'=>'E2_208A_15_1',
 	'name'=>'E2_208A_15_1',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_15_2=array(
+$E2_208A_15_2=array(
 	'id'=>'E2_208A_15_2',
 	'name'=>'E2_208A_15_2',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
 );
-	$E2_208A_15_3=array(
+
+$E2_208A_15_3=array(
 	'id'=>'E2_208A_15_3',
 	'name'=>'E2_208A_15_3',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_15_4=array(
+$E2_208A_15_4=array(
 	'id'=>'E2_208A_15_4',
 	'name'=>'E2_208A_15_4',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
 );
-	$E2_208A_15_5=array(
+
+$E2_208A_15_5=array(
 	'id'=>'2_208A_15_5',
 	'name'=>'E2_208A_15_5',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
 );
-	$E2_208A_15_6=array(
+
+$E2_208A_15_6=array(
 	'id'=>'E2_208A_15_6',
 	'name'=>'E2_208A_15_6',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
 );
-	$E2_208A_15_6_O=array(
+
+$E2_208A_15_6_O=array(
 	'id'=>'E2_208A_15_6_O',
 	'name'=>'E2_208A_15_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',	
+	'disabled' => 'disabled',
 );
-	$E2_208A_15_7=array(
+
+$E2_208A_15_7=array(
 	'id'=>'E2_208A_15_7',
 	'name'=>'E2_208A_15_7',
-	'class'=>'form-control',
+	'class'=>'form-control programa',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_16=array(
+$E2_208_16=array(
 	'id'=>'E2_208_16',
 	'name'=>'E2_208_16',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_16_1=array(
+$E2_208A_16_1=array(
 	'id'=>'E2_208A_16_1',
 	'name'=>'E2_208A_16_1',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_16_2=array(
+$E2_208A_16_2=array(
 	'id'=>'E2_208A_16_2',
 	'name'=>'E2_208A_16_2',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',	
 );
-	$E2_208A_16_3=array(
+
+$E2_208A_16_3=array(
 	'id'=>'E2_208A_16_3',
 	'name'=>'E2_208A_16_3',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_16_4=array(
+$E2_208A_16_4=array(
 	'id'=>'E2_208A_16_4',
 	'name'=>'E2_208A_16_4',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',	
 );
-	$E2_208A_16_5=array(
+
+$E2_208A_16_5=array(
 	'id'=>'E2_208A_16_5',
 	'name'=>'E2_208A_16_5',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',	
 );
-	$E2_208A_16_6=array(
+
+$E2_208A_16_6=array(
 	'id'=>'E2_208A_16_6',
 	'name'=>'E2_208A_16_6',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',	
 );
-	$E2_208A_16_6_O=array(
+
+$E2_208A_16_6_O=array(
 	'id'=>'E2_208A_16_6_O',
 	'name'=>'E2_208A_16_6_O',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+	'class'=>'form-control cunamas',
+	'maxlength' => '20',	
+	'disabled' => 'disabled',
+
 );
-	$E2_208A_16_7=array(
+
+$E2_208A_16_7=array(
 	'id'=>'E2_208A_16_7',
 	'name'=>'E2_208A_16_7',
-	'class'=>'form-control',
+	'class'=>'form-control cunamas',
 	'maxlength' => '1',
 );
 
-
-	$E2_208_17=array(
+$E2_208_17=array(
 	'id'=>'E2_208_17',
 	'name'=>'E2_208_17',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_17_1=array(
+$E2_208A_17_1=array(
 	'id'=>'$E2_208A_17_1',
 	'name'=>'$E2_208A_17_1',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_17_2=array(
+$E2_208A_17_2=array(
 	'id'=>'E2_208A_17_2',
 	'name'=>'E2_208A_17_2',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',	
 );
-	$E2_208A_17_3=array(
+
+$E2_208A_17_3=array(
 	'id'=>'E2_208A_17_3',
 	'name'=>'E2_208A_17_3',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_17_4=array(
+$E2_208A_17_4=array(
 	'id'=>'E2_208A_17_4',
 	'name'=>'E2_208A_17_4',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',	
 );
-	$E2_208A_17_5=array(
+
+$E2_208A_17_5=array(
 	'id'=>'E2_208A_17_5',
 	'name'=>'E2_208A_17_5',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',	
 );
-	$E2_208A_17_6=array(
+
+$E2_208A_17_6=array(
 	'id'=>'E2_208A_17_6',
 	'name'=>'E2_208A_17_6',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',	
 );
-	$E2_208A_17_7=array(
-	'id'=>'E2_208A_17_7',
-	'name'=>'E2_208A_17_7',
-	'class'=>'form-control',
-	'maxlength' => '1',	
-);
-	$E2_208A_17_6_O=array(
+
+$E2_208A_17_6_O=array(
 	'id'=>'E2_208A_17_6_O',
 	'name'=>'E2_208A_17_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control juntos',
 	'maxlength' => '1',
+	'disabled' => 'disabled',
 );
 
-	$E2_208_18=array(
+$E2_208A_17_7=array(
+	'id'=>'E2_208A_17_7',
+	'name'=>'E2_208A_17_7',
+	'class'=>'form-control juntos',
+	'maxlength' => '1',	
+);
+	
+$E2_208_18=array(
 	'id'=>'E2_208_18',
 	'name'=>'E2_208_18',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 );
 
-
-	$E2_208A_18_1=array(
+$E2_208A_18_1=array(
 	'id'=>'E2_208A_18_1',
 	'name'=>'E2_208A_18_1',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_18_2=array(
+$E2_208A_18_2=array(
 	'id'=>'E2_208A_18_2',
 	'name'=>'E2_208A_18_2',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
 	'maxlength' => '1',	
 );
-	$E2_208A_18_3=array(
+
+$E2_208A_18_3=array(
 	'id'=>'E2_208A_18_3',
 	'name'=>'E2_208A_18_3',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_18_4=array(
+$E2_208A_18_4=array(
 	'id'=>'E2_208A_18_4',
 	'name'=>'E2_208A_18_4',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
 	'maxlength' => '1',	
 );
 	
-	$E2_208A_18_5=array(
+$E2_208A_18_5=array(
 	'id'=>'E2_208A_18_5',
 	'name'=>'E2_208A_18_5',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
 	'maxlength' => '1',	
 );
-	$E2_208A_18_6=array(
+
+$E2_208A_18_6=array(
 	'id'=>'E2_208A_18_6',
 	'name'=>'E2_208A_18_6',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
 	'maxlength' => '1',	
 );
-	$E2_208A_18_6_O=array(
+
+$E2_208A_18_6_O=array(
 	'id'=>'E2_208A_18_6_O',
 	'name'=>'E2_208A_18_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control pension65',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
+);
+
+$E2_208A_18_7=array(
+	'id'=>'E2_208A_18_7',
+	'name'=>'E2_208A_18_7',
+	'class'=>'form-control pension65',
+	'maxlength' => '1',	
+);
+
+$E2_208_19=array(
+	'id'=>'E2_208_19',
+	'name'=>'E2_208_19',
+	'class'=>'form-control change',
 	'maxlength' => '1',
 );
 
-
-	$E2_208A_18_7=array(
-	'id'=>'E2_208A_18_7',
-	'name'=>'E2_208A_18_7',
-	'class'=>'form-control',
-	'maxlength' => '1',	
-);
-
-
-
-	$E2_208_19=array(
-	'id'=>'E2_208_19',
-	'name'=>'E2_208_19',
-	'class'=>'form-control',
-);
-
-	$E2_208_19_O=array(
+$E2_208_19_O=array(
 	'id'=>'E2_208_19_O',
 	'name'=>'E2_208_19_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
 );
 
-	$E2_208A_19_1=array(
+$E2_208A_19_1=array(
 	'id'=>'E2_208A_19_1',
 	'name'=>'E2_208A_19_1',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_19_2=array(
+$E2_208A_19_2=array(
 	'id'=>'E2_208A_19_2',
 	'name'=>'E2_208A_19_2',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_19_3=array(
+$E2_208A_19_3=array(
 	'id'=>'E2_208A_19_3',
 	'name'=>'E2_208A_19_3',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
 	'maxlength' => '1',	
 );
 
-	$E2_208A_19_4=array(
+$E2_208A_19_4=array(
 	'id'=>'E2_208A_19_4',
 	'name'=>'E2_208A_19_4',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
 	'maxlength' => '1',	
 );
 	
-	$E2_208A_19_5=array(
+$E2_208A_19_5=array(
 	'id'=>'E2_208A_19_5',
 	'name'=>'E2_208A_19_5',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
 	'maxlength' => '1',	
 );
-	$E2_208A_19_6=array(
+
+$E2_208A_19_6=array(
 	'id'=>'E2_208A_19_6',
 	'name'=>'E2_208A_19_6',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
 	'maxlength' => '1',	
 );
-	$E2_208A_19_6_O=array(
+
+$E2_208A_19_6_O=array(
 	'id'=>'E2_208A_19_6_O',
 	'name'=>'E2_208A_19_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro6',
+	'maxlength' => '20',
+	'disabled' => 'disabled',
+);
+
+$E2_208A_19_7=array(
+	'id'=>'E2_208A_19_7',
+	'name'=>'E2_208A_19_7',
+	'class'=>'form-control otro6',
+	'maxlength' => '1',	
+);
+
+$E2_209=array(
+	'id'=>'E2_209',
+	'name'=>'E2_209',
+	'class'=>'form-control change',
+	'maxlength' => '1',
+);
+
+$E2_210=array(
+	'id'=>'E2_210',
+	'name'=>'E2_210',
+	'class'=>'form-control consultas_habitantes',
+	'maxlength' => '1',
+);
+
+$E2_211_1=array(
+	'id'=>'E2_211_1',
+	'name'=> 'E2_211_1',
+	'class'=>'form-control change',
 	'maxlength' => '1',
 );
 
 
-	$E2_208A_19_7=array(
-	'id'=>'E2_208A_19_7',
-	'name'=>'E2_208A_19_7',
-	'class'=>'form-control',
-	'maxlength' => '1',	
+$E2_211A_1_M=array(
+	'id'=>'E2_211A_1_M',
+	'name'=> 'E2_211A_1_M',
+	'class'=>'form-control adistrital',
+	'maxlength' => '2',
 );
 
-	$E2_209=array(
-		'id'=>'E2_209',
-		'name'=>'E2_209',
-		'class'=>'form-control',
-	);
-
-	$E2_210=array(
-		'id'=>'E2_210',
-		'name'=>'E2_210',
-		'class'=>'form-control consultas_habitantes',
-	);
-
-	$E2_211_1=array(
-		'id'=>'E2_211_1',
-		'name'=> 'E2_211_1',
-		'class'=>'form-control',
-	);
+$E2_211A_1_A=array(
+	'id'=>'E2_211A_1_A',
+	'name'=> 'E2_211A_1_A',
+	'class'=>'form-control adistrital',
+	'maxlength' => '4',
+);
 
 
-	$E2_211A_1_M=array(
-		'id'=>'E2_211A_1_M',
-		'name'=> 'E2_211A_1_M',
-		'class'=>'form-control',
-	);
-
-	$E2_211A_1_A=array(
-		'id'=>'E2_211A_1_A',
-		'name'=> 'E2_211A_1_A',
-		'class'=>'form-control',
-	);
+$E2_211_2=array(
+	'id'=>'E2_211_2',
+	'name'=> 'E2_211_2',
+	'class'=>'form-control change',
+	'maxlength' => '1',
+);
 
 
-	$E2_211_2=array(
-		'id'=>'E2_211_2',
-		'name'=> 'E2_211_2',
-		'class'=>'form-control',
-	);
+$E2_211A_2_M=array(
+	'id'=>'E2_211A_2_M',
+	'name'=> 'E2_211A_2_M',
+	'class'=>'form-control aprovincial',
+	'maxlength' => '2',
+);
+
+$E2_211A_2_A=array(
+	'id'=>'E2_211A_2_A',
+	'name'=> 'E2_211A_2_A',
+	'class'=>'form-control aprovincial',
+	'maxlength' => '4',
+);
 
 
-	$E2_211A_2_M=array(
-		'id'=>'E2_211A_2_M',
-		'name'=> 'E2_211A_2_M',
-		'class'=>'form-control',
-	);
-
-	$E2_211A_2_A=array(
-		'id'=>'E2_211A_2_A',
-		'name'=> 'E2_211A_2_A',
-		'class'=>'form-control',
-	);
+$E2_211_3=array(
+	'id'=>'E2_211_3',
+	'name'=> 'E2_211_3',
+	'class'=>'form-control change',
+	'maxlength' => '1',
+);
 
 
-	$E2_211_3=array(
-		'id'=>'E2_211_3',
-		'name'=> 'E2_211_3',
-		'class'=>'form-control',
-	);
+$E2_211A_3_M=array(
+	'id'=>'E2_211A_3_M',
+	'name'=> 'E2_211A_3_M',
+	'class'=>'form-control pregional',
+	'maxlength' => '2',
+);
 
-
-	$E2_211A_3_M=array(
-		'id'=>'E2_211A_3_M',
-		'name'=> 'E2_211A_3_M',
-		'class'=>'form-control',
-	);
-
-	$E2_211A_3_A=array(
+$E2_211A_3_A=array(
 	'id'=>'E2_211A_3_A',
 	'name'=> 'E2_211A_3_A',
-	'class'=>'form-control',
-	);
+	'class'=>'form-control pregional',
+	'maxlength' => '4',
+);
 
-	$E2_211_4=array(
-		'id'=>'E2_211_4',
-		'name'=> 'E2_211_4',
-		'class'=>'form-control',
-	);
-
-
-	$E2_211A_4_M=array(
-		'id'=>'E2_211A_4_M',
-		'name'=> 'E2_211A_4_M',
-		'class'=>'form-control',
-	);
-
-	$E2_211A_4_A=array(
-		'id'=>'E2_211A_4_A',
-		'name'=> 'E2_211A_4_A',
-		'class'=>'form-control',
-	);
-
-	$E2_211A_5_M=array(
-	'id'=>'E2_211A_5_M',
-	'name'=> '$E2_211A_5_M',
-	'class'=>'form-control',
-	);
+$E2_211_4=array(
+	'id'=>'E2_211_4',
+	'name'=> 'E2_211_4',
+	'class'=>'form-control change',
+	'maxlength' => '1',
+);
 
 
-	$E2_211A_5_A=array(
-	'id'=>'E2_211A_5_A',
-	'name'=> 'E2_211A_5_A',
-	'class'=>'form-control',
-	);
+$E2_211A_4_M=array(
+	'id'=>'E2_211A_4_M',
+	'name'=> 'E2_211A_4_M',
+	'class'=>'form-control rministro',
+	'maxlength' => '2',
+);
 
-	$E2_211_5=array(
+$E2_211A_4_A=array(
+	'id'=>'E2_211A_4_A',
+	'name'=> 'E2_211A_4_A',
+	'class'=>'form-control rministro',
+	'maxlength' => '4',
+);
+
+$E2_211_5=array(
 	'id'=>'E2_211_5',
 	'name'=> 'E2_211_5',
-	'class'=>'form-control',
-	);
+	'class'=>'form-control change',
+	'maxlength' => '1',
+);
 
-	$E2_211_6=array(
+
+$E2_211A_5_M=array(
+	'id'=>'E2_211A_5_M',
+	'name'=> '$E2_211A_5_M',
+	'class'=>'form-control psocial',
+	'maxlength' => '2',
+);
+
+
+$E2_211A_5_A=array(
+	'id'=>'E2_211A_5_A',
+	'name'=> 'E2_211A_5_A',
+	'class'=>'form-control psocial',
+	'maxlength' => '4',
+);
+
+	
+
+$E2_211_6=array(
 	'id'=>'E2_211_6',
 	'name'=> '$E2_211_6',
-	'class'=>'form-control',
-	);
+	'class'=>'form-control change',
+	'maxlength' => '1',
+);
 
 
-	$E2_211A_6_A=array(
+$E2_211A_6_A=array(
 	'id'=>'E2_211A_6_A',
 	'name'=> 'E2_211A_6_A',
-	'class'=>'form-control',
-	);
+	'class'=>'form-control pnacional',
+	'maxlength' => '4',
+);
 
-	$E2_211A_6_M=array(
+$E2_211A_6_M=array(
 	'id'=>'E2_211A_6_M',
 	'name'=> 'E2_211A_6_M',
-	'class'=>'form-control',
+	'class'=>'form-control pnacional',
+	'maxlength' => '2',
 	);
 
-	$E2_211_7=array(
-	'id'=>'$E2_211_7',
-	'name'=> '$E2_211_7',
-	'class'=>'form-control',
+$E2_211_7=array(
+	'id'=>'E2_211_7',
+	'name'=> 'E2_211_7',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 	);
 
 
-	$E2_211A_7_M=array(
+$E2_211A_7_M=array(
 	'id'=>'E2_211A_7_M',
 	'name'=> 'E2_211A_7_M',
-	'class'=>'form-control',
+	'class'=>'form-control rministerio',
+	'maxlength' => '2',
 	);
 
-	$E2_211A_7_A=array(
+$E2_211A_7_A=array(
 	'id'=>'E2_211A_7_A',
 	'name'=> 'E2_211A_7_A',
-	'class'=>'form-control',
+	'class'=>'form-control rministerio',
+	'maxlength' => '4',
 	);
 
-	$E2_211_8=array(
+$E2_211_8=array(
 	'id'=>'E2_211_8',
 	'name'=> '$E2_211_8',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',
 	);
 
 
-	$E2_211A_8_M=array(
+$E2_211A_8_M=array(
 	'id'=>'E2_211A_8_M',
 	'name'=> 'E2_211A_8_M',
-	'class'=>'form-control',
+	'class'=>'form-control otro7',
+	'maxlength' => '2',
 	);
 
-	$E2_211A_8_A=array(
+$E2_211A_8_A=array(
 	'id'=>'E2_211A_8_A',
 	'name'=> 'E2_211A_8_A',
-	'class'=>'form-control',
+	'class'=>'form-control otro7',
+	'maxlength' => '4',
 	);
 
-	$E2_211_8_O=array(
+$E2_211_8_O=array(
 	'id'=>'E2_211A_8_O',
 	'name'=> 'E2_211A_8_O',
+	'class'=>'form-control otro7',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
+	);
+
+$E2_212_1_Prov=array(
+	'id' => 'E2_212_1_Prov',
+	'name' => 'E2_212_1_Prov',
+	'class' => 'form-control',
+	'maxlength' => '30',
+	);
+
+$E2_212_2_Dist=array(
+	'id'=>'E2_212_2_Dist',
+	'name'=>'E2_212_2_Dist',
 	'class'=>'form-control',
+	'maxlength' => '30',
 	);
 
-		$E2_212_1_Prov=array(
-		'id' => 'E2_212_1_Prov',
-		'name' => 'E2_212_1_Prov',
-		'class' => 'form-control',
+$E2_212_1_Dist=array(
+	'id'=>'E2_212_1_Dist',
+	'name'=>'E2_212_1_Dist',
+	'class'=>'form-control',
+	'maxlength' => '30',
 	);
 
-	$E2_212_2_Dist=array(
-		'id'=>'E2_212_2_Dist',
-		'name'=>'E2_212_2_Dist',
-		'class'=>'form-control',
+$E2_212_1_CCPP=array(
+	'id'=>'E2_212_1_CCPP',
+	'name'=>'E2_212_1_CCPP',
+	'class'=>'form-control',
+	'maxlength' => '30',
 	);
 
-	$E2_212_1_Dist=array(
-		'id'=>'E2_212_1_Dist',
-		'name'=>'E2_212_1_Dist',
-		'class'=>'form-control',
+$E2_212_2_Prov=array(
+	'id' => 'E2_212_2_Prov',
+	'name' => 'E2_212_2_Prov',
+	'class '=> 'form-control',
+	'maxlength' => '30',
+	);
+$E2_212_2_CCPP=array(
+	'id'=>'E2_212_2_CCPP',
+	'name'=>'E2_212_2_CCPP',
+	'class'=>'form-control',
+	'maxlength' => '30',
 	);
 
-	$E2_212_1_CCPP=array(
-		'id'=>'E2_212_1_CCPP',
-		'name'=>'E2_212_1_CCPP',
-		'class'=>'form-control',
-	);
+$button_2=array(
+	'id'=>'button_2',
+	'name'=> 'button_2',
+	'class'=>'btn btn-primary',
+	'value'=>'Guardar',
 
-	$E2_212_2_Prov=array(
-		'id' => 'E2_212_2_Prov',
-		'name' => 'E2_212_2_Prov',
-		'class '=> 'form-control',
 	);
-	$E2_212_2_CCPP=array(
-		'id'=>'E2_212_2_CCPP',
-		'name'=>'E2_212_2_CCPP',
-		'class'=>'form-control',
-	);
-
 
 ?>
 
@@ -2395,20 +2645,20 @@ $E2_208_1=array(
 							<td> Frecuencia </td>
 						</tr>
 						<tr>	
-							<td> 1. Asambleas comunales <?php echo form_input ($E2_204_1); ?> </td>
-							<td> <?php echo form_input ($E2_204_Frec1); ?> </td>
+							<td> 1. Asambleas comunales </td>
+							<td> <?php echo form_input($E2_204_1);  ?> </td>
 						</tr>
 						<tr>
-							<td> 2. Reuniones simples con los interesados <?php echo form_input ($E2_204_2); ?> </td>
-							<td> <?php echo form_input ($E2_204_Frec2); ?> </td>
+							<td> 2. Reuniones simples con los interesados </td>
+							<td> <?php echo form_input ($E2_204_2); ?> </td>
 						</tr>
 						<tr>
-							<td> 3. Otro? <?php echo form_input ($E2_204_3); ?> Especifique <?php echo form_input($E2_204_3_O);?> </td>
-							<td> <?php echo form_input ($E2_204_Frec3); ?> </td>
+							<td> 3. Otro?  </td>
+							<td> <?php echo form_input ($E2_204_3); ?> Especifique <?php echo form_input($E2_204_3_O);?> </td>
 						</tr>
 						<tr>
-							<td> 4. Otro? <?php echo form_input ($E2_204_4); ?> Especifique <?php echo form_input($E2_204_4_O);?>  </td>
-							<td> <?php echo form_input ($E2_204_Frec4); ?> </td>
+							<td> 4. Otro? </td>
+							<td> <?php echo form_input ($E2_204_4); ?> Especifique <?php echo form_input($E2_204_4_O);?> </td>
 						</tr>
 					</table>
 				</td>
@@ -2475,7 +2725,7 @@ $E2_208_1=array(
 
 						<tr>
 							<td> 9. Otro? </td>
-							<td> <?php echo form_input ($E2_205_9); ?> <br>  <?php echo form_input ($E2_205_9_O); ?> Especifique</br>  </td>
+							<td> <?php echo form_input ($E2_205_9); ?> <br> Especifique <?php echo form_input ($E2_205_9_O); ?> </br>  </td>
 							<td> <?php echo form_input ($E2_205A_9); ?> </td>
 						</tr>
 
@@ -2698,7 +2948,7 @@ $E2_208_1=array(
 							<td> <?php echo form_input ($E2_208A_1_3);?> </td>
 							<td> <?php echo form_input ($E2_208A_1_4);?> </td>
 							<td> <?php echo form_input ($E2_208A_1_5);?> </td>
-							<td colspan="2"><?php echo form_input ($E2_208A_1_6);?> <br> <?php echo form_input ($E2_208A_1_6_O);?> (Especifique)</br> </td>
+							<td colspan="2"><?php echo form_input ($E2_208A_1_6);?> <br> (Especifique) <?php echo form_input ($E2_208A_1_6_O);?> </br> </td>
 							<td> <?php echo form_input ($E2_208A_1_7); ?> </td>
 						</tr>
 						<tr>
@@ -2709,7 +2959,7 @@ $E2_208_1=array(
 							<td> <?php echo form_input($E2_208A_2_3);?> </td>
 							<td> <?php echo form_input($E2_208A_2_4);?> </td>
 							<td> <?php echo form_input($E2_208A_2_5);?> </td>
-							<td colspan="2"> <?php echo form_input($E2_208A_2_6);?> <br> <?php echo form_input($E2_208A_2_6_O); ?> (Especifique)</br> </td>
+							<td colspan="2"> <?php echo form_input($E2_208A_2_6);?> <br> (Especifique) <?php echo form_input($E2_208A_2_6_O); ?> </br> </td>
 							<td> <?php echo form_input($E2_208A_2_7); ?> </td>
 						</tr>
 						<tr>
@@ -2720,7 +2970,7 @@ $E2_208_1=array(
 							<td> <?php echo form_input($E2_208A_3_3);?> </td>
 							<td> <?php echo form_input($E2_208A_3_4);?> </td>
 							<td> <?php echo form_input($E2_208A_3_5);?> </td>
-							<td colspan="2"> <?php echo form_input($E2_208A_3_6);?> <br> <?php echo form_input($E2_208A_3_6_O);?> (Especifique)</br> </td>
+							<td colspan="2"> <?php echo form_input($E2_208A_3_6);?> <br> (Especifique) <?php echo form_input($E2_208A_3_6_O);?> </br> </td>
 							<td> <?php echo form_input($E2_208A_3_7);?> </td>
 						</tr>
 						<tr>
@@ -2731,7 +2981,7 @@ $E2_208_1=array(
 							<td> <?php echo form_input ($E2_208A_4_3); ?> </td>
 							<td> <?php echo form_input ($E2_208A_4_4); ?> </td>
 							<td> <?php echo form_input ($E2_208A_4_5); ?> </td>
-							<td colspan="2"> <?php echo form_input ($E2_208A_4_6); ?> <br> <?php echo form_input ($E2_208A_4_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"> <?php echo form_input ($E2_208A_4_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_4_6_O); ?> </br></td>
 							<td> <?php echo form_input ($E2_208A_4_7); ?> </td>
 						</tr>
 						<tr>
@@ -2742,7 +2992,7 @@ $E2_208_1=array(
 							<td> <?php echo form_input ($E2_208A_5_3); ?> </td>
 							<td> <?php echo form_input ($E2_208A_5_4); ?> </td>
 							<td> <?php echo form_input ($E2_208A_5_5); ?> </td>
-							<td colspan="2"> <?php echo form_input ($E2_208A_5_6); ?> <br> <?php echo form_input ($E2_208A_5_6_O); ?> (Especifique)</br> </td>
+							<td colspan="2"> <?php echo form_input ($E2_208A_5_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_5_6_O); ?> </br> </td>
 							<td> <?php echo form_input ($E2_208A_5_7); ?> </td>
 						</tr>
 						
@@ -2754,7 +3004,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_6_3); ?></td>
 							<td><?php echo form_input ($E2_208A_6_4); ?></td>
 							<td><?php echo form_input ($E2_208A_6_5); ?></td>
-							<td colspan="2"> <?php echo form_input ($E2_208A_6_6); ?> <br> <?php echo form_input ($E2_208A_6_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"> <?php echo form_input ($E2_208A_6_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_6_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_6_7); ?></td>
 						</tr>
  						
@@ -2766,7 +3016,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_7_3); ?></td>
 							<td><?php echo form_input ($E2_208A_7_4); ?></td>
 							<td><?php echo form_input ($E2_208A_7_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_7_6); ?> <br> <?php echo form_input ($E2_208A_7_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_7_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_7_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_7_7); ?></td>
 						</tr>
 
@@ -2778,7 +3028,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_8_3); ?></td>
 							<td><?php echo form_input ($E2_208A_8_4); ?></td>
 							<td><?php echo form_input ($E2_208A_8_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_8_6); ?> <br> <?php echo form_input ($E2_208A_8_6_O); ?> (Especifique) </br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_8_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_8_6_O); ?>  </br></td>
 							<td><?php echo form_input ($E2_208A_8_7); ?></td>
 						</tr>
 						<tr>
@@ -2789,7 +3039,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_9_3); ?></td>
 							<td><?php echo form_input ($E2_208A_9_4); ?></td>
 							<td><?php echo form_input ($E2_208A_9_5); ?></td>
-							<td colspan="2"> <?php echo form_input ($E2_208A_9_6); ?> <br> <?php echo form_input ($E2_208A_9_6_O); ?> (Especifique)</br> </td>
+							<td colspan="2"> <?php echo form_input ($E2_208A_9_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_9_6_O); ?> </br> </td>
 							<td><?php echo form_input ($E2_208A_9_7); ?></td>
 						</tr>
 						<tr>
@@ -2800,7 +3050,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_10_3); ?></td>
 							<td><?php echo form_input ($E2_208A_10_4); ?></td>
 							<td><?php echo form_input ($E2_208A_10_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_10_6); ?> <br><?php echo form_input ($E2_208A_10_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_10_6); ?> <br> (Especifique)<?php echo form_input ($E2_208A_10_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_10_7); ?></td>
 						</tr>
 						<tr>
@@ -2811,7 +3061,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_11_3); ?></td>
 							<td><?php echo form_input ($E2_208A_11_4); ?></td>
 							<td><?php echo form_input ($E2_208A_11_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_11_6); ?> <br> <?php echo form_input ($E2_208A_11_6_O); ?> (Especifique) </br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_11_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_11_6_O); ?>  </br></td>
 							<td><?php echo form_input ($E2_208A_11_7); ?></td>
 						</tr>
 						<tr>
@@ -2822,7 +3072,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_12_3); ?></td>
 							<td><?php echo form_input ($E2_208A_12_4); ?></td>
 							<td><?php echo form_input ($E2_208A_12_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_12_6); ?> <br> <?php echo form_input ($E2_208A_12_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_12_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_12_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_12_7); ?></td>
 						</tr>
 						<tr>
@@ -2833,7 +3083,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_13_3); ?></td>
 							<td><?php echo form_input ($E2_208A_13_4); ?></td>
 							<td><?php echo form_input ($E2_208A_13_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_13_6); ?> <br> <?php echo form_input ($E2_208A_13_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_13_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_13_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_13_7); ?></td>
 						</tr>
 						<tr>
@@ -2844,7 +3094,7 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_14_3); ?></td>
 							<td><?php echo form_input ($E2_208A_14_4); ?></td>
 							<td><?php echo form_input ($E2_208A_14_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_14_6); ?> <br> <?php echo form_input ($E2_208A_14_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_14_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_14_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_14_7); ?></td>
 						</tr>
 						<tr>
@@ -2855,29 +3105,29 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_15_3); ?></td>
 							<td><?php echo form_input ($E2_208A_15_4); ?></td>
 							<td><?php echo form_input ($E2_208A_15_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_15_6); ?> <br> <?php echo form_input ($E2_208A_15_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_15_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_15_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_15_7); ?></td>
 						</tr>
 						<tr>
 							<td> 16. Cunamas? </td>
-						<td><?php echo form_input ($E2_208_7); ?></td>
+						<td><?php echo form_input ($E2_208_16); ?></td>
 							<td><?php echo form_input ($E2_208A_16_1); ?></td>
 							<td><?php echo form_input ($E2_208A_16_2); ?></td>
 							<td><?php echo form_input ($E2_208A_16_3); ?></td>
 							<td><?php echo form_input ($E2_208A_16_4); ?></td>
 							<td><?php echo form_input ($E2_208A_16_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_16_6); ?> <br> <?php echo form_input ($E2_208A_16_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_16_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_16_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_16_7); ?></td>
 						</tr>
 						<tr>
 							<td> 17. Programa JUNTOS? </td>
-							<td><?php echo form_input ($E2_208_7); ?></td>
+							<td><?php echo form_input ($E2_208_17); ?></td>
 							<td><?php echo form_input ($E2_208A_17_1); ?></td>
 							<td><?php echo form_input ($E2_208A_17_2); ?></td>
 							<td><?php echo form_input ($E2_208A_17_3); ?></td>
 							<td><?php echo form_input ($E2_208A_17_4); ?></td>
 							<td><?php echo form_input ($E2_208A_17_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_17_6); ?> <br> <?php echo form_input ($E2_208A_17_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_17_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_17_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_17_7); ?></td>
 						</tr>
 						<tr>
@@ -2888,19 +3138,19 @@ $E2_208_1=array(
 							<td><?php echo form_input ($E2_208A_18_3); ?></td>
 							<td><?php echo form_input ($E2_208A_18_4); ?></td>
 							<td><?php echo form_input ($E2_208A_18_5); ?></td>
-							<td colspan="2"><?php echo form_input ($E2_208A_18_6); ?> <br> <?php echo form_input ($E2_208A_18_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"><?php echo form_input ($E2_208A_18_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_18_6_O); ?> </br></td>
 							<td><?php echo form_input ($E2_208A_18_7); ?></td>
 						</tr>
 						
 						<tr>
 							<td> 19. Otro? </td>
-							<td> <?php echo form_input ($E2_208_19); ?> <br> <?php echo form_input($E2_208_19_O);?> Especifique </br> </td>
+							<td> <?php echo form_input ($E2_208_19); ?> <br> (Especifique) <?php echo form_input($E2_208_19_O);?>  </br> </td>
 							<td> <?php echo form_input ($E2_208A_19_1); ?></td>
 							<td> <?php echo form_input ($E2_208A_19_2); ?></td>
 							<td> <?php echo form_input ($E2_208A_19_3); ?></td>
 							<td> <?php echo form_input ($E2_208A_19_4); ?></td>
 							<td> <?php echo form_input ($E2_208A_19_5); ?></td>
-							<td colspan="2"> <?php echo form_input ($E2_208A_19_6); ?> <br> <?php echo form_input ($E2_208A_19_6_O); ?> (Especifique)</br></td>
+							<td colspan="2"> <?php echo form_input ($E2_208A_19_6); ?> <br> (Especifique) <?php echo form_input ($E2_208A_19_6_O); ?> </br></td>
 							<td> <?php echo form_input ($E2_208A_19_7); ?></td>
 						</tr>
 				</table>
@@ -3008,7 +3258,7 @@ $E2_208_1=array(
 			</tr>
 			<tr>
 				<td> 8. Otro tipo de funcionario?</td>
-				<td> <?php echo form_input($E2_211_8);?> <br><?php echo form_input($E2_211_8_O);?> (Especifique) </br></td>
+				<td> <?php echo form_input($E2_211_8);?> <br>(Especifique) <?php echo form_input($E2_211_8_O);?>  </br></td>
 				<td> <?php echo form_input($E2_211A_8_M);?> </td>
 				<td> <?php echo form_input($E2_211A_8_A);?> </td>
 			</tr>
@@ -3050,15 +3300,180 @@ $E2_208_1=array(
 
 </table>
 
+
+
 </form>
 
-<button>
+<div class="row">
+	<div class="pull-right">
+		<?php echo form_submit($button_2); ?>
+	</div>
+</div>
 
-Enviar
+<?php echo form_close(); ?>
 
-</button>
+
+
 
 <script type="text/javascript">
+
+$('#E2_201_1').change(function(event)
+{
+	if( $('#E2_201_1').val()=='2')
+	{
+		$('.jefe').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.jefe').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_2').change(function(event)
+{
+	if( $('#E2_201_2').val()=='2')
+	{
+		$('.viceapu').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.viceapu').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_3').change(function(event)
+{
+	if( $('#E2_201_3').val()=='2')
+	{
+		$('.tesorero').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.tesorero').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_4').change(function(event)
+{
+	if( $('#E2_201_4').val()=='2')
+	{
+		$('.secretario').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.secretario').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_5').change(function(event)
+{
+	if( $('#E2_201_5').val()=='2')
+	{
+		$('.presidente').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.presidente').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_6').change(function(event)
+{
+	if( $('#E2_201_6').val()=='2')
+	{
+		$('.pproductores').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.pproductores').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_7').change(function(event)
+{
+	if( $('#E2_201_7').val()=='2')
+	{
+		$('.pleche').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.pleche').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_8').change(function(event)
+{
+	if( $('#E2_201_8').val()=='2')
+	{
+		$('.amunicipal').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.amunicipal').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_9').change(function(event)
+{
+	if( $('#E2_201_9').val()=='2')
+	{
+		$('.mindigena').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.mindigena').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_10').change(function(event)
+{
+	if( $('#E2_201_10').val()=='2')
+	{
+		$('.otro1').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro1').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_11').change(function(event)
+{
+	if( $('#E2_201_11').val()=='2')
+	{
+		$('.otro2').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro2').removeAttr('disabled');
+	}
+});
+
+$('#E2_201_12').change(function(event)
+{
+	if( $('#E2_201_12').val()=='2')
+	{
+		$('.otro3').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro3').removeAttr('disabled');
+	}
+});
+
+
 
 $('#E2_203_4').change(function(event)
 {
@@ -3073,23 +3488,753 @@ $('#E2_203_4').change(function(event)
 	}
 });
 
-$('#E2_209').change(function(event) 
+
+$('#E2_205_1').change(function(event)
 {
-	
-	if( $('#E2_209').val()=='2')  
+	if( $('#E2_205_1').val()=='2')
 	{
+		$('.dirigentes').attr( 'disabled', 'disabled');
 
-		$('.consultas_habitantes').attr('disabled','disabled');
 	}
-
 	else
 	{
-		$('.consultas_habitantes').removeAttr('disabled');
+		$('.dirigentes').removeAttr('disabled');
+	}
+});
+
+$('#E2_205_2').change(function(event)
+{
+	if( $('#E2_205_2').val()=='2')
+	{
+		$('.madera').attr( 'disabled', 'disabled');
 
 	}
+	else
+	{
+		$('.madera').removeAttr('disabled');
+	}
+});
 
+$('#E2_205_3').change(function(event)
+{
+	if( $('#E2_205_3').val()=='2')
+	{
+		$('.productivo').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.productivo').removeAttr('disabled');
+	}
+});
+
+$('#E2_205_4').change(function(event)
+{
+	if( $('#E2_205_4').val()=='2')
+	{
+		$('.faena').attr( 'disabled', 'disabled');
+
+	}
+	else
+
+	{
+		$('.faena').removeAttr('disabled');
+	}
 });
 
 
+$('#E2_205_5').change(function(event)
+{
+	if( $('#E2_205_5').val()=='2')
+	{
+		$('.dfestivos').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.dfestivos').removeAttr('disabled');
+	}
+});
+
+
+$('#E2_205_6').change(function(event)
+{
+	if( $('#E2_205_6').val()=='2')
+	{
+		$('.fnativa').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.fnativa').removeAttr('disabled');
+	}
+});
+
+$('#E2_205_7').change(function(event)
+{
+	if( $('#E2_205_7').val()=='2')
+	{
+		$('.rcuenta').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.rcuenta').removeAttr('disabled');
+	}
+});
+
+$('#E2_205_8').change(function(event)
+{
+	if( $('#E2_205_8').val()=='2')
+	{
+		$('.gestion').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.gestion').removeAttr('disabled');
+	}
+});
+
+$('#E2_205_9').change(function(event)
+{
+	if( $('#E2_205_9').val()=='2')
+	{
+		$('.otro4').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro4').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_1').change(function(event)
+{
+	if( $('#E2_207_1').val()=='2')
+	{
+		$('.vleche').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.vleche').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_2').change(function(event)
+{
+	if( $('#E2_207_2').val()=='2')
+	{
+		$('.comedor').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.comedor').removeAttr('disabled');
+	}
+});
+
+
+$('#E2_207_3').change(function(event)
+{
+	if( $('#E2_207_3').val()=='2')
+	{
+		$('.club').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.club').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_4').change(function(event)
+{
+	if( $('#E2_207_4').val()=='2')
+	{
+		$('.asociacion').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.asociacion').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_5').change(function(event)
+{
+	if( $('#E2_207_5').val()=='2')
+	{
+		$('.comite').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.comite').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_6').change(function(event)
+{
+	if( $('#E2_207_6').val()=='2')
+	{
+		$('.cdeportivo').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.cdeportivo').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_7').change(function(event)
+{
+	if( $('#E2_207_7').val()=='2')
+	{
+		$('.apadre').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.apadre').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_8').change(function(event)
+{
+	if( $('#E2_207_8').val()=='2')
+	{
+		$('.clocal').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.clocal').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_9').change(function(event)
+{
+	if( $('#E2_207_9').val()=='2')
+	{
+		$('.acomerciante').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.acomerciante').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_10').change(function(event)
+{
+	if( $('#E2_207_10').val()=='2')
+	{
+		$('.aproductor').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.aproductor').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_11').change(function(event)
+{
+	if( $('#E2_207_11').val()=='2')
+	{
+		$('.jdirectiva').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.jdirectiva').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_12').change(function(event)
+{
+	if( $('#E2_207_12').val()=='2')
+	{
+		$('.nejecutor').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.nejecutor').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_13').change(function(event)
+{
+	if( $('#E2_207_13').val()=='2')
+	{
+		$('.cgestion').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.cgestion').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_14').change(function(event)
+{
+	if( $('#E2_207_14').val()=='2')
+	{
+		$('.apolitico').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.apolitico').removeAttr('disabled');
+	}
+});
+
+
+$('#E2_207_15').change(function(event)
+{
+	if( $('#E2_207_15').val()=='2')
+	{
+		$('.ccultural').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.ccultural').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_16').change(function(event)
+{
+	if( $('#E2_207_16').val()=='2')
+	{
+		$('.ong').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.ong').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_17').change(function(event)
+{
+	if( $('#E2_207_17').val()=='2')
+	{
+		$('.iglesia').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.iglesia').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_18').change(function(event)
+{
+	if( $('#E2_207_18').val()=='2')
+	{
+		$('.cconservacion').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.cconservacion').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_19').change(function(event)
+{
+	if( $('#E2_207_19').val()=='2')
+	{
+		$('.rcomunal').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.rcomunal').removeAttr('disabled');
+	}
+});
+
+$('#E2_207_20').change(function(event)
+{
+	if( $('#E2_207_20').val()=='2')
+	{
+		$('.otro5').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro5').removeAttr('disabled');
+	}
+});
+
+
+$('#E2_208_1').change(function(event)
+{
+	if( $('#E2_208_1').val()=='2')
+	{
+		$('.vleche2').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.vleche2').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_2').change(function(event)
+{
+	if( $('#E2_208_2').val()=='2')
+	{
+		$('.canasta').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.canasta').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_3').change(function(event)
+{
+	if( $('#E2_208_3').val()=='2')
+	{
+		$('.papilla').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.papilla').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_4').change(function(event)
+{
+	if( $('#E2_208_4').val()=='2')
+	{
+		$('.cpopular').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.cpopular').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_5').change(function(event)
+{
+	if( $('#E2_208_5').val()=='2')
+	{
+		$('.desayuno').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.desayuno').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_6').change(function(event)
+{
+	if( $('#E2_208_6').val()=='2')
+	{
+		$('.uniforme').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.uniforme').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_7').change(function(event)
+{
+	if( $('#E2_208_7').val()=='2')
+	{
+		$('.texto').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.texto').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_8').change(function(event)
+{
+	if( $('#E2_208_8').val()=='2')
+	{
+		$('.seguro').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.seguro').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_9').change(function(event)
+{
+	if( $('#E2_208_9').val()=='2')
+	{
+		$('.beca').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.beca').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_10').change(function(event)
+{
+	if( $('#E2_208_10').val()=='2')
+	{
+		$('.capacitacion').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.capacitacion').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_11').change(function(event)
+{
+	if( $('#E2_208_11').val()=='2')
+	{
+		$('.claboral').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.claboral').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_12').change(function(event)
+{
+	if( $('#E2_208_12').val()=='2')
+	{
+		$('.control').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.control').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_13').change(function(event)
+{
+	if( $('#E2_208_13').val()=='2')
+	{
+		$('.planificacion').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.planificacion').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_14').change(function(event)
+{
+	if( $('#E2_208_14').val()=='2')
+	{
+		$('.ctuberculosis').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.ctuberculosis').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_15').change(function(event)
+{
+	if( $('#E2_208_15').val()=='2')
+	{
+		$('.programa').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.programa').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_16').change(function(event)
+{
+	if( $('#E2_208_16').val()=='2')
+	{
+		$('.cunamas').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.cunamas').removeAttr('disabled');
+	}
+});
+
+
+$('#E2_208_17').change(function(event)
+{
+	if( $('#E2_208_17').val()=='2')
+	{
+		$('.juntos').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.juntos').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_18').change(function(event)
+{
+	if( $('#E2_208_18').val()=='2')
+	{
+		$('.pension65').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.pension65').removeAttr('disabled');
+	}
+});
+
+$('#E2_208_19').change(function(event)
+{
+	if( $('#E2_208_19').val()=='2')
+	{
+		$('.otro6').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro6').removeAttr('disabled');
+	}
+});
+
+$('#E2_209').change(function(event)
+{
+	if( $('#E2_209').val()=='2')
+	{
+		$('.consultas_habitantes').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.consultas_habitantes').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_1').change(function(event)
+{
+	if( $('#E2_211_1').val()=='2')
+	{
+		$('.adistrital').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.adistrital').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_2').change(function(event)
+{
+	if( $('#E2_211_2').val()=='2')
+	{
+		$('.aprovincial').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.aprovincial').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_3').change(function(event)
+{
+	if( $('#E2_211_3').val()=='2')
+	{
+		$('.pregional').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.pregional').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_4').change(function(event)
+{
+	if( $('#E2_211_4').val()=='2')
+	{
+		$('.rministro').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.rministro').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_5').change(function(event)
+{
+	if( $('#E2_211_5').val()=='2')
+	{
+		$('.psocial').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.psocial').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_6').change(function(event)
+{
+	if( $('#E2_211_6').val()=='2')
+	{
+		$('.pnacional').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.pnacional').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_7').change(function(event)
+{
+	if( $('#E2_211_7').val()=='2')
+	{
+		$('.rministerio').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.rministerio').removeAttr('disabled');
+	}
+});
+
+$('#E2_211_8').change(function(event)
+{
+	if( $('#E2_211_8').val()=='2')
+	{
+		$('.otro7').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.otro7').removeAttr('disabled');
+	}
+});
 
 </script>

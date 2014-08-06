@@ -4,12 +4,14 @@ $E2_Cuestionario_Nro = array(
 				'id' => 'E2_Cuestionario_Nro',
 				'name' => 'E2_Cuestionario_Nro',
 				'class' => 'form-control',
+				'maxlength' => '2',
 			);
 
 $Nombre_Dpto = array(
 				'id' => 'Nombre_Dpto',
 				'name' => 'Nombre_Dpto',
 				'class' => 'form-control',
+				'maxlength' => '35',
 			);
 
 $E2_A_1_Cod_Dpto = array(
@@ -23,36 +25,43 @@ $Nombre_Prov = array(
 				'id' => 'Nombre_Prov',
 				'name' => 'Nombre_Prov',
 				'class' => 'form-control',
+				'maxlength' => '35',
 			);
 
 $E2_A_2_Cod_Prov = array(
 				'id' => 'E2_A_2_Cod_Prov',
 				'name' => 'E2_A_2_Cod_Prov',
 				'class' => 'form-control',
+				'maxlength' => '2',
 			);
 
 $Nombre_Dist = array(
 				'id' => 'Nombre_Dist',
 				'name' => 'Nombre_Dist',
 				'class' => 'form-control',
+				'maxlength' => '35',
 			);
 
 $E2_A_3_Cod_Dist = array(
 				'id' => 'E2_A_3_Cod_Dist',
 				'name' => 'E2_A_3_Cod_Dist',
 				'class' => 'form-control',
+				'maxlength' => '2',
 			);
 
 $E2_A_4_Centro_Poblado = array(
 				'id' => 'E2_A_4_Centro_Poblado',
 				'name' => 'E2_A_4_Centro_Poblado',
 				'class' => 'form-control',
+				'maxlength' => '30',
+
 			);
 
 $E2_A_5_Comunidad_Nativa = array(
 				'id' => 'E2_A_5_Comunidad_Nativa',
 				'name' => 'E2_A_5_Comunidad_Nativa',
 				'class' => 'form-control',
+				'maxlength' => '30',
 			);
 
 
@@ -60,17 +69,19 @@ $E2_A_6_AER_Ini = array(
 			'id' => 'E2_A_6_AER_Ini',
 			'name' => 'E2_A_6_AER_Ini',
 			'class' => 'form-control',
+		    'maxlength' => '3',
 		);
 
 $E2_A_6_AER_Fin=array(
-			'id' => '$E2_A_6_AER_Fin',
-			'name' => '$E2_A_6_AER_Fin',
+			'id' => 'E2_A_6_AER_Fin',
+			'name' => 'E2_A_6_AER_Fin',
 			'class' => 'form-control',
+		    'maxlength' => '3',
 		);
 
 $Comunidad_Cod=array(
-	'id' => '$Comunidad_Cod',
-	'name' => '$Comunidad_Cod',
+	'id' => 'Comunidad_Cod',
+	'name' => 'Comunidad_Cod',
 	'class' => 'form-control',
 
 );
@@ -81,6 +92,7 @@ $E2_C7_Nombres = array(
 	'id' => 'E2_C7_Nombres',
 	'name' => 'E2_C7_Nombres',
 	'class' => 'form-control',
+	'maxlength' => '80',
 );
 
 
@@ -88,6 +100,7 @@ $E2_C7_Apellidos = array(
 	'id' => 'E2_C7_Apellidos',
 	'name' => 'E2_C7_Apellidos',
 	'class' => 'form-control',
+	'maxlength' => '80',
 );
 
 
@@ -95,6 +108,7 @@ $E2_D_V1_Ec_Fecha = array(
 	'id' => 'E2_D_V1_Ec_Fecha',
 	'name' => 'E2_D_V1_Ec_Fecha',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 
@@ -102,6 +116,7 @@ $E2_D_V1_Ec_Hini = array(
 	'id' => 'E2_D_V1_Ec_Hini',
 	'name' => 'E2_D_V1_Ec_Hini',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 
@@ -109,6 +124,7 @@ $E2_D_V1_Ec_Hfin = array(
 	'id' => 'E2_D_V1_Ec_Hfin',
 	'name' => 'E2_D_V1_Ec_Hfin',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 
@@ -116,24 +132,28 @@ $E2_D_V1_Ec_Prox_F = array(
 	'id' => 'E2_D_V1_Ec_Prox_F',
 	'name' => 'E2_D_V1_Ec_Prox_F',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D_V1_Ec_Prox_H= array(
 	'id' => 'E2_D_V1_Ec_Prox_H',
 	'name' => 'E2_D_V1_Ec_Prox_H',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D_V1_Ec_Res = array(
 	'id' => 'E2_D_V1_Ec_Res',
 	'name' => 'E2_D_V1_Ec_Res',
 	'class' => 'form-control',
+	'maxlength'=>'1',
 );
 
 $E2_D_V1_Ec_Res_O = array(
 	'id' => 'E2_D_V1_Ec_Res_O',
 	'name' => 'E2_D_V1_Ec_Res_O',
 	'class' => 'form-control',
+	'maxlength'=>'30',
 );
 
 
@@ -142,12 +162,14 @@ $E2_D_V2_Ec_Prox_F = array(
 	'id' => 'E2_D_V2_Ec_Prox_F',
 	'name' => 'E2_D_V2_Ec_Prox_F',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D_V2_Ec_Prox_H = array(
 	'id' => 'E2_D_V2_Ec_Prox_H',
 	'name' => 'E2_D_V2_Ec_Prox_H',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 
@@ -155,14 +177,16 @@ $E2_D_V2_Ec_Prox_H = array(
 $E2_D_V1_Je_Fecha=array(
 	'id' => 'E2_D_V1_Je_Fecha',
 	'name' => 'E2_D_V1_Je_Fecha',
-	'class' => 'form-control'
+	'class' => 'form-control',
+	'maxlength'=> '8',
 );
 
 
 $E2_D_V2_Je_Fecha=array(
 	'id' => 'E2_D_V2_Je_Fecha',
 	'name' => 'E2_D_V2_Je_Fecha',
-	'class' => 'form-control'
+	'class' => 'form-control',
+	'maxlength' => '8',
 );
 
 
@@ -171,24 +195,29 @@ $E2_D_V1_Je_Hini = array(
 	'id' => 'E2_D_V1_Je_Hini',
 	'name' => 'E2_D_V1_Je_Hini',
 	'class' => 'form-control',
+	'maxlength' => '8',
 );
 
 $E2_D_V1_Je_Hfin = array(
 	'id' => 'E2_D_V1_Je_Hfin',
 	'name' => 'E2_D_V1_Je_Hfin',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D_V1_Je_Res = array(
 	'id' => 'E2_D_V1_Je_Res',
 	'name' => 'E2_D_V1_Je_Res',
 	'class' => 'form-control',
+	'maxlength'=>'1',
 );
 
 $E2_D_V1_Je_Res_O = array(
 	'id' => 'E2_D_V1_Je_Res_O',
 	'name' => 'E2_D_V1_Je_Res_O',
 	'class' => 'form-control',
+	'maxlength'=>'30',
+
 );
 
 
@@ -196,12 +225,15 @@ $E2_D_V2_Ec_Fecha = array(
 	'id' => 'E2_D_V2_Ec_Fecha',
 	'name' => 'E2_D_V2_Ec_Fecha',
 	'class' => 'form-control',
+	'maxlength'=>'8',
+
 );
 
 $E2_D_V2_Ec_Hini = array(
 	'id' => 'E2_D_V2_Ec_Hini',
 	'name' => 'E2_D_V2_Ec_Hini',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 
@@ -209,12 +241,14 @@ $E2_D_V2_Ec_Hfin = array(
 	'id' => 'E2_D_V2_Ec_Hfin',
 	'name' => 'E2_D_V2_Ec_Hfin',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D_V2_Ec_Res = array(
 	'id' => 'E2_D_V2_Ec_Res',
 	'name' => 'E2_D_V2_Ec_Res',
 	'class' => 'form-control',
+	'maxlength'=>'1',
 );
 
 
@@ -222,6 +256,9 @@ $E2_D_V2_Ec_Res_O = array(
 	'id' => 'E2_D_V2_Ec_Res_O',
 	'name' => 'E2_D_V2_Ec_Res_O',
 	'class' => 'form-control',
+	'maxlength'=>'30',
+
+
 );
 
 
@@ -229,92 +266,107 @@ $E2_D_V2_Je_Res = array(
 	'id' => 'E2_D_V2_Je_Res',
 	'name' => 'E2_D_V2_Je_Res',
 	'class' => 'form-control',
+	'maxlength'=>'1',
+
 );
 $E2_D_V2_Je_Hini = array(
 	'id' => 'E2_D_V2_Je_Hini',
 	'name' => 'E2_D_V2_Je_Hini',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D_V2_Je_Hfin = array(
 	'id' => 'E2_D_V2_Je_Hfin',
 	'name' => 'E2_D_V2_Je_Hfin',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D8_Fecha =array(
 	'id' =>'E2_D8_Fecha',
 	'name' => 'E2_D8_Fecha',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_D8_Res_O =array(
-	'id' => '$E2_D8_Res_O',
-	'name' => '$E2_D8_Res_O',
+	'id' => 'E2_D8_Res_O',
+	'name' => 'E2_D8_Res_O',
 	'class' => 'form-control',
+	'maxlength'=>'30',
+	'disabled'=>'disabled',
+
 );
 
 $E2_D8_Res = array(
-	'id' => '$E2_D8_Res',
-	'name' => '$E2_D8_Res',
+	'id' => 'E2_D8_Res',
+	'name' => 'E2_D8_Res',
 	'class' => 'form-control',
+	'maxlength'=>'1',
 );
 
 
-$E2_E_En_Dni = array(
-	'id' => '$E2_E_En_Dni',
-	'name' => '$E2_E_En_Dni',
+$E2_E_Ec_Dni = array(
+	'id' => 'E2_E_Ec_Dni',
+	'name' => 'E2_E_Ec_Dni',
 	'class' => 'form-control',
 );
 
-$E2_E_En_Nombre = array(
-	'id' => '$E2_E_En_Nombre',
-	'name' => '$E2_E_En_Nombre',
+$E2_E_Ec_Nombre = array(
+	'id' => 'E2_E_Ec_Nombre',
+	'name' => 'E2_E_Ec_Nombre',
 	'class' => 'form-control',
 );
 
 $E2_E_Je_Dni = array(
-	'id' => '$E2_E_Je_Dni',
-	'name' => '$E2_E_Je_Dni',
+	'id' => 'E2_E_Je_Dni',
+	'name' => 'E2_E_Je_Dni',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_E_Je_Nombre = array(
-	'id' => '$E2_E_Je_Nombre',
-	'name' => '$E2_E_Je_Nombre',
+	'id' => 'E2_E_Je_Nombre',
+	'name' => 'E2_E_Je_Nombre',
 	'class' => 'form-control',
+	'maxlength'=>'80',
 );
 
 $E2_E_Cd_Dni = array(
-	'id' => '$E2_E_Cd_Dni',
-	'name' => '$E2_E_Cd_Dni',
+	'id' => 'E2_E_Cd_Dni',
+	'name' => 'E2_E_Cd_Dni',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_E_E_Cd_Nombre =array(
-	'id' => '$E2_E_E_Cd_Nombre',
+	'id' => 'E2_E_E_Cd_Nombre',
 	'name' => 'E2_E_E_Cd_Nombre',
 	'class' => 'form-control',
+    'maxlength'=>'80',
 );
 
 $E2_E_Sn_Dni =array(
 	'id' => 'E2_E_Sn_Dni',
 	'name' => 'E2_E_Sn_Dni',
 	'class' => 'form-control',
+	'maxlength'=>'8',
 );
 
 $E2_E_Sn_Nombre =array(
 	'id' => 'E2_E_Sn_Nombre',
 	'name' => 'E2_E_Sn_Nombre',
 	'class' => 'form-control',
+	 'maxlength'=>'80',
 );
 
 $button_2_head = array(
-					'id' => 'button_2_head',
-					'name' => 'button_2_head',
-					'class' => 'btn btn-primary',
-					'value' => 'Guardar',
-				);
+	'id' => 'button_2_head',
+	'name' => 'button_2_head',
+	'class' => 'btn btn-primary',
+	'value' => 'Guardar',
+);
 
 ?>
 
@@ -466,7 +518,7 @@ echo form_open( $this->uri->uri_string() , $attributes);
 	</tr>
 	<tr>
 		<td colspan="2"> Otro </td>
-		<td colspan="2"> <?php echo form_input($E2_D8_Res_O); ?> Especifique </td>
+		<td colspan="2"> Especifique <?php echo form_input($E2_D8_Res_O); ?>  </td>
 	</tr>
 </table>
 
@@ -483,8 +535,8 @@ echo form_open( $this->uri->uri_string() , $attributes);
 	</tr>
 	<tr>
 		<td colspan="2"> Encuestador(a): </td>
-		<td colspan="3"> <?php echo form_input($E2_E_En_Dni);?> </td>
-		<td colspan="3"> <?php echo form_input($E2_E_En_Nombre);?> </td>
+		<td colspan="3"> <?php echo form_input($E2_E_Ec_Dni);?> </td>
+		<td colspan="3"> <?php echo form_input($E2_E_Ec_Nombre);?> </td>
 	</tr>
 	<tr>
 		<td colspan="2"> Jefe(a) de Equipo </td>

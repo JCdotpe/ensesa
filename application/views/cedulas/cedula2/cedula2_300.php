@@ -5,112 +5,136 @@
 	$E2_301 = array(
 		'id' 	=> 'E2_301',
 		'name'	=> 'E2_301',
-		'class'	=> 'form-control',
+		'class'	=> 'form-control change',
+		'maxlength' => '1',	
 	);
 
 	$E2_302_1 = array(
 		'id' 	=> 'E2_302_1',
 		'name'	=> 'E2_302_1',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '1',	
 	);
 
 	$E2_302_2 = array(
 		'id' 	=> 'E2_302_2',
 		'name'	=> 'E2_302_2',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '1',	
 	);
 
 	$E2_302_3 = array(
 		'id' 	=> 'E2_302_3',
 		'name'	=> 'E2_302_3',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '1',	
 	);
 
 	$E2_302_4 = array(
 		'id' 	=> 'E2_302_4',
 		'name'	=> 'E2_302_4',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '1',	
 	);
 
 	$E2_302_5 = array(
 		'id' 	=> 'E2_302_5',
 		'name'	=> 'E2_302_5',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '1',	
 	);
 
 	$E2_302_5_O = array(
 		'id' 	=> 'E2_302_5_O',
 		'name'	=> 'E2_302_5_O',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '30',
+		'disabled' => 'disabled',	
+		
 	);
+	
 	$E2_302_6 = array(
 		'id' 	=> 'E2_302_6',
 		'name'	=> 'E2_302_6',
 		'class'	=> 'form-control comunidad',
+		'maxlength' => '1',
 	);
 
 	$E2_302_6_O = array(
 		'id' 	=> 'E2_302_6_O',
 		'name'	=> 'E2_302_6_O',
 		'class'	=> 'form-control comunidad',
+		'disabled' => 'disabled',
 	);
 
 	$E2_303 = array(
 		'id' 	=> 'E2_303',
 		'name'	=> 'E2_303',
-		'class'	=> 'form-control',
+		'class'	=> 'form-control change',
+		'maxlength' => '30',
+
 	);
 
 	$E2_304_1 = array(
 		'id' 	=> 'E2_304_1',
 		'name'	=> 'E2_304_1',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 
 	$E2_304_2 = array(
 		'id' 	=> 'E2_304_2',
 		'name'	=> 'E2_304_2',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 	$E2_304_3 = array(
 		'id' 	=> 'E2_304_3',
 		'name'	=> 'E2_304_3',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 
 	$E2_304_4 = array(
 		'id' 	=> 'E2_304_4',
 		'name'	=> 'E2_304_4',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 
 	$E2_304_5 = array(
 		'id' 	=> 'E2_304_5',
 		'name'	=> 'E2_304_5',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 	$E2_304_6 = array(
 		'id' 	=> 'E2_304_6',
 		'name'	=> 'E2_304_6',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 
 	$E2_304_7 = array(
 		'id' 	=> 'E2_304_7',
 		'name'	=> 'E2_304_7',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '1',	
 	);
 
 	$E2_304_7_O = array(
 		'id' 	=> 'E2_304_7_O',
 		'name'	=> 'E2_304_7_O',
 		'class'	=> 'form-control comunidad_dos',
+		'maxlength' => '30',
+		'disabled' => 'disabled',	
 	);
 
 	$E2_305 = array(
 		'id' 	=> 'E2_305',
 		'name'	=> 'E2_305',
-		'class'	=> 'form-control',
+		'class'	=> 'form-control change',
+		'maxlength' => '1',	
 	);
 
 	
@@ -118,185 +142,195 @@
 		'id' 	=> 'E2_306_1',
 		'name'	=> 'E2_306_1',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_2 = array(
 		'id' 	=> 'E2_306_2',
 		'name'	=> 'E2_306_2',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_3 = array(
 		'id' 	=> 'E2_306_3',
 		'name'	=> 'E2_306_3',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
-	$E2_306_3 = array(
-		'id' 	=> 'E2_306_3',
-		'name'	=> 'E2_306_3',
-		'class'	=> 'form-control comunidad_practicas',
-	);
+	
 
 	$E2_306_4 = array(
 		'id' 	=> 'E2_306_4',
 		'name'	=> 'E2_306_4',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_5 = array(
 		'id' 	=> 'E2_306_5',
 		'name'	=> 'E2_306_5',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_6 = array(
 		'id' 	=> 'E2_306_6',
 		'name'	=> 'E2_306_6',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_7 = array(
 		'id' 	=> 'E2_306_7',
 		'name'	=> 'E2_306_7',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_7_O = array(
 		'id' 	=> 'E2_306_7_O',
 		'name'	=> 'E2_306_7_O',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '30',
+		'disabled' => 'disabled',	
 	);
 
 	$E2_306_8 = array(
 		'id' 	=> 'E2_306_8',
 		'name'	=> 'E2_306_8',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_8_O = array(
 		'id' 	=> 'E2_306_8_O',
 		'name'	=> 'E2_306_8_O',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '30',
+		'disabled' => 'disabled',	
 	);
 
-	$E2_306_8_O = array(
-		'id' 	=> 'E2_306_8_O',
-		'name'	=> 'E2_306_8_O',
-		'class'	=> 'form-control comunidad_practicas',
-	);
+	
 
 	$E2_306_9 = array(
 		'id' 	=> 'E2_306_9',
 		'name'	=> 'E2_306_9',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '1',	
 	);
 
 	$E2_306_9_O = array(
 		'id' 	=> 'E2_306_9_O',
 		'name'	=> 'E2_306_9_O',
 		'class'	=> 'form-control comunidad_practicas',
+		'maxlength' => '30',
+		'disabled' => 'disabled',
 	);
 
 	$E2_307 = array(
 		'id' 	=> 'E2_307',
 		'name'	=> 'E2_307',
-		'class'	=> 'form-control',
+		'class'	=> 'form-control change',
+		'maxlength' => '1',	
 	);
 
 	$E2_308_1=array(
 	'id'=>'E2_308_1',
 	'name'=>'E2_308_1',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_2=array(
 	'id'=>'E2_308_2',
 	'name'=>'E2_308_2',
-	'class'=>'form-control',
-
-	);
-
-	$E2_308_2=array(
-	'id'=>'E2_308_2',
-	'name'=>'E2_308_2',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_3=array(
 	'id'=>'E2_308_3',
 	'name'=>'E2_308_3',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_4=array(
 	'id'=>'E2_308_4',
 	'name'=>'E2_308_4',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_5=array(
 	'id'=>'E2_308_5',
 	'name'=>'E2_308_5',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_6=array(
 	'id'=>'E2_308_6',
 	'name'=>'E2_308_6',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_7=array(
 	'id'=>'E2_308_7',
 	'name'=>'E2_308_7',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_8=array(
 	'id'=>'E2_308_8',
 	'name'=>'E2_308_8',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
-	$E2_308_8=array(
-	'id'=>'$E2_308_8',
-	'name'=>'$E2_308_8',
-	'class'=>'form-control',
-
-	);
+	
 	$E2_308_9=array(
 	'id'=>'E2_308_9',
 	'name'=>'E2_308_9',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_9_O=array(
 	'id'=>'E2_308_9_O',
 	'name'=>'E2_308_9_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro3 change',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
 
 	);
 
 	$E2_308_10=array(
 	'id'=>'E2_308_10',
 	'name'=>'E2_308_10',
-	'class'=>'form-control',
+	'class'=>'form-control change',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_308_10_O=array(
 	'id'=>'E2_308_10_O',
 	'name'=>'E2_308_10_O',
-	'class'=>'form-control',
+	'class'=>'form-control otro2',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
 
 	);
 
@@ -304,153 +338,171 @@
 	$E2_309_1=array(
 	'id'=>'E2_309_1',
 	'name'=>'E2_309_1',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_309_2=array(
 	'id'=>'E2_309_2',
 	'name'=>'E2_309_2',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_309_3=array(
 	'id'=>'E2_309_3',
 	'name'=>'E2_309_3',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_309_4=array(
 	'id'=>'E2_309_4',
 	'name'=>'E2_309_4',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_309_5=array(
 	'id'=>'E2_309_5',
 	'name'=>'E2_309_5',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_309_6=array(
 	'id'=>'E2_309_6',
 	'name'=>'E2_309_6',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
-	$E2_309_6=array(
-	'id'=>'E2_309_6',
-	'name'=>'E2_309_6',
-	'class'=>'form-control',
-
-	);
+	
 
 	$E2_309_6_O=array(
 	'id'=>'E2_309_6_O',
 	'name'=>'E2_309_6_O',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '30', 
+	'disabled' => 'disabled',	
 
 	);
 
 	$E2_310_1=array(
 	'id'=>'E2_310_1',
 	'name'=>'E2_310_1',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_2=array(
 	'id'=>'E2_310_2',
 	'name'=>'E2_310_2',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_3=array(
 	'id'=>'E2_310_3',
 	'name'=>'E2_310_3',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 	$E2_310_4=array(
 	'id'=>'E2_310_4',
 	'name'=>'E2_310_4',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_5=array(
 	'id'=>'E2_310_5',
 	'name'=>'E2_310_5',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_6=array(
 	'id'=>'E2_310_6',
 	'name'=>'E2_310_6',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_7=array(
 	'id'=>'E2_310_7',
 	'name'=>'E2_310_7',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_8=array(
 	'id'=>'E2_310_8',
 	'name'=>'E2_310_8',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_9=array(
 	'id'=>'E2_310_9',
 	'name'=>'E2_310_9',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_10=array(
 	'id'=>'E2_310_10',
 	'name'=>'E2_310_10',
-	'class'=>'form-control',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_11=array(
-	'id'=>'$E2_310_11',
-	'name'=>'$E2_310_11',
-	'class'=>'form-control',
+	'id'=>'E2_310_11',
+	'name'=>'E2_310_11',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_12=array(
-	'id'=>'$E2_310_12',
-	'name'=>'$E2_310_12',
-	'class'=>'form-control',
+	'id'=>'E2_310_12',
+	'name'=>'E2_310_12',
+	'class'=>'form-control vbosque',
+	'maxlength' => '1',	
 
 	);
 
 	$E2_310_12_O=array(
-	'id'=>'$E2_310_12_O',
-	'name'=>'$E2_310_12_O',
-	'class'=>'form-control',
+	'id'=>'E2_310_12_O',
+	'name'=>'E2_310_12_O',
+	'class'=>'form-control vbosque',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
 
 	);
 
 	$E2_311_1=array(
-	'id'=>'$E2_311_1',
-	'name'=>'$E2_311_1',
+	'id'=>'E2_311_1',
+	'name'=>'E2_311_1',
 	'class'=>'form-control',
+	'maxlength' => '1',	
 
 	);
 
@@ -458,6 +510,7 @@
 	'id'=>'E2_311_2',
 	'name'=>'E2_311_2',
 	'class'=>'form-control',
+	'maxlength' => '1',	
 
 	);
 
@@ -465,6 +518,7 @@
 	'id'=>'E2_311_3',
 	'name'=>'E2_311_3',
 	'class'=>'form-control',
+	'maxlength' => '1',	
 
 	);
 
@@ -472,6 +526,7 @@
 	'id'=>'E2_311_4',
 	'name'=>'E2_311_4',
 	'class'=>'form-control',
+	'maxlength' => '1',	
 
 	);
 
@@ -479,22 +534,26 @@
 	'id'=>'E2_311_4_O',
 	'name'=>'E2_311_4_O',
 	'class'=>'form-control',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
+	
 
 	);
 
+	$button_3=array(
+	'id'=>'button_3',
+	'name'=>'button_3',
+	'class'=> 'btn btn-primary',
+	'value' => 'Guardar',
+	);
 
 ?>
 
-
-<!-- <table class ="table table-bordered">
-	<tr>
-		
-	</tr> -->
-
 <form>
+
 <table class ="table table-bordered">
 	<tr>
-		<th colspan="5"> 300. CONOCIMIENTO DE LA IMPORTANCIA Y PRÁCTICAS PARA LA CONSERVACIÓN DE BOSQUES </th>
+		<th colspan="5"><h4> 300. CONOCIMIENTO DE LA IMPORTANCIA Y PRÁCTICAS PARA LA CONSERVACIÓN DE BOSQUES </h4></th>
 	</tr>
 
 	<td> <!-- Lado Izquierdo -->
@@ -855,7 +914,7 @@
 				</tr>
 				<tr>
 					<td> 4. Otro </td>
-					<td> <?php echo form_input($E2_311_4);?> <br> <?php echo form_input($E2_311_4_O);?> (Especifique) </br></td>
+					<td> <?php echo form_input($E2_311_4);?> <br>  (Especifique) <?php echo form_input($E2_311_4_O);?>  </br></td>
 				</tr>
 			</table>
 
@@ -865,11 +924,15 @@
 </table>
 </form>
 
-<button>
+<div class="row">
+	<div class="pull-right">
+		<?php echo form_submit($button_3); ?>
+	</div>
+</div>
 
-Enviar
+<?php echo form_close(); ?>
 
-</button>
+
 
 <script type="text/javascript">
 
@@ -915,4 +978,49 @@ $('#E2_305').change(function(event)
 
 
 
+
+$('#E2_308_1, #E2_308_2 , #E2_308_3, #E2_308_4,#E2_308_5, #E2_308_6, #E2_308_7, #E2_308_8, #E2_308_9,#E2_308_10').change(function(event)
+{
+	
+	if( $('#E2_308_1').val()=='2' &&  $('#E2_308_2').val()=='2' &&  $('#E2_308_3').val()=='2' &&   $('#E2_308_4').val()=='2'
+	   &&  $('#E2_308_5').val()=='2' &&  $('#E2_308_6').val()=='2' &&  $('#E2_308_7').val()=='2' &&  $('#E2_308_8').val()=='2' &&  $('#E2_308_9').val()=='2' 
+	   &&  $('#E2_308_10').val()=='2')
+
+	{	
+		$('.vbosque').attr( 'disabled', 'disabled');
+
+	}
+	else
+	{
+		$('.vbosque').removeAttr('disabled');
+	}
+});
+
+
+
+
+
+// $('#E2_310_1, #E2_310_2 , #E2_310_3, #E2_310_4,#E2_310_5, #E2_310_6, #E2_310_7, #E2_310_8, #E2_310_9,#E2_310_10 ,#E2_308_11, #E2_308_12' ).change(function(event)
+// {
+	
+// 	if( $('#E2_308_1').val()=='1' ||  $('#E2_308_2').val()=='2' ||  $('#E2_308_3').val()=='3' ||   $('#E2_308_4').val()=='4'
+// 	   ||  $('#E2_308_5').val()=='5' ||  $('#E2_308_6').val()=='6' ||  $('#E2_308_7').val()=='7' ||  $('#E2_308_8').val()=='8' ||  $('#E2_308_9').val()=='9' 
+// 	   ||  $('#E2_308_10').val()=='10' || $('#E2_308_11').val()=='11' ||  $('#E2_308_12').val()=='12')
+
+// 	{	
+// 		$('.insti_organ').attr( 'disabled', 'disabled');
+
+// 	}
+
+// 	else
+// 	{
+// 		$('.insti_organ').removeAttr('disabled');
+// 	}
+
+// });
+
+
+
+
 </script>
+

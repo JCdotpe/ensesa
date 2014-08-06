@@ -6,84 +6,93 @@
 $E2_401_1=array(
 'id'=>'E2_401_1',
 'name'=>'E2_401_1',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_2=array(
 'id'=>'E2_401_2',
 'name'=>'E2_401_2',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_3=array(
 'id'=>'E2_401_3',
 'name'=>'E2_401_3',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_4=array(
 'id'=>'E2_401_4',
 'name'=>'E2_401_4',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_5=array(
 'id'=>'E2_401_5',
 'name'=>'E2_401_5',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_5_O=array(
 'id'=>'E2_401_5_O',
 'name'=>'E2_401_5_O',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 
 );
 
 $E2_401_6=array(
 'id'=>'E2_401_6',
 'name'=>'E2_401_6',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_6_O=array(
 'id'=>'E2_401_6_O',
 'name'=>'E2_401_6_O',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 
 );
 
 $E2_401_7=array(
 'id'=>'E2_401_7',
 'name'=>'E2_401_7',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
 
 );
 
 $E2_401_7_O=array(
 'id'=>'E2_401_7_O',
 'name'=>'E2_401_7_O',
-'class'=>'form-control'
+'class'=>'form-control',
+'maxlength' => '1',	
+'disabled' => 'disabled',
 
 );
 
-$E2_401_7_O=array(
-'id'=>'E2_401_7_O',
-'name'=>'E2_401_7_O',
-'class'=>'form-control'
-
-);
 
 $E2_401_8=array(
 'id'=>'E2_401_8',
 'name'=>'E2_401_8',
-'class'=>'form-control '
+'class'=>'form-control change',
+'maxlength' => '1',	
+
 
 );
 
@@ -91,84 +100,98 @@ $E2_401_8=array(
 $E2_402_1=array(
 'id'=>'E2_402_1',
 'name'=>'E2_402_1',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_2=array(
 'id'=>'E2_402_2',
 'name'=>'E2_402_2',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_3=array(
 'id'=>'E2_402_3',
 'name'=>'E2_402_3',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_4=array(
 'id'=>'E2_402_4',
 'name'=>'E2_402_4',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_5=array(
 'id'=>'E2_402_5',
 'name'=>'E2_402_5',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_6=array(
 'id'=>'E2_402_6',
 'name'=>'E2_402_6',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_7=array(
 'id'=>'E2_402_7',
 'name'=>'E2_402_7',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_8=array(
 'id'=>'E2_402_8',
 'name'=>'E2_402_8',
-'class'=>'form-control conservacion_bosques'
+'class'=>'form-control conservacion_bosques',
+'maxlength' => '1',	
 
 );
 
 $E2_402_9=array(
 	'id'=>'E2_402_9',
 	'name'=>'E2_402_9',
-	'class'=>'form-control conservacion_bosques'
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 );
 
 $E2_402_9_O=array(
 	'id'=>'E2_402_9_O',
 	'name'=>'E2_402_9_O',
-	'class'=>'form-control conservacion_bosques'
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
 
 );
 
 $E2_402_10=array(
 	'id'=>'E2_402_10',
 	'name'=>'E2_402_10',
-	'class'=>'form-control conservacion_bosques'
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 );
 
 $E2_402_10_O=array(
 	'id'=>'E2_402_10_O',
 	'name'=>'E2_402_10_O',
-	'class'=>'form-control conservacion_bosques'
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
 
 );
 
@@ -176,359 +199,425 @@ $E2_400_Obs = array(
 	'id' => 'E2_400_Obs',
 	'name' => 'E2_400_Obs',
 	'class' => 'form-control conservacion_bosques',
+	'maxlength' => '300',	
 	'rows' => 2,
-    'cols' => 13
-				);
+    'cols' => 13,
+);
+
+
+
 $E2_501=array(
 	'id'=>'E2_501',
 	'name'=>'E2_501',
-	'class'=>'form-control conservacion_bosques'
+	'class'=>'form-control conservacion_bosques changed',
+	'maxlength' => '1',	
 
 );
+
 $E2_502_1=array(
 	'id'=>'E2_502_1',
 	'name'=>'E2_502_1',
-	'class'=>'form-control financiamiento.conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento',
+	'maxlength' => '1',	
 );
 
 $E2_503_1=array(
 	'id'=>'E2_503_1',
 	'name'=>'E2_503_1',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento gobierno',
+	'maxlength' => '1',	
 );
 $E2_503_1_O=array(
 	'id'=>'E2_503_1_O',
 	'name'=>'E2_503_1_O',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento gobierno',
+	'maxlength' => '30',
+	'disabled' => 'disabled',
 );
 $E2_504_1=array(
 	'id'=>'E2_504_1',
 	'name'=>'E2_504_1',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento gobierno',
+	'maxlength' => '1',	
 );
 
 $E2_502_2=array(
 	'id'=>'E2_502_2',
 	'name'=>'E2_502_2',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento',
+	'maxlength' => '1',	
 );
+
 $E2_503_2=array(
 	'id'=>'E2_503_2',
 	'name'=>'E2_503_2',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento gcentral',
+	'maxlength' => '1',	
 );
 $E2_503_2_O=array(
 	'id'=>'E2_503_2_O',
 	'name'=>'E2_503_2_O',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento gcentral',
+	'maxlength' => '30',	
+	'disabled' => 'disabled',
 );
 $E2_504_2=array(
 	'id'=>'E2_504_2',
 	'name'=>'E2_504_2',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento gcentral',
+	'maxlength' => '1',	
 );
 $E2_502_3=array(
 	'id'=>'E2_502_3',
 	'name'=>'E2_502_3',
-	'class'=>'form-control conservacion_bosques',
+	'class'=>'form-control conservacion_bosques financiamiento',
+	'maxlength' => '1',	
 );
 
 $E2_503_3=array(
 'id'=>'E2_503_3',
 'name'=>'E2_503_3',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento pnacional',
+'maxlength' => '1',	
 );
 
 $E2_503_3_O=array(
 'id'=>'E2_503_3_O',
 'name'=>'E2_503_3_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento pnacional',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
+
 $E2_504_3=array(
 'id'=>'E2_504_3',
 'name'=>'E2_504_3',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento pnacional',
+'maxlength' => '1',	
 );
 
 $E2_502_4=array(
 'id'=>'E2_502_4',
 'name'=>'E2_502_4',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_4=array(
 'id'=>'E2_503_4',
 'name'=>'E2_503_4',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento ogubernamental',
+'maxlength' => '1',	
 );
 
 $E2_503_4_O=array(
 'id'=>'E2_503_4_O',
 'name'=>'E2_503_4_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento ogubernamental',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
 
 $E2_504_4=array(
 'id'=>'E2_504_4',
 'name'=>'E2_504_4',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento ogubernamental',
+'maxlength' => '1',	
 );
 
 $E2_502_5=array(
 'id'=>'E2_502_5',
 'name'=>'E2_502_5',
-'class'=>'form-control financiamiento.conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_5=array(
 'id'=>'E2_503_5',
 'name'=>'E2_503_5',
-'class'=>'form-control financiamiento.conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento obilateral',
+'maxlength' => '1',	
 );
 
 $E2_503_5_O=array(
 'id'=>'E2_503_5_O',
 'name'=>'E2_503_5_O',
-'class'=>'form-control financiamiento.conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento obilateral',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
 
 $E2_504_5=array(
 'id'=>'E2_504_5',
 'name'=>'E2_504_5',
-'class'=>'form-control financiamiento.conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento obilateral',
+'maxlength' => '1',	
 );
 
 $E2_502_6=array(
 'id'=>'E2_502_6',
 'name'=>'E2_502_6',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_6=array(
 'id'=>'E2_503_6',
 'name'=>'E2_503_6',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento omultilateral',
+'maxlength' => '1',	
 );
 
 $E2_503_6_O=array(
 'id'=>'E2_503_6_O',
 'name'=>'E2_503_6_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento omultilateral',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
 
 $E2_504_6=array(
 'id'=>'E2_504_6',
 'name'=>'E2_504_6',
-'class'=>'form-control conservacion_bosques',
-);
-$E2_502_6=array(
-'id'=>'E2_502_6',
-'name'=>'E2_502_6',
-'class'=>'form-control conservacion_bosques',
-);
-$E2_503_6=array(
-'id'=>'E2_503_6',
-'name'=>'E2_503_6',
-'class'=>'form-control conservacion_bosques',
-);
-$E2_503_6_O=array(
-'id'=>'E2_503_6_O',
-'name'=>'E2_503_6_O',
-'class'=>'form-control conservacion_bosques',
-);
-$E2_504_6=array(
-'id'=>'E2_504_6',
-'name'=>'E2_504_6',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento omultilateral',
+'maxlength' => '1',	
 );
 
 $E2_502_7=array(
 'id'=>'E2_502_7',
 'name'=>'E2_502_7',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_7=array(
 'id'=>'E2_503_7',
 'name'=>'E2_503_7',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fnacional',
+'maxlength' => '1',	
 );
 
 $E2_503_7_O=array(
 'id'=>'E2_503_7_O',
 'name'=>'E2_503_7_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fnacional',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
 
 $E2_504_7=array(
 'id'=>'E2_504_7',
 'name'=>'E2_504_7',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fnacional',
+'maxlength' => '1',	
 );
 
 $E2_502_8=array(
 'id'=>'E2_502_8',
 'name'=>'E2_502_8',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_8=array(
 'id'=>'E2_503_8',
 'name'=>'E2_503_8',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento profonampe',
+'maxlength' => '1',	
 );
+
 $E2_503_8_O=array(
 'id'=>'E2_503_8_O',
 'name'=>'E2_503_8_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento profonampe',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
 $E2_504_8=array(
 'id'=>'E2_504_8',
 'name'=>'E2_504_8',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento profonampe',
+'maxlength' => '1',	
 );
+
 $E2_502_9=array(
 'id'=>'E2_502_9',
 'name'=>'E2_502_9',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_9=array(
 'id'=>'E2_503_9',
 'name'=>'E2_503_9',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fondam',
+'maxlength' => '1',	
 );
 $E2_503_9_O=array(
 'id'=>'E2_503_9_O',
 'name'=>'E2_503_9_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fondam',
+'maxlength' => '30',
+'disabled' => 'disabled',	
 );
 $E2_504_9=array(
 'id'=>'E2_504_9',
 'name'=>'E2_504_9',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fondam',
+'maxlength' => '1',	
 );
 
 $E2_502_10=array(
 'id'=>'E2_502_10',
 'name'=>'E2_502_10',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 
 $E2_503_10=array(
 'id'=>'E2_503_10',
 'name'=>'$2_503_10',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fondebosque',
+'maxlength' => '1',	
 );
 
 $E2_503_10_O=array(
 'id'=>'E2_503_10_O',
 'name'=>'E2_503_10_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fondebosque',
+'maxlength' => '30',	
+'disabled' => 'disabled',
 );
 
 $E2_504_10=array(
 'id'=>'E2_504_10',
 'name'=>'E2_504_10',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento fondebosque',
+'maxlength' => '1',	
 );
 
 $E2_502_11=array(
 'id'=>'E2_502_11',
 'name'=>'E2_502_11',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento',
+'maxlength' => '1',	
 );
 $E2_502_11_O=array(
 'id'=>'E2_502_11_O',
 'name'=>'E2_502_11_O',
-'class'=>'form-control conservacion_bosques',
+'class'=>'form-control conservacion_bosques financiamiento otro',
+'maxlength' => '30',	
+'disabled' =>'disabled',
 );
 
 $E2_503_11=array(
-'id'=>'E2_503_11',
-'name'=>'E2_503_11',
-'class'=>'form-control conservacion_bosques',
+	'id'=>'E2_503_11',
+	'name'=>'E2_503_11',
+	'class'=>'form-control conservacion_bosques financiamiento otro',
+	'maxlength' => '1',	
 );
 
 $E2_503_11_O=array(
-'id'=>'$E2_503_11_O',
-'name'=>'$E2_503_11_O',
-'class'=>'form-control conservacion_bosques',
+	'id'=>'$E2_503_11_O',
+	'name'=>'$E2_503_11_O',
+	'class'=>'form-control conservacion_bosques financiamiento otro',
+	'maxlength' => '30',
+	'disabled' => 'disabled',	
 );
 
 $E2_504_11=array(
-'id'=>'E2_504_11',
-'name'=>'E2_504_11',
-'class'=>'form-control conservacion_bosques',
+	'id'=>'E2_504_11',
+	'name'=>'E2_504_11',
+	'class'=>'form-control conservacion_bosques financiamiento otro',
+	'maxlength' => '1',	
 );
 
 $E2_505_1=array(
-		'id'=>'E2_505_1',
-		'name'=>'E2_505_1',
-		'class'=>'form-control conservacion_bosques',
+	'id'=>'E2_505_1',
+	'name'=>'E2_505_1',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_2=array(
-		'id'=>'E2_505_2',
-		'name'=>'E2_505_2',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_2=array(
+	'id'=>'E2_505_2',
+	'name'=>'E2_505_2',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_3=array(
-		'id'=>'E2_505_3',
-		'name'=>'E2_505_3',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_3=array(
+	'id'=>'E2_505_3',
+	'name'=>'E2_505_3',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_4=array(
-		'id'=>'E2_505_4',
-		'name'=>'E2_505_4',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_4=array(
+	'id'=>'E2_505_4',
+	'name'=>'E2_505_4',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_5=array(
-		'id'=>'E2_505_5',
-		'name'=>'E2_505_5',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_5=array(
+	'id'=>'E2_505_5',
+	'name'=>'E2_505_5',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_6=array(
-		'id'=>'E2_505_6',
-		'name'=>'E2_505_6',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_6=array(
+	'id'=>'E2_505_6',
+	'name'=>'E2_505_6',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_7=array(
-		'id'=>'E2_505_7',
-		'name'=>'E2_505_7',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_7=array(
+	'id'=>'E2_505_7',
+	'name'=>'E2_505_7',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_8=array(
-		'id'=>'E2_505_8',
-		'name'=>'E2_505_8',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_8=array(
+	'id'=>'E2_505_8',
+	'name'=>'E2_505_8',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
 
 	);
 
-		$E2_505_8_O=array(
-		'id'=>'E2_505_8_O',
-		'name'=>'E2_505_8_O',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_8_O=array(
+	'id'=>'E2_505_8_O',
+	'name'=>'E2_505_8_O',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '30',	
+	'disabled' => 'disabled',
 
 	);
 
-		$E2_505_9=array(
-		'id'=>'E2_505_9',
-		'name'=>'E2_505_9',
-		'class'=>'form-control conservacion_bosques',
+$E2_505_9=array(
+	'id'=>'E2_505_9',
+	'name'=>'E2_505_9',
+	'class'=>'form-control conservacion_bosques',
+	'maxlength' => '1',	
+
+	);
+
+$button_4=array(
+	'id'=>'button_4',
+	'name'=>'button_4',
+	'class'=>'btn btn-primary',
+	'value'=>'Guardar',
 
 	);
 
@@ -653,7 +742,7 @@ $E2_505_1=array(
 
 <table class="table table-bordered">
 	<tr>
-		<th colspan="8">500. FUENTES DE FINANCIAMIENTO PARA LA CONSERVACIÓN DE BOSQUES </th>
+		<th colspan="8"><h4>500. FUENTES DE FINANCIAMIENTO PARA LA CONSERVACIÓN DE BOSQUES </h4></th>
 	</tr>
 
 	<tr>
@@ -815,11 +904,16 @@ $E2_505_1=array(
 </table>
 </form>
 
-<button>
 
-	Enviar
+<div class="row">
+	<div class="pull-right">
+		<?php echo form_submit($button_4); ?>
+	</div>
+</div>
 
-</button>
+<?php echo form_close(); ?>
+
+
 
 <script type="text/javascript">
 
@@ -844,40 +938,231 @@ $('#E2_401_8').change(function(event)
 });
 
 
+
+
 $('#E2_501').change(function(event)
 {
 
 	if( $('#E2_501').val()=='2') 
 	{
 
-		$('.financiamiento.conservacion_bosques').attr('disabled','disabled');
+		$('.financiamiento').attr('disabled','disabled');
 
 	}
 
 	else 
 	{
 		
-		$('.financiamiento.conservacion_bosques').removeAttr('disabled');
+		$('.financiamiento').removeAttr('disabled');
 	}
 
 
 });
 
-
-$('#').change(function(event)
+$('#E2_502_1').change(function(event)
 {
 
-	if( $('#').val()=='2') 
+	if( $('#E2_502_1').val()=='2') 
 	{
 
-		$('.financiamiento.conservacion_bosques').attr('disabled','disabled');
+		$('.gobierno').attr('disabled','disabled');
 
 	}
 
 	else 
 	{
 		
-		$('.financiamiento.conservacion_bosques').removeAttr('disabled');
+		$('.gobierno').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_2').change(function(event)
+{
+
+	if( $('#E2_502_2').val()=='2') 
+	{
+
+		$('.gcentral').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.gcentral').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_3').change(function(event)
+{
+
+	if( $('#E2_502_3').val()=='2') 
+	{
+
+		$('.pnacional').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.pnacional').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_4').change(function(event)
+{
+
+	if( $('#E2_502_4').val()=='2') 
+	{
+
+		$('.ogubernamental').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.ogubernamental').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_5').change(function(event)
+{
+
+	if( $('#E2_502_5').val()=='2') 
+	{
+
+		$('.obilateral').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.obilateral').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_6').change(function(event)
+{
+
+	if( $('#E2_502_6').val()=='2') 
+	{
+
+		$('.omultilateral').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.omultilateral').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_7').change(function(event)
+{
+
+	if( $('#E2_502_7').val()=='2') 
+	{
+
+		$('.fnacional').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.fnacional').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_8').change(function(event)
+{
+
+	if( $('#E2_502_8').val()=='2') 
+	{
+
+		$('.profonampe').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.profonampe').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_9').change(function(event)
+{
+
+	if( $('#E2_502_9').val()=='2') 
+	{
+
+		$('.fondam').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.fondam').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_10').change(function(event)
+{
+
+	if( $('#E2_502_10').val()=='2') 
+	{
+
+		$('.fondebosque').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.fondebosque').removeAttr('disabled');
+	}
+
+
+});
+
+$('#E2_502_11').change(function(event)
+{
+
+	if( $('#E2_502_11').val()=='2') 
+	{
+
+		$('.otro').attr('disabled','disabled');
+
+	}
+
+	else 
+	{
+		
+		$('.otro').removeAttr('disabled');
 	}
 
 

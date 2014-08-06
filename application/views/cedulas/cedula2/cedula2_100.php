@@ -3,87 +3,103 @@
 		$E2_106_1=array(
 			'id'=>'E2_106_1',
 			'name'=>'E2_106_1',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 
 		$E2_106A_1=array(
 			'id'=>'E2_106A_1',
 			'name'=>'E2_106A_1',
-			'class'=>'form-control',
+			'class'=>'form-control agua',
+			'maxlength' => '2',	
 		);
 		$E2_106B_1=array(
 			'id'=>'E2_106B_1',
 			'name'=>'E2_106B_1',
-			'class'=>'form-control',
+			'class'=>'form-control agua',
+			'maxlength' => '2',	
 		);
 
 
 		$E2_106_2=array(
 			'id'=>'E2_106_2',
 			'name'=>'E2_106_2',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 
 		$E2_106_3=array(
 			'id'=>'E2_106_3',
 			'name'=>'E2_106_3',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 		$E2_106A_3=array(
 			'id'=>'E2_106A_3',
 			'name'=>'E2_106A_3',
-			'class'=>'form-control',
+			'class'=>'form-control electricidad',
+			'maxlength' => '2',	
 		);
 		$E2_106B_3=array(
 			'id'=>'E2_106B_3',
 			'name'=>'E2_106B_3',
-			'class'=>'form-control',
+			'class'=>'form-control electricidad',
+			'maxlength' => '2',	
 		);
 		$E2_106C_3=array(
 			'id'=>'E2_106C_3',
 			'name'=>'E2_106C_3',
-			'class'=>'form-control',
+			'class'=>'form-control electricidad',
+			'maxlength' => '1',	
 		);
 
 		$E2_106C_3_O=array(
 			'id'=>'E2_106C_3_O',
 			'name'=>'E2_106C_3_O',
-			'class'=>'form-control',
+			'class'=>'form-control electricidad',
+			'maxlength' => '20',
+			'disabled'=> 'disabled',	
 		);
 
 
 		$E2_106_4=array(
 			'id'=>'E2_106_4',
 			'name'=>'E2_106_4',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 
 		$E2_106D_4=array(
 			'id'=>'E2_106D_4',
 			'name'=>'E2_106D_4',
-			'class'=>'form-control',
+			'class'=>'form-control internet',
+			'maxlength' => '20',	
 		);
 		$E2_106_5=array(
 			'id'=>'E2_106_5',
 			'name'=>'E2_106_5',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 
 		$E2_106D_5=array(
 			'id'=>'E2_106D_5',
 			'name'=>'E2_106D_5',
-			'class'=>'form-control',
+			'class'=>'form-control radio',
+			'maxlength' => '20',	
 		);
 		$E2_106_6=array(
 			'id'=>'E2_106_6',
 			'name'=>'E2_106_6',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 
 		$E2_106D_6=array(
 			'id'=>'E2_106D_6',
 			'name'=>'E2_106D_6',
-			'class'=>'form-control',
+			'class'=>'form-control senal',
+			'maxlength' => '20',	
 		);
 
 
@@ -91,6 +107,7 @@
 			'id' =>'E2_101_1',
 			'name' => 'E2_101_1',
 			'class' => 'form-control',
+			'maxlength' => '3',	
 		);
 
 
@@ -98,6 +115,7 @@
 			'id' => 'E2_101_2',
 			'name' => 'E2_101_2',
 			'class' => 'form-control',
+			'maxlength' => '3',	
 		);
 
 
@@ -106,18 +124,21 @@
 			'id' => 'E2_101_3',
 			'name' => 'E2_101_3',
 			'class' => 'form-control',
+			'maxlength' => '3',	
 		);
 
 		$E2_101_3_H=array(
 			'id' =>'E2_101_3_H',
 			'name' =>'E2_101_3_H',
 			'class'=>'form-control',
+			'maxlength' => '2',	
 		);
 
 		$E2_101_3_M=array(
 			'id' =>'E2_101_3_M',
 			'name' =>'E2_101_3_M',
 			'class'=>'form-control',
+			'maxlength' => '2',	
 		);
 
 
@@ -126,61 +147,72 @@
 			'id'=>'E2_102_1',
 			'name' =>'E2_102_1',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
 		);
 
 		$E2_102_2=array(
 			'id'=>'E2_102_2',
 			'name' =>'E2_102_2',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
+			
 		);
 
 		$E2_102_3=array(
 			'id'=>'E2_102_3',
 			'name'=>'E2_102_3',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
 		);
 
 		$E2_102_4=array(
 			'id'=>'E2_102_4',
 			'name' =>'E2_102_4',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
 		);
 
 		$E2_102_5=array(
 			'id'=>'E2_102_5',
 			'name' =>'E2_102_5',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
 		);
 
 		$E2_102_6=array(
 			'id'=>'E2_102_6',
 			'name'=>'E2_102_6',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
 		);
 
 		$E2_102_7=array(
 			'id'=>'E2_102_7',
 			'name'=>'E2_102_7',
 			'class'=> 'form-control',
+			'maxlength' => '20',	
 		);
 
 
 		$E2_103=array(
 			'id'=>'E2_103',
 			'name'=>'E2_103',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',	
 		);
 
 		$E2_103_Cantidad=array(
 			'id'=>'E2_103_Cantidad',
 			'name'=>'E2_103_Cantidad',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '2',	
 		);
 
 		$E2_103A_1=array(
 			'id'=>'E2_103A_1',
 			'name'=>'E2_103A_1',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',	
 
 		);
 
@@ -188,98 +220,122 @@
 			'id'=>'E2_103A_10',
 			'name'=>'E2_103A_10',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 
 		$E2_103A_9=array(
 			'id'=>'E2_103A_9',
 			'name'=>'E2_103A_9',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 
 		$E2_103A_8=array(
 			'id'=>'E2_103A_8',
 			'name'=>'E2_103A_8',
 			'class	'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 
 		$E2_103A_7=array(
 			'id'=>'E2_103A_7',
 			'name'=>'E2_103A_7',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 		$E2_103A_6=array(
 			'id'=>'E2_103A_6',
 			'name'=>'E2_103A_6',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 		$E2_103A_5=array(
 			'id'=>'E2_103A_5',
 			'name'=>'E2_103A_5',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 		$E2_103A_4=array(
 			'id'=>'E2_103A_4',
 			'name'=>'E2_103A_4',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 		$E2_103A_3=array(
 			'id'=>'E2_103A_3',
 			'name'=>'E2_103A_3',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 		$E2_103A_2=array(
 			'id'=>'E2_103A_2',
 			'name'=>'E2_103A_2',
 			'class'=>'form-control anexos_caserios',
+			'maxlength' => '20',
 		);
 		
 		$E2_104_1=array(
 			'id'=>'E2_104_1',
 			'name'=>'E2_104_1',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
-
-
 
 		$E2_104_2=array(
 			'id'=>'E2_104_2',
 			'name'=>'E2_104_2',
 			'class'=>'form-control',
+			'maxlength' => '1',
+
 		);
 
 		$E2_104_3=array(
 			'id'=>'E2_104_3',
 			'name'=>'E2_104_3',
 			'class'=>'form-control',
+			'maxlength' => '1',
+
 		);
 
 		$E2_104_4=array(
 			'id'=>'E2_104_4',
 			'name'=>'E2_104_4',
 			'class'=>'form-control',
+			'maxlength' => '1',
+
 		);
 
 		$E2_104_5=array(
 			'id'=>'E2_104_5',
 			'name'=>'E2_104_5',
 			'class'=>'form-control',
+			'maxlength' => '1',
+
 		);
 
 		$E2_104_6=array(
 			'id'=>'E2_104_6',
 			'name'=>'E2_104_6',
 			'class'=>'form-control',
+			'maxlength' => '1',
+
 		);
 
 		$E2_104_6_O=array(
 			'id'=>'E2_104_6_O',
 			'name'=>'E2_104_6_O',
 			'class'=>'form-control',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
+
 		);
+		
 		$E2_105_1=array(
 			'id'=>'E2_105_1',
 			'name'=>'E2_105_1',
 			'class'=>'form-control',
+			'maxlength' => '1',
+
 
 		);
 
@@ -288,6 +344,8 @@
 			'id'=>'E2_105A_1_H',
 			'name'=>'E2_105A_1_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
+
 		);
 
 
@@ -295,6 +353,7 @@
 			'id'=>'E2_105A_1_M',
 			'name'=>'E2_105A_1_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 
@@ -302,996 +361,1204 @@
 			'id'=>'E2_105_2',
 			'name'=>'E2_105_2',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_2_H=array(
 			'id'=>'E2_105_2_H',
 			'name'=>'E2_105_2_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_2_M=array(
 			'id'=>'E2_105_2_M',
 			'name'=>'E2_105_2_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_3=array(
 			'id'=>'E2_105_3',
 			'name'=>'E2_105_3',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_3_H=array(
 			'id'=>'E2_105A_3_H',
 			'name'=>'E2_105A_3_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_3_M=array(
 			'id'=>'E2_105A_3_M',
 			'name'=>'E2_105A_3_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_4=array(
 			'id'=>'E2_105_4',
 			'name'=>'E2_105_4',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_4_H=array(
 			'id'=>'E2_105A_4_H',
 			'name'=>'E2_105A_4_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_4_M=array(
 			'id'=>'E2_105A_4_M',
 			'name'=>'E2_105A_4_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_5=array(
 			'id'=>'E2_105_5',
 			'name'=>'E2_105_5',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_5_M=array(
 			'id'=>'E2_105A_5_M',
 			'name'=>'E2_105A_5_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_5_H=array(
 			'id'=>'E2_105A_5_H',
 			'name'=>'E2_105A_5_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_6=array(
 			'id'=>'E2_105_6',
 			'name'=>'E2_105_6',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_6_H=array(
 			'id'=>'E2_105A_6_H',
 			'name'=>'E2_105A_6_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_6_M=array(
 			'id'=>'E2_105A_6_M',
 			'name'=>'E2_105A_6_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_7=array(
 			'id'=>'E2_105_7',
 			'name'=>'E2_105_7',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_7_H=array(
 			'id'=>'E2_105A_7_H',
 			'name'=>'E2_105A_7_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 		$E2_105A_7_M=array(
 			'id'=>'E2_105A_7_M',
 			'name'=>'E2_105A_7_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_8=array(
 			'id'=>'E2_105_8',
 			'name'=>'E2_105_8',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_8_H=array(
 			'id'=>'E2_105A_8_H',
 			'name'=>'E2_105A_8_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_8_M=array(
 			'id'=>'E2_105A_8_M',
 			'name'=>'E2_105A_8_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_9=array(
 			'id'=>'E2_105_9',
 			'name'=>'E2_105_9',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 		$E2_105A_9_H=array(
 			'id'=>'E2_105A_9_H',
 			'name'=>'E2_105A_9_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 		$E2_105A_9_M=array(
 			'id'=>'E2_105A_9_M',
 			'name'=>'E2_105A_9_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_10=array(
 			'id'=>'E2105_10',
 			'name'=>'E2105_10',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 		$E2_105A_10_H=array(
 			'id'=>'E2_105A_10_H',
 			'name'=>'E2_105A_10_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 		$E2_105A_10_M=array(
 			'id'=>'E2_105A_10_M',
 			'name'=>'E2_105A_10_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_11=array(
 			'id'=>'E2_105_11',
 			'name'=>'E2_105_11',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_11_H=array(
 			'id'=>'E2_105A_11_H',
 			'name'=>'E2_105A_11_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_11_M=array(
 			'id'=>'E2_105A_11_M',
 			'name'=>'E2_105A_11_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_12=array(
 			'id'=>'E2_105_12',
 			'name'=>'E2_105_12',
 			'class'=>'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_105A_12_H=array(
 			'id'=>'E2_105A_12_H',
 			'name'=>'E2_105A_12_H',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105A_12_M=array(
 			'id'=>'E2_105A_12_M',
 			'name'=>'E2_105A_12_M',
 			'class'=>'form-control',
+			'maxlength' => '2',
 		);
 
 		$E2_105_12_O= array(
 			'id' =>'E2_105_12_O',
 			'name' => 'E2_105_12_O', 
-			'class'=> 'form-control'
+			'class'=> 'form-control',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107_1=array(
 			'id'=>'E2_107_1',
 			'name'=>'E2_107_1',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_1=array(
 			'id'=>'E2_107A_1',
 			'name'=>'E2_107A_1',
-			'class'=>'form-control',
+			'class'=>'form-control radiot',
+			'maxlength' => '2',
 		);
+
 		$E2_107B_1=array(
 			'id'=>'E2_107B_1',
 			'name'=>'E2_107B_1',
-			'class'=>'form-control',
+			'class'=>'form-control radiot',
+			'maxlength' => '1',
 		);
+
 		$E2_107B_1_O=array(
 			'id'=>'E2_107B_1_O',
 			'name'=>'E2_107B_1_O',
-			'class'=>'form-control',
+			'class'=>'form-control radiot',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
+
 		$E2_107C_1=array(
 			'id'=>'E2_107C_1',
 			'name'=>'E2_107C_1',
-			'class'=>'form-control',
+			'class'=>'form-control radiot',
+			'maxlength' => '2',
 		);
 
 		$E2_107_2=array(
 			'id'=>'E2_107_2',
 			'name'=>'E2_107_2',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_2=array(
 			'id'=>'E2_107A_2',
 			'name'=>'E2_107A_2',
-			'class'=>'form-control',
+			'class'=>'form-control satelital',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_2=array(
 			'id'=>'E2_107B_2',
 			'name'=>'E2_107B_2',
-			'class'=>'form-control',
+			'class'=>'form-control satelital',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_2_O=array(
 			'id'=>'E2_107B_2_O',
 			'name'=>'E2_107B_2_O',
-			'class'=>'form-control',
+			'class'=>'form-control satelital',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_2=array(
 			'id'=>'E2_107C_2',
 			'name'=>'E2_107C_2',
-			'class'=>'form-control',
+			'class'=>'form-control satelital',
+			'maxlength' => '2',
 		);
 
 		$E2_107_3=array(
 			'id'=>'E2_107_3',
 			'name'=>'E2_107_3',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_3=array(
 			'id'=>'E2_107A_3',
 			'name'=>'E2_107A_3',
-			'class'=>'form-control',
+			'class'=>'form-control tpublico',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_3=array(
 			'id'=>'E2_107B_3',
 			'name'=>'E2_107B_3',
-			'class'=>'form-control',
+			'class'=>'form-control tpublico',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_3_O=array(
 			'id'=>'E2_107B_3_O',
 			'name'=>'E2_107B_3_O',
-			'class'=>'form-control',
+			'class'=>'form-control tpublico',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_3=array(
 			'id'=>'E2_107C_3',
 			'name'=>'E2_107C_3',
-			'class'=>'form-control',
+			'class'=>'form-control tpublico',
+			'maxlength' => '2',
 		);
 
 		$E2_107_4=array(
 			'id'=>'E2_107_4',
 			'name'=>'E2_107_4',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_4=array(
 			'id'=>'E2_107A_4',
 			'name'=>'E2_107A_4',
-			'class'=>'form-control',
+			'class'=>'form-control antena',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_4=array(
 			'id'=>'E2_107B_4',
 			'name'=>'E2_107B_4',
-			'class'=>'form-control',
+			'class'=>'form-control antena',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_4_O=array(
 			'id'=>'E2_107B_4_O',
 			'name'=>'E2_107B_4_O',
-			'class'=>'form-control',
+			'class'=>'form-control antena',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_4=array(
 			'id'=>'E2_107C_4',
 			'name'=>'E2_107C_4',
-			'class'=>'form-control',
+			'class'=>'form-control antena',
+			'maxlength' => '2',
 		);
 
 		$E2_107_5=array(
 			'id'=>'E2_107_5',
 			'name'=>'E2_107_5',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_5=array(
 			'id'=>'E2_107A_5',
 			'name'=>'E2_107A_5',
-			'class'=>'form-control',
+			'class'=>'form-control generador',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_5=array(
 			'id'=>'E2_107B_5',
 			'name'=>'E2_107B_5',
-			'class'=>'form-control',
+			'class'=>'form-control generador',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_5_O=array(
 			'id'=>'E2_107B_5_O',
 			'name'=>'E2_107B_5_O',
-			'class'=>'form-control',
+			'class'=>'form-control generador',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_5=array(
 			'id'=>'E2_107C_5',
 			'name'=>'E2_107C_5',
-			'class'=>'form-control',
+			'class'=>'form-control generador',
+			'maxlength' => '2',
 		);
 		$E2_107_6=array(
 			'id'=>'E2_107_6',
 			'name'=>'E2_107_6',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_6=array(
 			'id'=>'E2_107A_6',
 			'name'=>'E2_107A_6',
-			'class'=>'form-control',
+			'class'=>'form-control panel',
+			'maxlength' => '2',
 		);
 		$E2_107B_6=array(
 			'id'=>'E2_107B_6',
 			'name'=>'E2_107B_6',
-			'class'=>'form-control',
+			'class'=>'form-control panel',
+			'maxlength' => '1',
 		);
 		$E2_107B_6_O=array(
 			'id'=>'E2_107B_6_O',
 			'name'=>'E2_107B_6_O',
-			'class'=>'form-control',
+			'class'=>'form-control panel',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 		$E2_107C_6=array(
 			'id'=>'E2_107C_6',
 			'name'=>'E2_107C_6',
-			'class'=>'form-control',
+			'class'=>'form-control panel',
+			'maxlength' => '2',
 		);
 		$E2_107_7=array(
 			'id'=>'E2_107_7',
 			'name'=>'E2_107_7',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_7=array(
 			'id'=>'E2_107A_7',
 			'name'=>'E2_107A_7',
-			'class'=>'form-control',
+			'class'=>'form-control televisor',
+			'maxlength' => '2',
 		);
 		$E2_107B_7=array(
 			'id'=>'E2_107B_7',
 			'name'=>'E2_107B_7',
-			'class'=>'form-control',
+			'class'=>'form-control televisor',
+			'maxlength' => '1',
 		);
 		$E2_107B_7_O=array(
 			'id'=>'E2_107B_7_O',
 			'name'=>'E2_107B_7_O',
-			'class'=>'form-control',
+			'class'=>'form-control televisor',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 		$E2_107C_7=array(
 			'id'=>'$E2_107C_7',
 			'name'=>'$E2_107C_7',
-			'class'=>'form-control',
+			'class'=>'form-control televisor',
+			'maxlength' => '2',
 		);
 		$E2_107_8=array(
 			'id'=>'E2_107_8',
 			'name'=>'E2_107_8',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_8=array(
 			'id'=>'E2_107A_8',
-			'name'=>'E2_107A_8',
-			'class'=>'form-control',
+			'name'=>'E2_107A_8 ',
+			'class'=>'form-control computadora',
+			'maxlength' => '2',
 		);
 		$E2_107B_8=array(
 			'id'=>'E2_107B_8',
 			'name'=>'E2_107B_8',
-			'class'=>'form-control',
+			'class'=>'form-control computadora',
+			'maxlength' => '1',
 		);
 		$E2_107B_8_O=array(
 			'id'=>'E2_107B_8_O',
 			'name'=>'E2_107B_8_O',
-			'class'=>'form-control',
+			'class'=>'form-control computadora',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 		$E2_107C_8=array(
 			'id'=>'E2_107C_8',
 			'name'=>'E2_107C_8',
-			'class'=>'form-control',
+			'class'=>'form-control computadora',
+			'maxlength' => '2',
 		);
 		$E2_107_9=array(
 			'id'=>'E2_107_9',
 			'name'=>'E2_107_9',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_9=array(
 			'id'=>'E2_107A_9',
 			'name'=>'E2_107A_9',
-			'class'=>'form-control',
+			'class'=>'form-control dvd',
+			'maxlength' => '2',
 		);
 		$E2_107B_9=array(
 			'id'=>'E2_107B_9',
 			'name'=>'E2_107B_9',
-			'class'=>'form-control',
+			'class'=>'form-control dvd',
+			'maxlength' => '1',
 		);
 		$E2_107B_9_O=array(
 			'id'=>'E2_107B_9_O',
 			'name'=>'E2_107B_9_O',
-			'class'=>'form-control',
+			'class'=>'form-control dvd',
+			'maxlength' => '20',
+			'disabled' => 'disabled', 
 		);
 
 
 		$E2_107C_9=array(
 			'id'=>'E2_107C_9',
 			'name'=>'E2_107C_9',
-			'class'=>'form-control',
+			'class'=>'form-control dvd',
+			'maxlength' => '2',
 		);
-		$E2_107C_9_O=array(
-			'id'=>'E2_107C_9_O',
-			'name'=>'E2_107C_9_O',
-			'class'=>'form-control',
-		);
+		
 		$E2_107_10=array(
 			'id'=>'E2_107_10',
 			'name'=>'E2_107_10',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_10=array(
 			'id'=>'E2_107A_10',
 			'name'=>'E2_107A_10',
-			'class'=>'form-control',
+			'class'=>'form-control esonido',
+			'maxlength' => '2',
 		);
 		$E2_107B_10=array(
 			'id'=>'E2_107B_10',
 			'name'=>'E2_107B_10',
-			'class'=>'form-control',
+			'class'=>'form-control esonido',
+			'maxlength' => '1',
 		);
 		$E2_107B_10_O=array(
 			'id'=>'E2_107B_10_O',
 			'name'=>'E2_107B_10_O',
-			'class'=>'form-control',
+			'class'=>'form-control esonido',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 		$E2_107C_10=array(
 			'id'=>'E2_107C_10',
 			'name'=>'E2_107C_10',
-			'class'=>'form-control',
+			'class'=>'form-control esonido',
+			'maxlength' => '2',
 		);
 		$E2_107_11=array(
 			'id'=>'E2_107_11',
 			'name'=>'E2_107_11',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_11=array(
 			'id'=>'E2_107A_11',
 			'name'=>'E2_107A_11',
-			'class'=>'form-control',
+			'class'=>'form-control aserradero',
+			'maxlength' => '2',
 		);
 		$E2_107B_11=array(
 			'id'=>'E2_107B_11',
 			'name'=>'E2_107B_11',
-			'class'=>'form-control',
+			'class'=>'form-control aserradero',
+			'maxlength' => '1',
 		);
 		$E2_107B_11_O=array(
 			'id'=>'E2_107B_11_O',
-			'name'=>'E2_107B_11_O',
+			'name'=>'E2_107B_11_O aserradero',
 			'class'=>'form-control',
+			'maxlength' => '20',
+			'disabled' => 'disabled', 
 		);
 		$E2_107C_11=array(
 			'id'=>'E2_107C_11',
 			'name'=>'E2_107C_11',
-			'class'=>'form-control',
+			'class'=>'form-control aserradero',
+			'maxlength' => '2',
 		);
 		$E2_107_12=array(
 			'id'=>'E2_107_12',
 			'name'=>'E2_107_12',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_12=array(
 			'id'=>'E2_107A_12',
 			'name'=>'E2_107A_12',
-			'class'=>'form-control',
+			'class'=>'form-control motosierra',
+			'maxlength' => '2',
 		);
 		$E2_107B_12=array(
 			'id'=>'E2_107B_12',
 			'name'=>'E2_107B_12',
-			'class'=>'form-control',
+			'class'=>'form-control motosierra',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_12_O=array(
 			'id'=>'E2_107B_12_O',
 			'name'=>'E2_107B_12_O',
-			'class'=>'form-control',
+			'class'=>'form-control motosierra',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_12=array(
 			'id'=>'E2_107C_12',
 			'name'=>'E2_107C_12',
-			'class'=>'form-control',
+			'class'=>'form-control motosierra',
+			'maxlength' => '2',
 		);
 		$E2_107_13=array(
 			'id'=>'E2_107_13',
 			'name'=>'E2_107_13',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_13=array(
 			'id'=>'E2_107A_13',
 			'name'=>'E2_107A_13',
-			'class'=>'form-control',
+			'class'=>'form-control peque',
+			'maxlength' => '2',
 		);
 		$E2_107B_13=array(
 			'id'=>'E2_107B_13',
 			'name'=>'E2_107B_13',
-			'class'=>'form-control',
+			'class'=>'form-control peque',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_13_O=array(
 			'id'=>'E2_107B_13_O',
 			'name'=>'E2_107B_13_O',
-			'class'=>'form-control',
+			'class'=>'form-control peque',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_13=array(
 			'id'=>'E2_107C_13',
 			'name'=>'E2_107C_13',
-			'class'=>'form-control',
+			'class'=>'form-control peque',
+			'maxlength' => '2',
 		);
 		$E2_107_14=array(
 			'id'=>'E2_107_14',
 			'name'=>'E2_107_14',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_14=array(
 			'id'=>'E2_107A_14',
 			'name'=>'E2_107A_14',
-			'class'=>'form-control',
+			'class'=>'form-control lancha',
+			'maxlength' => '2',
 		);
 		$E2_107B_14=array(
 			'id'=>'E2_107B_14',
 			'name'=>'E2_107B_14',
-			'class'=>'form-control',
+			'class'=>'form-control lancha',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_14_O=array(
 			'id'=>'E2_107B_14_O',
 			'name'=>'E2_107B_14_O',
-			'class'=>'form-control',
+			'class'=>'form-control lancha',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_14=array(
 			'id'=>'E2_107C_14',
 			'name'=>'E2_107C_14',
-			'class'=>'form-control',
+			'class'=>'form-control lancha',
+			'maxlength' => '2',
 		);
 
 		$E2_107_15=array(
 			'id'=>'E2_107_15',
 			'name'=>'E2_107_15',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_15=array(
 			'id'=>'E2_107A_15',
 			'name'=>'E2_107A_15',
-			'class'=>'form-control',
+			'class'=>'form-control canoa',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_15=array(
 			'id'=>'E2_107B_15',
 			'name'=>'E2_107B_15',
-			'class'=>'form-control',
+			'class'=>'form-control canoa',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_15_O=array(
 			'id'=>'E2_107B_15_O',
 			'name'=>'E2_107B_15_O',
-			'class'=>'form-control',
+			'class'=>'form-control canoa',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 		$E2_107C_15=array(
 			'id'=>'E2_107C_15',
 			'name'=>'E2_107C_15',
-			'class'=>'form-control',
+			'class'=>'form-control canoa',
+			'maxlength' => '2',
+
 		);
 		$E2_107_16=array(
 			'id'=>'E2_107_16',
 			'name'=>'E2_107_16',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_16=array(
 			'id'=>'E2_107A_16',
 			'name'=>'E2_107A_16',
-			'class'=>'form-control',
+			'class'=>'form-control deslizador',
+			'maxlength' => '2',
 		);
 		$E2_107B_16=array(
 			'id'=>'E2_107B_16',
 			'name'=>'E2_107B_16',
-			'class'=>'form-control',
+			'class'=>'form-control deslizador',
+			'maxlength' => '1',
 		);
+
+		$E2_107B_16_O=array(
+			'id'=>'E2_107B_16_O',
+			'name'=>'E2_107B_16_O',
+			'class'=>'form-control deslizador',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
+		);
+
+
 		$E2_107C_16=array(
 			'id'=>'E2_107C_16',
 			'name'=>'E2_107C_16',
-			'class'=>'form-control',
+			'class'=>'form-control deslizador',
+			'maxlength' => '2',
 		);
 		$E2_107_17=array(
 			'id'=>'E2_107_17',
 			'name'=>'E2_107_17',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_17=array(
 			'id'=>'E2_107A_17',
 			'name'=>'E2_107A_17',
-			'class'=>'form-control',
+			'class'=>'form-control camion',
+			'maxlength' => '2',
 		);
 		$E2_107B_17=array(
 			'id'=>'E2_107B_17',
 			'name'=>'E2_107B_17',
-			'class'=>'form-control',
+			'class'=>'form-control camion',
+			'maxlength' => '1',
 		);
+
 		$E2_107B_17_O=array(
 			'id'=>'E2_107B_17_O',
 			'name'=>'E2_107B_17_O',
-			'class'=>'form-control',
+			'class'=>'form-control camion',
+			'maxlength' => '20',
+			'disabled' => 'disabled', 
 		);
+
 		$E2_107C_17=array(
 			'id'=>'E2_107C_17',
-			'name'=>'E2_107C_17',
-			'class'=>'form-control',
+			'name'=>'E2_107C_17 ',
+			'class'=>'form-control camion',
+			'maxlength' => '2',
 		);
+
 		$E2_107_18=array(
 			'id'=>'E2_107_18',
 			'name'=>'E2_107_18',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
+
 		$E2_107A_18=array(
 			'id'=>'E2_107A_18',
 			'name'=>'E2_107A_18',
-			'class'=>'form-control',
+			'class'=>'form-control tractor',
+			'maxlength' => '2',
 		);
+
 		$E2_107B_18=array(
 			'id'=>'E2_107B_18',
 			'name'=>'E2_107B_18',
-			'class'=>'form-control',
+			'class'=>'form-control tractor',
+			'maxlength' => '1',
 		);
+
 		$E2_107B_18_O=array(
 			'id'=>'E2_107B_18_O',
 			'name'=>'E2_107B_18_O',
-			'class'=>'form-control',
+			'class'=>'form-control tractor',
+			'maxlength'=> '20',
+			'disabled'=> 'disabled',
 		);
+
 		$E2_107C_18=array(
 			'id'=>'E2_107C_18',
 			'name'=>'E2_107C_18',
-			'class'=>'form-control',
+			'class'=>'form-control tractor',
+			'maxlength' => '2',
 		);
 		$E2_107_19=array(
 			'id'=>'E2_107_19',
 			'name'=>'E2_107_19',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 		$E2_107A_19=array(
 			'id'=>'E2_107A_19',
 			'name'=>'E2_107A_19',
-			'class'=>'form-control',
+			'class'=>'form-control red',
+			'maxlength' => '2',
 		);
 		$E2_107B_19=array(
 			'id'=>'E2_107B_19',
 			'name'=>'E2_107B_19',
-			'class'=>'form-control',
-		);
-		$E2_107C_19=array(
-			'id'=>'E2_107C_19',
-			'name'=>'E2_107C_19',
-			'class'=>'form-control',
+			'class'=>'form-control red',
+			'maxlength' => '1',
 		);
 		$E2_107B_19_O=array(
 			'id'=>'E2_107B_19_O',
 			'name'=>'E2_107B_19_O',
-			'class'=>'form-control',
+			'class'=>'form-control red',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
+		$E2_107C_19=array(
+			'id'=>'E2_107C_19',
+			'name'=>'E2_107C_19',
+			'class'=>'form-control red',
+			'maxlength' => '2',
+		);
+		
 		$E2_107_20=array(
 			'id'=>'E2_107_20',
 			'name'=>'E2_107_20',
-			'class'=>'form-control',
-		);
-
-		$E2_107_20=array(
-			'id'=>'E2_107_20',
-			'name'=>'E2_107_20',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_20=array(
 			'id'=>'E2_107A_20',
 			'name'=>'E2_107A_20',
-			'class'=>'form-control',
+			'class'=>'form-control apilador',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_20=array(
 			'id'=>'E2_107B_20',
 			'name'=>'E2_107B_20',
-			'class'=>'form-control',
+			'class'=>'form-control apilador',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_20_O=array(
 			'id'=>'E2_107B_20_O',
 			'name'=>'E2_107B_20_O',
-			'class'=>'form-control',
+			'class'=>'form-control apilador',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_20=array(
 			'id'=>'E2_107C_20',
 			'name'=>'E2_107C_20',
-			'class'=>'form-control',
+			'class'=>'form-control apilador',
+			'maxlength' => '2',
 		);
 
 		$E2_107_21=array(
 			'id'=>'E2_107_21',
 			'name'=>'E2_107_21',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_21=array(
 			'id'=>'E2_107A_21',
 			'name'=>'E2_107A_21',
-			'class'=>'form-control',
+			'class'=>'form-control caja',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_21=array(
 			'id'=>'E2_107B_21',
 			'name'=>'E2_107B_21',
-			'class'=>'form-control',
+			'class'=>'form-control caja',
+			'maxlength' => '1',
 		);
 
-		$E2_107B_21=array(
-			'id'=>'E2_107B_21',
-			'name'=>'E2_107B_21',
-			'class'=>'form-control',
-		);
-
+	
 		$E2_107B_21_O=array(
 			'id'=>'E2_107B_21_O',
 			'name'=>'E2_107B_21_O',
-			'class'=>'form-control',
+			'class'=>'form-control caja',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_21=array(
 			'id'=>'E2_107C_21',
 			'name'=>'E2_107C_21',
-			'class'=>'form-control',
+			'class'=>'form-control caja',
+			'maxlength' => '2',
 		);
 
 		$E2_107_22=array(
 			'id'=>'E2_107_22',
 			'name'=>'E2_107_22',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107A_22=array(
 			'id'=>'E2_107A_22',
 			'name'=>'E2_107A_22',
-			'class'=>'form-control',
+			'class'=>'form-control redes',
+			'maxlength' => '2',
 		);
 
 		$E2_107B_22=array(
 			'id'=>'E2_107B_22',
 			'name'=>'E2_107B_22',
-			'class'=>'form-control',
+			'class'=>'form-control redes',
+			'maxlength' => '1',
 		);
 
 		$E2_107B_22_O=array(
 			'id'=>'E2_107B_22_O',
 			'name'=>'E2_107B_22_O',
-			'class'=>'form-control',
+			'class'=>'form-control redes',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107C_22=array(
 			'id'=>'E2_107C_22',
 			'name'=>'E2_107C_22',
-			'class'=>'form-control',
+			'class'=>'form-control redes',
+			'maxlength' => '2',
 		);
 
 		$E2_107_23=array(
 			'id'=>'E2_107_23',
 			'name'=>'E2_107_23',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_107_23_O=array(
 			'id'=>'E2_107_23_O',
 			'name'=>'E2_107_23_O',
-			'class'=>'form-control',
+			'class'=>'form-control otro',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_107A_23=array(
 			'id'=>'E2_107A_23',
 			'name'=>'E2_107A_23',
-			'class'=>'form-control',
+			'class'=>'form-control otro',
+			'maxlength' => '2',
 		);
 		$E2_107B_23=array(
 			'id'=>'E2_107B_23',
 			'name'=>'E2_107B_23',
-			'class'=>'form-control',
+			'class'=>'form-control otro',
+			'maxlength' => '1',
 		);
 		$E2_107B_23_O=array(
 			'id'=>'E2_107B_23_O',
 			'name'=>'E2_107B_23_O',
-			'class'=>'form-control',
+			'class'=>'form-control otro',
+			'maxlength' => '20',
+			'disabled'=> 'disabled',
 		);
 		$E2_107C_23=array(
 			'id'=>'E2_107C_23',
 			'name'=>'E2_107C_23',
-			'class'=>'form-control',
+			'class'=>'form-control otro',
+			'maxlength' => '2',
 		);
 
 		$E2_108_1=array(
 			'id'=>'E2_108_1',
 			'name'=>'E2_108_1',
-			'class'=> 'form-control',
+			'class'=> 'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_108A_1=array(
 			'id'=>'E2_108A_1',
 			'name'=>'E2_108A_1',
-			'class'=> 'form-control',
+			'class'=> 'form-control local',
+			'maxlength' => '4',
 		);
 
 
 		$E2_108B_1=array(
 			'id'=>'E2_108B_1',
 			'name'=>'E2_108B_1',
-			'class'=> 'form-control',
+			'class'=> 'form-control local',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108B_1_O=array(
 			'id'=>'E2_108B_1_O',
 			'name'=>'E2_108B_1_O',
-			'class'=> 'form-control',
+			'class'=> 'form-control local',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_108_2=array(
 			'id'=>'E2_108_2',
 			'name'=>'E2_108_2',
-			'class'=> 'form-control',
+			'class'=> 'form-control almacen change',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108A_2=array(
 			'id'=>'E2_108A_2',
 			'name'=>'E2_108A_2',
-			'class'=> 'form-control',
+			'class'=> 'form-control almacen',
+			'maxlength' => '4',
 		);
 
 
 		$E2_108B_2=array(
 			'id'=>'E2_108B_2',
 			'name'=>'E2_108B_2',
-			'class'=> 'form-control',
+			'class'=> 'form-control almacen',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108B_2_O=array(
 			'id'=>'E2_108B_2_O',
 			'name'=>'E2_108B_2_O',
-			'class'=> 'form-control',
+			'class'=> 'form-control almacen',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_108_3=array(
 			'id'=>'E2_108_3',
 			'name'=>'E2_108_3',
-			'class'=> 'form-control',
+			'class'=> 'form-control change',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108A_3=array(
 			'id'=>'E2_108A_3',
 			'name'=>'E2_108A_3',
-			'class'=> 'form-control',
+			'class'=> 'form-control tienda',
+			'maxlength' => '4',
 		);
 
 
 		$E2_108B_3=array(
 			'id'=>'E2_108B_3',
 			'name'=>'E2_108B_3',
-			'class'=> 'form-control',
+			'class'=> 'form-control tienda',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108B_3_O=array(
 			'id'=>'E2_108B_3_O',
 			'name'=>'E2_108B_3_O',
-			'class'=> 'form-control',
+			'class'=> 'form-control tienda',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_108_4=array(
 			'id'=>'E2_108_4',
 			'name'=>'E2_108_4',
-			'class'=> 'form-control',
+			'class'=> 'form-control change',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108A_4=array(
 			'id'=>'E2_108A_4',
 			'name'=>'E2_108A_4',
-			'class'=> 'form-control',
+			'class'=> 'form-control albergue',
+			'maxlength' => '4',
+
 		);
 
 
 		$E2_108B_4=array(
 			'id'=>'E2_108B_4',
 			'name'=>'E2_108B_4',
-			'class'=> 'form-control',
+			'class'=> 'form-control albergue',
+			'maxlength' => '1',
 		);
 
 		$E2_108B_4_O=array(
 			'id'=>'E2_108B_4_O',
 			'name'=>'E2_108B_4_O',
-			'class'=> 'form-control',
+			'class'=> 'form-control albergue',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_108_5=array(
 			'id'=>'E2_108_5',
 			'name'=>'E2_108_5',
-			'class'=> 'form-control',
+			'class'=> 'form-control change',
+			'maxlength' => '1',
 		);
 
 
 		$E2_108A_5=array(
 			'id'=>'E2_108A_5',
 			'name'=>'E2_108A_5',
-			'class'=> 'form-control',
+			'class'=> 'form-control losa',
+			'maxlength' => '4',
 		);
 
 
 		$E2_108B_5=array(
 			'id'=>'E2_108B_5',
 			'name'=>'E2_108B_5',
-			'class'=> 'form-control',
+			'class'=> 'form-control losa',
 		);
 
 
 		$E2_108B_5_O=array(
 			'id'=>'E2_108B_5_O',
 			'name'=>'E2_108B_5_O',
-			'class'=> 'form-control',
+			'class'=> 'form-control losa',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_108_6=array(
 			'id'=>'E2_108_6',
 			'name'=>'E2_108_6',
-			'class'=> 'form-control',
+			'class'=> 'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_108A_6=array(
 			'id'=>'E2_108A_6',
 			'name'=>'E2_108A_6',
-			'class'=>'form-control',
+			'class'=>'form-control botiquin',
+			'maxlength' => '4',
 		);
 
 		$E2_108B_6=array(
 			'id'=>'E2_108B_6',
 			'name'=>'E2_108B_6',
-			'class'=>'form-control',
+			'class'=>'form-control botiquin',
+			'maxlength' => '20',
 		);
 
 
@@ -1299,332 +1566,398 @@
 		$E2_108B_6_O=array(
 			'id'=>'E2_108B_6_O',
 			'name'=>'E2_108B_6_O',
-			'class'=>'form-control',
+			'class'=>'form-control botiquin',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_108_7=array(
 			'id'=>'E2_108_7',
 			'name'=>'E2_108_7',
-			'class'=>'form-control',
+			'class'=>'form-control change',
+			'maxlength' => '1',
 		);
 
 		$E2_108_7_O=array(
 			'id'=>'E2_108_7_O',
 			'name'=>'E2_108_7_O',
-			'class'=>'form-control',
+			'class'=>'form-control otro2',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_108A_7=array(
 			'id'=>'E2_108A_7',
 			'name'=>'E2_108A_7',
-			'class'=>'form-control',
+			'class'=>'form-control otro2',
+			'maxlength' => '4',
 		);
 
 		$E2_108B_7=array(
 			'id'=>'E2_108B_7',
 			'name'=>'E2_108B_7',
-			'class'=>'form-control',
+			'class'=>'form-control otro2',
+			'maxlength' => '1',
 		);
 
 		$E2_108B_7_O=array(
 			'id'=>'E2_108B_7_O',
 			'name'=>'E2_108B_7_O',
-			'class'=>'form-control',
+			'class'=>'form-control otro2',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_109=array(
 			'id' => 'E2_109',
 			'name' => 'E2_109',
-			'class' => 'form-control'
+			'class' => 'form-control change',
+			'maxlength' => '1',
 		);
 
 
 		$E2_109_Cantidad=array(
 			'id' => 'E2_109_Cantidad',
 			'name' => 'E2_109_Cantidad',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos',
+			'maxlength' => '3',
 		);
 
 		$E2_110_1=array(
 			'id' => 'E2_110_1',
 			'name' => 'E2_110_1',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110A_1=array(
 			'id' => 'E2_110A_1',
 			'name' => 'E2_110A_1',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos ini',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_1=array(
 			'id' => 'E2_110B_1',
 			'name' => 'E2_110B_1',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos ini',
+			'maxlength' => '1',
+
 		);
 
 		$E2_110_2=array(
 			'id' => 'E2_110_2',
 			'name' => 'E2_110_2',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110A_2=array(
 			'id' => 'E2_110A_2',
 			'name' => 'E2_110A_2',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos primaria',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_2=array(
 			'id' => 'E2_110B_2',
 			'name' => 'E2_110B_2',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos primaria',
+			'maxlength' => '1',
 		);
 
 		$E2_110_3=array(
 			'id' => 'E2_110_3',
 			'name' => 'E2_110_3',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110A_3=array(
 			'id' => 'E2_110A_3',
 			'name' => 'E2_110A_3',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos secundaria',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_3=array(
 			'id' => 'E2_110B_3',
 			'name' => 'E2_110B_3',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos secundaria',
+			'maxlength' => '1',
 		);
 		$E2_110_4=array(
 			'id' => 'E2_110_4',
 			'name' => 'E2_110_4',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110A_4=array(
 			'id' => 'E2_110A_4',
 			'name' => 'E2_110A_4',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos agropecuario',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_4=array(
 			'id' => 'E2_110B_4',
 			'name' => 'E2_110B_4',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos agropecuario',
+			'maxlength' => '1',
 		);
 
 		$E2_110_5=array(
 			'id' => 'E2_110_5',
 			'name' => 'E2_110_5',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110A_5=array(
 			'id' => 'E2_110A_5',
 			'name' => 'E2_110A_5',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos pedagogico',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_5=array(
 			'id' => 'E2_110B_5',
 			'name' => 'E2_110B_5',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos pedagogico',
+			'maxlength' => '1',
 		);
 
 		$E2_110_6=array(
 			'id' => 'E2_110_6',
 			'name' => 'E2_110_6',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110A_6=array(
 			'id' => 'E2_110A_6',
 			'name' => 'E2_110A_6',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos tecnologico',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_6=array(
 			'id' => 'E2_110B_6',
 			'name' => 'E2_110B_6',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos tecnologico',
+			'maxlength' => '1',
 		);
 
 		$E2_110_7=array(
 			'id' => 'E2_110_7',
 			'name' => 'E2_110_7',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos change',
+			'maxlength' => '1',
 		);
 
 		$E2_110_7_O=array(
 			'id' => 'E2_110_7_O',
 			'name' => 'E2_110_7_O',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos otro3',
+			'maxlength' => '20',
+			'disabled' => 'disabled',
 		);
 
 		$E2_110A_7=array(
 			'id' => 'E2_110A_7',
 			'name' => 'E2_110A_7',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos otro3',
+			'maxlength' => '30',
 		);
 
 		$E2_110B_7=array(
 			'id' => 'E2_110B_7',
 			'name' => 'E2_110B_7',
-			'class' => 'form-control educativos'
+			'class' => 'form-control educativos otro3',
+			'maxlength' => '1',
 		);
 
 		$E2_111=array(
 			'id' => 'E2_111',
 			'name' => 'E2_111',
-			'class' => 'form-control'
+			'class' => 'form-control change',
+			'maxlength' => '1',
+
 		);
 
 		$E2_112_1=array(
 			'id' => 'E2_112_1',
 			'name' => 'E2_112_1',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos change',
+			'maxlength' => '1',
 		);
 
 		$E2_112A_1=array(
 			'id' => 'E2_112A_1',
 			'name' => 'E2_112A_1',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos centro',
+			'maxlength' => '3',
 		);
 
 		$E2_112B_1=array(
 			'id' => 'E2_112B_1',
 			'name' => 'E2_112B_1',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos centro',
+			'maxlength' => '1',
 		);
 
 
 		$E2_112_2=array(
 			'id' => 'E2_112_2',
 			'name' => 'E2_112_2',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos change',
+			'maxlength' => '1',
 		);
 
 		$E2_112A_2=array(
 			'id' => 'E2_112A_2',
 			'name' => 'E2_112A_2',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos psalud',
+			'maxlength' => '3',
 		);
 
 		$E2_112B_2=array(
 			'id' => 'E2_112B_2',
 			'name' => 'E2_112B_2',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos psalud',
+			'maxlength' => '1',
 		);
 
 		$E2_112_3=array(
 			'id' => 'E2_112_3',
 			'name' => 'E2_112_3',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos change',
+			'maxlength' => '1',
 		);
 
 		$E2_112A_3=array(
 			'id' => 'E2_112A_3',
 			'name' => 'E2_112A_3',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos uro',
+			'maxlength' => '3',
 		);
 		$E2_112B_3=array(
 			'id' => 'E2_112B_3',
 			'name' => 'E2_112B_3',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos uro',
+			'maxlength' => '3',
 		);
 		$E2_112_4=array(
 			'id' => 'E2_112_4',
 			'name' => 'E2_112_4',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos change',
+			'maxlength' => '1',
 		);
 
 		$E2_112A_4=array(
 			'id' => 'E2_112A_4',
 			'name' => 'E2_112A_4',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos bcomunal',
+			'maxlength' => '3',
 		);
 
 		$E2_112B_4=array(
 			'id' => 'E2_112B_4',
 			'name' => 'E2_112B_4',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos bcomunal',
+			'maxlength' => '1',
 		);
 
 		$E2_112_5=array(
 			'id' => 'E2_112_5',
 			'name' => 'E2_112_5',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos change',
+			'maxlength' => '1',
 		);
 
 		$E2_112_5_O=array(
 			'id' => 'E2_112_5_O',
 			'name' => 'E2_112_5_O',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos otro4',
+			'maxlength' => '100',
+			'disabled' => 'disabled',
 		);
 
 		$E2_112A_5=array(
 			'id' => 'E2_112A_5',
 			'name' => 'E2_112A_5',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos otro4',
+			'maxlength' => '3',
 		);
 
 		$E2_112B_5=array(
 			'id' => 'E2_112B_5',
 			'name' => 'E2_112B_5',
-			'class' => 'form-control establecimientos'
+			'class' => 'form-control establecimientos otro4',
+			'maxlength' => '1',
 		);
 
 		$E2_113_1=array(
 			'id' => '$E2_113_1',
 			'name' => '$E2_113_1',
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_113_2=array(
 			'id' => 'E2_113_2',
 			'name' => 'E2_113_2',
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_113_3=array(
 			'id' => 'E2_113_3',
 			'name' => 'E2_113_3',
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_113_4=array(
 			'id' => 'E2_113_4',
 			'name' => 'E2_113_4',
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => '1',
 		);
 
 		$E2_113_5=array(
 			'id' => 'E2_113_5',
 			'name' => 'E2_113_5',
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => '30',
 		);
 
 		$E2_113_4_O=array(
 			'id' => 'E2_113_4_O',
 			'name' => 'E2_113_4_O',
-			'class' => 'form-control'
+			'class' => 'form-control',
+			'maxlength' => '1',
+			'disabled' => 'disabled',
 		);
 
 
 		$E2_100_Obs = array(
-							'id' => 'E2_100_Obs',
-							'name' => 'E2_100_Obs',
-							'class' => 'form-control',
-							'rows' => 2,
-					        'cols' => 13
-						);
+			'id' => 'E2_100_Obs',
+			'name' => 'E2_100_Obs',
+			'class' => 'form-control',
+			'rows' => 2,
+			'cols' => 13,
+			'maxlength' => '300',
+		);
 
-
-
+		$button_1 = array(
+			'id' => 'button_1',
+			'name' => 'button_1',
+			'class' => 'btn btn-primary',
+			'value' => 'Guardar',
+		);
 
 ?>
 
@@ -1634,7 +1967,7 @@
 
 <table class ="table table-bordered">
 	<tr>
-		<th colspan="4"> 100. CARACTERISTICAS GENERALES DE LA COMUNIDAD: SERVICIOS BÁSICOS E INFRAESTRUCTURA </th>
+		<th colspan="4"><h4> 100. CARACTERISTICAS GENERALES DE LA COMUNIDAD: SERVICIOS BÁSICOS E INFRAESTRUCTURA </h4></th>
 	</tr>
 	<td> <!-- Lado Izquierdo -->
 		
@@ -1819,7 +2152,7 @@
   			</tr>
   			<tr>
   				 <td> Otro</td>
-  				 <td> <?php echo form_input($E2_104_6);?> <br><?php echo form_input($E2_104_6_O) ?>Especifique  </br></td>
+  				 <td> <?php echo form_input($E2_104_6);?> <br> (Especifique) <?php echo form_input($E2_104_6_O) ?>  </br></td>
   			</tr>
 		</table>
 	</td>
@@ -1910,7 +2243,7 @@
 	  			</tr>
 	  			<tr>
 	  				<td> Otro? </td> 
-	  				<td> <?php echo form_input($E2_105_12);?> <br> <?php echo form_input($E2_105_12_O);?> Especifique </br> </td>
+	  				<td> <?php echo form_input($E2_105_12);?> <br> Especifique <?php echo form_input($E2_105_12_O);?> </br> </td>
 	  				<td> <?php echo form_input($E2_105A_12_H);?> </td>
 	  				<td> <?php echo form_input($E2_105A_12_M);?> </td>
 	  			</tr>
@@ -1957,7 +2290,7 @@
 	 	<td> <?php echo form_input($E2_106_3);?> </td>
 	 	<td> <?php echo form_input($E2_106A_3);?> </td>
 	 	<td> <?php echo form_input($E2_106B_3);?> </td>
-	 	<td colspan="2"> Otro<?php echo form_input($E2_106C_3);?>  <br> <?php echo form_input($E2_106C_3_O);?> Especifique </br> </td>
+	 	<td colspan="2"> Otro<?php echo form_input($E2_106C_3);?>  <br> (Especifique) <?php echo form_input($E2_106C_3_O);?>  </br> </td>
 	 	
 	 </tr>
 
@@ -2015,7 +2348,7 @@
 	 	<td colspan="3">  1.¿Radiofonia / radio transmisor? </td>
 	 	<td> <?php echo form_input($E2_107_1);?> </td>
 	 	<td> <?php echo form_input($E2_107A_1);?> </td>
-	 	<td> <?php echo form_input($E2_107B_1);?> <br><?php echo form_input($E2_107B_1_O);?> Especifique </br> </td>
+	 	<td> <?php echo form_input($E2_107B_1);?> <br> (Especifique) <?php echo form_input($E2_107B_1_O);?>  </br> </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_1);?> </td>
 	 	
 	 </tr>
@@ -2024,14 +2357,14 @@
 	 	<td colspan="3">  2.¿Telefono satelital? </td>
 	 	<td> <?php echo form_input($E2_107_2);?> </td>
 	 	<td> <?php echo form_input($E2_107A_2);?> </td>
-	 	<td> <?php echo form_input($E2_107B_2);?> <br><?php echo form_input($E2_107B_2_O);?> Especifique </br></td>
+	 	<td> <?php echo form_input($E2_107B_2);?> <br> (Especifique) <?php echo form_input($E2_107B_2_O);?>  </br></td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_2);?> </td>
 	 </tr>
 	 <tr>
 	 	<td colspan="3">  3.¿Telefono público? </td>
 	 	<td> <?php echo form_input($E2_107_3);?> </td>
 	 	<td> <?php echo form_input($E2_107A_3);?> </td>
-	 	<td> <?php echo form_input($E2_107B_3);?> <br><?php echo form_input($E2_107B_3_O);?> Especifique </br> </td>
+	 	<td> <?php echo form_input($E2_107B_3);?> <br> (Especifique) <?php echo form_input($E2_107B_3_O);?>  </br> </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_3);?> </td>
 	  </tr>
 
@@ -2039,7 +2372,7 @@
 	 	<td colspan="3">  4.¿Antena parabólica? </td>
 	 	<td> <?php echo form_input($E2_107_4);?> </td>
 	 	<td> <?php echo form_input($E2_107A_4);?> </td>
-	 	<td> <?php echo form_input($E2_107B_4);?> <br><?php echo form_input($E2_107B_4_O);?> Especifique </br> </td>
+	 	<td> <?php echo form_input($E2_107B_4);?> <br> (Especifique)<?php echo form_input($E2_107B_4_O);?>  </br> </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_4);?> </td>
 	  </tr>
 
@@ -2047,28 +2380,28 @@
 	 	<td colspan="3">  5.¿Generador eléctrico? </td>
 	 	<td> <?php echo form_input($E2_107_5);?> </td>
 	 	<td> <?php echo form_input($E2_107A_5);?> </td>
-	 	<td> <?php echo form_input($E2_107B_5);?> <br><?php echo form_input($E2_107B_5_O);?> Especifique </br></td>
+	 	<td> <?php echo form_input($E2_107B_5);?> <br> (Especifique) <?php echo form_input($E2_107B_5_O);?>  </br></td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_5);?> </td>
 	  </tr>
 	  <tr>
 	 	<td colspan="3">  6.¿Panel solar? </td>
 	 	<td> <?php echo form_input($E2_107_6);?> </td>
 	 	<td> <?php echo form_input($E2_107A_6);?> </td>
-	 	<td> <?php echo form_input($E2_107B_6);?> <br><?php echo form_input($E2_107B_6_O);?> Especifique </br> </td>
+	 	<td> <?php echo form_input($E2_107B_6);?> <br> (Especifique) <?php echo form_input($E2_107B_6_O);?>  </br> </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_6);?> </td>
 	  </tr>
 	  <tr>
 	 	<td colspan="3">  7.¿Televisor? </td>
 	 	<td> <?php echo form_input($E2_107_7);?> </td>
 	 	<td> <?php echo form_input($E2_107A_7);?> </td>
-	 	<td> <?php echo form_input($E2_107B_7);?> <br><?php echo form_input($E2_107B_7_O);?> Especifique </br> </td>
+	 	<td> <?php echo form_input($E2_107B_7);?> <br> (Especifique) <?php echo form_input($E2_107B_7_O);?>  </br> </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_7);?> </td>
 	  </tr>
 	  <tr>
 	 	<td colspan="3">  8.¿Computadora? </td>
 	 	<td> <?php echo form_input($E2_107_8);?> </td>
 	 	<td> <?php echo form_input($E2_107A_8);?> </td>
-	 	<td> <?php echo form_input($E2_107B_8);?> <br><?php echo form_input($E2_107B_8_O);?> Especifique </br></td>
+	 	<td> <?php echo form_input($E2_107B_8);?> <br> (Especifique) <?php echo form_input($E2_107B_8_O);?>  </br></td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_8);?> </td>
 	  </tr>
 	  <tr>
@@ -2116,15 +2449,15 @@
 	  <tr>
 	 	<td colspan="3">  15.¿Canoa? </td>
 	 	<td> <?php echo form_input($E2_107_15);?> </td>
-	 	<td> <?php echo form_input($E2_107_15);?> </td>
-	 	<td> <?php echo form_input($E2_107_15);?> <br><?php echo form_input($E2_107B_15_O);?> Especifique </br>  </td>
+	 	<td> <?php echo form_input($E2_107A_15);?> </td>
+	 	<td> <?php echo form_input($E2_107B_15);?> <br><?php echo form_input($E2_107B_15_O);?> Especifique </br>  </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_15);?> </td>
 	  </tr>
 	  <tr>
 	 	<td colspan="3">  16.¿Deslizador? </td>
 	 	<td> <?php echo form_input($E2_107_16);?> </td>
 	 	<td> <?php echo form_input($E2_107A_16);?> </td>
-	 	<td> <?php echo form_input($E2_107B_16);?> <br><?php echo form_input($E2_107C_16);?> Especifique </br> </td>
+	 	<td> <?php echo form_input($E2_107B_16);?> <br><?php echo form_input($E2_107B_16_O);?> Especifique </br> </td>
 	 	<td colspan="2"> <?php echo form_input($E2_107C_16);?> </td>
 	  </tr>
 	  <tr>
@@ -2458,11 +2791,18 @@
 	</tr>
 </table>
 
-<button>
-Enviar
 
-</button>
+
 </form>
+
+<div class="row">
+	<div class="pull-right">
+		<?php echo form_submit($button_1); ?>
+	</div>
+</div>
+
+<?php echo form_close(); ?>
+
 
 <script type="text/javascript">
 
@@ -2476,6 +2816,539 @@ $('#E2_103').change(function(event)
 	else
 	{
 		$('.anexos_caserios').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_106_1').change(function(event)
+{
+	if( $('#E2_106_1').val()=='2' )
+	{
+
+		$('.agua').attr('disabled','disabled');
+
+	}
+	else
+	{
+
+		$('.agua').removeAttr('disabled');
+	}
+
+
+});
+
+
+$('#E2_106_3').change(function(event) 
+{
+	if ( $('#E2_106_3').val()=='2' ) 
+	{
+
+		$('.electricidad').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.electricidad').removeAttr('disabled');
+
+	}
+
+});
+
+
+$('#E2_106_4').change(function(event) 
+{
+	if ( $('#E2_106_4').val()=='2' ) 
+	{
+
+		$('.internet').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.internet').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_106_5').change(function(event) 
+{
+	if ( $('#E2_106_5').val()=='2' ) 
+	{
+
+		$('.radio').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.radio').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_106_6').change(function(event) 
+{
+	if ( $('#E2_106_6').val()=='2' ) 
+	{
+
+		$('.senal').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.senal').removeAttr('disabled');
+
+	}
+
+});
+
+
+$('#E2_107_1').change(function(event) 
+{
+	if ( $('#E2_107_1').val()=='2' ) 
+	{
+
+		$('.radiot').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.radiot').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_2').change(function(event) 
+{
+	if ( $('#E2_107_2').val()=='2' ) 
+	{
+
+		$('.satelital').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.satelital').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_3').change(function(event) 
+{
+	if ( $('#E2_107_3').val()=='2' ) 
+	{
+
+		$('.tpublico').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.tpublico').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_4').change(function(event) 
+{
+	if ( $('#E2_107_4').val()=='2' ) 
+	{
+
+		$('.antena').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.antena').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_5').change(function(event) 
+{
+	if ( $('#E2_107_5').val()=='2' ) 
+	{
+
+		$('.generador').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.generador').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_6').change(function(event) 
+{
+	if ( $('#E2_107_6').val()=='2' ) 
+	{
+
+		$('.panel').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.panel').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_7').change(function(event) 
+{
+	if ( $('#E2_107_7').val()=='2' ) 
+	{
+
+		$('.televisor').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.televisor').removeAttr('disabled');
+
+	}
+
+});
+
+
+$('#E2_107_8').change(function(event) 
+{
+	if ( $('#E2_107_8').val()=='2' ) 
+	{
+
+		$('.computadora').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.computadora').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_9').change(function(event) 
+{
+	if ( $('#E2_107_9').val()=='2' ) 
+	{
+
+		$('.dvd').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.dvd').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_10').change(function(event) 
+{
+	if ( $('#E2_107_10').val()=='2' ) 
+	{
+
+		$('.esonido').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.esonido').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_11').change(function(event) 
+{
+	if ( $('#E2_107_11').val()=='2' ) 
+	{
+
+		$('.aserradero').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.aserradero').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_12').change(function(event) 
+{
+	if ( $('#E2_107_12').val()=='2' ) 
+	{
+
+		$('.motosierra').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.motosierra').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_13').change(function(event) 
+{
+	if ( $('#E2_107_13').val()=='2' ) 
+	{
+
+		$('.peque').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.peque').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_14').change(function(event) 
+{
+	if ( $('#E2_107_14').val()=='2' ) 
+	{
+
+		$('.lancha').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.lancha').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_15').change(function(event) 
+{
+	if ( $('#E2_107_15').val()=='2' ) 
+	{
+
+		$('.canoa').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.canoa').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_16').change(function(event) 
+{
+	if ( $('#E2_107_16').val()=='2' ) 
+	{
+
+		$('.deslizador').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.deslizador').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_17').change(function(event) 
+{
+	if ( $('#E2_107_17').val()=='2' ) 
+	{
+
+		$('.camion').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.camion').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_18').change(function(event) 
+{
+	if ( $('#E2_107_18').val()=='2' ) 
+	{
+
+		$('.tractor').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.tractor').removeAttr('disabled');
+
+	}
+
+});
+
+
+$('#E2_107_19').change(function(event) 
+{
+	if ( $('#E2_107_19').val()=='2' ) 
+	{
+
+		$('.red').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.red').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_20').change(function(event) 
+{
+	if ( $('#E2_107_20').val()=='2' ) 
+	{
+
+		$('.apilador').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.apilador').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_21').change(function(event) 
+{
+	if ( $('#E2_107_21').val()=='2' ) 
+	{
+
+		$('.caja').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.caja').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_22').change(function(event) 
+{
+	if ( $('#E2_107_22').val()=='2' ) 
+	{
+
+		$('.redes').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.redes').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_107_23').change(function(event) 
+{
+	if ( $('#E2_107_23').val()=='2' ) 
+	{
+
+		$('.otro').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.otro').removeAttr('disabled');
+
+	}
+
+});
+
+
+$('#E2_108_1').change(function(event) 
+{
+	if ( $('#E2_108_1').val()=='2' ) 
+	{
+
+		$('.local').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.local').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_108_2').change(function(event) 
+{
+	if ( $('#E2_108_2').val()=='2' ) 
+	{
+
+		$('.almacen').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.almacen').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_108_3').change(function(event) 
+{
+	if ( $('#E2_108_3').val()=='2' ) 
+	{
+
+		$('.tienda').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.tienda').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_108_4').change(function(event) 
+{
+	if ( $('#E2_108_4').val()=='2' ) 
+	{
+
+		$('.albergue').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.albergue').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_108_5').change(function(event) 
+{
+	if ( $('#E2_108_5').val()=='2' ) 
+	{
+
+		$('.losa').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.losa').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_108_6').change(function(event) 
+{
+	if ( $('#E2_108_6').val()=='2' ) 
+	{
+
+		$('.botiquin').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.botiquin').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_108_7').change(function(event) 
+{
+	if ( $('#E2_108_7').val()=='2' ) 
+	{
+
+		$('.otro2').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.otro2').removeAttr('disabled');
 
 	}
 
@@ -2497,6 +3370,111 @@ $('#E2_109').change(function(event)
 
 });
 
+$('#E2_110_1').change(function(event) 
+{
+	if ( $('#E2_110_1').val()=='2' ) 
+	{
+
+		$('.ini').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.ini').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_110_2').change(function(event) 
+{
+	if ( $('#E2_110_2').val()=='2' ) 
+	{
+
+		$('.primaria').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.primaria').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_110_3').change(function(event) 
+{
+	if ( $('#E2_110_3').val()=='2' ) 
+	{
+
+		$('.secundaria').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.secundaria').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_110_4').change(function(event) 
+{
+	if ( $('#E2_110_4').val()=='2' ) 
+	{
+
+		$('.agropecuario').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.agropecuario').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_110_5').change(function(event) 
+{
+	if ( $('#E2_110_5').val()=='2' ) 
+	{
+
+		$('.pedagogico').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.pedagogico').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_110_6').change(function(event) 
+{
+	if ( $('#E2_110_6').val()=='2' ) 
+	{
+
+		$('.tecnologico').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.tecnologico').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_110_7').change(function(event) 
+{
+	if ( $('#E2_110_7').val()=='2' ) 
+	{
+
+		$('.otro3').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.otro3').removeAttr('disabled');
+
+	}
+
+});
+
 $('#E2_111').change(function(event)
 {
 	if( $('#E2_111').val()=='2' )
@@ -2510,5 +3488,81 @@ $('#E2_111').change(function(event)
 	}
 });
 
+
+$('#E2_112_1').change(function(event) 
+{
+	if ( $('#E2_112_1').val()=='2' ) 
+	{
+
+		$('.centro').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.centro').removeAttr('disabled');
+
+	}
+
+});
+
+
+$('#E2_112_2').change(function(event) 
+{
+	if ( $('#E2_112_2').val()=='2' ) 
+	{
+
+		$('.psalud').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.psalud').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_112_3').change(function(event) 
+{
+	if ( $('#E2_112_3').val()=='2' ) 
+	{
+
+		$('.uro').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.uro').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_112_4').change(function(event) 
+{
+	if ( $('#E2_112_4').val()=='2' ) 
+	{
+
+		$('.bcomunal').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.bcomunal').removeAttr('disabled');
+
+	}
+
+});
+
+$('#E2_112_5').change(function(event) 
+{
+	if ( $('#E2_112_5').val()=='2' ) 
+	{
+
+		$('.otro4').attr( 'disabled', 'disabled');
+	}
+	else
+	{
+		$('.otro4').removeAttr('disabled');
+
+	}
+
+});
 
 </script>
