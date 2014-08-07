@@ -14,7 +14,7 @@
 				<li class="<?php if ($nav == 'cedula2') { echo 'active'; } ?>">
 					<a href="<?php echo base_url('index.php/cedulas/cedula2'); ?>">ENSESA 02</a>
 				</li>
-				<li><a href="#">Dropdown</a>
+				<!-- <li><a href="#">Dropdown</a>
 				<ul class="list-unstyled">
 				<li class="sub-nav"><a href="#">Sub Menu One <span class="icon"></span></a></li>
 				<li class="sub-nav"><a href="#">Sub Menu Two <span class="icon"></span></a></li>
@@ -24,10 +24,9 @@
 				</ul>
 				</li>
 				<li><a href="#">Menu Four <span class="icon"></span></a></li>
-				<li><a href="#">Menu Five <span class="icon"></span></a></li>
+				<li><a href="#">Menu Five <span class="icon"></span></a></li> -->
 			</ul>
 		</nav>
-
 
 		<!-- 
 		Sidebar por defecto del template
