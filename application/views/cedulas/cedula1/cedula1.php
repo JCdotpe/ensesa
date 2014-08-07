@@ -47,10 +47,10 @@
 
 <!-- Tab panes -->
 <div class="tab-content">
-  <div class="tab-pane active" id="cedula1_tab1"> <?php echo $this->load->view('cedulas/cedula1_tab1a',$data); ?> </div>
-  <div class="tab-pane" id="cedula1_tab2"> <?php echo $this->load->view('cedulas/cedula1_tab2'); ?> </div>
-  <div class="tab-pane" id="cedula1_tab3"> <?php echo $this->load->view('cedulas/cedula1_tab3'); ?> </div>
-  <div class="tab-pane" id="cedula1_tab4"> <?php echo $this->load->view('cedulas/cedula1_tab4'); ?> </div>
+  <div class="tab-pane active" id="cedula1_tab1"> <?php echo $this->load->view('cedulas/cedula1/cedula1_tab1a',$data); ?> </div>
+  <div class="tab-pane" id="cedula1_tab2"> <?php echo $this->load->view('cedulas/cedula1/cedula1_tab2'); ?> </div>
+  <div class="tab-pane" id="cedula1_tab3"> <?php echo $this->load->view('cedulas/cedula1/cedula1_tab3'); ?> </div>
+  <div class="tab-pane" id="cedula1_tab4"> <?php echo $this->load->view('cedulas/cedula1/cedula1_tab4'); ?> </div>
 </div>
 
 

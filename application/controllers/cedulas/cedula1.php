@@ -17,7 +17,7 @@ class Cedula1 extends CI_Controller {
 
 		$data['title'] = 'Doc. ENSENSA 01';
 		$data['nav'] = 'cedula1';
-		$data['main_content'] = 'cedulas/cedula1';
+		$data['main_content'] = 'cedulas/cedula1/cedula1';
 		$this->form_validation->set_message('required', '%s [campo requerido]');
 		$this->form_validation->set_message('alpha_numeric', '%s [seleccione una opcion valida]');
 		$fieldsName = $this->cedula1_model->getFieldsName('PadVivienda');
@@ -60,7 +60,7 @@ class Cedula1 extends CI_Controller {
 		$data['Cod_Vivienda'] = $cod_vivienda;
 		$data['title'] = 'Doc. ENSENSA 01';
 		$data['nav'] = 'cedula1';
-		$data['main_content'] = 'cedulas/cedula1';
+		$data['main_content'] = 'cedulas/cedula1/cedula1';
     	$data['PadVivienda'] = $this->cedula1_model->existeCodigo($cod_vivienda);
     	if (is_null($Nro_Hogar)) {
 	    	if (!is_null($data['PadVivienda'])) {//si obtiene rows
