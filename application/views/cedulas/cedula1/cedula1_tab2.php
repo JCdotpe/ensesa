@@ -616,7 +616,7 @@ $E1_300_Obs = array(
 	</table>
 
 	<br><br>
-	<table class="table table-bordered"> <!-- SECCION  400-->
+	<table class="table table-bordered" id="table400" name="table400"> <!-- SECCION  400-->
 		<tbody>		
 			<tr>
 				<td colspan="2"><div class="col-md-6">INFORMANTE N°</div><div class="col-md-6"><?php echo form_input($E1_400_Informante); ?></div>  </td>
@@ -633,7 +633,7 @@ $E1_300_Obs = array(
 					<br><br>¿...... EN SUS ACTIVIDADES DIARIAS TIENE LIMITACIONES DE FORMA PERMANENTE, PARA .......?</td>
 			</tr>
 			<tr><td>N°</td><td>SI / NO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr>
-			<tr>	
+			<tr id="table400Row-1" name="table400Row-1">	
 				<td>1</td>
 				<td><?php echo form_input($E1_401); ?></td>
 				<td class="sub-table">
@@ -773,10 +773,41 @@ $E1_300_Obs = array(
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_307_Grado-'+k+'" value="" name="E1_307_Grado"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_308-'+k+'" value="" name="E1_308"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_308_O-'+k+'" value="" name="E1_308_O"> (espc.) </td>';
-		rowTable300 += '</tr>';
+			rowTable300 += '</tr>';
+
+
+			var rowTable400 = '<tr id="table400Row-'+k+'" name="table400Row-'+k+'">';	
+				rowTable400 += '<td>'+k+'</td>';
+				rowTable400 += '<td><input type="text" class="form-control" id="E1_401-'+k+'" value="" name="E1_401"></td>';
+				rowTable400 += '<td class="sub-table"><table class="table"><tbody>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P1" class="form-control" id="E1_402_1-'+k+'" value="" name="E1_402_1"></td><td><input type="text" placeholder="P2" class="form-control" id="E1_402_2-'+k+'" value="" name="E1_402_2"></td><td><input type="text" placeholder="P3" class="form-control" id="E1_402_3-'+k+'" value="" name="E1_402_3"></td><td><input type="text" placeholder="P4" class="form-control" id="E1_402_4-'+k+'" value="" name="E1_402_4"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P5" class="form-control" id="E1_402_5-'+k+'" value="" name="E1_402_5"></td><td colspan="3"></td></tr>';
+					rowTable400 += '</tbody></table></td>';
+				rowTable400 += '<td class="sub-table"><table class="table"><tbody>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P1" class="form-control" id="E1_403_1-'+k+'" value="" name="E1_403_1"></td><td><input type="text" placeholder="P2" class="form-control" id="E1_403_2-'+k+'" value="" name="E1_403_2"></td><td><input type="text" placeholder="P3" class="form-control" id="E1_403_3-'+k+'" value="" name="E1_403_3"></td><td><input type="text" placeholder="P4" class="form-control" id="E1_403_4-'+k+'" value="" name="E1_403_4"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P5" class="form-control" id="E1_403_5-'+k+'" value="" name="E1_403_5"></td><td><input type="text" placeholder="P6" class="form-control" id="E1_403_6-'+k+'" value="" name="E1_403_6"></td><td><input type="text" placeholder="P7" class="form-control" id="E1_403_7-'+k+'" value="" name="E1_403_7"></td><td><input type="text" placeholder="P8" class="form-control" id="E1_403_8-'+k+'" value="" name="E1_403_8"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P9" class="form-control" id="E1_403_9-'+k+'" value="" name="E1_403_9"></td><td><input type="text" placeholder="P10" class="form-control" id="E1_403_10-'+k+'" value="" name="E1_403_10"></td><td><input type="text" placeholder="P11" class="form-control" id="E1_403_11-'+k+'" value="" name="E1_403_11"></td><td><input type="text" placeholder="P12" class="form-control" id="E1_403_12-'+k+'" value="" name="E1_403_12"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P13" class="form-control" id="E1_403_13-'+k+'" value="" name="E1_403_13"></td><td><input type="text" placeholder="P14" class="form-control" id="E1_403_14-'+k+'" value="" name="E1_403_14"></td><td colspan="2"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P15" class="form-control" id="E1_403_15-'+k+'" value="" name="E1_403_15"></td><td colspan="3"><input type="text" placeholder="Especifique" class="form-control" id="E1_403_15_O-'+k+'" value="" name="E1_403_15_O"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P16" class="form-control" id="E1_403_16-'+k+'" value="" name="E1_403_16"></td><td colspan="3"></td></tr>';
+						rowTable400 += '</tbody></table></td>';
+				rowTable400 += '<td class="pad-td"><div class="col-md-5"><input type="text" class="form-control" id="E1_404-1" value="" name="E1_404"></div><div class="col-md-7"><input type="text" class="form-control" id="E1_404_O-1" value="" name="E1_404_O"></div></td>	';
+				rowTable400 += '<td class="sub-table"><table class="table"><tbody>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P1" class="form-control" id="E1_405_1-'+k+'" value="" name="E1_405_1"></td><td><input type="text" placeholder="P2" class="form-control" id="E1_405_2-'+k+'" value="" name="E1_405_2"></td><td><input type="text" placeholder="P3" class="form-control" id="E1_405_3-'+k+'" value="" name="E1_405_3"></td><td><input type="text" placeholder="P4" class="form-control" id="E1_405_4-'+k+'" value="" name="E1_405_4"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P5" class="form-control" id="E1_405_5-'+k+'" value="" name="E1_405_5"></td><td colspan="3"><input type="text" placeholder="Especifique" class="form-control" id="E1_405_5_O-'+k+'" value="" name="E1_405_5_O"></td></tr>';
+							rowTable400 += '<tr><td><input type="text" placeholder="P6" class="form-control" id="E1_405_6-'+k+'" value="" name="E1_405_6"></td></tr>';
+						rowTable400 += '</tbody></table></td>';
+				rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_A-'+k+'" value="" name="E1_406_A"></td>';
+				rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_B-'+k+'" value="" name="E1_406_B"></td>';
+				rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_C-'+k+'" value="" name="E1_406_C"></td>';
+				rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_D-'+k+'" value="" name="E1_406_D"></td>';
+				rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_E-'+k+'" value="" name="E1_406_E"></td>';
+				rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_F-'+k+'" value="" name="E1_406_F"></td>';
+			rowTable400 += '</tr>';
 
 			$("#table200 tbody").append(rowTable200);
 			$("#table300 tbody").append(rowTable300);
+			$("#table400 tbody:eq(0)").append(rowTable400);
 			$(numRowsTable200).val(k);
 		});
 
@@ -785,22 +816,17 @@ $E1_300_Obs = array(
 			var datos = $("#frmTab2").serializeArray();
 			var formData = {};
 			for (var i = 1; i <= k; i++) {
-				//dataSend[i] = $.extend($("#table200Row-"+i+" input").serializeArray(),$("#table300Row-"+i+" input").serializeArray());
-				//console.log();
-				//console.log();
-				formData[i-1] = $.merge($("#table200Row-"+i+" input").serializeArray(),$("#table300Row-"+i+" input").serializeArray());
+				formData[i-1] = $.merge($.merge($("#table200Row-"+i+" input").serializeArray(),$("#table300Row-"+i+" input").serializeArray()),$("#table400Row-"+i+" input").serializeArray());
 			};
-
 			$.ajax({
 				type:'POST',
-				data:{'data':formData },
+				data:{'data':formData,'Cod_Vivienda':$('#Cod_Vivienda').val(),'E1_B_13_Nro_Hogar':$('#E1_B_13_Nro_Hogar').val()},
 				dataType:'JSON',
-				url:"<?php echo site_url('cedulas/cedula1/test'); ?>",
+				url:"<?php echo site_url('cedulas/cedula1/save/2'); ?>",
 				success: function(dataReturn) {
 					console.log(dataReturn);
 				}
 			})
-			console.log(formData);
 		})
 
 

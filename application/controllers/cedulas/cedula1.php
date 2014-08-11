@@ -157,6 +157,38 @@ class Cedula1 extends CI_Controller {
 					}
 				}
 
+			}else if($tab == 2){
+				$tableLocal = 'E1_Persona';
+				$dataAjax = $this->input->post('data');
+				$fieldsName = $this->cedula1_model->getFieldsName($tableLocal);
+				$dataModel =  array();
+				foreach ($dataAjax as $idx => $row) {
+					foreach ($row as $kk => $field) {
+						//if (!in_array($value, array('E1_200_Informante','E1_200_Obs','E1_300_Obs','E1_400_Informante','E1_400_Obs'))) {
+							$dataModel[$field['name']] = ($field['value']=="") ? NULL : $field['value'];
+						//}
+					}
+					$dataModel['Cod_Vivienda'] = $this->input->post('Cod_Vivienda');
+					$dataModel['E1_B_13_Nro_Hogar'] = $this->input->post('E1_B_13_Nro_Hogar');					
+					$dataWhere = array('Cod_Vivienda'=>$dataModel['Cod_Vivienda'],'E1_B_13_Nro_Hogar'=>$dataModel['E1_B_13_Nro_Hogar'],'E1_201_Nro' =>$dataModel['E1_201_Nro']);
+					$existeRow = $this->cedula1_model->checkExistRow($tableLocal,$dataWhere);
+					if ($existeRow) {
+						$dataModel = array_diff_assoc($dataModel,$dataWhere);
+						$afectados = $this->cedula1_model->updateRow($tableLocal,$dataModel,$dataWhere);
+						if ($afectados == 1) {
+							echo json_encode(array('response'=>'update','msg' =>'Éxito: Se actualizó satisfactoriamente' ));
+						}else{
+							echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de actualizar' ));
+						}
+					}else{
+						$afectados = $this->cedula1_model->insertRow($tableLocal,$dataModel);
+						if ($afectados == 1) {
+							echo json_encode(array('response'=>'insert','msg' =>'Éxito: Se insertó satisfactoriamente' ));
+						}else{
+							echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de insertar' ));
+						}
+					}
+				}			
 			}			
 		}else{
 			echo json_encode(array('response'=>'error','msg' =>'Error: Cod_Vivienda o Nro_Hogar vacios' ));

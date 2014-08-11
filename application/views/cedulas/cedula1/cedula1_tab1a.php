@@ -181,7 +181,7 @@ $B_10_Vivienda_nro = array(
 					<td>'.anchor('/cedulas/cedula1','Nuevo ubigeo','class="btn btn-info"').'</td>
 				</tr>
 			</table>';
-			$this->load->view('cedulas/cedula1_tab1b');
+			$this->load->view('cedulas/cedula1/cedula1_tab1b');
 			echo form_button('save1','Guardar','id="save1" class="btn btn-info hide"'); 
 		}
 	?>
