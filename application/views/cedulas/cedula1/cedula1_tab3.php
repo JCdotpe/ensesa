@@ -791,7 +791,7 @@
 <?php echo form_open('','id="frmTab4"'); ?>
 	<br>
 	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-1- -->
+	<table class="table table-bordered" id="table501" name="table501"> <!-- SECCION  500-1- -->
 		<thead>
 			<tr>
 				<td colspan="6"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad)</h4></center></td>
@@ -814,7 +814,7 @@
 				<td>504. ¿A QUÉ SE DEDICA EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ EN SU OCUPACIÓN PRINCIPAL</td>
 			</tr>
 			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGOS</td><td>ESPECIFIQUE</td><td>ESPECIFIQUE</td></tr>
-			<tr>	
+			<tr id="table501Row-1" name="table501Row-1">	
 				<td>1</td>
 				<td><?php echo form_input($E1_500); ?></td>
 				<td><?php echo form_input($E1_501); ?></td>		
@@ -849,7 +849,7 @@
 	</table> <!-- SECCION  500-1 -->
 	<br>
 	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-2- -->
+	<table class="table table-bordered" id="table502" name="table502"> <!-- SECCION  500-2- -->
 		<thead>
 			<tr>
 				<td colspan="9"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
@@ -874,7 +874,7 @@
 				<td>512.<br> ¿CUANTAS HORAS TRABAJÓ LA SEMANA PASADA, EN SU OCUPACIÓN PRINCIPAL?</td>
 			</tr>
 			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGOS</td><td>CÓDIGO</td><td>NÚMERO</td><td>HORAS</td></tr>
-			<tr>	
+			<tr id="table502Row-1" name="table502Row-1">	
 				<td>1</td>
 				<td><table class="table"><tr><td><?php echo form_input($E1_505); ?></td></tr><tr><td><?php echo form_input($E1_505_O); ?>(Especifique)</td></tr></table></td>
 				<td><?php echo form_input($E1_506); ?></td>		
@@ -923,7 +923,7 @@
 	</table> <!-- SECCION  500-2 -->
 	<br>
 	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-3- -->
+	<table class="table table-bordered" id="table503" name="table503"> <!-- SECCION  500-3- -->
 		<thead>
 			<tr>
 				<td colspan="16"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
@@ -948,7 +948,7 @@
 				<td>517.<br> ¿EN CUÁNTO ESTIMA UD. EL VALOR DE LOS PRODUCTOS UTILIZADOS PARA SU CONSUMO EN EL MES ANTERIOR?</td>
 			</tr>
 			<tr><td>N°</td><td>A</td><td>No sabe</td><td>B</td><td>No sabe</td><td>C</td><td>No sabe</td><td>D</td><td>No sabe</td><td>E</td><td>No sabe</td><td>MONTO S/.</td><td>MONTO S/.</td><td>No sabe</td><td>CÓDIGO</td><td>MONTO S/.</td></tr>
-			<tr>	
+			<tr id="table503Row-1" name="table503Row-1">	
 				<td>1</td>		
 				<td><?php echo form_input($E1_513_A); ?></td>
 				<td><?php echo form_input($E1_513_A_ns); ?></td>
@@ -971,7 +971,7 @@
 	</table> <!-- SECCION  500-2 -->
 	<br>
 	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-4 -->
+	<table class="table table-bordered" id="table504" name="table504"> <!-- SECCION  500-4 -->
 		<thead>
 			<tr>
 				<td colspan="6"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
@@ -993,7 +993,7 @@
 				<td>522.<br> ¿CUÁL ES EL TIPO DE PAGO QUE RECIBIÓ EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S):</td>
 			</tr>
 			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td></tr>
-			<tr>	
+			<tr id="table504Row-1" name="table504Row-1">	
 				<td>1</td>			
 				<td><?php echo form_input($E1_518); ?></td>
 				<td><?php echo form_input($E1_519); ?></td>
@@ -1006,7 +1006,7 @@
 	</table> <!-- SECCION  500-2 -->
 	<br>
 	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-5- -->
+	<table class="table table-bordered" id="table505" name="table505"> <!-- SECCION  500-5- -->
 		<thead>
 			<tr><td colspan="17"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td></tr>
 			<tr>
@@ -1031,7 +1031,7 @@
 				<td colspan="2">528.<br> EN LOS ÚLTIMOS MESES, DE .... A ...... ¿RECIBIÓ ALGÚN DINERO POR_: (solo para trabajadores dependientes de actividad principal y/o secundaria)</td>
 			</tr>
 			<tr><td>N°</td><td>A</td><td>No sabe</td><td>B</td><td>No sabe</td><td>C</td><td>No sabe</td><td>D</td><td>No sabe</td><td>E</td><td>No sabe</td><td>MONTO</td><td>MONTO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td></tr>			
-			<tr>	
+			<tr id="table505Row-1" name="table505Row-1">	
 				<td>1</td>		
 				<td><?php echo form_input($E1_523_A); ?></td>
 				<td><?php echo form_input($E1_523_A_ns); ?></td>
@@ -1077,7 +1077,7 @@
 	</table> <!-- SECCION  500-5 -->
 	<br>
 	<br>
-	<table class="table table-bordered"> <!-- SECCION  500-6- -->
+	<table class="table table-bordered" id="table506" name="table506"> <!-- SECCION  500-6- -->
 		<thead>
 			<tr>
 				<td colspan="11"><center><h4>500. EMPLEO E INGRESOS POR TRABAJO (Para personas de 14 años y más de edad) (Continuación)</h4></center></td>
@@ -1101,7 +1101,7 @@
 				<td colspan="2">536.<br> EN LOS ÚLTIMOS 12 MESES DE .... A ..... ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE:</td>
 			</tr>
 			<tr><td>N°</td><td>SI / NO</td><td>CÓDIGO</td><td>SI / NO</td><td>SI / NO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td></tr>
-			<tr>	
+			<tr id="table506Row-1" name="table506Row-1">	
 				<td>1</td>
 				<td><?php echo form_input($E1_529); ?></td>
 				<td><table class="table"><tr><td><?php echo form_input($E1_530); ?></td></tr><tr><td><?php echo form_input($E1_530_O); ?>(Especifique)</td></tr></table></td>		
@@ -1166,3 +1166,25 @@
 	<br>
 	<?php echo form_button('save3','Guardar','id="save3"'); ?>
 <?php echo form_close(); ?>
+
+
+<script type="text/javascript">
+		$("#save3").click(function() {
+			var k = parseInt($(numRowsTable200).val());
+			var datos = $("#frmTab2").serializeArray();
+			var formData = {};
+			for (var i = 1; i <= k; i++) {
+				formData[i-1] = $.merge($.merge($.merge($.merge($.merge($.merge([{name:"E1_201_Nro",value:$("#E1_201_Nro-"+i).val()}],$("#table501Row-"+i+" input").serializeArray()),$("#table502Row-"+i+" input").serializeArray()),$("#table503Row-"+i+" input").serializeArray()),$("#table504Row-"+i+" input").serializeArray()),$("#table505Row-"+i+" input").serializeArray()),$("#table506Row-"+i+" input").serializeArray());
+			};
+			$.ajax({
+				type:'POST',
+				data:{'data':formData,'Cod_Vivienda':$('#Cod_Vivienda').val(),'E1_B_13_Nro_Hogar':$('#E1_B_13_Nro_Hogar').val()},
+				dataType:'JSON',
+				url:"<?php echo site_url('cedulas/cedula1/save/3'); ?>",
+				success: function(dataReturn) {
+					console.log(dataReturn);
+				}
+			})
+		/*console.log(formData);*/
+		})
+</script>
