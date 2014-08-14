@@ -1747,3 +1747,25 @@
 
 	<?php echo form_button('save4','Guardar','id="save4"'); ?>
 <?php echo form_close(); ?>
+
+<script type="text/javascript">
+    $("#save4").click(function () {
+    	//$("#PadVivienda :input").attr('disabled','disabled');
+    	var formData = $("#frmTab5").serializeArray();
+    	formData.push({name:'Cod_Vivienda',value:$('#Cod_Vivienda').val()},{name:'E1_B_13_Nro_Hogar', value:$('#E1_B_13_Nro_Hogar').val()});
+    	
+    	$.ajax({
+    		url:"<?php echo site_url(); ?>"+"/cedulas/cedula1/save/4",
+    		type:'POST',
+    		dataType:'JSON',
+    		data:formData,
+    		success:function (argument) {
+    			alert("ok");
+    		}
+    	})
+    })
+    
+
+
+
+</script>

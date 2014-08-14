@@ -74,11 +74,11 @@ class Cedula1 extends CI_Controller {
 	    	}
     	}else{
     		$arrayWhere = array('Cod_Vivienda'=>$cod_vivienda,'E1_B_13_Nro_Hogar'=> $Nro_Hogar);
-    		$dataSend['E1_Vivienda_Hogar'] = $this->cedula1_model->selectRows('E1_Vivienda_Hogar',null,$arrayWhere);
-    		$dataSend['E1_Visita_VH'] = $this->cedula1_model->selectRows('E1_Visita_VH',null,$arrayWhere);
-    		$dataSend['E1_Persona'] = $this->cedula1_model->selectRows('E1_Persona',null,$arrayWhere);
-    		$dataSend['E1_Persona_Empleo'] = $this->cedula1_model->selectRows('E1_Persona_Empleo',null,$arrayWhere);
-    		$dataSend['E1_Conservacion_Bosque'] = $this->cedula1_model->selectRows('E1_Conservacion_Bosque',null,$arrayWhere);
+    		$dataSend['E1_Vivienda_Hogar'] = $this->cedula1_model->selectRows('E1_Vivienda_Hogar',null,$arrayWhere);			// TAB 1
+    		$dataSend['E1_Visita_VH'] = $this->cedula1_model->selectRows('E1_Visita_VH',null,$arrayWhere); 						// TAB 1 - VISITA
+    		$dataSend['E1_Persona'] = $this->cedula1_model->selectRows('E1_Persona',null,$arrayWhere); 							// TAB 2
+    		$dataSend['E1_Persona_Empleo'] = $this->cedula1_model->selectRows('E1_Persona_Empleo',null,$arrayWhere); 			// TAB 3
+    		$dataSend['E1_Conservacion_Bosque'] = $this->cedula1_model->selectRows('E1_Conservacion_Bosque',null,$arrayWhere);	// TAB 4
     		echo json_encode($dataSend);
     	}
 
@@ -219,6 +219,35 @@ class Cedula1 extends CI_Controller {
 						}
 					}
 				}			
+			}else if ($tab == 4) {//E1_Conservacion_Bosque
+				$tableLocal = 'E1_Conservacion_Bosque';
+				$fieldsName = $this->cedula1_model->getFieldsName($tableLocal);
+				$dataModel =  array();
+				foreach ($fieldsName as $key => $value) {
+					if (!in_array($value, array('E1_200_Informante','E1_200_Obs','E1_300_Obs','E1_400_Informante','E1_400_Obs'))) {
+						$dataModel[$value] = ($this->input->post($value)=="") ? NULL : $this->input->post($value);
+					}
+				}
+				$dataWhere = array('Cod_Vivienda'=>$dataModel['Cod_Vivienda'],'E1_B_13_Nro_Hogar'=>$dataModel['E1_B_13_Nro_Hogar']);
+				$existeRow = $this->cedula1_model->checkExistRow($tableLocal,$dataWhere);
+				if ($existeRow) {
+					$dataModel = array_diff_assoc($dataModel,$dataWhere);
+					$afectados = $this->cedula1_model->updateRow($tableLocal,$dataModel,$dataWhere);
+					if ($afectados == 1) {
+						echo json_encode(array('response'=>'update','msg' =>'Éxito: Se actualizó satisfactoriamente' ));
+						
+					}else{
+						echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de actualizar' ));
+					}
+				}else{
+					$afectados = $this->cedula1_model->insertRow($tableLocal,$dataModel);
+					if ($afectados == 1) {
+						echo json_encode(array('response'=>'insert','msg' =>'Éxito: Se insertó satisfactoriamente' ));
+					}else{
+						echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de insertar' ));
+					}
+				}
+
 			}			
 		}else{
 			echo json_encode(array('response'=>'error','msg' =>'Error: Cod_Vivienda o Nro_Hogar vacios' ));

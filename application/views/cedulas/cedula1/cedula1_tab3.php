@@ -814,7 +814,7 @@
 				<td>504. ¿A QUÉ SE DEDICA EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ EN SU OCUPACIÓN PRINCIPAL</td>
 			</tr>
 			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGOS</td><td>ESPECIFIQUE</td><td>ESPECIFIQUE</td></tr>
-			<tr id="table501Row-1" name="table501Row-1">	
+			<!--<tr id="table501Row-1" name="table501Row-1">	
 				<td>1</td>
 				<td><?php echo form_input($E1_500); ?></td>
 				<td><?php echo form_input($E1_501); ?></td>		
@@ -843,7 +843,7 @@
 				</td>	
 				<td><?php echo form_input($E1_503); ?></td>	
 				<td><?php echo form_input($E1_504); ?></td>
-			</tr>
+			</tr>-->
 
 		</tbody>
 	</table> <!-- SECCION  500-1 -->
@@ -874,7 +874,7 @@
 				<td>512.<br> ¿CUANTAS HORAS TRABAJÓ LA SEMANA PASADA, EN SU OCUPACIÓN PRINCIPAL?</td>
 			</tr>
 			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGOS</td><td>CÓDIGO</td><td>NÚMERO</td><td>HORAS</td></tr>
-			<tr id="table502Row-1" name="table502Row-1">	
+			<!--<tr id="table502Row-1" name="table502Row-1">	
 				<td>1</td>
 				<td><table class="table"><tr><td><?php echo form_input($E1_505); ?></td></tr><tr><td><?php echo form_input($E1_505_O); ?>(Especifique)</td></tr></table></td>
 				<td><?php echo form_input($E1_506); ?></td>		
@@ -917,7 +917,7 @@
 				</td>	
 				<td><?php echo form_input($E1_511); ?></td>
 				<td><?php echo form_input($E1_512); ?></td>
-			</tr>
+			</tr>-->
 
 		</tbody>
 	</table> <!-- SECCION  500-2 -->
@@ -948,7 +948,7 @@
 				<td>517.<br> ¿EN CUÁNTO ESTIMA UD. EL VALOR DE LOS PRODUCTOS UTILIZADOS PARA SU CONSUMO EN EL MES ANTERIOR?</td>
 			</tr>
 			<tr><td>N°</td><td>A</td><td>No sabe</td><td>B</td><td>No sabe</td><td>C</td><td>No sabe</td><td>D</td><td>No sabe</td><td>E</td><td>No sabe</td><td>MONTO S/.</td><td>MONTO S/.</td><td>No sabe</td><td>CÓDIGO</td><td>MONTO S/.</td></tr>
-			<tr id="table503Row-1" name="table503Row-1">	
+			<!--<tr id="table503Row-1" name="table503Row-1">	
 				<td>1</td>		
 				<td><?php echo form_input($E1_513_A); ?></td>
 				<td><?php echo form_input($E1_513_A_ns); ?></td>
@@ -965,10 +965,10 @@
 				<td><?php echo form_input($E1_515_ns); ?></td>
 				<td><?php echo form_input($E1_516); ?></td>
 				<td><?php echo form_input($E1_517); ?></td>
-			</tr>
+			</tr>-->
 
 		</tbody>
-	</table> <!-- SECCION  500-2 -->
+	</table> <!-- SECCION  500-3 -->
 	<br>
 	<br>
 	<table class="table table-bordered" id="table504" name="table504"> <!-- SECCION  500-4 -->
@@ -993,17 +993,17 @@
 				<td>522.<br> ¿CUÁL ES EL TIPO DE PAGO QUE RECIBIÓ EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S):</td>
 			</tr>
 			<tr><td>N°</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO</td></tr>
-			<tr id="table504Row-1" name="table504Row-1">	
+			<!--<tr id="table504Row-1" name="table504Row-1">	
 				<td>1</td>			
 				<td><?php echo form_input($E1_518); ?></td>
 				<td><?php echo form_input($E1_519); ?></td>
 				<td class="pad-td"><div class="col-md-5"><?php echo form_input($E1_520); ?></div><div class="col-md-7"><?php echo form_input($E1_520_O); ?></div></td>
 				<td><?php echo form_input($E1_521); ?></td>
 				<td><?php echo form_input($E1_522); ?></td>
-			</tr>
+			</tr>-->
 
 		</tbody>
-	</table> <!-- SECCION  500-2 -->
+	</table> <!-- SECCION  500-4 -->
 	<br>
 	<br>
 	<table class="table table-bordered" id="table505" name="table505"> <!-- SECCION  500-5- -->
@@ -1031,7 +1031,7 @@
 				<td colspan="2">528.<br> EN LOS ÚLTIMOS MESES, DE .... A ...... ¿RECIBIÓ ALGÚN DINERO POR_: (solo para trabajadores dependientes de actividad principal y/o secundaria)</td>
 			</tr>
 			<tr><td>N°</td><td>A</td><td>No sabe</td><td>B</td><td>No sabe</td><td>C</td><td>No sabe</td><td>D</td><td>No sabe</td><td>E</td><td>No sabe</td><td>MONTO</td><td>MONTO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td></tr>			
-			<tr id="table505Row-1" name="table505Row-1">	
+			<!--<tr id="table505Row-1" name="table505Row-1">	
 				<td>1</td>		
 				<td><?php echo form_input($E1_523_A); ?></td>
 				<td><?php echo form_input($E1_523_A_ns); ?></td>
@@ -1071,7 +1071,7 @@
 					</table>
 				</td>
 				<td><?php echo form_input($E1_528_Total); ?></td>	
-			</tr>
+			</tr>-->
 
 		</tbody>
 	</table> <!-- SECCION  500-5 -->
@@ -1101,7 +1101,7 @@
 				<td colspan="2">536.<br> EN LOS ÚLTIMOS 12 MESES DE .... A ..... ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE:</td>
 			</tr>
 			<tr><td>N°</td><td>SI / NO</td><td>CÓDIGO</td><td>SI / NO</td><td>SI / NO</td><td>CÓDIGO</td><td>CÓDIGO</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td><td>CÓDIGO(S)</td><td>MONTO TOTAL S/.</td></tr>
-			<tr id="table506Row-1" name="table506Row-1">	
+			<!--<tr id="table506Row-1" name="table506Row-1">	
 				<td>1</td>
 				<td><?php echo form_input($E1_529); ?></td>
 				<td><table class="table"><tr><td><?php echo form_input($E1_530); ?></td></tr><tr><td><?php echo form_input($E1_530_O); ?>(Especifique)</td></tr></table></td>		
@@ -1158,7 +1158,7 @@
 					</table>
 				</td>
 				<td><?php echo form_input($E1_536_Total); ?></td>
-			</tr>
+			</tr>-->
 
 		</tbody>
 	</table> <!-- SECCION  500-6 -->

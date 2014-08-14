@@ -240,7 +240,6 @@ $B_10_Vivienda_nro = array(
 	    			if ($.type(returnData.E1_Vivienda_Hogar) !== 'null') {
 		    			$.each(returnData.E1_Vivienda_Hogar[0],function (fName,fValue) {
 		    				$("#"+fName).val(fValue);
-		    				//console.log(fName);
 		    			})	    				
 	    			};
 	    			if ($.type(returnData.E1_Visita_VH) !== 'null') {
@@ -249,8 +248,23 @@ $B_10_Vivienda_nro = array(
 			    				$("#"+fName+"_"+(i+1)).val(fValue);
 			    			})	  
 	    				};
-  				
-	    			};	    			
+	    			};
+	    			if ($.type(returnData.E1_Persona) !== 'null') {
+	    				for (var i = 0; i < returnData.E1_Persona.length; i++) {
+	    					var nRow = returnData.E1_Persona[i].E1_201_Nro;
+	    					addRow(nRow);
+			    			$.each(returnData.E1_Persona[i],function (fName,fValue) {
+			    				$("#"+fName+"-"+(i+1)).val(fValue);
+			    			})	  
+	    				};
+	    			};	    
+	    			if ($.type(returnData.E1_Persona_Empleo) !== 'null') {
+	    				for (var i = 0; i < returnData.E1_Persona_Empleo.length; i++) {
+			    			$.each(returnData.E1_Persona_Empleo[i],function (fName,fValue) {
+			    				$("#"+fName+"-"+(i+1)).val(fValue);
+			    			})	  
+	    				};
+	    			};	
 	    			$('.liUbigeo a').html('UBIGEO - CAP. 100');
 	    			btn.removeAttr('disabled');
 			    	$('body').find('li, button, table').removeClass('hide');
