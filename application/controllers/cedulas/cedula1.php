@@ -122,13 +122,19 @@ class Cedula1 extends CI_Controller {
 					$afectados = $this->cedula1_model->updateRow($tableLocal,$dataModel,$dataWhere);
 					if ($afectados == 1) {
 						//visita
-							$dataVisita = array();
+							$fieldsName = $this->cedula1_model->getFieldsName('E1_Visita_VH');
+							$dataVisita = array();$dataTemp = array();
 							$visita = json_decode($this->input->post('visitaData'),true);
 							$cont = 0;
 							foreach ( $visita as $i => $row) {
 
 								foreach ($row as $key => $value) {
-									$dataVisita[$value['name']] =  ($value['value'] == "") ? null : $value['value'];
+									$dataTemp[$value['name']] =  ($value['value'] == "") ? null : $value['value'];
+								}
+								foreach ($fieldsName as $key => $value) {
+									if (!in_array($value, array('Cod_Vivienda','E1_B_13_Nro_Hogar'))) {
+										$dataVisita[$value] = isset($dataTemp[$value]) ? $dataTemp[$value] : null;
+									}
 								}
 								$dataWhere['E1_C_Visita_Nro'] = $dataVisita['E1_C_Visita_Nro'];
 								$existeVisita = $this->cedula1_model->checkExistRow('E1_Visita_VH',$dataWhere);

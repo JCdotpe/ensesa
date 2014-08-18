@@ -1164,8 +1164,14 @@
 	</table> <!-- SECCION  500-6 -->
 	<br>
 	<br>
-	<?php echo form_button('save3','Guardar','id="save3"'); ?>
-<?php echo form_close(); ?>
+
+<?php 
+	echo '<div class="row">
+			<div class="col-md-1"><a href="'.current_url().'" class="btn btn-info">Nuevo registro</a></div>
+			<div class="col-md-1 col-md-offset-10">'.form_button('save3','Guardar','id="save3" class="btn btn-info"').'</div>
+		 </div>'; 
+echo form_close();
+?>
 
 
 <script type="text/javascript">

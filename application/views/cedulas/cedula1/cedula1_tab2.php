@@ -726,13 +726,16 @@ $E1_300_Obs = array(
 		</tr>
 	</table>
 
+<?php 
+	echo '<div class="row">
+			<div class="col-md-1"><a href="'.current_url().'" class="btn btn-info">Nuevo registro</a></div>
+			<div class="col-md-1 col-md-offset-10">'.form_button('save2','Guardar','id="save2" class="btn btn-info"').'</div>
+		 </div>'; 
+echo form_close();
+?>
 
 
 
-
-
-	<?php echo form_button('save2','Guardar','id="save2"'); ?>
-<?php echo form_close(); ?>
 
 
 <script type="text/javascript">

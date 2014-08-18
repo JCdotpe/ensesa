@@ -174,15 +174,18 @@ $B_10_Vivienda_nro = array(
 	<?php 
 		if (isset($Cod_Vivienda) && !is_null($Cod_Vivienda)) {
 			echo '<input type="hidden" id="Cod_Vivienda" name="Cod_Vivienda" value="'.$Cod_Vivienda. '">'; 
-			echo '<br><table class="table table-bordered">
-				<tr>
-					<td colspan="4"> <div class="col-md-2">HOGAR N°</div><div class="col-md-2"><input type="input" id="hogarFind" name="hogarFind" class="form-control" required/></div><div class="col-md-2">'.form_button('find1','Buscar','id="find1" class="btn btn-info"').'</div> </td>
-					<td>'.form_button('nuevoHogar','Nuevo hogar','id="nuevoHogar" class="btn btn-info"').'</td>
-					<td>'.anchor('/cedulas/cedula1','Nuevo ubigeo','class="btn btn-info"').'</td>
-				</tr>
-			</table>';
+			echo '<div class="row" id="divBuscador">
+				<div class="col-md-1">'.form_button('nuevoHogar','Nuevo hogar','id="nuevoHogar" class="btn btn-info"').'</div>
+				<div class="col-md-1">'.anchor('/cedulas/cedula1','Nuevo ubigeo','class="btn btn-info"').'</div>
+				<div class="col-md-1 col-md-offset-7">HOGAR N°</div>
+				<div class="col-md-1"><input type="input" id="hogarFind" name="hogarFind" class="form-control" required/></div>
+				<div class="col-md-1">'.form_button('find1','Buscar','id="find1" class="btn btn-info"').'</div>
+			</div>';
 			$this->load->view('cedulas/cedula1/cedula1_tab1b');
-			echo form_button('save1','Guardar','id="save1" class="btn btn-info hide"'); 
+			echo '<div class="row" id="divGuardar1" style="display:none;">
+				<div class="col-md-1"><a href="'.current_url().'" class="btn btn-info">Nuevo registro</a></div>
+				<div class="col-md-1 col-md-offset-10">'.form_submit('save1','Guardar','id="save1" class="btn btn-info"').'</div>
+			</div>';			
 		}
 	?>
 	
@@ -193,6 +196,8 @@ $B_10_Vivienda_nro = array(
 
 
 <script type="text/javascript">
+
+var errorTablasDinamicas = [];
 
     $("#A_1_Cod_Dpto").change(function () {
     	var depVal = parseInt($(this).val())-1;
@@ -264,13 +269,22 @@ $B_10_Vivienda_nro = array(
 			    				$("#"+fName+"-"+(i+1)).val(fValue);
 			    			})	  
 	    				};
-	    			};	
+	    			};
+	    			if ($.type(returnData.E1_Conservacion_Bosque) !== 'null') {
+		    			$.each(returnData.E1_Conservacion_Bosque[0],function (fName,fValue) {
+		    				$("#"+fName).val(fValue);
+		    			})	  
+	    			};
+	    			$('input').trigger('change');// disparar validaciones
 	    			$('.liUbigeo a').html('UBIGEO - CAP. 100');
 	    			btn.removeAttr('disabled');
 			    	$('body').find('li, button, table').removeClass('hide');
 					$("#E1_Cuestionario_Nro").removeAttr('disabled');
 					$("#E1_Cuestionario_Nro").focus();
 					$("#E1_B_13_Nro_Hogar").attr('readonly','readonly');
+					$("#divBuscador").hide();
+					$("#divGuardar1").show();
+					
 	    		}
 	    	})    		
     	}else{
@@ -280,33 +294,254 @@ $B_10_Vivienda_nro = array(
 
     })
 
-    $("#save1").click(function () {
-    	//$("#PadVivienda :input").attr('disabled','disabled');
-    	var formData = $(".E1_Vivienda_Hogar :input").serializeArray();
-    	formData.push({name:'Cod_Vivienda',value:$('#Cod_Vivienda').val()});
-    	var visitaData = {};
-    	for (var i = 1; i <= 7; i++) {
-    		visitaData[i-1] = ($("#tableVisitaRow-"+i+" input").serializeArray());
-    	};
-    	//formData.push({name :'visitaData', value: visitaData});
-    	var nana = {hola:15,quehace:45};
-    	formData.push({name :'visitaData', value: JSON.stringify(visitaData)});
-    	console.log(formData);
-    	$.ajax({
-    		url:"<?php echo site_url(); ?>"+"/cedulas/cedula1/save/1",
-    		type:'POST',
-    		dataType:'JSON',
-    		data:formData,
-    		success:function (argument) {
-    			alert("ok");
-    		}
-    	})
-    })
+
+
+
+
+$("#frmTab1").validate({
+	//rules:{'E1_C_Ec_Res[]':{required:true},},
+	//rules:{E1_B_11_Tipovia:{required:true}},
+	//messages:{E1_B_11_Tipovia:{required:"ingres caracteres"}},
+    errorPlacement: function(error, element) {
+        $(element).after(error);
+    },	
+	submitHandler:function(){
+
+	    	var formData = $(".E1_Vivienda_Hogar :input").serializeArray();
+	    	formData.push({name:'Cod_Vivienda',value:$('#Cod_Vivienda').val()});
+	    	var visitaData = {};
+	    	for (var i = 1; i <= 7; i++) {
+	    		visitaData[i-1] = ($("#tableVisitaRow-"+i+" input").serializeArray());console.log(visitaData[i-1]);
+	    	};
+	    	formData.push({name :'visitaData', value: JSON.stringify(visitaData)});
+	    	if(errorTablasDinamicas.length>0){
+	    		var objPosition = parseInt($("#"+errorTablasDinamicas[0]).offset().top)-100;
+				var body = $("html, body");
+				body.animate({scrollTop: objPosition}, '500', 'swing', function() { 
+				});
+				$("#"+errorTablasDinamicas[0]).focus().select(); 		    	
+	    		return;
+	    	}
+	    	$.ajax({
+	    		url:"<?php echo site_url(); ?>"+"/cedulas/cedula1/save/1",
+	    		type:'POST',
+	    		dataType:'JSON',
+	    		data:formData,
+	    		success:function (argument) {
+	    			alert("ok");
+	    		}
+	    	})  
+
+	},
+
+})
+
     
+/*
+* Reglas de validacion
+*
+*
+*/
+
+jQuery.validator.addClassRules("ruleLen2", {
+  maxlength: 2,
+});
+jQuery.validator.addClassRules("ruleLen3", {
+  maxlength: 3,
+});
+jQuery.validator.addClassRules("ruleLen4", {
+  maxlength: 4,
+});
+jQuery.validator.addClassRules("ruleLen5", {
+  maxlength: 5,
+});
+jQuery.validator.addClassRules("ruleLen6", {
+  maxlength: 6,
+});
+jQuery.validator.addClassRules("ruleLen7", {
+  maxlength: 7,
+});
+jQuery.validator.addClassRules("ruleLen8", {
+  maxlength: 8,
+});
+jQuery.validator.addClassRules("ruleLenE8", {
+  minlength: 8, maxlength: 8,
+});
+jQuery.validator.addClassRules("ruleLen11", {
+  maxlength: 11,
+});
+jQuery.validator.addClassRules("ruleLenE11", {
+  minlength: 11, maxlength: 11,
+});
+jQuery.validator.addClassRules("ruleNombres", {
+  required: true, maxlength: 80, validName: true,
+});
+jQuery.validator.addClassRules("ruleEnteros", {
+  required: true, maxlength: 80, enteros: true,
+});
+jQuery.validator.addClassRules("ruleAlfanumerico", {
+  required: true, maxlength: 80, alfaNumerico: true,
+});
+jQuery.validator.addClassRules("ruleBinario", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [0,1], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-2", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,2], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-3", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,3], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-4", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,4], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-5", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,5], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-6", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,6], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-7", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,7], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-8", {
+  required: true, maxlength: 1, enteros: true, ranges: [ [1,8], [9] ],
+});
+jQuery.validator.addClassRules("ruleDig1-9", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,9], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-10", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,10], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-11", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,11], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-12", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,12], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-13", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,13], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-14", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,14], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-15", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,15], [99] ],
+});
+jQuery.validator.addClassRules("ruleDig1-16", {
+  required: true, maxlength: 2, enteros: true, ranges: [ [1,16], [99] ],
+});
+jQuery.validator.addClassRules("ruleFecha", {
+  maxlength: 10, fechaLocal: true,
+});
+jQuery.validator.addClassRules("ruleHora", {
+  maxlength: 6, horaLocal: true,
+});
+jQuery.validator.addClassRules("ruleRequerid", {
+  required: true,
+});
+
+/*
+* Metodos de validacion
+*/
+
+jQuery.validator.addMethod("validName", function(value, element) {
+    return this.optional(element) || /^[a-zA-ZàáâäãåąćęèéêëìíîïłńòóôöõøùúûüÿýżźñçčšžÀÁÂÄÃÅĄĆĘÈÉÊËÌÍÎÏŁŃÒÓÔÖÕØÙÚÛÜŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/.test(value);
+}, "Caracteres no permitidos"); 
+
+ jQuery.validator.addMethod("exactlength", function(value, element, param) {
+    return this.optional(element) || value.length == param;
+}, jQuery.validator.format("Ingrese {0} caracteres."));
+
+jQuery.validator.addMethod("alfaNumerico", function(value, element) {
+    return this.optional(element) || /^[a-z0-9 ]+$/i.test(value);
+}, "Solo letras o numeros");
+jQuery.validator.addMethod("enteros", function(value, element) {
+    return this.optional(element) || /^[0-9]+$/i.test(value);
+}, "Solo numeros");
+
+jQuery.validator.addMethod("domain", function(value, element) {
+  return this.optional(element) || /^http:\/\/mycorporatedomain.com/.test(value);
+}, "Please specify the correct domain for your documents");
+
+ $.validator.addMethod( "ranges", function(value, element, ranges) {
+        var noUpperBound = false;
+        var valid = false;
+        for(var i=0; i<ranges.length; i++) {
+            if(ranges[i].length == 1) { 
+                noUpperBound = true;
+            }
+            if(value >= ranges[i][0] && (value <= ranges[i][1] || noUpperBound)) {
+                valid = true;
+                break;
+            }            
+        }
+        return this.optional(element) || valid;
+    },
+    "Ingrese valores permitidos"
+ );
+$.validator.addMethod("fechaLocal",function(value, element) {
+    //return value.match(/^\d\d?\-\d\d?\-\d\d\d\d$/);
+    return this.optional(element) || /^[0-9-]+$/i.test(value);
+}, "Formato: dd-mm-aaaa");
+$.validator.addMethod("horaLocal",function(value, element) {
+    //return value.match(/^\d\d?\:\d\d$/);
+    return this.optional(element) || /^[0-9:]+$/i.test(value);
+}, "Formato: 00:00");
+
+
+function validarValue(obj,valores,requerido){/* obj:input ; valores:array ; requerido: 0 (no),1 (simple), 2(array) */
+
+	if(requerido == 1 && $(obj).val()=="" && $(obj).attr('disabled')!= 'disabled'){
+		if(!$(obj).next('label').hasClass("errorD")){
+			$(obj).after('<label class="errorD">Campo requerido</label>');
+			errorTablasDinamicas.push($(obj).attr('id'));
+		}else{
+			$(obj).next('.errorD').show();
+		}
+	}else if(requerido !="" && valores.length>0 && $.inArray(parseInt($(obj).val()),valores)<0){
+		if(!$(obj).next('label').hasClass("errorD")){
+			$(obj).after('<label class="errorD">Valor no permitido</label>');
+			errorTablasDinamicas.push($(obj).attr('id'));
+		}else{
+			$(obj).next('.errorD').show();
+		}
+	}else{
+		errorTablasDinamicas.splice($.inArray(parseInt($(obj).val()), errorTablasDinamicas),1);
+		$(obj).next('.errorD').hide();
+	}
+}
+
+/*
+ * Activando desactivando ESPECIFIQUE
+ */
+
+$(document).on('change','.change',function(event){
+ 	var arrayEspecifique = [];
+	arrayEspecifique[1] = ['E1_108','E1_110_7','E1_111_8'];
+	arrayEspecifique[7] = ['E1_C_17_Res','E1_103','E1_106'];
+	arrayEspecifique[8] = ['E1_101','E1_104'];
+	arrayEspecifique[10] = ['E1_102'];
+	arrayEspecifique['d1'] = ['E1_C_Ec_Res','E1_C_Je_Res'];
+	if($.inArray($(this).attr('id'),arrayEspecifique[1])>=0){
+		if($(this).val()==1){$("#"+$(this).attr('id')+"_O").removeAttr('disabled');}else{$("#"+$(this).attr('id')+"_O").attr('disabled','disabled');} 
+	}
+	if($.inArray($(this).attr('id'),arrayEspecifique[7])>=0){
+		if($(this).val()==7){$("#"+$(this).attr('id')+"_O").removeAttr('disabled');}else{$("#"+$(this).attr('id')+"_O").attr('disabled','disabled');} 
+	}
+	if($.inArray($(this).attr('name'),arrayEspecifique['d1'])>=0){
+		var trPadre = $(this).closest('tr').attr('id');
+		var trId = trPadre.toString().split('-');
+		if($(this).val()=='7'){
+			$("#"+$(this).attr('name')+"_O_"+trId[1]).removeAttr('disabled'); $("#"+$(this).attr('name')+"_O_"+trId[1]).trigger('blur');
+		}else{
+			$("#"+$(this).attr('name')+"_O_"+trId[1]).attr('disabled','disabled'); $("#"+$(this).attr('name')+"_O_"+trId[1]).trigger('blur');
+		}
+	}
+});
+
 
 
 $(function () {
-
 
 	var PadVivienda = <?php echo (isset($PadVivienda)? json_encode($PadVivienda) : "''"); ?>;
 	if (PadVivienda.length>=1) {
@@ -328,9 +563,6 @@ $(function () {
 
 
 })
-
-
-
 
 
 </script>

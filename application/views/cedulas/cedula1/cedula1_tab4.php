@@ -1745,8 +1745,13 @@
 	</table>
 
 
-	<?php echo form_button('save4','Guardar','id="save4"'); ?>
-<?php echo form_close(); ?>
+<?php 
+	echo '<div class="row">
+			<div class="col-md-1"><a href="'.current_url().'" class="btn btn-info">Nuevo registro</a></div>
+			<div class="col-md-1 col-md-offset-10">'.form_button('save4','Guardar','id="save4" class="btn btn-info"').'</div>
+		 </div>'; 
+echo form_close();
+?>
 
 <script type="text/javascript">
     $("#save4").click(function () {
