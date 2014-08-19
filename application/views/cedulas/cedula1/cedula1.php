@@ -119,20 +119,20 @@
 
 			var rowTable300 = '<tr id="table300Row-'+k+'" name="table300Row-'+k+'">';
 			rowTable300 += '<td> '+k+' </td>';
-			rowTable300 += '<td> <input type="text" class="form-control" id="E1_301-'+k+'" value="" name="E1_301"> </td>';
+			rowTable300 += '<td> <input type="text" class="form-control change" id="E1_301-'+k+'" value="" name="E1_301"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_301_O-'+k+'" value="" name="E1_301_O"> (espc.) </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_302-'+k+'" value="" name="E1_302"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_302_Ano-'+k+'" value="" name="E1_302_Ano"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_302_Grado-'+k+'" value="" name="E1_302_Grado"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_303-'+k+'" value="" name="E1_303"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_304-'+k+'" value="" name="E1_304"> </td>';
-			rowTable300 += '<td> <input type="text" class="form-control" id="E1_305-'+k+'" value="" name="E1_305"> </td>';
+			rowTable300 += '<td> <input type="text" class="form-control change" id="E1_305-'+k+'" value="" name="E1_305"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_305_O-'+k+'" value="" name="E1_305_O"> (espc.) </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_306-'+k+'" value="" name="E1_306"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_307-'+k+'" value="" name="E1_307"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_307_Ano-'+k+'" value="" name="E1_307_Ano"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_307_Grado-'+k+'" value="" name="E1_307_Grado"> </td>';
-			rowTable300 += '<td> <input type="text" class="form-control" id="E1_308-'+k+'" value="" name="E1_308"> </td>';
+			rowTable300 += '<td> <input type="text" class="form-control change" id="E1_308-'+k+'" value="" name="E1_308"> </td>';
 			rowTable300 += '<td> <input type="text" class="form-control" id="E1_308_O-'+k+'" value="" name="E1_308_O"> (espc.) </td>';
 			rowTable300 += '</tr>';
 
@@ -149,13 +149,13 @@
 			rowTable400 += '<tr><td><input type="text" placeholder="P5" class="form-control" id="E1_403_5-'+k+'" value="" name="E1_403_5"></td><td><input type="text" placeholder="P6" class="form-control" id="E1_403_6-'+k+'" value="" name="E1_403_6"></td><td><input type="text" placeholder="P7" class="form-control" id="E1_403_7-'+k+'" value="" name="E1_403_7"></td><td><input type="text" placeholder="P8" class="form-control" id="E1_403_8-'+k+'" value="" name="E1_403_8"></td></tr>';
 			rowTable400 += '<tr><td><input type="text" placeholder="P9" class="form-control" id="E1_403_9-'+k+'" value="" name="E1_403_9"></td><td><input type="text" placeholder="P10" class="form-control" id="E1_403_10-'+k+'" value="" name="E1_403_10"></td><td><input type="text" placeholder="P11" class="form-control" id="E1_403_11-'+k+'" value="" name="E1_403_11"></td><td><input type="text" placeholder="P12" class="form-control" id="E1_403_12-'+k+'" value="" name="E1_403_12"></td></tr>';
 			rowTable400 += '<tr><td><input type="text" placeholder="P13" class="form-control" id="E1_403_13-'+k+'" value="" name="E1_403_13"></td><td><input type="text" placeholder="P14" class="form-control" id="E1_403_14-'+k+'" value="" name="E1_403_14"></td><td colspan="2"></td></tr>';
-			rowTable400 += '<tr><td><input type="text" placeholder="P15" class="form-control" id="E1_403_15-'+k+'" value="" name="E1_403_15"></td><td colspan="3"><input type="text" placeholder="Especifique" class="form-control" id="E1_403_15_O-'+k+'" value="" name="E1_403_15_O"></td></tr>';
+			rowTable400 += '<tr><td><input type="text" placeholder="P15" class="form-control change" id="E1_403_15-'+k+'" value="" name="E1_403_15"></td><td colspan="3"><input type="text" placeholder="Especifique" class="form-control" id="E1_403_15_O-'+k+'" value="" name="E1_403_15_O"></td></tr>';
 			rowTable400 += '<tr><td><input type="text" placeholder="P16" class="form-control" id="E1_403_16-'+k+'" value="" name="E1_403_16"></td><td colspan="3"></td></tr>';
 			rowTable400 += '</tbody></table></td>';
-			rowTable400 += '<td class="pad-td"><div class="col-md-5"><input type="text" class="form-control" id="E1_404-1" value="" name="E1_404"></div><div class="col-md-7"><input type="text" class="form-control" id="E1_404_O-1" value="" name="E1_404_O"></div></td>	';
+			rowTable400 += '<td class="pad-td"><div class="col-md-5"><input type="text" class="form-control change" id="E1_404-1" value="" name="E1_404"></div><div class="col-md-7"><input type="text" class="form-control" id="E1_404_O-1" value="" name="E1_404_O"></div></td>	';
 			rowTable400 += '<td class="sub-table"><table class="table"><tbody>';
 			rowTable400 += '<tr><td><input type="text" placeholder="P1" class="form-control" id="E1_405_1-'+k+'" value="" name="E1_405_1"></td><td><input type="text" placeholder="P2" class="form-control" id="E1_405_2-'+k+'" value="" name="E1_405_2"></td><td><input type="text" placeholder="P3" class="form-control" id="E1_405_3-'+k+'" value="" name="E1_405_3"></td><td><input type="text" placeholder="P4" class="form-control" id="E1_405_4-'+k+'" value="" name="E1_405_4"></td></tr>';
-			rowTable400 += '<tr><td><input type="text" placeholder="P5" class="form-control" id="E1_405_5-'+k+'" value="" name="E1_405_5"></td><td colspan="3"><input type="text" placeholder="Especifique" class="form-control" id="E1_405_5_O-'+k+'" value="" name="E1_405_5_O"></td></tr>';
+			rowTable400 += '<tr><td><input type="text" placeholder="P5" class="form-control change" id="E1_405_5-'+k+'" value="" name="E1_405_5"></td><td colspan="3"><input type="text" placeholder="Especifique" class="form-control change" id="E1_405_5_O-'+k+'" value="" name="E1_405_5_O"></td></tr>';
 			rowTable400 += '<tr><td><input type="text" placeholder="P6" class="form-control" id="E1_405_6-'+k+'" value="" name="E1_405_6"></td></tr>';
 			rowTable400 += '</tbody></table></td>';
 			rowTable400 += '<td><input type="text" maxlength="1" class="form-control" id="E1_406_A-'+k+'" value="" name="E1_406_A"></td>';

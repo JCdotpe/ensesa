@@ -97,7 +97,7 @@ $E1_200_Obs = array(
 $E1_301 = array(
 					'id' => 'E1_301-1', 
 					'name' => 'E1_301',
-					'class' => 'form-control'
+					'class' => 'form-control change'
 				);
 $E1_301_O = array(
 					'id' => 'E1_301_O-1', 

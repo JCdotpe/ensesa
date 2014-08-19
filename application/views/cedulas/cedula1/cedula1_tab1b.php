@@ -840,7 +840,7 @@ $E1_102_O = array(
 $E1_103 = array(
 					'id' => 'E1_103',
 					'name' => 'E1_103',
-					'class' => 'form-control ruleDig1-3 change' 
+					'class' => 'form-control ruleDig1-7 change' 
 				);
 
 $E1_103_O = array(
@@ -872,7 +872,7 @@ $E1_105 = array(
 $E1_106 = array(
 					'id' => 'E1_106',
 					'name' => 'E1_106',
-					'class' => 'form-control ruleDig1-6 change' 
+					'class' => 'form-control ruleDig1-7 change' 
 				);
 
 $E1_106_O = array(

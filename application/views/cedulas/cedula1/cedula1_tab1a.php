@@ -517,24 +517,39 @@ function validarValue(obj,valores,requerido){/* obj:input ; valores:array ; requ
 
 $(document).on('change','.change',function(event){
  	var arrayEspecifique = [];
-	arrayEspecifique[1] = ['E1_108','E1_110_7','E1_111_8'];
+	arrayEspecifique[1] = ['E1_108','E1_110_7','E1_111_8','E1_403_15','E1_405_5'];
+	arrayEspecifique[4] = ['E1_305'];
 	arrayEspecifique[7] = ['E1_C_17_Res','E1_103','E1_106'];
 	arrayEspecifique[8] = ['E1_101','E1_104'];
 	arrayEspecifique[10] = ['E1_102'];
+	arrayEspecifique[11] = ['E1_301'];
+	arrayEspecifique[17] = ['E1_404'];
+	arrayEspecifique[20] = ['E1_308'];
 	arrayEspecifique['d1'] = ['E1_C_Ec_Res','E1_C_Je_Res'];
-	if($.inArray($(this).attr('id'),arrayEspecifique[1])>=0){
-		if($(this).val()==1){$("#"+$(this).attr('id')+"_O").removeAttr('disabled');}else{$("#"+$(this).attr('id')+"_O").attr('disabled','disabled');} 
-	}
-	if($.inArray($(this).attr('id'),arrayEspecifique[7])>=0){
-		if($(this).val()==7){$("#"+$(this).attr('id')+"_O").removeAttr('disabled');}else{$("#"+$(this).attr('id')+"_O").attr('disabled','disabled');} 
-	}
-	if($.inArray($(this).attr('name'),arrayEspecifique['d1'])>=0){
-		var trPadre = $(this).closest('tr').attr('id');
-		var trId = trPadre.toString().split('-');
+	if($.inArray($(this).attr('id'),arrayEspecifique[1])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[1])>=0){
+		var espec = $(':input:eq(' + ($(':input').index(this) + 1) + ')');  if($(this).val()==1){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+		//var espec = $("#"+$(this).attr('id')+"_O"); if($(this).val()==1){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[4])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[4])>=0){
+		var espec = $(':input:eq(' + ($(':input').index(this) + 1) + ')');  if($(this).val()==4){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[7])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[7])>=0){
+		var espec = $("#"+$(this).attr('id')+"_O");  if($(this).val()==7){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[8])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[8])>=0){
+		var espec = $("#"+$(this).attr('id')+"_O");  if($(this).val()==8){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[10])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[10])>=0){
+		var espec = $("#"+$(this).attr('id')+"_O");  if($(this).val()==10){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[11])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[11])>=0){
+		var espec = $(':input:eq(' + ($(':input').index(this) + 1) + ')');  if($(this).val()==11){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[17])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[17])>=0){
+		var espec = $(':input:eq(' + ($(':input').index(this) + 1) + ')');  if($(this).val()==17){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('id'),arrayEspecifique[20])>=0 || $.inArray($(this).attr('name'),arrayEspecifique[20])>=0){
+		var espec = $(':input:eq(' + ($(':input').index(this) + 1) + ')');  if($(this).val()==20){espec.removeAttr('disabled');}else{espec.attr('disabled','disabled'); espec.val("");} 
+	}else if($.inArray($(this).attr('name'),arrayEspecifique['d1'])>=0){
+		var trPadre = $(this).closest('tr').attr('id'); var trId = trPadre.toString().split('-');
+		var espec = $("#"+$(this).attr('name')+"_O_"+trId[1]);
 		if($(this).val()=='7'){
-			$("#"+$(this).attr('name')+"_O_"+trId[1]).removeAttr('disabled'); $("#"+$(this).attr('name')+"_O_"+trId[1]).trigger('blur');
+			espec.removeAttr('disabled'); espec.trigger('blur');
 		}else{
-			$("#"+$(this).attr('name')+"_O_"+trId[1]).attr('disabled','disabled'); $("#"+$(this).attr('name')+"_O_"+trId[1]).trigger('blur');
+			espec.attr('disabled','disabled'); espec.trigger('blur');
 		}
 	}
 });
